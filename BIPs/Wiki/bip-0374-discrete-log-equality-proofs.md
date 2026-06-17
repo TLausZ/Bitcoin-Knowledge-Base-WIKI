@@ -1,0 +1,24 @@
+# BIP-0374: Discrete Log Equality Proofs
+
+**Status:** emerging
+**Last updated:** 2026-06-08
+**Sources:** [[bip-0374]]
+
+Layer: Applications · Typ: Specification · Status: Draft · Datum: 2024-12-26
+**Autoren:** Andrew Toth <andrewstoth@gmail.com>, Ruben Somsen <rsomsen@gmail.com>, Sebastian Falbesoner <seba...
+
+## Summary
+
+This document proposes a standard for 64-byte zero-knowledge discrete logarithm equality proofs (DLEQ proofs) over an elliptic curve. For given elliptic curve points A, B, C, G, and a scalar a known only to the prover where A = a⋅G and C = a⋅B, the prover proves knowledge of a without revealing anything about a. This can, for instance, be useful in ECDH: if A and B are ECDH public keys, and C is their ECDH shared secret computed as C = a⋅B, the proof establishes that the same secret key a is used for generating both A and C without revealing a.
+
+## Body
+
+### Zweck
+
+BIP-0374 ist ein Specification-BIP für die Schicht Applications. Es wurde am 2024-12-26 eingereicht und hat den Status **Draft**.
+
+Vollständige Spezifikation: [https://github.com/bitcoin/bips/blob/master/bip-0374.mediawiki](https://github.com/bitcoin/bips/blob/master/bip-0374.mediawiki)
+
+## Open Questions
+
+- Wie verhält sich dieser BIP zu den nachfolgenden oder verwandten Vorschlägen?

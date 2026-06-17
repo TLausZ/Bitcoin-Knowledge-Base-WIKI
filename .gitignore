@@ -1,0 +1,17 @@
+# System-Dateien (Claude Librarian)
+CLAUDE.md
+CHANGELOG.md
+RAW/
+Outputs/
+**/_INGESTED.md
+BIPs/CLAUDE.md
+BIPs/CHANGELOG.md
+BIPs/RAW/
+BIPs/Outputs/
+
+# Obsidian
+.obsidian/
+
+# macOS
+.DS_Store
+**/.DS_Store
