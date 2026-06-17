@@ -1,3 +1,19 @@
+```
+██████╗ ██╗████████╗ ██████╗ ██████╗ ██╗███╗   ██╗
+██╔══██╗██║╚══██╔══╝██╔════╝██╔═══██╗██║████╗  ██║
+██████╔╝██║   ██║   ██║     ██║   ██║██║██╔██╗ ██║
+██╔══██╗██║   ██║   ██║     ██║   ██║██║██║╚██╗██║
+██████╔╝██║   ██║   ╚██████╗╚██████╔╝██║██║ ╚████║
+╚═════╝ ╚═╝   ╚═╝    ╚═════╝ ╚═════╝ ╚═╝╚═╝  ╚═══╝
+
+██╗    ██╗         ██╗        ██╗  ██╗         ██╗
+██║    ██║         ██║        ██║ ██╔╝         ██║
+██║ █╗ ██║         ██║        █████╔╝          ██║
+██║███╗██║         ██║        ██╔═██╗          ██║
+╚███╔███╔╝         ██║        ██║  ██╗         ██║
+ ╚══╝╚══╝          ╚═╝        ╚═╝  ╚═╝         ╚═╝
+```
+
 # Bitcoin Knowledge Base
 
 A personal second brain for Bitcoin — compiled wiki articles and BIP summaries, built on the [Karpathy LLM knowledge base pattern](https://youtu.be/ib74sLgjIBM).
@@ -27,3 +43,7 @@ Claude acts as librarian: ingesting sources from `RAW/`, distilling them into li
 ---
 
 *Work in progress. Articles are added as new sources are ingested.*
+
+---
+
+Built with [Claude Code](https://github.com/anthropics/claude-code)
