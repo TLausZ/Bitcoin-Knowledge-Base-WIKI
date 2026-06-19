@@ -1,20 +1,32 @@
 # Bitcoin KB — Wiki Index
 
-Alle Artikel alphabetisch. Stand: 2026-06-17 (nach Compile Pass 21)
+Alle Artikel alphabetisch. Stand: 2026-06-20 (nach Compile Pass 29)
 
 | Artikel | Status | Beschreibung |
 |---------|--------|-------------|
 | [[airgap-und-kommunikationskanaele]] | established | Airgap = Kommunikationskanal-Wahl, kein Sicherheitsvorteil; alle 11 bekannten HW-Wallet-Exploits 2020-2021 wären durch Airgap nicht verhindert worden; "keine Kommunikation" hat echten Wert, "air-gapped communication" nicht |
 | [[anti-klepto-und-supply-chain-sicherheit]] | established | Anti-Klepto (Nonce-Schutz gegen Seed-Extraktion); Dark Skippy (2 Signaturen = 12 Wörter); Supply-Chain-Attestation (Challenge-Response); Evil-Maid-Angriff; RAM-Seed-Verschlüsselung |
+| [[biometrie-und-finanzueberwachung]] | established | Biometrische Bankdaten: echte vs. behauptete Motive (Betrug vs. Kundenbindung/Überwachung); behavioral Biometrics überlegen; Vietnam/China/Indien/EU-Parallelen; Chilling Effect auf Grundrechte; Bitcoin als identitätsfreie Alternative |
 | [[bitcoin-fehlannahmen]] | established | 10 häufige Missverständnisse widerlegt: kein Nutzen, zu langsam, kein innerer Wert, Nullsumme, Verbots-Risiko, zu spät, Umwelt, Quantencomputer, Altcoins, Skalierung |
+| [[bitcoin-powerlaw-und-preismodelle]] | established | Mechanistische Herleitung des Bitcoin Power Law (β=5.69): kubisches Adoptionswachstum (βA=3.046) × Metcalfe-Skalierung (βM=1.838); R²=0.961 über 5.696 Datenpunkte; falsifizierbar |
+| [[blocksize-war]] | established | Der Blocksize-Krieg 2015–2017: Big-Blocker vs. Small-Blocker; Bitcoin XT → Classic → Unlimited → BTC1/SegWit2x; UASF, NYA, BIP 91; SegWit-Aktivierung Aug 2017; Bitcoin Cash; Small-Blocker-Sieg Nov 2017 |
+| [[bitcoin-mining-umwelt]] | established | Bitcoin Mining und Umwelt: 87,5% peer-reviewed Papers positiv; 4 Mechanismen (Demand Response, Curtailment, Methan, Abwärme); Texas $18Mrd. Einsparung; Finnland District Heating; Cambridge 2025: 52,4% nachhaltige Energie; Wandel von 2021→2025 |
 | [[bitcoin-kaufen-und-dca]] | established | Kaufwege (P2P: Hodl Hodl/Bisq/Peach; ATM; OTC); DCA; Direktkauf in Hardware-Wallet (Pocket Bitcoin, Relai); KYC-light; Timing-Paradox; Anfängerfehler |
 | [[bitcoin-versicherung]] | emerging | Bitsurance: erste Versicherung für selbst verwahrte Bitcoin; Schutz gegen physische Risiken (Raub, Feuer, Erpressung, Naturkatastrophen); kein Custody-Risiko |
 | [[bitcoin-rechtliche-angriffe]] | established | Rechtsstreit als Angriff auf Bitcoin; Craig Wright vs. Hodlonaut (Norwegen, Sieg Oktober 2022); OpenSats Legal Defense Fund; Shift Crypto Spende $10k |
+| [[fortego-backup-sicherheit]] | established | Double Responsibility Problem (Verlust vs. Diebstahl); Fortego CodeBook-Trennung; absolute Seed-Phrase-Regel; Sicherheitsarchitektur (Protokollierung, Verschlüsselung, Geo-Backup); Vergleich Backup-Ansätze |
 | [[firmware-verifikation-und-reproduzierbarkeit]] | established | Reproduzierbare Builds: selber Code → selbe Binärdatei; Docker-Kompilierung; Hash-Vergleich; Community-Bestätigungen |
 | [[bitcoin-whitepaper]] | established | Satoshi Nakamotos Original-Whitepaper: Double-Spend-Problem, PoW, UTXO-Modell, SPV, Incentive-Mechanismus |
+| [[satoshi-ankuendigung-2009]] | established | Satoshi auf P2P Foundation (2009-02-11): erste öffentliche Ankündigung; "crypto proof instead of trust"; "distributed timestamp server"; Wei Dai kommentiert; Verbindung zur Cypherpunk-Tradition |
 | [[bip-329-wallet-labels]] | emerging | BIP-329 Standard für portierbare Wallet-Labels zwischen verschiedenen Softwares |
 | [[bip-85-child-keys]] | emerging | Aus einem Backup mehrere unabhängige Wallets ableiten — Hot Wallets, Geschenke, Passwörter |
 | [[bitcoin-adresstypen]] | established | Legacy P2PKH (1...), P2SH (3...), Native SegWit P2WPKH (bc1q, ~38% günstiger, Standard), Taproot P2TR (bc1p); alle interoperabel; ein Seed für alle Typen |
+| [[bitcoin-blockchain-struktur]] | established | Blockchain als geteilte Datei aller Transaktionen; Block-Header (Version, Previous Block, Merkle Root, Time, Target, Nonce); Sicherheit durch Hash-Verkettung; Kandidatenblock; lokale Speicherpfade und blk*.dat-Format |
+| [[bitcoin-netzwerk-und-nodes]] | established | P2P-Netzwerk aus Nodes; drei Jobs (Regeln, Weitergabe, Blockchain speichern); Mempool; offen für alle; Dezentralisierung als Kernmerkmal; eigener Node = kein Vertrauen nötig |
+| [[bitcoin-datenformate]] | established | Hexadezimal, Bytes, Little-Endian, Natural vs. Reverse Byte Order (TXIDs/Block-Hashes), CompactSize |
+| [[bitcoin-script-und-output-locks]] | established | Stack-Sprache; alle 10 Standard-Script-Typen: P2PK, P2PKH, P2MS, P2SH, OP_RETURN, P2WPKH, P2WSH, P2TR, P2SH-P2WPKH, P2SH-P2WSH; Script-Limits |
+| [[elliptische-kurven-kryptographie]] | established | secp256k1 (y²=x³+7); EC-Mathematik (Double/Add/Multiply); ECDSA (Sign/Verify, DER, Nonce-Sicherheit); Schnorr-Signaturen (BIP 340, x-only Keys, Tagged Hashes, Batch-Verify); SHA-256/RIPEMD-160 Hash-Funktionen |
+| [[bitcoin-transaktionsstruktur]] | established | Transaktion = Inputs + Outputs + Unlocking Code; Output-System (keine Konten, sondern Geldscheine); Wechselgeld-Output; Coinbase-Transaktion; implizite Gebühr; Mempool → Block |
 | [[bitcoin-covenants]] | emerging | CTV und CheckTXHashVerify: Ausgabebedingungen, die auch Zieladressen einschränken; Anwendungen: Vaults, Congestion-Control, Kanal-Fabriken |
 | [[bitcoin-geldpolitik-und-21-millionen-limit]] | established | Wie das 21-Mio-Limit durch Code und dezentrale Nodes durchgesetzt wird |
 | [[bitcoin-mining-und-proof-of-work]] | established | Mining als Würfelspiel mit SHA-256-Hashfunktionen; Proof of Work als Sicherheitsmechanismus |
@@ -26,6 +38,7 @@ Alle Artikel alphabetisch. Stand: 2026-06-17 (nach Compile Pass 21)
 | [[kryptoanarchismus-und-cypherpunks]] | established | Cypherpunk-Bewegung 1986–2022: Hacker-Ethik, Timothy Mays Kryptoanarchismus, Barlow-Deklaration, PGP, Krypto-Kriege; direkte Vorgeschichte von Bitcoin |
 | [[hacker-ethik]] | emerging | Loyd Blankenship "The Conscience of a Hacker" (1986): Neugier als Triebkraft; Unterförderung durch Schulsystem; klassenlose Online-Gemeinschaften; Phrack-Magazin |
 | [[pgp-und-verschluesselungspolitik]] | established | Philip Zimmermann / PGP (1991): Warum PGP geschrieben wurde; Clipper Chip; CALEA; erster und zweiter Krypto-Krieg; Verschlüsselung als politisches Grundrecht |
+| [[digitale-signaturen-ecdsa]] | established | ECDSA-Grundprinzip; r (Zufallspunkt auf elliptischer Kurve) + s (Private Key + Transaktions-Hash); Bindung an Transaktionsdaten verhindert Replay; Verifikation ohne Private Key; Einmaligkeit von k; Schnorr als Nachfolger |
 | [[digitales-bargeld-und-ecash]] | established | Chaums eCash (1989), Hal Finneys Analyse (1994), Wei Dais b-money (1998), Van Valkenburghs "geheimes Recht auf Bargeld" (2017); digitales Bargeld vor Bitcoin; dezentrales Geld als Lösung |
 | [[digitales-zeitstempel]] | established | Haber & Stornetta (1991): Hash-verkettete Dokumente; Bayer/Haber/Stornetta (1992): Merkle-Bäume für Timestamping; Massias et al.: minimales Vertrauen; direkte strukturelle Vorstufe der Bitcoin-Blockchain; Satoshi zitiert Haber & Stornetta 3× im Whitepaper |
 | [[bitcoin-vererbung]] | emerging | Praktische Vererbungsplanung für Bitcoin: Dokumentation für Erben, 2-von-3-Multisig, Liana-Wallet-Timer, Testament und Notar; Marc Steiner (2020) |
@@ -47,6 +60,7 @@ Alle Artikel alphabetisch. Stand: 2026-06-17 (nach Compile Pass 21)
 | [[electrum-wallet]] | established | Electrum: Setup mit BitBox02, Server-Wahl (eigener EPS empfohlen), Adressformate, Ableitungspfade, Coin Control, RBF, Pay-to-many, Watch-only, Tor-Integration |
 | [[eu-regulierung-selbstverwahrung]] | established | EU-AML schließt Non-Custodial-Wallets ausdrücklich aus; Selbstverwahrung technisch uneinschränkbar |
 | [[hd-wallets-und-schluesselableitung]] | established | BIP32/BIP39: Seed → Ableitungspfad (m/49'/0'/0'/0/n) → privater Schlüssel → öffentlicher Schlüssel → Adresse; nur Seed sichern nötig |
+| [[kryptografische-schlussel-und-adressen]] | established | Private Key (256-Bit-Zufallszahl, 2^256 mögliche Werte), Public Key (elliptische Kurven-Multiplikation, Trapdoor-Funktion, compressed Format), Adresse (Hash des Public Keys, Base58Check); Einwegkette; Verlust = permanent |
 | [[hardware-wallet-angriffsvektoren]] | established | 5 Angriffe via Host-Gerät: Change-Output, Passphrase-Relay, Cosigner-Manipulation, überhöhte Gebühr, Isolations-Bypass |
 | [[hardware-wallet-einstieg]] | established | Warum Hardware-Wallet: 4 Optionen (Börse, Software-Wallet, HW-Wallet, Air-Gap); "not your keys, not your coins"; Paper Wallets unsicher; empfohlene Kombination |
 | [[hardware-wallet-migration]] | established | Migration Ledger/Trezor→BitBox02; SLIP-39 (20 Wörter) ≠ BIP-39; zwei Migrationswege; Passphrase-Übertragung |
@@ -70,6 +84,7 @@ Alle Artikel alphabetisch. Stand: 2026-06-17 (nach Compile Pass 21)
 | [[shamir-secret-sharing]] | established | k-of-n Geheimnis-Aufteilung via Polynom-Mathematik; warum 1 Share nichts verrät; Unterschied zu Multisig; FROST als Weiterentwicklung ohne Rekonstruktions-Risiko; SLIP-39 als Bitcoin-Anwendung |
 | [[hashcash]] | established | Adam Back (1997/2002): CPU-Kostenfunktion / Proof-of-Work gegen Spam; SHA-1-Hash mit führenden Nullbits; asymmetrisch: Finden teuer, Verifizieren trivial; direkte technische Vorstufe von Bitcoin-Mining; im Whitepaper zitiert |
 | [[merkle-baeume]] | established | Merkle (1980) + Bayer/Haber/Stornetta (1992): Baumstruktur aus Hashes; Root repräsentiert alle Blätter kryptografisch; Bitcoin Transaction Merkle Tree; SPV-Beweis mit log(n) Hashes; Grundlage für Taproot/MAST |
+| [[mining-schwierigkeit]] | established | Difficulty passt sich alle 2016 Blöcke an (Formel: erwartet/tatsächlich × aktuelle Difficulty); max Faktor ×4 pro Periode; Target = MaxTarget / Difficulty; Ziel: 10-Minuten-Blockzeit; Hex-Darstellung; bitcoin-cli getdifficulty |
 | [[szabo-geldursprung]] | established | Nick Szabo "Shelling Out" (2002): Evolutionäre Ursprünge des Geldes — Collectibles vor 75.000 Jahren; 6 Geldattribute; Kooperationsprobleme die Geld löst; Bitcoin als digitale Realisierung; "Advances in Distributed Security" (2003): Byzantine Generals, Threshold-Systeme |
 | [[soft-fork-und-hard-fork]] | established | Hard Fork (Regeln entfernen) vs. Soft Fork (Regeln hinzufügen); Kompatibilität und Chainsplits |
 | [[sparrow-wallet]] | established | Sparrow Wallet: UTXO-Transparenz, Coin Selection, Pay-to-many, Multisig; "cold-storage sweating"; Server-Wahl (Public/Bitcoin Core/Electrum/BitBox-Server) |
@@ -78,4 +93,6 @@ Alle Artikel alphabetisch. Stand: 2026-06-17 (nach Compile Pass 21)
 | [[utxo-modell-und-konsolidierung]] | established | UTXO-Modell erklärt; Gebührenberechnung; UTXO-Konsolidierung in Niedriggebühren-Phasen |
 | [[wallet-backup-strategien]] | established | HD-Wallet-Mechanismus (einmal = dauerhaft); 5 häufige Fehler; 4 Sicherungsmethoden (Passphrase, 2-von-3, Multisig); Steelwallet; Vererbungsplanung |
 
-*75 Artikel, basierend auf 209 RAW-Quellen.*
+| [[wie-funktioniert-bitcoin]] | established | Bitcoin als Programm + Netzwerk; Double-Spend-Problem; Blockchain als geteiltes Kassenbuch; Mining-Sicherheit; Longest-Chain-Regel; UTXOs; kryptografische Schlüssel — Gesamtüberblick für Einsteiger |
+
+*86 Artikel, basierend auf 229 RAW-Quellen.*

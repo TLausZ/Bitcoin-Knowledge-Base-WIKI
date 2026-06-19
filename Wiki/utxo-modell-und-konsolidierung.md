@@ -1,8 +1,8 @@
 # UTXO-Modell und UTXO-Konsolidierung
 
 **Status:** established
-**Last updated:** 2026-06-06
-**Sources:** [[20231207_utxo-konsolidierung-bitcoin-gebühren-senken]], [[20210804_was-ist-eigentlich-eine-utxo-de]]
+**Last updated:** 2026-06-19
+**Sources:** [[20231207_utxo-konsolidierung-bitcoin-gebühren-senken]], [[20210804_was-ist-eigentlich-eine-utxo-de]], [[learnmeabitcoin-beginners-guide-outputs]], [[learnmeabitcoin-beginners-guide-transactions]]
 
 ## Summary
 

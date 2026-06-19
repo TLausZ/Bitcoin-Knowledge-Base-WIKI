@@ -1,8 +1,8 @@
 # Segregated Witness (SegWit)
 
 **Status:** established
-**Last updated:** 2026-06-05
-**Sources:** [[20151221_bip-0141]]
+**Last updated:** 2026-06-20
+**Sources:** [[20151221_bip-0141]], [[learnmeabitcoin-beginners-guide-segwit]], [[learnmeabitcoin-technical-upgrades-segregated-witness]], [[blocksizewar]]
 
 ## Summary
 
@@ -40,9 +40,17 @@ Witness-Daten werden effektiv mit einem Discount von 75% gewertet (1 Weight Unit
 
 Die Malleability-Lösung war die fehlende Voraussetzung für zuverlässige Payment Channels. Lightning Network nutzt unbestätigte Transaktionsketten, die jetzt vertrauensfrei funktionieren: Alice und Bob können eine Spending-Transaction signieren, bevor die Funding-Transaction on-chain ist, ohne dass Bob die Funding-Transaction durch Malleability invalidieren kann.
 
+### Aktivierung
+
+SegWit wurde durch Miner-Signaling aktiviert: 95% der Blöcke in einem 2016-Block-Fenster mussten Bereitschaft signalisieren. Dieser Schwellenwert wurde im Fenster 477.792–479.807 erreicht (100% Signaling). SegWit aktivierte bei Block **481.824** am 24. August 2017, 01:57:37 UTC.
+
+Dass Miner (nicht Nutzer oder Entwickler) die Entscheidung treffen, liegt an der Netzwerkdynamik: Bei einem Soft Fork müssen Miner die neuen Blöcke produzieren. 95% Signaling stellt sicher, dass die neue Chain die alte überholt, bevor irgendjemand auf einen veralteten Fork weiterbaut.
+
 ### Backward Compatibility
 
 Als Soft Fork betrachten Non-Upgraded-Nodes alle Witness-Programme als "anyone-can-spend" — technisch gültig, aber gefährlich, weshalb ein Upgrade stark empfohlen wird. Nicht-upgegradete Wallets können Bitcoin von SegWit-Adressen empfangen und über P2SH-Adressen senden, aber keine Native-SegWit-Adressen validieren.
+
+SegWit-Nodes streifen für nicht-upgegradete Nachbar-Nodes die Witness-Daten aus Transaktionen — diese sehen eine "abgespeckte" Version ohne Signaturen, bleiben aber synchron.
 
 ## Related
 
@@ -51,6 +59,7 @@ Als Soft Fork betrachten Non-Upgraded-Nodes alle Witness-Programme als "anyone-c
 - [[taproot-musig2-frost]]
 - [[bitcoin-whitepaper]]
 - [[konsensregeln-und-mempool-richtlinien]]
+- [[blocksize-war]]
 
 ## Open Questions
 

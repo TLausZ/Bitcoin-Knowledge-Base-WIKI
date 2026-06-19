@@ -1,8 +1,8 @@
 # Nunchuk Wallet
 
 **Status:** established
-**Last updated:** 2026-06-09
-**Sources:** [[2026-06-09_nunchuk-faq]], [[The Definitive Guide to Bitcoin Inheritance (2026)]], [[Recover a Miniscript wallet with Bitcoin Core (2026)]], [[Recover a Nunchuk Wallet with Sparrow (2026)]]
+**Last updated:** 2026-06-20
+**Sources:** [[2026-06-09_nunchuk-faq]], [[The Definitive Guide to Bitcoin Inheritance (2026)]], [[Recover a Miniscript wallet with Bitcoin Core (2026)]], [[Recover a Nunchuk Wallet with Sparrow (2026)]], [[nunchuckFAQ-general]], [[nunchuck FAQ Wallet]], [[Nunchuk wallet FAQ inheritence]], [[Nunchuk wallet FAQ subscription]]
 
 ## Summary
 
@@ -74,9 +74,33 @@ Nunchuk löst das mit zwei Protokollen:
 
 Beides funktioniert unabhängig von Nunchuk-Servern.
 
-### Hardware-Wallet-Unterstützung
+### Hardware-Wallet-Unterstützung und Pläne
 
-Nunchuk unterstützt gängige Hardware Wallets für Multisig-Setups. Neue Gerätetypen werden nach Qualitätsprüfung ergänzt. Iron Hand ist als einzelne Wallet solid, für generationelles Vermögen empfiehlt Nunchuk Honey Badger (höhere Sicherheitskonfiguration + Inheritance).
+Nunchuk unterstützt Tapsigner, Coldcard, Blockstream Jade, Trezor, Ledger und andere. Neue Geräte kommen nach Qualitätsprüfung hinzu.
+
+Anforderungen je nach Protokoll:
+- **On-Chain (Autonomous)**: Alle Schlüssel müssen Miniscript-kompatibel sein; der Inheritance Key braucht BIP39-Seed-Support (Coldcard, Jade, Ledger)
+- **Off-Chain (Flexible)**: Inheritance Key muss verschlüsseltes Backup unterstützen (Tapsigner, Coldcard)
+
+**Iron Hand vs. Honey Badger**: Iron Hand bietet solide Multisig-Sicherheit. Für generationelles Vermögen empfiehlt Nunchuk Honey Badger — wegen höherer Quorum-Konfiguration (2-of-4) und dem autonomen Inheritance-Protokoll. Iron Hand hat kein Inheritance-Feature.
+
+**Telefon verloren**: Bei Assisted-Plänen liegt kein Hot Key auf dem Gerät. Login auf neuem Smartphone genügt — keine Seed-Migration nötig.
+
+### Vergleich mit Unchained und Casa
+
+Nunchuk hat zwei wesentliche Alleinstellungsmerkmale:
+
+**Zero KYC**: Weder Unchained (KYC obligatorisch) noch Casa (KYC unter bestimmten Bedingungen) bieten bedingungslos KYC-freie Inheritance-Pläne. Nunchuk arbeitet ausschliesslich mit kryptografischen Geheimnissen, nicht mit Identitätsnachweisen (Sterbeurkunden, Ausweisen).
+
+**Autonomes On-Chain-Protokoll (Failsafe)**: Nunchuk ist der erste Anbieter, der Vererbung direkt durch das Bitcoin-Netzwerk via Miniscript absichert — ohne Abhängigkeit von Nunchuk als Unternehmen. Unchained und Casa setzen auf ihre eigene Weiterexistenz oder manuelle Prüfprozesse.
+
+### Quantum-Resistenz
+
+Nunchuk nutzt Native Segwit Multisig + Miniscript. Public Keys werden gehashed und bleiben bis zur Ausgabe unsichtbar. Solange Adressen nicht wiederverwendet werden, hätte ein Angreifer nur das kurze Zeitfenster zwischen Broadcast und Bestätigung, um gleichzeitig mehrere Private Keys zu knacken — praktisch nicht realisierbar. Nunchuk wird neue kryptografische Standards integrieren, sobald das Bitcoin-Netzwerk sie adoptiert.
+
+### Protokollwechsel
+
+Ein Wechsel zwischen On-Chain und Off-Chain ist möglich, erfordert aber eine neue Assisted Wallet und Fund-Migration mit Network-Gebühren. Nunchuk bietet dafür einen semi-automatisierten Workflow in der App.
 
 ## Related
 

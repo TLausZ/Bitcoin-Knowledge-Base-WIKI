@@ -1,0 +1,73 @@
+# Biometrie und Finanzüberwachung
+
+**Status:** established
+**Last updated:** 2026-06-19
+**Sources:** [[Banking on Biometrics_ Is Fraud Prevention the Real Goal_]]
+
+## Summary
+
+Banken und Regierungen treiben die Erfassung biometrischer Daten (Gesichtserkennung, Fingerabdrücke) mit dem Argument der Betrugsprävention voran — doch die Evidenz zeigt, dass behavioral Biometrics und KI-Analytics wirksamer wären. Die echten Motive sind vermutlich Kundenbindung, Datenmonetarisierung und der Aufbau von Überwachungsinfrastruktur. Biometrische Daten sind, anders als Passwörter, unwiderruflich: Ein Hack bedeutet lebenslange Anfälligkeit. Bitcoin und Self-Custody bieten eine Alternative, die ohne biometrische Identifikation auskommt.
+
+## Body
+
+### Das Betrugsschutz-Argument und seine Grenzen
+
+Physische Biometrie (Gesichtserkennung, Fingerabdrücke) reduziert Account-Takeover-Betrug um 85–89% gegenüber traditionellen Methoden — das ist ein echter Vorteil. Aber:
+
+- **Deepfake-Anfälligkeit:** 63% der Organisationen erlebten 2024 Business Email Compromise-Angriffe, die biometrische Checks via KI-generierte Fakes umgehen
+- **Irreversibilität:** Biometrische Daten können nicht wie ein Passwort zurückgesetzt werden. Der Chase-Datenbreach (2024) legte 451.000 Personendaten offen — dauerhaft
+- **Überlegene Alternative:** Behavioral Biometrics (Tippmuster, Mausbewegungen, Navigation) analysiert über 3.000 Verhaltenssignale, reduziert Falschpositiv-Rate um 90% und verbessert Betrugserkennung um 70% — ohne physische Datenerfassung
+
+Das Paradoxon: Die Banken wählen die schwächere Technologie für Betrugsschutz und sammeln dabei mehr invasive Daten.
+
+### Die wahren Motive
+
+**Kundenbindung:** Biometrische Daten schaffen hohe Wechselkosten. Wer Fingerabdruck und Gesicht bei Bank A hinterlegt hat, wechselt weniger leicht zu Bank B.
+
+**Datenmonetarisierung:** Biometrische Profile reichern Kundendaten für gezieltes Marketing an. Der California Consumer Privacy Act (CCPA) klassifiziert Biometrie explizit als "sensitive personal information" mit Opt-out-Recht — ein Hinweis auf ihren kommerziellen Wert.
+
+**Regulatorische Compliance:** Banken implementieren Biometrie teils, weil Regulierungsbehörden "enhanced security measures" fordern — nicht weil es die beste Lösung ist.
+
+### Globale Überwachungsinfrastruktur
+
+Die Einführung biometrischer Bankdaten in mehreren Ländern gleichzeitig folgt einem Muster:
+
+- **Vietnam (September 2025):** Zentralbank friert 86 Millionen Konten ohne Biometrie ein — offiziell Betrugsschutz
+- **China:** Social Credit System verknüpft Finanzdaten mit biometrischen Profilen zu Bürgerbewertungen
+- **Indien:** Aadhaar-Programm — 1,3 Milliarden biometrisch erfasste Bürger, direkt mit Bankkonten verknüpft
+- **EU:** Digital Identity Framework plant biometrische Authentifizierung in digitalen Wallets
+- **USA:** Patriot Act und Bank Secrecy Act verlangen "enhanced security measures", die zunehmend Biometrie einschließen
+
+Der gemeinsame Nenner: Infrastruktur, die staatliche Überwachung unter dem Deckmantel von Sicherheit und Bequemlichkeit ermöglicht.
+
+### Das Freiheitsargument
+
+Biometrische Überwachung hat nachweislich einen Chilling Effect auf demokratische Grundrechte:
+
+- Gesichtserkennung bei Protesten macht Menschen weniger bereit, an legalen Demonstrationen teilzunehmen (ACLU-Studien)
+- Meta erhob facial geometry-Daten ohne explizite Einwilligung → Texas-Settlement 2024
+- Einmal kompromittierte Biometrie hinterlässt Betroffene lebenslang anfällig
+
+### Bitcoin als Alternative
+
+Bitcoin ermöglicht Zahlungen und Wertaufbewahrung ohne biometrische Identifikation:
+
+- Kein KYC erforderlich für Self-Custody
+- Transaktionen zwischen Wallets brauchen keine Identitätsprüfung
+- Private Keys ersetzen institutionelle Identitätsverifikation durch kryptografischen Beweis
+
+Das ist dieselbe Logik, die Satoshi 2009 formulierte: "Crypto proof instead of trust."
+
+## Related
+
+- [[opsec-und-privatsphäre]]
+- [[selbstverwahrung-und-boersenrisiken]]
+- [[eu-regulierung-selbstverwahrung]]
+- [[satoshi-ankuendigung-2009]]
+- [[cypherpunk-manifest]]
+
+## Open Questions
+
+- Werden biometrische Bankdaten in der EU durch die DSGVO ausreichend geschützt, oder ist der Schutz illusorisch?
+- Gibt es reale Fälle, wo biometrische Bankdaten für politische Repression eingesetzt wurden?
+- Wie entwickeln sich behavioral Biometrics als datenschutzfreundliche Alternative weiter?

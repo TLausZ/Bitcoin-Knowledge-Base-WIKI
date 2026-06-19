@@ -1,58 +1,85 @@
 # Bitcoin Whitepaper
 
 **Status:** established
-**Last updated:** 2026-06-05
+**Last updated:** 2026-06-19
 **Sources:** [[20081031_bitcoin-whitepaper]]
 
 ## Summary
 
-Satoshi Nakamotos neun Seiten von Oktober 2008 definierten ein elektronisches Peer-to-Peer-Zahlungssystem ohne vertrauenswürdige Drittpartei. Das Kernproblem — Double-Spending ohne zentrale Autorität zu verhindern — löst Nakamoto mit einem dezentralen Timestamp-Server, der Transaktionen durch Proof-of-Work in einer unveränderlichen Kette verankert. Das Whitepaper beschreibt UTXO-basierte Transaktionen, den Incentive-Mechanismus für Miner, Simplified Payment Verification (SPV) und ein pseudonymes Privatsphäre-Modell.
+Satoshi Nakamotos neun Seiten vom 31. Oktober 2008 definierten ein elektronisches Peer-to-Peer-Zahlungssystem ohne vertrauenswürdige Drittpartei. Das Kernproblem — Double-Spending ohne zentrale Autorität zu verhindern — löst Nakamoto mit einem dezentralen Timestamp-Server, der Transaktionen durch Proof-of-Work in einer unveränderlichen Kette verankert. Das Whitepaper hat 12 Abschnitte und beschreibt präzise: UTXO-basierte Transaktionen, den Merkle-Tree-basierten Disk-Space-Mechanismus, den Incentive-Mechanismus für Miner, Simplified Payment Verification (SPV) und ein pseudonymes Privatsphäre-Modell. Kein Dokument der Computergeschichte hat mit so wenig Text so viel ausgelöst.
 
 ## Body
 
-### Das Problem: Double-Spending ohne Trusted Third Party
+### Kontext: Oktober 2008
 
-Online-Zahlungen erforderten bislang Finanzinstitute als Vermittler. Das schafft Rückbuchungsrisiken, Transaktionskosten und Abhängigkeiten. Das Kernproblem der digitalen Währung ist Double-Spending: Eine digitale Münze kann theoretisch kopiert und zweimal ausgegeben werden. Der traditionelle Lösungsweg — eine zentrale Mint, die jede Transaktion prüft — überträgt das Schicksal des gesamten Geldsystems auf eine einzige Instanz.
+Das Whitepaper erschien am 31. Oktober 2008 auf der Cryptography Mailing List — sechs Wochen nach dem Zusammenbruch von Lehman Brothers, mitten in der schlimmsten Finanzkrise seit 1929. Das Timing war kein Zufall. Die erste Reaktion auf der Mailingliste war überwiegend skeptisch: Skalierungsprobleme, energiebedarf, das Prisoner's Dilemma bei Miner-Anreizen. Satoshi Nakamoto — ein Pseudonym, das keine reale Identität kannte — antwortete geduldig auf Einwände. Am 3. Januar 2009 wurde der Genesis Block gemined.
 
-### Die Lösung: Dezentraler Timestamp-Server
+Die Coinbase-Transaktion des Genesis Blocks enthielt: *"The Times 03/Jan/2009 Chancellor on brink of second bailout for banks"* — ein Timestamp und politisches Statement in einem.
 
-Nakamoto schlägt einen Peer-to-Peer-Timestamp-Server vor. Transaktionen werden öffentlich verbreitet. Nodes sammeln Transaktionen in Blöcken, suchen per Proof-of-Work nach einem gültigen Hash, und verbreiten den fertigen Block. Der längste Chain — die meiste investierte CPU-Arbeit — gilt als die korrekte Geschichte.
+**Kontext in der Cypherpunk-Tradition:** Nakamoto baute auf früheren Arbeiten auf, die im Whitepaper zitiert werden:
+- **Hashcash** (Adam Back, 1997): Proof-of-Work-System gegen E-Mail-Spam; wird im Whitepaper für Mining verwendet
+- **b-money** (Wei Dai, 1998): Dezentrales Geld-Konzept ohne zentrale Behörde
+- **Merkle Trees** (Ralph Merkle, 1979): Effiziente kryptografische Verifikation großer Datensätze
+- Die **Kryptografie-Mailingliste** selbst: Das intellektuelle Heimatplanet der Cypherpunks, die seit den 1980ern an digitalem Privatgeld arbeiteten
 
-**Proof-of-Work:** Nodes suchen eine Nonce, sodass der SHA-256-Hash des Blocks mit einer bestimmten Anzahl Nullbits beginnt. Die Schwierigkeit passt sich alle 2016 Blöcke an, um ~10 Minuten pro Block zu halten. Ein Angreifer müsste mehr CPU-Power als alle ehrlichen Nodes zusammen aufbringen — und das schnell genug, um aufzuholen.
+### Die 12 Abschnitte des Whitepapers
 
-### Transaktionen und das UTXO-Modell
+Das Whitepaper ist ungewöhnlich kompakt — 9 Seiten, 12 Abschnitte, kein Padding.
 
-Eine elektronische Münze ist eine Kette digitaler Signaturen. Jeder Eigentümer überträgt die Münze, indem er den Hash der vorherigen Transaktion und den öffentlichen Schlüssel des nächsten Eigentümers signiert. Das Netzwerk prüft, ob die Inputs tatsächlich unausgegeben sind.
+**1. Introduction:** Das Problem ist benannt. Trusted Third Parties (Banken, PayPal, Visa) sind ein systemisches Risiko, nicht bloß eine Unannehmlichkeit. Rückbuchungen, Transaktionskosten und Zensurierbarkeit sind Konsequenzen der Architektur, nicht von schlechtem Management. Lösung: kryptografischer Beweis statt Vertrauen.
 
-Transaktionen können mehrere Inputs (frühere UTXOs) und mehrere Outputs (neue UTXOs, inkl. Wechselgeld) haben.
+**2. Transactions:** Eine Münze ist eine Kette digitaler Signaturen. Jeder Eigentümer signiert den Hash der vorherigen Transaktion zusammen mit dem öffentlichen Schlüssel des Empfängers. Das ermöglicht Verifikation ohne Drittpartei — das Doppelausgabeproblem bleibt aber noch ungelöst.
 
-### Incentive-Mechanismus
+**3. Timestamp Server:** Um Double-Spending zu verhindern, müssen Transaktionen öffentlich bekannt sein und in einer bestimmten Reihenfolge existieren. Ein Hash des vorherigen Blocks in jedem Block schafft eine unveränderliche Zeitordnung: Man kann keinen Block der Vergangenheit ändern, ohne alle Nachfolgeblöcke neu zu berechnen.
 
-Der erste Block-Reward — eine neu geschaffene Münze für den Block-Ersteller — ist die initiale Verteilung ohne zentrale Behörde. Das Modell entspricht Gold-Mining: CPU-Zeit und Strom werden gegen neue Coins getauscht. Langfristig kann die Block-Subsidy vollständig durch Transaktionsgebühren ersetzt werden — was Bitcoin deflationär und inflationsfrei macht.
+**4. Proof-of-Work:** Hier adaptiert Nakamoto Hashcash. Nodes suchen eine Nonce, sodass der Block-Hash mit einer bestimmten Anzahl führender Nullbits beginnt. Der Rechenaufwand macht rückwirkende Manipulation prohibitiv teuer. Die Schwierigkeit passt sich alle 2016 Blöcke an.
 
-Der Incentive hält Miner ehrlich: Ein Angreifer mit Mehrheits-CPU-Power würde mehr durch ehrliches Mining verdienen als durch einen Angriff, der das Vertrauen — und damit den Wert seiner eigenen Coins — zerstört.
+**5. Network:** Das Bitcoin-Netzwerk ist vollständig dezentral und permissionslos: Nodes können jederzeit beitreten oder das Netzwerk verlassen. Sie akzeptieren immer den längsten Chain (die meiste investierte Arbeit). Bei gleichzeitig gefundenen Blöcken hält jeder Node den ersten, den er sieht — der nächste Block löst den Konflikt auf.
 
-### Simplified Payment Verification (SPV)
+**6. Incentive:** Der Block-Reward löst zwei Probleme zugleich: Er verteilt initiale Bitcoin ohne zentrale Behörde, und er gibt Minern einen Anreiz, ehrlich zu handeln. Nakamoto vergleicht es mit Gold-Mining: CPU-Zeit und Energie werden gegen neue Coins getauscht. Langfristig ersetzt der Incentive durch Transaktionsgebühren die schwindende Block-Subsidy.
 
-Nutzer ohne Full-Node können Zahlungen verifizieren, indem sie nur Block-Header der längsten Chain halten und den Merkle-Ast zur eigenen Transaktion abfragen. Dies ist sicher, solange ehrliche Nodes das Netzwerk kontrollieren — aber SPV-Clients sind anfälliger gegen Angriffe als Full-Nodes.
+**7. Reclaiming Disk Space:** Eine der elegantesten Lösungen des Whitepapers. Ohne Komprimierung wächst die Blockchain unbegrenzt. Nakamoto löst es mit **Merkle Trees**: Transaktionen in einem Block werden zu einem Merkle-Root komprimiert. Alte Transaktionen können gelöscht werden — nur der Merkle-Root bleibt im Block-Header erhalten. Die Integrität bleibt beweisbar, der Disk-Space-Bedarf wächst linear, nicht exponentiell.
 
-### Privatsphäre
+**8. Simplified Payment Verification (SPV):** Full Nodes verifizieren alles, brauchen aber die vollständige Blockchain. SPV-Clients — z.B. mobile Wallets — laden nur Block-Header und fragen gezielt nach dem Merkle-Ast ihrer eigenen Transaktionen. Sicher, solange ehrliche Nodes die Mehrheit der Hashrate kontrollieren; anfälliger bei Netzwerkangriffen als Full Nodes.
 
-Das traditionelle Banking-Modell schützt Privatsphäre durch Zugangsbeschränkung. Bitcoin veröffentlicht alle Transaktionen, schützt Privatsphäre aber durch Pseudonymität: Öffentliche Schlüssel haben keinen Eigentümer-Identifier. Nakamoto empfiehlt, für jede Transaktion ein neues Schlüsselpaar zu verwenden, um Verknüpfungen zu vermeiden.
+**9. Combining and Splitting Value:** Bitcoin ist keine Münze pro Transaktion — das UTXO-Modell erlaubt beliebig viele Inputs und Outputs. Man kann mehrere kleine UTXOs zusammenfassen (Consolidation) oder einen großen in Wechselgeld aufteilen. Das macht Bitcoin flexibel ohne Account-Modell.
 
-### Historische Bedeutung
+**10. Privacy:** Das traditionelle Banken-Modell schützt Privatsphäre durch Zugangsbeschränkung zu Transaktionsdaten. Bitcoin ist das Gegenteil: alle Transaktionen sind öffentlich. Der Schutz entsteht durch Pseudonymität — öffentliche Schlüssel sind nicht mit Identitäten verknüpft. Nakamoto empfiehlt, für jede Transaktion ein neues Schlüsselpaar zu verwenden. *Limitation:* Multi-Input-Transaktionen enthüllen, dass die Inputs dem gleichen Besitzer gehören.
 
-Das Whitepaper wurde am 31. Oktober 2008 — mitten in der Finanzkrise — auf einer Kryptografie-Mailingliste veröffentlicht. Die Genesis Block-Coinbase enthielt den Zeitungsheadline "Chancellor on brink of second bailout for banks" als Timestamp und politisches Statement. Satoshi Nakamoto verschwand 2010 aus der Öffentlichkeit; die Identität ist bis heute unbekannt.
+**11. Calculations:** Der formale Beweis, warum ein Angreifer mit weniger als 50% Hashrate exponentiell kleiner werdende Chancen hat, einen längeren Chain zu bauen. Nakamoto modelliert es als Binomial Random Walk / Gambler's Ruin Problem. Für praktische Sicherheit reichen in den meisten Szenarien 6 Bestätigungen.
+
+**12. Conclusion:** Das Whitepaper endet mit dem Kern-Statement: Bitcoin ist ein System für elektronische Transaktionen ohne Vertrauen — basierend auf kryptografischem Beweis.
+
+### Was das Whitepaper nicht beschreibt
+
+Das Whitepaper ist kein Entwicklungshandbuch — es skizziert das Konzept. Vieles wurde erst später durch Implementierung und BIPs konkretisiert oder verändert:
+
+- **Skript-System:** Das UTXO-Skript-System (welches P2PK, P2PKH, Multisig ermöglicht) ist im Whitepaper nicht beschrieben
+- **Mining Pools:** Nicht vorhergesehen; entstanden 2010 durch Slush Pool
+- **Wallets und Schlüsselverwaltung:** HD Wallets (BIP 32), BIP 39 Seedphrasen — alles spätere Entwicklungen
+- **Skalierung:** Block-Size-Debatte und SegWit-Lösung sind Reaktionen auf nicht vorhergesehene Wachstumsprobleme
+- **Smart Contracts:** Bitcoin Script ist absichtlich begrenzt; Turing-vollständige Contracts wurden nicht angestrebt
+
+### Satoshi Nakamotos Abgang
+
+Nakamoto war von 2008 bis April 2011 aktiv — in Mailinglisten, im Bitcoin Forum, per E-Mail. Die letzte bekannte Nachricht war an Gavin Andresen: *"I've moved on to other things."* Danach verschwand Nakamoto vollständig.
+
+Die Identität ist bis heute unbekannt. Bekannte Fakten: Nakamoto schrieb fehlerfreies Englisch in britischer Orthographie, arbeitete in europäischen Zeitzonen und hatte tiefes Wissen in Kryptografie, Wirtschaft, Programmierung und verteilten Systemen. Die erste Bitcoin-Adresse (Genesis Block) enthält ~50 BTC, die noch nie bewegt wurden.
 
 ## Related
 
-- [[bitcoin-geldpolitik-und-21-millionen-limit]]
+- [[satoshi-ankuendigung-2009]]
 - [[bitcoin-mining-und-proof-of-work]]
+- [[bitcoin-geldpolitik-und-21-millionen-limit]]
 - [[utxo-modell-und-konsolidierung]]
 - [[konsensregeln-und-mempool-richtlinien]]
+- [[hashcash]]
 - [[segregated-witness-segwit]]
+- [[bitcoin-fehlannahmen]]
 
 ## Open Questions
 
-- Wie lange bleibt das 51%-Angriffs-Modell mit sinkendem Block-Reward sicher, wenn Mining-Pools sich konzentrieren?
-- Inwiefern deckt SPV in der Praxis noch die Sicherheitsannahmen des Whitepapers ab?
+- Wer ist Satoshi Nakamoto — und würde es eine Rolle spielen, wenn es bekannt würde?
+- Wie lange bleibt das 51%-Angriffs-Modell sicher bei sinkendem Block-Reward und wachsender Pool-Konzentration?
+- Deckt SPV in der Praxis noch die Sicherheitsannahmen des Whitepapers ab, oder ist es de facto schwächer?
+- Wurden die ~50 BTC der Genesis-Block-Adresse absichtlich gesperrt (unmined coinbase ist nicht spendbar), oder war das ein Nebeneffekt?

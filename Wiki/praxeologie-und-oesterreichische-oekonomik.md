@@ -1,8 +1,8 @@
 # Praxeologie und Österreichische Ökonomik
 
 **Status:** established
-**Last updated:** 2026-06-09
-**Sources:** [[2023_Praxeology_ The invisible hand that feeds you -- Knut Svanholm]]
+**Last updated:** 2026-06-19
+**Sources:** [[2023_Praxeology_ The invisible hand that feeds you -- Knut Svanholm]], [[2022_Bitcoin _ everything divided by 21 million -- Knut Svanholm]], [[2023_Bitcoin_ Alles durch 21 Millionen -- Knut Svanholm]], [[2020_Bitcoin - Unabhängigkeit neu gedacht -- Knut Svanholm]], [[2024_Bitcoin_ The Inverse of Clown World -- Knut Svanholm]]
 
 ## Summary
 
@@ -73,6 +73,22 @@ Bitcoin ist das erste Geld, das vollständig auf freiwilligem Tausch basiert, oh
 - Zeitpräferenz-Senkung durch Deflation ist im Protokoll codiert
 
 Aus praxeologischer Sicht ist Fiat-Geld kein "Geld" im echten Sinne — es ist ein staatlich erzwungenes Tauschmedium, das durch Monopol und Gesetz akzeptiert wird, nicht durch freiwillige Marktwahl. Bitcoin ist das erste Geld, das aus echtem Marktprozess entstanden ist und im Marktprozess besteht.
+
+### Knut Svanholms Werk: Praxeologie popularisiert
+
+Knut Svanholm (schwedisch-isländischer Autor und Musiker) hat in fünf Büchern die österreichische Ökonomik für Bitcoin-Leser aufbereitet — ohne akademischen Jargon, mit konsequenter Rückbindung an Alltagsbeobachtungen.
+
+**"Bitcoin: Independence Reimagined" / "Unabhängigkeit neu gedacht" (2020):** Svanholms erstes Buch. Kernthese: Bitcoin ist nicht nur ein besseres Zahlungsmittel, sondern ein anderes Verhältnis zur Zeit. Wer in Fiat lebt, optimiert für die Gegenwart; wer in Bitcoin spart, beginnt in Jahrzehnten zu denken.
+
+**"Bitcoin: Everything Divided by 21 Million" (2022):** Die konzentrierteste Formulierung. Die Formel **∞/21M** beschreibt das asymptotische Verhältnis: beliebig wachsendes menschliches Wissen, Kreativität und Produktivität dividiert durch eine unveränderliche Geldmenge. Wenn Geld nicht entwertbar ist, werden alle Werte relativ zu Geld stetig günstiger — deflationäres Wachstum als natürlicher Zustand. Das Buch ist als Essay-Anthologie aufgebaut (Kapitel: TIME, ALCHEMY, OWNERSHIP, ENERGY, MORALITY, MEMETICS, SYMBIOSIS, VIOLENCE, DEFLATION, ADOPTION, TRANSITION) mit Vorwort von Jeff Booth.
+
+**"Bitcoin: Alles durch 21 Millionen" (2023):** Deutsche Übersetzung des Vorgängers, erweitert und überarbeitet. Für deutschsprachige Leser zugänglicher als das englische Original.
+
+**"Praxeology: The Invisible Hand That Feeds You" (2023):** Svanholms expliziteste Auseinandersetzung mit Mises' Methodik. Kernpunkt: Praxeologie ist keine dogmatische Schule, sondern ein offenes Analysewerkzeug. Mises selbst betonte in *Human Action*, dass seine Theorien *"continuous critical reexamination"* bedürfen — intellektuelle Demut, die modernen "Wirtschaftsexperten" oft fehlt.
+
+**"Bitcoin: The Inverse of Clown World" (2024, mit Luke de Wolf):** Das sozialpolitisch direkteste Buch. "Clown World" beschreibt eine Welt, in der biologischer Wettbewerb (Zugang zu staatlichen Privilegien, Subventionen, Regulierungsvorteilen) katallaktischen Wettbewerb (Wertschöpfung durch freiwilligen Tausch) verdrängt hat. Bitcoin als "Inverse": Es belohnt Wertschöpfung, nicht Privilegiensuche. Mit Vorwort von Giacomo Zucco. Das Konzept "Freedom Footprint" beschreibt, wie viel vom eigenen Handeln noch wirklich frei — also marktwirtschaftlich statt politisch bedingt — ist.
+
+**Verbindende These über alle Bücher:** Bitcoin ist nicht das Ziel, sondern ein Spiegel. Wer Bitcoin versteht, versteht, warum das Fiat-System strukturell nicht reparierbar ist — nicht wegen schlechter Personen in guten Institutionen, sondern wegen guter Personen in strukturell falschen Institutionen.
 
 ## Related
 

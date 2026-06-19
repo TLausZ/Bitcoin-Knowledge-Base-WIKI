@@ -1,0 +1,156 @@
+# Bitcoin Mining und Umwelt
+
+**Status:** established
+**Last updated:** 2026-06-19 (Pass 24: vollständig restrukturiert, 14 Quellen)
+**Sources:** [[20251031_How Bitcoin Mining Keeps Energy Prices Low]], [[Rebuttal_ Earthjustice report on Bitcoin Mining, Feb 2025]], [[The NEW (Data-Backed) Story About Bitcoin Mining]], [["The Obstacle is the Path"]], [[Can bitcoin mining empower energy transition and fuel sustainable development goals in the US]], [[From Mining to Mitigation- How Bitcoin Can Support Renewable Energy Development and Climate Action]], [[Renewable Energy Transition Facilitated by Bitcoin]], [[Rethinkingbitcoinsenergyusethroughsustainabledigitalbusinessmodelsandresourcesmonetization]], [[Cryptocurrency mining as a novel virtual energy storage system in islanded and grid-connected microgrids]], [[Hedging Renewable Energy Investments with Bitcoin Mining]], [[Renewable energy and cryptocurrency- A dual approach to economic viability and environmental sustainability]], [[Study_economic_wind]], [[The feasibility study of the production of Bitcoin with geothermal energy]], [[lal-you-2024-climate-sustainability-through-a-dynamic-duo-green-hydrogen-and-crypto-driving-energy-transition-and]]
+
+## Summary
+
+Das Narrativ "Bitcoin Mining schadet der Umwelt" hat sich seit 2021 grundlegend gewandelt. 87,5% der peer-reviewed Papers zu Bitcoin und Energie zeigen positive Umweltwirkungen. Bitcoin Mining wirkt als flexibler Stromabnehmer der letzten Instanz — er monetarisiert sonst abgeregelten Erneuerbaren-Strom, stabilisiert Netze, ersetzt Gaskraftwerke, senkt Strompreise, reduziert Methanemissionen und liefert Abwärme für District Heating. Cambridge 2025: 52,4% des weltweiten Bitcoin-Minings läuft auf nachhaltiger Energie.
+
+## Body
+
+---
+
+### A — Datenlage & Narrativwandel
+
+2021 war Bitcoin Mining die von Medien meistangegriffene Technologie wegen ihres angeblichen Umweltschadens. Greenpeace finanzierte die "Change the Code"-Kampagne und das "Skull of Satoshi"-Kunstwerk. Heute hat Greenpeace die Kampagne aufgegeben; das Kunstwerk steht im Bitcoin-Museum.
+
+**Aktuelle Datenlage (Daniel Batten / batcoinz.com, Stand Mai 2025):**
+
+| Kategorie | Anteil positiver Berichte |
+|---|---|
+| Unabhängige Whitepapers | 87,5% |
+| Mainstream-Media | 88,9% |
+| Sustainability-Media | 91,1% |
+| Peer-reviewed Papers | 80% (14 von 16) |
+
+**Cambridge Bitcoin Electricity Consumption Index (2025):** 52,4% des Minings läuft auf nachhaltiger Energie — Tendenz steigend. Bitcoin Mining folgt dem Muster anderer disruptiver Technologien (Fahrrad, Radio, Internet): Phase 1 negative erste Eindrücke → Phase 2 gemischte Berichte → Phase 3 positive Evidenz überwiegt.
+
+---
+
+### B — Netzstabilisierung & Demand Response
+
+Bitcoin Mining kann seine gesamte Stromabnahme in **500 Millisekunden** auf null reduzieren. Zum Vergleich: Stahlwerke und Aluminiumhütten — die bisherigen Hauptakteure im Demand-Response-Markt — brauchen Stunden und können die Leistungsreduzierung nur für vier Stunden aufrechterhalten. Bitcoin-Miner können sie unbegrenzt lange aufrechterhalten.
+
+**Texas (ERCOT) als Hauptbeispiel:**
+Brad Jones, ehemaliger CEO von ERCOT (dem texanischen Netzbetreiber mit der höchsten Bitcoin-Mining-Dichte der Welt), bestätigte: Bitcoin Mining "helped keep the cost of electricity low for all Texans." Konkret:
+
+- Texas sparte **$18 Milliarden** an Gaskraftwerk-Kosten, die ohne Bitcoin Mining hätten gebaut werden müssen (Digital Assets Research Institute)
+- Wind/Solar wuchs von 80 GW auf 130 GW — ohne dass neue fossile Backup-Kraftwerke nötig wurden
+- Inflation-bereinigte Strompreise blieben stabil, obwohl der erneuerbare Anteil stark stieg — eine Ausnahme im US-Vergleich
+
+**Duke University (Norris et al., 2025):** Bitcoin Mining ist der effektivste flexible Verbraucher mit **95% Lastreduzierung** in Spitzenzeiten — deutlich mehr als alle anderen flexiblen Abnehmer. Flexible Lasten können teure Grid-Upgrades verzögern oder ganz vermeiden.
+
+**Norwegen als natürliches Experiment (September 2024):** Als Bitcoin-Miner das norwegische Stromnetz verließen, stiegen die Strompreise für Privathaushalte sofort um **20%**. Ein unbeabsichtigtes Experiment, das den Preissenkungseffekt direkt belegt.
+
+---
+
+### C — Curtailment: Erneuerbare monetarisieren statt abriegeln
+
+Curtailment entsteht, wenn das Stromnetz mehr erneuerbare Energie produziert als abgenommen werden kann. Windräder und Solaranlagen müssen dann gedrosselt werden — der Strom geht verloren oder der Netzbetreiber zahlt Entschädigungen.
+
+Bitcoin Mining absorbiert diesen sonst verlorenen Strom und macht ihn wirtschaftlich verwertbar:
+
+- **Texas 2020:** 4,87 Millionen MWh Curtailment — Miner hätten 93% davon nutzen können und $239 Mio. Gewinn für den Netzbetreiber generiert (Lal et al., Cornell 2023)
+- **UK:** £2,5 Mio. für einen einzigen Tag Curtailment — entfällt vollständig bei ko-lokierten Bitcoin-Minern
+- **Spanien:** Vega-Marcos et al. (UNED Madrid, Energy Reports 2022) zeigen, dass Bitcoin Mining die Wirtschaftlichkeit von Windparks im Rahmen des EU Green Pact verbessert und das strukturelle Curtailment-Problem der spanischen Windenergie löst
+- **Kenia:** Bitcoin Mining an einem Hydro-Mikronetz senkte den Strompreis für Endnutzer von 35 auf 25 Cent/kWh (**−28,5%**) durch Monetarisierung der Überschussproduktion
+
+**Moghimi et al. (Aalto/Sharif University, Elsevier 2024)** gehen einen Schritt weiter: Sie modellieren Bitcoin Mining als **virtuelles Energiespeichersystem** in islanded und grid-connected Microgrids. Das Ergebnis: Mining kann die Funktion eines physischen Batteriespeichers übernehmen, ohne die Kapitalkosten einer Batterieanlage zu verursachen — und ist dabei profitabel statt kostspielig.
+
+---
+
+### D — Investitionsanreiz für neue Erneuerbare
+
+Eines der Haupthindernisse beim Ausbau erneuerbarer Energien ist wirtschaftliche Unsicherheit: Wind- und Solaranlagen produzieren zu volatilen Zeiten und hängen von schwankenden Strompreisen ab.
+
+**Bastian-Pinto et al. (PUC-Rio, Elsevier 2021)** zeigen das "Bit-Spread"-Modell für Windparks in Brasilien: Windparkbetreiber können Strompreisvolatilität durch gleichzeitige Bitcoin-Mining-Investition hedgen. Wenn der Strompreis niedrig ist, wird gemined; wenn er hoch ist, wird Strom verkauft. Das Real-Options-Modell (Switch Option) macht Windparks früher investierbar — ein direkter Beitrag zur Energiewende-Finanzierung.
+
+**Hakimi et al. (K.N. Toosi University Teheran, 2024)** modellieren eine 50,91-MW-Solaranlage in den Vereinigten Arabischen Emiraten kombiniert mit Bitcoin Mining: Die **Amortisierungszeit der Solaranlage halbiert sich** durch die Mining-Einnahmen in Schwachlastzeiten. Das verbessert die Wirtschaftlichkeit erneuerbarer Projekte fundamental.
+
+**Lal & You (Cornell, PNAS 2024)** — publiziert in den Proceedings of the National Academy of Sciences, einer der renommiertesten wissenschaftlichen Zeitschriften — schlagen **Green Hydrogen + Bitcoin Mining** als "Dynamic Duo" vor: Elektrolyseure für grünen Wasserstoff und Bitcoin-Miner teilen sich erneuerbare Kapazitäten und ergänzen sich zeitlich. Das Modell beschleunigt Solar/Wind-Deployment und erhöht Carbon-Offsetting-Kapazitäten.
+
+---
+
+### E — Spezifische Energiequellen
+
+Bitcoin Mining ist energiequellenagnostisch — es kann überall dort wirtschaftlich betrieben werden, wo Strom günstig verfügbar ist. Das führt zu einer natürlichen Selektion hin zu sonst unverwertbaren Energiequellen:
+
+**Solar:**
+Hakimi et al. (2024, VAE): 50,91-MW-PV-Anlage + Mining. Wirtschaftlich und ökologisch überlegen gegenüber Solar ohne Mining-Kolokalisation. Der Mining-Betrieb füllt die Schwachlast-Stunden der Solaranlage.
+
+**Wind:**
+Vega-Marcos et al. (UNED, 2022): Wind produziert vor allem nachts und bei Sturm — genau dann, wenn Nachfrage niedrig ist. Bitcoin Mining als permanenter Abnehmer löst das zeitliche Mismatch. Bastian-Pinto et al. (2021): Finanzierungsmodell für Windparks via Bit-Spread-Hedging.
+
+**Geothermie:**
+Ehyaei et al. (Islamic Azad University / Univ. Florence / NIT Silchar, Energy Sci. & Eng. 2023): Erste Machbarkeitsstudie für geothermisches Bitcoin Mining. Multigeneration-Zyklus (Strom + Wärme + Mining kombiniert). Thermodynamisch effizient, wirtschaftlich rentabel — Geothermie produziert 24/7 unabhängig von Wetter.
+
+**Methangas (Flaring/Venting):**
+Erdgasförderung produziert Methan als Nebenprodukt. Wo kein Pipeline-Anschluss vorhanden ist, wird es abgefackelt oder abgelassen (Venting). Methan ist ~80× klimaschädlicher als CO₂ pro Molekül. 29 Bitcoin-Mining-Operationen (Stand 2025) nutzen dieses Gas direkt als Energiequelle — verbrennen es kontrolliert für Strom statt es unkontrolliert zu flaren. Das verwandelt ein Klimaproblem in einen Klimabeitrag.
+
+**Green Hydrogen:**
+Lal & You (PNAS 2024): Bitcoin Mining und grüner Wasserstoff als kombiniertes System. Überschussstrom aus Solar/Wind → entweder Wasserstoff-Elektrolyse oder Mining, je nach Marktlage. Maximale Auslastung erneuerbarer Kapazitäten.
+
+---
+
+### F — Abwärmenutzung (Heat Recycling)
+
+ASIC-Mining-Hardware verwandelt nahezu 100% des eingesetzten Stroms in Wärme. Diese Abwärme kann statt ungenutzt abzuziehen direkt weiterverwendet werden.
+
+**Finnland (2025):** **2% des gesamten finnischen District Heatings** — Fernwärme für Wohngebäude — stammt bereits aus recycelter Bitcoin-Mining-Abwärme. Dieser Anteil ersetzt fossile Wärmequellen (Kohle, Torf) auf einem nationalen Grid, das zu 92% fossilfrei ist. Die Mining-Abwärme verdrängt direkt die verbleibenden 54,6% fossilen Fernwärme-Anteil.
+
+Das Modell ist skalierbar: Jeder Mining-Standort neben einem Wärmenetz kann seine Abwärme einspeisen. Die Wirtschaftlichkeit verbessert sich, weil der Betreiber zwei Erlösströme hat (Bitcoin + Wärmeverkauf).
+
+---
+
+### G — Volkswirtschaftliche Preiseffekte
+
+Bitcoin Mining senkt Strompreise für alle anderen Verbraucher — durch mehrere Mechanismen:
+
+**Demand Response Wettbewerb:** Wenn mehrere flexible Verbraucher um die Rolle des Ausgleichsstrom-Anbieters konkurrieren, sinkt der Preis, den Netzbetreiber dafür zahlen müssen — und damit sinken die Netzkosten für alle.
+
+**Curtailment-Vermeidung:** Ohne Mining zahlt der Netzbetreiber Entschädigungen an abgeregelte Erzeuger — diese Kosten werden auf alle Stromkunden umgelegt.
+
+**Gaskraftwerk-Ersatz:** Ohne Mining müssten teure Gaskraftwerke als Backup gebaut und ständig auf Stand-by gehalten werden — CO₂-Emissionen auch im Stand-by-Betrieb, Kapitalkosten durch alle Stromkunden getragen.
+
+**Belege:**
+- Texas: Strompreise stabil trotz +50 GW erneuerbarer Kapazität (ERCOT, 2020–2025)
+- Norwegen: +20% Strompreis nach Abzug der Miner (September 2024)
+- Kenia: −28,5% Strompreis durch Hydro-Mining-Kolokalisation (CNBC, 2024)
+- UK: £2,5 Mio. Curtailment-Kosten/Tag — vermeidbar durch Mining
+
+---
+
+### H — Kritik & Gegenargumente
+
+**Earthjustice-Report (Februar 2025)** und ähnliche Kritiken beziehen sich überwiegend auf Daten vor 2022 und ignorieren die fundamentale Veränderung des Sektors seit 2021.
+
+Die vier blinden Flecken der Kritik:
+
+1. **Veralteter Energiemix:** Kritiken zitieren oft 30–40% erneuerbare Energie — Cambridge 2025 misst 52,4%. Der Anteil wächst kontinuierlich, weil erneuerbare Energie die günstigste Energiequelle für Miner ist.
+
+2. **Demand Response ignoriert:** Die Netzstabilisierungs-Funktion von Bitcoin Mining wurde in frühen Analysen nicht modelliert. Sie ist inzwischen empirisch belegt (ERCOT, Duke 2025, Norwegen-Experiment).
+
+3. **Systemvergleich fehlt:** Bitcoin Mining wird selten gegen das verglichen, was es ersetzt: ein globales Bankensystem mit Filialnetzwerken, Serverfarmen, Geldtransporten, Wertpapierdruck — alles mit eigenem erheblichem Energieverbrauch.
+
+4. **Methan-Kredit ignoriert:** Mining auf Flaring-Gas verhindert Methan-Emissionen. Bei korrekter CO₂e-Berechnung (Methan ×80) kann Flaring-basiertes Mining netto klimapositiv sein.
+
+---
+
+## Related
+
+- [[bitcoin-mining-und-proof-of-work]]
+- [[bitcoin-fehlannahmen]]
+- [[hashcash]]
+- [[praxeologie-und-oesterreichische-oekonomik]]
+
+## Open Questions
+
+- Wird 80% nachhaltiger Energieanteil bis 2030 realistisch — und welche Energiequellen wachsen am schnellsten?
+- Ist Abwärmenutzung (District Heating) über Finnland hinaus skalierbar, oder bleibt es regional begrenzt?
+- Wie unterscheidet sich die Vollkosten-Umweltbilanz von PoW (Bitcoin) vs. PoS (Ethereum) bei gleichem gesichertem Netzwert?
+- Welche Regulierungsrahmen (EU AI Act, Energy Taxonomy) treffen Bitcoin Mining am härtesten?
+- Kann Green Hydrogen + Bitcoin Mining (Lal & You 2024) als Policy-Instrument implementiert werden, oder bleibt es akademisch?
+- Wie entwickelt sich die Abwärmenutzung — gibt es standardisierte Geschäftsmodelle für Mining + District Heating?
+- Wann wird Geothermie-Mining wirtschaftlich genug für breiten Einsatz (Island, Kenia, USA)?

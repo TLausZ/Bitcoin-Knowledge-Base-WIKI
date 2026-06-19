@@ -1,8 +1,8 @@
 # HD-Wallets und Schlüsselableitung
 
 **Status:** established
-**Last updated:** 2026-06-08
-**Sources:** [[20220505_wie-entsteht-bitcoin-adresse-de]], [[20210804_bitbox-08-2021-cristallina-update-de]], [[20240314_wie-die-bitbox02-den-seed-für-die-lightning-wallet-sicher-ableitet]]
+**Last updated:** 2026-06-19
+**Sources:** [[20220505_wie-entsteht-bitcoin-adresse-de]], [[20210804_bitbox-08-2021-cristallina-update-de]], [[20240314_wie-die-bitbox02-den-seed-für-die-lightning-wallet-sicher-ableitet]], [[learnmeabitcoin-technical-keys-hd-wallets]], [[learnmeabitcoin-technical-keys-hd-wallets-extended-keys]], [[learnmeabitcoin-technical-keys-hd-wallets-derivation-paths]], [[learnmeabitcoin-technical-keys-hd-wallets-mnemonic-seed]]
 
 ## Summary
 
@@ -56,6 +56,27 @@ Da der Pfad keine obere Grenze hat, können praktisch unbegrenzt viele Schlüsse
 Jeder Ableitungspfad ergibt einen privaten Schlüssel. Aus dem privaten Schlüssel wird der öffentliche Schlüssel berechnet (Einwegfunktion — der Umkehrweg ist rechnerisch unmöglich). Aus dem öffentlichen Schlüssel wird schließlich die Bitcoin-Adresse gehasht.
 
 Die Bitcoin-Adresse enthält ein Pubkey-Skript, das die Ausgabebedingungen festlegt: Wer die Transaktion signiert, muss beweisen, dass er den privaten Schlüssel besitzt.
+
+### Technische Details: Extended Keys
+
+**Mnemonic Sentence → Seed:** Die 12/24 Wörter (BIP 39) werden per PBKDF2-HMAC-SHA512 mit 2048 Iterationen und dem optionalen Passphrase-Salt in einen 64-Byte-Seed umgewandelt.
+
+**Master Extended Key:** Der Seed wird durch HMAC-SHA512 mit dem festen String "Bitcoin seed" gehasht → 64 Bytes:
+- Erste 32 Bytes → Master Private Key
+- Letzte 32 Bytes → Master Chain Code (extra geheime Daten, die für Child-Ableitung benötigt werden)
+
+**Extended Keys = Key + Chain Code.** Die 32-Byte-Chain-Code verhindert, dass jemand mit dem Public Key allein weitere Child-Keys ableiten kann. Extended Public Key (xpub) = Public Key + Chain Code; Extended Private Key (xprv) = Private Key + Chain Code.
+
+**Child-Key-Ableitung:**
+- **Normal (non-hardened):** HMAC-SHA512(chain_code, public_key || index) → abgeleitet aus xpub möglich
+- **Hardened:** HMAC-SHA512(chain_code, `0x00` || private_key || index) → nur aus xprv möglich; sicherer
+
+Hardened Kinder (BIP 32 Notation: `'` oder `h`) beginnen bei Index 2.147.483.648. Bis zu 4.294.967.296 Kinder pro Extended Key.
+
+**Serialisierte Extended Keys (Base58Check):**
+- xprv → beginnt mit `xprv`
+- xpub → beginnt mit `xpub`
+- Encoding: 4 Byte Version + 1 Byte Tiefe + 4 Byte Parent-Fingerprint + 4 Byte Child-Index + 32 Byte Chain-Code + 33 Byte Key = 78 Bytes → Base58Check
 
 ### Warum nur der Seed gesichert werden muss
 

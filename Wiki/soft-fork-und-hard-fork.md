@@ -1,8 +1,8 @@
 # Soft Fork und Hard Fork
 
 **Status:** established
-**Last updated:** 2026-06-04
-**Sources:** [[20241114_soft-fork-oder-hard-fork-was-ist-der-unterschied]]
+**Last updated:** 2026-06-20
+**Sources:** [[20241114_soft-fork-oder-hard-fork-was-ist-der-unterschied]], [[blocksizewar]]
 
 ## Summary
 
@@ -36,7 +36,7 @@ Eine Hard Fork lockert die Regeln — der Satz gültiger Blöcke wird größer. 
 
 **Chainsplit-Risiko:** Hoch, wenn ein Teil der Community die neue Version ablehnt. Das führt zu zwei parallelen Blockchains — mit unterschiedlichen Coins.
 
-**Beispiele:** Bitcoin Cash (2017, permanenter Chainsplit → eigenes Netzwerk)
+**Beispiele:** Bitcoin Cash (2017, permanenter Chainsplit → eigenes Netzwerk). Der Blocksize-Krieg zeigt, warum Hard Forks in Bitcoin so schwer durchzusetzen sind: Bitcoin Unlimited, Bitcoin Classic und BTC1/SegWit2x scheiterten alle, weil Exchanges und Nutzer die neue Chain ablehnten und als Altcoin behandelten — unabhängig von der Mining-Hashrate.
 
 ### Was Soft Forks nicht automatisch bedeuten
 
@@ -50,6 +50,7 @@ Chainsplits passieren alle paar Wochen natürlich, wenn zwei Miner gleichzeitig 
 
 - [[konsensregeln-und-mempool-richtlinien]]
 - [[bitcoin-geldpolitik-und-21-millionen-limit]]
+- [[blocksize-war]]
 
 ## Open Questions
 

@@ -1,7 +1,7 @@
 # Bitcoin-Fehlannahmen
 
 **Status:** established
-**Last updated:** 2026-06-08
+**Last updated:** 2026-06-19
 **Sources:** [[2025-08-30_Blocktrainer-10 Fehlannahmen über Bitcoin und warum sie falsch sind!]], [[2026-06-08_BlocktrainerBitcoin_ 10 Einsteigerfragen]], [[20260607_Blocktrainer-Einstieg in Bitcoin_ Alles was Anfänger wissen müssen!]], [[2025-05-14_Blocktrainer-Bitcoin kaufen 2025_ Lohnt sich der Einstieg noch_]]
 
 ## Summary
@@ -38,6 +38,8 @@ Dieselbe Aussage wurde nach jedem Halving und jedem Allzeithoch gemacht. Bitcoin
 
 Bitcoin-Mining verbraucht Energie — das ist der Punkt. Energie wird gegen Sicherheit eingetauscht: Ohne "Waste" könnte ein Angreifer die Blockchain trivial neu schreiben. Bitcoin nutzt zunehmend überschüssige und erneuerbare Energie, weil diese am günstigsten ist. Mining macht Überproduktion von Strom (z.B. Wasserenergie in Regenzeiten, Windenergie nachts) wirtschaftlich verwertbar. Die Umweltdebatte vernachlässigt, was Bitcoin ersetzt: ein Finanzsystem mit enormem eigenen Energieverbrauch durch physische Infrastruktur, Filialnetzwerke, Rechenzentren.
 
+Die Forschungslage hat sich seit 2022 grundlegend verändert: 87,5% der peer-reviewed Papers zu Bitcoin und Energie (14 von 16 bis 2025) zeigen positive Umweltwirkungen. Cambridge 2025: 52,4% des Minings läuft auf nachhaltiger Energie. Bitcoin Mining stabilisiert Stromnetze, monetarisiert sonst abgeregelten Wind-/Solarstrom, reduziert Methanemissionen aus Gasfackeln und liefert in Finnland bereits 2% des District Heatings. Greenpeace hat seine Anti-Bitcoin-Kampagne aufgegeben. → Siehe [[bitcoin-mining-umwelt]] für die vollständige Evidenzlage.
+
 ### "Quantencomputer werden Bitcoin brechen"
 
 Quantencomputer könnten theoretisch ECDSA-Signaturen rückwärts berechnen. Das Bitcoin-Protokoll kann auf quantenresistente Signaturverfahren migriert werden, bevor Quantencomputer diese Fähigkeit erreichen. Das ist ein bekanntes, voraussehbares Risiko mit bekannten Lösungen — kein existenzielles Problem.
@@ -57,6 +59,7 @@ Die Basis-Blockchain skaliert bewusst nicht — kleine Blöcke halten die Node-B
 - [[skalierung-lightning-ark-statechains]]
 - [[selbstverwahrung-und-boersenrisiken]]
 - [[bitcoin-mining-und-proof-of-work]]
+- [[bitcoin-mining-umwelt]]
 
 ## Open Questions
 
