@@ -2,7 +2,7 @@
 
 **Status:** established
 **Last updated:** 2026-06-20
-**Sources:** [[20151221_bip-0141]], [[learnmeabitcoin-beginners-guide-segwit]], [[learnmeabitcoin-technical-upgrades-segregated-witness]], [[blocksizewar]]
+**Sources:** [[20151221_bip-0141]], [[learnmeabitcoin-beginners-guide-segwit]], [[learnmeabitcoin-technical-upgrades-segregated-witness]], [[blocksizewar]], [[2018_Grokking-Bitcoin_Rosenbaum]]
 
 ## Summary
 
@@ -35,6 +35,14 @@ Witness-Daten werden effektiv mit einem Discount von 75% gewertet (1 Weight Unit
 **P2WSH (Pay-to-Witness-Script-Hash):** Native SegWit für komplexe Scripts (Multisig etc.). 32-byte Scripthash statt 20-byte, höhere Kollisionssicherheit. Witness Script bis 10.000 Bytes möglich.
 
 **Nested SegWit (P2SH-P2WPKH / P2SH-P2WSH):** SegWit verpackt in P2SH für Rückwärtskompatibilität. Erkennbar an Adressen beginnend mit `3`. Weniger effizient, aber kompatibel mit älteren Wallets.
+
+### Quadratisches Hashing-Problem (O(n²))
+
+SegWit löst neben Malleability ein zweites Problem, das bei großen Transaktionen kritisch wurde (Rosenbaum, Kap. 10):
+
+Das Legacy-Signaturverfahren hasht für jeden Input die gesamte Transaktion. Bei einer Transaktion mit n Inputs wird die Transaktion also n-mal gehasht — bei Transaktion mit 100 Inputs wird dieselbe Datenmenge 100-mal durchgearbeitet. Die Gesamtarbeit steigt quadratisch: O(n²). Ein Angreifer kann eine große Transaktion mit vielen Inputs erzeugen, die Nodes für die Validierung unverhältnismäßig viel Zeit kostet.
+
+SegWit (BIP143) führt ein neues Signature-Hashing-Verfahren ein, das jede Transaktion nur einmal hasht und die relevanten Teile pro Input effizient extrahiert. Die Validierungsarbeit wird linear: O(n). Das macht SegWit-Transaktionen nicht nur kleiner, sondern auch schneller zu validieren. [[2018_Grokking-Bitcoin_Rosenbaum]]
 
 ### Lightning Network als direkte Folge
 

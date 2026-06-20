@@ -36,13 +36,13 @@ Dieselbe Aussage wurde nach jedem Halving und jedem Allzeithoch gemacht. Bitcoin
 
 ### "Bitcoin schadet der Umwelt"
 
-Bitcoin-Mining verbraucht Energie — das ist der Punkt. Energie wird gegen Sicherheit eingetauscht: Ohne "Waste" könnte ein Angreifer die Blockchain trivial neu schreiben. Bitcoin nutzt zunehmend überschüssige und erneuerbare Energie, weil diese am günstigsten ist. Mining macht Überproduktion von Strom (z.B. Wasserenergie in Regenzeiten, Windenergie nachts) wirtschaftlich verwertbar. Die Umweltdebatte vernachlässigt, was Bitcoin ersetzt: ein Finanzsystem mit enormem eigenen Energieverbrauch durch physische Infrastruktur, Filialnetzwerke, Rechenzentren.
+Bitcoin-Mining verbraucht Energie. Das ist gewollt: Energie wird gegen Sicherheit eingetauscht, Ohne "Waste" könnte ein Angreifer die Blockchain trivial neu schreiben. Bitcoin nutzt zunehmend überschüssige und erneuerbare Energie, weil diese am günstigsten ist. Mining macht Überproduktion von Strom (z.B. Wasserenergie in Regenzeiten, Windenergie nachts) wirtschaftlich verwertbar. Die Umweltdebatte vernachlässigt, was Bitcoin ersetzt: ein Finanzsystem mit enormem eigenen Energieverbrauch durch physische Infrastruktur, Filialnetzwerke, Rechenzentren.
 
 Die Forschungslage hat sich seit 2022 grundlegend verändert: 87,5% der peer-reviewed Papers zu Bitcoin und Energie (14 von 16 bis 2025) zeigen positive Umweltwirkungen. Cambridge 2025: 52,4% des Minings läuft auf nachhaltiger Energie. Bitcoin Mining stabilisiert Stromnetze, monetarisiert sonst abgeregelten Wind-/Solarstrom, reduziert Methanemissionen aus Gasfackeln und liefert in Finnland bereits 2% des District Heatings. Greenpeace hat seine Anti-Bitcoin-Kampagne aufgegeben. → Siehe [[bitcoin-mining-umwelt]] für die vollständige Evidenzlage.
 
 ### "Quantencomputer werden Bitcoin brechen"
 
-Quantencomputer könnten theoretisch ECDSA-Signaturen rückwärts berechnen. Das Bitcoin-Protokoll kann auf quantenresistente Signaturverfahren migriert werden, bevor Quantencomputer diese Fähigkeit erreichen. Das ist ein bekanntes, voraussehbares Risiko mit bekannten Lösungen — kein existenzielles Problem.
+Quantencomputer könnten theoretisch ECDSA-Signaturen rückwärts berechnen. Das Bitcoin-Protokoll kann auf quantenresistente Signaturverfahren migriert werden, bevor Quantencomputer diese Fähigkeit erreichen. Das ist ein bekanntes, voraussehbares Risiko mit bekannten Lösungen, kein existenzielles.
 
 ### "Altcoins werden Bitcoin ersetzen"
 

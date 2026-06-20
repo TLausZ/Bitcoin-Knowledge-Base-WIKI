@@ -1,12 +1,12 @@
 # Bitcoin: Spieltheorie und Anreize
 
 **Status:** established
-**Last updated:** 2026-06-09
-**Sources:** [[2024_Bitcoin_ The Inverse of Clown World -- Knut Svanholm, Luke de Wolf]]
+**Last updated:** 2026-06-20
+**Sources:** [[2024_Bitcoin_ The Inverse of Clown World -- Knut Svanholm, Luke de Wolf]], [[2024_Bitcoin-Inverse-of-Clown-World_Svanholm-de-Wolf]], [[2020_Bitcoin-Unabhaengigkeit-neu-gedacht_Svanholm-Herminghaus]]
 
 ## Summary
 
-"Bitcoin: The Inverse of Clown World" (Svanholm & de Wolf, 2024) analysiert Bitcoin durch die Linse von Spieltheorie und Praxeologie. Die Kernthese: Alle menschlichen Handlungen — von individuellen Entscheidungen bis zu staatlichen Politiken — folgen Anreizstrukturen. Das Fiat-System ist ein Spiel mit falschen Anreizen, das systematisch dysfunktionale Ergebnisse produziert ("Clown World"). Bitcoin ist nicht das Gegenteil von Geld — es ist die Umkehrung der Anreizstruktur des Fiat-Systems.
+"Bitcoin: The Inverse of Clown World" (Svanholm & de Wolf, 2024) analysiert Bitcoin durch die Linse von Spieltheorie und Praxeologie. Die Kernthese: Alle menschlichen Handlungen — von individuellen Entscheidungen bis zu staatlichen Politiken — folgen Anreizstrukturen. Das Fiat-System ist ein Spiel mit falschen Anreizen, das systematisch dysfunktionale Ergebnisse produziert ("Clown World"). Bitcoin kehrt die Anreizstruktur des Fiat-Systems um.
 
 ## Body
 
@@ -48,7 +48,7 @@ Satoshis Genie: Er löste das Prisoner's Dilemma für Geld. In einem Fiat-System
 
 ### "We Are All Satoshis"
 
-Svanholm & de Wolf argumentieren: Bitcoin ist nicht das Produkt einer Einzelperson (Satoshi ist unbekannt und irrelevant geworden) — es ist ein Protokoll, das niemanden braucht, dem man vertrauen muss. "We are all Satoshis" bedeutet: Jeder Node-Betreiber setzt die Konsensregeln durch. Dezentralisierung bedeutet, dass Vertrauen durch Verifikation ersetzt wird.
+Svanholm & de Wolf argumentieren: Bitcoin ist ein Protokoll, das niemanden braucht, dem man vertrauen muss. Satoshi ist unbekannt und inzwischen irrelevant. "We are all Satoshis" bedeutet: Jeder Node-Betreiber setzt die Konsensregeln durch. Dezentralisierung bedeutet, dass Vertrauen durch Verifikation ersetzt wird.
 
 Das hat eine philosophische Konsequenz: Bitcoin als Technologie ist eine Kodifizierung von Eigentumsrechten, die keine staatliche Durchsetzung braucht. Das Recht an seinen Coins ist kryptographisch gesichert, nicht juristisch. Das ist das libertäre Kernversprechen — Recht durch Code, nicht durch Autorität.
 
@@ -64,6 +64,52 @@ Svanholm & de Wolf verwenden das Bild des politischen Pendels: Gesellschaften sc
 
 Bitcoin ist in dieser Metapher kein Pendel, das zurückschwingt, sondern ein Anker: Es entfernt Geld aus dem Bereich des Pendelns. Geldpolitik kann nicht mehr politisiert werden, wenn Geld dezentral und algorithmisch ist.
 
+### Ideologische Subversion: Bezmenov und die vier Phasen
+
+Um "Clown World" zu erklären, greifen Svanholm & de Wolf auf den KGB-Überläufer Yuri Bezmenov (1939–1993) zurück. Bezmenov beschrieb nach seiner Flucht in den Westen (1970), wie die Sowjetunion primär nicht durch klassische Spionage operierte: Lediglich ~15% des KGB-Budgets flossen in Agenten; ~85% in ideologische Subversion — die schrittweise Umformung von Wahrnehmung und Verhalten ganzer Gesellschaften.
+
+Bezmenov beschreibt vier Phasen:
+
+**Demoralisierung** (15–20 Jahre): Unterwanderung von Werten und Glaubenssätzen einer ganzen Generation — durch Bildungssystem, Medien und Kulturinstitutionen. Einmal etabliert, lässt sich diese Phase nicht mehr durch Fakten umkehren, weil die betroffene Generation nicht mehr in der Lage ist, Fakten auszuwerten.
+
+**Destabilisierung** (2–5 Jahre): Systematische Schwächung von Wirtschaft, Verteidigung und politischen Strukturen.
+
+**Krise** (6 Wochen): Ein plötzlicher Zusammenbruch der gesellschaftlichen Ordnung.
+
+**Normalisierung**: Etablierung einer neuen Ordnung unter dem Deckmantel von "Stabilität" — oft autoritärer als die vorherige.
+
+Svanholm & de Wolf sehen in heutiger Identitätspolitik und "Wokeism" keine organisch entstandenen Bewegungen, sondern Produkte von Anreizstrukturen des Fiat-Systems, verstärkt durch jahrzehntelange Demoralisierung. Bitcoin ist in diesem Kontext nicht nur Geld, sondern Immunsystem: Wer versteht, wie Geld wirklich funktioniert, ist resistenter gegen ideologische Manipulation, weil er echte Werte von konstruierten unterscheiden kann. [[2024_Bitcoin-Inverse-of-Clown-World_Svanholm-de-Wolf]]
+
+### Drei Mittelkategorien: Kapital, Wissen, Verbindungen
+
+Svanholm & de Wolf beschreiben drei Arten von "Mitteln" (means), die jeder Mensch in seiner Lebenspartie einsetzt:
+
+**Kapital:** Physische Besitztümer und Geld — einsetzbar zur Produktion weiterer Güter. Anfällig für Diebstahl, staatlichen Zugriff und Naturkatastrophen.
+
+**Wissen (Skills):** Weniger angreifbar. Wer Bitcoin wirklich versteht, hat damit gleichzeitig ein breiteres Rüstzeug gegen Manipulation erworben — Neugier führt zu Neugier.
+
+**Menschliche Verbindungen:** Die erste Voraussetzung für Interaktion. "Happiness only real when shared" (Christopher McCandless, *Into the Wild*). Bitcoin ändert einen mehr, als man Bitcoin ändern kann.
+
+Bitcoin ist das einzige Geldmedium, das in alle drei Kategorien einzahlt: Es bewahrt Kapital, fördert Wissenserwerb und schafft eine Gemeinschaft mit geteilten Werten. [[2024_Bitcoin-Inverse-of-Clown-World_Svanholm-de-Wolf]]
+
+### Konzepte und Gesetze (Svanholm 2020)
+
+Svanholms "Unabhängigkeit neu gedacht" (2020) sammelt im letzten Kapitel die Gesetze und Effekte, die erklären, warum Bitcoin mehr ist als die Summe seiner Teile. [[2020_Bitcoin-Unabhaengigkeit-neu-gedacht_Svanholm-Herminghaus]]
+
+**Greshams Gesetz und Thiers Gegenprinzip:** Greshams Gesetz besagt, dass schlechtes Geld gutes aus dem Umlauf verdrängt, wenn beide gesetzlich als gleichwertig gelten. Im Bitcoin-Kontext: Wer Schulden in Fiat begleichen muss, behält Bitcoin und gibt Fiat aus — gutes Geld akkumuliert sich, schlechtes zirkuliert. Thiers Umkehrung gilt bei freier Wahl: Wenn niemand gezwungen ist, schlechtes Geld zu akzeptieren, wird gutes Geld bevorzugt. Bitcoin funktioniert nach Thiers Prinzip — freiwillig angenommen, weil strukturell besser.
+
+**Lindy-Effekt:** Je länger eine nicht-vergängliche Sache (Technologie, Idee, Buch) überlebt, desto länger ist ihre verbleibende Lebenserwartung wahrscheinlich. Jedes Jahr, das Bitcoin ohne fundamentalen Zusammenbruch übersteht, erhöht die Wahrscheinlichkeit, dass es noch weitere Jahrzehnte existiert. Im Jahr 2020 war Bitcoin 11 Jahre alt; im Jahr 2026 sind es 17.
+
+**Black Swan:** Nassim Nicholas Taleb definiert einen schwarzen Schwan als Ereignis, das überraschend kommt, massive Wirkung hat und im Nachhinein rationalisiert wird. Bitcoins Entstehung war ein solches Ereignis — niemand glaubte, dass absolute digitale Knappheit möglich ist, bis Satoshi es 2009 bewies.
+
+**Das One-Shot-Prinzip:** Absolute mathematische Knappheit durch Konsens in einem dezentralisierten Netzwerk war eine *Entdeckung*, keine *Erfindung*. Das Entdeckte ist gerade die Unmöglichkeit der Wiederholbarkeit: Ein zweiter Versuch startet nicht dezentral, weil große Akteure ihn sofort dominieren würden; und jede Verschiebung der Coins in eine alternative Chain zeigt, dass absolute Knappheit nicht gilt. Hal Finney (Mai 2011): "Jede erfolgreiche Ersetzung der Bitcoin-Blockchain wird die Glaubwürdigkeit eines jeden Nachfolgers für immer untergraben."
+
+**Roko's Honeybadger:** Als inverse Version des philosophischen Gedankenexperiments "Roko's Basilisk" (das jene bestraft, die an einer KI nicht mitgeholfen haben) belohnt Bitcoin jene, die früh dabei waren — durch Kaufkraftzugewinn, wenn Hyperbitcoinisierung eintritt. Das ist kein Druckmittel, sondern ein positiver Anreiz.
+
+**Nullgrenzkosten-Gesellschaft:** Jeremy Rifkin beschreibt, wie intensive globale Konkurrenz die Grenzkosten der meisten Güter gegen null treibt. Preise für Musik, Bücher, Videos, Kommunikation nähern sich null. Das Paradox: Trotz sinkender Produktionskosten steigen Preise insgesamt, weil Geld die einzige Ware ist, die noch billiger zu produzieren ist als alle anderen. Solides Geld (Bitcoin) würde diesen Effekt umkehren: Preise würden mit steigender Produktivität sinken.
+
+**Erster Hauptsatz der Thermodynamik:** Energie kann in einem isolierten System weder erzeugt noch vernichtet werden. Bitcoin drückt Proof-of-Work als Energieopfer aus — der ins Netzwerk gesteckte Wert kann das System nicht verlassen. Auch wer Bitcoin kauft statt mined, opfert Energie, die durch Arbeit verdient wurde. Svanholm: Der Gesamtwert des Netzwerks kann langfristig nicht sinken, selbst wenn der Preis schwankt — weil die geopferte Arbeit real ist.
+
 ## Related
 
 - [[bitcoin-geld-als-fiktion-und-paradigmenwechsel]]
@@ -72,9 +118,11 @@ Bitcoin ist in dieser Metapher kein Pendel, das zurückschwingt, sondern ein Ank
 - [[kryptoanarchismus-und-cypherpunks]]
 - [[bitcoin-fehlannahmen]]
 - [[selbstverwahrung-und-boersenrisiken]]
+- [[praxeologie-und-oesterreichische-oekonomik]]
 
 ## Open Questions
 
 - Ist das spieltheoretische Gleichgewicht von Bitcoin langfristig stabil, wenn staatliche Akteure massiv Druck ausüben?
 - Wie verhält sich der "Freedom Footprint" zu konkreten regulatorischen Einschränkungen (z.B. CBDC, Reisekostenregel)?
 - Kann Bitcoin die Anreizstruktur verändern, ohne dass eine Mehrheit der Bevölkerung die spieltheoretischen Grundlagen versteht?
+- Gilt Thiers Gesetz nur solange Bitcoin volatil ist — und hört die Fiat-Ausgabepräferenz auf, wenn Bitcoin stabil genug wird?

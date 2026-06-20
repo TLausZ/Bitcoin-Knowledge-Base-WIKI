@@ -1,8 +1,8 @@
 # Shamir Secret Sharing
 
 **Status:** established
-**Last updated:** 2026-06-17
-**Sources:** [[202606_Shamir Secret Sharing-BitcoinDevs]]
+**Last updated:** 2026-06-20
+**Sources:** [[202606_Shamir Secret Sharing-BitcoinDevs]], [[Vorlage für «Poor Man Shamir's Secret Sharing Scheme»]]
 
 ## Summary
 
@@ -60,6 +60,26 @@ Zwei Punkte bestimmen eindeutig eine Gerade. Mit den Punkten (1, 1239) und (2, 1
 Durch einen einzelnen Punkt (z.B. (1, 1239)) laufen unendlich viele Geraden — jede mit einem anderen y-Achsenabschnitt. Ohne den zweiten Punkt ist jedes beliebige Geheimnis gleichwahrscheinlich. Mathematisch gesehen: Der Informationsgehalt eines einzelnen Shares ist Null.
 
 Das ist der Kern der Sicherheitsgarantie — und was SSS von einfacher Aufteilung unterscheidet. Halbiert man eine Seed-Phrase und gibt jedem Hälfte, enthält jede Hälfte echte Information. Bei SSS enthält ein Share unterhalb der Schwelle keine.
+
+### Poor Man's Shamir — Papier-Variante ohne Software
+
+Marc Steiner beschreibt im Buch «Bitcoins verwahren und vererben» (und als Web-Artikel, 2020) eine rein papierbasierte Annäherung an SSS, die ohne Software oder Hardware-Wallet auskommt.
+
+Das Prinzip: Eine 24-Wort-Seed-Phrase wird auf drei Karten so verteilt, dass jede Karte genau 16 Wörter trägt (8 Positionen bleiben leer). Die Verteilung ist symmetrisch:
+
+- Wörter 1–8 stehen auf Karte A und B, nicht auf C
+- Wörter 9–16 stehen auf Karte A und C, nicht auf B
+- Wörter 17–24 stehen auf Karte B und C, nicht auf A
+
+Jede beliebige Kombination aus zwei Karten ergibt alle 24 Wörter. Eine einzelne Karte lässt 8 Wörter im Dunkeln — und 2048⁸ ≈ 2⁸⁸ mögliche Kombinationen sind auch 2025 nicht in vertretbarer Zeit bruteforce-bar.
+
+**Wichtige Einschränkungen:**
+
+Das ist kein echtes SSS. Beim mathematischen SSS ist ein Share unterhalb der Schwelle informationstheoretisch nutzlos — er verrät buchstäblich nichts. Bei Steiners Variante enthält eine gestohlene Karte 16 echte Wörter; ein Angreifer kennt damit ⅔ der Phrase. Die Sicherheit beruht allein auf der Rechenunmöglichkeit, 8 BIP39-Wörter zu erraten — nicht auf einer Informationsgarantie.
+
+Steiner warnt selbst, dass die Sicherheit mit steigender Rechenleistung zu hinterfragen ist.
+
+Stärken des Ansatzes: keine Software, kein Gerät, keine digitale Angriffsfläche. Für Menschen, die keine technische Infrastruktur aufbauen wollen, ist es ein praktikabler Einstieg — solange die 8-Wort-Sicherheitsmarge dem eigenen Risikoprofil entspricht. [[Vorlage für «Poor Man Shamir's Secret Sharing Scheme»]]
 
 ### Unterschied zu Multisig
 

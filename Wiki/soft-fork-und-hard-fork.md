@@ -2,7 +2,7 @@
 
 **Status:** established
 **Last updated:** 2026-06-20
-**Sources:** [[20241114_soft-fork-oder-hard-fork-was-ist-der-unterschied]], [[blocksizewar]]
+**Sources:** [[20241114_soft-fork-oder-hard-fork-was-ist-der-unterschied]], [[blocksizewar]], [[2018_Grokking-Bitcoin_Rosenbaum]]
 
 ## Summary
 
@@ -41,6 +41,24 @@ Eine Hard Fork lockert die Regeln — der Satz gültiger Blöcke wird größer. 
 ### Was Soft Forks nicht automatisch bedeuten
 
 Soft Forks sind nicht automatisch sicherer oder harmloser. Ein Soft Fork kann theoretisch jede Änderung implementieren — SegWit hat die effektive Blockgröße durch cleveres Redesign erhöht, ohne das eigentliche Limit zu ändern. Debatten über Bitcoin-Upgrades sollten sich auf die tatsächliche Änderung und ihre Auswirkungen konzentrieren, nicht auf die Fork-Bezeichnung.
+
+### Deployment-Mechanismen: MASF vs. UASF
+
+Es gibt zwei Wege, einen Soft Fork zu aktivieren (Rosenbaum, Kap. 11):
+
+**MASF — Miner-Activated Soft Fork:** Miner signalisieren Bereitschaft durch Setzen eines Bits im Block-Versionfeld. Sobald eine ausreichende Schwelle (z.B. 95% der Blöcke in einem 2016-Block-Fenster) erreicht ist, wird der Soft Fork aktiviert. BIP9 codifiziert diesen Mechanismus. Vorteil: Keine plötzliche Chain-Trennung. Nachteil: Einzelne große Miner können ein Upgrade blockieren ("Veto"), selbst wenn die wirtschaftliche Mehrheit der Nutzer es will.
+
+**UASF — User-Activated Soft Fork:** Nodes (nicht Miner) setzen einen fixen Aktivierungs-Zeitpunkt. Ab diesem Datum lehnen sie Blöcke ab, die die neue Regel nicht befolgen — unabhängig vom Miner-Signaling. Miner werden dadurch gezwungen, die neuen Regeln einzuhalten, wenn sie ihre Blöcke nicht verlieren wollen. BIP148 war der bekannteste UASF, der SegWit 2017 letztlich erzwang.
+
+Kernkonzept: **Die wirtschaftliche Mehrheit bestimmt die Regeln.** Exchanges, Wallet-Anbieter und Nutzer — die zusammen den ökonomischen Wert von Bitcoin ausmachen — entscheiden durch die Wahl ihrer Software letztlich, welche Chain "Bitcoin" ist. Miner können Blöcke produzieren, aber wenn Exchanges und Nutzer diese Blöcke nicht akzeptieren, sind die Coins wertlos. Der Blocksize-Krieg ist das praktische Beweis: Die Miner-Mehrheit signalisierte SegWit2x, die Nutzer lehnten ab — SegWit2x scheiterte. [[2018_Grokking-Bitcoin_Rosenbaum]]
+
+### Wipeout- und Replay-Schutz bei Hard Forks
+
+Bei einem Hard Fork entstehen zwei parallele Chains. Zwei technische Schutzmaßnahmen sind nötig:
+
+**Wipeout Protection:** Verhindert, dass Nodes der einen Chain durch die andere Chain "überschrieben" werden. Ohne Schutz könnte die längere Alt-Chain-Kette eine kürzere New-Chain-Kette reorganisieren und Transaktionen rückgängig machen. Wipeout Protection sorgt dafür, dass Blöcke der neuen Chain von alten Nodes als ungültig erkannt werden — keine Reorganisation über die Chainspaltung hinweg möglich.
+
+**Replay Protection:** Ohne Schutz würde eine gültige Transaktion auf Chain A auch auf Chain B gültig sein — denn die Signatur deckt nicht ab, für welche Chain sie bestimmt ist. Ein Angreifer (oder auch ein unwissender Nutzer) könnte Transaktionen von Chain A auf Chain B "abspielen". Replay Protection macht Transaktionen chainspezifisch durch Einführung eines Chain-ID-Feldes (z.B. via SIGHASH-Modifikation). Bitcoin Cash implementierte Replay Protection sofort beim Fork; SegWit2x hätte sie nicht gehabt — ein weiterer Kritikpunkt. [[2018_Grokking-Bitcoin_Rosenbaum]]
 
 ### Zufällige Chainsplits
 

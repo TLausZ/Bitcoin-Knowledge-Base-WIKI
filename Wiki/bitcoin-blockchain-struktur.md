@@ -51,9 +51,9 @@ Die Höhe eines Blocks gibt seine Position in der Blockchain an. Der Genesis-Blo
 
 Zwei kritische Ereignisse in Bitcoin sind an bestimmte Höhenintervalle gebunden:
 
-**Difficulty-Anpassung** — alle 2.016 Blöcke (~2 Wochen). Hält den 10-Minuten-Rhythmus aufrecht, wenn Miner dem Netzwerk beitreten oder es verlassen.
+**Difficulty-Anpassung:** alle 2.016 Blöcke (~2 Wochen). Hält den 10-Minuten-Rhythmus aufrecht, wenn Miner dem Netzwerk beitreten oder es verlassen.
 
-**Block-Subsidy-Halving** — alle 210.000 Blöcke (~4 Jahre). Das Halving halbiert die neu erzeugten Bitcoin pro Block und erzeugt so das fixe Angebot von 21 Millionen. Die Subsidy startete bei 50 BTC, sinkt bei jeder Halbierung weiter; bei Höhe 6.930.000 (nach 33 Halvings) erreicht sie null.
+**Block-Subsidy-Halving:** alle 210.000 Blöcke (~4 Jahre). Das Halving halbiert die neu erzeugten Bitcoin pro Block und erzeugt so das fixe Angebot von 21 Millionen. Die Subsidy startete bei 50 BTC, sinkt bei jeder Halbierung weiter; bei Höhe 6.930.000 (nach 33 Halvings) erreicht sie null.
 
 Die Höhe wird auch für Locktime und Relative Locktime verwendet, um Transaktionen erst ab einer bestimmten Block-Höhe minebar zu machen.
 

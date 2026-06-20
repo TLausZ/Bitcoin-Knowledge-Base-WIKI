@@ -37,7 +37,7 @@ Exportierte Label-Dateien enthalten nicht nur Transaktionsnotizen, sondern auch 
 - Import: Textdatei (`.txt` oder `.jsonl`) auswählen
 - Manche Wallets erfordern die Endung `.jsonl` — ggf. Datei umbenennen
 
-Labels werden nicht in Echtzeit zwischen Wallets synchronisiert — das ist eine bewusste Designentscheidung, da Wallet-Software-Instanzen grundsätzlich nicht kommunizieren.
+Labels werden nicht in Echtzeit zwischen Wallets synchronisiert, was eine bewusste Designentscheidung ist: Wallet-Software-Instanzen kommunizieren grundsätzlich nicht miteinander.
 
 ## Related
 

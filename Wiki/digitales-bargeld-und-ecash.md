@@ -54,7 +54,7 @@ b-money löst das Double-Spend-Problem durch dezentralen Konsens statt durch ein
 
 Bitcoin löst das Double-Spend-Problem ohne vertrauenswürdige dritte Partei — durch den dezentralen Konsens aller Knoten über die Blockchain. Es ist das erste System, das Chaums kryptographische Ziele erreicht (kein Dritter kennt alle Transaktionsdetails), aber ohne den strukturellen Fehler von eCash (zentraler Emittent).
 
-Technisch ist Bitcoin weniger anonym als Chaums eCash: Transaktionen sind auf der Blockchain öffentlich nachvollziehbar, Adressen sind pseudonym, nicht anonym. Aber es ist zensurresistent — niemand kann eine Bitcoin-Transaktion präventiv blockieren — und dezentral — kein einzelner Emittent kann das System abschalten.
+Technisch ist Bitcoin weniger anonym als Chaums eCash: Transaktionen sind auf der Blockchain öffentlich nachvollziehbar, Adressen sind pseudonym, nicht anonym. Aber es ist zensurresistent (niemand kann eine Bitcoin-Transaktion präventiv blockieren) und dezentral (kein einzelner Emittent kann das System abschalten).
 
 Lösungsversuche für Bitcoin-Privatsphäre (CoinJoin, Silent Payments, Lightning) versuchen, die Anonymitätseigenschaft von eCash in einem dezentralen System nachzubilden.
 

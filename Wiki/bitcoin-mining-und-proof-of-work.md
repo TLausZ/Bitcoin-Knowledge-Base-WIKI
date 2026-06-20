@@ -1,8 +1,8 @@
 # Bitcoin Mining und Proof of Work
 
 **Status:** established
-**Last updated:** 2026-06-19
-**Sources:** [[20250327_wie-funktioniert-bitcoin-mining-eigentlich]], [[20260424_wie-das-21-millionen-limit-von-bitcoin-tatsächlich-durchgesetzt-wird]], [[learnmeabitcoin-beginners-guide-mining]], [[learnmeabitcoin-beginners-guide-difficulty]], [[learnmeabitcoin-technical-mining-overview]], [[learnmeabitcoin-technical-mining-candidate-block]], [[learnmeabitcoin-technical-mining-target]], [[learnmeabitcoin-technical-mining-coinbase-transaction]], [[learnmeabitcoin-technical-mining-block-reward]], [[learnmeabitcoin-technical-mining-memory-pool]]
+**Last updated:** 2026-06-20
+**Sources:** [[20250327_wie-funktioniert-bitcoin-mining-eigentlich]], [[20260424_wie-das-21-millionen-limit-von-bitcoin-tatsächlich-durchgesetzt-wird]], [[learnmeabitcoin-beginners-guide-mining]], [[learnmeabitcoin-beginners-guide-difficulty]], [[learnmeabitcoin-technical-mining-overview]], [[learnmeabitcoin-technical-mining-candidate-block]], [[learnmeabitcoin-technical-mining-target]], [[learnmeabitcoin-technical-mining-coinbase-transaction]], [[learnmeabitcoin-technical-mining-block-reward]], [[learnmeabitcoin-technical-mining-memory-pool]], [[On the Instability of Bitcoin Without the Block Reward]], [[20240924_Economic Limits Crypto Blockchains - QJE Sept 2024]]
 
 ## Summary
 
@@ -59,6 +59,21 @@ Alle 2016 Blöcke (~zwei Wochen) passt das Bitcoin-Protokoll den Zielwert automa
 
 Die Schwierigkeitsanpassung ist eine der elegantesten Selbstregulierungen im Protokoll: stabile Blockzeit, egal ob 100 oder 1.000.000 Miner aktiv sind.
 
+### Wie viele Confirmations braucht man?
+
+Eine Confirmation bedeutet: der Block mit der Transaktion wurde gemined, und danach wurde ein weiterer Block darauf gebaut. Sechs Confirmations (~1 Stunde) ist der klassische Standard, aber die richtige Zahl hängt vom Wert der Transaktion ab.
+
+Die Logik: Ein Angreifer, der eine Zahlung rückgängig machen will, muss heimlich eine längere alternative Chain aufbauen. Je mehr Confirmations die ehrliche Chain angesammelt hat, desto mehr Rückstand muss der Angreifer aufholen. Mit q% des globalen Hashrates sinkt die Erfolgswahrscheinlichkeit exponentiell mit der Anzahl der aufzuholenden Blöcke.
+
+Rosenbaum illustriert das an einer Angreiferin mit 36% Hashrate: Nach 6 Confirmations liegt sie 2 Blöcke hinter der ehrlichen Chain, die Wahrscheinlichkeit des Einholens ist klein — sie gibt auf. Bei nur 1 Confirmation wären ihre Chancen noch substanziell gewesen.
+
+Praktische Orientierung:
+- Kleiner Betrag (Kaffee): 0–1 Confirmations. Das wirtschaftliche Angriffspotenzial übersteigt den Aufwand nicht.
+- Mittlerer Betrag (Wochenlohn): 6 Confirmations (~1 Stunde).
+- Grosser Betrag: mehr Confirmations proportional zum Wert, da hoher Wert einen höheren Angreiferaufwand rechtfertigt.
+
+Null-Confirmations sind nicht bedeutungslos: Nodes relayieren nur Transaktionen, die im Mempool gültig sind, und ein Doppelauszahlungsversuch braucht Mining-Macht. Bei kleinen Beträgen in vertrauenswürdiger Umgebung ist das Risiko vertretbar. [[2018_Grokking-Bitcoin_Rosenbaum]]
+
 ### Warum Proof of Work das Netzwerk sichert
 
 Der physische Aufwand ist der eigentliche Sicherheitsmechanismus. Um einen Block rückwirkend zu verändern — z.B. eine Zahlung rückgängig zu machen — müsste ein Angreifer:
@@ -100,7 +115,19 @@ Miner verdienen zwei Einnahmeströme:
 - 2024: 3,125 BTC
 - ~2140: letzte Satoshi gemined — keine Subsidy mehr
 
-**Transaktionsgebühren:** Jede Transaktion enthält eine Gebühr, die der Miner-des-Blocks einstreicht. Langfristig — wenn die Subsidy gegen null geht — müssen Gebühren allein die Mining-Profitabilität und damit die Netzwerksicherheit tragen. Das ist eine offene, wichtige Frage.
+**Transaktionsgebühren:** Jede Transaktion enthält eine Gebühr, die der Miner-des-Blocks einstreicht. Langfristig müssen Gebühren die wegfallende Subsidy ersetzen. Ob das ausreicht, ist eine offene ökonomische Frage — kein bewiesenes Merkmal des Protokolls.
+
+### Langfristige Sicherheit: Gebühren als Ersatz für die Subsidy
+
+Ob Transaktionsgebühren langfristig die Subsidy als Sicherheitsbudget ersetzen können, ist eine offene ökonomische Frage. Zwei Peer-reviewed-Arbeiten zeigen die zentralen Probleme.
+
+**Stabilitätsproblem (Carlsten et al., ACM CCS 2016):** Ob Miner per Block Reward oder Transaktionsgebühren bezahlt werden, ist *nicht* sicherheitsneutral. Der Kern: Ohne gleichmässige Subsidy ist die Varianz der Erträge pro Block sehr hoch, weil die Block-Ankunftszeit exponentialverteilt ist und Gebühren im Mempool akkumulieren. Ein Miner hat damit einen Anreiz, einen «reichen» Block zu forken, um dessen Gebühren zu entwenden — statt ehrlich auf der längsten Kette aufzubauen (**Undercutting-Angriff**). Das Ergebnis: unerwünschte Gleichgewichte oder gar keine stabilen Gleichgewichte. Selfish Mining wird zusätzlich für Miner mit beliebig niedrigem Hashrate-Anteil profitabel. [[On the Instability of Bitcoin Without the Block Reward]]
+
+**Budget-Problem (Budish, QJE 2024):** Ein Drei-Gleichungs-Argument — Zero-Profit-Bedingung plus Anreizkompatibilität gegen Mehrheitsangriffe — zeigt, dass die laufenden Kosten des Vertrauens linear mit dem möglichen Angriffswert skalieren müssen. Das ist in absoluten Zahlen sehr teuer; in manchen Szenarien übersteigt das benötigte Sicherheitsbudget das globale BIP. Der Schlüsselkontrast zu Rule-of-Law-Vertrauen: Ein Rechtsstaat zahlt einmal fixe Infrastrukturkosten und schützt damit beliebig viele Transaktionen zu null Grenzkosten. Nakamoto-Vertrauen hat keine solchen Skaleneffekte. [[20240924_Economic Limits Crypto Blockchains - QJE Sept 2024]]
+
+**Optimistische Gegenposition:** Blockplatz ist knapp. Wächst die Nutzung, steigt der Bietwettbewerb um Blockplatz und damit die Gebührensumme. Lightning und Second-Layer-Protokolle erhöhen den Wert pro On-Chain-Transaktion, weil nur settlement-kritische Vorgänge die Blockchain belasten. Ob dieser Mechanismus rechtzeitig und in ausreichender Grössenordnung einsetzt, ist offen.
+
+Als letzter Ausweg wären Protokolländerungen denkbar, etwa eine permanente Mini-Inflation. Jede davon widerspricht dem 21-Millionen-Limit und wäre politisch hochumstritten. Siehe [[bitcoin-geldpolitik-und-21-millionen-limit]].
 
 ### Geographische Verteilung
 
@@ -119,7 +146,7 @@ Heute (2025): USA dominiert mit ~35–40% (Texas als Zentrum), gefolgt von Nordi
 
 ## Open Questions
 
-- Wie entwickeln sich Mining-Anreize, wenn Block-Subsidy ausläuft — reichen Gebühren allein für ausreichende Netzwerksicherheit?
+- Reichen Gebühren allein für ausreichende Netzwerksicherheit? Budget-Argument (Budish, QJE 2024) und Stabilitätsargument (Carlsten et al., CCS 2016) zeigen ernste Probleme. Optimistische Gegenposition: Blockplatz-Knappheit + Second Layer. Ausgang unbekannt. Siehe `Outputs/2026-06-20_miner-incentives-nach-halving.md`.
 - Führt ASIC-Dominanz zur dauerhaften Mining-Zentralisierung, oder entstehen neue Dezentralisierungsmechanismen?
 - Wie lange bleibt das 51%-Angriffs-Modell sicher bei fortschreitender Pool-Konzentration?
 - Sind Alternativen zu Proof of Work (Proof of Stake, etc.) vergleichbar sicher — oder tauschen sie Energieaufwand gegen andere Schwachstellen?

@@ -1,8 +1,8 @@
 # Bitcoin-Netzwerk und Nodes
 
 **Status:** established
-**Last updated:** 2026-06-19
-**Sources:** [[learnmeabitcoin-beginners-guide-network]], [[learnmeabitcoin-beginners-guide-node]], [[learnmeabitcoin-technical-networking-overview]], [[learnmeabitcoin-technical-networking-node]], [[learnmeabitcoin-technical-networking-magic-bytes]]
+**Last updated:** 2026-06-20
+**Sources:** [[learnmeabitcoin-beginners-guide-network]], [[learnmeabitcoin-beginners-guide-node]], [[learnmeabitcoin-technical-networking-overview]], [[learnmeabitcoin-technical-networking-node]], [[learnmeabitcoin-technical-networking-magic-bytes]], [[2018_Grokking-Bitcoin_Rosenbaum]]
 
 ## Summary
 
@@ -63,6 +63,38 @@ Nodes verbinden sich über **TCP auf Port 8333** (Mainnet). Seit Bitcoin Core v2
 - `ping`/`pong` halten die Verbindung aktiv
 
 **v2 Transport (BIP 324):** Verschlüsselt den gesamten Nachrichteninhalt mit ChaCha20-Poly1305. Verhindert Traffic-Analyse durch ISPs und passive Überwacher. Seit Bitcoin Core v27.0 Standard.
+
+### Node-Bootstrapping: Wie ein neuer Node Peers findet
+
+Ein frisch installierter Node kennt keine anderen Nodes. Bitcoin löst das in drei Stufen (Rosenbaum, Kap. 8):
+
+**DNS Seeds (erste Wahl):** Bitcoin Core hat mehrere hartcodierte DNS-Hostnamen eingebaut (z.B. `seed.bitcoin.sipa.be`, `dnsseed.bluematt.me`). Diese DNS-Server antworten mit IP-Adressen aktiver Nodes. Das ist die schnellste Methode für neue Nodes.
+
+**Hartcodierte IPs (Fallback):** Wenn DNS Seeds nicht erreichbar sind, enthält Bitcoin Core eine Liste hartcodierter IP-Adressen als Startpunkt.
+
+**Addr-Gossip (laufender Betrieb):** Sobald ein Node verbunden ist, teilen Peers ihre bekannten Adressen über `addr`-Nachrichten. Nodes speichern eine lokale Datenbank (`peers.dat`) mit bis zu tausenden bekannter Adressen. Bei einem Neustart nutzt der Node diese gespeicherten Adressen statt DNS Seeds.
+
+Ein Node verbindet sich typischerweise mit 8–16 Peers gleichzeitig, um Zensurresistenz zu erhöhen: Ein einzelner bösartiger Peer kann keine Informationen zurückhalten, wenn der Node viele unabhängige Verbindungen hat. [[2018_Grokking-Bitcoin_Rosenbaum]]
+
+### Initial Block Download (IBD) und Signatur-Skipping
+
+Ein neuer Node muss die gesamte Blockchain herunterladen und validieren — das dauert Stunden bis Tage. Bitcoin Core optimiert diesen Prozess:
+
+**Signatur-Skipping:** Signaturen in Blöcken bis zu einem bestimmten "assumed valid block" (tief in der Vergangenheit) werden nicht validiert. Da diese Blöcke Teil der längsten Chain sind und bereits von tausenden Nodes bestätigt wurden, ist das Risiko einer Fälschung praktisch null. Das spart bei IBD erheblich Zeit.
+
+**Parallel-Download:** Blöcke werden von mehreren Peers gleichzeitig heruntergeladen, nicht sequenziell.
+
+**Assumeutxo (neuere Optimierung):** Ermöglicht, nur das aktuelle UTXO-Set zu laden (statt die gesamte Blockchain) und die Validierung der Vergangenheit im Hintergrund nachzuholen. [[2018_Grokking-Bitcoin_Rosenbaum]]
+
+### SPV-Nodes: Lightweight Wallets
+
+Ein **SPV-Node** (Simplified Payment Verification, Satoshi Whitepaper §8) lädt nur Block-Header, nicht die vollständigen Blöcke. Das spart Bandbreite und Speicher drastisch.
+
+Block-Header sind 80 Bytes pro Block — für die gesamte Blockchain bis 2024 ca. 60 MB statt ~852 GB für die volle Chain.
+
+Ein SPV-Node kann nicht selbst prüfen, ob eine Transaktion gültig ist — er prüft nur, dass der Block-Header in der längsten Chain liegt und dass die Transaktion per Merkle-Proof im entsprechenden Block enthalten ist. Das bedeutet: Er vertraut darauf, dass Miner keine ungültigen Transaktionen bestätigen.
+
+SPV-Nodes müssen Peers nach Transaktionen fragen, die für ihre Adressen relevant sind. Das führt zu Privatsphäre-Problemen: Welche Adressen abgefragt werden, verrät den Peers viel. Bloom-Filter (BIP37) sollten dieses Problem lösen, leaken aber immer noch Information. Neuere SPV-Implementierungen nutzen neuronale Filteransätze oder vermeiden das Problem durch neuere Protokoll-Designs. [[2018_Grokking-Bitcoin_Rosenbaum]]
 
 ### Dezentralisierung als Kernmerkmal
 

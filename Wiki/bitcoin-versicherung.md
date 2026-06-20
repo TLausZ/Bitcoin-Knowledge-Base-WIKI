@@ -27,7 +27,7 @@ Versichert sind die BitBox02 und die darauf gesicherten Bitcoin. Keine privaten 
 
 ### Kein Custody-Risiko
 
-Der entscheidende Unterschied zur Verwahrung bei einer Börse: Der Versicherer hat keinen Zugriff auf die Coins. Wenn ein Schadensfall eintritt, zahlt Bitsurance Fiat-Wert — kein privater Schlüssel wird enthüllt, und die Versicherungsbeziehung erzeugt kein Gegenparteirisiko auf die Coins selbst.
+Der entscheidende Unterschied zur Verwahrung bei einer Börse: Der Versicherer hat keinen Zugriff auf die Coins. Wenn ein Schadensfall eintritt, zahlt Bitsurance Fiat-Wert, ohne dass ein privater Schlüssel enthüllt wird. Die Versicherungsbeziehung erzeugt kein Gegenparteirisiko auf die Coins selbst.
 
 ### Integration in die BitBoxApp
 

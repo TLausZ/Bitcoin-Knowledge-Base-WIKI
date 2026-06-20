@@ -1,6 +1,6 @@
 # Bitcoin KB — Wiki Index
 
-Alle Artikel alphabetisch. Stand: 2026-06-20 (nach Compile Pass 29)
+Alle Artikel alphabetisch. Stand: 2026-06-20 (nach Compile-Pass 32: neuer Artikel bitcoin-als-inflationsschutz, 98 Artikel total)
 
 | Artikel | Status | Beschreibung |
 |---------|--------|-------------|
@@ -8,12 +8,15 @@ Alle Artikel alphabetisch. Stand: 2026-06-20 (nach Compile Pass 29)
 | [[anti-klepto-und-supply-chain-sicherheit]] | established | Anti-Klepto (Nonce-Schutz gegen Seed-Extraktion); Dark Skippy (2 Signaturen = 12 Wörter); Supply-Chain-Attestation (Challenge-Response); Evil-Maid-Angriff; RAM-Seed-Verschlüsselung |
 | [[biometrie-und-finanzueberwachung]] | established | Biometrische Bankdaten: echte vs. behauptete Motive (Betrug vs. Kundenbindung/Überwachung); behavioral Biometrics überlegen; Vietnam/China/Indien/EU-Parallelen; Chilling Effect auf Grundrechte; Bitcoin als identitätsfreie Alternative |
 | [[bitcoin-fehlannahmen]] | established | 10 häufige Missverständnisse widerlegt: kein Nutzen, zu langsam, kein innerer Wert, Nullsumme, Verbots-Risiko, zu spät, Umwelt, Quantencomputer, Altcoins, Skalierung |
-| [[bitcoin-powerlaw-und-preismodelle]] | established | Mechanistische Herleitung des Bitcoin Power Law (β=5.69): kubisches Adoptionswachstum (βA=3.046) × Metcalfe-Skalierung (βM=1.838); R²=0.961 über 5.696 Datenpunkte; falsifizierbar |
+| [[bitcoin-als-inflationsschutz]] | emerging | Strukturell (21M-Limit, kein Cantillon-Effekt) + empirisch (3%+ BTC schützt konsistent 2018–2024, RDF-Analyse); Gold-Vergleich; kurzfristig schwacher, langfristig konsistenter Schutz; Volatilitätsvorbehalt |
+| [[bitcoin-als-strategische-reserve]] | emerging | Bitcoin als Staatsfonds-Asset: El Salvador/Bhutan/USA-Precedenz; Best Practices Custody/Governance; kontrafaktische RDF-Analyse 2018–2024 (3%+ BTC schützt real gegen Inflation); Timing-Risiken |
+| [[bitcoin-powerlaw-und-preismodelle]] | established | Power Law (β=5.69, mechanistisch); Angebot-Nachfrage-Modell Rudd & Porter (JRFM 2025): 50% Wahrscheinlichkeit >5,17 Mio. USD bis April 2036; Liquid Supply als Schlüsselhebel |
 | [[blocksize-war]] | established | Der Blocksize-Krieg 2015–2017: Big-Blocker vs. Small-Blocker; Bitcoin XT → Classic → Unlimited → BTC1/SegWit2x; UASF, NYA, BIP 91; SegWit-Aktivierung Aug 2017; Bitcoin Cash; Small-Blocker-Sieg Nov 2017 |
 | [[bitcoin-mining-umwelt]] | established | Bitcoin Mining und Umwelt: 87,5% peer-reviewed Papers positiv; 4 Mechanismen (Demand Response, Curtailment, Methan, Abwärme); Texas $18Mrd. Einsparung; Finnland District Heating; Cambridge 2025: 52,4% nachhaltige Energie; Wandel von 2021→2025 |
 | [[bitcoin-kaufen-und-dca]] | established | Kaufwege (P2P: Hodl Hodl/Bisq/Peach; ATM; OTC); DCA; Direktkauf in Hardware-Wallet (Pocket Bitcoin, Relai); KYC-light; Timing-Paradox; Anfängerfehler |
 | [[bitcoin-versicherung]] | emerging | Bitsurance: erste Versicherung für selbst verwahrte Bitcoin; Schutz gegen physische Risiken (Raub, Feuer, Erpressung, Naturkatastrophen); kein Custody-Risiko |
 | [[bitcoin-rechtliche-angriffe]] | established | Rechtsstreit als Angriff auf Bitcoin; Craig Wright vs. Hodlonaut (Norwegen, Sieg Oktober 2022); OpenSats Legal Defense Fund; Shift Crypto Spende $10k |
+| [[craig-wright-faketoshi]] | established | Craig Wright: Faketoshi-Behauptung 2016, BCH Hash War 2018, juristische Offensive (Hodlonaut/McCormack/Kleiman/Tulip Trading), COPA v. Wright 2024 (Urteil: nicht Satoshi, Dokumente gefälscht) |
 | [[fortego-backup-sicherheit]] | established | Double Responsibility Problem (Verlust vs. Diebstahl); Fortego CodeBook-Trennung; absolute Seed-Phrase-Regel; Sicherheitsarchitektur (Protokollierung, Verschlüsselung, Geo-Backup); Vergleich Backup-Ansätze |
 | [[firmware-verifikation-und-reproduzierbarkeit]] | established | Reproduzierbare Builds: selber Code → selbe Binärdatei; Docker-Kompilierung; Hash-Vergleich; Community-Bestätigungen |
 | [[bitcoin-whitepaper]] | established | Satoshi Nakamotos Original-Whitepaper: Double-Spend-Problem, PoW, UTXO-Modell, SPV, Incentive-Mechanismus |
@@ -33,6 +36,7 @@ Alle Artikel alphabetisch. Stand: 2026-06-20 (nach Compile Pass 29)
 | [[bitcoin-only-vs-multi-edition]] | established | Bitcoin-only (~25% weniger Code) vs. Multi (Altcoins, U2F); gleiche Hardware, unwiderrufliche Firmware-Wahl |
 | [[bitcoin-vaults]] | emerging | Verzögerte Auszahlungen + Wiederherstellungspfad; benötigt Covenants für vollständige Umsetzung |
 | [[bitbox02-nova]] | established | BitBox02 Nova: iPhone-Support via Whisper/BLE, EAL6+ Chip, OLED-Glasdisplay |
+| [[coin-control-und-utxo-auswahl]] | established | Manuelle UTXO-Auswahl als Datenschutzwerkzeug; Common Input Ownership Heuristic; CoinJoin-Vorbereitung; Umsetzung in Sparrow, Electrum, BitBoxApp |
 | [[coinjoin-und-on-chain-privatsphäre]] | established | CoinJoin: gleiche Output-Beträge machen Transaktionen unzuordenbar; Samourai/Wasabi-Situation 2024 |
 | [[cypherpunk-manifest]] | established | Eric Hughes (1993): Privatsphäre als Grundrecht im digitalen Raum; Kryptographie als einziges wirksames Werkzeug; "Cypherpunks write code"; Vorläufer von Bitcoin |
 | [[kryptoanarchismus-und-cypherpunks]] | established | Cypherpunk-Bewegung 1986–2022: Hacker-Ethik, Timothy Mays Kryptoanarchismus, Barlow-Deklaration, PGP, Krypto-Kriege; direkte Vorgeschichte von Bitcoin |
@@ -41,7 +45,7 @@ Alle Artikel alphabetisch. Stand: 2026-06-20 (nach Compile Pass 29)
 | [[digitale-signaturen-ecdsa]] | established | ECDSA-Grundprinzip; r (Zufallspunkt auf elliptischer Kurve) + s (Private Key + Transaktions-Hash); Bindung an Transaktionsdaten verhindert Replay; Verifikation ohne Private Key; Einmaligkeit von k; Schnorr als Nachfolger |
 | [[digitales-bargeld-und-ecash]] | established | Chaums eCash (1989), Hal Finneys Analyse (1994), Wei Dais b-money (1998), Van Valkenburghs "geheimes Recht auf Bargeld" (2017); digitales Bargeld vor Bitcoin; dezentrales Geld als Lösung |
 | [[digitales-zeitstempel]] | established | Haber & Stornetta (1991): Hash-verkettete Dokumente; Bayer/Haber/Stornetta (1992): Merkle-Bäume für Timestamping; Massias et al.: minimales Vertrauen; direkte strukturelle Vorstufe der Bitcoin-Blockchain; Satoshi zitiert Haber & Stornetta 3× im Whitepaper |
-| [[bitcoin-vererbung]] | emerging | Praktische Vererbungsplanung für Bitcoin: Dokumentation für Erben, 2-von-3-Multisig, Liana-Wallet-Timer, Testament und Notar; Marc Steiner (2020) |
+| [[bitcoin-vererbung]] | established | Marc Steiner (2020): Nachlassplan-Struktur (2 Schichten), 8 Musterabläufe (#1 Grundvariante bis #8 2-von-3-Multisig), Materialien (Laserdrucker, Spezialpapier, Metall-Seed-Speicher), Erben-Erstanleitung, rechtliche Absicherung CH/DE/AT |
 | [[ideal-money-und-bitcoin]] | speculative | John Nashs "Ideal Money"-Konzept; Bitcoin als mögliche Realisierung; Praxeologie der Privatsphäre (Mises/Hayek); österreichische Ökonomik und Bitcoin |
 | [[bitcoin-geld-als-fiktion-und-paradigmenwechsel]] | established | Svanholm 2020: Piaget Akkommodation; Geld als intersubjektive Fiktion; Bitcoin-Knappheit objektiv prüfbar; Fiat als monetäres Krebsgeschwür; Hyperbitcoinisierung |
 | [[bitcoin-spieltheorie-und-anreize]] | established | Svanholm & de Wolf 2024: Spieltheorie, Prisoner's Dilemma, katallaktischer vs. biologischer Wettbewerb; Bitcoin als Anreizinversion des Fiat-Systems; Freedom Footprint |
@@ -55,6 +59,7 @@ Alle Artikel alphabetisch. Stand: 2026-06-20 (nach Compile Pass 29)
 | [[lightning-rebalancing]] | established | Lightning Rebalancing: Channel-Imbalance durch Routing; 3 Strategien (Circular Payments, Fee Management, Splices); Intermediate vs. Edge Node |
 | [[nunchuk-wallet]] | established | Nunchuk (2025/2026): Bitcoin-only Assisted Multisig (phone watch-only); BSMS-Interoperabilität; 2 Inheritance-Protokolle (On-Chain Miniscript autonom, Off-Chain flexibel); Recovery mit Sparrow/Bitcoin Core |
 | [[core-lightning-26-06]] | established | CLN 26.06 (2026-06-04): xpay als Standard; Quantum-Resistant Channels; bwatch-Architektur für Block-Processing; Splicing-Fixes; graceful Shutdown; BOLT12-Proofs |
+| [[lightning-netzwerk-grundlagen]] | established | Zahlungskanäle, lokale/Remote-Balance, Inbound-Kapazitätsproblem, HTLCs, Onion Routing; Eigenbetrieb vs. LSP; Submarine Swaps |
 | [[lightning-address-datenschutz]] | established | Lightning Address Datenschutz: LNURL-Server-Sichtbarkeit; Spark-Doxxing via Routing Hints (reneaaron Tool); permanente Kennung in Invoices; Gegenmaßnahmen (BOLT12, self-hosted) |
 | [[diceware-und-seed-generierung]] | established | Eigenen Bitcoin-Seed mit Casino-Würfeln erzeugen; BitBox02 berechnet gültiges 24. Wort; BIP-39-kompatibel; Akt persönlicher Souveränität ohne Gerätevertrauen für Entropie |
 | [[electrum-wallet]] | established | Electrum: Setup mit BitBox02, Server-Wahl (eigener EPS empfohlen), Adressformate, Ableitungspfade, Coin Control, RBF, Pay-to-many, Watch-only, Tor-Integration |
@@ -92,7 +97,8 @@ Alle Artikel alphabetisch. Stand: 2026-06-20 (nach Compile Pass 29)
 | [[transaktionsgebuehren-und-mempool]] | established | Blockgröße (begrenzt), Miner-Incentive (sat/vByte), Mempool (mempool.space/jochen-hoenicke.de), Priorität-Auswahl in BitBoxApp; Zusammenhang mit UTXO-Konsolidierung |
 | [[utxo-modell-und-konsolidierung]] | established | UTXO-Modell erklärt; Gebührenberechnung; UTXO-Konsolidierung in Niedriggebühren-Phasen |
 | [[wallet-backup-strategien]] | established | HD-Wallet-Mechanismus (einmal = dauerhaft); 5 häufige Fehler; 4 Sicherungsmethoden (Passphrase, 2-von-3, Multisig); Steelwallet; Vererbungsplanung |
+| [[walletconnect-und-dapps]] | established | WalletConnect-Protokoll (QR-Pairing); BitBoxApp-DApp-Integration; nur Ethereum Mainnet + Multi Edition; Sicherheitshinweise bei Smart-Contract-Interaktion |
 
 | [[wie-funktioniert-bitcoin]] | established | Bitcoin als Programm + Netzwerk; Double-Spend-Problem; Blockchain als geteiltes Kassenbuch; Mining-Sicherheit; Longest-Chain-Regel; UTXOs; kryptografische Schlüssel — Gesamtüberblick für Einsteiger |
 
-*86 Artikel, basierend auf 229 RAW-Quellen.*
+*88 Artikel, basierend auf 353 RAW-Quellen (inkl. 6 EPUBs aus Svanholm/Steiner/Rosenbaum).*

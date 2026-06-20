@@ -1,8 +1,8 @@
 # Bitcoin Mining und Umwelt
 
 **Status:** established
-**Last updated:** 2026-06-19 (Pass 24: vollständig restrukturiert, 14 Quellen)
-**Sources:** [[20251031_How Bitcoin Mining Keeps Energy Prices Low]], [[Rebuttal_ Earthjustice report on Bitcoin Mining, Feb 2025]], [[The NEW (Data-Backed) Story About Bitcoin Mining]], [["The Obstacle is the Path"]], [[Can bitcoin mining empower energy transition and fuel sustainable development goals in the US]], [[From Mining to Mitigation- How Bitcoin Can Support Renewable Energy Development and Climate Action]], [[Renewable Energy Transition Facilitated by Bitcoin]], [[Rethinkingbitcoinsenergyusethroughsustainabledigitalbusinessmodelsandresourcesmonetization]], [[Cryptocurrency mining as a novel virtual energy storage system in islanded and grid-connected microgrids]], [[Hedging Renewable Energy Investments with Bitcoin Mining]], [[Renewable energy and cryptocurrency- A dual approach to economic viability and environmental sustainability]], [[Study_economic_wind]], [[The feasibility study of the production of Bitcoin with geothermal energy]], [[lal-you-2024-climate-sustainability-through-a-dynamic-duo-green-hydrogen-and-crypto-driving-energy-transition-and]]
+**Last updated:** 2026-06-20 (Pass 31: 4 neue Peer-reviewed Papers)
+**Sources:** [[20251031_How Bitcoin Mining Keeps Energy Prices Low]], [[Rebuttal_ Earthjustice report on Bitcoin Mining, Feb 2025]], [[The NEW (Data-Backed) Story About Bitcoin Mining]], [["The Obstacle is the Path"]], [[Can bitcoin mining empower energy transition and fuel sustainable development goals in the US]], [[From Mining to Mitigation- How Bitcoin Can Support Renewable Energy Development and Climate Action]], [[Renewable Energy Transition Facilitated by Bitcoin]], [[Rethinkingbitcoinsenergyusethroughsustainabledigitalbusinessmodelsandresourcesmonetization]], [[Cryptocurrency mining as a novel virtual energy storage system in islanded and grid-connected microgrids]], [[Hedging Renewable Energy Investments with Bitcoin Mining]], [[Renewable energy and cryptocurrency- A dual approach to economic viability and environmental sustainability]], [[Study_economic_wind]], [[The feasibility study of the production of Bitcoin with geothermal energy]], [[lal-you-2024-climate-sustainability-through-a-dynamic-duo-green-hydrogen-and-crypto-driving-energy-transition-and]], [[Bitcoin_Carbon_Footprint_Revisited_Renewable_Energy]], [[Bitcoin_Mining_and_Methane_Mitigation_Peer_Reviewed_Paper]], [[Economic_Integration_Bitcoin_Mining_Renewable_Energy]], [[Leveraging_Bitcoin_Miners_as_Flexible_Load_Resources_for_Power_System_Stability_and_Efficiency]]
 
 ## Summary
 
@@ -39,6 +39,10 @@ Brad Jones, ehemaliger CEO von ERCOT (dem texanischen Netzbetreiber mit der höc
 - Texas sparte **$18 Milliarden** an Gaskraftwerk-Kosten, die ohne Bitcoin Mining hätten gebaut werden müssen (Digital Assets Research Institute)
 - Wind/Solar wuchs von 80 GW auf 130 GW — ohne dass neue fossile Backup-Kraftwerke nötig wurden
 - Inflation-bereinigte Strompreise blieben stabil, obwohl der erneuerbare Anteil stark stieg — eine Ausnahme im US-Vergleich
+
+**IEA-Ziel (2024):** Die International Energy Agency fordert 500 GW Demand-Response-Kapazität bis 2030, um das Net-Zero-Szenario 2050 zu erreichen. Derzeit decken DR-Programme nur 0,5% der globalen Erzeugung; konventionelle Regelenergie (Wärmekraft- und Wasserkraftwerke) stellt 85% der verfügbaren Flexibilität. Bitcoin Mining ist der am schnellsten wachsende industrielle DR-Teilnehmer. [[Economic_Integration_Bitcoin_Mining_Renewable_Energy]]
+
+**Carter, Connell, Jones, Porter & Rudd (SSRN 2024)** — darunter Brad Jones, ehemaliger ERCOT-CEO (†November 2023) — zeigen in einem formalen Review, dass Bitcoin Mining als einzige industrielle Last sowohl die Interruptibilitäts- als auch die Reaktionsgeschwindigkeitsanforderungen für Hochfrequenz-DR erfüllt. Stranded Energy (Überkapazitäten an abgelegenen Standorten) kann direkt in Mining-Erlöse umgewandelt werden, ohne Netzausbau. [[Leveraging_Bitcoin_Miners_as_Flexible_Load_Resources_for_Power_System_Stability_and_Efficiency]]
 
 **Duke University (Norris et al., 2025):** Bitcoin Mining ist der effektivste flexible Verbraucher mit **95% Lastreduzierung** in Spitzenzeiten — deutlich mehr als alle anderen flexiblen Abnehmer. Flexible Lasten können teure Grid-Upgrades verzögern oder ganz vermeiden.
 
@@ -86,8 +90,12 @@ Vega-Marcos et al. (UNED, 2022): Wind produziert vor allem nachts und bei Sturm 
 **Geothermie:**
 Ehyaei et al. (Islamic Azad University / Univ. Florence / NIT Silchar, Energy Sci. & Eng. 2023): Erste Machbarkeitsstudie für geothermisches Bitcoin Mining. Multigeneration-Zyklus (Strom + Wärme + Mining kombiniert). Thermodynamisch effizient, wirtschaftlich rentabel — Geothermie produziert 24/7 unabhängig von Wetter.
 
-**Methangas (Flaring/Venting):**
-Erdgasförderung produziert Methan als Nebenprodukt. Wo kein Pipeline-Anschluss vorhanden ist, wird es abgefackelt oder abgelassen (Venting). Methan ist ~80× klimaschädlicher als CO₂ pro Molekül. 29 Bitcoin-Mining-Operationen (Stand 2025) nutzen dieses Gas direkt als Energiequelle — verbrennen es kontrolliert für Strom statt es unkontrolliert zu flaren. Das verwandelt ein Klimaproblem in einen Klimabeitrag.
+**Methangas (Flaring/Venting/Landfill):**
+Methan entsteht in drei hauptsächlichen unerwünschten Kontexten: bei der Erdgasförderung (Flaring/Venting ohne Pipeline), bei der Deponiegas-Entstehung (organic waste → CH₄) und in der Landwirtschaft. Methan hat einen GWP100 von 27–30× CO₂ und verursacht laut IPCC eine erhebliche Erwärmungsbeschleunigung.
+
+Bitcoin Mining als Methanlösung:
+- **Oil & Gas Flaring:** 29 Mining-Operationen (Stand 2025) verbrennen Erdgas-Nebenprodukte kontrolliert für Strom statt unkontrolliert zu flaren. Bei korrekter CO₂e-Berechnung kann dies netto klimapositiv sein.
+- **Deponiegas:** Rudd, Jones, Sechrest, Batten & Porter (Journal of Cleaner Production 472/2024) zeigen ein integriertes Deponiegas-zu-Energie + Bitcoin-Mining-Framework. Deponiebetreiber stehen vor dem Problem, dass Methan-Capture-Projekte kapitalintensiv und bei schwankenden Energiepreisen wirtschaftlich riskant sind. Bitcoin Mining als permanenter Abnehmer macht diese Projekte bankable — die Nodal-Power-Fallstudie dokumentiert die praktische Umsetzung. Der Ansatz skaliert auf alle bestehenden Deponien mit Methanpotenzial, nicht nur auf Öl- und Gasfelder. [[Bitcoin_Mining_and_Methane_Mitigation_Peer_Reviewed_Paper]]
 
 **Green Hydrogen:**
 Lal & You (PNAS 2024): Bitcoin Mining und grüner Wasserstoff als kombiniertes System. Überschussstrom aus Solar/Wind → entweder Wasserstoff-Elektrolyse oder Mining, je nach Marktlage. Maximale Auslastung erneuerbarer Kapazitäten.
@@ -125,6 +133,8 @@ Bitcoin Mining senkt Strompreise für alle anderen Verbraucher — durch mehrere
 ### H — Kritik & Gegenargumente
 
 **Earthjustice-Report (Februar 2025)** und ähnliche Kritiken beziehen sich überwiegend auf Daten vor 2022 und ignorieren die fundamentale Veränderung des Sektors seit 2021.
+
+**Ibañez & Freier (UCL Centre for Blockchain Technologies / Energiequelle GmbH, Challenges 2023)** führten die erste systematische Literaturübersicht zur Frage "Bitcoin PoW und Grid-Dekarbonisierung" durch. Ergebnis: Renewable-basiertes Mining kann einen netto-dekarbonisierenden Effekt auf Stromnetze haben — vorausgesetzt, Mining-Praktiken passen sich entsprechend an (Standortwahl bei Curtailment-Hotspots, schnelle DR-Reaktion). Das Paper füllt explizit die Lücke, dass bisherige Kritik den Flexible-Load-Response-Aspekt und Methan-Neutralisierung ignoriert hatte. [[Bitcoin_Carbon_Footprint_Revisited_Renewable_Energy]]
 
 Die vier blinden Flecken der Kritik:
 

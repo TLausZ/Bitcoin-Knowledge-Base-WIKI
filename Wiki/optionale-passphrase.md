@@ -24,7 +24,7 @@ Die BitBox02 löst das Problem anders: Das microSD-Backup bleibt unverschlüssel
 
 Die Passphrase ist das Einfachste der Welt, um sich selbst aus der Wallet auszusperren. Häufige Fehler:
 
-- **Tippfehler:** Groß/Kleinschreibung und Leerzeichen zählen. Eine falsch aufgeschriebene Passphrase ergibt eine andere Wallet mit leerem Saldo — kein Fehlermeldung.
+- **Tippfehler:** Groß/Kleinschreibung und Leerzeichen zählen. Eine falsch aufgeschriebene Passphrase ergibt eine andere Wallet mit leerem Saldo, ohne Fehlermeldung.
 - **Verlust:** Wenn die Passphrase verloren geht, gibt es keine Wiederherstellung. Sie ist bewusst nirgends gespeichert.
 - **Komplexität ohne Verständnis:** Wer nicht versteht, dass jede Passphrase eine gültige Wallet erzeugt, kann seinen eigenen Fehler nicht erkennen.
 

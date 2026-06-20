@@ -22,7 +22,7 @@ Splicing ändert das fundamental: Eine Splice-Transaktion modifiziert die Channe
 
 **Splice-Out**: Bitcoin wird aus einem bestehenden Channel on-chain ausgezahlt. Die Channel-Kapazität sinkt. Nützlich für: On-Chain-Ausgabe ohne Channel-Close, Rebalancing.
 
-Beide Operationen erfordern eine on-chain Transaktion (Splice-Transaktion), die Confirmation braucht. Während der Bestätigungszeit kann der Channel bereits weiter genutzt werden — das ist der Kern des Atomic Splice.
+Beide Operationen erfordern eine on-chain Transaktion (Splice-Transaktion), die Confirmation braucht. Während der Bestätigungszeit kann der Channel bereits weiter genutzt werden. Das ist der Kern des Atomic Splice.
 
 ### Splicing vs. andere Rebalancing-Strategien
 

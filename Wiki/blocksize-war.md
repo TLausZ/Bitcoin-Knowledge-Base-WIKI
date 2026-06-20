@@ -2,11 +2,11 @@
 
 **Status:** established
 **Last updated:** 2026-06-20
-**Sources:** [[blocksizewar]]
+**Sources:** [[blocksizewar]], [[20181114_bitcoinmagazine-when-fork-forks-bitcoin-cash-goes-war]], [[20181116_bitcoinmagazine-one-day-after-bch-hard-fork]], [[20181123_bitcoinmagazine-one-week-later-bitcoin-cash-split]], [[20181201_bitcoinmagazine-bch-hash-war-came-and-went]], [[20181209_bitcoinmagazine-bitcoin-abc-bitmain-ver-suit-bch-split]]
 
 ## Summary
 
-Der Blocksize-Krieg war ein zweijähriger Konflikt (2015–2017) darüber, wer die Konsensregeln von Bitcoin kontrolliert. Die Big-Blocker — angeführt von Gavin Andresen, Roger Ver, Jihan Wu und später Jeff Garzik — wollten das 1-MB-Blocklimit per Hard Fork erhöhen, um mehr On-Chain-Transaktionen zu ermöglichen. Die Small-Blocker — unter anderem Gregory Maxwell, Adam Back, Peter Todd und das Bitcoin-Core-Team — setzten auf Soft Forks, Kapazitätserweiterung durch SegWit und Layer-2-Lösungen wie Lightning. Nach einer Reihe gescheiterter Fork-Versuche (Bitcoin XT, Bitcoin Classic, Bitcoin Unlimited, BTC1/SegWit2x) endete der Krieg am 8. November 2017 mit der bedingungslosen Kapitulation der SegWit2x-Befürworter. SegWit wurde aktiviert, Bitcoin Cash überlebte als Splitter-Coin — und der Konflikt legte den Grundstein für das Prinzip, dass Endnutzer und nicht Miner oder Unternehmen die letzte Entscheidungsgewalt über Bitcoins Protokollregeln haben.
+Der Blocksize-Krieg war ein zweijähriger Konflikt (2015–2017) darüber, wer die Konsensregeln von Bitcoin kontrolliert. Die Big-Blocker, angeführt von Gavin Andresen, Roger Ver, Jihan Wu und später Jeff Garzik, wollten das 1-MB-Blocklimit per Hard Fork erhöhen, um mehr On-Chain-Transaktionen zu ermöglichen. Die Small-Blocker, darunter Gregory Maxwell, Adam Back, Peter Todd und das Bitcoin-Core-Team, setzten auf Soft Forks, Kapazitätserweiterung durch SegWit und Layer-2-Lösungen wie Lightning. Nach einer Reihe gescheiterter Fork-Versuche (Bitcoin XT, Bitcoin Classic, Bitcoin Unlimited, BTC1/SegWit2x) endete der Krieg am 8. November 2017 mit der bedingungslosen Kapitulation der SegWit2x-Befürworter. SegWit wurde aktiviert, Bitcoin Cash überlebte als Splitter-Coin — und der Konflikt legte den Grundstein für das Prinzip, dass Endnutzer und nicht Miner oder Unternehmen die letzte Entscheidungsgewalt über Bitcoins Protokollregeln haben.
 
 ## Body
 
@@ -20,7 +20,7 @@ Die Small-Blocker sahen das anders. Für sie war die Dezentralisierung des Netzw
 
 **Big-Blocker:** Gavin Andresen war der von Satoshi ernannte Nachfolger als Bitcoin-Chefentwickler und der prominenteste Vertreter der Big-Blocker. Mike Hearn, damals bei Google beschäftigt, arbeitete mit ihm am Bitcoin-XT-Client. Roger Ver ("Bitcoin Jesus"), früher bekannt für seine aggressive Bitcoin-Promotion, wurde zum lautesten öffentlichen Fürsprecher. Jihan Wu, Co-CEO von Bitmain (dem dominierenden ASIC-Hersteller und Mining-Pool-Betreiber), lieferte die Mining-Hashrate. Jeff Garzik und Mike Belshe (BitGo) übernahmen später die Führung im SegWit2x-Projekt. Barry Silbert (Digital Currency Group) koordinierte die Wirtschaftsseite.
 
-**Small-Blocker:** Gregory Maxwell (Blockstream-Mitgründer, Bitcoin-Core-Entwickler) war der intellektuelle Motor. Adam Back (Hashcash-Erfinder, Blockstream-CEO) gab dem Lager öffentliche Sichtbarkeit. Pieter Wuille entwickelte SegWit als technische Lösung. Peter Todd, Luke Dashjr und zahlreiche weitere Core-Entwickler standen auf dieser Seite. "Shaolinfry" — ein pseudonymer Entwickler — erfand den UASF (User-Activated Soft Fork).
+**Small-Blocker:** Gregory Maxwell (Blockstream-Mitgründer, Bitcoin-Core-Entwickler) war der intellektuelle Motor. Adam Back (Hashcash-Erfinder, Blockstream-CEO) gab dem Lager öffentliche Sichtbarkeit. Pieter Wuille entwickelte SegWit als technische Lösung. Peter Todd, Luke Dashjr und zahlreiche weitere Core-Entwickler standen auf dieser Seite. "Shaolinfry", ein pseudonymer Entwickler, erfand den UASF (User-Activated Soft Fork).
 
 ### Chronologie
 
@@ -32,7 +32,7 @@ Die Small-Blocker sahen das anders. Für sie war die Dezentralisierung des Netzw
 
 **Februar 2016 — Bitcoin Classic und Hongkong-Abkommen:** Bitcoin Classic erschien am 10. Februar 2016 als Nachfolger von XT mit einer einfacheren 2-MB-Erhöhung. Sein 75%-Aktivierungsfenster war eine strukturelle Schwäche, weil es einen asymmetrischen Wipeout ermöglichte: Die kleine Mining-Minderheit konnte die Hard Fork rückgängig machen, aber der umgekehrte Fall galt nicht. Parallel fand am 20. Februar der "Runde Tisch Hongkong" statt. Bier schildert, wie er uneingeladen erschien und die nächtlichen Verhandlungen bis 4 Uhr früh miterlebte. Jihan Wu forderte, die Hard Fork müsse vor SegWit kommen. Ein Abkommen wurde unterschrieben, war aber rechtlich nicht durchsetzbar.
 
-**Mai 2016 — Faketoshi:** Am 2. Mai 2016 erklärte Craig Wright öffentlich, Satoshi Nakamoto zu sein, und Gavin Andresen bestätigte das. Die angeblichen kryptografischen Beweise erwiesen sich als Betrug — Craig hatte eine bereits existierende Blockchain-Signatur kopiert. Gavin verlor daraufhin seinen Commit-Zugang zum Bitcoin-Repository. Das Faketoshi-Debakel spaltete die Big-Blocker-Community und stärkte die Glaubwürdigkeit der Small-Blocker.
+**Mai 2016 — Faketoshi:** Am 2. Mai 2016 erklärte Craig Wright öffentlich, Satoshi Nakamoto zu sein, und Gavin Andresen bestätigte das. Die angeblichen kryptografischen Beweise erwiesen sich als Betrug: Craig hatte eine bereits existierende Blockchain-Signatur kopiert. Gavin verlor daraufhin seinen Commit-Zugang zum Bitcoin-Repository. Das Faketoshi-Debakel spaltete die Big-Blocker-Community und stärkte die Glaubwürdigkeit der Small-Blocker.
 
 **Juni–Juli 2016 — Die DAO und die Ethereum-Lehre:** Der Hack des Ethereum-DAO-Fonds am 17. Juni 2016 und der anschließende Hard Fork vom 20. Juli führten zu Ethereum Classic — einem Minderheits-Fork mit 5–10% der ursprünglichen Hashrate. Barry Silbert kaufte ETC bei $0,50. Für Bitcoin war das Ereignis ein Wendepunkt: Miner sahen, dass Chain-Splits real und potenziell teuer sind. Das verzögerte neue Fork-Versuche und hielt das Mining-Lager zögerlicher.
 
@@ -62,7 +62,7 @@ Die Small-Blocker sahen das anders. Für sie war die Dezentralisierung des Netzw
 
 **Höhle der Löwen:** Joseph Poon enthüllte die Existenz eines geheimen Small-Blocker-Koordinations-Slacks mit 21 Mitgliedern, der für 24/7-PR und Meme-Produktion genutzt wurde. Bram Cohens Bildschirm zeigte versehentlich den Channelnamen "Lions' Den" in einem Video. Bier infiltrierte den Channel und beobachtete, dass beide Seiten identische PR-Taktiken verwendeten.
 
-**ASICBoost im Kontext:** Covertés ASICBoost ist nicht nur ein Effizienzgewinn — es war für Bitmain ein strategischer Vorteil, den SegWit beseitigt hätte. Das erklärte Jihans hartnäckigen Widerstand gegen SegWit nach Mailand besser als ideologische Überzeugung allein.
+**ASICBoost im Kontext:** Covertés ASICBoost war für Bitmain ein strategischer Vorteil, den SegWit beseitigt hätte. Das erklärte Jihans hartnäckigen Widerstand gegen SegWit nach Mailand besser als ideologische Überzeugung allein.
 
 **Replay-Schutz als Kernfrage:** Die Weigerung der SegWit2x-Befürworter, Replay-Schutz einzubauen, war für viele Exchanges das entscheidende Ausschlusskriterium. Ohne Replay-Schutz hätte eine Transaktion auf beiden Chains gleichzeitig gültig gewesen — gefährlich für jeden, der beide Coins halten wollte.
 
@@ -70,7 +70,7 @@ Die Small-Blocker sahen das anders. Für sie war die Dezentralisierung des Netzw
 
 Bitcoin Cash stieg nach der SegWit2x-Absage kurzzeitig auf 48% des Bitcoin-Preises (November 2017), fiel dann aber schnell zurück. Bis Anfang 2021 notierte BCH bei etwa 1% des Bitcoin-Preises. Ironischerweise hatte das On-Chain-Volumen auf Bitcoin via SegWit das BCH-Volumen bereits im März 2018 überholt. Bitmain investierte mehr als 888 Millionen US-Dollar in Bitcoin Cash; der Börsengangversuch in Hongkong (August 2018) scheiterte, und das Unternehmen erlitt schwere Verluste.
 
-Im November 2018 spaltete sich Bitcoin Cash selbst in Bitcoin ABC und Bitcoin Satoshi's Vision (BSV), nachdem Craig Wright eine noch aggressivere Blockgrößen-Erhöhung durchsetzen wollte. Roger Ver kommentierte dazu: "Die Core-Leute waren früher wirklich gegen jede Art von umstrittener Hard Fork, und ich denke, dass die Angst davor berechtigt ist, denn wir sehen gerade, welchen Schaden eine umstrittene Hard Fork anrichten kann."
+Im November 2018 spaltete sich Bitcoin Cash ein zweites Mal. Craig Wright und nChain lehnten geplante ABC-Upgrades (CTOR, OP_CHECKDATASIG) ab und veröffentlichten Bitcoin SV (Satoshi's Vision) mit 128-MB-Blöcken. Wright drohte öffentlich mit einem 51%-Angriff auf die ABC-Chain. Sein Lager — CoinGeek, SVPool, BMG Pool — kontrollierte bis zu 70 Prozent der BCH-Hashrate. Der Fork vollzog sich am 15. November 2018 um 18:07 UTC, als Bitcoin.com den ersten ABC-Block fand, den das SV-Netzwerk ablehnte. Die angedrohten 51%-Angriffe blieben aus. Bitcoin ABC konterte mit einem unangekündigten 10-Block-Checkpoint, der tiefe Reorganisationen blockierte. Zwei Wochen nach dem Split erklärte Calvin Ayre den Hash War für beendet und gab den Namen "Bitcoin Cash" sowie das Ticker-Symbol BCH auf. BCHABC handelte bei $150–200, BCHSV bei $75–100. Roger Ver kommentierte: "Die Core-Leute waren früher wirklich gegen jede Art von umstrittener Hard Fork, und ich denke, dass die Angst davor berechtigt ist, denn wir sehen gerade, welchen Schaden eine umstrittene Hard Fork anrichten kann."
 
 ### Wer hatte recht?
 
@@ -86,6 +86,7 @@ Bier schließt mit einer Warnung: Der Blocksize-Krieg hat Bitcoin nur Zeit versc
 - [[konsensregeln-und-mempool-richtlinien]]
 - [[bitcoin-geldpolitik-und-21-millionen-limit]]
 - [[kryptoanarchismus-und-cypherpunks]]
+- [[craig-wright-faketoshi]]
 
 ## Open Questions
 

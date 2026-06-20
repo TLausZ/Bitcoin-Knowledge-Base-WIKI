@@ -15,9 +15,9 @@ Bitcoin direkt in Selbstverwahrung kaufen — ohne Umweg über eine Börse — i
 Nicht alle Kaufwege sind gleich. Die Wahl des Kaufwegs bestimmt, wie viele persönliche Informationen man hinterlässt — und wie direkt die Coins in Selbstverwahrung landen.
 
 **Höchste Privatsphäre:**
-- **Bitcoin verdienen** — für Dienstleistungen oder Produkte bezahlt werden. Keine Spur in einer zentralen Datenbank, volle Kontrolle über den Wechselkurs.
-- **Persönlicher Kauf** — von bekannten Personen bei lokalen Bitcoin-Treffen. Die Echtheit der erhaltenen Coins garantiert die eigene Wallet; ein paar Blockchain-Bestätigungen abwarten reicht.
-- **P2P-Börsen** — Hodl Hodl, Bisq (dezentrales Open-Source-Protokoll), Peach. Bieten Treuhandservice zur Sicherung beider Seiten. Keine Kontoeröffnung bei Bisq; teils KYC bei Hodl Hodl je nach Gegenpartei.
+- **Bitcoin verdienen:** für Dienstleistungen oder Produkte bezahlt werden. Keine Spur in einer zentralen Datenbank, volle Kontrolle über den Wechselkurs.
+- **Persönlicher Kauf:** von bekannten Personen bei lokalen Bitcoin-Treffen. Die Echtheit der erhaltenen Coins garantiert die eigene Wallet; ein paar Blockchain-Bestätigungen abwarten reicht.
+- **P2P-Börsen:** Hodl Hodl, Bisq (dezentrales Open-Source-Protokoll), Peach. Bieten Treuhandservice zur Sicherung beider Seiten. Keine Kontoeröffnung bei Bisq; teils KYC bei Hodl Hodl je nach Gegenpartei.
 
 **Bitcoin-Automaten (ATMs):** Barzahlung → direkte Übertragung an eigene Adresse. Kein Konto. Wechselkurs meist deutlich schlechter als Börsenkurs. Verfügbarkeit: coinatmradar.com. Je nach Land und Betrag mit Identifikationspflicht.
 

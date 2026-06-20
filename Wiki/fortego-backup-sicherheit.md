@@ -71,7 +71,7 @@ Vergleich mit anderen Ansätzen:
 ## Related
 
 - [[selbstverwahrung-und-boersenrisiken]]
-- [[bitcoin-backups-und-seed-sicherheit]]
+- [[wallet-backup-strategien]]
 - [[shamir-secret-sharing]]
 - [[opsec-und-privatsphäre]]
 - [[biometrie-und-finanzueberwachung]]

@@ -27,7 +27,7 @@ Börsen, die eine vollständige Identifikation (KYC — Know Your Customer) verl
 
 Blockchain-Analyse-Firmen (z.B. Chainalysis) kaufen oder erhalten diese Daten und können damit Bitcoin-Transaktionen einzelnen Personen zuordnen. Selbst wenn man die Coins längst von der Börse abgezogen hat, bleibt die Verbindung "diese Person hat Bitcoin besessen" bestehen. Das kann regulatorische, steuerliche oder sicherheitsrelevante Konsequenzen haben.
 
-KYC-light Alternativen wie Relai (Banküberweisung, kein Konto) oder Pocket Bitcoin (Direktkauf in Hardware-Wallet) minimieren diese Datenspur. Für den, dem Privatsphäre wichtig ist, ist die KYC-Anforderung einer Börse kein Formalismus — sie ist ein dauerhafter Fußabdruck.
+KYC-light Alternativen wie Relai (Banküberweisung, kein Konto) oder Pocket Bitcoin (Direktkauf in Hardware-Wallet) minimieren diese Datenspur. Für den, dem Privatsphäre wichtig ist, hinterlässt die KYC-Anforderung einer Börse einen dauerhaften Fußabdruck.
 
 ### Papier-Bitcoin und Fractional Reserves
 

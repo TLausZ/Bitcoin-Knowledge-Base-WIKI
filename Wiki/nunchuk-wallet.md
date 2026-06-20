@@ -6,14 +6,14 @@
 
 ## Summary
 
-Nunchuk ist eine Bitcoin-only Multisig-Wallet für iOS, Android und Desktop, die auf offenen Standards (BIP39, BSMS, Miniscript) aufbaut. Das Kernmerkmal: Im Assisted-Multisig-Modus hat das Smartphone keine Signing-Berechtigung — es ist reines Watch-Only-Interface, alle Schlüssel sind kalt. Nunchuk bietet zwei Inheritance-Protokolle (on-chain autonom via Miniscript, off-chain flexibel via Plattform) und ist von Haus aus interoperabel mit Sparrow und Bitcoin Core.
+Nunchuk ist eine Bitcoin-only Multisig-Wallet für iOS, Android und Desktop, die auf offenen Standards (BIP39, BSMS, Miniscript) aufbaut. Das Kernmerkmal: Im Assisted-Multisig-Modus ist das Smartphone reines Watch-Only-Interface ohne Signing-Berechtigung, alle Schlüssel sind kalt. Nunchuk bietet zwei Inheritance-Protokolle (on-chain autonom via Miniscript, off-chain flexibel via Plattform) und ist von Haus aus interoperabel mit Sparrow und Bitcoin Core.
 
 ## Body
 
 ### Architektur: Assisted Multisig
 
 Im bezahlten Plan ("Honey Badger", "Premier") läuft Nunchuk im **Assisted Multisig**-Modus:
-- Das Smartphone hat **keine** Hot Keys — es ist Watch-Only
+- Das Smartphone hat **keine** Hot Keys (Watch-Only)
 - Alle Schlüssel sind kalt (Hardware Wallets)
 - Das Smartphone koordiniert Transaktionen (PSBTs), signiert aber selbst nicht
 - Wallet-Wechsel erfordert keine Seed-Migration

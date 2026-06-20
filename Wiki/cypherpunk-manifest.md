@@ -30,13 +30,13 @@ Hughes' Konsequenz: Privatsphäre kann nicht durch gesetzliche Regulierung gesic
 
 ### "Cypherpunks write code"
 
-Die politische Schlussfolgerung: Privatsphäre muss technisch implementiert werden. Appelle an Datenschutzgesetze greifen zu kurz. Wer Privatsphäre will, muss Software bauen, die sie strukturell unmöglich macht zu verletzen — kein Vertrauen nötig, weil kein Vertrauen möglich ist.
+Die politische Schlussfolgerung: Privatsphäre muss technisch implementiert werden. Appelle an Datenschutzgesetze greifen zu kurz. Wer Privatsphäre will, muss Software bauen, die sie strukturell unmöglich macht zu verletzen: kein Vertrauen nötig, weil kein Vertrauen möglich ist.
 
 "We don't much care if you don't approve of the software we write." — Hughes' Aussage ist radikal: Privatsphäre durch Technologie ist kein Angriff auf die Gesellschaft, sondern ihre Voraussetzung.
 
 ### Relevanz für Bitcoin
 
-Satoshi Nakamotos Bitcoin (2009) ist ein direktes Produkt des Cypherpunk-Denkens. Ein elektronisches Peer-to-Peer-Bargeld ohne Mittelsmänner — kein Vertrauen in Institutionen, nur kryptographische Beweise. Der Querverweis ist explizit: Satoshi veröffentlichte das Whitepaper auf der Cypherpunks-Mailingliste.
+Satoshi Nakamotos Bitcoin (2009) ist ein direktes Produkt des Cypherpunk-Denkens. Ein elektronisches Peer-to-Peer-Bargeld ohne Mittelsmänner: kein Vertrauen in Institutionen, nur kryptographische Beweise. Der Querverweis ist explizit: Satoshi veröffentlichte das Whitepaper auf der Cypherpunks-Mailingliste.
 
 Bitcoin löst das konkrete Problem, das Hughes beschreibt: digitale Wertübertragung ohne Identitätsoffenbarung durch den Transaktionsmechanismus selbst.
 

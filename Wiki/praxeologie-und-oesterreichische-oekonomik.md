@@ -1,8 +1,8 @@
 # Praxeologie und Österreichische Ökonomik
 
 **Status:** established
-**Last updated:** 2026-06-19
-**Sources:** [[2023_Praxeology_ The invisible hand that feeds you -- Knut Svanholm]], [[2022_Bitcoin _ everything divided by 21 million -- Knut Svanholm]], [[2023_Bitcoin_ Alles durch 21 Millionen -- Knut Svanholm]], [[2020_Bitcoin - Unabhängigkeit neu gedacht -- Knut Svanholm]], [[2024_Bitcoin_ The Inverse of Clown World -- Knut Svanholm]]
+**Last updated:** 2026-06-20
+**Sources:** [[2023_Praxeology_ The invisible hand that feeds you -- Knut Svanholm]], [[2023_Praxeology-Invisible-Hand-Feeds-You_Svanholm]], [[2022_Bitcoin _ everything divided by 21 million -- Knut Svanholm]], [[2020_Bitcoin - Unabhängigkeit neu gedacht -- Knut Svanholm]], [[2024_Bitcoin_ The Inverse of Clown World -- Knut Svanholm]]
 
 ## Summary
 
@@ -32,7 +32,7 @@ Aus dem Handlungs-Axiom folgt:
 
 ### Subjektive Wertlehre
 
-Wert ist immer subjektiv — das ist keine Meinung, sondern eine logische Konsequenz des Handlungs-Axioms. Ein Gut hat keinen inneren Wert. Sein Wert ergibt sich daraus, wie ein handelndes Individuum glaubt, dass es ihm dabei hilft, seine Ziele zu erreichen.
+Wert ist immer subjektiv. Das folgt zwingend aus dem Handlungs-Axiom, ist keine bloße Meinung. Ein Gut hat keinen inneren Wert. Sein Wert ergibt sich daraus, wie ein handelndes Individuum glaubt, dass es ihm dabei hilft, seine Ziele zu erreichen.
 
 Das erklärt das "Diamant-Wasser-Paradox": Wasser ist überlebenswichtig, Diamanten nicht — trotzdem ist Wasser billiger. Die subjektive Wertlehre löst das über den **Grenznutzen**: Nicht der Gesamtnutzen eines Gutes zählt, sondern der Nutzen einer zusätzlichen Einheit. Wasser ist so abundant, dass die letzte verfügbare Einheit einen niedrigen Grenznutzen hat. Diamanten sind so knapp, dass jede Einheit einen hohen Grenznutzen hat.
 
@@ -55,7 +55,7 @@ Bitcoin senkt die Zeitpräferenz: Wenn Sparen belohnt wird (weil Bitcoin deflati
 
 Richard Cantillon (1680–1734) beschrieb, dass Geldschöpfung nicht neutral ist: Neues Geld kommt nicht gleichzeitig und gleichmäßig bei allen an. Die ersten Empfänger — Banken, Staat, staatsnahe Unternehmen — können zu noch alten Preisen kaufen. Die letzten Empfänger (einfache Lohnempfänger) bekommen das Geld erst, wenn Preise bereits gestiegen sind.
 
-Das Fiat-System ist systematisch so konstruiert, dass der Cantillon-Effekt privilegierte Gruppen begünstigt. "Geldverdienen" im Fiat-System bedeutet oft: nicht Wert schaffen, sondern schneller als die Inflation sein. Asset-Inflation (Aktien, Immobilien) ist kein Zufall — es ist der Cantillon-Effekt in Aktion: Geld fließt zuerst in Assets, bevor es in Löhne und Konsumgüter sickert.
+Das Fiat-System ist systematisch so konstruiert, dass der Cantillon-Effekt privilegierte Gruppen begünstigt. "Geldverdienen" im Fiat-System bedeutet oft: nicht Wert schaffen, sondern schneller als die Inflation sein. Asset-Inflation (Aktien, Immobilien) ist der Cantillon-Effekt in Aktion: Geld fließt zuerst in Assets, bevor es in Löhne und Konsumgüter sickert.
 
 ### Katallaktik: Wie freier Tausch Feinde zu Freunden macht
 
@@ -72,7 +72,7 @@ Bitcoin ist das erste Geld, das vollständig auf freiwilligem Tausch basiert, oh
 - Kein Staat kann Transaktionen erzwingen oder blockieren (kein biologischer Wettbewerb im Zahlungssystem)
 - Zeitpräferenz-Senkung durch Deflation ist im Protokoll codiert
 
-Aus praxeologischer Sicht ist Fiat-Geld kein "Geld" im echten Sinne — es ist ein staatlich erzwungenes Tauschmedium, das durch Monopol und Gesetz akzeptiert wird, nicht durch freiwillige Marktwahl. Bitcoin ist das erste Geld, das aus echtem Marktprozess entstanden ist und im Marktprozess besteht.
+Aus praxeologischer Sicht ist Fiat-Geld ein staatlich erzwungenes Tauschmedium: durch Monopol und Gesetz akzeptiert, nicht durch freiwillige Marktwahl. Bitcoin ist das erste Geld, das aus echtem Marktprozess entstanden ist und im Marktprozess besteht.
 
 ### Knut Svanholms Werk: Praxeologie popularisiert
 
@@ -89,6 +89,40 @@ Knut Svanholm (schwedisch-isländischer Autor und Musiker) hat in fünf Büchern
 **"Bitcoin: The Inverse of Clown World" (2024, mit Luke de Wolf):** Das sozialpolitisch direkteste Buch. "Clown World" beschreibt eine Welt, in der biologischer Wettbewerb (Zugang zu staatlichen Privilegien, Subventionen, Regulierungsvorteilen) katallaktischen Wettbewerb (Wertschöpfung durch freiwilligen Tausch) verdrängt hat. Bitcoin als "Inverse": Es belohnt Wertschöpfung, nicht Privilegiensuche. Mit Vorwort von Giacomo Zucco. Das Konzept "Freedom Footprint" beschreibt, wie viel vom eigenen Handeln noch wirklich frei — also marktwirtschaftlich statt politisch bedingt — ist.
 
 **Verbindende These über alle Bücher:** Bitcoin ist nicht das Ziel, sondern ein Spiegel. Wer Bitcoin versteht, versteht, warum das Fiat-System strukturell nicht reparierbar ist — nicht wegen schlechter Personen in guten Institutionen, sondern wegen guter Personen in strukturell falschen Institutionen.
+
+### Unternehmerschaft: Alles Handeln ist Gewinnstreben
+
+Praxeologisch gesehen ist Profit die "attained satisfaction minus forgone satisfaction" — keine Geldgröße, sondern ein subjektiver Zustand. Daraus folgt: Jedes menschliche Handeln sucht Profit, auch Altruismus. Wer Geld spendet, bewertet das gute Gefühl höher als den Geldwert. Selbst Suizid ist praxeologisch ein Gewinnstreben: der Handelnde bewertet den Tod höher als sein Leben.
+
+Das macht es unmöglich, "gegen Profit zu sein" — man wäre dann automatisch "für Verluste". Was Praxeologie nicht tut: Sie bewertet Motive nicht. Sie zeigt nur, dass alle Handlung auf Unzufriedenheitsreduktion abzielt. Marktgewinn (messbarer Geldüberschuss) ist nur die sichtbare Spitze eines viel weiteren Phänomens.
+
+Im freien Markt gilt: Je mehr Profit ein Unternehmer macht, desto besser hat er die Bedürfnisse seiner Kunden erfüllt — denn niemand kann ihn zwingen zu kaufen. [[2023_Praxeology-Invisible-Hand-Feeds-You_Svanholm]]
+
+### Kapitaltheorie: Die Spar-Kaskade
+
+Was passiert in einer Gesellschaft, wenn Menschen freiwillig ihre Zeitpräferenz senken — d.h. mehr sparen und weniger sofort konsumieren?
+
+Svanholm (nach Mises) beschreibt drei aufeinanderfolgende Effekte:
+
+Erste Wirkung: Konsumgüterpreise sinken, weil die Nachfrage nach Endprodukten sinkt. Produzenten nahe am Endkonsumenten müssen Preise senken, um nicht bankrott zu gehen.
+
+Zweite Wirkung: Zinssätze fallen. Mehr Ersparnisse stehen als Kapital bereit; der "Preis des Wartens" sinkt, weil mehr Menschen bereit sind zu warten.
+
+Dritte Wirkung: Das Verhältnis von Kapital zu Arbeit verschiebt sich. Günstigeres Kapital ermöglicht kapitalintensivere Produktionsstrukturen — Maschinen, Infrastruktur, Forschung. Produktivität steigt.
+
+Das Ergebnis: Langfristig steigender Lebensstandard für alle, nicht nur für Kapitalbesitzer. "The poor are the greatest beneficiaries of the increase in capital goods via diminishing prices." Zivilisatorischer Fortschritt ist die kumulierte Wirkung von Millionen individueller Entscheidungen, Konsum aufzuschieben. [[2023_Praxeology-Invisible-Hand-Feeds-You_Svanholm]]
+
+### Argumentationsethik: Das Nicht-Aggressionsprinzip aus Logik
+
+Kann Wissenschaft ein "Soll" aus einem "Ist" ableiten? Die klassische Antwort lautet nein (Hume's Guillotine). Hans-Hermann Hoppe, aufgegriffen von Svanholm: Wir können dem sehr nahe kommen.
+
+Argumentation ist die einzige gewaltfreie Methode, Konflikte zu lösen. Wer argumentiert, erkennt damit implizit bestimmte Voraussetzungen an:
+
+Erstens: Jeder Argumentierende besitzt seinen Körper. Wer das bestreitet, muss ebenfalls seinen Körper benutzen — ein Selbstwiderspruch.
+
+Zweitens: Argumentierende erkennen an, dass Konflikte durch Argumentation lösbar sind — also ohne Gewalt. Wer dagegen argumentiert, widerspricht sich erneut, weil er Argumentation benutzt, um Argumentation abzulehnen.
+
+Daraus folgt praxeologisch: Das Nicht-Aggressionsprinzip (NAP) — "We humans ought not to aggress against one another" — ist die einzige ethische Norm, die durch Argumentation nicht widerlegt werden kann, ohne in Selbstwiderspruch zu fallen. Jedes System, das Aggression institutionalisiert (z.B. Steuerzwang, Inflation), verletzt die logischen Voraussetzungen des einzigen legitimen Konfliktlösungsmechanismus. [[2023_Praxeology-Invisible-Hand-Feeds-You_Svanholm]]
 
 ## Related
 

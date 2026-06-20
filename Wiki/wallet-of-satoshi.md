@@ -42,7 +42,7 @@ Für alltägliche Zahlungen empfiehlt WoS explizit Lightning statt on-chain, da 
 
 WoS steht stellvertretend für den Kompromiss im Lightning-Ökosystem: Custodial Wallets wie WoS sind extrem einfach zu benutzen, geben aber Kontrolle ab. Self-Custodial Wallets wie [[phoenix-wallet-lightning]] bieten echte Selbstverwahrung, erfordern aber mehr technisches Verständnis (Liquiditätsmanagement, Channel-Gebühren).
 
-Der entscheidende Unterschied: Im custodial Modus ist WoS kein "echter" Lightning-Node des Nutzers — es ist ein Kontonummer bei WoS, die Lightning-Zahlungen verarbeitet. Im self-custodial Modus hält der Nutzer die Schlüssel, aber die Architektur ist weniger transparent als bei Phoenix.
+Der entscheidende Unterschied: Im custodial Modus ist WoS eine Kontonummer beim Anbieter, der die Lightning-Zahlungen verarbeitet, kein echter Node des Nutzers. Im self-custodial Modus hält der Nutzer die Schlüssel, aber die Architektur ist weniger transparent als bei Phoenix.
 
 ## Related
 

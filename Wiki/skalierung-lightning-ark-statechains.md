@@ -57,6 +57,7 @@ Ark und Lightning schließen sich nicht aus — Ark kann als „Onramp" für Lig
 
 ## Related
 
+- [[lightning-netzwerk-grundlagen]]
 - [[bitcoin-vaults]]
 - [[taproot-musig2-frost]]
 - [[bitcoin-geldpolitik-und-21-millionen-limit]]

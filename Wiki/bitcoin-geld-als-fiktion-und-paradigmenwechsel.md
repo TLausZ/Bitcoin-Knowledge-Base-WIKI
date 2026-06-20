@@ -1,8 +1,8 @@
 # Bitcoin: Geld als Fiktion und der Paradigmenwechsel
 
 **Status:** established
-**Last updated:** 2026-06-09
-**Sources:** [[2020_Bitcoin - Unabhängigkeit neu gedacht -- Knut Svanholm]]
+**Last updated:** 2026-06-20
+**Sources:** [[2020_Bitcoin - Unabhängigkeit neu gedacht -- Knut Svanholm]], [[2020_Bitcoin-Unabhaengigkeit-neu-gedacht_Svanholm-Herminghaus]]
 
 ## Summary
 
@@ -46,6 +46,28 @@ Der einzige Unsicherheitsfaktor ist der Zeitrahmen. Svanholm schreibt kurz vor d
 
 Svanholms prägnantes Bild: Bitcoin ist ein "Kühlhaus für Vermögen". Wer Arbeit investiert, möchte die Früchte dieser Arbeit aufbewahren — ohne dass sie durch Inflation aufgezehrt werden. Fiat-Geld ist kein gutes Kühlhaus: Es verliert systematisch an Kaufkraft. Bitcoin ist so konstruiert, dass die eingelagerte Kaufkraft nicht durch politische Entscheidungen verändert werden kann.
 
+### Zensurresistenz: der Hong-Kong-Fall
+
+Ein konkretes Beispiel für die Notwendigkeit von Zensurresistenz: Rund um 2019/2020 fror HSBC auf Druck der chinesischen Regierung einen ca. 70 Millionen Dollar schweren Fonds ein, der für die Protestbewegung in Hongkong vorgesehen war — unter dem Vorwand der "Geldwäsche". Kreditkartenfirmen, Banken und Internetprovider verfügen über leistungsfähige Werkzeuge, um Zahlungsflüsse zu blockieren. Solange sie zurückhaltend damit umgehen, fällt es kaum auf — wenn eine Regierung sie jedoch dazu befiehlt, zucken die meisten nicht. "Nicht deine Keys, nicht deine Bitcoins" gilt für das Bankensystem genauso wie für schlecht gesicherte Bitcoin-Wallets. [[2020_Bitcoin-Unabhaengigkeit-neu-gedacht_Svanholm-Herminghaus]]
+
+### Nixon 1971 und der Cantillon-Effekt in der Geschichte
+
+Präsident Nixon gab 1971 den Goldstandard vollständig auf (Bretton-Woods-Ende) und legalisierte damit de facto die Falschgeldproduktion auf staatlicher Ebene. Die USA konnten seitdem buchstäblich wertloses Papiergeld gegen echte Waren tauschen — und weil der Dollar Weltreservewährung blieb, fiel die Welt darauf herein. Viele US-Bürger profitierten durch den Cantillon-Effekt und wiedersprachen der Geldpolitik daher nicht. 1971 ist der Wendepunkt, ab dem Inflation als Normalzustand institutionalisiert wurde. [[2020_Bitcoin-Unabhaengigkeit-neu-gedacht_Svanholm-Herminghaus]]
+
+### Technologieadoption und das Metcalfe-Muster
+
+Svanholm sammelt empirische Adoptionskurven als Kontext für Bitcoin (Stand: 2020):
+
+| Technologie | Jahre bis 50 Millionen Nutzer |
+|---|---|
+| Automobil | 62 Jahre |
+| Kreditkarte | 28 Jahre |
+| Mobiltelefon | 12 Jahre |
+| Facebook | 4 Jahre |
+| Pokémon Go | 19 Tage |
+
+Der Unterschied erklärt sich durch die Infrastruktur: Ältere Technologien brauchten physischen Aufbau und mentale Anpassung. Spätere konnten auf vorhandenen Netzwerken (Internet, Smartphones) aufsetzen. Bitcoin hat im Vergleich zu anderen Technologien keinerlei Marketing hinter sich — weder Werbebudget noch Corporate Push. Das Mobiltelefon brauchte 12 Jahre; Bitcoin hatte nach 11 Jahren (2020) geschätzt 30 Millionen Halter.
+
 ## Related
 
 - [[bitcoin-geldpolitik-und-21-millionen-limit]]
@@ -54,9 +76,12 @@ Svanholms prägnantes Bild: Bitcoin ist ein "Kühlhaus für Vermögen". Wer Arbe
 - [[ideal-money-und-bitcoin]]
 - [[selbstverwahrung-und-boersenrisiken]]
 - [[kryptoanarchismus-und-cypherpunks]]
+- [[praxeologie-und-oesterreichische-oekonomik]]
+- [[bitcoin-powerlaw-und-preismodelle]]
 
 ## Open Questions
 
 - Ist "Hyperbitcoinisierung" ein realistisches Szenario oder bleibt Bitcoin ein Wertaufbewahrungsmittel neben Fiat?
 - Wie verhält sich der Übergang: graduelle Adoption oder Krise des Fiat-Systems als Auslöser?
 - Ist die Akkommodation, die Bitcoin verlangt, für den Durchschnittsmenschen realistisch erreichbar?
+- Wie weit sind die Adoptionskurven von 2020 (30M Halter) bis 2026 gewachsen?

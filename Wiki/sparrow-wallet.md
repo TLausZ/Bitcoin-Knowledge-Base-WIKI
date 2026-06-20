@@ -43,7 +43,7 @@ Für eine Anleitung zur Erstellung einer Multisig-Wallet mit Sparrow und der Bit
 
 ### "Cold-Storage Sweating"
 
-Craig Raw (Sparrow-Entwickler) beschreibt das Ziel seiner Wallet als "cold-storage sweating": Das leichte Unbehagen beim Senden einer Bitcoin-Transaktion ist kein Fehler — es ist ein Feature. Sparrow zeigt so viele Details, dass man bei jeder Transaktion kurz innehält und prüft, ob wirklich alles stimmt.
+Craig Raw (Sparrow-Entwickler) beschreibt das Ziel seiner Wallet als "cold-storage sweating": Das leichte Unbehagen beim Senden einer Bitcoin-Transaktion gilt Raw als Feature. Sparrow zeigt so viele Details, dass man bei jeder Transaktion kurz innehält und prüft, ob wirklich alles stimmt.
 
 Das steht im Kontrast zu Wallets, die den Prozess so einfach wie möglich machen und dabei Transparenz opfern. Für kleinere Beträge ist das ok; für significante Mengen Bitcoin ist Sparrows Ansatz passender.
 

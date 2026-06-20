@@ -36,7 +36,7 @@ Das Glacier Protocol und ähnliche Ansätze nutzen Computer ohne Netzwerkverbind
 
 ### Was man nicht tun sollte: Paper Wallets
 
-Paper Wallets (gedruckte Adressen und private Schlüssel) galten früh als sicher, haben sich aber als problematisch erwiesen. Drei Gründe: Es ist schwierig, den Schlüssel ohne Internetkontakt sicher zu generieren. Die eingedruckte Adresse wird oft mehrfach wiederverwendet (schlechte Privatsphäre). Wer eine Transaktion senden will, muss die gesamte Paper Wallet leeren — das ist vielen nicht bewusst.
+Paper Wallets (gedruckte Adressen und private Schlüssel) galten früh als sicher, haben sich aber als problematisch erwiesen. Drei Gründe: Es ist schwierig, den Schlüssel ohne Internetkontakt sicher zu generieren. Die eingedruckte Adresse wird oft mehrfach wiederverwendet (schlechte Privatsphäre). Wer eine Transaktion senden will, muss die gesamte Paper Wallet leeren. Das ist vielen nicht bewusst.
 
 Vorgenerierte Schlüssel auf Metall-Produkten oder "professionellen Krypto-Banknoten": Hier ist nicht beweisbar, dass der Hersteller keine Kopie des Schlüssels hat.
 

@@ -1,8 +1,8 @@
 # Elliptische Kurven-Kryptographie in Bitcoin
 
 **Status:** established
-**Last updated:** 2026-06-19
-**Sources:** [[learnmeabitcoin-technical-cryptography-overview]], [[learnmeabitcoin-technical-cryptography-hash-function]], [[learnmeabitcoin-technical-cryptography-elliptic-curve]], [[learnmeabitcoin-technical-cryptography-elliptic-curve-ecdsa]], [[learnmeabitcoin-technical-cryptography-elliptic-curve-schnorr]]
+**Last updated:** 2026-06-20
+**Sources:** [[learnmeabitcoin-technical-cryptography-overview]], [[learnmeabitcoin-technical-cryptography-hash-function]], [[learnmeabitcoin-technical-cryptography-elliptic-curve]], [[learnmeabitcoin-technical-cryptography-elliptic-curve-ecdsa]], [[learnmeabitcoin-technical-cryptography-elliptic-curve-schnorr]], [[2018_Grokking-Bitcoin_Rosenbaum]]
 
 ## Summary
 
@@ -22,7 +22,17 @@ Wichtige kombinierte Formen:
 - **HASH256** = SHA256(SHA256(data)) — für Block-Hashes, TXIDs
 - **HASH160** = RIPEMD160(SHA256(data)) — für Public-Key-Hashes und Script-Hashes
 
-**Eigenschaften:** Deterministisch, Collision-Resistant, Preimage-Resistant, Avalanche-Effekt (1-Bit-Änderung → völlig anderes Ergebnis).
+**Drei Sicherheitseigenschaften:** Kryptografische Hash-Funktionen müssen alle drei erfüllen (Rosenbaum, Kap. 2):
+
+- **Preimage Resistance:** Gegeben ein Hash-Wert H, ist es praktisch unmöglich, eine Eingabe m zu finden, sodass hash(m) = H. Man kann den Hash nicht "rückwärts" rechnen.
+- **Second Preimage Resistance:** Gegeben eine Eingabe m1, ist es praktisch unmöglich, eine zweite Eingabe m2 ≠ m1 zu finden, sodass hash(m1) = hash(m2). Man kann keine alternative Nachricht mit demselben Fingerabdruck erzeugen.
+- **Collision Resistance:** Es ist praktisch unmöglich, irgendein Paar m1, m2 (m1 ≠ m2) zu finden, sodass hash(m1) = hash(m2). Keine zwei Nachrichten teilen denselben Hash — auch wenn man aktiv sucht.
+
+Collision Resistance ist die stärkste Eigenschaft und impliziert Second Preimage Resistance. Second Preimage Resistance impliziert Preimage Resistance — nicht umgekehrt. Eine Funktion kann also preimage resistant sein, ohne collision resistant zu sein.
+
+Für Bitcoin ist Preimage Resistance entscheidend beim Mining (niemand kann das Ziel rückwärts berechnen), Second Preimage Resistance bei der Blockchain-Integrität (niemand kann eine Transaktion fälschen), Collision Resistance beim Signieren (niemand kann zwei verschiedene Transaktionen mit derselben Signatur validieren).
+
+**Weitere Eigenschaften:** Deterministisch, Avalanche-Effekt (1-Bit-Änderung → völlig anderes Ergebnis). [[2018_Grokking-Bitcoin_Rosenbaum]]
 
 Das clevere an Bitcoin: Die Unvorhersehbarkeit des Hash-Ergebnisses ist die Grundlage des Minings. Satoshi erkannte, dass man damit eine dezentrale Lotterie bauen kann — kein Block-Ersteller ist je sicher, bevor er den Hash berechnet.
 

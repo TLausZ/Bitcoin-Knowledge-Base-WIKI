@@ -42,6 +42,7 @@ Nach einem CoinJoin sollte man die Coin Selection (welche UTXOs für eine Transa
 
 ## Related
 
+- [[coin-control-und-utxo-auswahl]]
 - [[silent-payments]]
 - [[payment-codes-und-adressaustausch]]
 - [[opsec-und-privatsphäre]]

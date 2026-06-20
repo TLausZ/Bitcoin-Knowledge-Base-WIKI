@@ -1,8 +1,8 @@
 # Bitcoin Script und Output-Locks
 
 **Status:** established
-**Last updated:** 2026-06-19
-**Sources:** [[learnmeabitcoin-beginners-guide-locks]], [[learnmeabitcoin-technical-script-overview]], [[learnmeabitcoin-technical-script-p2pk]], [[learnmeabitcoin-technical-script-p2pkh]], [[learnmeabitcoin-technical-script-p2ms]], [[learnmeabitcoin-technical-script-p2sh]], [[learnmeabitcoin-technical-script-p2wpkh]], [[learnmeabitcoin-technical-script-p2wsh]], [[learnmeabitcoin-technical-script-p2tr]], [[learnmeabitcoin-technical-script-return]], [[learnmeabitcoin-technical-script-p2sh-p2wpkh]], [[learnmeabitcoin-technical-script-p2sh-p2wsh]]
+**Last updated:** 2026-06-20
+**Sources:** [[learnmeabitcoin-beginners-guide-locks]], [[learnmeabitcoin-technical-script-overview]], [[learnmeabitcoin-technical-script-p2pk]], [[learnmeabitcoin-technical-script-p2pkh]], [[learnmeabitcoin-technical-script-p2ms]], [[learnmeabitcoin-technical-script-p2sh]], [[learnmeabitcoin-technical-script-p2wpkh]], [[learnmeabitcoin-technical-script-p2wsh]], [[learnmeabitcoin-technical-script-p2tr]], [[learnmeabitcoin-technical-script-return]], [[learnmeabitcoin-technical-script-p2sh-p2wpkh]], [[learnmeabitcoin-technical-script-p2sh-p2wsh]], [[2018_Grokking-Bitcoin_Rosenbaum]]
 
 ## Summary
 
@@ -80,6 +80,40 @@ ScriptPubKey:  OP_RETURN <data>
 
 Bitcoins in einem OP_RETURN-Output sind **permanent unausgebar** (Burned Coins). Genutzt für: Timestamping, Token-Protokolle (Ordinals, Runes), Messenger-Protokolle. Standardlimit: 83 Bytes Daten. → [[op-return-und-datenspeicherung]]
 
+### Timelock-Opcodes: CLTV und CSV
+
+Neben den Output-Typ-Mustern gibt es zwei Opcodes, die einen Output zeitlich sperren können. Sie greifen auf die Zeitfelder in Transaktionen zurück (nLockTime bzw. Sequence Number) und erzwingen bestimmte Mindestbedingungen beim Ausgeben.
+
+#### OP_CHECKLOCKTIMEVERIFY (CLTV, BIP65) — Absoluter Timelock
+
+CLTV sperrt einen Output bis zu einem bestimmten Zeitpunkt (Unix-Timestamp oder Block-Höhe). Der Opcode liest den Wert vom Stack und vergleicht ihn mit der nLockTime der Spending-Transaktion: Ist die nLockTime kleiner als der Script-Wert, schlägt die Validierung fehl.
+
+```
+ScriptPubKey:  <timestamp oder blockheight> OP_CHECKLOCKTIMEVERIFY OP_DROP
+               OP_DUP OP_HASH160 <pubkey-hash> OP_EQUALVERIFY OP_CHECKSIG
+```
+
+Das `OP_DROP` nach CLTV ist nicht inhaltlich motiviert, sondern ein Artefakt der Deployment-Methode: CLTV wurde als Soft Fork über einen bestehenden No-Op-Opcode eingeführt, der seinen Stack-Wert nicht konsumiert — daher das explizite Drop.
+
+Anwendungsfall: eine Zahlung an die Erben, die erst ab einem bestimmten Datum ausgegeben werden kann. Die Transaktion kann sofort gebroadcastet und gemined werden; der Output bleibt trotzdem bis zum gesetzten Datum unausgebar. [[2018_Grokking-Bitcoin_Rosenbaum]]
+
+#### OP_CHECKSEQUENCEVERIFY (CSV, BIP112) — Relativer Timelock
+
+CSV erzwingt eine Mindestwartezeit zwischen dem Block, in dem der Output gemined wurde, und dem Block, in dem er ausgegeben wird. Die Zeitspanne wird in der Sequence Number des Inputs kodiert.
+
+Encoding der Sequence Number (4 Bytes):
+- Bit 31 = 0: relativer Timelock aktiv
+- Bit 22 = 0: Wert der 16 LSBs = Anzahl Blöcke
+- Bit 22 = 1: Wert der 16 LSBs = Anzahl 512-Sekunden-Intervalle (~8,5 Min. pro Einheit)
+- Tx-Version muss ≥ 2 sein
+
+```
+ScriptPubKey:  <N> OP_CHECKSEQUENCEVERIFY OP_DROP
+               OP_DUP OP_HASH160 <pubkey-hash> OP_EQUALVERIFY OP_CHECKSIG
+```
+
+CSV ist die Grundlage für Atomic Swaps und Lightning-Payment-Channels: Beide Protokolle brauchen Outputs, die nach einer Mindestfrist einseitig rückholbar sind, um das Gegenparteirisiko zu begrenzen. Beim Atomic Swap z.B. kann John seinen Einsatz zurückholen, wenn Fadime 48 Stunden lang nicht reagiert — ohne auf eine dritte Partei angewiesen zu sein. [[2018_Grokking-Bitcoin_Rosenbaum]]
+
 ### SegWit Script-Typen (ab 2016 / 2021)
 
 Werden über das **Witness**-Feld entsperrt. Witness-Daten haben niedrigeres Gewicht (1 wu statt 4 wu), was zu niedrigeren Gebühren führt. Eingeführt mit SegWit (2016) und Taproot (2021).
@@ -151,6 +185,7 @@ Nodes relayieren nur Standard-Scripts (oben beschrieben). Custom Scripts können
 - [[op-return-und-datenspeicherung]]
 - [[segregated-witness-segwit]]
 - [[taproot-musig2-frost]]
+- [[skalierung-lightning-ark-statechains]]
 
 ## Open Questions
 

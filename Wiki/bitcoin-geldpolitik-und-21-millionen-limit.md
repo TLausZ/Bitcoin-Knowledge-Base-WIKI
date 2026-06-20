@@ -53,7 +53,7 @@ Technisch kann jeder den Code verändern. Praktisch wäre eine Inflations-Änder
 
 ### Warum das Limit politisch relevant ist: Der Cantillon-Effekt
 
-Das 21-Millionen-Limit ist nicht nur eine technische Konstante — es ist eine bewusste Reaktion auf ein strukturelles Problem staatlicher Geldpolitik.
+Das 21-Millionen-Limit ist eine technische Konstante mit politischer Absicht: eine Reaktion auf ein strukturelles Problem staatlicher Geldpolitik.
 
 Traditionelle Zentralbanken können Geld drucken. Die Bilanz der Europäischen Zentralbank wuchs von einer Billion Euro im Jahr 2000 auf fast neun Billionen bis 2022. 80% aller je existierenden US-Dollars wurden zwischen 2020 und 2022 gedruckt. Geldmengenwachstum entwerte bestehende Ersparnisse — wer Geld hält, verliert Kaufkraft.
 

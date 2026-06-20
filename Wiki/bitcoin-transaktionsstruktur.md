@@ -1,8 +1,8 @@
 # Bitcoin-Transaktionsstruktur
 
 **Status:** established
-**Last updated:** 2026-06-19
-**Sources:** [[learnmeabitcoin-beginners-guide-transactions]], [[learnmeabitcoin-beginners-guide-outputs]], [[learnmeabitcoin-technical-transaction-overview]], [[learnmeabitcoin-technical-transaction-input]], [[learnmeabitcoin-technical-transaction-output]], [[learnmeabitcoin-technical-transaction-fee]], [[learnmeabitcoin-technical-transaction-size]], [[learnmeabitcoin-technical-transaction-locktime]], [[learnmeabitcoin-technical-transaction-utxo]], [[learnmeabitcoin-technical-transaction-witness]], [[learnmeabitcoin-technical-transaction-wtxid]], [[learnmeabitcoin-technical-transaction-psbt]], [[learnmeabitcoin-technical-transaction-input-txid]], [[learnmeabitcoin-technical-transaction-input-vout]], [[learnmeabitcoin-technical-transaction-input-scriptsig]], [[learnmeabitcoin-technical-transaction-input-sequence]], [[learnmeabitcoin-technical-transaction-output-scriptpubkey]]
+**Last updated:** 2026-06-20
+**Sources:** [[learnmeabitcoin-beginners-guide-transactions]], [[2018_Grokking-Bitcoin_Rosenbaum]], [[learnmeabitcoin-beginners-guide-outputs]], [[learnmeabitcoin-technical-transaction-overview]], [[learnmeabitcoin-technical-transaction-input]], [[learnmeabitcoin-technical-transaction-output]], [[learnmeabitcoin-technical-transaction-fee]], [[learnmeabitcoin-technical-transaction-size]], [[learnmeabitcoin-technical-transaction-locktime]], [[learnmeabitcoin-technical-transaction-utxo]], [[learnmeabitcoin-technical-transaction-witness]], [[learnmeabitcoin-technical-transaction-wtxid]], [[learnmeabitcoin-technical-transaction-psbt]], [[learnmeabitcoin-technical-transaction-input-txid]], [[learnmeabitcoin-technical-transaction-input-vout]], [[learnmeabitcoin-technical-transaction-input-scriptsig]], [[learnmeabitcoin-technical-transaction-input-sequence]], [[learnmeabitcoin-technical-transaction-output-scriptpubkey]]
 
 ## Summary
 
@@ -97,6 +97,30 @@ Alle unverbrauchten Outputs bilden das **UTXO-Set** — ein vom Node im RAM geha
 Das Witness-Feld enthält den Unlocking Code für SegWit-Inputs (P2WPKH, P2WSH, P2TR). Es ist vom Rest der Transaktionsdaten getrennt, weshalb es nicht in die TXID einfließt, wohl aber in die wTXID.
 
 **wTXID:** HASH256 aller Transaktionsdaten inklusive Marker, Flag und Witness. Die wTXID wird im Witness-Commitment der Coinbase-Transaktion eines SegWit-Blocks verwendet. → [[segregated-witness-segwit]]
+
+### SIGHASH-Typen: Was eine Signatur abdeckt
+
+Jede Signatur in einer Transaktion committet nicht notwendigerweise auf die gesamte Transaktion. Der SIGHASH-Typ bestimmt, welche Teile der Transaktion in den signierten Hash einfließen. Das gibt Spielraum für flexible Multi-Party-Protokolle.
+
+Drei Basis-Typen:
+
+**SIGHASH_ALL (0x01, Standard):** Signiert alle Inputs und alle Outputs. Jede Änderung an der Transaktion macht die Signatur ungültig. Für normale Zahlungen.
+
+**SIGHASH_NONE (0x02):** Signiert alle Inputs, aber keinen Output. Der Unterzeichner sagt: "Ich gebe die Coins frei, egal wohin sie gehen." Outputs können von jemand anderem ergänzt werden — riskant ohne weiteren Kontext.
+
+**SIGHASH_SINGLE (0x03):** Signiert alle Inputs und den Output mit demselben Index wie der signierte Input. Wer Input 0 signiert, committet auf Output 0; alle anderen Outputs können noch verändert werden.
+
+Dazu kommt ein Modifikator:
+
+**ANYONECANPAY (0x80):** Kombinierbar mit jedem der drei Basis-Typen. Signiert nur den eigenen Input, nicht alle anderen. Das erlaubt anderen Parteien, weitere Inputs zur Transaktion hinzuzufügen.
+
+Die sechs Kombinationen: ALL, NONE, SINGLE, ALL|ANYONECANPAY, NONE|ANYONECANPAY, SINGLE|ANYONECANPAY.
+
+Praktisches Beispiel für NONE|ANYONECANPAY: Eine Crowdfunding-Transaktion, bei der jeder Teilnehmer seinen eigenen Input signiert, aber keinen Output festlegt. Erst wenn genug Inputs gesammelt sind, wird ein gemeinsamer Output für die Zielsumme ergänzt. Jeder Teilnehmer kann seine Unterschrift zurückziehen, solange die Transaktion noch nicht gesendet wurde. [[2018_Grokking-Bitcoin_Rosenbaum]]
+
+### TXID: Warum doppeltes SHA256?
+
+Die TXID einer Transaktion ist HASH256 = SHA256(SHA256(tx_data)). Das doppelte SHA256 schützt gegen sogenannte **Length Extension Attacks**: Ein Angreifer, der SHA256(m) kennt, kann in bestimmten Umständen SHA256(m || extension) für beliebige Anhänge berechnen, ohne die ursprüngliche Nachricht m zu kennen. Das doppelte Hashing verhindert diesen Angriffsvektor, weil der innere Hash nicht in den äußeren weitergeführt werden kann. Satoshi hat dies offenbar als Vorsichtsmaßnahme eingebaut, ohne sich mit Length Extension Attacks im Detail auseinanderzusetzen. [[2018_Grokking-Bitcoin_Rosenbaum]]
 
 ### PSBT — Partially Signed Bitcoin Transaction
 

@@ -2,7 +2,7 @@
 
 **Status:** established
 **Last updated:** 2026-06-20
-**Sources:** [[A Mechanistic Derivation of the Bitcoin Price Power Law_ Network Adoption Dynamics and Generalised Metcalfe Scaling]], [[bitcoin_powerlaw_v4_FINALA]]
+**Sources:** [[A Mechanistic Derivation of the Bitcoin Price Power Law_ Network Adoption Dynamics and Generalised Metcalfe Scaling]], [[bitcoin_powerlaw_v4_FINALA]], [[Bitcoin_Supply_Demand_Price_Dynamics]], [[Supply_and_Demand_Framework_Bitcoin_Price_Forecasting]]
 
 ## Summary
 
@@ -14,9 +14,9 @@ Der Bitcoin-Preis folgt einem robusten Potenzgesetz in der Zeit: P(t) ∼ t^β m
 
 Santostasi & Perrenod (2026) zeigen, dass β das Produkt zweier unabhängig messbarer Grössen ist:
 
-**βA = 3.046 ± 0.012** — Adoptionswachstum. Die Anzahl aktiver Bitcoin-Adressen (non-zero balance) wächst kubisch mit der Zeit. Das entspricht dem Spreading-Muster auf heterogenen Scale-Free-Netzwerken, wie es aus Epidemiologie und Technologiediffusion bekannt ist (Sättigungswellen-Mechanismus).
+**βA = 3.046 ± 0.012:** Adoptionswachstum. Die Anzahl aktiver Bitcoin-Adressen (non-zero balance) wächst kubisch mit der Zeit. Das entspricht dem Spreading-Muster auf heterogenen Scale-Free-Netzwerken, wie es aus Epidemiologie und Technologiediffusion bekannt ist (Sättigungswellen-Mechanismus).
 
-**βM = 1.838 ± 0.031** — Werteskalierung. Der Preis skaliert mit der Nutzerzahl nach einem generalisierten Metcalfe-Gesetz: P ∼ N^βM. Das klassische Metcalfe-Gesetz (Wert ∝ N²) ergibt β_M = 2; der empirisch gemessene Wert liegt darunter, was auf sublineare Netzwerkeffekte hindeutet.
+**βM = 1.838 ± 0.031:** Werteskalierung. Der Preis skaliert mit der Nutzerzahl nach einem generalisierten Metcalfe-Gesetz: P ∼ N^βM. Das klassische Metcalfe-Gesetz (Wert ∝ N²) ergibt β_M = 2; der empirisch gemessene Wert liegt darunter, was auf sublineare Netzwerkeffekte hindeutet.
 
 **Kompositionsidentität**: β = βA × βM = 3.046 × 1.838 = 5.60 — übereinstimmend mit dem direkt gemessenen βobs = 5.69 auf 1.6% Abweichung. Diese Übereinstimmung ist der zentrale Befund: Die Preisentwicklung folgt aus der Netzwerkstruktur, nicht aus spekulativer Dynamik.
 
@@ -36,6 +36,22 @@ Das Modell benennt Bedingungen, unter denen das Power Law brechen würde: wenn A
 ### Einordnung und Grenzen
 
 Das Power Law beschreibt die Preisentwicklung als deterministischen Ausdruck der Netzwerktopologie. Es erklärt nicht kurzfristige Volatilität, Halving-induzierte Zyklen oder spekulative Überschiessungen — diese erscheinen als Rauschen um den Trend. Das Modell sagt keine spezifischen Zielpreise vorher, sondern einen langfristigen Wachstumspfad, der solange gilt, wie das Netzwerkwachstum dem gemessenen Adoptionsmuster folgt.
+
+### Angebot-Nachfrage-Modelle (Rudd & Porter, 2025)
+
+Neben dem netzwerktheoretischen Power-Law-Ansatz gibt es einen komplementären Bottom-up-Ansatz, der den Preis aus fundamentalen Angebot-Nachfrage-Gleichgewichten ableitet statt aus Netzwerktopologie.
+
+**Rudd & Porter (Journal of Risk and Financial Management, 2025)** entwickeln zwei verbundene Modelle:
+
+*Supply and Demand Framework (Companion Paper)*: Ein Gleichgewichtsrahmen auf Basis von CES-Nachfragefunktion (Constant Elasticity of Substitution) und inelastischem 21M-Angebot. Der Preis entsteht als Market-Clearing-Preis, der von fünf Faktoren bestimmt wird: Marktdemand, Zeitpräferenz der Investoren, Fiat-Auszahlungssensitivität, initiale Liquid Supply, und tägliche Entnahmen aus der Liquid Supply (institutional accumulation).
+
+*Monte Carlo Simulation (Bitcoin Supply, Demand, and Price Dynamics, JRFM 2025)*: Probabilistische Preisszenarien bis 2036. Wichtigste Befunde:
+- **50% Wahrscheinlichkeit: BTC > 5,17 Mio. USD bis April 2036** (halving-relative Baseline)
+- Typische Szenarien liegen zwischen "wenige Millionen" und "niedrige zweistellige Millionen" — weite Parameter liefern ähnliche Ergebnisse
+- Hyperbolische Preispfade (>10× Baseline) konzentrieren sich nur bei Liquid Supply < 2 Mio. BTC + niedriger Auszahlungssensitivität
+- **Liquid Supply ist der stärkste Preis-Hebel**: Wenn institutionelle Akkumulation und strategische Reserven BTC aus der Liquid Supply nehmen, steigt der Gleichgewichtspreis stark
+
+Der Unterschied zum Power Law: Das Power-Law-Modell leitet den Preispfad aus der Netzwerkdiffusion ab (deterministisch, topologisch); das Angebot-Nachfrage-Modell leitet ihn aus wirtschaftlichem Gleichgewicht ab (stochastisch, fundamentalseitig). Beide liefern für 2036 Preisbänder im Millionenbereich — ein konsistentes Signal aus unterschiedlichen Methodiken. [[Bitcoin_Supply_Demand_Price_Dynamics]], [[Supply_and_Demand_Framework_Bitcoin_Price_Forecasting]]
 
 ## Related
 

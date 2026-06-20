@@ -1,8 +1,8 @@
 # Bitcoin Vererbung
 
 **Status:** established
-**Last updated:** 2026-06-19
-**Sources:** [[Bitcoins verwahren und vererben_ Ein praktischer Ratgeber -- Marc Steiner -- 1_ Auflage, Rheinfelden, 2020 -- Held, Stefan & Fabio Tröndle GbR_ -- isbn13 9783949098017 -- 6ba03ea3dd3602e370eb518e8ae1af9c -- Anna's Archive.pdf]]
+**Last updated:** 2026-06-20
+**Sources:** [[Bitcoins verwahren und vererben_ Ein praktischer Ratgeber -- Marc Steiner -- 1_ Auflage, Rheinfelden, 2020 -- Held, Stefan & Fabio Tröndle GbR_ -- isbn13 9783949098017 -- 6ba03ea3dd3602e370eb518e8ae1af9c -- Anna's Archive.pdf]], [[2020_Bitcoins-verwahren-und-vererben_Steiner]]
 
 ## Summary
 
@@ -79,6 +79,36 @@ In Deutschland, Österreich und der Schweiz ist Bitcoin wie jedes andere Vermög
 Komplexe Setups scheitern meistens an ihrer Komplexität. Wenn Erben für eine 2-von-3-Multisig keine Anleitung verstehen oder nicht wissen, welche Software sie brauchen, hilft das beste kryptografische Setup nichts.
 
 Steiner empfiehlt außerdem, Zukunftsszenarien mitzudenken: Schlechtes Papier vergilbt, billige Tinte verblasst. Quantencomputer könnten aktuelle Verschlüsselungen zukünftig brechen. Hardware-Wallets werden abgekündigt, Software-Wallets enden den Support. Der Nachlassplan muss regelmäßig aktualisiert werden.
+
+### Materialien für den Nachlassplan
+
+Papier ist das Standardmedium — aber nicht jedes Papier hält Jahrzehnte durch. Steiner empfiehlt konkret:
+
+Für handschriftliche Einträge: ein **dokumentenechter Kugelschreiber** (im Fachhandel erhältlich). Die Tinte trocknet schneller, lässt sich kaum löschen und bleibt nach Wasserkontakt lesbar. Bleistift verblasst, gewöhnliche Kugelschreibertinte auch.
+
+Für das Papier selbst: entweder normales Papier laminieren oder direkt **wasser- und reißfestes Spezialpapier** verwenden. Beides gibt es günstig. Mindestens zwei Exemplare des Nachlassplans, an unterschiedlichen Orten verwahrt — bei Brand oder Überschwemmung schützt eine einzige Kopie nicht.
+
+Für Ausdrucke: **monochromer Laserdrucker**. Laserdrucker brennen Tonerpulver ins Papier ein, was langlebiger ist als Tintenstrahldrucker. Sensible Daten (Seed-Phrase, Passphrase) danach von Hand eintragen — nie ausdrucken. Nach dem Eintragen: Kopien per Hand anfertigen, nicht per Scanner oder Smartphone (diese Geräte speichern lokal).
+
+Für die Seed-Phrase selbst: **Metall-Seed-Speicher** (Cryptosteel, Bitplate, Bilodeau u.a.). Stahl oder Titan überstehen Brände, Überschwemmungen, Druck und Korrosion. Seed-Phrase auf Metall + Passphrase auf Papier an anderem Ort = sinnvolle Kombination.
+
+Für die Aufbewahrung: versiegelter Umschlag (über die Lasche unterschreiben, so dass Öffnung Spuren hinterlässt) oder spezialisierte **Safebags** wie jene von Litfax. [[2020_Bitcoins-verwahren-und-vererben_Steiner]]
+
+### Anleitung für die Erben: Erste Schritte
+
+Dieser Abschnitt richtet sich an Erben, die unerwartet mit Bitcoin-Vermögen konfrontiert werden.
+
+Steiner legt dem Buch eine eigene Erben-Kurzanleitung bei. Die wichtigsten Punkte:
+
+**Nichts wegwerfen.** Unscheinbare Zettel mit sinnlos wirkenden Wortkolonnen können Seed-Phrasen oder Wallet-Anleitungen sein — sie sind das Vermögen selbst.
+
+**Kein Zeitdruck, aber auch nicht ewig warten.** Innerhalb von drei bis vier Wochen handeln. In der Zwischenzeit: Informationen sicher aufbewahren, nicht offen herumliegen lassen.
+
+**Zwei Szenarien:** Entweder die Bitcoin verkaufen (Wechsel zu Fiatgeld auf einer Börse gegen KYC-Nachweis) oder selbst verwahren (Hardware-Wallet einrichten, Seed-Phrase neu sichern, Coincontrol übernehmen). Beide Wege sind legitim. Wer technisch unsicher ist, sollte die im Nachlassplan benannte Vertrauensperson kontaktieren.
+
+**Bei Multisig oder Shamir:** Wenn der Plan auf "Multisignatur" oder "Shamir's Secret Sharing" verweist, kann kein Erbe allein zugreifen. Mehrere Erben müssen ihre jeweiligen Schlüssel oder Shares zusammenbringen. Die Anleitung dazu steht im Plan selbst.
+
+**Bestehende Bitcoin-Kenntnisse schützen nicht vor Fehlern.** Wer schon selbst mit Bitcoin handelt, kennt nicht automatisch Hardware-Wallets oder Seed-Phrase-Recovery. Ein guter Nachlassplan enthält Schritt-für-Schritt-Anleitungen, die auch für Einsteiger funktionieren. [[2020_Bitcoins-verwahren-und-vererben_Steiner]]
 
 ### Häufige Fehler
 

@@ -12,10 +12,10 @@ Banken und Regierungen treiben die Erfassung biometrischer Daten (Gesichtserkenn
 
 ### Das Betrugsschutz-Argument und seine Grenzen
 
-Physische Biometrie (Gesichtserkennung, Fingerabdrücke) reduziert Account-Takeover-Betrug um 85–89% gegenüber traditionellen Methoden — das ist ein echter Vorteil. Aber:
+Physische Biometrie (Gesichtserkennung, Fingerabdrücke) reduziert Account-Takeover-Betrug um 85–89% gegenüber traditionellen Methoden. Dennoch überwiegen die Risiken:
 
 - **Deepfake-Anfälligkeit:** 63% der Organisationen erlebten 2024 Business Email Compromise-Angriffe, die biometrische Checks via KI-generierte Fakes umgehen
-- **Irreversibilität:** Biometrische Daten können nicht wie ein Passwort zurückgesetzt werden. Der Chase-Datenbreach (2024) legte 451.000 Personendaten offen — dauerhaft
+- **Irreversibilität:** Biometrische Daten können nicht wie ein Passwort zurückgesetzt werden. Der Chase-Datenbreach (2024) legte 451.000 Personendaten dauerhaft offen
 - **Überlegene Alternative:** Behavioral Biometrics (Tippmuster, Mausbewegungen, Navigation) analysiert über 3.000 Verhaltenssignale, reduziert Falschpositiv-Rate um 90% und verbessert Betrugserkennung um 70% — ohne physische Datenerfassung
 
 Das Paradoxon: Die Banken wählen die schwächere Technologie für Betrugsschutz und sammeln dabei mehr invasive Daten.
