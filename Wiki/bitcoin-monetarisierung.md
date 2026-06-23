@@ -2,7 +2,7 @@
 
 **Status:** established
 **Last updated:** 2026-06-23
-**Sources:** [[aprycot-das-bullische-argument-fuer-bitcoin]], [[Das bullische Argument für Bitcoin]], [[The Bullish Case for Bitcoin]], [[aprycot-jeder-ist-ein-scammer]], [[aprycot-parker-lewis-bitcoin-macht-anderes-geld-ueberfluessig]], [[aprycot-parker-lewis-gradually-then-suddenly.md]]
+**Sources:** [[aprycot-das-bullische-argument-fuer-bitcoin]], [[Das bullische Argument für Bitcoin]], [[The Bullish Case for Bitcoin]], [[aprycot-jeder-ist-ein-scammer]], [[aprycot-parker-lewis-bitcoin-macht-anderes-geld-ueberfluessig]], [[aprycot-parker-lewis-gradually-then-suddenly.md]], [[aprycot-malki-bitcoin-weltreservewaehrung]]
 
 ## Summary
 
@@ -96,6 +96,18 @@ Bitcoin war das erste digitale Gut, dem es gelang, ein glaubwürdig fixes Angebo
 
 Die invariante Beobachtung, die Lewis beschreibt: Wer Bitcoin versteht, wünscht sich im Nachhinein immer, früher eingestiegen zu sein. Das gilt unabhängig vom Einstiegszeitpunkt. Die Wahrnehmung, "zu spät" zu sein, ist strukturell falsch — bei 21 Millionen Bitcoin und 8 Milliarden Menschen ist ein Bitcoin heute so knapp wie immer. [[aprycot-parker-lewis-bitcoin-macht-anderes-geld-ueberfluessig]]
 
+### Bitcoin als Weltreservewährung: Unternehmens-Szenarioanalyse (Malki)
+
+Mattias Malki entwickelt 2021 eine Szenarioanalyse: Was passiert, wenn Bitcoin tatsächlich Weltreservewährung wird — und was sollten Unternehmen jetzt tun?
+
+Die Adoption folge einer S-Kurve analog zum Internet. Frühzeitiger Einstieg bringt sechs Vorteile: Kaufkraftzuwachs aus frühem Halten, Know-how-Aufbau bevor er teuer wird, Marketing-Vorteil (Bitcoin-native Unternehmen als vertrauenswürdige Akteure), Entwicklung neuer Geschäftsmodelle auf Bitcoin/Lightning, das Setzen von Standards in einer entstehenden Branche, und Zugang zum Lightning Network als Infrastrukturvorteil.
+
+Auf der anderen Seite nennt Malki zwei strukturelle Risiken des Wartens: Kaufkraftverlust (wer Fiat hält, verliert relativ zur Inflationsrate) und Know-how-Rückstand, der schwer aufzuholen ist, sobald Bitcoin-Infrastruktur universell wird.
+
+Als Unternehmensbeispiel zieht Malki den Brief des Aker-Gründers Kjell Inge Røkke heran, der 2021 Seetee — Akers Bitcoin-Tochter — ankündigte. Røkkes Sprache ist präzise: Bitcoin hält Wert stabiler als Fiat, ist portierbar ohne Infrastrukturkosten, und ermöglicht Unternehmen echte Treasury-Diversifikation statt realer Negativrendite auf Bargeld. [[bitcoin-als-strategische-reserve]]
+
+Die Parallele zur Internet-S-Kurve trägt, wenn man annimmt, dass Bitcoin als Geldprotokoll ähnliche Netzwerkeffekte hat wie TCP/IP als Kommunikationsprotokoll: Fast-Follower gewinnen wenig; Pioniere akkumulieren Vorteile, die strukturell schwer aufzuholen sind.
+
 ## Related
 
 - [[bitcoin-spieltheorie-und-anreize]]
@@ -104,9 +116,12 @@ Die invariante Beobachtung, die Lewis beschreibt: Wer Bitcoin versteht, wünscht
 - [[geld-staat-und-fiat-monopol]]
 - [[szabo-geldursprung]]
 - [[bitcoin-als-inflationsschutz]]
+- [[bitcoin-als-strategische-reserve]]
+- [[hyperbitcoinization-und-zitadellen]]
 
 ## Open Questions
 
 - In welchem Stadium der Monetarisierung befindet sich Bitcoin aktuell — und woran würde man den Übergang in die dritte Phase erkennen?
 - Wie verändert der Cantillon-Effekt in der Bitcoin-Ökonomie (frühe Miner als Erstempfänger) die Verteilungsgerechtigkeit?
 - Kann Bitcoin Tauschmittel werden, bevor es Recheneinheit wird — oder ist die Reihenfolge zwingend?
+- Malkis S-Kurven-Analogie: Wo auf der Kurve sind wir 2026? Gibt es Metriken (Entwickler, Nodes, Lightning-Kapazität, ETF-AUM), die darüber Auskunft geben?

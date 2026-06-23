@@ -1,8 +1,8 @@
 # Bitcoin als humanitäres Werkzeug
 
 **Status:** established
-**Last updated:** 2026-06-22
-**Sources:** [[aprycot-waehrung-der-letzten-instanz]], [[aprycot-bitcoin-palaestinas-waehrung-freiheit]], [[aprycot-gladstein-humanitaere-oekologische-argumente]], [[aprycot-gladstein-meinungsfreiheit-digitales-zeitalter]], [[aprycot-gigi-bitcoin-einsatz-venezuela]]
+**Last updated:** 2026-06-23
+**Sources:** [[aprycot-waehrung-der-letzten-instanz]], [[aprycot-bitcoin-palaestinas-waehrung-freiheit]], [[aprycot-gladstein-humanitaere-oekologische-argumente]], [[aprycot-gladstein-meinungsfreiheit-digitales-zeitalter]], [[aprycot-gigi-bitcoin-einsatz-venezuela]], [[aprycot-gladstein-kuba-bitcoin-revolution]], [[aprycot-gladstein-finanzielle-freiheit-afghanistan]]
 
 ## Summary
 
@@ -29,6 +29,24 @@ Der Gazastreifen hat etwa 2 Millionen Einwohner, über 40% Arbeitslosigkeit und 
 Gladsteins Gesprächspartner "Uqab" (Deckname) aus Rafah schildert Bitcoin als einzige Option, internationale Zahlungen zu empfangen. Klassische Systeme — PayPal, Venmo, viele Kreditkarten — sind für Gaza-Nutzer nicht zugänglich. Western Union und ähnliche Dienste funktionieren unter Einschränkungen. Bitcoin umgeht diese Schranken nicht durch politischen Aktivismus, sondern schlicht dadurch, dass Blockchain-Transaktionen keine Erlaubnis dritter Parteien brauchen.
 
 Im Westjordanland ist die Situation ähnlich, aber weniger extrem. Palästinensische Händler beschreiben zwei parallele Probleme: Israelische Siedler zahlen in Shekel mit israelischen Karten; palästinensische Käufer aus Gaza haben andere Konten. Bitcoin schafft einen gemeinsamen Nenner ohne die politische Belastung der jeweiligen Währungen. [[aprycot-bitcoin-palaestinas-waehrung-freiheit]]
+
+### Kuba: Bitcoin unter dem Dreiwährungssystem
+
+Kuba hatte über Jahrzehnte zwei Währungen: den kubanischen Peso (CUP, für Einheimische) und den konvertiblen Peso (CUC, für Touristen). Nach der CUC-Abschaffung 2021 entstand faktisch eine dritte Währung — MLC (Moneda Libremente Convertible) — für Devisenzahlungen über Regierungskarten. Drei Währungen, alle unter staatlicher Kontrolle, alle manipulierbar. Wer Devisen aus dem Ausland empfangen will, muss sie über staatliche Kanäle leiten.
+
+Gladstein dokumentiert, wie Kubaner diesen Mechanismus mit Bitcoin umgehen. Lucia, eine Friseurin in Havanna, empfängt Zahlungen ihrer Kunden via Lightning — direkt, ohne staatliche Konversion. Erich García Cruz, Informatiker, gründete Bitremesas, ein Dienst für Bitcoin-basierte Überweisungen aus der kubanischen Diaspora. Die klassischen Dienste — Western Union hatte 2020 sein Kuba-Geschäft eingestellt — stehen nicht mehr zur Verfügung. Bitcoin ist keine ideologische Wahl, sondern oft die einzige funktionierende Option.
+
+Das Muster: Staatliche Währungskontrollen sind das Problem, Bitcoin ist der Ausweg. Kuba illustriert, wie Geldpolitik als Kontrollwerkzeug eingesetzt wird — und warum permissionslose Zahlungsinfrastruktur politisch relevant ist. [[aprycot-gladstein-kuba-bitcoin-revolution]]
+
+### Afghanistan: Frauen, Roya Mahboob und Bitcoin
+
+Alex Gladstein beschreibt Roya Mahboob, Afghanistand Unternehmerin, die 2013 in Kabul Bitcoin entdeckte. Ihr Unternehmen Citadel Software beschäftigte zu 85% Frauen — in einem Land, in dem Frauen keinen eigenen Bankzugang hatten. Bitcoin ermöglichte direkte Gehaltsauszahlungen an Mitarbeiterinnen, ohne die Bankinfrastruktur, die Männer als Kontoimhaber voraussetzte.
+
+Laleh Farzan, die 2015 als Flüchtling nach Europa kam, hatte 2.5 BTC mitgebracht — physisch grifflose Zahlen in ihrem Kopf. Während Bargeld an Grenzen konfisziert werden kann, Bankguthaben eingefroren, ist ein privater Schlüssel unsichtbar und teleportierbar. Ihr Fall zeigt Bitcoin nicht als abstraktes Finanzinstrument, sondern als konkretes Fluchtmittel.
+
+Nach dem Taliban-Rückfall 2021 kollabierte das afghanische Bankensystem erneut. Die IWF-Reserven wurden eingefroren, ausländische Hilfe gestoppt. Hawala — das informelle Überweisungssystem — funktionierte noch, aber war teuer und langsam. Bitcoin ermöglichte direkte P2P-Überweisungen an Afghanen, ohne durch das System zu gehen, das die Taliban nun kontrollierten.
+
+Gladstein sieht darin das Grundmuster: Autoritäre Regime übernehmen immer die Finanzinfrastruktur zuerst. Bitcoin macht diese Übernahme unvollständig. [[aprycot-gladstein-finanzielle-freiheit-afghanistan]]
 
 ### Das strukturelle Muster
 
@@ -102,6 +120,8 @@ Einige Wochen nach dem Gespräch meldet sich José: Er hat einen Online-Job gefu
 - [[bitcoin-mining-umwelt]]
 - [[bitcoin-regierungsresistenz]]
 - [[cypherpunk-manifest]]
+- [[bitcoin-menschenrechte]]
+- [[el-salvador-bitcoin-adoption]]
 
 ## Open Questions
 
@@ -110,3 +130,4 @@ Einige Wochen nach dem Gespräch meldet sich José: Er hat einen Online-Job gefu
 - Ersetzt Bitcoin in diesen Kontexten Gold, Bargeld oder andere informelle Wertspeicher — oder erschließt es neue wirtschaftliche Handlungsspielräume?
 - Wie vermeidet Mining-basierte Entwicklungshilfe, die Muster der Rohstoffextraktion zu wiederholen (Gewinne ins Ausland, lokale Bevölkerung profitiert kaum)?
 - Wie verändert sich die Venezuela-Situation, wenn Lightning auf Smartphone-Ebene massentauglich wird?
+- Kuba, Afghanistan, Gaza, Venezuela — alle Fälle sind aus 2021–2022. Wie hat sich die Nutzungssituation seitdem verändert? Sind Lightning-Zahlungen in diesen Regionen inzwischen einfacher zugänglich?

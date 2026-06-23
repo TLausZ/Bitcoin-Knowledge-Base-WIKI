@@ -2,7 +2,7 @@
 
 **Status:** established
 **Last updated:** 2026-06-23
-**Sources:** [[aprycot-parker-lewis-bitcoin-ist-einer-fuer-alle]]
+**Sources:** [[aprycot-parker-lewis-bitcoin-ist-einer-fuer-alle]], [[aprycot-maxwell-cantillonsche-oligarchie]]
 
 ## Summary
 
@@ -34,6 +34,16 @@ Das Argument hat eine klare Implikation für Prioritäten: Solange das Fundament
 
 Dieser Gedanke verbindet sich mit dem österreichischen Wirtschaftsdenken: Kapitalakkumulation und Wohlstand entstehen nicht durch Umverteilung vorhandener Werte, sondern durch Ersparnisse, die in produktive Investitionen fließen. Kaputtes Geld zerstört den Anreiz zum Sparen und damit den Mechanismus der Kapitalbildung, von dem Wohlstand für alle abhängt. [[aprycot-parker-lewis-bitcoin-ist-einer-fuer-alle]]
 
+### Die Cantillon'sche Oligarchie und die politische Linke (Tom Maxwell)
+
+Tom Maxwell erweitert das Argument in eine politisch unerwartete Richtung. Der Cantillon-Effekt — dass neu geschaffenes Geld diejenigen bevorzugt, die es zuerst erhalten — erzeugt über Jahrzehnte eine strukturelle Oligarchie. Maxwell nennt das die „Cantillon'sche Oligarchie": nicht gewählt, nicht erblich legitimiert, sondern durch den Mechanismus der Geldschöpfung immer weiter begünstigt.
+
+Der Petrodollar-Pakt von 1974 (Saudi-Arabien + USA) ist dabei kein neutrales geopolitisches Arrangement, sondern ein Multiplikator dieses Effekts: Die globale Dollar-Nachfrage ermöglicht permanente US-Defizite, die durch neue Dollarschöpfung finanziert werden. Die Oligarchie ist nicht nur national, sondern global.
+
+MMT (Modern Monetary Theory) nimmt Maxwell als Symptom: die intellektuelle Legitimierung von Staatsausgaben durch Geldschöpfung, ohne Rücksicht auf monetäre Konsequenzen. Das Grundproblem bleibt: Wer Geld schöpft, gewinnt.
+
+Maxwell argumentiert, dass die politische Linke strukturell falsch liegt, wenn sie Umverteilung als Lösung versteht. Das Geldmedium selbst ist das Problem. Bitcoin ist in diesem Sinne ein linkes Argument mit rechten Mitteln — oder umgekehrt. Die Dekonstruktion des Cantillon-Effekts ist keine konservative These, sondern eine egalitäre. Wer die Linke ernst nimmt, muss das Geldmedium hinterfragen. [[aprycot-maxwell-cantillonsche-oligarchie]]
+
 ## Related
 
 - [[geld-staat-und-fiat-monopol]]
@@ -42,8 +52,10 @@ Dieser Gedanke verbindet sich mit dem österreichischen Wirtschaftsdenken: Kapit
 - [[praxeologie-und-oesterreichische-oekonomik]]
 - [[bitcoin-humanitaere-anwendungen]]
 - [[iwf-weltbank-strukturanpassung]]
+- [[dollar-hegemonie-super-imperialismus]]
 
 ## Open Questions
 
 - Wenn Bitcoin das monetäre Fundament verbessert, wie lange dauert es, bis das in messbarer Verringerung von Ungleichheit sichtbar wird?
 - Ist die politische Koalition für Bitcoin möglich — oder ist das Lager der Fiat-Profiteure strukturell stark genug, um einen Bitcoin-Standard zu verhindern?
+- Maxwells Argument setzt voraus, dass die politische Linke primär durch Cantillon-Effekte geschädigte Gruppen vertreten will. Stimmt das empirisch? Welche linken Strömungen sind tatsächlich Bitcoin-offen?

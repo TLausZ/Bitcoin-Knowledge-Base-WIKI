@@ -2,7 +2,7 @@
 
 **Status:** established
 **Last updated:** 2026-06-23
-**Sources:** [[aprycot-gladstein-koennen-regierungen-bitcoin-aufhalten]], [[aprycot-parker-lewis-bitcoin-kann-nicht-verboten-werden]], [[aprycot-parker-lewis-bitcoin-nicht-nur-fuer-kriminelle]]
+**Sources:** [[aprycot-gladstein-koennen-regierungen-bitcoin-aufhalten]], [[aprycot-parker-lewis-bitcoin-kann-nicht-verboten-werden]], [[aprycot-parker-lewis-bitcoin-nicht-nur-fuer-kriminelle]], [[aprycot-gigi-konsequenzen-bitcoin-verbot]]
 
 ## Summary
 
@@ -50,6 +50,16 @@ Lewis sieht drei strukturelle Hindernisse für ein wirksames Verbot. Erstens ist
 
 Das Verbot würde außerdem eine unbeabsichtigte Signalwirkung haben: Es würde demonstrieren, dass der Staat das Geldmonopol für bedroht hält. Das erhöht die Glaubwürdigkeit von Bitcoin als alternative Wertaufbewahrung — genau das Gegenteil der beabsichtigten Wirkung. [[aprycot-parker-lewis-bitcoin-kann-nicht-verboten-werden]]
 
+### Die technische Unbannbarkeit (Gigi)
+
+Gigi geht über das ökonomische Argument hinaus und zeigt, was ein Verbot auf technischer Ebene bedeuten würde. Bitcoin ist Text, Mathematik und Information. Ein privater Schlüssel ist eine 256-Bit-Zahl — erzeugbar durch 256 Münzwürfe. Eine Transaktion ist eine signierte Nachricht. Mining ist das Raten einer Zahl. Ken Shirriff hat 2014 demonstriert, dass SHA-256 per Hand berechnet werden kann (0,67 Hashes/Tag mit Stift und Papier).
+
+Daraus folgt: Wer „anonyme Wallets" verbieten will, muss das Erzeugen von Zufallszahlen verbieten. Wer Transaktionen verbieten will, muss das Senden von Nachrichten verbieten. Wer Mining verbieten will, muss das Lösen von Rechenaufgaben verbieten. Konsequent durchgezogen: Das Denken selbst müsste kriminalisiert werden, denn ein Wallet in Form von 12 Wörtern existiert im Kopf seines Besitzers.
+
+Illegale Zahlen sind kein Gedankenexperiment — sie entstanden in den 1990ern, als Regierungen versuchten, Verschlüsselungsalgorithmen zu kriminalisieren. Bestimmte Zahlenfolgen, die Kopierschutzschlüssel kodierten, wurden temporär als illegal eingestuft. Die Absurdität ist dieselbe. Ein US-Bundesgericht stellte 2000 (*Junger v. Daley*) klar: Computercode ist Sprache und genießt First-Amendment-Schutz. [[bitcoin-als-information]]
+
+Dieses Argument ergänzt Parker Lewis: Lewis zeigt, dass ein Verbot als Konzept sinnlos ist. Gigi zeigt, wie genau ein Verbot technisch nicht funktionieren kann.
+
 ### Zensurresistenz und der Kriminellen-Einwand (Parker Lewis)
 
 Ein verwandtes Argument richtet sich gegen Bitcoin wegen krimineller Nutzung: Drogendealer nutzen Bitcoin, also sollte er verboten werden. Lewis sieht darin ein Selbstwiderlegungsargument. Wenn Bitcoin gut genug für Drogenhandel funktioniert, funktioniert er als Währung. Punkt. Die relevantere Frage: Könnte das Netzwerk kriminelle Transaktionen auf Protokollebene zensieren?
@@ -66,6 +76,7 @@ Nein — und das ist die Stärke des Systems. Bitcoin kennt auf Protokollebene k
 - [[bitcoin-geldpolitik-und-21-millionen-limit]]
 - [[kryptografische-schlussel-und-adressen]]
 - [[bitcoin-fehlannahmen]]
+- [[bitcoin-als-information]]
 
 ## Open Questions
 

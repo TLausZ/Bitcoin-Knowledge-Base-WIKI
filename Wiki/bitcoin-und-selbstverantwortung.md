@@ -1,8 +1,8 @@
 # Bitcoin und Selbstverantwortung
 
 **Status:** established
-**Last updated:** 2026-06-22
-**Sources:** [[aprycot-gigi-das-ei-des-phoenix]]
+**Last updated:** 2026-06-23
+**Sources:** [[aprycot-gigi-das-ei-des-phoenix]], [[aprycot-gigi-verantwortung-bitcoin-annehmen]]
 
 ## Summary
 
@@ -62,6 +62,16 @@ Bitcoin ist ein Werkzeug, kein Heilmittel. Er liefert die Infrastruktur für fin
 
 Gigi verweist auf bankaccountfrozen.com — eine Seite, die unmittelbar nach dem kanadischen Truckerprotest als Notfallressource entstand. Ein Zeichen dafür, dass die Szenarien, die Bitcoin-Befürworter für abstrakt hielten, konkret wurden.
 
+### Skin in the Game: Verantwortung Bitcoin anzunehmen
+
+In einem früheren Text — "Die Verantwortung, Bitcoin anzunehmen" — arbeitet Gigi die individuelle Pflicht zur Selbstsouveränität noch direkter heraus. Der Titel ist Programm: Bitcoin annehmen ist keine neutrale Handlung. Es verändert das Verhältnis zu Geld, zu Risiko, zu Institutionen.
+
+Skin in the game im Sinne von Nassim Taleb: Wer Bitcoin wirklich versteht, aber trotzdem auf einer Börse hält, verhält sich inkonsistent. Die Überzeugung hat keine Konsequenzen gezogen. Wer dagegen selbst verwahrt, einen Node betreibt und die Schlüssel hält, trägt das Risiko und den Aufwand — und damit auch die Integrität der eigenen Position.
+
+Gigi geht weiter: "not your keys, not your coins" ist nicht nur eine technische Aussage, sondern eine moralische. Wer Bitcoin auf einer Börse hält, stützt das System der Intermediäre, das Bitcoin eigentlich überflüssig machen soll. Die Technologie kann ihr Versprechen nur einlösen, wenn genug Menschen die Verantwortung tatsächlich übernehmen.
+
+Die drei Schritte, die Gigi skizziert: eigene Schlüssel halten, eigenen Node betreiben, anderen helfen. Nicht als Maximalprogramm für jeden, aber als Richtung. Jeder Schritt in diese Richtung stärkt das Netzwerk — nicht als Metapher, sondern strukturell: mehr Nodes = mehr Dezentralisierung = mehr Zensurresistenz. [[bitcoin-netzwerk-und-nodes]]
+
 ## Related
 
 - [[selbstverwahrung-und-boersenrisiken]]
@@ -70,8 +80,10 @@ Gigi verweist auf bankaccountfrozen.com — eine Seite, die unmittelbar nach dem
 - [[bitcoin-als-lebender-organismus-gigi]]
 - [[gigi-philosophische-essays]]
 - [[bitcoin-recht-sprache-geld]]
+- [[bitcoin-adoption-reise]]
 
 ## Open Questions
 
 - Wie kann man den Einstieg in Selbstverwahrung für technisch weniger affine Personen senken, ohne die Sicherheit zu kompromittieren?
 - Gibt es weitere dokumentierte Fälle (nach Kanada 2022), in denen Finanzzugang als politisches Werkzeug eingesetzt wurde?
+- Gigis Skin-in-the-Game-Argument setzt voraus, dass Selbstverwahrung für jeden praktikabel ist. Wie verhält sich das zu Nutzergruppen, die keine Hardware-Wallet kaufen können oder technisch überfordert sind?
