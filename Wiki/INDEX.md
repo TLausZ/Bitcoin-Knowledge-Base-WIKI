@@ -156,3 +156,219 @@ Alle Artikel alphabetisch. Stand: 2026-06-23 (nach Compile-Pass 48: 5 neue Artik
 | [[fedimint-und-community-custody]] | emerging | Fedimint: föderierte chaumische Münzanstalt auf Bitcoin/Lightning; Second-Party-Custody; Blindsignaturen; Stammes-Hüter-Modell für Schwellenländer; Gladstein/Sirion/Nwosu (2022). |
 
 *137 Artikel, basierend auf 487 RAW-Quellen (inkl. 6 EPUBs aus Svanholm/Steiner/Rosenbaum).*
+
+## Bitcoin Improvement Proposals (BIPs)
+
+*209 BIPs aus dem offiziellen Bitcoin BIP Repository, kompiliert 2026-06-23.*
+
+| BIP | Titel | Status | Typ | Layer |
+|-----|-------|--------|-----|-------|
+| [[bip-0001]] | BIP Purpose and Guidelines | Closed | Process | unspecified |
+| [[bip-0002]] | BIP process, revised | Closed | Process | unspecified |
+| [[bip-0003]] | Updated BIP Process | Deployed | Process | unspecified |
+| [[bip-0008]] | Version bits with lock-in by height | Draft | Informational | Consensus (soft fork) |
+| [[bip-0009]] | Version bits with timeout and delay | Deployed | Informational | Consensus (soft fork) |
+| [[bip-0010]] | Multi-Sig Transaction Distribution | Closed | Informational | Applications |
+| [[bip-0011]] | M-of-N Standard Transactions | Deployed | Specification | Applications |
+| [[bip-0012]] | OP_EVAL | Closed | Specification | Consensus (soft fork) |
+| [[bip-0013]] | Address Format for pay-to-script-hash | Deployed | Specification | Applications |
+| [[bip-0014]] | Protocol Version and User Agent | Deployed | Specification | Peer Services |
+| [[bip-0015]] | Aliases | Closed | Specification | Applications |
+| [[bip-0016]] | Pay to Script Hash | Deployed | Specification | Consensus (soft fork) |
+| [[bip-0017]] | OP_CHECKHASHVERIFY (CHV) | Closed | Specification | Consensus (soft fork) |
+| [[bip-0018]] | hashScriptCheck | Complete | Specification | Consensus (soft fork) |
+| [[bip-0019]] | M-of-N Standard Transactions (Low SigOp) | Closed | Specification | Applications |
+| [[bip-0020]] | URI Scheme | Closed | Specification | Applications |
+| [[bip-0021]] | URI Scheme | Closed | Specification | Applications |
+| [[bip-0022]] | getblocktemplate - Fundamentals | Deployed | Specification | API/RPC |
+| [[bip-0023]] | getblocktemplate - Pooled Mining | Deployed | Specification | API/RPC |
+| [[bip-0030]] | Duplicate transactions | Deployed | Specification | Consensus (soft fork) |
+| [[bip-0031]] | Pong message | Deployed | Specification | Peer Services |
+| [[bip-0032]] | Hierarchical Deterministic Wallets | Deployed | Informational | Applications |
+| [[bip-0033]] | Stratized Nodes | Closed | Specification | Peer Services |
+| [[bip-0034]] | Block v2, Height in Coinbase | Deployed | Specification | Consensus (soft fork) |
+| [[bip-0035]] | mempool message | Deployed | Specification | Peer Services |
+| [[bip-0036]] | Custom Services | Closed | Specification | Peer Services |
+| [[bip-0037]] | Connection Bloom filtering | Deployed | Specification | Peer Services |
+| [[bip-0038]] | Passphrase-protected private key | Deployed | Specification | Applications |
+| [[bip-0039]] | Mnemonic code for generating deterministic keys | Deployed | Specification | Applications |
+| [[bip-0042]] | A finite monetary supply for Bitcoin | Deployed | Specification | Consensus (soft fork) |
+| [[bip-0043]] | Purpose Field for Deterministic Wallets | Deployed | Specification | Applications |
+| [[bip-0044]] | Multi-Account Hierarchy for Deterministic Wallets | Deployed | Specification | Applications |
+| [[bip-0045]] | Structure for Deterministic P2SH Multisignature Wallets | Complete | Specification | Applications |
+| [[bip-0046]] | Address Scheme for Timelocked Fidelity Bonds | Draft | Specification | Applications |
+| [[bip-0047]] | Reusable Payment Codes for Hierarchical Deterministic Wallets | Deployed | Informational | Applications |
+| [[bip-0048]] | Multi-Script Hierarchy for Multi-Sig Wallets | Deployed | Specification | Applications |
+| [[bip-0049]] | Derivation scheme for P2WPKH-nested-in-P2SH based accounts | Deployed | Specification | Applications |
+| [[bip-0050]] | March 2013 Chain Fork Post-Mortem | Deployed | Informational | unspecified |
+| [[bip-0052]] | Durable, Low Energy Bitcoin PoW | Draft | Specification | Consensus (hard fork) |
+| [[bip-0053]] | Disallow 64-byte transactions | Draft | Specification | Consensus (soft fork) |
+| [[bip-0054]] | Consensus Cleanup | Complete | Specification | Consensus (soft fork) |
+| [[bip-0060]] | Fixed Length "version" Message (Relay-Transactions Field) | Closed | Specification | Peer Services |
+| [[bip-0061]] | Reject P2P message | Deployed | Specification | Peer Services |
+| [[bip-0062]] | Dealing with malleability | Closed | Specification | Consensus (soft fork) |
+| [[bip-0064]] | getutxo message | Closed | Specification | Peer Services |
+| [[bip-0065]] | OP_CHECKLOCKTIMEVERIFY | Deployed | Specification | Consensus (soft fork) |
+| [[bip-0066]] | Strict DER signatures | Deployed | Specification | Consensus (soft fork) |
+| [[bip-0067]] | Deterministic Pay-to-script-hash multi-signature addresses through public key sorting | Complete | Specification | Applications |
+| [[bip-0068]] | Relative lock-time using consensus-enforced sequence numbers | Deployed | Specification | Consensus (soft fork) |
+| [[bip-0069]] | Lexicographical Indexing of Transaction Inputs and Outputs | Complete | Informational | Applications |
+| [[bip-0070]] | Payment Protocol | Deployed | Specification | Applications |
+| [[bip-0071]] | Payment Protocol MIME types | Deployed | Specification | Applications |
+| [[bip-0072]] | bitcoin: uri extensions for Payment Protocol | Deployed | Specification | Applications |
+| [[bip-0073]] | Use "Accept" header for response type negotiation with Payment Request URLs | Deployed | Specification | Applications |
+| [[bip-0074]] | Allow zero value OP_RETURN in Payment Protocol | Closed | Specification | Applications |
+| [[bip-0075]] | Out of Band Address Exchange using Payment Protocol Encryption | Deployed | Specification | Applications |
+| [[bip-0077]] | Async Payjoin | Draft | Specification | Applications |
+| [[bip-0078]] | A Simple Payjoin Proposal | Deployed | Specification | Applications |
+| [[bip-0079]] | Bustapay :: a practical coinjoin protocol | Closed | Informational | Applications |
+| [[bip-0080]] | Hierarchy for Non-Colored Voting Pool Deterministic Multisig Wallets | Closed | Informational | unspecified |
+| [[bip-0081]] | Hierarchy for Colored Voting Pool Deterministic Multisig Wallets | Closed | Informational | unspecified |
+| [[bip-0083]] | Dynamic Hierarchical Deterministic Key Trees | Closed | Specification | Applications |
+| [[bip-0084]] | Derivation scheme for P2WPKH based accounts | Deployed | Specification | Applications |
+| [[bip-0085]] | Deterministic Entropy From BIP32 Keychains | Deployed | Informational | Applications |
+| [[bip-0086]] | Key Derivation for Single Key P2TR Outputs | Deployed | Specification | Applications |
+| [[bip-0087]] | Hierarchy for Deterministic Multisig Wallets | Complete | Specification | Applications |
+| [[bip-0088]] | Hierarchical Deterministic Path Templates | Complete | Informational | Applications |
+| [[bip-0089]] | Chain Code Delegation | Draft | Specification | Applications |
+| [[bip-0090]] | Buried Deployments | Deployed | Informational | unspecified |
+| [[bip-0091]] | Reduced threshold Segwit MASF | Deployed | Specification | Consensus (soft fork) |
+| [[bip-0093]] | codex32: Checksummed SSSS-aware BIP32 seeds | Draft | Informational | Applications |
+| [[bip-0094]] | Testnet 4 | Deployed | Specification | Applications |
+| [[bip-0098]] | Fast Merkle Trees | Draft | Specification | Consensus (soft fork) |
+| [[bip-0099]] | Motivation and deployment of consensus rule changes ([soft/hard]forks) | Closed | Informational | unspecified |
+| [[bip-0100]] | Dynamic maximum block size by miner vote | Closed | Specification | Consensus (hard fork) |
+| [[bip-0101]] | Increase maximum block size | Closed | Specification | Consensus (hard fork) |
+| [[bip-0102]] | Block size increase to 2MB | Closed | Specification | Consensus (hard fork) |
+| [[bip-0103]] | Block size following technological growth | Closed | Specification | Consensus (hard fork) |
+| [[bip-0104]] | 'Block75' - Max block size like difficulty | Closed | Specification | Consensus (hard fork) |
+| [[bip-0105]] | Consensus based block size retargeting algorithm | Closed | Specification | Consensus (hard fork) |
+| [[bip-0106]] | Dynamically Controlled Bitcoin Block Size Max Cap | Closed | Specification | Consensus (hard fork) |
+| [[bip-0107]] | Dynamic limit on the block size | Closed | Specification | Consensus (hard fork) |
+| [[bip-0109]] | Two million byte size limit with sigop and sighash limits | Closed | Specification | Consensus (hard fork) |
+| [[bip-0110]] | Reduced Data Temporary Softfork | Draft | Specification | Consensus (soft fork) |
+| [[bip-0111]] | NODE_BLOOM service bit | Deployed | Specification | Peer Services |
+| [[bip-0112]] | CHECKSEQUENCEVERIFY | Deployed | Specification | Consensus (soft fork) |
+| [[bip-0113]] | Median time-past as endpoint for lock-time calculations | Deployed | Specification | Consensus (soft fork) |
+| [[bip-0114]] | Merkelized Abstract Syntax Tree | Closed | Specification | Consensus (soft fork) |
+| [[bip-0115]] | Generic anti-replay protection using Script | Closed | Specification | Consensus (soft fork) |
+| [[bip-0116]] | MERKLEBRANCHVERIFY | Draft | Specification | Consensus (soft fork) |
+| [[bip-0117]] | Tail Call Execution Semantics | Draft | Specification | Consensus (soft fork) |
+| [[bip-0118]] | SIGHASH_ANYPREVOUT for Taproot Scripts | Draft | Specification | Consensus (soft fork) |
+| [[bip-0119]] | CHECKTEMPLATEVERIFY | Draft | Specification | Consensus (soft fork) |
+| [[bip-0120]] | Proof of Payment | Closed | Specification | Applications |
+| [[bip-0121]] | Proof of Payment URI scheme | Closed | Specification | Applications |
+| [[bip-0122]] | URI scheme for Blockchain references / exploration | Draft | Specification | Applications |
+| [[bip-0123]] | BIP Classification | Deployed | Process | unspecified |
+| [[bip-0124]] | Hierarchical Deterministic Script Templates | Closed | Informational | Applications |
+| [[bip-0125]] | Opt-in Full Replace-by-Fee Signaling | Deployed | Specification | Applications |
+| [[bip-0126]] | Best Practices for Heterogeneous Input Script Transactions | Draft | Informational | unspecified |
+| [[bip-0127]] | Simple Proof-of-Reserves Transactions | Complete | Specification | Applications |
+| [[bip-0128]] | Timelock-Recovery Storage Format | Draft | Specification | Applications |
+| [[bip-0129]] | Bitcoin Secure Multisig Setup (BSMS) | Complete | Specification | Applications |
+| [[bip-0130]] | sendheaders message | Deployed | Specification | Peer Services |
+| [[bip-0131]] | Coalescing Transaction" Specification (wildcard inputs) | Closed | Specification | Consensus (hard fork) |
+| [[bip-0132]] | Committee-based BIP Acceptance Process | Closed | Process | unspecified |
+| [[bip-0133]] | feefilter message | Deployed | Specification | Peer Services |
+| [[bip-0134]] | Flexible Transactions | Closed | Specification | Consensus (hard fork) |
+| [[bip-0135]] | Generalized version bits voting | Closed | Informational | unspecified |
+| [[bip-0136]] | Bech32 Encoded Tx Position References | Draft | Informational | Applications |
+| [[bip-0137]] | Signatures of Messages using Private Keys | Deployed | Specification | Applications |
+| [[bip-0140]] | Normalized TXID | Closed | Specification | Consensus (soft fork) |
+| [[bip-0141]] | Segregated Witness (Consensus layer) | Deployed | Specification | Consensus (soft fork) |
+| [[bip-0142]] | Address Format for Segregated Witness | Closed | Specification | Applications |
+| [[bip-0143]] | Transaction Signature Verification for Version 0 Witness Program | Deployed | Specification | Consensus (soft fork) |
+| [[bip-0144]] | Segregated Witness (Peer Services) | Deployed | Specification | Peer Services |
+| [[bip-0145]] | getblocktemplate Updates for Segregated Witness | Deployed | Specification | API/RPC |
+| [[bip-0146]] | Dealing with signature encoding malleability | Closed | Specification | Consensus (soft fork) |
+| [[bip-0147]] | Dealing with dummy stack element malleability | Deployed | Specification | Consensus (soft fork) |
+| [[bip-0148]] | Mandatory activation of segwit deployment | Deployed | Specification | Consensus (soft fork) |
+| [[bip-0149]] | Segregated Witness (second deployment) | Closed | Specification | Consensus (soft fork) |
+| [[bip-0150]] | Peer Authentication | Closed | Specification | Peer Services |
+| [[bip-0151]] | Peer-to-Peer Communication Encryption | Closed | Specification | Peer Services |
+| [[bip-0152]] | Compact Block Relay | Deployed | Specification | Peer Services |
+| [[bip-0154]] | Rate Limiting via peer specified challenges | Closed | Specification | Peer Services |
+| [[bip-0155]] | addrv2 message | Deployed | Specification | Peer Services |
+| [[bip-0156]] | Dandelion - Privacy Enhancing Routing | Closed | Specification | Peer Services |
+| [[bip-0157]] | Client Side Block Filtering | Deployed | Specification | Peer Services |
+| [[bip-0158]] | Compact Block Filters for Light Clients | Deployed | Specification | Peer Services |
+| [[bip-0159]] | NODE_NETWORK_LIMITED service bit | Deployed | Specification | Peer Services |
+| [[bip-0171]] | Currency/exchange rate information API | Closed | Specification | Applications |
+| [[bip-0172]] | Define Bitcoin Subunits as Satoshis | Draft | Informational | Applications |
+| [[bip-0173]] | Base32 address format for native v0-16 witness outputs | Deployed | Informational | Applications |
+| [[bip-0174]] | Partially Signed Bitcoin Transaction Format | Deployed | Specification | Applications |
+| [[bip-0175]] | Pay to Contract Protocol | Closed | Informational | Applications |
+| [[bip-0176]] | Bits Denomination | Complete | Informational | unspecified |
+| [[bip-0177]] | Redefine Bitcoin's Base Unit | Draft | Informational | unspecified |
+| [[bip-0178]] | Version Extended WIF | Draft | Specification | Applications |
+| [[bip-0179]] | Name for payment recipient identifiers | Draft | Informational | unspecified |
+| [[bip-0180]] | Block size/weight fraud proof | Closed | Specification | Peer Services |
+| [[bip-0197]] | Hashed Time-Locked Collateral Contract | Draft | Specification | Applications |
+| [[bip-0199]] | Hashed Time-Locked Contract transactions | Closed | Specification | Applications |
+| [[bip-0300]] | Hashrate Escrows (Consensus layer) | Draft | Specification | Consensus (soft fork) |
+| [[bip-0301]] | Blind Merged Mining (Consensus layer) | Draft | Specification | Consensus (soft fork) |
+| [[bip-0310]] | Stratum protocol extensions | Draft | Informational | Applications |
+| [[bip-0320]] | nVersion bits for general purpose use | Draft | Specification | unspecified |
+| [[bip-0321]] | URI Scheme | Complete | Specification | Applications |
+| [[bip-0322]] | Generic Signed Message Format | Complete | Specification | Applications |
+| [[bip-0323]] | 24 nVersion bits for general purpose use | Draft | Specification | unspecified |
+| [[bip-0324]] | Version 2 P2P Encrypted Transport Protocol | Deployed | Specification | Peer Services |
+| [[bip-0325]] | Signet | Complete | Specification | Applications |
+| [[bip-0326]] | Anti-fee-sniping in taproot transactions | Draft | Informational | Applications |
+| [[bip-0327]] | MuSig2 for BIP340-compatible Multi-Signatures | Deployed | Informational | unspecified |
+| [[bip-0328]] | Derivation Scheme for MuSig2 Aggregate Keys | Complete | Informational | Applications |
+| [[bip-0329]] | Wallet Labels Export Format | Draft | Informational | Applications |
+| [[bip-0330]] | Transaction announcements reconciliation | Draft | Specification | Peer Services |
+| [[bip-0331]] | Ancestor Package Relay | Draft | Specification | Peer Services |
+| [[bip-0337]] | Compressed Transactions | Draft | Specification | API/RPC |
+| [[bip-0338]] | Disable transaction relay message | Closed | Specification | Peer Services |
+| [[bip-0339]] | WTXID-based transaction relay | Deployed | Specification | Peer Services |
+| [[bip-0340]] | Schnorr Signatures for secp256k1 | Deployed | Specification | unspecified |
+| [[bip-0341]] | Taproot: SegWit version 1 spending rules | Deployed | Specification | Consensus (soft fork) |
+| [[bip-0342]] | Validation of Taproot Scripts | Deployed | Specification | Consensus (soft fork) |
+| [[bip-0343]] | Mandatory activation of taproot deployment | Closed | Specification | Consensus (soft fork) |
+| [[bip-0345]] | OP_VAULT | Closed | Specification | Consensus (soft fork) |
+| [[bip-0346]] | OP_TXHASH | Draft | Specification | Consensus (soft fork) |
+| [[bip-0347]] | OP_CAT in Tapscript | Complete | Specification | Consensus (soft fork) |
+| [[bip-0348]] | CHECKSIGFROMSTACK | Draft | Specification | Consensus (soft fork) |
+| [[bip-0349]] | OP_INTERNALKEY | Draft | Specification | Consensus (soft fork) |
+| [[bip-0350]] | Bech32m format for v1+ witness addresses | Deployed | Specification | Applications |
+| [[bip-0351]] | Private Payments | Draft | Informational | Applications |
+| [[bip-0352]] | Silent Payments | Complete | Specification | Applications |
+| [[bip-0353]] | DNS Payment Instructions | Complete | Specification | Applications |
+| [[bip-0360]] | Pay-to-Merkle-Root (P2MR) | Draft | Specification | Consensus (soft fork) |
+| [[bip-0361]] | Post Quantum Migration and Legacy Signature Sunset | Draft | Informational | Consensus (soft fork) |
+| [[bip-0370]] | PSBT Version 2 | Deployed | Specification | Applications |
+| [[bip-0371]] | Taproot Fields for PSBT | Deployed | Specification | Applications |
+| [[bip-0372]] | Pay-to-contract tweak fields for PSBT | Draft | Specification | Applications |
+| [[bip-0373]] | MuSig2 PSBT Fields | Complete | Specification | Applications |
+| [[bip-0374]] | Discrete Log Equality Proofs | Draft | Specification | Applications |
+| [[bip-0375]] | Sending Silent Payments with PSBTs | Draft | Specification | Applications |
+| [[bip-0376]] | Spending Silent Payment outputs with PSBTs | Draft | Specification | Applications |
+| [[bip-0379]] | Miniscript | Draft | Informational | Applications |
+| [[bip-0380]] | Output Script Descriptors General Operation | Deployed | Informational | Applications |
+| [[bip-0381]] | Non-Segwit Output Script Descriptors | Deployed | Informational | Applications |
+| [[bip-0382]] | Segwit Output Script Descriptors | Deployed | Informational | Applications |
+| [[bip-0383]] | Multisig Output Script Descriptors | Deployed | Informational | Applications |
+| [[bip-0384]] | combo() Output Script Descriptors | Deployed | Informational | Applications |
+| [[bip-0385]] | raw() and addr() Output Script Descriptors | Deployed | Informational | Applications |
+| [[bip-0386]] | tr() Output Script Descriptors | Deployed | Informational | Applications |
+| [[bip-0387]] | Tapscript Multisig Output Script Descriptors | Deployed | Informational | Applications |
+| [[bip-0388]] | Wallet Policies for Descriptor Wallets | Complete | Specification | Applications |
+| [[bip-0389]] | Multipath Descriptor Key Expressions | Draft | Informational | Applications |
+| [[bip-0390]] | musig() Descriptor Key Expression | Draft | Informational | Applications |
+| [[bip-0391]] | Binary Output Descriptors | Closed | Specification | Applications |
+| [[bip-0392]] | Silent Payment Output Script Descriptors | Draft | Specification | Applications |
+| [[bip-0393]] | Output Script Descriptor Annotations | Draft | Specification | Applications |
+| [[bip-0431]] | Topology Restrictions for Pinning | Draft | Informational | Applications |
+| [[bip-0433]] | Pay to Anchor (P2A) | Draft | Informational | Applications |
+| [[bip-0434]] | Peer Feature Negotiation | Draft | Specification | Peer Services |
+| [[bip-0440]] | Varops Budget For Script Runtime Constraint | Draft | Specification | Consensus (soft fork) |
+| [[bip-0441]] | Restoration of disabled script (Tapleaf 0xC2) | Draft | Specification | Consensus (soft fork) |
+| [[bip-0442]] | OP_PAIRCOMMIT | Draft | Specification | Consensus (soft fork) |
+| [[bip-0443]] | OP_CHECKCONTRACTVERIFY | Draft | Specification | Consensus (soft fork) |
+| [[bip-0446]] | OP_TEMPLATEHASH | Draft | Specification | Consensus (soft fork) |
+| [[bip-0448]] | Taproot-native (Re)bindable Transactions | Draft | Specification | Consensus (soft fork) |
+| [[bip-0449]] | OP_TWEAKADD - x-only key tweak addition | Draft | Specification | Consensus (soft fork) |
+| [[bip-0450]] | Formosa—Seed encoding by themed mnemonic stories | Draft | Specification | Applications |
+| [[bip-0451]] | Dust UTXO Disposal Protocol | Draft | Specification | Applications |
