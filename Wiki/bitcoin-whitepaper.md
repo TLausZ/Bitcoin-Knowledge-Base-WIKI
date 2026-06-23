@@ -1,8 +1,8 @@
 # Bitcoin Whitepaper
 
 **Status:** established
-**Last updated:** 2026-06-19
-**Sources:** [[20081031_bitcoin-whitepaper]]
+**Last updated:** 2026-06-22
+**Sources:** [[20081031_bitcoin-whitepaper]], [[aprycot-strolight-whitepaper-schwieriger-teil]]
 
 ## Summary
 
@@ -47,6 +47,10 @@ Das Whitepaper ist ungewöhnlich kompakt — 9 Seiten, 12 Abschnitte, kein Paddi
 **10. Privacy:** Das traditionelle Banken-Modell schützt Privatsphäre durch Zugangsbeschränkung zu Transaktionsdaten. Bitcoin ist das Gegenteil: alle Transaktionen sind öffentlich. Der Schutz entsteht durch Pseudonymität — öffentliche Schlüssel sind nicht mit Identitäten verknüpft. Nakamoto empfiehlt, für jede Transaktion ein neues Schlüsselpaar zu verwenden. *Limitation:* Multi-Input-Transaktionen enthüllen, dass die Inputs dem gleichen Besitzer gehören.
 
 **11. Calculations:** Der formale Beweis, warum ein Angreifer mit weniger als 50% Hashrate exponentiell kleiner werdende Chancen hat, einen längeren Chain zu bauen. Nakamoto modelliert es als Binomial Random Walk / Gambler's Ruin Problem. Für praktische Sicherheit reichen in den meisten Szenarien 6 Bestätigungen.
+
+Tomer Strolight hat die konkreten Zahlen aus Abschnitt 11 zugänglich aufbereitet: Ein Angreifer mit 10% Hashrate hat nach 6 Blöcken (~1 Stunde) nur eine Erfolgswahrscheinlichkeit von 0,02% — also etwa 1 zu 5000. Das Angreifen des Netzwerks ist damit 500-mal schwieriger als das ehrliche Weiterminern. Bei 30% Hashrate und 30 Blöcken (~5 Stunden) sinkt die Chance auf 0,015% (1 zu 2000). Selbst bei 45% Hashrate bräuchte ein Angreifer 340 Blöcke Tiefe (~2,5 Tage), um die 1-zu-1000-Schwelle zu unterschreiten.
+
+Satoshis Lösung schließt Doppelausgaben nicht aus — sie macht sie mit jedem bestätigten Block exponentiell unwahrscheinlicher und teuer: Der Angreifer verzichtet auf seine anteilige Blockbelohnung, während er einen erfolglosen Angriff durchführt. Das Konstruktionsprinzip: nicht Perfektion, sondern hinreichende Unwahrscheinlichkeit auf Dauer. [[aprycot-strolight-whitepaper-schwieriger-teil]]
 
 **12. Conclusion:** Das Whitepaper endet mit dem Kern-Statement: Bitcoin ist ein System für elektronische Transaktionen ohne Vertrauen — basierend auf kryptografischem Beweis.
 

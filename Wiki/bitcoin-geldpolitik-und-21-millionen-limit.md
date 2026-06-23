@@ -2,7 +2,7 @@
 
 **Status:** established
 **Last updated:** 2026-06-06
-**Sources:** [[20260424_wie-das-21-millionen-limit-von-bitcoin-tatsächlich-durchgesetzt-wird]], [[20220620_warum-ist-bitcoin-wichtig-de]]
+**Sources:** [[20260424_wie-das-21-millionen-limit-von-bitcoin-tatsächlich-durchgesetzt-wird]], [[20220620_warum-ist-bitcoin-wichtig-de]], [[Die andere Seite der Medaille.md]], [[Bitcoin ist die Wiederentdeckung des Geldes.md]]
 
 ## Summary
 
@@ -62,6 +62,14 @@ Dazu kommt der **Cantillon-Effekt**: Neu gedrucktes Geld kommt zuerst bei bestim
 Satoshi Nakamoto kodierte das Limit — und damit die Lösung — direkt in den Genesis-Block: "The Times 03/Jan/2009 Chancellor on brink of second bailout for banks." Bitcoin sollte nicht stabilen Wert, sondern stabile Menge haben.
 
 Das 21-Millionen-Limit macht Bitcoin auch zensurresistent: Wer eigene Keys hält und Bitcoin direkt sendet, braucht keine Bank als Mittler. Das Netz hat keinen Schalter, den eine Behörde umlegen könnte — anders als Bankkonten, die eingefroren werden können.
+
+### „21 Millionen: nie mehr" — Node als Verifikationsinstanz
+
+Gigi präzisiert: Das 21-Millionen-Limit gilt nur dann für einen Nutzer, wenn er einen eigenen Full Node betreibt. Ein Full Node ist die rechnerische Seite der Medaille — er prüft nicht nur Transaktionen, sondern auch, ob die Geldmenge den Konsensregeln entspricht. Wer keinen eigenen Node betreibt, verlässt sich auf die Ehrlichkeit eines fremden Nodes für die wichtigste Eigenschaft von Bitcoin.
+
+„21 Millionen: nie mehr" ist deshalb keine bloße Aussage über Bitcoins Design — es ist eine Aussage, die jeder Node-Betreiber individuell verifiziert. Das macht das Limit systemisch robust: Kein Miner und keine Firma kann es ändern, solange genug Nodes es ablehnen. [[Die andere Seite der Medaille.md]]
+
+Gigi: „Die Geldpolitik von Bitcoin ist zeitlich festgelegt, nicht per Dekret. Sie kann nicht geändert werden. Mit ihr kann nicht gestritten werden. Sie ist unabhängig von der Nachfrage, unabhängig vom Energieverbrauch und unabhängig von der Politik." [[Bitcoin ist die Wiederentdeckung des Geldes.md]]
 
 ## Related
 

@@ -1,8 +1,8 @@
 # Biometrie und Finanzüberwachung
 
 **Status:** established
-**Last updated:** 2026-06-19
-**Sources:** [[Banking on Biometrics_ Is Fraud Prevention the Real Goal_]]
+**Last updated:** 2026-06-22
+**Sources:** [[Banking on Biometrics_ Is Fraud Prevention the Real Goal_]], [[aprycot-gladstein-bitcoin-protest-ueberwachung-bargeld]], [[aprycot-gigi-aufstieg-souveraenes-individuum]]
 
 ## Summary
 
@@ -48,6 +48,26 @@ Biometrische Überwachung hat nachweislich einen Chilling Effect auf demokratisc
 - Meta erhob facial geometry-Daten ohne explizite Einwilligung → Texas-Settlement 2024
 - Einmal kompromittierte Biometrie hinterlässt Betroffene lebenslang anfällig
 
+### Bargeld als Schutzschicht — und sein Verschwinden
+
+Alex Gladstein beschreibt 2019 die Hongkong-Proteste als Fallbeispiel: Demonstranten kauften Einzelfahrkarten statt der nachverfolgbaren Octopus-Karte, bezahlten Prepaid-SIMs mit Bargeld, um Bewegungsprofile zu verhindern. Bargeld war das einzige Datenschutz-Werkzeug, das ohne Infrastruktur funktionierte.
+
+Das Problem: Ungefähr 92% aller täglichen Transaktionen weltweit laufen bereits nicht-bar. In Schweden sind 80% aller alltäglichen Transaktionen digital. Estland führte ein kostenloses Nahverkehrssystem ein — aber ohne anonyme Zahlungsoption, weil keine mehr existierte. Wer fährt, identifiziert sich.
+
+Wenn Bargeld verschwindet, verschwindet damit jede Möglichkeit, anonym Transaktionen zu tätigen. Facebooks Libra (heute Meta Pay) und Chinas digitaler Yuan wären keine Ersätze — beide sind Überwachungsplattformen. WeChat Pay in China: Tencent liefert Transaktionsdaten an Behörden auf Anfrage.
+
+Gladstein sieht das Lightning Network als potenziellen "Plan B": pseudonyme Mikrozahlungen ohne zentrale Gegenpartei, die schwer zu überwachen sind. Aber das Zeitfenster ist eng — wenn Milliarden Menschen auf WeChat/Libra umgestellt sind, bevor Lightning benutzbar ist, könnte die Gelegenheit für eine datenschutzwahrende Alternative verpasst sein.
+
+### Drei Freiheiten (Gigi, 2019)
+
+Gigi formuliert in "Der Aufstieg des souveränen Individuums" drei konkrete Freiheiten, die Bitcoin schützt:
+
+**Freiheit, Zahlungen durchzuführen.** Bitcoin ist erlaubnisfrei — keine Bank, keine Regierung kann Teilnahme verweigern. Grenzenlos — geografisch irrelevant. Zensurresistent — kein Konto einfrierbar, weil kein Konto existiert. Mathematik lässt sich nicht mit Gewalt lösen.
+
+**Freiheit, privat zu bleiben.** Wie HTTPS die gesamte Internetkommunikation standardmäßig verschlüsselte, sollte Privatsphäre im Finanzbereich zur Norm werden. CoinJoin und ähnliche Technologien gehen in diese Richtung. Chinas Beispiel zeigt das Gegenteil: Bußgelder für Falschparken werden per Gesichtserkennung automatisch vom Konto abgezogen — kein Widerspruch möglich.
+
+**Freiheit, zu sparen.** NIRP (Negativzinspolitik) bestraft Sparer strukturell: Wer nicht ausgibt oder investiert, verliert. Gigi nennt das "puren Wahnsinn" — Kreditnehmer zahlen, Sparer werden enteignet. Bitcoin's 21-Millionen-Limit ist keine Designentscheidung, sondern eine physische Obergrenze, die kein Politiker ändern kann. Matt Odell: "Sats sind meine Fluchtwährung."
+
 ### Bitcoin als Alternative
 
 Bitcoin ermöglicht Zahlungen und Wertaufbewahrung ohne biometrische Identifikation:
@@ -65,6 +85,9 @@ Das ist dieselbe Logik, die Satoshi 2009 formulierte: "Crypto proof instead of t
 - [[eu-regulierung-selbstverwahrung]]
 - [[satoshi-ankuendigung-2009]]
 - [[cypherpunk-manifest]]
+- [[cbdc-und-digitaler-yuan]]
+- [[kryptoanarchismus-und-cypherpunks]]
+- [[coinjoin-und-on-chain-privatsphäre]]
 
 ## Open Questions
 

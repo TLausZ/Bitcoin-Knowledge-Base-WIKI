@@ -2,7 +2,7 @@
 
 **Status:** established
 **Last updated:** 2026-06-20
-**Sources:** [[The Inbound Capacity Problem in the Lightning Network]], [[A Closer Look at Submarine Swaps in the Lightning Network]], [[20251218_die-skalierung-von-bitcoin-lightning-und-der-weg-zu-ark]], [[20231018_lightning-in-der-bitboxapp]]
+**Sources:** [[The Inbound Capacity Problem in the Lightning Network]], [[A Closer Look at Submarine Swaps in the Lightning Network]], [[20251218_die-skalierung-von-bitcoin-lightning-und-der-weg-zu-ark]], [[20231018_lightning-in-der-bitboxapp]], [[Eine Vision für wertaktivierendes Web.md]]
 
 ## Summary
 
@@ -43,6 +43,20 @@ LSPs wie Phoenix oder Breez abstrahieren diese Komplexität. Sie stellen Liquidi
 ### Submarine Swaps
 
 Submarine Swaps nutzen HTLCs, um zwischen On-Chain-Bitcoin und Lightning zu wechseln, ohne einem Custodian zu vertrauen. Durch die HTLC-Bedingung ist die Atomizität garantiert: Entweder erhält der Empfänger das Geld und der Sender bekommt sein Preimage, oder beide erhalten ihr Geld zurück nach Timeout. Kein Teilausfall ist möglich.
+
+### Lightning als Grundlage des wertaktivierenden Webs
+
+Gigi formuliert Lightning nicht nur als Zahlungskanal, sondern als Infrastruktur für eine neue Internetökonomie. Das Problem des heutigen Webs ist strukturell: Konventionelle Währungen existieren im Cyberspace nur als Kredit (IOUs), nicht als Bargeld. Das macht Micropayments unwirtschaftlich (Minimum ~$5 mit Kreditkartensystem) und erzwingt Werbemodelle.
+
+Lightning löst das: Es ist das erste digitale Inhaberinstrument — digitales Bargeld mit echtem Peer-to-Peer-Charakter, ohne Gegenparteirisiko. Satoshi-Beträge (Bruchteile eines Cents) können in Echtzeit und nahezu kostenlos fließen.
+
+**Value-Streaming:** Nutzer können Sats im laufenden Podcast-Konsum streamen — nicht nach Abschluss zahlen, sondern während des Hörens, proportional zur konsumierten Zeit. Das ist mit keinem konventionellen Zahlungssystem realisierbar.
+
+**Podcasting 2.0 / Value4Value:** Der „Value Block" im Podcast-Namespace definiert, wie eingehende Sats aufgeteilt werden (Host, Gäste, Produzenten, App). Apps wie Fountain und Breez implementieren das. Der Mechanismus funktioniert erlaubnisfrei — kein Plattformkonto, kein Registrierungsprozess.
+
+**Reale Kosten für Cyberspace-Aktionen:** Lightning ermöglicht, Aktionen mit echten Kosten zu verknüpfen. Bot-Farmen und Spam werden unrentabel, wenn jede Aktion eine Sat-Gebühr kostet. KYC ist nicht nötig — Reputation entsteht durch Staking von Sats, nicht durch Identitätsnachweis.
+
+Gigi: „Sobald du deine ersten Streaming-Zahlungen erhalten hast, fühlt es sich mehr als antiquiert an, mit den alten Zahlungsschienen unserer Fiat-Welt zu arbeiten." [[Eine Vision für wertaktivierendes Web.md]] → Ausführlicher in [[value4value-und-wertaktivierendes-web]]
 
 ## Related
 

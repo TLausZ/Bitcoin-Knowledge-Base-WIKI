@@ -1,8 +1,8 @@
 # CoinJoin und On-Chain-Privatsphäre
 
 **Status:** established
-**Last updated:** 2026-06-04
-**Sources:** [[20240508_was-ist-eigentlich-ein-coinjoin]], [[20240606_payment-codes-bitcoin-adressen-privat-austauschen]]
+**Last updated:** 2026-06-22 (Pass 34: Stonewall + Sparrow-Integration)
+**Sources:** [[20240508_was-ist-eigentlich-ein-coinjoin]], [[20240606_payment-codes-bitcoin-adressen-privat-austauschen]], [[sparrowwallet-Spending Privately]]
 
 ## Summary
 
@@ -31,6 +31,10 @@ In der Praxis nehmen hunderte oder tausende Nutzer gleichzeitig teil. Die Privat
 ### Vertrauenslos, aber koordiniert
 
 Anders als bei zentralisierten Mixing-Diensten behalten Nutzer beim CoinJoin die Kontrolle über ihre Schlüssel. Ein Koordinierungsservice (früher: Samourai Whirlpool, Wasabi Wallet) tauscht nur Nachrichten aus — er kann die Coins nicht stehlen. Das macht CoinJoin vertrauenslos.
+
+### Stonewall: Fake Coinjoin ohne Koordinator
+
+Sparrow Wallet implementiert «Stonewall» — eine Transaktion, die ein Nutzer allein erstellt, aber extern wie ein Zwei-Personen-Coinjoin aussieht. Für Beobachter von aussen gibt es keine Möglichkeit, festzustellen, ob es sich um einen echten oder einen Fake-Coinjoin handelt. Voraussetzung: Das Wallet muss mehr als doppelt so viel Saldo haben wie der Zahlbetrag (um zwei Input-Sets zu simulieren). Stonewall funktioniert mit Hardware-Wallets und benötigt keinen Koordinierungsserver — daher 2024 weiterhin vollständig nutzbar. [[sparrowwallet-Spending Privately]]
 
 ### Aktuelle Lage (2024)
 

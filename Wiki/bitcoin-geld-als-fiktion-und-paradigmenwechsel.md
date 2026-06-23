@@ -1,8 +1,8 @@
 # Bitcoin: Geld als Fiktion und der Paradigmenwechsel
 
 **Status:** established
-**Last updated:** 2026-06-20
-**Sources:** [[2020_Bitcoin - Unabhängigkeit neu gedacht -- Knut Svanholm]], [[2020_Bitcoin-Unabhaengigkeit-neu-gedacht_Svanholm-Herminghaus]]
+**Last updated:** 2026-06-22
+**Sources:** [[2020_Bitcoin - Unabhängigkeit neu gedacht -- Knut Svanholm]], [[2020_Bitcoin-Unabhaengigkeit-neu-gedacht_Svanholm-Herminghaus]], [[aprycot-legendaerer-schatz-satoshi-nakamoto]]
 
 ## Summary
 
@@ -68,8 +68,19 @@ Svanholm sammelt empirische Adoptionskurven als Kontext für Bitcoin (Stand: 202
 
 Der Unterschied erklärt sich durch die Infrastruktur: Ältere Technologien brauchten physischen Aufbau und mentale Anpassung. Spätere konnten auf vorhandenen Netzwerken (Internet, Smartphones) aufsetzen. Bitcoin hat im Vergleich zu anderen Technologien keinerlei Marketing hinter sich — weder Werbebudget noch Corporate Push. Das Mobiltelefon brauchte 12 Jahre; Bitcoin hatte nach 11 Jahren (2020) geschätzt 30 Millionen Halter.
 
+### Satoshi und die Entdeckung des reinen Geldes (Strolight)
+
+Tomer Strolight beschreibt einen Aspekt, den Svanholms Analyse technisch voraussetzt, aber nicht benennt: Was passiert mit dem Menschen, der Bitcoin wirklich versteht?
+
+Strolights Antwort: Er entdeckt etwas Fundamentales über Geld, Wert und Freiheit — nicht als Ideologie, sondern als technische Tatsache. Bitcoin zerstört falsche Überzeugungen: über Geld als staatliche Notwendigkeit, über Institutionen als unverzichtbare Treuhänder, über Knappheit als administrativ verwaltete Grösse.
+
+Der greifbarste Beweis für dieses "reine Geld" ist Satoshis unberührte Million Bitcoin. Keine Behörde kann ihn zur Herausgabe zwingen. Keine Bank kann sein Guthaben einfrieren. Keine Inflation kann seinen Bestand entwerten. Dass Satoshi die Million nie bewegt hat — und das möglicherweise als Statement — ist das Monument dieser Idee: Geld, das wirklich dir gehört, ohne Vermittler, ohne Gegenparteirisiko, ohne Verfallsdatum.
+
+Diese Entdeckung ist nach Strolight keine intellektuelle Übung; sie verändert, wie man über alle anderen Institutionen nachdenkt. Der wahre Schatz ist nicht die Million Bitcoin — er ist das Verständnis, was Bitcoin möglich macht. [[aprycot-legendaerer-schatz-satoshi-nakamoto]]
+
 ## Related
 
+- [[bitcoin-digitale-knappheit]]
 - [[bitcoin-geldpolitik-und-21-millionen-limit]]
 - [[bitcoin-fehlannahmen]]
 - [[bitcoin-spieltheorie-und-anreize]]

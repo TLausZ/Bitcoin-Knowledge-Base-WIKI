@@ -1,8 +1,8 @@
 # Kryptoanarchismus und die Cypherpunk-Bewegung
 
 **Status:** established
-**Last updated:** 2026-06-09
-**Sources:** [[1988_The Crypto Anarchist Manifesto]], [[1992_Libertaria in Cyberspace]], [[19940910_The-Cyphernomicon]], [[1996_A Declaration of the Independence of Cyberspace]], [[2014_Meditations on Cypherpunk Nightmares]], [[2017_Fog of CryptoWar]], [[cypherpunk-manifesto.txt]]
+**Last updated:** 2026-06-22
+**Sources:** [[1988_The Crypto Anarchist Manifesto]], [[1992_Libertaria in Cyberspace]], [[19940910_The-Cyphernomicon]], [[1996_A Declaration of the Independence of Cyberspace]], [[2014_Meditations on Cypherpunk Nightmares]], [[2017_Fog of CryptoWar]], [[cypherpunk-manifesto.txt]], [[aprycot-gesegnet-sind-die-bitcoiner]]
 
 ## Summary
 
@@ -49,6 +49,16 @@ Michael Goldstein betrachtete 2014 die dunklen Seiten von Mays Prophezeiung: Wik
 ### Bedeutung für Bitcoin
 
 Bitcoin ist das erste Werkzeug, das die Cypherpunk-Vision für Geld vollständig umsetzt: ein elektronisches Bargeld ohne zentralen Emittenten, ohne Gegenparteirisiko, zensurresistent und global nutzbar ohne Erlaubnis. Satoshi Nakamotos Whitepaper zitiert keine Manifeste — aber jeder, der die Cypherpunk-Texte kennt, erkennt die direkte Linie von May (1988) über Hughes (1993) zu Nakamoto (2008).
+
+### Satoshi als Proof of Work der Erlösung (Nozomi Hayase, 2022)
+
+Nozomi Hayase betrachtet Bitcoin aus einer ungewöhnlichen Perspektive: als Antwort auf den Zusammenbruch moralischer Strukturen nach dem Ende religiöser Welterklärungen. Nietzsche stellte 1882 fest, dass die Aufklärung Gott getötet hat — und damit eine Leerstelle hinterlassen hat, die Sinn und Wertorientierung geben müsste.
+
+In diesen Raum stoßen heute technokratische Kräfte. Yuval Noah Harari (Berater beim WEF) propagiert eine "Datenreligion", in der Gefühle auf biochemische Algorithmen reduziert werden und externe KI-Systeme den Menschen besser kennen als er sich selbst — weshalb Autorität von Menschen auf Algorithmen übergehen soll. Julian Assange warnte: "Die Zukunft der Menschheit ist der Kampf zwischen Menschen, die Maschinen kontrollieren, und Maschinen, die Menschen kontrollieren."
+
+Programmierbares Zentralbankgeld (CBDC) ist in diesem Kontext kein neutrales Zahlungsmittel, sondern Steuerungsinfrastruktur. China setzt CBDC für Social-Credit-Scoring ein. Hararis Vision: Menschen "so zu programmieren, dass sie digitale Zentralbankwährungen mögen."
+
+Hayases Gegenargumentation: Satoshi hat nicht versprochen, sondern gezeigt. Der Cypherpunk-Impuls — Kryptographie für die Würde des Einzelnen, nicht zur Unterwerfung unter neue Autoritäten — manifestiert sich im Bitcoin-Protokoll als konkret prüfbarer Code. Satoshi gab die Kontrolle ab und verschwand. Kein Profitinteresse, kein Führerprinzip, kein Versprechen auf Erlösung durch eine Person oder Plattform. Die Erlösung — wenn man es so nennen will — liegt im Prozess selbst: Proof of Work, den jeder Nutzer eines Full Nodes direkt verrifiziert. [[aprycot-gesegnet-sind-die-bitcoiner]]
 
 ## Related
 

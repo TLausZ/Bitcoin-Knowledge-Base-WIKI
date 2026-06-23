@@ -2,7 +2,7 @@
 
 **Status:** established
 **Last updated:** 2026-06-20
-**Sources:** [[blocksizewar]], [[20181114_bitcoinmagazine-when-fork-forks-bitcoin-cash-goes-war]], [[20181116_bitcoinmagazine-one-day-after-bch-hard-fork]], [[20181123_bitcoinmagazine-one-week-later-bitcoin-cash-split]], [[20181201_bitcoinmagazine-bch-hash-war-came-and-went]], [[20181209_bitcoinmagazine-bitcoin-abc-bitmain-ver-suit-bch-split]]
+**Sources:** [[blocksizewar]], [[20181114_bitcoinmagazine-when-fork-forks-bitcoin-cash-goes-war]], [[20181116_bitcoinmagazine-one-day-after-bch-hard-fork]], [[20181123_bitcoinmagazine-one-week-later-bitcoin-cash-split]], [[20181201_bitcoinmagazine-bch-hash-war-came-and-went]], [[20181209_bitcoinmagazine-bitcoin-abc-bitmain-ver-suit-bch-split]], [[Mises_ Der ursprüngliche toxische Maximalist.md]]
 
 ## Summary
 
@@ -77,6 +77,14 @@ Im November 2018 spaltete sich Bitcoin Cash ein zweites Mal. Craig Wright und nC
 Bier unterscheidet zwischen zwei Fragen. In der engbegrenzten Frage der Blockgröße: unentschieden. Möglicherweise wäre eine moderate Hard Fork auf 2 MB ein guter pragmatischer Schritt gewesen — wir werden es nie wissen. In der umfassenderen Frage — wer kontrolliert Bitcoins Protokollregeln? — standen die Small-Blocker klar auf der richtigen Seite. Industrie-Meetings können keine Protokollregeln beschließen. Miner können Regeln nicht lockern. Nur Endnutzer und Investoren, die Änderungen durch ihre Node-Wahl und Marktnachfrage gutheißen, können Konsensregeln verändern. Das ist die finanzielle Souveränität, die Bitcoin einzigartig macht.
 
 Bier schließt mit einer Warnung: Der Blocksize-Krieg hat Bitcoin nur Zeit verschafft. Zukünftige Angriffe — wahrscheinlich durch das Finanz- und politische Establishment, mit deutlich mehr Ressourcen — werden eher um Zensurresistenz als um Blockgrößen gehen. Der Ausgang ist ungewiss.
+
+### Dezentralisierung als Binärfrage (Goldstein/Mises)
+
+Michael Goldstein ergänzt eine theoretische Einordnung: Dezentralisierung ist kein Spektrum, sondern binär — ein System ist entweder dezentralisiert oder dazu verdammt, zentralisiert zu werden. Der Blocksize War belegt das konkret: Die 1-MB-Grenze schien willkürlich, aber ihre Funktion war strukturell. Höhere Blockgrößen erhöhen die Full-Node-Betriebskosten, reduzieren die Node-Zahl und konzentrieren Validierungsmacht bei wenigen großen Akteuren — das bricht die Dezentralisierungsgarantie.
+
+Ethereum als Gegenbeispiel: Es akzeptierte die Kompromisse nicht (größere Blöcke, Turing-vollständige Smart Contracts, späterer Wechsel zu Proof-of-Stake) und unterlag nach dem DAO-Hack 2016 OFAC-Zensur in unterschiedlichem Maße. Der Präzedenzfall, dass Regeln nachträglich geändert werden können, schuf weitere Erwartungen von Regeländerungen.
+
+Bitcoin setzte sich durch, weil SegWit als Soft Fork aktiviert werden konnte — Kapazitätssteigerung ohne Hard-Fork-Präzedenz. Wer die Änderung ablehnte, konnte weiter am Netzwerk teilnehmen. Das ist Mises' „Mittelweg führt zum Sozialismus" auf Protokollebene übertragen: Keine Kompromisse bei den Kernparametern. [[Mises_ Der ursprüngliche toxische Maximalist.md]]
 
 ## Related
 

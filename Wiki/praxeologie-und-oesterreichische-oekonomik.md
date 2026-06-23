@@ -1,8 +1,8 @@
 # Praxeologie und Österreichische Ökonomik
 
 **Status:** established
-**Last updated:** 2026-06-20
-**Sources:** [[2023_Praxeology_ The invisible hand that feeds you -- Knut Svanholm]], [[2023_Praxeology-Invisible-Hand-Feeds-You_Svanholm]], [[2022_Bitcoin _ everything divided by 21 million -- Knut Svanholm]], [[2020_Bitcoin - Unabhängigkeit neu gedacht -- Knut Svanholm]], [[2024_Bitcoin_ The Inverse of Clown World -- Knut Svanholm]]
+**Last updated:** 2026-06-22
+**Sources:** [[2023_Praxeology_ The invisible hand that feeds you -- Knut Svanholm]], [[2023_Praxeology-Invisible-Hand-Feeds-You_Svanholm]], [[2022_Bitcoin _ everything divided by 21 million -- Knut Svanholm]], [[2020_Bitcoin - Unabhängigkeit neu gedacht -- Knut Svanholm]], [[2024_Bitcoin_ The Inverse of Clown World -- Knut Svanholm]], [[aprycot-bitcoin-ist-kein-eigentum]], [[aprycot-kapital-im-21-jahrhundert]], [[aprycot-kritik-der-quantitativen-oekonomik]], [[aprycot-jeder-ist-ein-spekulant]], [[Mises_ Der ursprüngliche toxische Maximalist.md]], [[aprycot-bitcoin-gutes-schlechtes-geld-taghizadegan]]
 
 ## Summary
 
@@ -17,6 +17,16 @@ Die meisten Wissenschaften sind A-posteriori: Sie kommen durch Beobachtung und E
 Der Grund: Menschliche Ereignisse sind einmalig und nicht reproduzierbar. Ein Experiment in der Physik kann wiederholt werden; eine historische Wirtschaftsentscheidung nicht. Sozialwissenschaften, die empirisch vorgehen, können nur Modelle bauen — keine universellen Gesetze ableiten. Econometrics ist dazu verdammt, die Vergangenheit zu beschreiben, nicht die Zukunft vorherzusagen.
 
 Außerdem: Sozialwissenschaftliche Experimente sind immer durch die Werte der Forscher geprägt — welche Gruppen werden untersucht, welche Fragen gestellt, welche Ergebnisse als relevant gelten. Praxeologie versucht diese Biases zu eliminieren, indem sie von unbestreitbaren Axiomen ausgeht und nur logisch deduziert.
+
+### Die Ökonometrie-Kritik: Warum Werturteile nicht quantifizierbar sind
+
+Rudi Bednarek schärft diesen Punkt systematisch: Werturteile sind per Definition subjektiv und verändern sich ständig. Es gibt keine beobachtbaren Konstanten zwischen der Außenwelt und individuellem menschlichem Handeln — anders als in der Physik, wo Lichtgeschwindigkeit und Gravitationskonstante invariant sind. [[aprycot-kritik-der-quantitativen-oekonomik]]
+
+Die Wissenschaftstheorie unterscheidet nomothetische Wissenschaften (suchen allgemeine Gesetze, die für alle gleichartigen Phänomene gelten) von idiographischen Wissenschaften (beschreiben einmalige Ereignisse). Naturwissenschaften sind nomothetisch. Geschichte ist idiographisch. Die Ökonomik versucht nomothetisch zu sein, trifft dabei aber auf die Tatsache, dass menschliche Handlungen idiographisch sind — jedes Handeln ist ein einmaliges Ereignis, geprägt von subjektiven Werten, die sich von Mensch zu Mensch und von Moment zu Moment unterscheiden.
+
+Das schärfste methodische Problem liegt in der mikroökonometrischen Kausalanalyse: Um kausale Schlussfolgerungen zu ziehen, braucht man Kontroll- und Behandlungsgruppen, die sich nur in einer Variable unterscheiden. Aber Werturteile — die eigentlichen Treiber wirtschaftlichen Handelns — sind nie gleich in zwei Gruppen von Menschen. "Ceteris paribus" funktioniert in der Sozialwissenschaft nicht, weil das, was "cetera" (alle anderen Dinge) konstant halten würde, niemals kontrolliert werden kann. [[aprycot-kritik-der-quantitativen-oekonomik]]
+
+Mises' Antwort in "Nationalökonomie" (1940) und "Human Action": Die Praxeologie geht nicht empirisch vor, sondern a priori. Ihre Sätze folgen durch logische Deduktion aus selbstevidentem Axiom. Was aus dem Handlungs-Axiom folgt, gilt universell — nicht weil es an vielen Fällen beobachtet wurde, sondern weil sein Gegenteil sich selbst widerlegt.
 
 ### Das Handlungs-Axiom
 
@@ -124,14 +134,71 @@ Zweitens: Argumentierende erkennen an, dass Konflikte durch Argumentation lösba
 
 Daraus folgt praxeologisch: Das Nicht-Aggressionsprinzip (NAP) — "We humans ought not to aggress against one another" — ist die einzige ethische Norm, die durch Argumentation nicht widerlegt werden kann, ohne in Selbstwiderspruch zu fallen. Jedes System, das Aggression institutionalisiert (z.B. Steuerzwang, Inflation), verletzt die logischen Voraussetzungen des einzigen legitimen Konfliktlösungsmechanismus. [[2023_Praxeology-Invisible-Hand-Feeds-You_Svanholm]]
 
+### Besitz vs. Eigentum: Die Mises-Unterscheidung
+
+Ludwig von Mises unterschied zwei Begriffe, die im Deutschen (und Englischen) oft verwechselt werden:
+
+**Katallaktisches oder soziologisches Eigentum** (Besitz): faktische Kontrolle über ein Gut. Wer einen Gegenstand nutzen, tauschen oder verwahren kann, ist sein katallaktischer Eigentümer — unabhängig von juristischen Festschreibungen.
+
+**Juristisches Eigentum** (Eigentum im Rechtssinne): normatives Konzept, das durch eine zentrale Instanz (Staat, Rechtssystem) definiert und durchgesetzt wird.
+
+Leon Wankum wendet diese Unterscheidung auf Bitcoin an: Digitale Dinge existieren als Information, nicht als physische Objekte. Man kann Informationen nicht "besitzen" im physischen Sinne — man kann sie kontrollieren. Bitcoin ist damit kryptografischer Besitz, kein juristisches Eigentum. Wer den privaten Schlüssel oder die Seed-Phrase kontrolliert, ist katallaktischer Eigentümer der Bitcoin. [[aprycot-bitcoin-ist-kein-eigentum]]
+
+Carl Menger formulierte: "Die menschliche Wirtschaft und das Eigentum haben einen gemeinsamen wirtschaftlichen Ursprung, denn beide haben ihren letzten Grund darin, dass es Güter gibt, deren verfügbare Quantität geringer ist, als der Bedarf der Menschen." Knappheit erzeugt Eigentum natürlich — juristische Systeme kodifizieren nur, was die Katallaktik bereits hervorgebracht hat.
+
+Die Konsequenz: Bitcoin braucht keinen staatlichen Eigentumsschutz. Wer die Schlüssel hält, hat katallaktisch kontrollierten Besitz — resistent gegen Inflation, Beschlagnahme und Währungsreformen.
+
+### Kapital als Werkzeuge: Farrington und de Soto
+
+Allen Farrington verbindet die österreichische Kapitaltheorie mit Hernando de Sotos "The Mystery of Capital": Kapital ist potenzielle wirtschaftliche Energie — Arbeit wurde getan, die Früchte aber noch nicht geerntet, bereit für menschliches Handeln. Oder kompakter: Kapital ist Werkzeuge. [[aprycot-kapital-im-21-jahrhundert]]
+
+Israel Kirzners Beitrag: Kapital ist immer heterogen und das Ergebnis menschlicher Kreativität. Geld ist die liquideste Form von Kapital — vollständig homogen, null Unsicherheit. Unternehmer schaffen Wert, indem sie Kapital heterogenisieren: liquides Geld in spezifische, illiquide Produktionsmittel verwandeln, die die Effizienz menschlicher Arbeit vervielfachen.
+
+Der Fiat-Fehlanreiz: Ein inflationäres System bestraft Bestands-Denken (Kapitalakkumulation) und belohnt Fluss-Denken (kurzfristige Gewinne). Bitcoin invertiert das durch Deflation: Wer langfristig in heterogenes, illiquides Kapital investiert, wird belohnt, nicht bestraft. Farrington: "Der Sinn des Gewinns ist die Investition" — nicht umgekehrt. Ausführlicher in [[kapital-und-bitcoin]].
+
+### Mises als originärer Bitcoin-Maximalist
+
+Michael Goldstein (Bitstein) arbeitet heraus, dass Mises' Geldtheorie zwingend zu Bitcoin-Maximalismus führt. In „Theorie des Geldes und Umlaufmittel" (1912) zeigte Mises, dass Märkte natürlich zu einem einzigen Geldgut konvergieren — das Regressions-Theorem macht frühere Kaufkraft zur Voraussetzung für Geldverwendung, was neue Konkurrenten systematisch benachteiligt. Die logische Konsequenz: Für ein globales Netzwerk gibt es keinen zweiten Platz.
+
+In „Die Mitte des Weges führt zum Sozialismus" (1950) argumentiert Mises, dass jeder staatliche Eingriff in die Wirtschaft zu weiteren Eingriffen zwingt, bis man beim vollständigen Sozialismus ankommt. Goldstein überträgt das auf Bitcoin: Dezentralisierung ist binär. Jede Kompromittierung eines Netzwerkparameters (größere Blöcke, Proof-of-Stake, veränderte Geldmenge) schafft Präzedenzfälle, die das System in Richtung zentraler Kontrolle kippen — langsam, aber unumkehrbar.
+
+Der Blocksize War als Fallstudie: Die Forderung nach größeren Blöcken schien technisch trivial. Bitcoiner lehnten ab, weil höhere Full-Node-Betriebskosten die Node-Dezentralisierung gefährdet hätten — was wiederum Präzedenz für politisch motivierte Regeländerungen gesetzt hätte. Kapazität stieg trotzdem (SegWit Soft Fork), aber ohne den Dezentralisierungseingriff eines Hard Forks.
+
+Mises auf dem ersten Mont-Pèlerin-Treffen 1947: Er nannte seine Kollegen — prominente Libertäre — „einen Haufen Sozialisten", weil sie progressive Einkommensteuern nicht kategorisch ablehnten. Goldstein sieht das als Modell: Bitcoin-Maximalisten sagen Shitcoinern dasselbe, weil partielle Kompromisse mit Dezentralisierung zu deren Erosion führen.
+
+„Bitcoiner sollten immer den Mut haben, Mises zu zitieren und jedem zu sagen: 'Ihr seid alle ein Haufen Shitcoiner.'" — Goldstein [[Mises_ Der ursprüngliche toxische Maximalist.md]]
+
+### Warum Mises heute relevanter ist als je zuvor
+
+Goldstein argumentiert: Mises schrieb in einer Ära des aufkommenden Fiat-Systems und hatte keine Möglichkeit, seine monetären Einsichten praktisch zu implementieren. Bitcoin ist das erste Instrument, das Mises' Geldtheorie in die Realität übersetzt — dezentral, regelngebunden, unveränderlich in der Geldmenge.
+
+Ron Paul: „Wir sind jetzt alle Österreicher." Bitcoin-Gemeinde und österreichische Schule treffen sich in der Diagnose: Fiat-Geld ist der Ursprung wirtschaftlicher Verzerrungen. Der Unterschied ist, dass Bitcoin eine Alternative bereitstellt, nicht nur eine theoretische Kritik.
+
+### Gutes und schlechtes Geld: die katholisch-österreichische Perspektive (Taghizadegan)
+
+Rahim Taghizadegan, der Vorstand des Scholarium Wien und Vertreter einer auf katholischer Soziallehre basierenden Ökonomik, nähert sich Bitcoin von einer Richtung, die in der Bitcoin-Literatur selten ist: Er fragt, ob Bitcoin moralisch gutes oder schlechtes Geld ist.
+
+Die österreichische Schule unterscheidet seit Carl Menger zwischen Geld, das seinen Wert durch echte Nachfrage erlangt (hartes Geld), und Geld, das seinen Wert durch staatlichen Zwang aufrechthält (weiches Geld). Schlechtes Geld ist nicht nur ökonomisch ineffizient — es ist moralisch problematisch, weil es Umverteilung durch Inflation ermöglicht, also den Erwerb von Gütern ohne entsprechende Gegenleistung.
+
+Zur Energiefrage — dem häufigsten Einwand gegen Bitcoin — antwortet Taghizadegan praxeologisch: Menschen entscheiden durch Handeln, ob etwas seinen Energieverbrauch wert ist. Der Energieaufwand für das globale Bankensystem, für Goldsicherung, für staatliche Währungshüter ist enorm und weitgehend unsichtbar. Wenn Menschen freiwillig Energie in die Bitcoin-Sicherung investieren, signalisieren sie, dass sie diesen Tausch als wertvoll einschätzen. Eine externe Bewertung, die diesen Tausch als "Verschwendung" abtut, setzt fremde Präferenzen über die der Handelnden.
+
+Zur 21-Millionen-Grenze: Das feste Angebot ist nicht technische Willkür, sondern praxeologische Konsequenz. Geld, das beliebig vermehrt werden kann, eignet sich nicht als Wertspeicher, weil kein Individuum langfristig in Einheiten denken kann, deren Kaufkraft von Drittentscheidungen abhängt.
+
+Zum KYC-Vergleich: Bargeld erfordert keine Identitätsverifizierung — Bitcoin in selbstverwahrter Form ebenfalls nicht. Die Forderung nach KYC bei Bitcoin hat dieselbe Logik wie ein Verbot von Bargeld: Sie zielt auf Überwachung, nicht auf Sicherheit. [[aprycot-bitcoin-gutes-schlechtes-geld-taghizadegan]]
+
 ## Related
 
+- [[spekulation-unsicherheit-und-geld]]
+- [[ergebnisgleichheit-und-freiheit]]
+- [[geld-staat-und-fiat-monopol]]
 - [[bitcoin-spieltheorie-und-anreize]]
 - [[bitcoin-alles-geteilt-durch-21-millionen]]
 - [[bitcoin-geld-als-fiktion-und-paradigmenwechsel]]
 - [[ideal-money-und-bitcoin]]
 - [[bitcoin-geldpolitik-und-21-millionen-limit]]
 - [[bitcoin-fehlannahmen]]
+- [[kapital-und-bitcoin]]
+- [[bitcoin-und-immobilien]]
 
 ## Open Questions
 

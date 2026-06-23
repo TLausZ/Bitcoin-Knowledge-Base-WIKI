@@ -1,8 +1,8 @@
 # Electrum Wallet
 
 **Status:** established
-**Last updated:** 2026-06-06
-**Sources:** [[20210107_bitbox02-electrum-anleitung-de]], [[20210531_erweiterte-electrum-funktionen-de]]
+**Last updated:** 2026-06-22 (Pass 34: Electrum-Server-Vergleich)
+**Sources:** [[20210107_bitbox02-electrum-anleitung-de]], [[20210531_erweiterte-electrum-funktionen-de]], [[sparrowwallet-Server Performance]]
 
 ## Summary
 
@@ -67,6 +67,20 @@ Electrum übergibt eine unsignierte Transaktion an die BitBox02. Das Gerät zeig
 **Paper-Wallet entleeren:** "Geldbörse → Private Schlüssel → Entleeren" erstellt eine Transaktion, die den gesamten Betrag in die aktuelle Wallet überträgt. Hot-Wallet-Operation: Die privaten Schlüssel des Paper-Wallets sind kurzzeitig auf dem Computer sichtbar.
 
 **Tor-Integration:** "Werkzeuge → Netzwerk → Proxy → Tor Proxy auf Port 9150 nutzen". LED wechselt von grün zu blau. Schützt die IP-Adresse bei öffentlichen Servern und erlaubt bei eigenem Server den Zugang ohne spezielle Netzwerkkonfiguration (kein Port-Forwarding nötig).
+
+### Eigener Electrum Server: Implementierungsvergleich
+
+Wer Sparrow oder Electrum an einen eigenen privaten Server anbinden will, hat drei relevante Implementierungen (Benchmark auf Raspberry Pi 4, 8 GB RAM, 1 TB USB-SSD, Stand Feb 2022): [[sparrowwallet-Server Performance]]
+
+| Implementierung | Index-Aufbau (Pi 4) | DB-Größe | txindex nötig? | Stärke |
+|---|---|---|---|---|
+| **Fulcrum** | 2–3 Tage | ~102 GB | Ja | Schnellste Query-Performance; C++; Binaries verfügbar |
+| **Electrs** | 12–24 Stunden | ~32 GB | Nein | Kleinster Footprint; auf Fertigknoten (Umbrel, MyNode) verbreitet |
+| **ElectrumX** | ~1 Woche | ~75 GB | Ja | Für öffentliche Server konzipiert; auf Heimhardware kaum sinnvoll |
+
+Fulcrum ist für persönlichen Einsatz die stärkste Wahl. Electrs ist die schnellste Option für den ersten Start und auf Speicher-limitierter Hardware. ElectrumX lohnt sich nur bei öffentlichem Serverbetrieb.
+
+Ein wichtiger Unterschied zu Bitcoin Core mit Wallet: Electrum-Server speichern keine nutzerspezifischen Daten — nur einen allgemeinen Adress-Index aller Bitcoin-Transaktionen. Wallet-Details verbleiben ausschliesslich in der lokalen Wallet-Datei. Das macht einen eigenen Electrum Server datenschutztechnisch überlegen gegenüber Bitcoin Core im Wallet-Modus (der Public Keys und Saldo unverschlüsselt auf der Festplatte hält).
 
 ## Related
 

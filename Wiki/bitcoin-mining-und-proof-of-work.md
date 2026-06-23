@@ -1,8 +1,8 @@
 # Bitcoin Mining und Proof of Work
 
 **Status:** established
-**Last updated:** 2026-06-20
-**Sources:** [[20250327_wie-funktioniert-bitcoin-mining-eigentlich]], [[20260424_wie-das-21-millionen-limit-von-bitcoin-tatsächlich-durchgesetzt-wird]], [[learnmeabitcoin-beginners-guide-mining]], [[learnmeabitcoin-beginners-guide-difficulty]], [[learnmeabitcoin-technical-mining-overview]], [[learnmeabitcoin-technical-mining-candidate-block]], [[learnmeabitcoin-technical-mining-target]], [[learnmeabitcoin-technical-mining-coinbase-transaction]], [[learnmeabitcoin-technical-mining-block-reward]], [[learnmeabitcoin-technical-mining-memory-pool]], [[On the Instability of Bitcoin Without the Block Reward]], [[20240924_Economic Limits Crypto Blockchains - QJE Sept 2024]]
+**Last updated:** 2026-06-22
+**Sources:** [[aprycot-nguyen-pos-falsche-denkweise]], [[aprycot-nguyen-pos-private-schluessel-faelschungssicher]], [[20250327_wie-funktioniert-bitcoin-mining-eigentlich]], [[20260424_wie-das-21-millionen-limit-von-bitcoin-tatsächlich-durchgesetzt-wird]], [[learnmeabitcoin-beginners-guide-mining]], [[learnmeabitcoin-beginners-guide-difficulty]], [[learnmeabitcoin-technical-mining-overview]], [[learnmeabitcoin-technical-mining-candidate-block]], [[learnmeabitcoin-technical-mining-target]], [[learnmeabitcoin-technical-mining-coinbase-transaction]], [[learnmeabitcoin-technical-mining-block-reward]], [[learnmeabitcoin-technical-mining-memory-pool]], [[On the Instability of Bitcoin Without the Block Reward]], [[20240924_Economic Limits Crypto Blockchains - QJE Sept 2024]]
 
 ## Summary
 
@@ -135,9 +135,20 @@ Bis 2021 war China mit ~65% globaler Hashrate dominant. Das chinesische Mining-V
 
 Heute (2025): USA dominiert mit ~35–40% (Texas als Zentrum), gefolgt von Nordics (Geothermie/Hydro), Kanada, VAE. Mining folgt günstiger Energie — das Protokoll erzwingt diese Dezentralisierung strukturell, weil kein Staat alle günstigen Energiequellen der Welt kontrolliert.
 
+### Fälschungssichere Kostspieligkeit: die unterschätzte Kerninnovation
+
+Hugo Nguyen argumentiert, dass PoW aus drei Komponenten besteht: Zufall, fälschungssichere Kostspieligkeit (unforgeable costliness) und Anreize. PoS-Designer fokussieren auf (1) und (3), lassen aber (2) weg — und dieser Fehler ist nicht trivial.
+
+Ein digitaler Block besteht aus Nullen und Einsen. Wenn seine Erzeugung nichts kostet, kann er gefälscht und reproduziert werden. Das "Gewicht" eines PoW-Blocks kommt ausschließlich aus der direkten, prüfbaren Verbindung zwischen dem Block-Hash und der aufgewandten Energie. PoS-Blöcke haben kein solches physisches Gewicht; ihr "Gewicht" ist subjektiv und damit manipulierbar.
+
+Das erklärt, warum PoW Netzwerkpartitionen deterministisch löst: Wenn zwei Chains kollidieren, entscheidet die akkumulierte Arbeit, ohne menschliche Intervention. PoS hat keinen äquivalenten objektiven Maßstab. Wenn zwei PoS-Chains kollidieren, muss das Protokoll auf externe Koordination ausweichen — was Zentralisierung einführt, auch wenn sie als "Notfallmechanismus" verpackt ist.
+
+Fälschungssichere Kostspieligkeit passt in keine einzelne akademische Disziplin — sie verbindet Physik, Ökonomie und Evolutionspsychologie (Nick Szabos Forschung über den Ursprung des Geldes als Sammlerstück). Genau deshalb wird sie von PoS-Forschern, die aus der Informatik oder Spieltheorie kommen, übersehen. → [[proof-of-stake-kritik]] für vollständige Analyse. [[aprycot-nguyen-pos-falsche-denkweise]], [[aprycot-nguyen-pos-private-schluessel-faelschungssicher]]
+
 ## Related
 
 - [[bitcoin-mining-umwelt]] ← Vollständige Umwelt- und Energieevidenz (14 peer-reviewed Papers)
+- [[proof-of-stake-kritik]] ← Detaillierte PoS-Sicherheitsanalyse (Nguyen)
 - [[bitcoin-whitepaper]]
 - [[bitcoin-geldpolitik-und-21-millionen-limit]]
 - [[konsensregeln-und-mempool-richtlinien]]
@@ -149,4 +160,4 @@ Heute (2025): USA dominiert mit ~35–40% (Texas als Zentrum), gefolgt von Nordi
 - Reichen Gebühren allein für ausreichende Netzwerksicherheit? Budget-Argument (Budish, QJE 2024) und Stabilitätsargument (Carlsten et al., CCS 2016) zeigen ernste Probleme. Optimistische Gegenposition: Blockplatz-Knappheit + Second Layer. Ausgang unbekannt. Siehe `Outputs/2026-06-20_miner-incentives-nach-halving.md`.
 - Führt ASIC-Dominanz zur dauerhaften Mining-Zentralisierung, oder entstehen neue Dezentralisierungsmechanismen?
 - Wie lange bleibt das 51%-Angriffs-Modell sicher bei fortschreitender Pool-Konzentration?
-- Sind Alternativen zu Proof of Work (Proof of Stake, etc.) vergleichbar sicher — oder tauschen sie Energieaufwand gegen andere Schwachstellen?
+- Fälschungssichere Kostspieligkeit bei PoS: Ist "slashing" (Bestrafung für Doppelsignierung) ein ausreichender Ersatz, oder fehlt das physische Gewicht grundsätzlich?

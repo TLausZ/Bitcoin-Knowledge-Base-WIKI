@@ -1,8 +1,8 @@
 # Skalierung: Lightning, Ark und Statechains
 
 **Status:** emerging
-**Last updated:** 2026-06-08
-**Sources:** [[20251218_die-skalierung-von-bitcoin-lightning-und-der-weg-zu-ark]], [[20260212_bitcoin-senden-ohne-sie-zu-bewegen-statechains-erklärt]], [[20231018_lightning-in-der-bitboxapp]], [[20240314_wie-die-bitbox02-den-seed-für-die-lightning-wallet-sicher-ableitet]]
+**Last updated:** 2026-06-22
+**Sources:** [[20251218_die-skalierung-von-bitcoin-lightning-und-der-weg-zu-ark]], [[20260212_bitcoin-senden-ohne-sie-zu-bewegen-statechains-erklärt]], [[20231018_lightning-in-der-bitboxapp]], [[20240314_wie-die-bitbox02-den-seed-für-die-lightning-wallet-sicher-ableitet]], [[aprycot-svanholm-wahre-skalierungsloesung]]
 
 ## Summary
 
@@ -55,15 +55,28 @@ Sicherheitskonzept: Die Lightning-Schlüssel sind eine Hot Wallet (auf dem Smart
 
 Ark und Lightning schließen sich nicht aus — Ark kann als „Onramp" für Lightning dienen.
 
+### Die monetäre Skalierungsthese (Svanholm)
+
+Knut Svanholm stellt die Skalierungsdebatte auf den Kopf: Die Frage "Wie viele Transaktionen pro Sekunde?" ist eine Fiat-Metrik. Deflationäres, hartes Geld mit sinkender Zeitpräferenz reduziert den *Bedarf* an Transaktionen, statt ihn zu erhöhen.
+
+Das Argument: In einem Fiat-System steigen Preise kontinuierlich, also müssen Transaktionen zunehmen. Wenn Geld ehrlich ist — wertbeständig oder wertsteigend — verschieben Menschen Ausgaben auf später, was pro Ausgabe mehr Wert schafft und weniger, aber bedeutsamere Transaktionen erzeugt. Innerhalb von Vertrauensnetzwerken (Familie, Gemeinschaft) finden wirtschaftliche Transaktionen ohne Geld statt, weil gegenseitiges Vertrauen keinen Zahlungskanal braucht.
+
+Svanholm beschreibt die Bitcoin-Community als Vorgeschmack: Bitcoin-Nutzer helfen sich gegenseitig mit Übersetzungen, Code, Korrekturlesen — ohne Geld, weil alle vom Bitcoin-Erfolg profitieren. Der Anreiz ist direkt. Dieses Muster könnte sich in einer hyperbitcoinisierten Welt ausweiten, was die TPS-Anforderungen strukturell senkt. [[aprycot-svanholm-wahre-skalierungsloesung]]
+
+Das widerspricht nicht der technischen Skalierungsarbeit an Lightning und Ark — es ergänzt sie durch eine monetäre Perspektive: Layer-2-Kapazität ist das Dach, sinkende Zeitpräferenz ist das Fundament.
+
 ## Related
 
 - [[lightning-netzwerk-grundlagen]]
 - [[bitcoin-vaults]]
 - [[taproot-musig2-frost]]
 - [[bitcoin-geldpolitik-und-21-millionen-limit]]
+- [[bitcoin-monetarisierung]]
+- [[praxeologie-und-oesterreichische-oekonomik]]
 
 ## Open Questions
 
 - Wie reif wird Ark für Endnutzer in den nächsten Jahren?
 - Können Statechains mit Teilbeträgen (Spark) Lightning als Zahlungskanal ersetzen?
 - Welche Rolle spielen Covenants für bessere Ark-Implementierungen?
+- Ist Svanholms These empirisch testbar: Sinkt die Transaktionsdichte relativ zum gesicherten Wert in einer Hyperbitcoinisierungs-Phase?

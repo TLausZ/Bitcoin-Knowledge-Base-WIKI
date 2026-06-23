@@ -1,8 +1,8 @@
 # Diceware und eigene Seed-Generierung
 
 **Status:** established
-**Last updated:** 2026-06-06
-**Sources:** [[20210203_wuerfle-bitcoin-wallet-diceware-de]]
+**Last updated:** 2026-06-22
+**Sources:** [[20210203_wuerfle-bitcoin-wallet-diceware-de]], [[aprycot-diy-private-schluessel-bitcoin]]
 
 ## Summary
 
@@ -63,12 +63,30 @@ Nach dem Setup sofort verifizieren: In der BitBoxApp "Gerät verwalten → Recov
 
 Der resultierende Seed ist BIP-39-Standard und funktioniert mit jeder kompatiblen Wallet (Electrum, Sparrow, Green, usw.) zur unabhängigen Verifikation oder Wiederherstellung.
 
+### Vollständig manuelle Methode ohne Hardware-Wallet
+
+Wer keine Hardware-Wallet hat oder ihr komplett misstrauen will, kann einen Seed auch rein manuell erzeugen — mit Würfeln, Papier und einem (air-gapped) Computer. Arman the Parman beschreibt das Verfahren:
+
+**Schritt 1 — 256 Bit Entropie würfeln.** Vier Würfel gleichzeitig: 1–3 = Null, 4–6 = Eins. 23 Zeilen à 11 Ziffern plus drei Ziffern für die 24. Zeile ergeben 256 Bit.
+
+**Schritt 2 — Prüfsumme berechnen.** Die 256 Bit werden mit SHA-256 gehasht (Terminalbefehl: `echo <bits> | shasum -a 256 -0`). Die ersten zwei Hexzeichen des Hash werden in 8 Binärstellen umgewandelt — das vervollständigt die 24. Zeile auf 11 Bit. Ohne diesen Schritt ergibt der Seed keinen gültigen BIP-39-Seed.
+
+**Schritt 3 — Binär → Dezimal.** Jede der 24 Gruppen à 11 Bit wird in eine Dezimalzahl umgerechnet (0–2047). Am Terminal: `echo "$((2#10101111001))"`.
+
+**Schritt 4 — BIP-39-Wortliste.** Jede Dezimalzahl + 1 ergibt die Zeilennummer in der GitHub-Wortliste (Computer zählt ab 0, die Liste ab 1). Das ergibt die 24 Seed-Wörter.
+
+Für echte Bitcoin muss dieser Prozess auf einem Air-Gap-Computer ohne Netzwerkverbindung laufen — ein temporär getrennter Laptop reicht nicht; Hardware ohne WLAN/Bluetooth ist die einzig sichere Option. Eine Raspberry Pi Zero ohne Funkmodule kostet etwa 10 USD. [[aprycot-diy-private-schluessel-bitcoin]]
+
+Der Vorteil dieser Methode: Man muss keinem Gerät in Bezug auf Zufälligkeit vertrauen. Der Nachteil: Rechenaufwand, Fehleranfälligkeit, und das 24. Wort muss rechnergestützt bestimmt werden.
+
 ## Related
 
 - [[seedphrase-entropie-und-sicherheit]]
 - [[wallet-backup-strategien]]
 - [[hd-wallets-und-schluesselableitung]]
+- [[hardware-wallet-sicherheitsarchitektur]]
 
 ## Open Questions
 
 - Wie viele Würfelwürfe pro Wort sind nötig, damit die Entropie nicht durch den Prozess selbst reduziert wird?
+- Ab welcher Bitcoin-Menge lohnt sich der Aufwand eines Air-Gap-Computers gegenüber einer seriösen Hardware-Wallet?

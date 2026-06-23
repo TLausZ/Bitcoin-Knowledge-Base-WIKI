@@ -1,14 +1,35 @@
 # OPSEC und Privatsphäre für Bitcoin-Nutzer
 
 **Status:** established
-**Last updated:** 2026-06-06
-**Sources:** [[20250522_sprich-nicht-über-deine-bitcoin]], [[20211220_bitbox02-bestellen-ohne-adresse-de]], [[20210320_shift-crypto-datenschutz-de]]
+**Last updated:** 2026-06-23
+**Sources:** [[20250522_sprich-nicht-über-deine-bitcoin]], [[20211220_bitbox02-bestellen-ohne-adresse-de]], [[20210320_shift-crypto-datenschutz-de]], [[aprycot-gigi-privatsphaere-in-bitcoin.md]]
 
 ## Summary
 
 Operational Security (OPSEC) bedeutet für Bitcoin-Nutzer: sorgfältig steuern, welche Informationen über den eigenen Bitcoin-Besitz nach außen dringen. Selbst kleine Details — exakte Beträge, Transaktions-IDs, Adressen — können mit anderen Daten kombiniert werden, um Rückschlüsse auf das Gesamtvermögen zu ziehen. Die größten Risiken entstehen durch unüberlegtes Teilen auf Social Media, unnötige Angeberei und das Preisgeben von Wallet-Strategien in öffentlichen Foren.
 
 ## Body
+
+### Privatsphäre ist keine Geheimhaltung
+
+Eric Hughes eröffnete das Cypherpunk's Manifesto (1993) mit der Unterscheidung: „Privatsphäre ist keine Geheimhaltung. Eine private Angelegenheit ist etwas, von dem man nicht will, dass die ganze Welt es weiß, aber eine geheime Angelegenheit ist etwas, von dem man nicht will, dass es irgendjemand weiß." Was man auf der Toilette tut, ist weder illegal noch geheim — aber man schließt die Tür. Dasselbe gilt für Finanzen.
+
+Bitcoin ist bestenfalls pseudonym, nicht anonym. Jede in der Blockchain gespeicherte Transaktion bleibt öffentlich einsehbar, solange Bitcoin existiert. Wer jetzt keine Privatsphäre-Maßnahmen ergreift, riskiert künftige Nachteile — da Blockchain-Analyse mit der Zeit besser, nicht schlechter wird. [[aprycot-gigi-privatsphaere-in-bitcoin.md]]
+
+### Acht Bewährte Praktiken (Gigi / Matt Odell)
+
+Gigi und Matt Odell formulierten 2021 eine priorisierte Liste:
+
+1. **Selbst verwahren** — Not your keys, not your coins. Wer andere für sich verwahren lässt, gibt alle Transaktionsdaten preis.
+2. **Keine Adress-Wiederverwendung** — Zerstört die Privatsphäre beider Seiten einer Transaktion.
+3. **KYC minimieren** — Verknüpfung der realen Identität mit Bitcoin-Adressen ist schwer rückgängig zu machen. Datenlecks von KYC-Diensten sind häufig. No-KYC-Alternativen existieren (Hodl Hodl, Bisq, Peach).
+4. **Dritte minimieren** — „Vertrauenswürdige Dritte sind Sicherheitslücken" (Nick Szabo). Wenn möglich alles selbst betreiben.
+5. **Eigenen Node betreiben** — Wer keinen eigenen Node hat, vertraut einem fremden Node. Der fremde Node sieht alle Anfragen.
+6. **Lightning für kleine Transaktionen nutzen** — Off-Chain erhöht Privatsphäre mit wenig Aufwand. Onion Routing auf Lightning verbirgt Zahlungspfade.
+7. **Keine öffentlichen Block-Explorer** — Adresssuchen verknüpfen Adressen mit IP-Adressen. Alternative: eigenen Block-Explorer auf dem Node betreiben, oder Tor/VPN.
+8. **CoinJoin früh und oft** — Da Bitcoin permanent ist: kollaborative Transaktionen (Whirlpool, JoinMarket) verhindern künftige Rückverfolgung.
+
+[[aprycot-gigi-privatsphaere-in-bitcoin.md]]
 
 ### Warum Transaktionsdaten privat sind
 

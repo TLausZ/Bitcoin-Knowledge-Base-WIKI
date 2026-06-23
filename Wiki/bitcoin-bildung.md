@@ -1,0 +1,80 @@
+# Bitcoin-Bildung und Mi Primer Bitcoin
+
+**Status:** established
+**Last updated:** 2026-06-22
+**Sources:** [[aprycot-bitcoin-diplom-gratis]], [[aprycot-bitcoin-diplom-finanzielle-bildung]], [[aprycot-bildungsoffensive-coinfinity-scholarium]], [[aprycot-marlas-bitcoin-abenteuer]], [[aprycot-grundlagen-oekonomie-ankuendigung]]
+
+## Summary
+
+Mi Primer Bitcoin ist eine NGO, die in El Salvador das "Bitcoin-Diplom" entwickelt hat — ein Schulbuch für den Bitcoin-Unterricht an weiterführenden Schulen. Aprycot Media hat es auf Deutsch übersetzt und stellt es kostenlos zur Verfügung. Mehr als 7.700 Schüler haben die Unterrichtsreihe in El Salvador absolviert; mit offenen Einführungskursen wurden über 300.000 Menschen erreicht. Im November 2025 bündelten Coinfinity (Österreichs ältester Bitcoin-Broker), Scholarium AG und Aprycot ihre Kräfte, um Bitcoin-Bildung im deutschsprachigen Raum auszubauen.
+
+## Body
+
+### El Salvador als Ursprung
+
+Als El Salvador im September 2021 Bitcoin zum gesetzlichen Zahlungsmittel erklärte, stand das Land vor einer konkreten Herausforderung: Die Bevölkerung musste lernen, Bitcoin zu verwenden. Mi Primer Bitcoin nahm sich dieser Aufgabe an und entwickelte das "Bitcoin-Diplom" — ein Schulbuch, das unter realen Einsatzbedingungen an salvadorianischen Schulen erprobt wurde. [[aprycot-bitcoin-diplom-finanzielle-bildung]]
+
+Das Curriculum deckt in zehn Kapiteln ab: Geldgeschichte, Probleme des Fiat-Systems, wie Bitcoin funktioniert, wie man es sicher verwahrt und nutzt. Ziel: nach zehn Wochen ein Grundverständnis, das den Abschlusstest besteht.
+
+Jan-Paul Franken, einer der Aprycot-Autoren, administrierte die Abschlussprüfung 2022 persönlich an einer High School in El Salvador. Sein Befund: 14- und 15-jährige Schüler gingen "ganz souverän" mit Bitcoin um. [[aprycot-bitcoin-diplom-finanzielle-bildung]]
+
+### Die deutschen Übersetzungen
+
+**Version 1.0** (August 2023): Aprycot veröffentlichte die deutsche Erstübersetzung des Bitcoin-Diploms als kostenlosen Download. Übersetzer waren die freiwilligen "Content Plebs" stfano, DerGeier und BitBoxer75. Die Übersetzung enthält Korrekturen und erweiterte Erklärungen; spanischsprachige Links wurden durch deutschsprachige Alternativen ersetzt. Die Anleitungen zu Gemeinschaftsübungen konnten in Version 1.0 nicht übersetzt werden, weil sie nicht vorlagen. [[aprycot-bitcoin-diplom-gratis]]
+
+**Version 2.0** (Spätherbst 2023, geplant): Gleichzeitig mit Aprycots Arbeit an der ersten Version veröffentlichte Mi Primer Bitcoin die zweite englische Version mit neuen Erklärungen, einem Quellen-Verzeichnis, einem Glossar und den Anleitungen zu Gemeinschaftsübungen. Aprycot kündigte die Übersetzung der zweiten Version an. [[aprycot-bitcoin-diplom-gratis]]
+
+Das Diplom ist für Selbststudium, Schulunterricht (Wirtschaft, Politik) und Volkshochschulkurse konzipiert — frei verwendbar ohne Einschränkungen. [[aprycot-bitcoin-diplom-finanzielle-bildung]]
+
+### Reichweite von Mi Primer Bitcoin
+
+Stand August 2023:
+- Über 7.700 Schüler in El Salvador haben die Unterrichtsreihe mit dem Bitcoin-Diplom abgeschlossen
+- Über 300.000 Salvadorianer wurden durch offene Einführungskurse von Mi Primer Bitcoin erreicht
+
+Diese Zahlen beziehen sich auf ein Land mit ca. 6 Millionen Einwohnern — eine Durchdringungsrate, die international einzigartig ist. [[aprycot-bitcoin-diplom-gratis]]
+
+### Coinfinity, Scholarium und Aprycot
+
+Im November 2025 verkündeten drei Institutionen eine strategische Partnerschaft:
+
+**Coinfinity** (gegründet 2014) ist Österreichs ältester Bitcoin-Broker. Coinfinity übernahm die Mehrheitsbeteiligung an Aprycot Media. Fab, Aprycot-Mitgründer, wurde Head of Bitcoin Education bei Coinfinity. [[aprycot-bildungsoffensive-coinfinity-scholarium]]
+
+**Scholarium AG** (unter Rahim Taghizadegan) ist eine Lehreinrichtung für die Österreichische Schule der Nationalökonomie — dasselbe intellektuelle Fundament, auf dem Aprycot seine Bücher aufbaut. Scholarium übernahm eine Minderheitsbeteiligung.
+
+Die erklärte Stoßrichtung: Bitcoin als Katalysator für "ökonomisches und gesellschaftliches Umdenken" positionieren, mit Bildung als Hauptinstrument. Aprycot-Motto: "Wir drucken Bücher statt Geld!"
+
+Die Partnerschaft verbindet:
+- Coinfinity: Markt-Zugang und praktische Bitcoin-Dienste
+- Scholarium: Theoretisches Fundament (Österreichische Schule)
+- Aprycot: Verlag und Bildungsmaterial
+
+### Marlas Bitcoin Abenteuer
+
+Im März 2023 brachte Aprycot sein erstes Kinderbuch heraus: "Marlas Bitcoin Abenteuer — Der Fall in den Kaninchenbau". Gedacht für Kinder ab 8 Jahren, folgt die Geschichte der neugierigen Biene Marla, die auf Karl das Kaninchen trifft — Karl erklärt ihr Bitcoin. Koautor ist Edwin Schotland, in Braunschweig geboren, seit seinen zwölf Jahren in Prag lebend und überzeugter Bitcoiner. [[aprycot-marlas-bitcoin-abenteuer]]
+
+Parallel zum Buch befinden sich zwei Brettspiele in Entwicklung: "Moneywars" und "Hash me if you can" — beide auf spielerischen Bitcoin-Unterricht ausgerichtet. Satoshiskids.org bietet ergänzend eine Sammlung von Ressourcen für Kinder.
+
+Das Kinderbuch vervollständigt Aprycots Bildungsspektrum: vom Schulcurriculum (Bitcoin-Diplom, ab ca. 14 Jahren) über populäre Sachbücher (Svanholm, Wankum) bis zur frühen Kindheit (Marla, ab 8 Jahren).
+
+### Grundlagen der Ökonomie (Buchreihe ab 2022)
+
+Ab September 2022 veröffentlichte Aprycot die Buchreihe "Grundlagen der Ökonomie" — kurze, schnell lesbare Aufbereitungen klassischer ökonomischer Texte der Österreichischen Schule. Das Motiv: Bitcoin-Bildung allein reicht nicht; wer Bitcoin versteht, aber kein Fundament in Geldtheorie hat, versteht nicht warum. [[aprycot-grundlagen-oekonomie-ankuendigung]]
+
+Der erste Band erschien am 20. September 2022: "Das Wesentliche von Carl Menger", zentriert auf Mengers Essay "On the Origins of Money" (Über die Ursprünge des Geldes). Menger (1840–1921) ist Gründungsvater der Österreichischen Schule; seinen Durchbrüchen bei Grenznutzen und Werttheorie verdankt die Schule ihr analytisches Fundament. "On the Origins of Money" erklärt, wie Geld nicht durch Staatsakt, sondern durch dezentrale Marktprozesse entsteht — direkte Vorgeschichte der Bitcoin-Geldtheorie.
+
+Alle Inhalte erscheinen unter Creative Commons Attribution 4.0: frei nachdruckbar unter Quellenangabe. Geplante Folgebände: Frédéric Bastiat, Ludwig von Mises, Friedrich A. von Hayek, Henry Hazlitt. Chris (Bitcoin Bibliothekar) hat das Hörbuch eingesprochen.
+
+## Related
+
+- [[bitcoin-als-strategische-reserve]]
+- [[praxeologie-und-oesterreichische-oekonomik]]
+- [[bitcoin-kaufen-und-dca]]
+- [[selbstverwahrung-und-boersenrisiken]]
+- [[szabo-geldursprung]]
+
+## Open Questions
+
+- Wie entwickelt sich Mi Primer Bitcoin außerhalb El Salvadors — gibt es vergleichbare Curriculum-Projekte in anderen Ländern?
+- Welchen messbaren Effekt hatte der Bitcoin-Diplom-Unterricht auf die Bitcoin-Adoption in El Salvador (Nutzungsrate, Wallet-Durchdringung)?
+- Wie integriert sich das Scholarium-Studienprogramm mit den Aprycot-Inhalten inhaltlich?

@@ -1,8 +1,8 @@
 # Selbstverwahrung und Börsenrisiken
 
 **Status:** established
-**Last updated:** 2026-06-08
-**Sources:** [[20230103_wir-feiern-proof-of-keys-de]], [[20230118_die-bitbox01-ist-am-ende-ihrer-reise-de]], [[20220822_warum-bitcoin-eigenes-wallet-halten-de]], [[20220103_proof-of-keys-bitcoin-de]], [[20210622_warum-bitcoin-nicht-auf-boersen-aufbewahren-de]], [[2025-10-03_Blocktrainer-Bitcoin sicher aufbewahren 2025_ Selbstverwahrung, Wallet und Co..]], [[2025-05-14_Blocktrainer-Bitcoin_ 5 Anfängerfehler, die teuer werden können]]
+**Last updated:** 2026-06-22
+**Sources:** [[20230103_wir-feiern-proof-of-keys-de]], [[aprycot-seedor-bitcoin-ist-sicher]], [[aprycot-21bitcoin-custody-einfach-erklaert]], [[20230118_die-bitbox01-ist-am-ende-ihrer-reise-de]], [[20220822_warum-bitcoin-eigenes-wallet-halten-de]], [[20220103_proof-of-keys-bitcoin-de]], [[20210622_warum-bitcoin-nicht-auf-boersen-aufbewahren-de]], [[2025-10-03_Blocktrainer-Bitcoin sicher aufbewahren 2025_ Selbstverwahrung, Wallet und Co..]], [[2025-05-14_Blocktrainer-Bitcoin_ 5 Anfängerfehler, die teuer werden können]], [[Bitcoin ist die Wiederentdeckung des Geldes.md]], [[Die andere Seite der Medaille.md]]
 
 ## Summary
 
@@ -56,6 +56,18 @@ Selbst die Privatsphäre geht verloren: Wer Bitcoin über eine Börse bewegt, hi
 
 Selbstverwahrung bedeutet: Man hält den privaten Schlüssel selbst. Niemand sonst kann die Coins sperren, einfrieren oder verweigern. Man braucht keine Erlaubnis, um eine Transaktion zu senden.
 
+### Physische Sicherung der Seed Phrase (Edelstahl)
+
+Hardware-Wallets generieren eine Recovery Seed Phrase (12 oder 24 Wörter). Wer diese verliert, verliert seine Bitcoin unwiderruflich. Papier-Backups stoßen schnell an physische Grenzen: Ein Hausbrand, ein Wasserrohrbruch, ausbleichende Tinte oder ein neugieriger Hund machen den Notizzettel unbrauchbar.
+
+Edelstahl ist das überlegene Material für langfristige Seed-Backups. Rostfreier Stahl ist resistent gegen Wasser, Feuer, Korrosion und mechanische Beanspruchung — und übersteht damit Szenarien, die Papier zerstören. Ein Edelstahl-Backup der Seed Phrase ist mit der richtigen Ausrüstung dauerhaft einprägbar.
+
+SEEDOR — ein Schweizer Anbieter von Bitcoin-Backup-Systemen — verdichtet dieses Prinzip auf eine fertige Lösung: Schablone, Prägewerkzeug, Edelstahlscheiben und robuste Kapsel aus derselben Legierung. Das Ergebnis ist ein Backup, das laut Hersteller "Generationen überdauern" kann.
+
+Stan Lee formulierte das Prinzip für eine andere Domäne treffend: "Aus großer Macht folgt große Verantwortung." Selbstverwahrung gibt einem vollständige Kontrolle über sein Bitcoin — aber diese Kontrolle ist nur so gut wie das Backup dahinter.
+
+Quelle: [[aprycot-seedor-bitcoin-ist-sicher]]
+
 Das entspricht auch dem ursprünglichen Versprechen von Bitcoin als dezentrales, zensurresistentes Zahlungsnetz. Wer sein Bitcoin bei einer Börse lässt, nutzt Bitcoin wie eine Bankeinlage — mit all den Risiken, die das impliziert, aber ohne die Sicherheiten, die Banken gesetzlich bieten müssen.
 
 Eine Hardware-Wallet wie die BitBox02 überbrückt den Komfort-Sicherheits-Tradeoff: Sie ermöglicht sichere Selbstverwahrung ohne tiefes technisches Wissen.
@@ -73,6 +85,30 @@ Ein struktureller Vorteil: Kauf über normalen Aktien-Broker, kein Krypto-Börse
 Auch bei Hardware-Wallets können Support-Abhängigkeiten entstehen. Die BitBox01 verlor 2022/2023 ihre Funktionsfähigkeit, weil externe Tools wie MyEtherWallet die Unterstützung einstellten und der 2FA-Relay-Server abgeschaltet wurde. Nutzer ohne gültiges Backup verloren den Zugang zu ihren Coins.
 
 Das zeigt: Selbstverwahrung erfordert nicht nur das Gerät, sondern ein vollständiges, aktuelles Backup (Seedphrase) — unabhängig von proprietären Services.
+
+### Schlüssel + Node = Wiederentdeckung des Geldes (Gigi)
+
+Gigi formuliert Selbstverwahrung als philosophische Vollständigkeit, nicht nur als Sicherheitstechnik. Bitcoin ist die Wiederentdeckung des Geldes — aber nur dann, wenn man beides hält:
+
+**Private Schlüssel** (kryptographische Seite): Wer keine eigenen Schlüssel hält, besitzt keine Bitcoin, sondern Schuldscheine — einen Kredit gegenüber der Börse. „Wenn dein Geld ein Gegenparteirisiko hat, ist es kein Geld, sondern ein Kredit."
+
+**Full Node** (rechnerische Seite): Wer keinen eigenen Node betreibt, weiß nicht, ob die Bitcoin, die er zu besitzen glaubt, tatsächlich im Netzwerk existieren — und in welchem Netzwerk. Ein Node verifiziert selbst: die 21-Millionen-Grenze, die gültige Chain, den eigenen Kontostand.
+
+Gigi: „Wenn du nicht im Besitz deiner eigenen Schlüssel bist, besitzt du keine Bitcoin, sondern Schuldscheine. Wenn du nicht deinen eigenen Node betreibst, hast du kein Mitspracherecht bei Bitcoin — du bist der Vorstellung eines anderen von Bitcoin verpflichtet." [[Bitcoin ist die Wiederentdeckung des Geldes.md]]
+
+Nur wer beides kombiniert — eigene Schlüssel und eigenen Node — hat Geld wiederentdeckt: etwas, das ihm allein gehört, das kein Gegenparteirisiko hat und dessen Regeln er selbst verifiziert. Das war vor Bitcoin für digitales Geld strukturell unmöglich.
+
+Geld hat nach Gigi keine Rendite, kein Gegenparteirisiko, braucht keine Identität und muss nicht wachsen. Shitcoins und Fiat-Deposits sind keine Alternative, weil sie all diese Eigenschaften verletzen. [[Die andere Seite der Medaille.md]]
+
+### Custodial vs. Non-Custodial — Grundbegriffe (21bitcoin)
+
+Der Unterschied zwischen Custodial- und Non-Custodial-Wallets: Bei Custodial verwahrt eine dritte Partei den privaten Schlüssel; bei Non-Custodial ist der Nutzer selbst Schlüsselinhaber. Der private Schlüssel (12 oder 24 Wörter) ist der einzige Beweis für Eigentum an den Coins — wer ihn teilt oder verliert, verliert seine Bitcoin. Anders als ein Autoschlüssel lässt er sich nicht nachmachen.
+
+Custodial-Wallets haben legitime Anwendungsfälle: einfacher Einstieg, Kundendienst bei Passwort-Verlust, integrierte Handelsfunktionen. Non-Custodial-Wallets erfordern mehr Eigenverantwortung, sind aber die einzige Möglichkeit, Bitcoin tatsächlich zu besitzen.
+
+Hardware-Wallets (z.B. Bitbox, Ledger, Trezor) verbinden beides: Sichere, eigenständige Bitcoin-Wallet auf dedizierter Hardware (USB-ähnliche Geräte), kontrolliert über einen Browser oder eine App. Der private Schlüssel verlässt das Gerät nie.
+
+Eine Übergangs-Lösung für Einsteiger: Custodial-Wallet mit automatischer Übertragung auf eigene Hardware-Wallet sobald ein Schwellwert erreicht wird (z.B. 21bitcoins "Auto-Wallet-Transfer"-Feature). Schrittweise Übernahme der Selbstverwahrung statt Alles-oder-Nichts-Entscheidung.
 
 ## Related
 

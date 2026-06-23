@@ -2,7 +2,7 @@
 
 **Status:** established
 **Last updated:** 2026-06-19
-**Sources:** [[2025-08-30_Blocktrainer-10 Fehlannahmen über Bitcoin und warum sie falsch sind!]], [[2026-06-08_BlocktrainerBitcoin_ 10 Einsteigerfragen]], [[20260607_Blocktrainer-Einstieg in Bitcoin_ Alles was Anfänger wissen müssen!]], [[2025-05-14_Blocktrainer-Bitcoin kaufen 2025_ Lohnt sich der Einstieg noch_]]
+**Sources:** [[2025-08-30_Blocktrainer-10 Fehlannahmen über Bitcoin und warum sie falsch sind!]], [[2026-06-08_BlocktrainerBitcoin_ 10 Einsteigerfragen]], [[20260607_Blocktrainer-Einstieg in Bitcoin_ Alles was Anfänger wissen müssen!]], [[2025-05-14_Blocktrainer-Bitcoin kaufen 2025_ Lohnt sich der Einstieg noch_]], [[Warum Bitcoin kein Ponzi-Schema ist_ Punkt für Punkt.md]], [[aprycot-nur-die-staerksten-6-warum-wir-uns-irren]]
 
 ## Summary
 
@@ -44,6 +44,24 @@ Die Forschungslage hat sich seit 2022 grundlegend verändert: 87,5% der peer-rev
 
 Quantencomputer könnten theoretisch ECDSA-Signaturen rückwärts berechnen. Das Bitcoin-Protokoll kann auf quantenresistente Signaturverfahren migriert werden, bevor Quantencomputer diese Fähigkeit erreichen. Das ist ein bekanntes, voraussehbares Risiko mit bekannten Lösungen, kein existenzielles.
 
+### "Bitcoin ist ein Ponzi-Schema"
+
+Lyn Alden (Makroökonomin) widerlegt dies systematisch anhand der SEC-Definition: Ein Ponzi-Schema verspricht Anlegern garantierte Renditen und zahlt frühe Investoren mit dem Geld späterer Investoren aus, bis das System kollabiert.
+
+Gegenüber dieser Definition erfüllt Bitcoin keines der Kernmerkmale:
+
+**Kein Betreiber:** Ein Ponzi-Schema braucht einen Operator, der Versprechen macht und Gelder kontrolliert. Bitcoin hat weder CEO noch Gründer mit Kontrollgewalt. Satoshi Nakamoto hat alle geminten Coins nie bewegt (verbleiben unberührt bis heute).
+
+**Keine garantierten Renditen:** Satoshi hat in keiner Kommunikation Preissteigerungen oder Erträge versprochen. Die frühen Beschreibungen beziehen sich ausschließlich auf technische Eigenschaften: Dezentralisierung, kein Double-Spend, keine Drittpartei.
+
+**Transparent und auditierbar:** Ponzi-Schemata beruhen auf Intransparenz der Buchhaltung. Bitcoins gesamtes Ledger ist öffentlich und jederzeit prüfbar. Kein vertrauenswürdiger Dritter verwaltet Gelder.
+
+**Keine Auszahlungsschwierigkeiten:** Charakteristisch für Ponzi-Schemata ist, dass Auszahlungen verzögert oder verweigert werden, wenn zu viele Anleger gleichzeitig aussteigen wollen. Bitcoin kann jederzeit gegen Fiat verkauft werden — Liquiditätsschwierigkeiten entstehen nur aus Marktdynamik, nicht aus einer manipulierten Struktur.
+
+**Satozhi-Chronologie als Beleg:** Bitcoin wurde 2009 mit einem Genesis-Block gestartet. Satoshi minte frühe Coins — machte dabei aber keinerlei Renditeversprechungen. Die frühe Community baute die Technologie ohne kommerziellen Pitch. Der Preis entwickelte sich organisch durch Nachfrage, nicht durch Marketingversprechen.
+
+Alden schließt: Bitcoin passt zur Definition eines aufkommenden Geldes in der Marktfindungsphase, nicht zur Definition eines Betrugsschemas. [[Warum Bitcoin kein Ponzi-Schema ist_ Punkt für Punkt.md]]
+
 ### "Altcoins werden Bitcoin ersetzen"
 
 Bitcoin existiert seit 2009, alle anderen Kryptowährungen sind jünger. In jedem Zyklus gibt es Altcoins, die kurzfristig besser performen. Langfristig hat ein Bitcoin-only-Ansatz fast immer übertroffen. Bitcoin ist die einzige wirklich dezentrale Kryptowährung — alle anderen haben erkennbare Gründer, Stiftungen oder Vormine, die ihre Dezentralität einschränken. Das Vertrauen in Bitcoin ist über 15 Jahre gewachsen; Altcoins kommen und gehen.
@@ -51,6 +69,22 @@ Bitcoin existiert seit 2009, alle anderen Kryptowährungen sind jünger. In jede
 ### "Bitcoin kann nicht skalieren"
 
 Die Basis-Blockchain skaliert bewusst nicht — kleine Blöcke halten die Node-Betreibungskosten niedrig und sichern Dezentralität. Skalierung passiert auf Layer 2 (Lightning), Layer 3 (Ark), und durch Effizienzgewinne im Protokoll (SegWit, Taproot). Das ist das gleiche Modell wie im bestehenden Finanzsystem: Settlement-Netzwerke (Fedwire, TARGET2) sind langsam und teuer; Endnutzer-Zahlungen laufen auf darüber liegenden Schichten.
+
+### Was Bitcoin-Maximalisten falsch liegen könnten (Farrington)
+
+Allen Farrington und Big Al schreiben in "Only the Strong Survive" einen explizit selbstkritischen Abschnitt — eine intellektuell seltene Geste in einer Debatte, die oft missionarisch geführt wird. Sie listen Gründe auf, warum ihre Gesamtthese (Krypto verliert gegen Bitcoin) falsch sein könnte:
+
+**Technische Stärken von Krypto unterschätzt:** Ständige Kapital-, Talent- und Netzwerkeffekt-Zuflüsse könnten technische Schwächen überbrücken. Netzwerke können sich mit hinreichendem Kapital auch über schlechtes Fundament hinaus entwickeln.
+
+**Bitcoin-Programmierbarkeit holt nie auf:** Wenn DeFi auf Bitcoin grundsätzlich nicht funktioniert — aus welchem Grund auch immer, nicht nur wegen mangelnder Programmierbarkeit — und dieser Nutzen eindeutig nachgewiesen ist, wird Krypto die Funktion übernehmen. Ethereum, Solana, Cardano werden faktisch zu Sidechains.
+
+**Staking funktioniert:** Wenn nachweisbare, tatsächliche Renditen für Ökosystem-Teilnehmer entstehen, kann Staking die von Farrington beschriebene "logische Todesspirale" unterbrechen und eine solide Kapitalbildungsbasis schaffen.
+
+**Bitcoin selbst scheitert:** Durch eine kryptografische Schwachstelle, die nicht reparierbar ist. Oder durch koordinierten staatlichen Angriff, der Bitcoin nicht zerstört, aber als Grundlage für legale Kapitalbildung unhaltbar macht.
+
+**Soziale Akzeptanz bleibt aus:** Alles funktioniert technisch, aber die Mehrheit bevorzugt Benutzerfreundlichkeit über Prinzipien — wie beim Web 2.0, wo Privatsphäre-Wächter eine Minderheit blieben. Facebook und Google gewannen, weil Bequemlichkeit wichtiger war.
+
+Farrington betont: Diese Liste ist nicht erschöpfend. Sie dokumentiert intellektuelle Redlichkeit, keine Kapitulation. [[aprycot-nur-die-staerksten-6-warum-wir-uns-irren]]
 
 ## Related
 

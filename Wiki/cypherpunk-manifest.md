@@ -1,8 +1,8 @@
 # Cypherpunk's Manifesto
 
 **Status:** established
-**Last updated:** 2026-06-08
-**Sources:** [[cypherpunk-manifesto.txt]]
+**Last updated:** 2026-06-22
+**Sources:** [[cypherpunk-manifesto.txt]], [[aprycot-gigi-freiheit-privatsphaere]]
 
 ## Summary
 
@@ -39,6 +39,18 @@ Die politische Schlussfolgerung: Privatsphäre muss technisch implementiert werd
 Satoshi Nakamotos Bitcoin (2009) ist ein direktes Produkt des Cypherpunk-Denkens. Ein elektronisches Peer-to-Peer-Bargeld ohne Mittelsmänner: kein Vertrauen in Institutionen, nur kryptographische Beweise. Der Querverweis ist explizit: Satoshi veröffentlichte das Whitepaper auf der Cypherpunks-Mailingliste.
 
 Bitcoin löst das konkrete Problem, das Hughes beschreibt: digitale Wertübertragung ohne Identitätsoffenbarung durch den Transaktionsmechanismus selbst.
+
+### Von HTTP zu HTTPS: Bitcoin als nächster Schritt
+
+Gigi zieht in einem Essay (Blockzeit 741471) eine strukturelle Analogie zwischen der Entwicklung des Internets und Bitcoin. Das World Wide Web begann 1989 mit HTTP — Klartext, alles offen, für jeden sichtbar. Erst 1994 (SSL durch Netscape) und formal 1999 (RFC 2818 / HTTPS) wurde Verschlüsselung zum Standard. Der Wandel geschah nicht durch politischen Druck, sondern weil ein Protokoll ein besseres ablöste.
+
+Die Konsequenz fehlender Verschlüsselung — PRISM, ECHELON, massenhafte Überwachung — wurde durch Edward Snowdens Enthüllungen sichtbar. HTTPS ist heute so selbstverständlich wie fließendes Wasser. Der Weg dorthin war langsam und schmerzhaft.
+
+Gigis These: Das Gleiche passiert jetzt bei Finanzdaten. Finanztransaktionen im Klartext — analysierbar von jedem, gebündelt in Datenbanken, abrufbar von Regierungen — entsprechen dem HTTP-Zeitalter. Bitcoin mit den Datenschutzeigenschaften von Lightning wäre das Äquivalent zu HTTPS: kein Vertrauen in Infrastruktur nötig, kein Angriffspunkt für Massenüberwachung. [[aprycot-gigi-freiheit-privatsphaere]]
+
+Gigi verankert das im Recht: Artikel 12 der Allgemeinen Erklärung der Menschenrechte schützt das Privatleben explizit. In der digitalen Welt folgt daraus, dass Verschlüsselung ein Menschenrechtsgebot ist — Grant Gilliam formuliert es so.
+
+Die Länder, in denen dieser Schutz fehlt, sind kein theoretisches Szenario: Kuba, China, Afghanistan, Palästina, Hongkong, Kanada — Journalisten, Dissidenten und Aktivisten wurden in den Monaten vor Gigis Artikel entfernt oder inhaftiert, weil ihr Verhalten überwacht und analysiert werden konnte. Richelieu: „Gebt mir sechs Zeilen, die der aufrichtigste Mensch geschrieben hat, und ich werde etwas finden, um ihn zu hängen." [[aprycot-gigi-freiheit-privatsphaere]]
 
 ## Related
 
