@@ -1,8 +1,8 @@
 # Bitcoin-Fehlannahmen
 
 **Status:** established
-**Last updated:** 2026-06-19
-**Sources:** [[2025-08-30_Blocktrainer-10 Fehlannahmen über Bitcoin und warum sie falsch sind!]], [[2026-06-08_BlocktrainerBitcoin_ 10 Einsteigerfragen]], [[20260607_Blocktrainer-Einstieg in Bitcoin_ Alles was Anfänger wissen müssen!]], [[2025-05-14_Blocktrainer-Bitcoin kaufen 2025_ Lohnt sich der Einstieg noch_]], [[Warum Bitcoin kein Ponzi-Schema ist_ Punkt für Punkt.md]], [[aprycot-nur-die-staerksten-6-warum-wir-uns-irren]]
+**Last updated:** 2026-06-24
+**Sources:** [[2025-08-30_Blocktrainer-10 Fehlannahmen über Bitcoin und warum sie falsch sind!]], [[2026-06-08_BlocktrainerBitcoin_ 10 Einsteigerfragen]], [[20260607_Blocktrainer-Einstieg in Bitcoin_ Alles was Anfänger wissen müssen!]], [[2025-05-14_Blocktrainer-Bitcoin kaufen 2025_ Lohnt sich der Einstieg noch_]], [[Warum Bitcoin kein Ponzi-Schema ist_ Punkt für Punkt.md]], [[aprycot-nur-die-staerksten-6-warum-wir-uns-irren]], [[aprycot-parker-lewis-bitcoin-kein-schneeballsystem]]
 
 ## Summary
 
@@ -85,6 +85,22 @@ Allen Farrington und Big Al schreiben in "Only the Strong Survive" einen explizi
 **Soziale Akzeptanz bleibt aus:** Alles funktioniert technisch, aber die Mehrheit bevorzugt Benutzerfreundlichkeit über Prinzipien — wie beim Web 2.0, wo Privatsphäre-Wächter eine Minderheit blieben. Facebook und Google gewannen, weil Bequemlichkeit wichtiger war.
 
 Farrington betont: Diese Liste ist nicht erschöpfend. Sie dokumentiert intellektuelle Redlichkeit, keine Kapitulation. [[aprycot-nur-die-staerksten-6-warum-wir-uns-irren]]
+
+### "Bitcoin ist ein Schneeballsystem" (Parker Lewis, 2019)
+
+Der Vorwurf taucht immer wieder auf und beruht auf einem Kategorienfehler. Parker Lewis legt den Unterschied systematisch auf:
+
+Ein klassisches Schneeballsystem (Ponzi oder MLM) hat drei gemeinsame Merkmale: Ein Unternehmen organisiert es, die Vergütung hängt primär an der Anwerbung neuer Mitglieder, und das zugrundeliegende Produkt hat zu wenig Endnachfrage, um ohne Rekrutierungsdruck zu bestehen. Bitcoin erfüllt keines dieser Kriterien.
+
+**Kein Organisator.** Niemand koordiniert Bitcoin. Nakamoto hat sich zurückgezogen; es gibt kein Unternehmen, das Verkaufsdruck erzeugt oder Auszahlungen plant.
+
+**Keine Anwerbeprämien.** Wer Bitcoin kauft und niemanden anwirbt, verliert nichts und bekommt nichts dafür abgezogen. Der Wert kommt aus dem Netzwerk und dem festen Angebot, nicht aus Rekrutierungsgebühren.
+
+**Festes, glaubwürdiges Angebot.** Das entscheidende Unterscheidungsmerkmal: In einem Schneeballsystem ist das Produkt strukturell wertlos ohne neue Käufer. Bitcoin hingegen hat ein fixes Angebot von 21 Millionen, das dezentral durch alle Full Nodes alle zehn Minuten durchgesetzt wird. Jeder Block, der gefunden wird, erhöht die Glaubwürdigkeit dieses Angebots erneut. Mehr Nutzer teilen sich denselben Kuchen — sie erschaffen keinen neuen.
+
+**Parker Lewis' Pointe:** "In einem Schneeballsystem sind die Leute, die das System verkaufen, die Betrüger. Bei Bitcoin sind die Leute, die Bitcoin kaufen, die Betrüger" — im Sinne von Michael Goldsteins "Everyone's a Scammer": Jeder hat einen Anreiz, das eigene Bitcoin so teuer wie möglich abzugeben und so günstig wie möglich zu akkumulieren. Das ist kein Systemmerkmal, das ausnutzt — es ist normaler Markt.
+
+**Vorhersehbare Geldmenge als Gegenstück zu Fiat.** Lewis zieht die Parallele zu Hayeks «Anmaßung von Wissen» (1974): Die Fed hat nach 2008 $3,6 Bio. Basisgeld geschaffen, ohne zu wissen, wie viel genau nötig ist oder welche Folgen das hat. Dieser Mechanismus verzerrt Preissignale im gesamten Wirtschaftssystem. Bitcoin ist der strukturelle Gegenentwurf: Geldpolitik durch Konsens statt durch Zentralbank, verifizierbar von jedem Full Node, ohne jemanden vertrauen zu müssen. [[aprycot-parker-lewis-bitcoin-kein-schneeballsystem]]
 
 ## Related
 

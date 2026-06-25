@@ -1,8 +1,8 @@
 # Neo-Feudalismus und Bitcoin als Exit
 
 **Status:** established
-**Last updated:** 2026-06-22
-**Sources:** [[aprycot-bitgenstein-rhapsodie-nakamoto]], [[aprycot-bitcoin-ist-ariadne]]
+**Last updated:** 2026-06-24
+**Sources:** [[aprycot-bitgenstein-rhapsodie-nakamoto]], [[aprycot-bitcoin-ist-ariadne]], [[aprycot-svetski-utopische-dystopien]]
 
 ## Summary
 
@@ -41,6 +41,16 @@ Bitcoin kappt die letzte Verbindung: Auch finanzielles Kapital kann nun vollstä
 Farrington: Diejenigen sozialen Einheiten — Einzelpersonen, Familien, Unternehmen, Städte, Länder —, die freiwillig toxische Fiat-Positionen auflösen und in ein globales, solides, programmierbares Geld wechseln, werden langfristig orientiertes Kapital in überproportionalem Verhältnis akkumulieren. Sie werden auf einer gesunden wirtschaftlichen Basis stehen, um soziale und politische Institutionen aufzubauen — so wie das mittelalterliche Venedig auf den Überresten des westlichen Imperiums aufbaute.
 
 Das Argument ist probabilistisch: "Wir werden abwarten und zusehen müssen." Bitcoin könnte auch scheitern. Aber "er ist dumm" oder "ich mag ihn nicht" sind keine ernsthaften Gegenargumente. Um die Gründe für ein mögliches Scheitern zu benennen, muss man ihn erst verstehen. Hanson: Wahrnehmung ist theorielastig. Wessen Theorie die Möglichkeit von solchem Geld ausschließt, wird es nicht sehen — selbst wenn es existiert.
+
+### Utopische Dystopien: Orwell und Huxley gleichzeitig (Svetski, 2021)
+
+Aleks Svetski macht eine Beobachtung, die an Brisanz gewonnen hat: Das 20. Jahrhundert diskutierte, welcher Dystopie-Entwurf recht hatte — Orwells Kontrolle durch Angst (*1984*) oder Huxleys Kontrolle durch Vergnügen (*Schöne neue Welt*). Die Antwort ist: beide. Die perfekte Herrschaft kombiniert Überwachung mit Unterhaltung. Neil Postman formulierte es in *Amusing Ourselves to Death*: Orwell fürchtete, dass Bücher verboten werden; Huxley fürchtete, dass niemand mehr Bücher lesen will.
+
+**Die moderne Synthese.** Social Media, CBDCs, Social-Credit-Systeme und eine Medienlandschaft, die Empörung monetarisiert, verbinden beide Mechanismen. Die Überwachung ist freiwillig — weil die Ablenkung angenehm ist. Foucaults Panoptikum ohne Wärter: Die Überwachten überwachen sich selbst.
+
+Aldous Huxley schrieb 1961 in einem Brief: «Die perfekte Diktatur hätte den Anschein einer Demokratie, wäre aber im Grunde ein Gefängnis ohne Mauern, in dem die Gefangenen nicht einmal im Traum daran denken würden, zu fliehen.» CBDCs sind in diesem Rahmen nicht primär ein Zahlungssystem, sondern ein Infrastrukturprojekt für programmierbare Kontrolle: Ausgabenverbote, Verfallsdaten für Geld, Kupplungsschalter bei politisch unerwünschtem Verhalten.
+
+**Bitcoin als strukturelle Antwort.** Svetski sieht Bitcoin nicht als politische Bewegung, sondern als technische Tatsache: Ein System, das «kann gar nicht böse sein» (Muneeb Ali), weil Protokollregeln nicht durch Wille gebrochen werden können. Das ist kein Glaube, sondern Kryptographie. Individuelle Souveränität — die Fähigkeit, Wert zu halten und zu transferieren ohne Erlaubnis einer dritten Partei — ist die technische Grundlage für reale Freiheit in einer Welt, in der finanzielle Infrastruktur zunehmend als Kontrollwerkzeug eingesetzt wird. [[aprycot-svetski-utopische-dystopien]]
 
 ## Related
 

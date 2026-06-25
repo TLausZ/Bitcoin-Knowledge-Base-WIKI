@@ -1,8 +1,8 @@
 # Skalierung: Lightning, Ark und Statechains
 
 **Status:** emerging
-**Last updated:** 2026-06-22
-**Sources:** [[20251218_die-skalierung-von-bitcoin-lightning-und-der-weg-zu-ark]], [[20260212_bitcoin-senden-ohne-sie-zu-bewegen-statechains-erklärt]], [[20231018_lightning-in-der-bitboxapp]], [[20240314_wie-die-bitbox02-den-seed-für-die-lightning-wallet-sicher-ableitet]], [[aprycot-svanholm-wahre-skalierungsloesung]]
+**Last updated:** 2026-06-24
+**Sources:** [[20251218_die-skalierung-von-bitcoin-lightning-und-der-weg-zu-ark]], [[20260212_bitcoin-senden-ohne-sie-zu-bewegen-statechains-erklärt]], [[20231018_lightning-in-der-bitboxapp]], [[20240314_wie-die-bitbox02-den-seed-für-die-lightning-wallet-sicher-ableitet]], [[aprycot-svanholm-wahre-skalierungsloesung]], [[Introducing Cube]]
 
 ## Summary
 
@@ -64,6 +64,24 @@ Das Argument: In einem Fiat-System steigen Preise kontinuierlich, also müssen T
 Svanholm beschreibt die Bitcoin-Community als Vorgeschmack: Bitcoin-Nutzer helfen sich gegenseitig mit Übersetzungen, Code, Korrekturlesen — ohne Geld, weil alle vom Bitcoin-Erfolg profitieren. Der Anreiz ist direkt. Dieses Muster könnte sich in einer hyperbitcoinisierten Welt ausweiten, was die TPS-Anforderungen strukturell senkt. [[aprycot-svanholm-wahre-skalierungsloesung]]
 
 Das widerspricht nicht der technischen Skalierungsarbeit an Lightning und Ark — es ergänzt sie durch eine monetäre Perspektive: Layer-2-Kapazität ist das Dach, sinkende Zeitpräferenz ist das Fundament.
+
+### Cube: BitVM-basierte VM für trustless Smart Contracts (Burak, 2026)
+
+Cube ist ein neuer Ansatz in der L2-Landschaft: keine Payment-Channel-Architektur wie Lightning, kein Koordinationsprotokoll wie Ark, sondern eine vollständige virtuelle Maschine, die nativ auf Bitcoin aufbaut.
+
+**Das Problem.** Bitcoins Scripting ist absichtlich eingeschränkt: kein globaler State, keine Turing-Vollständigkeit. Diese Einschränkungen sind keine Fehler — sie schützen Dezentralisierung, Zensurresistenz und Selbstverwahrung. Die Konsequenz: DeFi-Komplexität (programmierbare Smart Contracts, Liquiditätspools, hochfrequente Settlement) ist auf Layer 1 nicht möglich. Bisherige L2-Lösungen für diese Anwendungsfälle erfordern oft Bridge-Operatoren, Trusted Committees oder Protokolländerungen an Bitcoin.
+
+**Cube's Architektur.** Drei Bausteine kombiniert:
+
+- *BitVM:* Erlaubt es, beliebige Berechnungen auf Bitcoin zu verankern ohne Konsensänderungen. BitVM simuliert einen Optimistic-Rollup-Mechanismus: Berechnungen laufen off-chain, werden aber on-chain anfechtbar.
+- *Timeout Trees:* Strukturieren die L2-State-Übergänge so, dass Nutzer jederzeit unilateral auf L1 exiten können — auch wenn der Operator unkooperativ ist oder offline geht.
+- *Bitcoin DA (Data Availability):* Cube nutzt Bitcoin als Verfügbarkeitsschicht für die Zustandsdaten. Kein separater DA-Layer, keine externe Chain.
+
+Das Ergebnis: eine Turing-vollständige Execution-Umgebung mit globalem State und unilateralem Exit — ohne Bridge-Operator, ohne Trusted Committee, ohne Protokolländerung.
+
+**Vergleich zu Lightning/Ark.** Lightning optimiert für Zahlungen: bilateral, Channel-basiert, keine globale State-Abhängigkeit. Ark verbessert das UTXO-Management und ermöglicht Offline-Empfang ohne Liquidity-Problem. Cube adressiert eine andere Schicht: programmierbare Logik, die mehr als Transfers braucht. Die drei Ansätze schließen einander nicht aus — sie lösen unterschiedliche L2-Probleme.
+
+**Einschränkungen (Stand Mai 2026).** Cube ist ein Whitepaper-Stage-Projekt. BitVM selbst ist noch in aktivem Forschungsstatus; die Proof-of-Fraud-Mechanismen sind aufwendig und On-Chain-Kosten im Anfechtungsfall erheblich. Ob Timeout Trees das unilaterale Exit-Versprechen unter allen Netzwerkbedingungen halten, ist empirisch nicht belegt. [[Introducing Cube]]
 
 ## Related
 

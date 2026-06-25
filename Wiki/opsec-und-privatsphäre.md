@@ -1,8 +1,8 @@
 # OPSEC und Privatsphäre für Bitcoin-Nutzer
 
 **Status:** established
-**Last updated:** 2026-06-23
-**Sources:** [[20250522_sprich-nicht-über-deine-bitcoin]], [[20211220_bitbox02-bestellen-ohne-adresse-de]], [[20210320_shift-crypto-datenschutz-de]], [[aprycot-gigi-privatsphaere-in-bitcoin.md]]
+**Last updated:** 2026-06-25 (Pass 53: Passphrase-Strategie, Gerätestapel-Kontext, Steuern DE)
+**Sources:** [[20250522_sprich-nicht-über-deine-bitcoin]], [[20211220_bitbox02-bestellen-ohne-adresse-de]], [[20210320_shift-crypto-datenschutz-de]], [[aprycot-gigi-privatsphaere-in-bitcoin.md]], [[Das Privacy Handbuch – Timo Volkov (2025)]]
 
 ## Summary
 
@@ -76,6 +76,36 @@ Selbst ein seriöser Hardware-Wallet-Anbieter sammelt Daten — zum Beispiel die
 
 Der praktische Rat: Wer maximale Privatsphäre will, betreibt einen eigenen Electrum Server oder Bitcoin Full Node und schaltet Tor in der BitBoxApp ein.
 
+### Passphrase-Strategie: KYC und No-KYC trennen
+
+Eine Passphrase (das «25. Wort») erzeugt aus denselben 24 Seed-Wörtern eine vollständig andere Wallet. Wer mehrere Passphrases nutzt, kann damit saubere Trennungen ziehen:
+
+**KYC vs. No-KYC:** Bitcoin von regulierten Börsen landen auf einer Passphrase-Wallet, No-KYC-Bitcoin auf einer anderen. Beide teilen denselben Seed, aber ihre On-Chain-Adressen sind vollständig getrennt — solange man nie UTXOs beider Wallets in derselben Transaktion mischt.
+
+**Wrench-Attack-Schutz (5-Dollar-Schraubenschlüssel-Attacke):** Wer unter physischem Druck steht, kann eine Passphrase für einen kleinen Betrag herausgeben. Der Großteil des Vermögens liegt auf einer anderen Passphrase, die dem Angreifer unbekannt ist.
+
+**Vererbung:** Verschiedene Empfänger können dieselben 24 Wörter erhalten, aber jeder bekommt eine individuelle Passphrase — so hat jeder nur Zugriff auf seinen Teil.
+
+Die Passphrase ist kein Passwort für das Gerät. Sie muss jedes Mal eingegeben werden und muss separat vom Seed gesichert werden — verliert man sie, sind die Coins auf dieser Wallet unwiederbringlich weg.
+
+### Geräte-OPSEC als Voraussetzung für finanzielle Privatsphäre
+
+Bitcoin-Privatsphäre beginnt nicht auf der Blockchain, sondern auf dem Gerät. Ein Windows-PC mit Standard-Browser zeichnet jeden Besuch einer Börsen-Website auf. App Stores protokollieren Wallet-Downloads. Ein kompromittiertes Gerät macht alle On-Chain-Maßnahmen wertlos.
+
+Grundlage für ernsthafte Bitcoin-Privatsphäre: Ein Linux-Betriebssystem (Ubuntu oder ähnlich) oder GrapheneOS auf Android, ein Datenschutz-Browser (LibreWolf oder ähnlich), ein Passwortmanager (Bitwarden) und 2FA für alle Konten. Wer Bitcoin kauft oder verwaltet, sollte das auf einem Gerät tun, das er versteht und kontrolliert.
+
+### Labeling: Jeden UTXO dokumentieren
+
+Jede eingehende Transaktion sollte sofort mit einem Label versehen werden: Herkunft (Börse, Name, P2P-Kauf), Datum, Zweck. Sparrow Wallet hat eine Labeling-Funktion eingebaut. Das ist keine Bürokratie — wer nicht weiß, woher seine UTXOs stammen, kann beim Ausgeben keine fundierten Privatsphäre-Entscheidungen treffen. KYC-UTXOs, die versehentlich mit No-KYC-UTXOs gemischt werden, verlieren ihren Privatsphärevorteil dauerhaft.
+
+### Bitcoin-Steuern in Deutschland (Überblick)
+
+Bitcoin gilt in Deutschland steuerrechtlich als privates Veräußerungsgeschäft. Die wichtigsten Regeln (Stand 2025, kein Steuerberatungsersatz):
+
+Wer Bitcoin länger als ein Jahr hält und dann verkauft, zahlt keine Kapitalertragsteuer — unabhängig vom Gewinn. Wer innerhalb eines Jahres verkauft, versteuert den Gewinn mit dem persönlichen Einkommensteuersatz. Liegt der Gewinn (nicht der Verkaufserlös) unter 600 € pro Kalenderjahr, ist er steuerfrei; wird die Grenze überschritten, muss der gesamte Betrag versteuert werden.
+
+Als Verkauf gilt jede Transaktion, bei der Bitcoin gegen einen Gegenwert getauscht werden — also auch der Kauf eines Produkts mit Bitcoin. Transfers zwischen eigenen Wallets sind keine Veräußerung. Zur Berechnung der Haltefrist wird FIFO angewendet: Die zuerst gekauften Bitcoin gelten als zuerst verkauft.
+
 ### Ausnahmen: Wann Transparenz sinnvoll ist
 
 Es gibt Situationen, wo offenes Sprechen über den eigenen Bitcoin-Besitz wichtig ist — vor allem bei der **Vererbungsplanung**. Wenn niemand weiß, dass man Bitcoin besitzt oder wo das Backup liegt, sind die Coins für Erben effektiv verloren.
@@ -85,8 +115,10 @@ Es gibt Situationen, wo offenes Sprechen über den eigenen Bitcoin-Besitz wichti
 - [[wallet-backup-strategien]]
 - [[hardware-wallet-sicherheitsarchitektur]]
 - [[regulierung-tofr-aopp]]
+- [[no-kyc-bitcoin]]
+- [[coinjoin-und-on-chain-privatsphäre]]
 
 ## Open Questions
 
 - Wie weit sollte man OPSEC in der Praxis treiben? Wo wird es unverhältnismäßig?
-- Gibt es datenschutzfreundlichere Kaufmethoden, um den on-chain Fußabdruck zu reduzieren?
+- Welche Steuer-Tools (Blockpit, Koinly) respektieren ihrerseits die Privatsphäre der Nutzerdaten?

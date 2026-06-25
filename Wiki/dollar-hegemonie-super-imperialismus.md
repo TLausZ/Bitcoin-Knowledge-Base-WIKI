@@ -1,8 +1,8 @@
 # Dollar-Hegemonie und Super-Imperialismus
 
 **Status:** established
-**Last updated:** 2026-06-23
-**Sources:** [[aprycot-gladstein-das-ende-des-super-imperialismus.md]]
+**Last updated:** 2026-06-24
+**Sources:** [[aprycot-gladstein-das-ende-des-super-imperialismus.md]], [[aprycot-gladstein-kosten-petrodollar]]
 
 ## Summary
 
@@ -53,6 +53,24 @@ Das System zeigt Risse: Seit 2013 kaufen ausländische Zentralbanken netto wenig
 Gladstein schließt: Bitcoin ist strukturell das, was Gold hätte sein sollen — aber besser. Gold zentralisierte sich in Tresoren, was es angreifbar für staatlichen Zugriff machte (Executive Order 6102, 1933; britisches Empire verlor seine Goldreserven schrittweise). Bitcoin dagegen lässt sich dezentral verwalten, digital übertragen und nicht konfiszieren, solange der Inhaber seinen Schlüssel kennt.
 
 Arthur Hayes (zitiert bei Gladstein): Bitcoin ermöglicht einer Nation, Reserven zu halten, ohne auf eine ausländische Regierung oder Institution vertrauen zu müssen. Das ist das Ende des Super-Imperialismus: Wenn jedes Land sein eigenes hartes Geld digital halten kann, ist die Erpressung per Treasury Bill Standard obsolet. [[aprycot-gladstein-das-ende-des-super-imperialismus.md]]
+
+### Die versteckten Kosten des Petrodollars (Gladstein, 2021)
+
+Nach Nixons Golddollar-Aufkündigung 1971 drohte die Weltreservewährung ihren Anker zu verlieren. Die Lösung: der Petrodollar-Pakt von 1974. US-Außenminister Henry Kissinger einigte sich mit Saudi-Arabien darauf, dass Öl weltweit in US-Dollar abgerechnet wird — und die USA im Gegenzug die Sicherheit des Regimes garantieren. Das restliche OPEC folgte.
+
+**Die Mechanik.** Alle Länder, die Öl kaufen wollen, brauchen Dollar. Das erzeugt konstante Nachfrage nach US-Währung und US-Staatsanleihen. Amerika kann dadurch strukturell mehr importieren als exportieren, ohne Zahlungsbilanz-Strafe zu erleiden. Die Kosten trägt der Rest der Welt in Form von Dollarzins-Tribut.
+
+**Die versteckten Kosten im Einzelnen:**
+
+*Diktaturen gestützt.* Die USA unterhalten enge Militär- und Finanzbeziehungen zu Saudi-Arabien, den Emiraten, Bahrain, Kuwait und Katar — allesamt autokratische Regime, die im Gegenzug für Ölpreisfixierung in Dollar US-Schutz erhalten. Menschenrechtsverstöße werden strategisch toleriert.
+
+*Kriege finanziert.* Petrodollar-Recycling (arabische Öleinnahmen → US-Staatsanleihen → US-Militärausgaben) hat den Irak-Krieg, Afghanistan und andere Interventionen mitfinanziert, ohne dass US-Wähler je direkt abgestimmt haben. Öl und Sicherheitsversprechen stützen das Schuldensystem, das Kriegsführung ohne Steuererhöhung ermöglicht.
+
+*Globale Ungleichheit.* Länder, die keine Dollar-Reserven akkumulieren können, zahlen höhere Importpreise und werden strukturell benachteiligt. Sub-Sahara-Afrika, Lateinamerika und Teile Asiens mussten unter IWF-Bedingungen Sparprogramme durchsetzen, um Dollar-Schulden zu bedienen, die durch das Petrodollar-System entstanden.
+
+*Klima-Anreizproblem.* Solange Öl in Dollar gehandelt wird und Dollar-Nachfrage an Öl-Konsum gekoppelt ist, hat die US-Regierung strukturelle Anreize, fossile Brennstoffe zu subventionieren oder deren Übergang zu verlangsamen.
+
+**Bitcoin als Ausstieg.** Ein neutrales Basisgeld ohne geopolitische Bindung durchbricht den Nexus. Wenn Öl oder andere Rohstoffe in Bitcoin abgerechnet werden könnten, entfiele der Zwang, US-Dollar zu akkumulieren — und damit der strukturelle Hebel, mit dem Amerika seine Außenpolitik auf Kosten anderer finanziert. Gladstein sieht darin nicht nur eine Finanzinnovation, sondern eine geopolitische Umwälzung: Erstmals gäbe es eine Weltreservewährung ohne Supermacht dahinter. [[aprycot-gladstein-kosten-petrodollar]]
 
 ## Related
 

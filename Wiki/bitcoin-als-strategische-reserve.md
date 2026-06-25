@@ -1,8 +1,8 @@
 # Bitcoin als Strategische Reserve
 
 **Status:** emerging
-**Last updated:** 2026-06-20
-**Sources:** [[Strategic_Reserve_Best_Practice_Paper_1-10-25]], [[Counterfactual_Analysis_Bitcoin_Gold_Rainy_Day_Funds]], [[Bitcoin_and_Bitcoin_Mining_Guide]]
+**Last updated:** 2026-06-24
+**Sources:** [[Strategic_Reserve_Best_Practice_Paper_1-10-25]], [[Counterfactual_Analysis_Bitcoin_Gold_Rainy_Day_Funds]], [[Bitcoin_and_Bitcoin_Mining_Guide]], [[aprycot-roekke-seetee-aktionaersbrief]]
 
 ## Summary
 
@@ -61,6 +61,22 @@ Der "Legislative Resource" Guide für US-Gesetzgeber betont, dass Bitcoin Mining
 **Politisches Risiko:** Regulierungsänderungen können Fungibilität einschränken (OFAC, Travel Rule, etc.).
 
 **Konfiskationsrisiko:** Zensurresistenz ist nur bei echter Selbstverwahrung gegeben. Custody bei US-Finanzinstituten unterliegt denselben Beschlagnahmungsrisiken wie andere Assets.
+
+### Seetee: Frühe institutionelle Adoption (Røkke/Aker, 2021)
+
+Der Seetee-Aktionärsbrief vom März 2021 ist eines der frühesten öffentlichen Bekenntnisse eines grossen europäischen Industriekonzerns zu Bitcoin als Unternehmensreserve. Kjell Inge Røkke, Hauptaktionär der norwegischen Aker-Gruppe (industrielles Konglomerat: Öl & Gas, Erneuerbare, Software), kündigte an, das neue Tochterunternehmen Seetee mit 500 Mio. NOK zu kapitalisieren und alle liquiden investierbaren Vermögenswerte in Bitcoin zu halten.
+
+**Die drei Säulen der Seetee-Strategie:**
+
+1. *Bitcoin als Reserve (HODL).* Røkke sieht Bitcoin nicht primär als Spekulationsobjekt, sondern als das erste knappe digitale Gut — mit Stock-to-Flow-Ratio vergleichbar mit Gold, aber nach dem nächsten Halving 2024 rechnerisch doppelt so knapp.
+
+2. *Mining als «ökonomische Batterie».* Seetee plant Mining-Betriebe, die gestrandete oder fluktuierende Energie (Wind, Solar, Wasser) monetarisieren — analog zu Akers Engagement bei erneuerbaren Energieprojekten. Bitcoin-Mining wandelt Strom ohne lokale Nachfrage in global verwertbare Reserven um.
+
+3. *Projekte im Bitcoin-Ökosystem.* Partnerschaft mit Blockstream (Adam Back, Erfinder von Hashcash) für industrielle Lightning- und Liquid-Anwendungen: Devisen, Handelsabrechnung, Emissionsverifikation, Micropayments.
+
+**Røkkes Risikoargument.** Er dreht das übliche Risikonarrativ um: Nicht-Investieren ist die riskante Entscheidung. Gold hat in realen Preisen über die letzten Jahrzehnte an Wert verloren (Immobilien in Oslo 35% günstiger in Gold gemessen als 2004). Inflation besteuert Bargeld. Bitcoin ist eine asymmetrische Wette: Nullszenario ≠ viel verloren; Erfolgsszenario = neue monetäre Architektur. Der Twitter-Hashtag #GetOffZero drückt dasselbe aus: Selbst ein kleiner Anteil verbessert das Risikoprofil eines Portfolios strukturell.
+
+**Kontext 2021.** Røkke schrieb den Brief, als Tesla, MicroStrategy und Square bereits Positionen bekanntgegeben hatten. Er nennt ihn einen Meilenstein: Aker war das erste grosse skandinavische Unternehmen mit öffentlichem Bitcoin-Commitment. Die Partnerschaft mit Adam Back verleiht dem Schritt technische Legitimität — Back ist kein Finanzakteur, sondern der Kryptograph, dessen Hashcash-Protokoll Satoshi in seinem Whitepaper zitierte. [[aprycot-roekke-seetee-aktionaersbrief]]
 
 ## Related
 

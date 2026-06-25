@@ -1,8 +1,8 @@
 # Bitcoin-Bildung und Mi Primer Bitcoin
 
 **Status:** established
-**Last updated:** 2026-06-22
-**Sources:** [[aprycot-bitcoin-diplom-gratis]], [[aprycot-bitcoin-diplom-finanzielle-bildung]], [[aprycot-bildungsoffensive-coinfinity-scholarium]], [[aprycot-marlas-bitcoin-abenteuer]], [[aprycot-grundlagen-oekonomie-ankuendigung]]
+**Last updated:** 2026-06-24
+**Sources:** [[aprycot-bitcoin-diplom-gratis]], [[aprycot-bitcoin-diplom-finanzielle-bildung]], [[aprycot-bildungsoffensive-coinfinity-scholarium]], [[aprycot-marlas-bitcoin-abenteuer]], [[aprycot-grundlagen-oekonomie-ankuendigung]], [[aprycot-fab-gigis-21-lektionen-hoerbuch]], [[aprycot-fab-bitcoin-besser-verstehen]], [[aprycot-fab-bitcoin-lesestunde]], [[aprycot-du-brauchst-keinen-bitcoin-job]]
 
 ## Summary
 
@@ -65,6 +65,38 @@ Der erste Band erschien am 20. September 2022: "Das Wesentliche von Carl Menger"
 
 Alle Inhalte erscheinen unter Creative Commons Attribution 4.0: frei nachdruckbar unter Quellenangabe. Geplante Folgebände: Frédéric Bastiat, Ludwig von Mises, Friedrich A. von Hayek, Henry Hazlitt. Chris (Bitcoin Bibliothekar) hat das Hörbuch eingesprochen.
 
+### 21 Lektionen als Hörbuch
+
+Im Juli 2021 produzierte Aprycot in Absprache mit Gigi ein kostenloses deutschsprachiges Hörbuch zu seinem Werk „21 Lektionen: Meine Reise in den Bitcoin Kaninchenbau". Sprecher ist Florian Clyde, bekannt als Synchronstimme des jungen Han Solo in *Solo: A Star Wars Story*. Das Buch ist unter Creative Commons Attribution-ShareAlike 4.0 lizenziert. Es steht gratis als MP3-Download zur Verfügung, ist aber auch auf Audible und Apple Books erhältlich. Der Hintergrund: Aprycot stellte fest, dass Menschen, die Büchern gegenüber zurückhaltend sind, auf der Tonspur — Podcast, Hörbuch — leichter zu erreichen sind. [[aprycot-fab-gigis-21-lektionen-hoerbuch]]
+
+### Kuratierte Einstiegslektüre
+
+Fab veröffentlichte 2021 einen Wegweiser für Einsteiger mit einer kommentierten Linkliste, gegliedert in drei Themenfelder:
+
+**Geld & Ökonomie:** Szabo's «Shelling Out», Gladsteins Petrodollar-Analyse, «Herren und Sklaven des Geldes» sowie das monetäre Argument für Bitcoin auf Medium.
+
+**Gesellschaft & Zusammenleben:** Gladsteins Texte zu finanziellen Privilegien und monetärem Kolonialismus, Svetskis «Utopische Dystopien».
+
+**Energie & Altcoins:** Lyn Aldens Netzwerkeffekt-Analyse, Alden zu Energieverbrauch, Captain Sidds «Bitcoin wird unsere Erde retten» und Parker Lewis zu Bitcoin vs. Blockchain.
+
+Jeder Block endet mit Buchtipps — von «Der Bitcoin-Standard» bis Mises. Ziel des Formats: Menschen, die nicht wissen, wo anfangen, erhalten eine strukturierte Einladung in den Kaninchenbau. [[aprycot-fab-bitcoin-besser-verstehen]]
+
+### Die Bitcoin Lesestunde (Podcast, April 2022)
+
+Aprycot lancierte im April 2022 einen eigenen Podcast mit vorgelesenen Bitcoin-Artikeln auf Deutsch. Das Format hatte bereits einen Vorläufer bei «Einundzwanzig», fand dort aber keine feste Heimat. Ziel: Menschen erreichen, die lieber hören als lesen — Podcasts, Hörbücher als niedrigschwelligerer Einstieg ins Thema. Das Format ergänzt die Mediathek und gibt den Content-Plebs (Übersetzer, Lektoren) eine Audioschiene.
+
+Start: drei Episoden gleichzeitig. Sprecher werden nach dem Value4Value-Prinzip vergütet — Hörer können Sats direkt an Sprecher, Übersetzer und Lektoren streamen. Der Podcast ist auf Spotify, Apple, Google und per RSS verfügbar. [[aprycot-fab-bitcoin-lesestunde]]
+
+### Fiatscham und Effective Altruism: Brauchst du einen Bitcoin-Job? (Juniormind, 2023)
+
+«Fiatscham» nennt Juniormind das Phänomen: Wer den Bitcoin-Kaninchenbau hinabsteigt, entwickelt oft ein Unbehagen gegenüber dem eigenen Fiat-Beruf — und den Impuls, in die Bitcoin-Industrie zu wechseln. Das Gegenargument ist konkret durchgerechnet.
+
+Ein Vollzeit-Fiat-Job mit 60.000 € Jahreseinkommen erlaubt 12.000 € Spende (20%) an Bitcoin-Projekte. Nach deutschem Steuerrecht (bis 20% des Einkommens steuerlich absetzbar bei gemeinnützigen Organisationen, ~35% Steuersatz) kostet das netto nur 7.800 €. Ein vergleichbarer Einstiegsjob in der Bitcoin-Industrie bringt möglicherweise 23.000 € — nach Lebenshaltungskosten bleibt für externe Förderung wenig.
+
+Das Effective-Altruism-Prinzip (Maximierung des positiven Einflusses durch optimierte Ressourcenallokation) spricht also in vielen Fällen für das Bleiben im Fiat-Beruf. Juniormind benennt OpenSats.org als erste Anlaufstelle für Spenden an Bitcoin-Entwickler; lokale Meetups und Bildungsorganisationen als weitere Optionen.
+
+Caveat: Der SBF-Fall zeigt die ethischen Fallstricke — Effective Altruism als Rechtfertigung für eigennütziges Verhalten. Juniormind betont: der Geist der Idee (kluge Allokation) zählt, nicht ein schematisches Kalkül. Francisco d'Anconia aus Ayn Rands *Atlas Shrugged* als Rollenmodell: im System bleiben, es von innen mit den eigenen Werten aufladen. [[aprycot-du-brauchst-keinen-bitcoin-job]]
+
 ## Related
 
 - [[bitcoin-als-strategische-reserve]]
@@ -72,6 +104,7 @@ Alle Inhalte erscheinen unter Creative Commons Attribution 4.0: frei nachdruckba
 - [[bitcoin-kaufen-und-dca]]
 - [[selbstverwahrung-und-boersenrisiken]]
 - [[szabo-geldursprung]]
+- [[gigi-philosophische-essays]]
 
 ## Open Questions
 

@@ -1,8 +1,8 @@
 # CoinJoin und On-Chain-Privatsphäre
 
 **Status:** established
-**Last updated:** 2026-06-22 (Pass 34: Stonewall + Sparrow-Integration)
-**Sources:** [[20240508_was-ist-eigentlich-ein-coinjoin]], [[20240606_payment-codes-bitcoin-adressen-privat-austauschen]], [[sparrowwallet-Spending Privately]]
+**Last updated:** 2026-06-25 (Pass 53: CoinJoin-Rechtslage + Lightning/Liquid-Swaps)
+**Sources:** [[20240508_was-ist-eigentlich-ein-coinjoin]], [[20240606_payment-codes-bitcoin-adressen-privat-austauschen]], [[sparrowwallet-Spending Privately]], [[Das Privacy Handbuch – Timo Volkov (2025)]]
 
 ## Summary
 
@@ -39,6 +39,28 @@ Sparrow Wallet implementiert «Stonewall» — eine Transaktion, die ein Nutzer 
 ### Aktuelle Lage (2024)
 
 Im April 2024 wurden Samourai Whirlpool beschlagnahmt und die Gründer verhaftet. zkSNACKs stellte den Wasabi Wallet CoinJoin-Koordinierungsservice ein. Beide Implementierungen sind Open-Source und könnten weitergenutzt werden. Alternative: **JoinMarket** (dezentral, kein zentraler Koordinator).
+
+### CoinJoin und rechtliche Risiken (Stand 2024)
+
+Im April 2024 wurden die Samourai-Wallet-Gründer in den USA verhaftet — Vorwurf: nicht lizenziertes Geldtransfergeschäft und Beihilfe zur Geldwäsche. Kurz darauf schloss zkSNACKs den Wasabi-Wallet-Koordinierungsservice und blockierte US-Nutzer. Wasabi wurde später vom Gründer vollständig eingestellt.
+
+CoinJoin selbst ist nicht illegal. Aber zentrale Koordinierungsserver können als Geldtransmitter eingestuft werden — und deren Betreiber haftbar gemacht werden. Wer CoinJoin nutzt, sollte wissen, dass manche Börsen oder Dienste Wallets mit CoinJoin-Vorgeschichte ablehnen oder markieren.
+
+JoinMarket bleibt als dezentrale Alternative ohne zentralen Koordinator verfügbar, erfordert aber mehr technisches Know-how.
+
+### Lightning- und Liquid-Swaps als Alternative zu CoinJoin
+
+Wer die rechtlichen Risiken von CoinJoin vermeiden will, kann stattdessen Swaps zwischen Netzwerken nutzen: On-Chain-Bitcoin werden ins Lightning Network oder das Liquid Network übertragen, dort weiterbewegt und zurückgetauscht. Der Transaktionsfluss ist für Außenstehende damit nicht mehr nachvollziehbar — ohne dass der Vorgang wie ein CoinJoin aussieht.
+
+**Boltz** ([boltz.exchange](https://boltz.exchange)) — non-kustodialer Dienst für Swaps zwischen Lightning, Liquid und Bitcoin-Mainchain. Unterstützt private, schnelle Atomic Swaps.
+
+**FixedFloat** ([ff.io](https://ff.io)) — Instant-Tauschdienst für Lightning- und On-Chain-Swaps mit einfacher Benutzeroberfläche.
+
+**Aqua Wallet** (App) — non-custodial Wallet speziell für das Liquid Network, unterstützt Liquid-Bitcoin und Lightning.
+
+Das Lightning Network bietet strukturelle Privatsphäre: Transaktionen werden über mehrere Nodes geroutet (ähnlich Tor — Onion Routing), einzelne Zahlungsbeträge sind für Außenstehende nicht sichtbar, und abgeschlossene Kanäle hinterlassen keine dauerhaften Aufzeichnungen der einzelnen Zahlungen.
+
+Liquid bietet zusätzlich *Confidential Transactions* — der Betrag ist verschlüsselt und nur für die beiden Transaktionspartner sichtbar.
 
 ### Privatsphäre nach einem CoinJoin
 

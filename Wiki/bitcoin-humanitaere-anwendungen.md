@@ -1,8 +1,8 @@
 # Bitcoin als humanitäres Werkzeug
 
 **Status:** established
-**Last updated:** 2026-06-23
-**Sources:** [[aprycot-waehrung-der-letzten-instanz]], [[aprycot-bitcoin-palaestinas-waehrung-freiheit]], [[aprycot-gladstein-humanitaere-oekologische-argumente]], [[aprycot-gladstein-meinungsfreiheit-digitales-zeitalter]], [[aprycot-gigi-bitcoin-einsatz-venezuela]], [[aprycot-gladstein-kuba-bitcoin-revolution]], [[aprycot-gladstein-finanzielle-freiheit-afghanistan]]
+**Last updated:** 2026-06-24
+**Sources:** [[aprycot-waehrung-der-letzten-instanz]], [[aprycot-bitcoin-palaestinas-waehrung-freiheit]], [[aprycot-gladstein-humanitaere-oekologische-argumente]], [[aprycot-gladstein-meinungsfreiheit-digitales-zeitalter]], [[aprycot-gigi-bitcoin-einsatz-venezuela]], [[aprycot-gladstein-kuba-bitcoin-revolution]], [[aprycot-gladstein-finanzielle-freiheit-afghanistan]], [[aprycot-gladstein-finanzielle-privilegien]], [[aprycot-gladstein-monetaerer-kolonialismus]]
 
 ## Summary
 
@@ -109,6 +109,28 @@ José berichtet von verbreiteten geheimen Mining-Geräten. Stromausfälle in Ven
 Die Metapher, die José wählt: Kurosawas Film „Dersu Uzala" — ein nomadischer Jäger, der in der sibirischen Tundra hektisch Gras sammelt, bevor die Nacht einbricht. „Ich kratze verzweifelt Satoshis zusammen, denn ich will nicht bei Einbruch der Nacht in der offenen Steppe gefangen sein."
 
 Einige Wochen nach dem Gespräch meldet sich José: Er hat einen Online-Job gefunden und verdient mehr pro Stunde als zuvor pro Monat. [[aprycot-gigi-bitcoin-einsatz-venezuela]]
+
+### Check deine finanziellen Privilegien (Gladstein, 2021)
+
+Gladsteins ursprünglicher Ausgangspunkt vor den ausführlichen Länder-Reportagen: drei komprimierte Porträts, die zeigen, was es bedeutet, ohne Dollar- oder Euro-Anker zu leben.
+
+**Olusegun (Nigeria).** Studiert in Deutschland Informatik, schickt monatlich Geld nach Hause. Western Union, Transferwise, Remitly — alle verlangen für NGN-Überweisungen 8–10%. Außerdem: die Naira verlor zwischen 2015 und 2021 70% ihres Wertes gegenüber dem Dollar. Sein Vater, ein Lehrer, kauft was er kann sofort, weil das Geld morgen weniger wert ist. Bitcoin gibt ihm erstmals einen Wertspeicher außerhalb der staatlichen Geldinflation.
+
+**Farida (Afghanistan).** Lehrerin, Familienmutter, Jahrzehnte unter Taliban-Herrschaft gelebt. Als das Taliban-Regime 2021 zurückkehrte, gefror die Bank sofort. Frauen durften zeitweise keine Bankkonten halten. Bitcoin ist das erste Geld, das niemand wegnehmen kann, weil es kein physisches Objekt ist und keiner Institution gehört.
+
+**Hier das Privileg.** Wer in Europa oder den USA aufgewachsen ist, hat durch seinen Pass und seine Bankverbindung strukturelle Vorteile, die unsichtbar sind, weil sie nie fehlgefehlt haben. Gladsteins Kernpunkt: Bitcoin von seinem Haus aus als «Spielzeug für Spekulanten» abzutun, ist das Privileg derer, die nie echtes Geldversagen erlebt haben. [[aprycot-gladstein-finanzielle-privilegien]]
+
+### Monetärer Kolonialismus: der CFA-Franc
+
+Frankreich unterhält seit 1945 eine Währungszone aus 15 afrikanischen Staaten (acht in WAEMU, sechs in CEMAC plus Komoren), die den CFA-Franc verwenden. Die Kernbedingungen:
+
+- **50% der Devisenreserven** müssen bei der Banque de France hinterlegt sein (erst 2020 offiziell auf das Eurosystem umgestellt — de facto kaum verändert).
+- **Konvertibilität garantiert Frankreich**, nicht die Staaten selbst — was politische Abhängigkeit erzeugt.
+- **Überbewerteter Wechselkurs** macht Exporte teurer und Importe günstiger, was lokale Industrie strukturell schwächt.
+
+Der CFA-Franc entstand nicht durch Konsens, sondern als Instrument der Nachkriegs-Kolonialkontinuität. Noch 2020 wurde er in «ECO» umbenannt — die strukturellen Bedingungen blieben weitgehend unverändert. Gladstein zitiert den senegalesischen Ökonomen Ndongo Samba Sylla: Das System transferiert jährlich Milliarden von afrikanischen Staaten nach Frankreich in Form von Zinsvorteilen und Seigniorage.
+
+Bitcoin bietet den betroffenen Bevölkerungen das erste Werkzeug, Wert außerhalb dieses Rahmens zu halten. Händler in Dakar oder Yaoundé können Ersparnisse in BTC halten, ohne dass Paris die Kaufkraft durch Geldpolitik beeinflusst. Das ist kein abstraktes Argument: In Ländern mit 30–50% jährlicher Kaufkraftverlust-Risiko ist ein unpolitisches, programmatisch knappes Gut strukturell attraktiver als staatliches Geld. [[aprycot-gladstein-monetaerer-kolonialismus]]
 
 ## Related
 
