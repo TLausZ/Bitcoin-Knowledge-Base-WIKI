@@ -1,8 +1,8 @@
 # Bitcoin-Adoption: Die persönliche Reise
 
 **Status:** established
-**Last updated:** 2026-06-23
-**Sources:** [[aprycot-gigi-weg-zum-bitcoin-standard.md]]
+**Last updated:** 2026-06-25
+**Sources:** [[aprycot-gigi-weg-zum-bitcoin-standard.md]], [[aprycot-gigi-liebe-familie-liebe-freunde]]
 
 ## Summary
 
@@ -40,6 +40,16 @@ Schritt 6 — Fiat fallen lassen — ist der Punkt, an dem Konflikte mit dem alt
 ### Unterschied zu Boyapati / Monetarisierungsphasen
 
 Boyapatis Monetarisierungsphasen ([[bitcoin-monetarisierung]]) beschreiben gesellschaftliche Makrophasen (Sammlerstück → Wertspeicher → Tauschmittel → Recheneinheit). Gigis sechs Schritte sind das Gegenstück auf individueller Ebene: wie ein einzelner Mensch in denselben Prozess eintritt und voranschreitet. Beide Modelle sind kompatibel und ergänzend. [[aprycot-gigi-weg-zum-bitcoin-standard.md]]
+
+### Ein Brief an Familie und Freunde (Gigi, 2020)
+
+Bereits 2020 — vor El Salvador, zu einem Zeitpunkt, als Bitcoins Marktkapitalisierung bei etwa 137 Milliarden Dollar lag gegenüber Gold (~9 Billionen) und Immobilien (~228 Billionen) — schrieb Gigi einen offenen Brief an alle, die noch kein Bitcoin halten. Der Brief adressiert zwei Grundüberzeugungen: Das heutige Geldsystem ist strukturell kaputt, und wer zu einem besseren Geld wechselt, nutzt sich selbst und der Gesellschaft. [[aprycot-gigi-liebe-familie-liebe-freunde]]
+
+Gigi nimmt die häufigsten Einwände direkt auseinander: „Bitcoin ist schon zu teuer" — falsch, weil Bitcoin beliebig teilbar ist und schon ein Sat ausreicht. „Die Technologie ist überholt" — falsch, weil Sicherheit durch Stabilität entsteht, nicht durch Neuheit. „Es ist zu komplex" — das war das Internet auch. „Es ist zu riskant" — verglichen womit? Auch Nicht-Handeln in einem inflationären System ist Risiko. „Es wird durch etwas Besseres ersetzt" — unwahrscheinlich, weil Bitcoin-Netzwerkeffekte, Sicherheit und dezentrale Governance nicht leicht zu kopieren sind.
+
+Die Kernempfehlung ist kompromisslos einfach: Fang an. Kauf automatisch und regelmäßig kleine Mengen (Auto-DCA). Kein aktives Trading — wer versucht, den Markt zu timen, verliert fast immer. Und: Nimm deine Coins selbst in Verwahrung. „Not your keys, not your Bitcoin" gilt ohne Ausnahme. Trusted third parties — Börsen, Banken, Custodians — tragen Kontrahentenrisiko, das mit dem Sinn von Bitcoin unvereinbar ist.
+
+Gigi fasst zusammen, was Bitcoin monetär leistet: Es ist portabel, knapp, teilbar, direkt verifizierbar, dauerhaft und zensurresistent — jede dieser Eigenschaften besser als jede Alternative. Der Brief schließt mit einem Appell, nicht auf den „richtigen Moment" zu warten. Auf einem schlechten Geldsystem warten ist kein neutrales Verhalten. [[aprycot-gigi-liebe-familie-liebe-freunde]]
 
 ## Related
 

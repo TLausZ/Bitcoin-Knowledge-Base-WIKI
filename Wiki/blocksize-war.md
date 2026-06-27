@@ -1,8 +1,8 @@
 # Der Blocksize-Krieg (2015–2017)
 
 **Status:** established
-**Last updated:** 2026-06-20
-**Sources:** [[blocksizewar]], [[20181114_bitcoinmagazine-when-fork-forks-bitcoin-cash-goes-war]], [[20181116_bitcoinmagazine-one-day-after-bch-hard-fork]], [[20181123_bitcoinmagazine-one-week-later-bitcoin-cash-split]], [[20181201_bitcoinmagazine-bch-hash-war-came-and-went]], [[20181209_bitcoinmagazine-bitcoin-abc-bitmain-ver-suit-bch-split]], [[Mises_ Der ursprüngliche toxische Maximalist.md]]
+**Last updated:** 2026-06-27
+**Sources:** [[blocksizewar]], [[20181114_bitcoinmagazine-when-fork-forks-bitcoin-cash-goes-war]], [[20181116_bitcoinmagazine-one-day-after-bch-hard-fork]], [[20181123_bitcoinmagazine-one-week-later-bitcoin-cash-split]], [[20181201_bitcoinmagazine-bch-hash-war-came-and-went]], [[20181209_bitcoinmagazine-bitcoin-abc-bitmain-ver-suit-bch-split]], [[Mises_ Der ursprüngliche toxische Maximalist.md]], [[BIP-110 and The Blocksize War..md]]
 
 ## Summary
 
@@ -86,6 +86,24 @@ Ethereum als Gegenbeispiel: Es akzeptierte die Kompromisse nicht (größere Blö
 
 Bitcoin setzte sich durch, weil SegWit als Soft Fork aktiviert werden konnte — Kapazitätssteigerung ohne Hard-Fork-Präzedenz. Wer die Änderung ablehnte, konnte weiter am Netzwerk teilnehmen. Das ist Mises' „Mittelweg führt zum Sozialismus" auf Protokollebene übertragen: Keine Kompromisse bei den Kernparametern. [[Mises_ Der ursprüngliche toxische Maximalist.md]]
 
+### BIP-110 und die Spam-Debatte (2026)
+
+2026 entstand ein neuer Governance-Konflikt: BIP-110, das Arbitrary Data in Bitcoin-Transaktionen durch Konsensänderungen einschränken soll. Matt Golliher (@MattGolliher) zieht eine direkte Linie zum Blocksize War — und kommt zum selben strukturellen Urteil.
+
+Das Kernargument: Bitcoin-Konsensparameter sind entweder "good enough" oder sie sind es nicht. Wenn sie gut genug sind, werden sie durch die Trägheit des Netzwerks praktisch unveränderlich. Optimierung ist nicht der Punkt. Der 21-Millionen-Cap war von Anfang an gut genug — ob eine andere Zahl besser gewesen wäre, spielt keine Rolle mehr. Er wird nicht mehr geändert.
+
+BIP-110 scheitert an drei Punkten:
+
+Erstens begrenzt die maximale Blockgröße das On-Chain-Datenwachstum bereits auf eine annähernd lineare Trajektorie, während Hardware-, Speicher- und Rechenkosten exponentiell sinken. Spam macht Node-Betrieb teurer, aber der absolute Gesamtaufwand sinkt trotzdem oder bleibt stabil.
+
+Zweitens muss Arbitrary Data mit normalem Blockspace konkurrieren und eine wettbewerbsfähige Fee bezahlen — genauso wie jede andere Transaktion.
+
+Drittens lässt sich Spam auf Bitcoin prinzipiell nicht verhindern. Es gibt keine objektive Definition von Spam; jede Konsens-Durchsetzung würde die Kernfunktion des Netzwerks untergraben.
+
+BIP-110-Befürworter geben selbst zu, dass der BIP Spam nicht stoppt. Ihr erklärtes Ziel ist es, "eine Botschaft zu senden" und Bitcoin als Geld zu "repriorisieren". Das ist laut Golliher das falsche Modell: Bitcoin ist kein Hausbesitzerverein. Es ist ein freies Marktsystem mit Anarchie und ökonomischen Anreizen — der freie Markt bestimmt, wie Menschen Bitcoin nutzen, nicht ein Konsens-Beschluss.
+
+Die strukturelle Lektion aus beiden Konflikten ist identisch: Konsensparameter, die einmal gesetzt sind und gut genug funktionieren, sollten nicht wieder geöffnet werden. Jedes Öffnen schafft einen Präzedenzfall für weiteres Öffnen. [[BIP-110 and The Blocksize War..md]]
+
 ## Related
 
 - [[segregated-witness-segwit]]
@@ -100,5 +118,5 @@ Bitcoin setzte sich durch, weil SegWit als Soft Fork aktiviert werden konnte —
 
 - Hätte eine moderate 2-MB-Hard Fork per breitem Konsens 2015–2016 Bitcoin tatsächlich geschadet?
 - Welche Rolle spielte ASICBoost im Vergleich zur ideologischen Überzeugung bei Jihans SegWit-Widerstand?
-- Wie wird der nächste große Governance-Konflikt in Bitcoin aussehen — und wer sind dann die Akteure?
+- Wie wird sich BIP-110 entwickeln — Konsensänderung, Ablehnung, oder dauerhafter Streit wie beim Blocksize War?
 - Hätte der UASF (BIP 148) ohne das NYA als Brücke funktioniert, oder wäre er an Miner-Ablehnung gescheitert?

@@ -1,8 +1,8 @@
 # Specter DIY
 
 **Status:** established
-**Last updated:** 2026-06-25
-**Sources:** [[Specter-Hardware-Wallet-Anleitung_v1_0_0]], [[Specter DIY – Testbericht zur ersten DIY Bitcoin Hardware Wallet]], [[specter-diy-docs/security]], [[specter-diy-docs/shopping]], [[specter-diy-docs/assembly]], [[specter-diy-docs/quickstart]], [[specter-diy-docs/communication]], [[specter-diy-docs/simulator]], [[specter-diy-docs/roadmap]], [[20220309_bitbox02-multisig-specter-desktop-de]]
+**Last updated:** 2026-06-25 (Shield Metal Supplement ergänzt)
+**Sources:** [[Specter-Hardware-Wallet-Anleitung_v1_0_0]], [[Specter-Shield-Metal-Manual-part_EN_v1_0_0]], [[Specter DIY – Testbericht zur ersten DIY Bitcoin Hardware Wallet]], [[specter-diy-docs/security]], [[specter-diy-docs/shopping]], [[specter-diy-docs/assembly]], [[specter-diy-docs/quickstart]], [[specter-diy-docs/communication]], [[specter-diy-docs/simulator]], [[specter-diy-docs/roadmap]], [[20220309_bitbox02-multisig-specter-desktop-de]]
 
 ## Summary
 
@@ -30,7 +30,7 @@ Wer das Gerät fertig montiert bei ClavaStack kauft, gewinnt Komfort, muss dafü
 
 **Specter Shield Lite (190 €)** ergänzt die Basis um einen Smartcard-Slot mit Secure Chip. Zwei Smartcards sind im Lieferumfang. Kein Akku, 3D-gedrucktes Gehäuse. Das Preis-Leistungs-Verhältnis ist das beste der drei Varianten — volle Sicherheitsarchitektur zu einem mit anderen Hardware-Wallets konkurrenzfähigen Preis.
 
-**Specter Shield Metal (399 €)** bietet dasselbe Sicherheitsniveau mit gefrästem Aluminiumgehäuse, integriertem Akku (erste Variante ohne externe Powerbank), SD-Karte, Tarnungsoption für Smartcards, Tamper-Evident-Bags und erweitertem Backup-Material. Für Nutzer, die neben der Sicherheitsarchitektur auch Hochwertigkeit und vollständiges Zubehör wollen.
+**Specter Shield Metal (399 €)** bietet dasselbe Sicherheitsniveau mit gefrästem Aluminiumgehäuse und integriertem Lithium-Polymer-Akku (3,7 V) — die einzige Variante ohne externe Powerbank. Ladezeit ca. 3,75 Stunden, Akkulaufzeit ca. 4,5 Stunden. Geladen wird ausschließlich über das mitgelieferte Kabel am unteren Port (5 V DC, min. 500 mA); rote LED = lädt, aus = voll. Maße: 13,4 × 6,7 × 2,6 cm, Gewicht 248 g. Lieferumfang: 2 Smartcards (optional getarnt), SD-Karte, 2× Backup Stack Mini für Seedphrase, 5× Tamper-Evident Bags, hochwertiges Stoffmäppchen. Akku nicht selbst wechselbar — eigene Öffnungsversuche erlöschen die Garantie.
 
 | | Specter DIY | Shield Lite | Shield Metal |
 |---|---|---|---|

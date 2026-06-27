@@ -1,6 +1,6 @@
 # Bitcoin KB — Wiki Index
 
-Alle Artikel alphabetisch. Stand: 2026-06-25 (nach Compile-Pass 53+54: 2 neue Artikel + 2 Updates aus Specter- und Privacy-Handbuch-Quellen; 157 Artikel total)
+Alle Artikel alphabetisch. Stand: 2026-06-27 (nach Health-Check: 365 Artikel, 2 geplant ohne Datei)
 
 | Artikel | Status | Beschreibung |
 |---------|--------|-------------|
@@ -8,9 +8,11 @@ Alle Artikel alphabetisch. Stand: 2026-06-25 (nach Compile-Pass 53+54: 2 neue Ar
 | [[bitcoin-als-basisgeld]] | established | Parker Lewis GTS: Wirtschaftliche Ungleichheit hat monetäre Ursache (Cantillon). Keine politische Lösung für ökonomisches Problem. Bitcoin repariert das Fundament — parteiübergreifend. Maxwell: Cantillon'sche Oligarchie, Petrodollar, MMT, die politische Linke und Bitcoin. |
 | [[bitcoin-als-information]] | established | Gigi: Bitcoin = Text/Mathematik/Information; privater Schlüssel = 256-Bit-Zahl (Münzwurf); Transaktion = Nachricht; Mining = Zahlenraten; Verbot müsste Denken kriminalisieren; illegale Zahlen als Präzedenz; Junger v. Daley (2000). |
 | [[bitcoin-antifragilitaet]] | established | Taleb-Konzept auf Bitcoin: wird durch Stressoren stärker. Jeder "Bitcoin ist tot"-Moment stärkte das Netzwerk. Dezentralisierung als Lebensader. Lindy-Effekt. |
+| [[bitcoin-unternehmertum-und-hoffnung]] | established | Breedlove (2020): Inflation vernichtet Hoffnung systematisch. Entropie + Unternehmertum. 5 Definitionen von Inflation als Diebstahl. Bitcoin als unplünderbarer Wertspeicher und Bedingung führerloser Zivilisation. |
 | [[bitcoin-entropie-und-ordnung]] | established | Gigi: Bitcoin gedeiht an der Grenze zwischen Chaos (Mining, private Schlüssel) und Ordnung (Blockchain, bestätigte Transaktionen); thermodynamische Sicherheit; Block-Reward-Ära 2009–2140. |
 | [[bitcoin-entfinanzialisierung]] | established | Parker Lewis GTS: Fiat-Inflation zwingt alle zum unfreiwilligen Risikotragen ("Geld arbeiten lassen"). Bitcoin ermöglicht echtes Sparen ohne Finanzrisiko. Entfinanzialisierung als Folge. |
 | [[bitcoin-fruehgeschichte]] | established | Gigi/Lohbeck: Bitcoin Wizard (Reddit 2013), Satoshi-Zeitleiste 2008–2010, Mt. Gox (Jed McCaleb, 850k BTC), Silk Road (Ross Ulbricht), Double-Spend-Problem, Laszlo GPU-Mining und Pizza-Transaktion. |
+| [[bitcoin-launch-januar-2009]] | established | Alex Waltz: Forensische Analyse der ersten 170 Blöcke. Hal Finney verpasste den Launch, kam erst bei Block 49. Beide anderen Nodes gehörten wahrscheinlich Satoshi (eine davon via Tor). 8 Netzwerk-Halts, davon einer für 24h. ExtraNonce-Muster als Miner-Fingerabdruck. Dustin Trammell war wahrscheinlich vor Hal aktiv. |
 | [[bitcoin-nicht-blockchain]] | established | Blockchain nur für Geld sinnvoll — ohne native Währung keine Sicherheitsanreize, keine Unveränderlichkeit. Alle Altcoins konkurrieren um denselben Anwendungsfall. Monetäre Konvergenz auf ein Medium. |
 | [[bitcoin-absolute-knappheit]] | established | Breedlove an Dalio: Absolute Knappheit als die eigentliche Entdeckung Bitcoins; 3 Dalio-Fehler (Blockchain≠Durchbruch, kein Blackberry-Ersatz, Preisstabilität Illusion); Geldgeschichte (S2F, Hardness, Fiat-Verfall); Bridgewater-Prinzipien als Spiegel; "Bitcoin = Put-Option auf Zentralbanker-Fehlverhalten" |
 | [[cbdc-und-digitaler-yuan]] | established | Gladstein: Xis Blockchain-Rede 2019; digitaler Yuan als Überwachungswerkzeug (6 PBOC-Ziele); Proof-of-Authority vs. Proof-of-Work; trojanisches Pferd — Blockchain-Bildung führt zu Bitcoin; Abgrenzungstabelle CBDC vs. Bitcoin |
@@ -52,6 +54,7 @@ Alle Artikel alphabetisch. Stand: 2026-06-25 (nach Compile-Pass 53+54: 2 neue Ar
 | [[bip-329-wallet-labels]] | emerging | BIP-329 Standard für portierbare Wallet-Labels zwischen verschiedenen Softwares |
 | [[bip-85-child-keys]] | emerging | Aus einem Backup mehrere unabhängige Wallets ableiten — Hot Wallets, Geschenke, Passwörter |
 | [[bitcoin-adresstypen]] | established | Legacy P2PKH (1...), P2SH (3...), Native SegWit P2WPKH (bc1q, ~38% günstiger, Standard), Taproot P2TR (bc1p); alle interoperabel; ein Seed für alle Typen |
+| [[bitcoin-block-header]] | established | 80-Byte-Datensatz am Anfang jedes Blocks: 6 Felder (Version, Previous Block Hash, Merkle Root, Timestamp, Bits, Nonce); HASH256 (doppeltes SHA-256) bestimmt gültigen Block; Block-Hash kein Headerfeld, sondern abgeleitet |
 | [[bitcoin-blockchain-struktur]] | established | Blockchain als geteilte Datei aller Transaktionen; Block-Header (Version, Previous Block, Merkle Root, Time, Target, Nonce); Sicherheit durch Hash-Verkettung; Kandidatenblock; lokale Speicherpfade und blk*.dat-Format |
 | [[bitcoin-netzwerk-und-nodes]] | established | P2P-Netzwerk aus Nodes; drei Jobs (Regeln, Weitergabe, Blockchain speichern); Mempool; offen für alle; Dezentralisierung als Kernmerkmal; eigener Node = kein Vertrauen nötig |
 | [[bitcoin-datenformate]] | established | Hexadezimal, Bytes, Little-Endian, Natural vs. Reverse Byte Order (TXIDs/Block-Hashes), CompactSize |
@@ -84,6 +87,7 @@ Alle Artikel alphabetisch. Stand: 2026-06-25 (nach Compile-Pass 53+54: 2 neue Ar
 | [[phoenix-wallet-lightning]] | established | ACINQ Phoenix (2026 FAQ): Echter Lightning-Node auf Smartphone; Trust-minimized (nicht trustless); Inbound Liquidity; Swap-in Wallet; 0,4%+4sat Sendegebühr; BIP39-Seed-Wiederherstellung |
 | [[wallet-of-satoshi]] | established | WoS FAQ (2026): Custodial vs. Self-Custodial Modi; Lightning Address; E-Mail-Backup (custodial) vs. Seed (self-custodial); Regionsverfügbarkeit; einfachste Lightning-Wallet |
 | [[bitblik]] | established | bitblik FAQ (2026): BLIK–Bitcoin Bridge; Lightning Hold-Invoice Escrow; non-custodial P2P; kein KYC; FOSS; kein App Store; ~2 min Settlement; Polen |
+| [[mt-gox]] | established | Kollaps Feb 2014: 850k BTC verschwunden. Transaction-Malleability-Erklärung war Halbwahrheit (~1.811 BTC erklärt). WizSec: Hot-Wallet-Drain seit 2011. Karpelès 2019 auf Bewährung. Gläubiger-Auszahlungen laufen bis Okt 2026. |
 | [[muun-wallet]] | established | Muun (2019–2021): non-custodial Lightning+On-Chain; Emergency Kit (Output Descriptors); Submarine Swaps; LND-basiert; warum Mnemonic allein nicht reicht; Taproot-Upgrade |
 | [[lightning-splicing]] | established | Splicing in Lightning: Splice-In/Out; Channel-Kapazität ändern ohne Close; Operational vs. Financial Costs; Vergleich mit Circular Payments und Fee Management; Phoenix-Praxis |
 | [[lightning-rebalancing]] | established | Lightning Rebalancing: Channel-Imbalance durch Routing; 3 Strategien (Circular Payments, Fee Management, Splices); Intermediate vs. Edge Node |

@@ -89,11 +89,11 @@ Proof of Work ist der einzige bekannte Konsensmechanismus, der Sybil-Resistenz (
 
 **CPU-Mining (2009–2010):** Satoshi und die ersten Nutzer minen auf normalen Prozessoren. Einstiegskosten: null. Jeder PC kann mitmachen.
 
-**GPU-Mining (2010–2012):** Grafikkarten sind für parallele Berechnungen optimiert — ~100× effizienter als CPUs bei SHA-256. Mining wird zur Spezialaufgabe; normale PCs fallen heraus.
+**GPU-Mining (2010–2012):** Grafikkarten sind für parallele Berechnungen optimiert — ~100× effizienter als CPUs bei SHA-256. Mining wird zur Spezialaufgabe; normale PCs fallen heraus. Den ersten öffentlichen GPU-Miner schrieb Laszlo Hanyecz, aber der erste *kommerziell vertriebene* GPU-Miner stammte von Bitcointalk-Nutzer puddinpop — geschlossen und mit 5 % Gebühr pro Block. Jeff Garzik kaufte puddinpop die Rechte für 10.000 BTC ab, um den Miner open-source zu veröffentlichen. [[waltz-fact-01-garzik-puddinpop-gpu-miner]]
 
 **FPGA-Mining (2011–2012):** Field Programmable Gate Arrays — konfigurierbare Chips, ~10× effizienter als GPUs. Kurze Übergangsphase.
 
-**ASIC-Mining (2013–heute):** Application-Specific Integrated Circuits — Chips, die ausschließlich SHA-256 berechnen können, nichts sonst. Milliarden-fach effizienter als CPUs. Ein moderner ASIC (Bitmain Antminer S21, 2024) schafft ~200 Terahash/s bei ~17 Joule/Terahash. ASICs machen Mining irreversibel industriell: nur noch große Operatoren mit günstiger Energie und neuester Hardware sind langfristig profitabel.
+**ASIC-Mining (2013–heute):** Application-Specific Integrated Circuits — Chips, die ausschließlich SHA-256 berechnen können, nichts sonst. Milliarden-fach effizienter als CPUs. Der erste Bitcoin-ASIC war der Avalon1, ausgeliefert ab dem 30. Januar 2013. Preis: $1.299 für 60 GH/s. Zum Vergleich: Ein Bitaxe (moderner DIY-Miner) ist ~20× schneller, ein Antminer S21 XP Hydro rund 7.883× schneller. Jeff Garzik war unter den ersten Empfängern. Ein moderner ASIC (Bitmain Antminer S21, 2024) schafft ~200 Terahash/s bei ~17 Joule/Terahash. ASICs machen Mining irreversibel industriell: nur noch große Operatoren mit günstiger Energie und neuester Hardware sind langfristig profitabel. [[waltz-fact-08-avalon1-first-asic-miner]]
 
 Die ASIC-Ära hat zwei Konsequenzen: Das Netzwerk ist sicherer (mehr Kapitalinvestition pro Hashrate), aber Mining ist zentralisierter (weniger Akteure, größere Anlagen).
 

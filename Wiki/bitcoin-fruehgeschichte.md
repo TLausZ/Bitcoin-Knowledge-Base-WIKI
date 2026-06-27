@@ -1,8 +1,8 @@
 # Bitcoin-Frühgeschichte: Magic Internet Money
 
 **Status:** established
-**Last updated:** 2026-06-23
-**Sources:** [[aprycot-gigi-magisches-internet-geld.md]], [[linkedin-Woher kamen die 10000 BTC für zwei Pizzen.md]]
+**Last updated:** 2026-06-27
+**Sources:** [[aprycot-gigi-magisches-internet-geld.md]], [[linkedin-Woher kamen die 10000 BTC für zwei Pizzen.md]], [[waltz-bitcoin-facts]], [[1stbitcoinminer-com_transcriptions.md]]
 
 ## Summary
 
@@ -23,7 +23,10 @@ Satoshi Nakamoto tauchte am 31. Oktober 2008 mit dem Whitepaper auf der Kryptogr
 | 2008-08-18 | Registrierung bitcoin.org |
 | 2008-10-31 | Whitepaper veröffentlicht |
 | 2009-01-03 | Genesis-Block gefunden |
-| 2009-01-12 | Erste Transaktion: Satoshi → Hal Finney, 10 BTC |
+| 2009-01-09 | Block 1 gefunden (Launch); Hal Finney verpasst ihn |
+| 2009-01-10 | Hal verbindet sich erstmals (~Block 49); Netzwerk hatte bereits 24h pausiert |
+| 2009-01-11 | Hals erster geminter Block (Block 78); „Running Bitcoin"-Tweet |
+| 2009-01-12 | Erste Transaktion: Satoshi → Hal Finney, 10 BTC (Block 170) |
 | 2010-05-22 | Erste Transaktion für ein reales Gut (Pizza) |
 | 2010-07-17 | Mt. Gox startet |
 | 2010-12-12 | Letzte öffentliche Nachricht Satoshis |
@@ -66,14 +69,58 @@ Zwischen April und November 2010 schürfte Laszlo über 81.000 BTC — fast alle
 
 Insgesamt gab er 2010 fast 100.000 BTC aus. Die berühmteste Transaktion: 10.000 BTC an Jeremy Sturdivant für zwei Pizzen von Papa John's (22. Mai 2010). Das war für Laszlo etwa einer Woche Mining — Kleingeld. Die Transaktion ist in Block 57043 der Blockchain verewigt. [[linkedin-Woher kamen die 10000 BTC für zwei Pizzen.md]], [[aprycot-gigi-magisches-internet-geld.md]]
 
+### Satoshi als Entwickler: Was hinter dem Code steckt
+
+Einige Details aus dem Quellcode und Satoshis Kommunikation geben einen ungewöhnlich direkten Einblick in seine Arbeitsweise.
+
+Er begann die Entwicklung mindestens 1,5 Jahre vor dem Whitepaper — das bestätigte er selbst am 17. November 2008 auf der Cypherpunk-Mailingliste, zwei Wochen nach der Whitepaper-Veröffentlichung. Das Whitepaper selbst entstand auf Windows XP mit OpenOffice Writer 2.4 — bekannt aus den PDF-Metadaten, die WizSec forensisch ausgewertet hat. [[waltz-fact-02-whitepaper-windows-xp-openoffice]]
+
+Einen Tag vor der Registrierung von bitcoin.org meldete Satoshi netcoin.org an. Er erwog neben „Bitcoin" auch „E-Cash" und „Supercoin" als Namen. [[waltz-fact-17-satoshi-alternative-names]]
+
+Das ursprüngliche Bitcoin-Interface generierte Satoshi mit wxFormBuilder, einem grafischen UI-Generator — der Code-Kommentar ist noch im Original-Client sichtbar. [[waltz-fact-21-satoshi-vibe-coder]]
+
+Die Zeitleiste enthält eine klar abgrenzbare Pre-Launch-Phase: Eine November-2008-Version des Codes unterschied sich in zehn wesentlichen Punkten vom Finale — u.a. abweichende Blockzeit, Blockbelohnung und Schwierigkeitsanpassung. [[waltz-fact-16-bitcoin-november-2008-version]]
+
+Im Quellcode des ersten Clients hinterließ Satoshi sieben bemerkenswerte Kommentare, darunter den lapidaren Satz: „This is why people hate C++". [[waltz-fact-22-satoshi-code-comments]]
+
+Drei Dinge, die Satoshi plante und die nie fertiggestellt wurden: eine Poker-Variante, einen eBay-ähnlichen Marktplatz und ein Bewertungssystem für Transaktionspartner. Code für alle drei war in v0.1 vorhanden, aber nicht aktiviert. Der Marktplatz hätte über drei Timekeeping-Mechanismen synchronisiert werden sollen — NTP, Peer-Netzzeit und Median-Blockzeit. NTP wurde wegen zu hoher Zentralisierung nie implementiert; die anderen beiden sind bis heute im Einsatz. [[waltz-fact-06-bitcoin-v01-poker-marketplace]], [[waltz-fact-10-satoshi-review-system]], [[waltz-fact-13-nautical-reference-ntp]]
+
+2010 wollte Satoshi das Versionsnummernschema überspringen: von 0.3 direkt auf 1.3, um den Beta-Status abzuschütteln. Die Community widersprach. Das Beta-Label blieb bis September 2021 erhalten, als Bitcoin Core von 0.21.0 auf Version 22.0 sprang. [[waltz-fact-20-satoshi-wanted-to-remove-beta]]
+
+### Frühe Transaktionen und Community-Meilensteine
+
+Die erste bekannte Bitcoin-Transaktion ging von Satoshi an Hal Finney (Block 170, 10 BTC). Weniger bekannt: Die zweite Transaktion, bei der der Absender kryptografisch beweisbar Satoshi war, ging an Bitcointalk-Nutzer @druidian in Block 524 über 25 BTC. [[waltz-fact-23-satoshi-second-tx-druidian]]
+
+Hal Finney trat dem Netzwerk bei Block 49 bei. Das lässt sich aus einem Crash-Report ablesen, den er auf SourceForge einreichte: sein Debug-Log zeigte Block 49 als letzten bekannten Block. [[waltz-fact-18-hal-finney-block-49]]
+
+Den ersten Preis für Bitcoin setzte die New Liberty Standard Exchange am 5. Oktober 2009: $1 = 1.309 BTC. Der Preis wurde aus den durchschnittlichen Stromkosten eines Computers berechnet, der ein Jahr lang mit voller CPU läuft. [[waltz-fact-07-first-bitcoin-price]]
+
+Am 30. März 2010 versuchte Bitcointalk-Nutzer SmokeTooMuch, 10.000 BTC für $50 zu versteigern. Niemand griff zu. Zwei Jahre später meldete er sich zurück: Die 10.000 BTC wären inzwischen $50.000 wert. [[waltz-fact-09-smoketoomuch-10000-btc]]
+
+Alex Waltz hat Bitcoin v0.1.1 — denselben Client, den Hal Finney 2009 benutzte — auf einem Mac M1 zum Laufen gebracht. Möglich durch eine forensische Rekonstruktion der originalen Build-Umgebung. [[waltz-fact-14-bitcoin-v011-mac-m1]]
+
+Gavin Andresen präsentierte Bitcoin am 20. Juni 2011 vor der CIA — mit Folien, die @MrHodl später veröffentlichte. Zitat aus den Slides: „The Bitcoin project is an experiment — a very ambiguous experiment." [[waltz-fact-15-gavin-andresen-cia]]
+
+### Frühe Bugs und Sicherheitsvorfälle
+
+Am 15. August 2010 wurden in Block 74.638 zwei Transaktionen mit insgesamt 184 Milliarden Bitcoin erzeugt — ein Überlauf-Bug, weil der Code die Summe der Outputs nicht gegen den maximalen Integer-Wert prüfte. Satoshi und die Community deployte innerhalb von fünf Stunden einen Fix; die betroffenen Transaktionen wurden rückgängig gemacht. [[waltz-fact-03-184-billion-bitcoin-bug]]
+
+Im Juli 2010 entdeckte Artforz einen kritischen Fehler in OP_RETURN: Der Opcode brach die Skript-Auswertung ab und gab 1 zurück, was Scripts als erfüllt markierte — unabhängig von den tatsächlichen Bedingungen. Theoretisch hätte damit jeder die Bitcoin anderer Leute ausgeben können. [[waltz-fact-19-op-return-bug]]
+
+Nach dem Inflation-Bug von August 2010 baute Satoshi ein Alert-System in Bitcoin Core ein: Entwickler konnten eine 256-Byte-Nachricht an alle laufenden Nodes senden. Das System wurde mehrfach genutzt, um dringende Patches anzukündigen, und erst 2018 entfernt. [[waltz-fact-24-bitcoin-core-alert-system]]
+
+Der Generate-Coins-Button im Original-Client verschwand mit Version 0.3.22 im Juni 2011 — als Mining zu spezialisiert wurde, um ihn noch sinnvoll über eine GUI zu bedienen. [[waltz-fact-04-generate-coins-button]]
+
 ## Related
 
+- [[bitcoin-launch-januar-2009]]
 - [[bitcoin-whitepaper]]
 - [[satoshi-ankuendigung-2009]]
 - [[selbstverwahrung-und-boersenrisiken]]
 - [[bitcoin-zensurresistenz]]
 - [[kryptoanarchismus-und-cypherpunks]]
 - [[bitcoin-mining-und-proof-of-work]]
+- [[mt-gox]]
 
 ## Open Questions
 

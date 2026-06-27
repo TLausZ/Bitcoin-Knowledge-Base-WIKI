@@ -1,8 +1,8 @@
 # Bitcoin und Absolute Knappheit
 
 **Status:** established
-**Last updated:** 2026-06-22
-**Sources:** [[aprycot-breedlove-offener-brief-ray-dalio]]
+**Last updated:** 2026-06-25
+**Sources:** [[aprycot-breedlove-offener-brief-ray-dalio]], [[aprycot-breedlove-die-zahl-null-und-bitcoin]]
 
 ## Summary
 
@@ -46,6 +46,22 @@ Breedlove wendet Dalios eigenes Principled-Thinking-System auf den Bitcoin-Fall 
 **Glaubwürdigkeit und Skin in the Game.** Gold hat eine 5.000-jährige Track-Record. Zentralbanker tragen keine persönlichen Konsequenzen für Fehlentscheidungen. Römer, die Brücken bauten, mussten darunter stehen. Bitcoin-Holder tragen ihr eigenes Risiko — kein Bail-out, kein Lender of Last Resort.
 
 **„Bitcoin = Kauf einer Put-Option auf das Fehlverhalten der Zentralbanker."** QE, TARP, NIRP sind nach Nassim Taleb „iatrogene Kosten" — Schäden, die durch die Heilungsmaßnahmen entstehen, nicht durch die ursprüngliche Erkrankung.
+
+### Die Null als Vorfahr der absoluten Knappheit (Breedlove)
+
+Breedlove entwickelt in „Die Zahl Null und Bitcoin" (2020) eine historische Parallele: Null und Bitcoin sind beide Erfindungen, die zu Entdeckungen führten, die das sie umgebende System grundlegend neu gestalteten. Bei der Null war das System die Mathematik, bei Bitcoin ist es das Geld. Da Geld und Mathematik die beiden Weltsprachen der Menschheit sind, sind beide Konstrukte konstitutiv für Zivilisation.
+
+Die Null existierte jahrtausendelang nicht als Konzept. Die Babylonier rechneten ohne sie, die Römer ohne sie — mit dem Ergebnis, dass Multiplikation und Division mühsam blieben. Als das hinduistisch-arabische Zahlensystem mit Null im Hochmittelalter Europa erreichte, stieß es auf ideologischen Widerstand. Dennoch setzte es sich durch: nicht weil jemand es per Dekret einführte, sondern weil Händler, die damit rechneten, schneller und fehlerfreier arbeiteten. Energieeffizientere Systeme verdrängen ineffizientere — das ist laut Breedlove dasselbe Prinzip, das Bitcoin in der Geldgeschichte anwendet. [[aprycot-breedlove-die-zahl-null-und-bitcoin]]
+
+Die Null hat drei Funktionen, die Breedlove direkt den drei Geldfunktionen zuordnet:
+
+Erstens: Platzhalter im Zahlensystem. Die Null zeigt das Fehlen eines Werts in einer Stelle an (z.B. die Null in „1.104"). Ohne sie können Zahlen nicht konsistent skaliert werden. Im Geldsystem entspricht das dem Wertspeicher: ein stabiler Anker, auf dem höhere Werte aufgebaut werden. Ein gut fundierter Wertspeicher führt zu höheren Sparraten, genau wie ein stabiler Platzhalter mehr Bedeutung auf weniger Raum kondensiert.
+
+Zweitens: Eigenständige Zahl, Mittelpunkt zwischen Positiv und Negativ. Brahmagupta spiegelte die positive Zahlenreihe über die Null und schuf damit negative Zahlen — und öffnete das Tor zu imaginären Zahlen, Fraktalen, komplexer Mathematik. Die Null ist der einzige Weg von einem Zahlenbereich in den anderen. Im Geld entspricht das dem Tauschmittel: der einzige Durchgangspunkt zwischen Kontraktion und Expansion, Schuld und Guthaben.
+
+Drittens: Katalysator für Brüche und Verhältnisse. Ohne Null mussten ägyptische Mathematiker Verhältnisse als Summen von Einheitsbrüchen notieren — umständlich und fehleranfällig. Mit Null sind Dezimaldarstellungen möglich. Im Geld entspricht das der Recheneinheit: Preise sind Austauschverhältnisse, die in einer gemeinsamen Dezimalform ausgedrückt werden.
+
+Breedloves Kernthese: Genauso wie die Null das erste Symbol für „nichts" war — eine Abwesenheit, die als eigenständiges Konzept behandelt wurde — ist Bitcoins 21-Millionen-Grenze das erste digitale Symbol für absolute Abwesenheit weiterer Einheiten. „Satoshi gab der Welt Bitcoin, ein echtes ‚etwas für gar nichts'." Die Entdeckung absoluter Knappheit ist wie die Entdeckung der Null: Sie verändert das sie umgebende System von Grund auf. Und wie die Null war sie eine unaufhaltsame Idee, sobald ihre Zeit gekommen war. [[aprycot-breedlove-die-zahl-null-und-bitcoin]]
 
 ### Kapitalismus-Analogie: Larry der Zitronenbauer
 

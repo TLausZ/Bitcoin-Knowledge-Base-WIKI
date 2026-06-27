@@ -1,8 +1,8 @@
 # Bitcoin Geldpolitik und das 21-Millionen-Limit
 
 **Status:** established
-**Last updated:** 2026-06-06
-**Sources:** [[20260424_wie-das-21-millionen-limit-von-bitcoin-tatsächlich-durchgesetzt-wird]], [[20220620_warum-ist-bitcoin-wichtig-de]], [[Die andere Seite der Medaille.md]], [[Bitcoin ist die Wiederentdeckung des Geldes.md]]
+**Last updated:** 2026-06-27
+**Sources:** [[20260424_wie-das-21-millionen-limit-von-bitcoin-tatsächlich-durchgesetzt-wird]], [[20220620_warum-ist-bitcoin-wichtig-de]], [[Die andere Seite der Medaille.md]], [[Bitcoin ist die Wiederentdeckung des Geldes.md]], [[aprycot-rochard-perfekte-geldpolitik-bitcoin]], [[waltz-bitcoin-facts]]
 
 ## Summary
 
@@ -70,6 +70,28 @@ Gigi präzisiert: Das 21-Millionen-Limit gilt nur dann für einen Nutzer, wenn e
 „21 Millionen: nie mehr" ist deshalb keine bloße Aussage über Bitcoins Design — es ist eine Aussage, die jeder Node-Betreiber individuell verifiziert. Das macht das Limit systemisch robust: Kein Miner und keine Firma kann es ändern, solange genug Nodes es ablehnen. [[Die andere Seite der Medaille.md]]
 
 Gigi: „Die Geldpolitik von Bitcoin ist zeitlich festgelegt, nicht per Dekret. Sie kann nicht geändert werden. Mit ihr kann nicht gestritten werden. Sie ist unabhängig von der Nachfrage, unabhängig vom Energieverbrauch und unabhängig von der Politik." [[Bitcoin ist die Wiederentdeckung des Geldes.md]]
+
+### Asymptotische Geldmengenvorgabe: Rochards Rahmen (2013)
+
+Pierre Rochard beschreibt Bitcoins Geldpolitik mit dem Begriff AMST — Asymptotic Money Supply Targeting (deutsch: asymptotische Geldmengenvorgabe, AGMV). Die Bezeichnung ist präziser als „21 Millionen Limit": Das Angebot wächst asymptotisch gegen einen Maximalwert, erreicht ihn aber nie exakt. Diese Geldpolitik ist bei der Gründung festgelegt worden und wird durch die dezentrale Natur des Netzwerks unabhängig von jedem Emittenten gehalten. [[aprycot-rochard-perfekte-geldpolitik-bitcoin]]
+
+Rochard formuliert das Bild einer „Bitcoin-Zentralbank" (BZB) — eine Analogie mit Absicht. Die BZB gibt Bitcoin an Miner aus (die Berechnungen als Proof-of-Work leisten), und diese Seigniorage fließt nicht an den Emittenten, sondern subventioniert das Zahlungssystem selbst. Damit unterscheidet sich die Struktur fundamental von einer klassischen Zentralbank, bei der Seigniorage dem Herausgeber zugutekommt: Hier zahlt das Netzwerk diejenigen, die es absichern.
+
+AMST und PoW-Seigniorage kombiniert erzeugen laut Rochard drei strukturelle Eigenschaften:
+
+Erstens: Rationale Marktteilnehmer halten Bitcoin, auch wenn sie keine in Bitcoin denominierten Schulden haben. Der Wettbewerbsvorteil des Bitcoin-Zahlungssystems gegenüber Alternativen rechtfertigt das Halten allein schon aus Liquiditätserwägungen.
+
+Zweitens: Wechselkurse und Zinssätze werden ausschließlich durch den Markt gesetzt. Die BZB interveniert nicht, um Adoptionswellen oder Hype-Zyklen zu glätten — wäre das der Fall, würde sie das Vertrauen verlieren, das AMST langfristigen Haltern gibt.
+
+Drittens: Mindestreservesysteme können sich nicht entwickeln. Bitcoin erzwingt strukturell Vollreserve: Es ist nicht möglich, mehr Bitcoin auszugeben als vorhanden, weil jede Node jede Transaktion verifiziert. Das entspricht dem österreichischen 100%-Reserve-Goldstandard oder dem Chicago Plan. In einem Vollreservesystem führt erhöhte Geldhaltung nicht zu Liquiditätsfallen, sondern zu steigenden Realzinsen und sinkenden Konsumentenpreisen — ein sich selbst stabilisierender Kreislauf, weil höhere Zinsen Hortende zu Investitionen anreizen und günstigere Preise den Konsum stützen.
+
+Rochard schließt mit einer Langzeitprognose: „Die Bitcoin-Zentralbank wird dank ihrer antifragilen Geldpolitik die langfristigste Institution ihrer Art werden." [[aprycot-rochard-perfekte-geldpolitik-bitcoin]]
+
+### Die 21 Millionen: ein educated guess — und ein Codebug
+
+Satoshi hat das 21-Millionen-Limit nicht aus einer ökonomischen Theorie abgeleitet, sondern nach eigenen Worten „geraten" — ein *educated guess*. In einer E-Mail an Martti Malmi erklärte er, er wollte eine Zahl wählen, die sowohl für ein Nischen-Experiment als auch für ein globales Währungssystem skalieren würde. Die genaue Zahl war sekundär; die Unveränderlichkeit des Ausgabeplans war der eigentliche Punkt. [[waltz-fact-05-21m-limit-educated-guess]]
+
+Paradoxerweise existierte das harte 21-Millionen-Limit im Code zunächst gar nicht. Aufgrund einer C++-Eigenheit hätte der Halving-Algorithmus nach dem letzten Halving (~Jahr 2214) von vorne begonnen — die Subventionen wären wieder gestiegen. BIP42 (2014) schloss diese Lücke explizit, indem es die Ausgabe nach 64 Halvings auf null setzt (`if (halvings >= 64) return 0`). Technisch gesehen wurde das 21-Millionen-Limit erst 2014 im Code verankert. [[waltz-fact-12-bitcoin-21m-cap-bip42]]
 
 ## Related
 

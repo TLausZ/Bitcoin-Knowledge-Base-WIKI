@@ -1,8 +1,8 @@
 # Transaktionsgebühren und Mempool
 
 **Status:** established
-**Last updated:** 2026-06-06
-**Sources:** [[20210714_wieso-muss-ich-eine-transaktionsgebuehr-bezahlen-de]], [[20210804_was-ist-eigentlich-eine-utxo-de]]
+**Last updated:** 2026-06-27
+**Sources:** [[20210714_wieso-muss-ich-eine-transaktionsgebuehr-bezahlen-de]], [[20210804_was-ist-eigentlich-eine-utxo-de]], [[waltz-bitcoin-facts]]
 
 ## Summary
 
@@ -31,6 +31,10 @@ Nützliche Mempool-Explorer:
 - **jochen-hoenicke.de** — zeitliche Entwicklung des Mempool-Volumens
 
 Das Grundmuster: Alle ~10 Minuten wird ein Block gefunden, die höchstbietenden Transaktionen werden herausgenommen. Im Diagramm ist das als periodischer Einschnitt von oben sichtbar. In Hochlastphasen (starke Preisvolatilität, viele neue Nutzer) füllt sich der Mempool schnell und Gebühren steigen deutlich.
+
+### Entstehungsgeschichte der Gebühren-Schätzung
+
+In den ersten Jahren von Bitcoin waren Transaktionsgebühren hardcodiert — sie wurden mit jeder neuen Softwareversion manuell angepasst, um Marktbedingungen näherungsweise abzubilden. Erst im Februar 2015 enthielt Bitcoin Core 0.10.0 den ersten algorithmischen Fee-Estimator: Er beobachtet, in welchem Block Transaktionen mit bestimmten Gebührensätzen bestätigt wurden, und leitet daraus Vorhersagen ab. Seither hat sich die Methodik deutlich verfeinert, aber das Grundprinzip — empirische Beobachtung statt Hardcode — stammt aus Version 0.10.0. [[waltz-fact-25-bitcoin-core-fee-estimator]]
 
 ### Zeitpräferenz und Strategie
 

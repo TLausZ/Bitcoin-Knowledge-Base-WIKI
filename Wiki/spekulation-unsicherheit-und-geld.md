@@ -1,8 +1,8 @@
 # Spekulation, Unsicherheit und Geld
 
 **Status:** established
-**Last updated:** 2026-06-22
-**Sources:** [[aprycot-jeder-ist-ein-spekulant]], [[aprycot-node-weltordnung]]
+**Last updated:** 2026-06-25
+**Sources:** [[aprycot-jeder-ist-ein-spekulant]], [[aprycot-node-weltordnung]], [[aprycot-mattes-ergodizitaet-von-geld]]
 
 ## Summary
 
@@ -71,6 +71,18 @@ Der Unternehmer ist bei Mises derjenige, der Fallwahrscheinlichkeiten berufsmä�
 In einem funktionierenden Markt ohne staatliche Eingriffe korrigieren Unternehmerverluste Fehlallokationen schnell: Wer konsistent falsch liegt, verliert Kapital und muss es anderen überlassen. Das System ist ein dezentrales Entdeckungsverfahren für die Frage, was die Zukunft bringen wird. [[aprycot-jeder-ist-ein-spekulant]]
 
 Bitcoin-Mining ist eine Form unternehmerischer Spekulation: auf Energiekosten, Hardwareeffizienz, künftigen BTC-Preis und Blockreward. Nichts davon ist sicher; alles davon ist begründbar.
+
+### Ergodizität und totaler Verlust (Mattes)
+
+Leopold Mattes bringt einen mathematischen Begriff aus der Thermodynamik in die Geldtheorie: Ergodizität. Ein System ist ergodisch, wenn der Zeitmittelwert eines Prozesses — also das Ergebnis eines Akteurs über viele Runden — gleich dem Ensemble-Mittelwert ist, d.h. dem Durchschnittsergebnis über viele Akteure in einem einzigen Moment. Für ergodische Systeme macht es keinen Unterschied, ob man viele Experimente nacheinander oder viele parallele Experimente gleichzeitig betrachtet. [[aprycot-mattes-ergodizitaet-von-geld]]
+
+Der entscheidende Unterschied zeigt sich am Kontrast zwischen Würfelspiel und Russischem Roulette. Beim Würfelspiel: Wer 100-mal wirft, erhält im Mittel dasselbe Ergebnis wie 100 Menschen, die gleichzeitig je einmal würfeln. Das Spiel ist ergodisch. Russisches Roulette: Wer 100-mal spielt, ist mit hoher Wahrscheinlichkeit tot. Die 100 parallelen Spieler verlieren im Mittel nur einen Sechstel. Das Spiel ist nicht ergodisch — weil ein einziger Totalverlust alle weiteren Versuche ausschließt.
+
+Das Kernprinzip: Jede noch so kleine Wahrscheinlichkeit eines Totalverlusts führt über einen ausreichend langen Zeithorizont zum Totalverlust mit Sicherheit. Für einen einzelnen Akteur, der lange genug spielt, ist Nicht-Ergodizität mit Totalverlust gleichbedeutend.
+
+Mattes wendet das auf Vermögensklassen an: Aktien, Anleihen und Kredite sind nicht-ergodisch. Unternehmen gehen bankrott, Staaten defaulten, Gläubiger werden nicht bedient. Über Generationen betrachtet tendiert die Ausfallwahrscheinlichkeit aller dieser Instrumente gegen hundert Prozent. Solides Geld hingegen — Gold, historisch — ist „schwach ergodisch": Die erwartete künftige Kaufkraft entspricht ungefähr der heutigen. Kein Totalverlustrisiko eingebaut. Perfekt ergodisches Geld wäre eines, das dieses Risiko vollständig auf null reduziert.
+
+Fiat-Währungen scheiden schon strukturell aus: Eingebaute Inflation bedeutet, dass der Zeitmittelwert der Kaufkraft systematisch unter dem Anfangswert liegt. Der Dollar von 1971 hatte bis 2020 über 85% seiner Kaufkraft verloren. Das ist kein Zufall, sondern Konstruktionsmerkmal. Bitcoin dagegen hat kein Totalverlustrisiko durch Inflation — das Angebot ist fix, kein Emittent kann zusätzliche Einheiten schaffen. Ob Bitcoin strikt ergodisch ist, hängt davon ab, ob das Netzwerk langfristig Bestand hat; aber die Angebotsseite allein ist so konzipiert, dass sie keinen systematischen Kaufkraftverlust erzeugt. [[aprycot-mattes-ergodizitaet-von-geld]]
 
 ## Related
 

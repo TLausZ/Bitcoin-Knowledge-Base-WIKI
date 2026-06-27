@@ -1,8 +1,8 @@
 # Elliptische Kurven-Kryptographie in Bitcoin
 
 **Status:** established
-**Last updated:** 2026-06-20
-**Sources:** [[learnmeabitcoin-technical-cryptography-overview]], [[learnmeabitcoin-technical-cryptography-hash-function]], [[learnmeabitcoin-technical-cryptography-elliptic-curve]], [[learnmeabitcoin-technical-cryptography-elliptic-curve-ecdsa]], [[learnmeabitcoin-technical-cryptography-elliptic-curve-schnorr]], [[2018_Grokking-Bitcoin_Rosenbaum]]
+**Last updated:** 2026-06-27
+**Sources:** [[learnmeabitcoin-technical-cryptography-overview]], [[learnmeabitcoin-technical-cryptography-hash-function]], [[learnmeabitcoin-technical-cryptography-elliptic-curve]], [[learnmeabitcoin-technical-cryptography-elliptic-curve-ecdsa]], [[learnmeabitcoin-technical-cryptography-elliptic-curve-schnorr]], [[2018_Grokking-Bitcoin_Rosenbaum]], [[waltz-bitcoin-facts]]
 
 ## Summary
 
@@ -37,6 +37,8 @@ Für Bitcoin ist Preimage Resistance entscheidend beim Mining (niemand kann das 
 Das clevere an Bitcoin: Die Unvorhersehbarkeit des Hash-Ergebnisses ist die Grundlage des Minings. Satoshi erkannte, dass man damit eine dezentrale Lotterie bauen kann — kein Block-Ersteller ist je sicher, bevor er den Hash berechnet.
 
 ### secp256k1 — Die Elliptische Kurve Bitcoins
+
+Bitcoin war das erste Projekt überhaupt, das secp256k1 in der Praxis einsetzte. Zum Zeitpunkt der Veröffentlichung empfahlen NIST und ANSI die Kurve secp256**r1** (auch bekannt als P-256). Satoshis Wahl von secp256**k1** gilt bis heute als ungewöhnlich — einige spekulieren, er misstraute der NIST-Empfehlung (möglicherweise wegen NSA-Einfluss), andere verweisen auf theoretische Effizienzvorteile der Koblitz-Kurve, die 2009 praktisch noch nicht realisiert waren. Heute ist secp256k1 wegen Bitcoin weit verbreitet und gut analysiert. [[waltz-fact-26-secp256k1-elliptic-curve]]
 
 Die Kurvengleichung: `y² = x³ + 7` über einem endlichen Feld.
 

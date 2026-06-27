@@ -1,8 +1,8 @@
 # Energiestandard und Proof of Work
 
 **Status:** established
-**Last updated:** 2026-06-22
-**Sources:** [[aprycot-henry-ford-energiewaehrung]]
+**Last updated:** 2026-06-27
+**Sources:** [[aprycot-henry-ford-energiewaehrung]], [[Seetee Aktionärsbrief _ Kjell Inge Røkke.md]]
 
 ## Summary
 
@@ -54,14 +54,26 @@ Der Artikel erschien in der New York Tribune Inc. am 4. Dezember 1921 — mitten
 
 Ford und Edison waren in den frühen 1920er Jahren bekannte Kritiker des Zentralbanksystems und der Anleihenfinanzierung. Ford's Vorwurf, dass internationale Banken Kriege als Kreditmarkt nutzen, war für die damalige Zeit eine radikale, aber nicht marginale Position.
 
+### Bitcoin als wirtschaftliche Batterie (Seetee, 2021)
+
+Kjell Inge Røkke, Mehrheitsinhaber der norwegischen Industriegruppe Aker ASA, gründete im März 2021 Seetee — eine Tochtergesellschaft mit 500 Mio. NOK Startkapital, die alle liquiden Vermögenswerte in Bitcoin hält. Sein Aktionärsbrief beschreibt eine explizite Erweiterung des Energiestandard-Gedankens.
+
+Røkkes Kernthese: Bitcoin ist eine "lastausgleichende wirtschaftliche Batterie". Strom aus Wind, Solar und Wasserkraft ist oft an Orten und zu Zeiten verfügbar, wo keine stabile lokale Nachfrage besteht. Klassische Stromspeicher (Lithium-Batterien) sind teuer und standortgebunden. Bitcoin-Mining monetarisiert diesen "gestrandeten" oder "fluktuierenden" Strom — überall, jederzeit, ohne Infrastruktur für lokalen Konsum. Der dabei entstandene Bitcoin ist ein transportables Energieäquivalent, das überall genutzt werden kann.
+
+Seetees Strategie war dreigeteilt: Bitcoin als Reserveanlage halten (Hodler-Strategie), Mining-Betriebe mit erneuerbarer Energie aufbauen, und in Bitcoin-Ökosystem-Unternehmen investieren. Røkke nannte besonders Micropayments als Zukunftsthema — die Fähigkeit, Kleinstzahlungen ohne Mittelsmann abzuwickeln, könnte Geschäftsmodelle ermöglichen, die heute an Transaktionskosten scheitern.
+
+Das Seetee-Modell ist ein Unternehmensbeispiel für das, was Ford 1921 konzeptuell beschrieb: Energie als Währungsanker, der nicht von internationalen Finanzakteuren kontrolliert werden kann.
+
 ## Related
 
 - [[bitcoin-mining-umwelt]]
 - [[bitcoin-spieltheorie-und-anreize]]
 - [[bitcoin-recht-sprache-geld]]
 - [[geldgeschichte-und-sound-money]]
+- [[bitcoin-adoption-reise]]
 
 ## Open Questions
 
 - Existieren andere historische Vorläufer des Energiestandard-Gedankens vor Ford?
 - Wie unterscheidet sich Bitcoins energetische Verankerung von staatlichen Energiewährungen, wie Ford sie vorschlug?
+- Hat Seetee seine ursprüngliche Strategie (500M NOK, Mining-Fokus) beibehalten?
