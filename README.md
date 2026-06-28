@@ -20,11 +20,9 @@ A personal second brain for Bitcoin — compiled wiki articles and BIP summaries
 
 ## What's here
 
-**`Wiki/`** — ~150 articles on Bitcoin fundamentals, self-custody, economics, privacy, and the ecosystem. All articles are written in German. Sources span a range of blogs, FAQs, books, papers, and historical texts — from early cypherpunk writing to recent technical deep-dives.
+**`Wiki/`** — ~380 articles, all in German. This includes ~170 topic articles on Bitcoin fundamentals, self-custody, economics, privacy, and the ecosystem, plus ~210 BIP summaries (BIP-0001 through BIP-0451), each distilled into a structured article with status, summary, and open questions. Sources span blogs, FAQs, books, papers, and historical texts — from early cypherpunk writing to recent technical deep-dives.
 
 Topics covered include hardware wallets, seed phrases, multisig, and backup strategies; the UTXO model, transaction fees, mempool, SegWit, and Taproot; Lightning Network, splicing, rebalancing, and privacy; CoinJoin, silent payments, address reuse, and opsec; Bitcoin monetary theory, Austrian economics, and game theory; and mining, proof-of-work, soft forks, and consensus rules.
-
-**`BIPs/Wiki/`** — summaries of ~200 Bitcoin Improvement Proposals (BIP-0001 through BIP-0451), each distilled into a structured article with status, summary, and open questions.
 
 ## Peer-reviewed energy & mining research
 
