@@ -1,8 +1,8 @@
 # Segregated Witness (SegWit)
 
 **Status:** established
-**Last updated:** 2026-06-20
-**Sources:** [[20151221_bip-0141]], [[learnmeabitcoin-beginners-guide-segwit]], [[learnmeabitcoin-technical-upgrades-segregated-witness]], [[blocksizewar]], [[2018_Grokking-Bitcoin_Rosenbaum]]
+**Last updated:** 2026-06-28
+**Sources:** [[20151221_bip-0141]], [[learnmeabitcoin-beginners-guide-segwit]], [[learnmeabitcoin-technical-upgrades-segregated-witness]], [[blocksizewar]], [[2018_Grokking-Bitcoin_Rosenbaum]], [[alex-waltz-first-block-over-1mb]]
 
 ## Summary
 
@@ -59,6 +59,12 @@ Dass Miner (nicht Nutzer oder Entwickler) die Entscheidung treffen, liegt an der
 Als Soft Fork betrachten Non-Upgraded-Nodes alle Witness-Programme als "anyone-can-spend" — technisch gültig, aber gefährlich, weshalb ein Upgrade stark empfohlen wird. Nicht-upgegradete Wallets können Bitcoin von SegWit-Adressen empfangen und über P2SH-Adressen senden, aber keine Native-SegWit-Adressen validieren.
 
 SegWit-Nodes streifen für nicht-upgegradete Nachbar-Nodes die Witness-Daten aus Transaktionen — diese sehen eine "abgespeckte" Version ohne Signaturen, bleiben aber synchron.
+
+### Block 481.947: Erster Block über 1 MB
+
+SegWit wurde am 24. August 2017 in Block 481.824 aktiviert. Dieser enthielt 2 SegWit-Transaktionen, erkennbar an Adressen mit „bc1q"-Präfix. Der erste Block, der die 1-MB-Grenze tatsächlich überschritt, war Block 481.947, gemined am 25. August 2017 von BitFury mit 1,03 MB.
+
+Der Witness-Merkle-Root wird im Coinbase-Script als `OP_RETURN` committet — erkennbar am String `aa21a9ed`. Es sind nicht die Signaturen selbst, sondern ihr Merkle Root, der dort gespeichert wird (die Signaturen würden schlicht nicht passen).
 
 ## Related
 

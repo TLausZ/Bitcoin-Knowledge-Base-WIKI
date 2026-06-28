@@ -2,7 +2,7 @@
 
 **Status:** established
 **Last updated:** 2026-06-25 (Pass 53: CoinJoin-Rechtslage + Lightning/Liquid-Swaps)
-**Sources:** [[20240508_was-ist-eigentlich-ein-coinjoin]], [[20240606_payment-codes-bitcoin-adressen-privat-austauschen]], [[sparrowwallet-Spending Privately]], [[Das Privacy Handbuch – Timo Volkov (2025)]]
+**Sources:** [[20240508_was-ist-eigentlich-ein-coinjoin]], [[20240606_payment-codes-bitcoin-adressen-privat-austauschen]], [[sparrowwallet-Spending Privately]], [[Das Privacy Handbuch – Timo Volkov (2025)]], [[alex-waltz-joinmarket]]
 
 ## Summary
 
@@ -46,7 +46,13 @@ Im April 2024 wurden die Samourai-Wallet-Gründer in den USA verhaftet — Vorwu
 
 CoinJoin selbst ist nicht illegal. Aber zentrale Koordinierungsserver können als Geldtransmitter eingestuft werden — und deren Betreiber haftbar gemacht werden. Wer CoinJoin nutzt, sollte wissen, dass manche Börsen oder Dienste Wallets mit CoinJoin-Vorgeschichte ablehnen oder markieren.
 
-JoinMarket bleibt als dezentrale Alternative ohne zentralen Koordinator verfügbar, erfordert aber mehr technisches Know-how.
+JoinMarket bleibt als dezentrale Alternative ohne zentralen Koordinator verfügbar, erfordert aber mehr technisches Know-how. Mehr Details: [[joinmarket]].
+
+### JoinMarket: Maker/Taker und Fidelity Bonds
+
+JoinMarket löst das Koordinationsproblem über ein Marktmodell. **Maker** stellen Liquidität bereit, inserieren im Order Book und kassieren eine Gebühr fürs Warten. **Taker** zahlen die Gebühr und joinen sofort. Das Ergebnis ist ein System, das immer Liquidität bereitstellt, weil jemand dafür bezahlt wird zu warten.
+
+Gegen Sybil-Angriffe (ein Angreifer füllt den Markt mit Fake-Makers) schützen **Fidelity Bonds**: Maker können Bitcoin on-chain per Timelock sperren und diesen Bond neben dem CoinJoin-Angebot annoncieren. Die Sperre ist trustless (Coins bleiben beim Maker), aber die verlorene Liquidität der Zeit ist ein echter Opferpreis. Taker bevorzugen Maker mit Fidelity Bond — womit der Angriff exponentiell teurer wird, je mehr Fake-Slots ein Angreifer kaufen will. Das Konzept wurde 2013 von Peter Todd entwickelt.
 
 ### Lightning- und Liquid-Swaps als Alternative zu CoinJoin
 

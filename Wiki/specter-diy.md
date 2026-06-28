@@ -1,8 +1,8 @@
 # Specter DIY
 
 **Status:** established
-**Last updated:** 2026-06-25 (Shield Metal Supplement ergänzt)
-**Sources:** [[Specter-Hardware-Wallet-Anleitung_v1_0_0]], [[Specter-Shield-Metal-Manual-part_EN_v1_0_0]], [[Specter DIY – Testbericht zur ersten DIY Bitcoin Hardware Wallet]], [[specter-diy-docs/security]], [[specter-diy-docs/shopping]], [[specter-diy-docs/assembly]], [[specter-diy-docs/quickstart]], [[specter-diy-docs/communication]], [[specter-diy-docs/simulator]], [[specter-diy-docs/roadmap]], [[20220309_bitbox02-multisig-specter-desktop-de]]
+**Last updated:** 2026-06-27 (USB-Befehlssatz, SD-Card-Protokoll, offizielle Docs ergänzt)
+**Sources:** [[Specter-Hardware-Wallet-Anleitung_v1_0_0]], [[Specter-Shield-Metal-Manual-part_EN_v1_0_0]], [[Specter DIY – Testbericht zur ersten DIY Bitcoin Hardware Wallet]], [[specter-diy-introduction]], [[specter-diy-faq]], [[specter-diy-shopping]], [[specter-diy-assembly]], [[specter-diy-shield]], [[specter-diy-shield-lite]], [[specter-diy-quickstart]], [[specter-diy-communication]], [[specter-diy-roadmap]], [[20220309_bitbox02-multisig-specter-desktop-de]]
 
 ## Summary
 
@@ -67,6 +67,26 @@ Der PSBT-Signing-Ablauf läuft so: Die Software-Wallet erstellt eine unsignierte
 Für die Adressverifizierung wird der QR-Code-Inhalt `bitcoin:<address>?index=<index>` gescannt; das Gerät leitet die Adresse aus allen gespeicherten Wallet-Descriptoren ab und zeigt die passende an — inklusive Wallet-Name und Adressnummer.
 
 Wallets werden per QR mit dem Befehl `addwallet <name>&<descriptor>` importiert. Descriptors folgen dem Bitcoin-Core-Standard, ergänzt um Miniscript-Unterstützung.
+
+Beim PSBT-Signing: Das Gerät sendet nur die globale Transaktion und die Partial Signatures zurück — alle anderen PSBT-Felder werden entfernt, um die QR-Code-Größe zu minimieren. Die Host-Software muss die signierte PSBT mit der ursprünglichen PSBT zusammenführen. Fingerprint `00000000` in der BIP32-Derivation wird durch den echten Geräte-Fingerprint ersetzt, was die Kompatibilität mit Software-Wallets verbessert, die den Fingerprint nicht kennen.
+
+#### USB-Befehlssatz
+
+USB-Kommunikation läuft über menschenlesbare Klartextnachrichten (einfachere Fehlersuche als binäre Protokolle). Jeder Befehl wird mit `\r` oder `\r\n` abgeschlossen:
+
+| Befehl | Funktion |
+|---|---|
+| `fingerprint` | Hex-Fingerprint des Root-Keys |
+| `xpub <derivation>` | xpub am angegebenen Ableitungspfad (z.B. `xpub m/84h/1h/0h`) |
+| `sign <psbt>` | Nutzer wird zur Bestätigung des PSBT aufgefordert |
+| `showaddr <type> <derivation> [witness_script]` | Zeigt Adresse an; type: `wpkh`, `sh-wpkh`, `pkh`, `sh`, `sh-wsh`, `wsh` |
+| `importwallet <name>&<descriptor>` | Nutzer wird zur Bestätigung der neuen Wallet aufgefordert |
+
+USB-Kommunikation ist standardmäßig deaktiviert. Aktivierung unter **Device settings → Communication → USB communication**.
+
+#### SD-Karte
+
+`.psbt`- und `.txt`-Dateien auf der SD-Karte werden identisch zu USB- oder QR-Eingaben verarbeitet — sie können eine Transaktion, einen Wallet-Import-Befehl oder einen Adressverifikationsbefehl enthalten.
 
 #### Firmware-Verifikation und Secure Boot
 

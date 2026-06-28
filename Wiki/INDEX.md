@@ -1,9 +1,10 @@
 # Bitcoin KB — Wiki Index
 
-Alle Artikel alphabetisch. Stand: 2026-06-27 (nach Health-Check: 365 Artikel, 2 geplant ohne Datei)
+Alle Artikel alphabetisch. Stand: 2026-06-28 (Compile-Pass: +12 neue Artikel, 6 aktualisiert)
 
 | Artikel | Status | Beschreibung |
 |---------|--------|-------------|
+| [[bitcoin-adoptionsstudie-2026-dach]] | established | Rochel/Oberwasser 2026: n=35 DACH-Tiefen-Interviews, 6 Käufersegmente, 5 Mismatch-Heuristiken, Jobs-to-be-Done-Methodik. Kernbefund: Scheitern an Angebots-Job-Mismatch, nicht an Technologie. Pull-Mechaniken, Anti-Befunde, Champion-Triade für institutionelle Adoption. |
 | [[bitcoin-adoption-reise]] | established | Gigi: 6-Schritte-Modell der individuellen Bitcoin-Adoption (kaufen → halten → stapeln → ausgeben → verdienen → Fiat fallen lassen); El Salvador als Schritt 4/5; Stufe 0: Omnipräsenz. |
 | [[bitcoin-als-basisgeld]] | established | Parker Lewis GTS: Wirtschaftliche Ungleichheit hat monetäre Ursache (Cantillon). Keine politische Lösung für ökonomisches Problem. Bitcoin repariert das Fundament — parteiübergreifend. Maxwell: Cantillon'sche Oligarchie, Petrodollar, MMT, die politische Linke und Bitcoin. |
 | [[bitcoin-als-information]] | established | Gigi: Bitcoin = Text/Mathematik/Information; privater Schlüssel = 256-Bit-Zahl (Münzwurf); Transaktion = Nachricht; Mining = Zahlenraten; Verbot müsste Denken kriminalisieren; illegale Zahlen als Präzedenz; Junger v. Daley (2000). |
@@ -55,6 +56,17 @@ Alle Artikel alphabetisch. Stand: 2026-06-27 (nach Health-Check: 365 Artikel, 2 
 | [[bip-85-child-keys]] | emerging | Aus einem Backup mehrere unabhängige Wallets ableiten — Hot Wallets, Geschenke, Passwörter |
 | [[bitcoin-adresstypen]] | established | Legacy P2PKH (1...), P2SH (3...), Native SegWit P2WPKH (bc1q, ~38% günstiger, Standard), Taproot P2TR (bc1p); alle interoperabel; ein Seed für alle Typen |
 | [[bitcoin-block-header]] | established | 80-Byte-Datensatz am Anfang jedes Blocks: 6 Felder (Version, Previous Block Hash, Merkle Root, Timestamp, Bits, Nonce); HASH256 (doppeltes SHA-256) bestimmt gültigen Block; Block-Hash kein Headerfeld, sondern abgeleitet |
+| [[bitcoin-block-zeitregeln]] | established | Drei Zeitregeln in Bitcoin: MedianPast Time (Konsens), Future Block Time (Policy, 2h), Local Client (90min); Off-by-1-Bug in Difficulty; Time Warp Attack; Satoshi wollte NTP, es kam nie |
+| [[bitcoin-burn-address]] | established | Burn Address 1111...4oLvT2 — Adressableitung (privkey→pubkey→Base58), warum Coins dort dauerhaft verloren sind, Prüfsumme |
+| [[bitcoin-chainwork]] | established | Kumulativer Proof-of-Work (~3×10²⁸ Hashes, Stand 2024); getblock-Abfrage; exponentielles Wachstum; warum „longest chain" falsch ist und chainwork zählt |
+| [[bitcoin-core-client-history]] | established | Bitcoin Core Namensfindung 2013/14; v0.1 Poker-Spiel und Marktplatz; Satoshis November-2008-Version und ihre 10 Unterschiede zum finalen Bitcoin |
+| [[bitcoin-entropy-rng]] | established | Entropie für Bitcoin-Seeds; radioaktiver Zerfall als echter Zufallsgenerator (Americium-241, Geigerzähler, Raspberry Pi); Limitierungen; Vergleich mit TRNG |
+| [[bitcoin-ip-transaktionen]] | established | Pay-to-IP als ursprüngliche Standard-Zahlmethode; warum entfernt (MitM, keine Auth); moderne Nachfolger BIP47/BIP78/BIP352/BTCPay |
+| [[bitcoin-seed-cracking]] | established | Praktisches BIP39-Seed-Cracking eines ETH-Bounties: BTCRecover, 16 GPU-Server (vastAI), 1M seeds/s — Implikationen für Seed-Sicherheit |
+| [[bip39-schwache-seeds]] | established | Schwache BIP39-Seeds (241 Einwort-Mnemonics inkl. „beef"); BIP39-Mechanismus; Derivationspfad-Problem; Electrum-Seeds als Alternative |
+| [[coinbase-duplikat-transaktionen]] | established | Zwei Coinbase-TXs mit gleicher TXID (2010); warum möglich; BIP30 und BIP34-Fix (Block-Height im Coinbase) |
+| [[double-sha256]] | established | Bitcoin hasht überall doppelt SHA256; Satoshis Begründung (Length-Extension-Attacks); ob es Sinn ergibt; neuere Protokolle nutzen einfaches SHA-256 |
+| [[joinmarket]] | established | JoinMarket: dezentrales CoinJoin, Maker/Taker-Modell, Fidelity Bonds gegen Sybil-Angriffe, JAM-UI |
 | [[bitcoin-blockchain-struktur]] | established | Blockchain als geteilte Datei aller Transaktionen; Block-Header (Version, Previous Block, Merkle Root, Time, Target, Nonce); Sicherheit durch Hash-Verkettung; Kandidatenblock; lokale Speicherpfade und blk*.dat-Format |
 | [[bitcoin-netzwerk-und-nodes]] | established | P2P-Netzwerk aus Nodes; drei Jobs (Regeln, Weitergabe, Blockchain speichern); Mempool; offen für alle; Dezentralisierung als Kernmerkmal; eigener Node = kein Vertrauen nötig |
 | [[bitcoin-datenformate]] | established | Hexadezimal, Bytes, Little-Endian, Natural vs. Reverse Byte Order (TXIDs/Block-Hashes), CompactSize |

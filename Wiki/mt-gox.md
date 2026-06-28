@@ -1,8 +1,8 @@
 # Mt. Gox
 
 **Status:** established
-**Last updated:** 2026-06-27
-**Sources:** [[alex-waltz-mtgox-full-story]], [[bitcoin-fruehgeschichte]], [[selbstverwahrung-und-boersenrisiken]]
+**Last updated:** 2026-06-28
+**Sources:** [[alex-waltz-mtgox-full-story]], [[bitcoin-fruehgeschichte]], [[selbstverwahrung-und-boersenrisiken]], [[alex-waltz-bitcoin-largest-loss-2609btc]]
 
 ## Summary
 
@@ -14,7 +14,7 @@ Mt. Gox war von 2010 bis 2014 die dominante Bitcoin-Börse und wickelte zeitweis
 
 Mt. Gox begann 2007 als Handelsbörse für Magic: The Gathering-Karten (*Magic: The Gathering Online eXchange*). Jed McCaleb baute die Plattform 2010 zu einer Bitcoin-Börse um. Im März 2011 verkaufte er sie an Mark Karpelès, als Bitcoin noch bei rund 1 US-Dollar handelte.
 
-Karpelès übernahm damit auch die bekannt schwachen Sicherheitspraktiken der Plattform — in einem Markt, der kurz danach explodieren sollte. Bereits im Juni 2011 kompromittierte ein Angreifer einen Admin-Account, manipulierte den Preis kurz auf $0.01 und stahl ~2.000 BTC. Im Oktober 2011 schickte ein Software-Fehler weitere 2.609 BTC durch ungültige Adressen in den Abgrund. Beide Vorfälle wurden nicht öffentlich kommuniziert. [[alex-waltz-mtgox-full-story]]
+Karpelès übernahm damit auch die bekannt schwachen Sicherheitspraktiken der Plattform, in einem Markt, der kurz danach explodieren sollte. Bereits im Juni 2011 kompromittierte ein Angreifer einen Admin-Account, manipulierte den Preis kurz auf $0.01 und stahl ~2.000 BTC. Im Oktober 2011 schickte ein Software-Fehler weitere 2.609 BTC durch ungültige Adressen in den Abgrund. Beide Vorfälle wurden nicht öffentlich kommuniziert. [[alex-waltz-mtgox-full-story]]
 
 ### Der Kollaps: Chronologie Februar 2014
 
@@ -71,6 +71,14 @@ Im März 2014 wurden ~200.000 BTC in alten Cold-Storage-Wallets wiedergefunden. 
 Mt. Gox war für Jahre die einzige reale Möglichkeit, Bitcoin zu kaufen. Ohne sie hätte sich der Markt kaum so schnell entwickelt. Gleichzeitig machte der Kollaps die Kosten von Drittverwahrung unübersehbar.
 
 Das Proof-of-Keys-Prinzip — "not your keys, not your Bitcoin" — hat in Mt. Gox seinen stärksten historischen Beleg. Wer Coins auf einer Börse lässt, hält eine Forderung, kein Bitcoin. Dieser Unterschied kostet im Ernstfall alles.
+
+### Mark Karpelès' 2.609-BTC-Fehler
+
+Am 28. Oktober 2011 — noch in der Zeit als Mt. Gox florierte — verlor Mark Karpelès (CEO, Pseudonym MagicalTux) 2.609 BTC dauerhaft durch einen technischen Fehler. In Block 150.951 landeten 23 Transaktionen mit einem Bitcoin-Script, das eine unmögliche Bedingung enthielt: Die Coins sollten nur ausgebbar sein für einen Public Key, dessen RIPEMD-160-Hash 1 Byte lang ist. RIPEMD-160 gibt immer 20 Byte aus — die Bedingung kann nie erfüllt werden.
+
+Karpelès räumte den Fehler im Mt. Gox IRC-Channel ein. Zum Zeitpunkt des Fehlers waren die Coins ~\$10.957 wert; heute entsprechen sie ~\$120 Millionen. Dies ist der grösste bekannte einzelne Coinverlust durch einen Script-Fehler in der Bitcoin-Geschichte.
+
+Das Bitcoin-Skript-System prüft beim Empfangen keine Script-Korrektheit — erst beim Ausgeben wird geprüft, ob die Bedingung erfüllt werden kann. Adressen haben eine Prüfsumme, aber das zugrundeliegende Script hat keine solche Validierung.
 
 ## Related
 

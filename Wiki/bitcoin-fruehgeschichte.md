@@ -111,6 +111,24 @@ Nach dem Inflation-Bug von August 2010 baute Satoshi ein Alert-System in Bitcoin
 
 Der Generate-Coins-Button im Original-Client verschwand mit Version 0.3.22 im Juni 2011 — als Mining zu spezialisiert wurde, um ihn noch sinnvoll über eine GUI zu bedienen. [[waltz-fact-04-generate-coins-button]]
 
+### Die November-2008-Version: Was Satoshi noch änderte
+
+Bevor Bitcoin am 8. Januar 2009 öffentlich wurde, existierte eine interne Testversion (November 2008). Zehn wesentliche Unterschiede zwischen ihr und dem finalen Bitcoin sind dokumentiert: [[alex-waltz-satoshi-november-2008-version]]
+
+- Blockzeit war 15 statt 10 Minuten
+- Difficulty-Anpassung alle 30 Tage (2.880 Blöcke), nicht 14 Tage (2.016 Blöcke)
+- 1 Million Einheiten pro Coin statt 100 Millionen Satoshis
+- Halving alle 100.000 Blöcke mit 100 Coin Belohnung, statt alle 210.000 Blöcke mit 50 BTC
+- Genesis-Block datiert auf den 10. September 2008 — ohne die berühmte Times-Headline
+- Die Blockchain hiess „Timechain"
+- Coinbase-Coins waren sofort ausgebbar (keine 100-Block-Wartezeit)
+- PoW-Anforderung war minimal (nur Satoshi testete)
+- Fees waren fest auf 10.000 Einheiten gesetzt
+
+Ausserdem startete Satoshi in der finalen Version das Mining erst, als andere Peers im Netzwerk waren — ein bewusster Schritt gegen Pre-Mining-Vorwürfe.
+
+Vollständige Aufschlüsselung zum Naming und Client-Aufbau: [[bitcoin-core-client-history]].
+
 ## Related
 
 - [[bitcoin-launch-januar-2009]]

@@ -1,8 +1,8 @@
 # Electrum Wallet
 
 **Status:** established
-**Last updated:** 2026-06-22 (Pass 34: Electrum-Server-Vergleich)
-**Sources:** [[20210107_bitbox02-electrum-anleitung-de]], [[20210531_erweiterte-electrum-funktionen-de]], [[sparrowwallet-Server Performance]]
+**Last updated:** 2026-06-28
+**Sources:** [[20210107_bitbox02-electrum-anleitung-de]], [[20210531_erweiterte-electrum-funktionen-de]], [[sparrowwallet-Server Performance]], [[alex-waltz-electrum-first-deterministic-wallet]]
 
 ## Summary
 
@@ -82,6 +82,16 @@ Fulcrum ist für persönlichen Einsatz die stärkste Wahl. Electrs ist die schne
 
 Ein wichtiger Unterschied zu Bitcoin Core mit Wallet: Electrum-Server speichern keine nutzerspezifischen Daten — nur einen allgemeinen Adress-Index aller Bitcoin-Transaktionen. Wallet-Details verbleiben ausschliesslich in der lokalen Wallet-Datei. Das macht einen eigenen Electrum Server datenschutztechnisch überlegen gegenüber Bitcoin Core im Wallet-Modus (der Public Keys und Saldo unverschlüsselt auf der Festplatte hält).
 
+### Geschichte: Erstes deterministisches Bitcoin-Wallet
+
+Electrum erschien am 5. November 2011 als erstes modernes Bitcoin-Wallet. Davor gab es nur Bitcoin Core (damals noch nicht so genannt) und einige verwahrerische Wallets. Electrum war das erste Wallet, das deterministische Schlüsselableitung bot.
+
+Vor Electrum generierte ein Wallet bei jedem Start neue, unabhängige private Schlüssel. Keine Verbindung zwischen ihnen, kein Restore-Mechanismus. Wer 100 Adressen genutzt hatte, musste 100 private Schlüssel sichern — und bei jedem neuen Wechsel der Schlüssel mehr.
+
+Electrums erster Seed nutzte ein eigenes 1.626-Wörter-Wörterbuch (aus Poesielisten auf Wikipedia gewählt, um Patent-Konflikte zu vermeiden) — das war 2011, zwei Jahre vor BIP39. In Electrum 2.0 (2015) wurde das System überarbeitet: Seitdem enthält der Seed selbst ein Versions-System, das kodiert, um welche Art von Wallet es sich handelt. Das macht Electrum-Seeds bei der Recovery weniger mehrdeutig als BIP39-Seeds, weil der Derivationspfad nicht separat aufbewahrt werden muss.
+
+BIP39 wurde trotzdem De-facto-Standard, weil es von nahezu allen anderen Wallets übernommen wurde. Electrum unterstützt BIP39-Seeds seit Version 4 optional — empfiehlt aber weiterhin den eigenen Seed-Typ. Mehr zu den Schwächen von BIP39: [[bip39-schwache-seeds]].
+
 ## Related
 
 - [[hd-wallets-und-schluesselableitung]]
@@ -89,7 +99,9 @@ Ein wichtiger Unterschied zu Bitcoin Core mit Wallet: Electrum-Server speichern 
 - [[utxo-modell-und-konsolidierung]]
 - [[coinjoin-und-on-chain-privatsphäre]]
 - [[transaktionsgebuehren-und-mempool]]
+- [[bip39-schwache-seeds]]
 
 ## Open Questions
 
 - Wie verhält sich Electrum zu neuen Bitcoin-Protokollfunktionen wie Silent Payments oder Taproot-basierten Multisig-Setups?
+- Warum hat BIP39 trotz seiner Schwächen beim Derivationspfad den Electrum-Seed-Standard verdrängt?
