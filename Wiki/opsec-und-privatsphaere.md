@@ -116,7 +116,7 @@ Es gibt Situationen, wo offenes Sprechen über den eigenen Bitcoin-Besitz wichti
 - [[hardware-wallet-sicherheitsarchitektur]]
 - [[regulierung-tofr-aopp]]
 - [[no-kyc-bitcoin]]
-- [[coinjoin-und-on-chain-privatsphäre]]
+- [[coinjoin-und-on-chain-privatsphaere]]
 
 ## Open Questions
 

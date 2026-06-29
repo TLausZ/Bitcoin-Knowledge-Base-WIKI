@@ -42,9 +42,9 @@ Bitsurance ist kein Ersatz für gute Sicherheitspraktiken (sichere Backups, geog
 ## Related
 
 - [[hardware-wallet-sicherheitsarchitektur]]
-- [[opsec-und-privatsphäre]]
+- [[opsec-und-privatsphaere]]
 - [[wallet-backup-strategien]]
-- [[komplexität-ist-keine-sicherheit]]
+- [[komplexitaet-ist-keine-sicherheit]]
 
 ## Open Questions
 

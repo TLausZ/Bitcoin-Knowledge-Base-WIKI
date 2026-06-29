@@ -77,7 +77,7 @@ Wenn niemand weiß, dass man Bitcoin besitzt, oder niemand das Backup findet, si
 
 - [[hardware-wallet-sicherheitsarchitektur]]
 - [[bip-85-child-keys]]
-- [[opsec-und-privatsphäre]]
+- [[opsec-und-privatsphaere]]
 - [[diceware-und-seed-generierung]]
 - [[optionale-passphrase]]
 - [[multisig-und-kollaborative-verwahrung]]

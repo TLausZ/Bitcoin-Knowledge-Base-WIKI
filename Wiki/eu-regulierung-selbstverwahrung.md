@@ -39,7 +39,7 @@ AOPP (Address Ownership Proof Protocol) ist eine sauberere Alternative: Die Wall
 ## Related
 
 - [[regulierung-tofr-aopp]]
-- [[opsec-und-privatsphäre]]
+- [[opsec-und-privatsphaere]]
 - [[hardware-wallet-sicherheitsarchitektur]]
 
 ## Open Questions

@@ -97,7 +97,7 @@ BIP39 wurde trotzdem De-facto-Standard, weil es von nahezu allen anderen Wallets
 - [[hd-wallets-und-schluesselableitung]]
 - [[hardware-wallet-sicherheitsarchitektur]]
 - [[utxo-modell-und-konsolidierung]]
-- [[coinjoin-und-on-chain-privatsphäre]]
+- [[coinjoin-und-on-chain-privatsphaere]]
 - [[transaktionsgebuehren-und-mempool]]
 - [[bip39-schwache-seeds]]
 

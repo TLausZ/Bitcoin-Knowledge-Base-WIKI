@@ -56,7 +56,7 @@ Das Fazit der Analyse: Die Wahl des Kommunikationskanals ist primär eine Entsch
 ## Related
 
 - [[hardware-wallet-sicherheitsarchitektur]]
-- [[komplexität-ist-keine-sicherheit]]
+- [[komplexitaet-ist-keine-sicherheit]]
 - [[anti-klepto-und-supply-chain-sicherheit]]
 - [[multisig-und-kollaborative-verwahrung]]
 

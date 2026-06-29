@@ -2,7 +2,7 @@
 
 **Status:** established
 **Last updated:** 2026-06-20
-**Sources:** [[sparrow-wallet]], [[electrum-wallet]], [[utxo-modell-und-konsolidierung]], [[coinjoin-und-on-chain-privatsphäre]]
+**Sources:** [[sparrow-wallet]], [[electrum-wallet]], [[utxo-modell-und-konsolidierung]], [[coinjoin-und-on-chain-privatsphaere]]
 
 ## Summary
 
@@ -38,15 +38,15 @@ Coin Control funktioniert besser mit konsequentem UTXO-Labeling. Ohne Labels —
 
 ### Verhältnis zu CoinJoin
 
-CoinJoin verbessert Privatsphäre durch Vermischung mehrerer Nutzer in einer Transaktion. Coin Control ist eine Vorbereitung dafür: Nur die UTXOs, die in CoinJoin sollen, werden nicht eingefroren. Die anderen bleiben unangetastet. Ohne Coin Control riskiert man, in einem CoinJoin Coins zu verwenden, die man lieber getrennt halten wollte. [[coinjoin-und-on-chain-privatsphäre]]
+CoinJoin verbessert Privatsphäre durch Vermischung mehrerer Nutzer in einer Transaktion. Coin Control ist eine Vorbereitung dafür: Nur die UTXOs, die in CoinJoin sollen, werden nicht eingefroren. Die anderen bleiben unangetastet. Ohne Coin Control riskiert man, in einem CoinJoin Coins zu verwenden, die man lieber getrennt halten wollte. [[coinjoin-und-on-chain-privatsphaere]]
 
 ## Related
 
 - [[utxo-modell-und-konsolidierung]]
-- [[coinjoin-und-on-chain-privatsphäre]]
+- [[coinjoin-und-on-chain-privatsphaere]]
 - [[sparrow-wallet]]
 - [[bip-329-wallet-labels]]
-- [[opsec-und-privatsphäre]]
+- [[opsec-und-privatsphaere]]
 
 ## Open Questions
 

@@ -1,6 +1,6 @@
 # Open Questions & Gaps
 
-Offene Fragen, Lücken und Themen, die mehr Quellen benötigen. Stand: 2026-06-20 (nach Health Check 1 Follow-up)
+Offene Fragen, Lücken und Themen, die mehr Quellen benötigen. Stand: 2026-06-29 (Health Check 2)
 
 ## Fehlende Wiki-Artikel
 
@@ -18,9 +18,9 @@ Derzeit keine bekannten Lücken ausser den Kandidaten unten.
 
 **AOPP-Nachfolge:** Mehrere Schweizer Hersteller haben AOPP 2022 entfernt. Gibt es eine datenschutzkonforme Adressverifizierungslösung? `regulierung-tofr-aopp.md` deckt den Rückzug ab, aber keine Nachfolgelösung.
 
-**FROST-Implementierungen:** Wann werden MuSig2/FROST in gängigen Hardware-Wallet-Softwares breit verfügbar? `schnorr-und-taproot.md` und `multisig-grundlagen.md` erwähnen FROST als emerging — kein Update seit 2024.
+**FROST-Implementierungen:** Wann werden MuSig2/FROST in gängigen Hardware-Wallet-Softwares breit verfügbar? `taproot-musig2-frost.md` und `multisig-und-kollaborative-verwahrung.md` erwähnen FROST als emerging — kein Update seit 2024.
 
-**EU-Regulierung (MiCA/AML):** Stand nach März 2024? `eu-regulierung-und-datenschutz.md` endet dort. Neue Entwicklungen in `regulierung-tofr-aopp.md` partiell abgedeckt.
+**EU-Regulierung (MiCA/AML):** Stand nach März 2024? `eu-regulierung-selbstverwahrung.md` und `regulierung-tofr-aopp.md` enden dort. Neue Entwicklungen ausstehend.
 
 **Ark-Reifegrad:** `skalierung-lightning-ark-statechains.md` hat Stand Dez. 2025. Aktuelle Implementierungsfortschritte unklar.
 
@@ -32,6 +32,6 @@ Derzeit keine bekannten Lücken ausser den Kandidaten unten.
 
 - **Bitcoin-Einsteigerleitfaden** — 3 Blocktrainer-Quellen in RAW vorhanden, aber `bitcoin-fehlannahmen.md` und `bitcoin-kaufen-und-dca.md` decken die meisten Punkte bereits ab. Kandidat halten bis neue RAW-Quellen den Artikel deutlich bereichern würden.
 
-- **bitcoin-als-inflationsschutz** — Referenziert aus `bitcoin-als-strategische-reserve.md` (Related-Link). Bitcoin als Inflationsschutz (empirische Evidenz, Vergleich Gold/TIPS) verdient einen eigenständigen Artikel. Quellenlage im KB nach Compile-Pass 31 gut genug für einen Entwurf. Nächster Pass.
+- **bitcoin-als-inflationsschutz** — erledigt: Artikel existiert.
 
 - **bitcoin-kiosk-regulierung** — `Bitcoin_Kiosk_Paper_July_ 2025.pdf` (Eric Peterson, Satoshi Action, Juli 2025) in RAW vorhanden. US-spezifisches Nischenthema; Artikel erst dann, wenn weitere Policy-Quellen verfügbar.

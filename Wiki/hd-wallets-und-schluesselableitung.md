@@ -115,7 +115,7 @@ Die Schlüsseleigenschaft: Wer die Lightning-Entropie kennt, kann nicht auf den 
 - [[wallet-backup-strategien]]
 - [[optionale-passphrase]]
 - [[hardware-wallet-sicherheitsarchitektur]]
-- [[opsec-und-privatsphäre]]
+- [[opsec-und-privatsphaere]]
 - [[skalierung-lightning-ark-statechains]]
 
 ## Open Questions

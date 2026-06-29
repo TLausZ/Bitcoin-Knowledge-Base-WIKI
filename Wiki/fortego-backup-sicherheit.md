@@ -73,7 +73,7 @@ Vergleich mit anderen Ansätzen:
 - [[selbstverwahrung-und-boersenrisiken]]
 - [[wallet-backup-strategien]]
 - [[shamir-secret-sharing]]
-- [[opsec-und-privatsphäre]]
+- [[opsec-und-privatsphaere]]
 - [[biometrie-und-finanzueberwachung]]
 
 ## Open Questions

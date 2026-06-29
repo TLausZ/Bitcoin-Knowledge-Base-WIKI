@@ -52,7 +52,7 @@ Bitcoin ist kryptographisch mit denselben Mitteln gesichert, die Zimmermann und 
 
 - [[kryptoanarchismus-und-cypherpunks]]
 - [[cypherpunk-manifest]]
-- [[opsec-und-privatsphäre]]
+- [[opsec-und-privatsphaere]]
 - [[anti-klepto-und-supply-chain-sicherheit]]
 
 ## Open Questions

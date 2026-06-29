@@ -67,7 +67,7 @@ Drei Fehler kosten besonders oft Geld: (1) Aus Panik bei Kursrückgängen verkau
 
 ## Related
 
-- [[opsec-und-privatsphäre]]
+- [[opsec-und-privatsphaere]]
 - [[wallet-backup-strategien]]
 - [[hardware-wallet-sicherheitsarchitektur]]
 - [[payment-requests]]

@@ -143,7 +143,7 @@ Ein Electrum Server speichert — anders als Bitcoin Core mit Wallet — keine n
 - [[electrum-wallet]]
 - [[multisig-und-kollaborative-verwahrung]]
 - [[utxo-modell-und-konsolidierung]]
-- [[coinjoin-und-on-chain-privatsphäre]]
+- [[coinjoin-und-on-chain-privatsphaere]]
 - [[hd-wallets-und-schluesselableitung]]
 - [[airgap-und-kommunikationskanaele]]
 - [[hardware-wallet-einstieg]]

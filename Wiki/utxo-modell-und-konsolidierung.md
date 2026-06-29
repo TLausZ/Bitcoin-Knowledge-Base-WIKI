@@ -47,9 +47,9 @@ Alle Inputs einer Konsolidierungstransaktion werden miteinander verknüpft — e
 
 ## Related
 
-- [[coinjoin-und-on-chain-privatsphäre]]
+- [[coinjoin-und-on-chain-privatsphaere]]
 - [[coin-control-und-utxo-auswahl]]
-- [[opsec-und-privatsphäre]]
+- [[opsec-und-privatsphaere]]
 - [[konsensregeln-und-mempool-richtlinien]]
 
 ## Open Questions

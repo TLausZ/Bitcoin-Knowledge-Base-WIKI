@@ -53,8 +53,8 @@ Dasselbe Prinzip, aber **ohne Benachrichtigungs-Transaktion**. Jeder kann sofort
 ## Related
 
 - [[silent-payments]]
-- [[coinjoin-und-on-chain-privatsphäre]]
-- [[opsec-und-privatsphäre]]
+- [[coinjoin-und-on-chain-privatsphaere]]
+- [[opsec-und-privatsphaere]]
 
 ## Open Questions
 

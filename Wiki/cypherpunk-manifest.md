@@ -58,9 +58,9 @@ Die Länder, in denen dieser Schutz fehlt, sind kein theoretisches Szenario: Kub
 - [[hacker-ethik]]
 - [[pgp-und-verschluesselungspolitik]]
 - [[digitales-bargeld-und-ecash]]
-- [[opsec-und-privatsphäre]]
+- [[opsec-und-privatsphaere]]
 - [[bitcoin-whitepaper]]
-- [[coinjoin-und-on-chain-privatsphäre]]
+- [[coinjoin-und-on-chain-privatsphaere]]
 - [[silent-payments]]
 
 ## Open Questions

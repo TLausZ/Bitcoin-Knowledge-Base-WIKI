@@ -34,7 +34,7 @@ Viele frühe Cypherpunks kamen aus der Hacker-Szene. Die Cypherpunk-Mailingliste
 
 - [[kryptoanarchismus-und-cypherpunks]]
 - [[cypherpunk-manifest]]
-- [[opsec-und-privatsphäre]]
+- [[opsec-und-privatsphaere]]
 
 ## Open Questions
 

@@ -114,7 +114,7 @@ Eine Übergangs-Lösung für Einsteiger: Custodial-Wallet mit automatischer Übe
 
 - [[bitcoin-kaufen-und-dca]]
 - [[wallet-backup-strategien]]
-- [[opsec-und-privatsphäre]]
+- [[opsec-und-privatsphaere]]
 - [[hardware-wallet-sicherheitsarchitektur]]
 - [[hardware-wallet-migration]]
 - [[bitcoin-fehlannahmen]]

@@ -89,7 +89,7 @@ Der Zahlungsvorweis (Payment Preimage) dient als Zahlungsnachweis: Wenn der Stat
 - [[hardware-wallet-einstieg]]
 - [[transaktionsgebuehren-und-mempool]]
 - [[hd-wallets-und-schluesselableitung]]
-- [[opsec-und-privatsphäre]]
+- [[opsec-und-privatsphaere]]
 
 ## Open Questions
 

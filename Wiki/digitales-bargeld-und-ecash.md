@@ -75,7 +75,7 @@ Lösungsversuche für Bitcoin-Privatsphäre (CoinJoin, Silent Payments, Lightnin
 - [[kryptoanarchismus-und-cypherpunks]]
 - [[cypherpunk-manifest]]
 - [[bitcoin-whitepaper]]
-- [[coinjoin-und-on-chain-privatsphäre]]
+- [[coinjoin-und-on-chain-privatsphaere]]
 - [[silent-payments]]
 - [[payment-codes-und-adressaustausch]]
 

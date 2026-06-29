@@ -67,7 +67,7 @@ Hayases Gegenargumentation: Satoshi hat nicht versprochen, sondern gezeigt. Der 
 - [[pgp-und-verschluesselungspolitik]]
 - [[digitales-bargeld-und-ecash]]
 - [[bitcoin-whitepaper]]
-- [[opsec-und-privatsphäre]]
+- [[opsec-und-privatsphaere]]
 
 ## Open Questions
 

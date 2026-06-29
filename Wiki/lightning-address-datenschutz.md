@@ -62,10 +62,10 @@ Phoenix (ACINQ) weist selbst darauf hin, dass die aktuelle Version keinen Datens
 
 - [[phoenix-wallet-lightning]]
 - [[wallet-of-satoshi]]
-- [[opsec-und-privatsphäre]]
+- [[opsec-und-privatsphaere]]
 - [[payment-codes-und-adressaustausch]]
 - [[silent-payments]]
-- [[coinjoin-und-on-chain-privatsphäre]]
+- [[coinjoin-und-on-chain-privatsphaere]]
 
 ## Open Questions
 

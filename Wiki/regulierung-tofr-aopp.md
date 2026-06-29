@@ -46,7 +46,7 @@ Aus technischer Sicht kann keine Verifizierungsmethode eindeutig beweisen, *wer*
 
 ## Related
 
-- [[opsec-und-privatsphäre]]
+- [[opsec-und-privatsphaere]]
 - [[hardware-wallet-sicherheitsarchitektur]]
 
 ## Open Questions

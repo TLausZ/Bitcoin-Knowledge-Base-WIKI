@@ -60,8 +60,8 @@ Im Vergleich zu [[phoenix-wallet-lightning]] oder [[wallet-of-satoshi]] ist bitb
 - [[phoenix-wallet-lightning]]
 - [[wallet-of-satoshi]]
 - [[skalierung-lightning-ark-statechains]]
-- [[coinjoin-und-on-chain-privatsphäre]]
-- [[opsec-und-privatsphäre]]
+- [[coinjoin-und-on-chain-privatsphaere]]
+- [[opsec-und-privatsphaere]]
 
 ## Open Questions
 

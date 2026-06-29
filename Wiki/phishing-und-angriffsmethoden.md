@@ -65,7 +65,7 @@ Wer diese zwei Regeln befolgt, lässt Angreifern kaum Spielraum.
 ## Related
 
 - [[hardware-wallet-sicherheitsarchitektur]]
-- [[opsec-und-privatsphäre]]
+- [[opsec-und-privatsphaere]]
 - [[payment-requests]]
 - [[anti-klepto-und-supply-chain-sicherheit]]
 

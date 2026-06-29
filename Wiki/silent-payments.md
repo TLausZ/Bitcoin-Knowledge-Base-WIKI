@@ -54,7 +54,7 @@ Nur bestimmte Input-Typen sind erlaubt: P2TR (keypath), P2WPKH, P2WPKH-P2SH, P2P
 ## Related
 
 - [[payment-codes-und-adressaustausch]]
-- [[coinjoin-und-on-chain-privatsphäre]]
+- [[coinjoin-und-on-chain-privatsphaere]]
 - [[taproot-musig2-frost]]
 
 ## Open Questions

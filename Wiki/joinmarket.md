@@ -44,10 +44,10 @@ CoinJoin löst kein Problem vollständig: Wer CoinJoin-Outputs mit nicht-gemixte
 
 ## Related
 
-- [[coinjoin-und-on-chain-privatsphäre]]
+- [[coinjoin-und-on-chain-privatsphaere]]
 - [[coin-control-und-utxo-auswahl]]
 - [[utxo-modell-und-konsolidierung]]
-- [[opsec-und-privatsphäre]]
+- [[opsec-und-privatsphaere]]
 
 ## Open Questions
 

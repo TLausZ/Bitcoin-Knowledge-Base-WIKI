@@ -1,6 +1,6 @@
 # Bitcoin KB — Wiki Index
 
-Alle Artikel alphabetisch. Stand: 2026-06-28 (Compile-Pass: +12 neue Artikel, 6 aktualisiert)
+Alle Artikel alphabetisch. Stand: 2026-06-29 (Compile-Pass: +5 neue Artikel, 3 aktualisiert)
 
 | Artikel | Status | Beschreibung |
 |---------|--------|-------------|
@@ -25,7 +25,7 @@ Alle Artikel alphabetisch. Stand: 2026-06-28 (Compile-Pass: +12 neue Artikel, 6 
 | [[bitcoin-commons-und-governance]] | established | Farrington: Ostroms 8 Gestaltungsprinzipien auf Bitcoin (ausgezeichnet) vs. Ethereum (schlecht, bes. nach PoS) angewendet; Algebra der Rehypothecation (Breakeven bei 200% Besicherung) |
 | [[bitcoin-digitale-knappheit]] | established | Gigi: Bitcoin als einziges digitales Objekt mit physisch fundierter Knappheit (PoW = Energie → unveränderlich); Strolight: Satoshis 1M BTC als Monument für reines Geld ohne Gegenparteirisiko |
 | [[bitcoin-fehlannahmen]] | established | 10 häufige Missverständnisse widerlegt + Ponzi-Widerlegung (Lyn Alden) + Farrington: 6 Gründe warum die Bitcoin-These falsch sein könnte + Parker Lewis: Bitcoin ≠ Schneeballsystem (kein Organisator, kein MLM, fixes Angebot, Konsens-Geldpolitik vs. Fed/Hayek) |
-| [[bitcoin-volatilitaet-und-preisfindung]] | established | Lewis GTS: Nicht volatil ≠ Wertspeicher (Dollar: nicht volatil, schlechter Wertspeicher); Volatilität = Preisfindungsfunktion; festes Angebot + variable Nachfrage; Adoptionswellen; Taleb: Schwankung ist Information. |
+| [[bitcoin-volatilitaet-und-preisfindung]] | established | Lewis GTS: Nicht volatil ≠ Wertspeicher; Volatilität = Preisfindungsfunktion; festes Angebot + variable Nachfrage; Adoptionswellen; Taleb: Schwankung ist Information. Wankum: Bärenmärkte notwendig (spülen Overleverage aus, keine Bailouts); Halving-Zyklen; Unterschied Gold (Fiat-Stress-Hedge) vs. Bitcoin (Fiat-Exit). |
 | [[bitcoin-vs-krypto]] | established | Bitcoin vs. Krypto: 5 revolutionäre Eigenschaften; FTX-Kontext; Farrington-Serie (komplette technisch-ökonomische Analyse: PoW-Innovation, Dezentralisierungsversagen, Investitions-Kategorienfehler); Gigi offener Brief Nov 2022 |
 | [[bitcoin-zensurresistenz]] | established | Lewis GTS: Zensurresistenz als Alles-oder-Nichts-Prinzip; Kriminelle als Lackmustest; wenn Bitcoin für Drogenhandel funktioniert, funktioniert er für alle; Knappheit und Zensurresistenz stärken sich gegenseitig. |
 | [[proof-of-stake-kritik]] | established | Hugo Nguyen: PoS versagt in Worst-Case-Szenarien (Netzwerkpartition, Schlüsselangriffe); 1/3-Schwelle → Protokollstopp; Staking-Rate senkt effektive Angriffsschwelle; fälschungssichere Kostspieligkeit als unterschätzte Kerninnovation von Bitcoin |
@@ -52,8 +52,8 @@ Alle Artikel alphabetisch. Stand: 2026-06-28 (Compile-Pass: +12 neue Artikel, 6 
 | [[firmware-verifikation-und-reproduzierbarkeit]] | established | Reproduzierbare Builds: selber Code → selbe Binärdatei; Docker-Kompilierung; Hash-Vergleich; Community-Bestätigungen |
 | [[bitcoin-whitepaper]] | established | Satoshi Nakamotos Original-Whitepaper: Double-Spend-Problem, PoW, UTXO-Modell, SPV, Incentive-Mechanismus |
 | [[satoshi-ankuendigung-2009]] | established | Satoshi auf P2P Foundation (2009-02-11): erste öffentliche Ankündigung; "crypto proof instead of trust"; "distributed timestamp server"; Wei Dai kommentiert; Verbindung zur Cypherpunk-Tradition |
-| [[bip-329-wallet-labels]] | emerging | BIP-329 Standard für portierbare Wallet-Labels zwischen verschiedenen Softwares |
-| [[bip-85-child-keys]] | emerging | Aus einem Backup mehrere unabhängige Wallets ableiten — Hot Wallets, Geschenke, Passwörter |
+| [[bip-0329]] | emerging | BIP-329 Standard für portierbare Wallet-Labels zwischen verschiedenen Softwares |
+| [[bip-0085]] | emerging | Aus einem Backup mehrere unabhängige Wallets ableiten — Hot Wallets, Geschenke, Passwörter |
 | [[bitcoin-adresstypen]] | established | Legacy P2PKH (1...), P2SH (3...), Native SegWit P2WPKH (bc1q, ~38% günstiger, Standard), Taproot P2TR (bc1p); alle interoperabel; ein Seed für alle Typen |
 | [[bitcoin-block-header]] | established | 80-Byte-Datensatz am Anfang jedes Blocks: 6 Felder (Version, Previous Block Hash, Merkle Root, Timestamp, Bits, Nonce); HASH256 (doppeltes SHA-256) bestimmt gültigen Block; Block-Hash kein Headerfeld, sondern abgeleitet |
 | [[bitcoin-block-zeitregeln]] | established | Drei Zeitregeln in Bitcoin: MedianPast Time (Konsens), Future Block Time (Policy, 2h), Local Client (90min); Off-by-1-Bug in Difficulty; Time Warp Attack; Satoshi wollte NTP, es kam nie |
@@ -80,7 +80,7 @@ Alle Artikel alphabetisch. Stand: 2026-06-28 (Compile-Pass: +12 neue Artikel, 6 
 | [[bitcoin-vaults]] | emerging | Verzögerte Auszahlungen + Wiederherstellungspfad; benötigt Covenants für vollständige Umsetzung |
 | [[bitbox02-nova]] | established | BitBox02 Nova: iPhone-Support via Whisper/BLE, EAL6+ Chip, OLED-Glasdisplay |
 | [[coin-control-und-utxo-auswahl]] | established | Manuelle UTXO-Auswahl als Datenschutzwerkzeug; Common Input Ownership Heuristic; CoinJoin-Vorbereitung; Umsetzung in Sparrow, Electrum, BitBoxApp |
-| [[coinjoin-und-on-chain-privatsphäre]] | established | CoinJoin: gleiche Output-Beträge machen Transaktionen unzuordenbar; Samourai/Wasabi-Situation 2024 |
+| [[coinjoin-und-on-chain-privatsphaere]] | established | CoinJoin: gleiche Output-Beträge machen Transaktionen unzuordenbar; Samourai/Wasabi-Situation 2024 |
 | [[cypherpunk-manifest]] | established | Eric Hughes (1993): Privatsphäre als Grundrecht im digitalen Raum; Kryptographie als einziges wirksames Werkzeug; "Cypherpunks write code"; Vorläufer von Bitcoin |
 | [[kryptoanarchismus-und-cypherpunks]] | established | Cypherpunk-Bewegung 1986–2022: Hacker-Ethik, Timothy Mays Kryptoanarchismus, Barlow-Deklaration, PGP, Krypto-Kriege; direkte Vorgeschichte von Bitcoin |
 | [[hacker-ethik]] | emerging | Loyd Blankenship "The Conscience of a Hacker" (1986): Neugier als Triebkraft; Unterförderung durch Schulsystem; klassenlose Online-Gemeinschaften; Phrack-Magazin |
@@ -117,12 +117,12 @@ Alle Artikel alphabetisch. Stand: 2026-06-28 (Compile-Pass: +12 neue Artikel, 6 
 | [[hardware-wallet-einstieg]] | established | Warum Hardware-Wallet: 4 Optionen (Börse, Software-Wallet, HW-Wallet, Air-Gap); "not your keys, not your coins"; Paper Wallets unsicher; empfohlene Kombination |
 | [[hardware-wallet-migration]] | established | Migration Ledger/Trezor→BitBox02; SLIP-39 (20 Wörter) ≠ BIP-39; zwei Migrationswege; Passphrase-Übertragung |
 | [[hardware-wallet-sicherheitsarchitektur]] | established | Display, Open-Source, Secure Chip, BIP-39; Dual-Chip-Architektur; Drei Bedrohungstypen; BitBoxApp-Plattformarchitektur (Go + React) |
-| [[komplexität-ist-keine-sicherheit]] | established | Mehr Komplexität ≠ mehr Sicherheit; Sweet Spot: Single-Sig HW-Wallet; Expertentools nur mit vollem Verständnis |
+| [[komplexitaet-ist-keine-sicherheit]] | established | Mehr Komplexität ≠ mehr Sicherheit; Sweet Spot: Single-Sig HW-Wallet; Expertentools nur mit vollem Verständnis |
 | [[konsensregeln-und-mempool-richtlinien]] | established | Konsensregeln (netzwerkweit, unveränderlich) vs. Mempool-Richtlinien (lokal, konfigurierbar) |
 | [[miniscript-und-liana]] | established | Zeitlich gesperrte Wiederherstellungsschlüssel mit Miniscript; Liana Wallet + MiniTapscript; Go-Parser-Typsystem |
 | [[multisig-und-kollaborative-verwahrung]] | established | m-von-n Multisig, Fallstricke (xpubs, Cosigner), kollaborative Verwahrung (Unchained) |
 | [[op-return-und-datenspeicherung]] | established | OP_RETURN erklärt; 80-Byte-Limit als Mempool-Richtlinie; Datenspeicherungsdebatte 2025 |
-| [[opsec-und-privatsphäre]] | established | OPSEC für Bitcoin-Nutzer; Shift Crypto Datenschutzprinzipien (IP-Anonymisierung, 30-Tage Webshop, diskrete Pakete); Beträge nicht teilen; anonym kaufen |
+| [[opsec-und-privatsphaere]] | established | OPSEC für Bitcoin-Nutzer; Shift Crypto Datenschutzprinzipien (IP-Anonymisierung, 30-Tage Webshop, diskrete Pakete); Beträge nicht teilen; anonym kaufen |
 | [[optionale-passphrase]] | established | BIP-39 Passphrase: zweiter Faktor, Plausible Deniability; bewusst nicht auf microSD gespeichert |
 | [[payment-codes-und-adressaustausch]] | emerging | BIP-47 PayNyms vs. Silent Payments: statische Adressen mit Privatsphäre |
 | [[payment-requests]] | established | SLIP-24: Börsen-Adressen kryptografisch auf Hardware-Wallet verifizieren; verhindert Address Spoofing |
@@ -153,7 +153,8 @@ Alle Artikel alphabetisch. Stand: 2026-06-28 (Compile-Pass: +12 neue Artikel, 6 
 | [[bitcoin-als-organismus]] | established | Quittem: Bitcoin als dezentrales Pilznetzwerk; Tokyo-Experiment; PoW = gestrandete Energie; Hype-Zyklen wie Pilz-Fruchtkörper; BCH-Fork als Schisma; antifragil gegen Angriffe (8 Überlebensfaktoren); Satoshi-Cypherpunk-Symbiose analog Pilz-Pflanzen vor 500 Mio. Jahren |
 | [[bitcoin-bildung]] | established | Mi Primer Bitcoin NGO; Bitcoin-Diplom: 10 Kapitel; 7.700+ Schüler El Salvador; Aprycot-Übersetzung; Coinfinity+Scholarium+Aprycot (Nov 2025); «Marlas Bitcoin Abenteuer»; 21 Lektionen Hörbuch (Florian Clyde); Lesestunde Podcast (Value4Value, April 2022); Fiatscham + Effective Altruism: Fiat-Job + Spenden oft wirkungsvoller als Bitcoin-Industrie-Wechsel (OpenSats) |
 | [[bitcoin-etf-und-institutionelle-verwahrung]] | established | Farrington: 1933er-Trust (kein Rücknahmerecht) vs. 1940er-ETF (GBTC-Diskont); 8 Prognosen zum BlackRock-ETF; Coinbase als einziger Authorized Participant = Chokepoint; JPMorgan Cascade; Gold-Paradox auf Bitcoin; institutionelle Custody als ungelöstes Problem; Fedi/OP_VAULT/Unchained/AnchorWatch als Ansätze |
-| [[bitcoin-und-immobilien]] | established | Nixon-Schock 1971: Immobilienpreise 70×; monetäre Prämie der Immobilien; Bitcoin vs. Immobilien als Wertspeicher; Multisig-Kreditsicherheit; Proof of Reserves; 67% Weltvermögen in Immobilien; Trennung von Wohnen und Wertspeicherung; Wankum "Digital Real Estate" (2026) |
+| [[bitcoin-und-immobilien]] | established | 67% Weltvermögen in Immobilien ($326–330T) als Fiat-Artefakt. Bitcoin übertrifft Immobilien als Wertspeicher: absolute Knappheit, Mobilität in Krisen (Ukraine/Nazi-Deutschland), keine Verwaltungskosten, 24/7 Liquidität. Cash-Flow-Mythos (Menger). 4 Übergangsstrategien für Investoren. Bitcoin-besicherte Kredite, Pristine Collateral, Mining in Immobilien. Wohnen in BTC günstiger (-84% von 2017–2020). Trennung von Geld und Produktion (Wankum #38). |
+| [[bitcoin-unternehmens-strategie]] | established | Bitcoin im Unternehmens-Treasury: 2–5% Allokation, 4 Akkumulationsprinzipien. Strategy-Flywheel (mNAV, BTC Yield, Wandelanleihen @ 0,421%). Metaplanet als Japan-Fallstudie. Cypherpunks → Institutionen als Adoptionspfad. Spekulativer Angriff auf Fiat (Pierre Rochard). Bitcoin-Aktien (MSTR, RIOT, CLSK) als Proxy-Exposure. |
 | [[ergebnisgleichheit-und-freiheit]] | established | Albrecht: Gleichheit vor dem Recht vs. Ergebnisgleichheit; Leibniz-Identitätsdefinition; natürliche Ungleichheit + gleiche Gesetze = ungleiche Outcomes ohne Verantwortungssubjekt; 3 Methoden scheitern; 4 Einwände: Nullsummenirrtum (China/Deng), univariate Analyse, Momentaufnahmen-Irrtum, Chancengleichheitsproblem |
 | [[geld-staat-und-fiat-monopol]] | established | Hoppe: Staatliche Motivation zur Geldmonopolisierung; Keynes 1919: Inflation als willkürliche Enteignung; IWF/Weltbank als Fiat-Transmissionsriemen (Gladstein); globaler Cantillon-Effekt; Bitcoin als technische Lösung |
 | [[geldpolitik-und-inflation]] | established | Bednarek: 2%-Ziel schöpft 102% der Produktivitätszuwächse ab; CPI-Warenkorb willkürlich (Präferenzen individuell); Cantillon-Effekt (Kapitalmarkt vs. Reallöhne); Deflation ≠ Implosion (Goldstandard-Geschichte); Mises 1928 |
@@ -176,6 +177,10 @@ Alle Artikel alphabetisch. Stand: 2026-06-28 (Compile-Pass: +12 neue Artikel, 6 
 | [[energiestandard-und-proof-of-work]] | established | Henry Ford 1921: Gold = Ursache aller Kriege; internationale Banken als Kriegsprofiteure; Energiestunde als Währungseinheit; Muscle Shoals-Damm; Proof of Work als digitale Realisierung des Energiestandard-Prinzips; Verdinglichung von Information |
 
 | [[fedimint-und-community-custody]] | emerging | Fedimint: föderierte chaumische Münzanstalt auf Bitcoin/Lightning; Second-Party-Custody; Blindsignaturen; Stammes-Hüter-Modell für Schwellenländer; Gladstein/Sirion/Nwosu (2022). |
+| [[geld-und-baukultur]] | emerging | Wankum TBN #34: Hartes Geld → Langzeitdenken → zeitlose Architektur (Pyramiden, Goldener Schnitt). Fiat → hohe Zeitpräferenz → Wegwerfbau. Bitcoin-Standard könnte Baukultur regenerieren. Österreichische Zeitpräferenz-These. |
+| [[bitcoin-und-ki]] | emerging | Wankum TBN #28: Bitcoin und KI beide deflationar. KI senkt Grenzkosten der Produktion; Bitcoin fixiert Geldangebot. KI-Agenten brauchen Geld — Bitcoin ist das einzige Geld, das Maschinen selbst verwahren können. Micropayments per Lightning. |
+| [[bitcoin-und-quantenrisiko]] | established | Wankum TBN #37: Theorie ≠ Praxis (2.000–4.000 fehlerkorrigierte Qubits fehlen). Bitcoin nicht einziges Ziel — Banken, Militär, Internet ebenfalls betroffen. P2PK-Adressen (Satoshi, ~1–2M BTC) am stärksten exponiert. BIP-361: konkreter Migrationspfad inkl. Einfrieren von Legacy Coins. CLN 26.06: erste Quantum-Resistant Channels. Richtiger Prüfrahmen: nicht "hat das System Risiko?" sondern "kann es sich anpassen?". |
+| [[nostr-protokoll]] | established | Wankum TBN #2/#14/#26: Protokoll statt Plattform. Kryptografische Identität (Key-Pair), keine Account-Sperre möglich. Cashu-Integration für Micropayments. Nostr + Bitcoin = freie Kommunikation + freies Geld. Innovation ohne institutionellen Kredit. |
 
 *137 Artikel, basierend auf 487 RAW-Quellen (inkl. 6 EPUBs aus Svanholm/Steiner/Rosenbaum).*
 

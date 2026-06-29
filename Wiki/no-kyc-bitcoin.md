@@ -2,7 +2,7 @@
 
 **Status:** established
 **Last updated:** 2026-06-25
-**Sources:** [[Das Privacy Handbuch – Timo Volkov (2025)]], [[opsec-und-privatsphäre]]
+**Sources:** [[Das Privacy Handbuch – Timo Volkov (2025)]], [[opsec-und-privatsphaere]]
 
 ## Summary
 
@@ -50,8 +50,8 @@ Jede empfangene Transaktion sollte sofort mit einem Label versehen werden: Quell
 
 ## Related
 
-- [[opsec-und-privatsphäre]]
-- [[coinjoin-und-on-chain-privatsphäre]]
+- [[opsec-und-privatsphaere]]
+- [[coinjoin-und-on-chain-privatsphaere]]
 - [[coin-control-und-utxo-auswahl]]
 - [[sparrow-wallet]]
 

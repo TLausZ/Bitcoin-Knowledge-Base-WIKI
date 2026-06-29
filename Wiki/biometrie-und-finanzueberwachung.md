@@ -80,14 +80,14 @@ Das ist dieselbe Logik, die Satoshi 2009 formulierte: "Crypto proof instead of t
 
 ## Related
 
-- [[opsec-und-privatsphäre]]
+- [[opsec-und-privatsphaere]]
 - [[selbstverwahrung-und-boersenrisiken]]
 - [[eu-regulierung-selbstverwahrung]]
 - [[satoshi-ankuendigung-2009]]
 - [[cypherpunk-manifest]]
 - [[cbdc-und-digitaler-yuan]]
 - [[kryptoanarchismus-und-cypherpunks]]
-- [[coinjoin-und-on-chain-privatsphäre]]
+- [[coinjoin-und-on-chain-privatsphaere]]
 
 ## Open Questions
 
