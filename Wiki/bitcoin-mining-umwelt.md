@@ -2,7 +2,7 @@
 
 **Status:** established
 **Last updated:** 2026-06-29
-**Sources:** [[aprycot-gladstein-humanitaere-oekologische-argumente]], [[aprycot-alden-energieverbrauch-bitcoin]], [[aprycot-captain-sidd-bitcoin-wird-unsere-erde-retten]], [[aprycot-parker-lewis-bitcoin-keine-energieverschwendung]], [[aprycot-jesse-bitcoin-mining-mini-grids]], [[20251031_How Bitcoin Mining Keeps Energy Prices Low]], [[Rebuttal_ Earthjustice report on Bitcoin Mining, Feb 2025]], [[The NEW (Data-Backed) Story About Bitcoin Mining]], [["The Obstacle is the Path"]], [[Can bitcoin mining empower energy transition and fuel sustainable development goals in the US]], [[From Mining to Mitigation- How Bitcoin Can Support Renewable Energy Development and Climate Action]], [[Renewable Energy Transition Facilitated by Bitcoin]], [[Rethinkingbitcoinsenergyusethroughsustainabledigitalbusinessmodelsandresourcesmonetization]], [[Cryptocurrency mining as a novel virtual energy storage system in islanded and grid-connected microgrids]], [[Hedging Renewable Energy Investments with Bitcoin Mining]], [[Renewable energy and cryptocurrency- A dual approach to economic viability and environmental sustainability]], [[Study_economic_wind]], [[The feasibility study of the production of Bitcoin with geothermal energy]], [[lal-you-2024-climate-sustainability-through-a-dynamic-duo-green-hydrogen-and-crypto-driving-energy-transition-and]], [[Bitcoin_Carbon_Footprint_Revisited_Renewable_Energy]], [[Bitcoin_Mining_and_Methane_Mitigation_Peer_Reviewed_Paper]], [[Economic_Integration_Bitcoin_Mining_Renewable_Energy]], [[Leveraging_Bitcoin_Miners_as_Flexible_Load_Resources_for_Power_System_Stability_and_Efficiency]], [[Can Bitcoin mining increase renewable electricity capacity]], [[High resolution modeling and analysis of cryptocurrency mining's impact on power grids- Carbon footprint, reliability, and electricity price]], [[Promoting rigor in blockchain energy and environmental footprint research- A systematic literature review]], [[Empirical Insights into Economic Viability- Integrating Bitcoin Mining with Biorefineries Using a Stochastic Model]], [[Bitcoin and Its Energy, Environmental, and Social Impacts- An Assessment of Key Research Needs in the Mining Sector]], [[The truth is not enough]]
+**Sources:** [[aprycot-gladstein-humanitaere-oekologische-argumente]], [[aprycot-alden-energieverbrauch-bitcoin]], [[aprycot-captain-sidd-bitcoin-wird-unsere-erde-retten]], [[aprycot-parker-lewis-bitcoin-keine-energieverschwendung]], [[aprycot-jesse-bitcoin-mining-mini-grids]], [[20251031_How Bitcoin Mining Keeps Energy Prices Low]], [[Rebuttal_ Earthjustice report on Bitcoin Mining, Feb 2025]], [[The NEW (Data-Backed) Story About Bitcoin Mining]], [["The Obstacle is the Path"]], [[Can bitcoin mining empower energy transition and fuel sustainable development goals in the US]], [[From Mining to Mitigation- How Bitcoin Can Support Renewable Energy Development and Climate Action]], [[Renewable Energy Transition Facilitated by Bitcoin]], [[Rethinkingbitcoinsenergyusethroughsustainabledigitalbusinessmodelsandresourcesmonetization]], [[Cryptocurrency mining as a novel virtual energy storage system in islanded and grid-connected microgrids]], [[Hedging Renewable Energy Investments with Bitcoin Mining]], [[Renewable energy and cryptocurrency- A dual approach to economic viability and environmental sustainability]], [[Study_economic_wind]], [[The feasibility study of the production of Bitcoin with geothermal energy]], [[lal-you-2024-climate-sustainability-through-a-dynamic-duo-green-hydrogen-and-crypto-driving-energy-transition-and]], [[Bitcoin_Carbon_Footprint_Revisited_Renewable_Energy]], [[Bitcoin_Mining_and_Methane_Mitigation_Peer_Reviewed_Paper]], [[Economic_Integration_Bitcoin_Mining_Renewable_Energy]], [[Leveraging_Bitcoin_Miners_as_Flexible_Load_Resources_for_Power_System_Stability_and_Efficiency]], [[Can Bitcoin mining increase renewable electricity capacity]], [[High resolution modeling and analysis of cryptocurrency mining's impact on power grids- Carbon footprint, reliability, and electricity price]], [[Promoting rigor in blockchain energy and environmental footprint research- A systematic literature review]], [[Empirical Insights into Economic Viability- Integrating Bitcoin Mining with Biorefineries Using a Stochastic Model]], [[Bitcoin and Its Energy, Environmental, and Social Impacts- An Assessment of Key Research Needs in the Mining Sector]], [[The truth is not enough]], [[_Is Bitcoin good or bad for the environment_ I'm confused_]], [[Methane and GWP]], [[The Data vs. The Narrative_ How GreenpeaceUSA's Anti-Bitcoin Campaign Stalled the Green Transition]], [[Why the Green Energy Transition Needs Bitcoin Miners]], [[Why Bitcoin Mining is an essential part of Climate Action]], [[Common Bitcoin Energy Misconceptions]], [[Common Claims about Bitcoin and Energy]], [[10 images that changed mainstream media perceptions about Bitcoin and energy]], [[Volcanoes, Geese and Bitcoin]], [[The Skull that Switched Sides]], [[The Changing Narrative on Bitcoin Mining]], [[The surprising results of analysing academic papers on Bitcoin Mining and environmental impact]], [[How Activist NGOs Have Unintentionally STALLED Progress Towards Ending Gas Flaring]], [[Bitcoin's twin revolution]], [[An Open Letter to Greenpeace about Bitcoin]], [[The Obstacle is the Path_ Why I spent 3 years helping shift Bitcoin's environmental narrative]]
 
 ## Summary
 
@@ -16,16 +16,24 @@ Das Narrativ «Bitcoin Mining schadet der Umwelt» hat sich seit 2021 grundlegen
 
 2021 war Bitcoin Mining die von Medien meistangegriffene Technologie wegen ihres angeblichen Umweltschadens. Greenpeace finanzierte die "Change the Code"-Kampagne und das "Skull of Satoshi"-Kunstwerk. Heute hat Greenpeace die Kampagne aufgegeben; das Kunstwerk steht im Bitcoin-Museum.
 
-**Aktuelle Datenlage (Daniel Batten / batcoinz.com, Stand Mai 2025):**
+**Aktuelle Datenlage (Daniel Batten, Stand Mai 2025):**
 
 | Kategorie | Anteil positiver Berichte |
 |---|---|
-| Unabhängige Whitepapers | 87,5% |
-| Mainstream-Media | 88,9% |
-| Sustainability-Media | 91,1% |
-| Peer-reviewed Papers | 80%+ (22 positive von ~27 Papers) |
+| Unabhängige Whitepapers/Reports | 88,9% |
+| Mainstream-Media | 91,7% |
+| Sustainability-Media | 93,3% |
+| Peer-reviewed Papers | 83,3% |
 
-**Cambridge Bitcoin Electricity Consumption Index (2025):** 52,4% des Minings läuft auf nachhaltiger Energie — Tendenz steigend. Bitcoin Mining folgt dem Muster anderer disruptiver Technologien (Fahrrad, Radio, Internet): Phase 1 negative erste Eindrücke → Phase 2 gemischte Berichte → Phase 3 positive Evidenz überwiegt.
+Details: 30 von 27 Peer-reviewed-Papers (Q4 2022 bis 2025) zeigen positive Umweltwirkungen; Durchschnitts-Impact-Factor der positiven Papers: 7.1 vs. 6.9 bei negativen — kein signifikanter Qualitätsunterschied. 60% der negativen Papers erhielten formale Rebuttals (häufigste Gründe: veraltete Datensätze, Methodenfehler). [[The surprising results of analysing academic papers on Bitcoin Mining and environmental impact]]
+
+**Cambridge Bitcoin Electricity Consumption Index (2025):** 52,4% des Minings läuft auf nachhaltiger Energie — die erste globale Industrie, die die 50%-Schwelle überschritt. Bitcoin Mining folgt dem Muster anderer disruptiver Technologien (Fahrrad, Radio, Internet): Phase 1 negative erste Eindrücke → Phase 2 gemischte Berichte → Phase 3 positive Evidenz überwiegt. [[The Changing Narrative on Bitcoin Mining]]
+
+**Warum die Narrative 15 Jahre negativ blieb — Negativity Bias.** Ein wichtiger Erklärungsrahmen: Jede neue Technologie seit dem Fahrrad (1890er) bekam für die ersten ~15 Jahre überwiegend negative Presseberichterstattung, bevor sich das Bild änderte. Im Fall Bitcoin wurde eine einzige 5-seitige nicht-empirische Kurzanalyse von Alex de Vries ("Bitcoin's Growing Energy Problem", 2018) zum meistzitierten Werk zum Thema — bevor sie viermal widerlegt wurde (Masanet et al. 2019, Dittmar et al. 2019, Sedlmeir et al. 2020, Sai & Vranken 2023). Bis zur Widerlegung hatte de Vries' Claim bereits breite Medienpräsenz erreicht. [[_Is Bitcoin good or bad for the environment_ I'm confused_]]
+
+**Migration 2021→2024.** Bitcoin Mining bewegte sich nach dem China-Verbot 2021 von kohlebetriebenen Anlagen nach Paraguay, Äthiopien und das (zunehmend erneuerbare) Texas — der nachhaltige Energieanteil stieg von 33,9% auf 56,8%. [[_Is Bitcoin good or bad for the environment_ I'm confused_]]
+
+**Greenpeace USA Campaign (2022–2025).** Die "Change the Code"-Kampagne, mit $5 Mio. von Ripple-Mitgründer Chris Larsen finanziert, wurde 2025 still begraben. Ihr Kernargument basierte auf de Vries' seither widerlegten Daten. Parallel dazu zeigt Battens Analyse eine strukturelle Parallele zu früheren Greenpeace-Kampagnen gegen Kernkraft: In Deutschland führte der von Greenpeace unterstützte Kernkraftausstieg zu dokumentiertem CO2-Anstieg durch Kohle-Rückgriff; das Indian-Point-Kraftwerk in New York wurde durch Erdgas ersetzt. Das Muster ist dieselbe ideologische Reinheit über messbare Klimawirkung. [[The Data vs. The Narrative_ How GreenpeaceUSA's Anti-Bitcoin Campaign Stalled the Green Transition]]
 
 ---
 
@@ -100,6 +108,8 @@ Methan entsteht in drei hauptsächlichen unerwünschten Kontexten: bei der Erdga
 Bitcoin Mining als Methanlösung:
 - **Oil & Gas Flaring:** 29 Mining-Operationen (Stand 2025) verbrennen Erdgas-Nebenprodukte kontrolliert für Strom statt unkontrolliert zu flaren. Bei korrekter CO₂e-Berechnung kann dies netto klimapositiv sein.
 - **Deponiegas:** Rudd, Jones, Sechrest, Batten & Porter (Journal of Cleaner Production 472/2024) zeigen ein integriertes Deponiegas-zu-Energie + Bitcoin-Mining-Framework. Deponiebetreiber stehen vor dem Problem, dass Methan-Capture-Projekte kapitalintensiv und bei schwankenden Energiepreisen wirtschaftlich riskant sind. Bitcoin Mining als permanenter Abnehmer macht diese Projekte bankable — die Nodal-Power-Fallstudie dokumentiert die praktische Umsetzung. Der Ansatz skaliert auf alle bestehenden Deponien mit Methanpotenzial, nicht nur auf Öl- und Gasfelder. [[Bitcoin_Mining_and_Methane_Mitigation_Peer_Reviewed_Paper]]
+
+**Exkurs: GWP100 vs. GWP20 für Methan.** Die Paris-Vereinbarung misst Methan per GWP100 (25× CO₂ über 100 Jahre). Eine wachsende Gruppe von Wissenschaftlern und NGOs argumentiert, dass GWP20 — das 82.5× CO₂-Äquivalent über 20 Jahre (IPCC AR6) — die richtige Metrik sei, weil die Dringlichkeit der Methanreduktion im 20-Jahres-Fenster liegt. Befürworter: EDF, CCAC, Carbon Tracker; Wissenschaftler: Drew Shindell (Duke), Durwood Zaelke (IGSD), Robert Howarth (Cornell). Relevant für Bitcoin Mining: Bei Verwendung von GWP20 verstärkt sich die klimapositive Wirkung von Mining auf Flaring-Gas erheblich. UNEP-Vorsitzende Inger Anderson nannte Methan "our strongest lever to reduce climate change in the next 25 years" — trotzdem fließen nur 2% aller Klimafinanzierung in Methanminderung. [[Methane and GWP]]
 
 **Bioraffinerien:**
 Semaan, Wang, Durmaz & Kumar (Univ. Stavanger / Yıldız Technical Univ., MDPI Systems 2025, IF 3.1) untersuchen per Monte Carlo und Sensitivitätsanalyse, ob Bitcoin Mining lignocellulosische Bioraffinerien wirtschaftlich tragfähig macht. Bioraffinerien verarbeiten organische Reststoffe (Holz, Stroh, Bagasse) zu Biokraftstoffen und Biochemikalien — wirtschaftlich oft knapp kostendeckend. Der zusätzliche Revenue Stream aus Mining senkt die Bioprodukt-Herstellungskosten oder verbessert die Marge. Der sensitivste Faktor ist das Timing: Wer Mining-Operationen zu spät startet, zahlt deutlich mehr. Längere Betriebsdauer verbessert die Profitabilität erheblich. [[Empirical Insights into Economic Viability- Integrating Bitcoin Mining with Biorefineries Using a Stochastic Model]]
@@ -256,6 +266,43 @@ Der älteste und konzeptionell grundlegendste Artikel in diesem Corpus stammt au
 **Die Schlussfolgerung.** Bitcoin verbraucht Energie, um ein monetäres Koordinationssystem zu sichern. Wenn dieses System funktioniert, können alle anderen Energieverwendungen — Haushalte, Industrie, Gesundheit — ebenfalls zuverlässig koordiniert werden. Die Debatte «Bitcoin vs. Haushaltsstrom» ist ein Nullsummendenken, das den Zusammenhang zwischen stabiler Währung und stabiler Energieversorgung ausblendet. Parker Lewis' Formulierung: «Es gibt keine wichtigere langfristige Verwendung von Energie als die Sicherung des Bitcoin-Netzwerks» — nicht als Übertreibung, sondern als Konsequenz aus dem Venezuela-Mechanismus. [[aprycot-parker-lewis-bitcoin-keine-energieverschwendung]]
 
 ---
+
+---
+
+### J — NGOs, Gas Flaring und die Kosten ideologischer Reinheit
+
+Der Weltbank setzt sich seit 2015 für Null-Flaring bis 2030 ein. Flaring verbrennt nur 91,1% des Methans; die restlichen 8,9% entweichen direkt in die Atmosphäre — bei einem GWP20 von 82,5× CO₂ ein erheblicher Klimafaktor. Trotz dieser Dringlichkeit stagnierten die Fortschritte.
+
+Ein wenig diskutierter Grund: Ideologisch ausgerichtete NGOs haben systematisch Anti-Flaring-Initiativen blockiert, die Partnerschaften mit Öl- und Gasunternehmen erfordern. Konkrete Beispiele:
+
+- **GE und Baker Hughes** entwickelten Technologien zur Umnutzung von Stranded Gas. Sierra Club und Greenpeace nannten dies "enabling continued fossil fuel extraction", ohne die messbaren Emissionsreduktionen anzuerkennen.
+- **Crusoe Energy** (Bitcoin-Mining auf Flaring-Gas) wurde von Jesse Simons (Sierra Club) als "propping up the fossil fuel industry" bezeichnet — obwohl Crusoe's Projekte Flaring an Standorten um über 90% reduzierten.
+- **ExxonMobil / Crusoe** (Permian Basin Pilotprojekt): Greenpeace USA nannte es eine "Ablenkung von der dringenden Notwendigkeit, fossile Brennstoffe vollständig auslaufen zu lassen."
+- **Ørsted und NextEra Energy** zogen Projekte zurück, nachdem 350.org und Oil Change International mit Reputationsschäden drohten.
+
+Das Muster: Kritik ohne Alternative. Oil wird 2050 noch 22% des globalen Energiebedarfs decken (IEA Net Zero Szenario). Wo keine Partnerschaft mit Öl erlaubt ist, bleibt Flaring die Standardpraxis. Bitcoin Mining als ortsflexibler, genehmigungsunabhängiger Stromverbraucher ist die pragmatische Ausnahme, die trotz NGO-Widerstand operative Anti-Flaring-Ergebnisse erzielt. [[How Activist NGOs Have Unintentionally STALLED Progress Towards Ending Gas Flaring]]
+
+---
+
+### K — Fallstudien: Bitcoin Mining als Entwicklungsbrücke
+
+**Eduardo / Costa Rica (Poás-Vulkan, 2020–2025).** Eduardo betrieb eine Mikro-Hydrostation auf seinem 5-Generationen-Familiengrundstück nahe dem Poás-Vulkan. COVID führte dazu, dass ICE (Costa Ricas staatlicher Energieversorger) alle privaten Power Purchase Agreements sofort kündigte. Eduardo übergab die Schlüssel seines Grundstücks der Bank. Sein Schwiegersohn brachte Bitcoin Mining ins Gespräch. Innerhalb weniger Tage war ein gebrauchtes S19-Rig angeschlossen; kurz darauf folgten 4 Mining-Container mit mehreren hundert Rigs. Mit den Einnahmen baute Eduardo ein Ökotourismus-Unternehmen mit 40 Mitarbeitern auf. Das Grundstück ist heute Bio-Farm, Vogelschutzgebiet und Wanderpfadnetz. Auf die Frage, was ohne Bitcoin geworden wäre: "Wir hätten kein Personal. Eine rostende Hydroanlage. Und ich hätte dieses Familiengrundstück verloren." [[Volcanoes, Geese and Bitcoin]]
+
+**Die Skull-Geschichte und der Narrativwechsel.** Ben Von Wong schuf 2023 den "Skull of Satoshi" für Greenpeace USA — ein ikonisches Anti-Bitcoin-Mining-Kunstwerk. Troy Cross verbrachte vier Tage im Gespräch mit Von Wong: Daten, Gegenargumente, Klimawirkung. Die entscheidende Wende kam nicht durch Daten, sondern als Cross aufhörte, den Bitcoin-Fall zu machen, und stattdessen sagte: "Lass mich alle Gründe darlegen, warum ich denke, dass du dagegen bist." Von Wong's Reaktion: "Ich habe den Skull in dem Glauben gemacht, Bitcoin Mining sei eine schwarz-weiße Frage. Ich hatte unrecht. Wenige Dinge in der Welt sind schwarz-weiß. Wie dumm von mir." Der Post blieb für drei Jahre sein gepinnter Tweet. Der Skull steht heute im Bitcoin-Museum in Nashville. [[The Skull that Switched Sides]]
+
+---
+
+### L — Ecore Misconceptions: Was de Vries falsch berechnet hat
+
+**Per-Transaktion-Metrik.** De Vries' 2018er Commentary maß Energie, Wasser, Elektroschrott und CO₂ "pro Transaktion". Dieser Ansatz ist strukturell falsch: Bitcoins Energieverbrauch ist an die Hashrate gebunden, nicht an die Transaktionszahl. Cambridge University nannte die per-Transaktion-Metrik 2018 "not a meaningful metric". Vier peer-reviewed Papers (Masanet et al. 2019, Dittmar et al. 2019, Sedlmeir et al. 2020, Sai & Vranken 2023) wiederlegten die Methodik.
+
+**Elektroschrott.** Cambridge 2025: De Vries schätzte 30 kT jährlichen eWaste. Tatsächliche Messung: 2,3 kT — eine Überschätzung um 1204%. Bitcoin Mining-Hardware hat zudem hohe Wiederverwertungsraten (Weiterverkauf, Reparatur, industrielle Nutzung älterer Modelle). [[Common Bitcoin Energy Misconceptions]]
+
+**Netzstabilisierung vs. Destabilisierung.** Ein weiterer zäher Mythos: Auf ERCOT (Texas) gibt es einen dokumentierten Fall, bei dem Bitcoin-Mining im April 2024 zur Netzinstabilität beitrug. Dagegen stehen mehrere großskalige Stabilisierungsereignisse, darunter der texanische Hitzesommer 2022. Das Verhältnis ist eindeutig: Stabilisierungsereignisse überwiegen massiv.
+
+**Resümee Mythencheck:**
+- "Bitcoin Mining reaktivierte Kohlekraftwerke" — widerlegt: Das Greenidge-Gaskraftwerk (New York) wurde 2017 für den Energiemarkt reaktiviert, nicht für Mining. Marathon Digital verließ seinen Montana-Kohlestandort 2022 vollständig (SEC-Filings).
+- "Privathaushalte zahlen wegen Mining mehr Strom" — widerlegt: Texas 2021–2024: +7% (inflationsbereinigt), US-Schnitt: +7.7%. Kein statistischer Unterschied. [[Common Claims about Bitcoin and Energy]] [[Common Bitcoin Energy Misconceptions]]
 
 ## Related
 

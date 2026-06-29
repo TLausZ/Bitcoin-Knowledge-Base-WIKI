@@ -1,8 +1,8 @@
 # Bitcoin als humanitäres Werkzeug
 
 **Status:** established
-**Last updated:** 2026-06-24
-**Sources:** [[aprycot-waehrung-der-letzten-instanz]], [[aprycot-bitcoin-palaestinas-waehrung-freiheit]], [[aprycot-gladstein-humanitaere-oekologische-argumente]], [[aprycot-gladstein-meinungsfreiheit-digitales-zeitalter]], [[aprycot-gigi-bitcoin-einsatz-venezuela]], [[aprycot-gladstein-kuba-bitcoin-revolution]], [[aprycot-gladstein-finanzielle-freiheit-afghanistan]], [[aprycot-gladstein-finanzielle-privilegien]], [[aprycot-gladstein-monetaerer-kolonialismus]]
+**Last updated:** 2026-06-29
+**Sources:** [[aprycot-waehrung-der-letzten-instanz]], [[aprycot-bitcoin-palaestinas-waehrung-freiheit]], [[aprycot-gladstein-humanitaere-oekologische-argumente]], [[aprycot-gladstein-meinungsfreiheit-digitales-zeitalter]], [[aprycot-gigi-bitcoin-einsatz-venezuela]], [[aprycot-gladstein-kuba-bitcoin-revolution]], [[aprycot-gladstein-finanzielle-freiheit-afghanistan]], [[aprycot-gladstein-finanzielle-privilegien]], [[aprycot-gladstein-monetaerer-kolonialismus]], [[21 Bitcoin Use Cases You Probably Aren't Aware Of (unless you've studied it)]]
 
 ## Summary
 
@@ -144,6 +144,28 @@ Bitcoin bietet den betroffenen Bevölkerungen das erste Werkzeug, Wert außerhal
 - [[cypherpunk-manifest]]
 - [[bitcoin-menschenrechte]]
 - [[el-salvador-bitcoin-adoption]]
+
+---
+
+### 21 dokumentierte Anwendungsfälle (Batten, 2026)
+
+Daniel Batten's Zusammenstellung mit Quellenbelegen zeigt, warum das "kein Use Case"-Argument tendenziell ein westliches Wahrnehmungsproblem ist. Die meisten Anwendungsfälle sind im globalen Süden, wo Bitcoin product-market-fit gefunden hat, bevor er den Westen erreichte — das Gegenteil der üblichen Technologieadoption.
+
+Stand-out-Fälle mit konkreten Zahlen:
+
+- **Humanitäre Kampagnen unter Autocratie** (4,5 Mrd. betroffene Menschen): Bitcoin ermöglicht Finanzierungskanäle außerhalb staatlicher Kontrolle
+- **Remittances** (Hunderte Millionen): Direktzahlungen an Familien ohne Verzögerungen und Gebühren von 10–15%
+- **Hyperinflationsschutz** (250+ Mio. Betroffene in Ländern wie Argentinien mit 100%+ Jahresinflation)
+- **Guatemala-Wahl 2023** (17,3 Mio. Menschen): Bitcoin-Blockchain zur Dokumentation von Stimmauszählungen gegen Wahlbetrug
+- **Afghan Frauen** (20 Mio. betroffen): Direkte Gehaltsauszahlungen ohne staatlichen Bankzugang
+- **Unbanked** (2 Mrd. Menschen): Keine Bankverbindung nötig für Bitcoin-Empfang
+- **Solar-ROI halbiert** (Use Case 15): Mining reduziert Amortisierungszeit von Solaranlagen von 8,1 auf 3,7 Jahre
+- **28.000 Dorfbewohner in Afrika** via Mikrogrid (Potenzial: 600 Mio.)
+- **Guatemalanischer Nationalpark** (7.800 km²): Bitcoin-Mining-Einnahmen retteten Virunga-äquivalentes Schutzgebiet laut Parkbesitzer
+- **4,1 Mio. Händler** akzeptieren Lightning-Zahlungen ohne Visa/Mastercard-Gebühren
+- **Bhutan** baut Energieunabhängigkeit durch staatliches Bitcoin Mining
+
+Das gemeinsame Muster: Bitcoin hat praktischen Nutzen für Menschen, die vom herkömmlichen Finanzsystem ausgeschlossen, benachteiligt oder aktiv kontrolliert werden. Die Adoption folgt dem Nutzen. [[21 Bitcoin Use Cases You Probably Aren't Aware Of (unless you've studied it)]]
 
 ## Open Questions
 
