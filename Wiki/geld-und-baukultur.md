@@ -32,7 +32,7 @@ Die Verbindung zur österreichischen Ökonomik ist direkt: Zeitpräferenz (Mises
 
 ## Related
 
-- [[praxeologie-und-oesterreichische-oekonomik]]
+- [[oesterreichische-kapital-und-geldtheorie]]
 - [[geldpolitik-und-inflation]]
 - [[bitcoin-alles-geteilt-durch-21-millionen]]
 - [[bitcoin-entfinanzialisierung]]

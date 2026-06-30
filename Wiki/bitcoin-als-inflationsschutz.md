@@ -76,10 +76,10 @@ Weinhold beschreibt Fiat als "Virus" — ein System, das nicht durch Mehrwert, s
 - [[bitcoin-powerlaw-und-preismodelle]]
 - [[bitcoin-alles-geteilt-durch-21-millionen]]
 - [[bitcoin-spieltheorie-und-anreize]]
-- [[praxeologie-und-oesterreichische-oekonomik]]
+- [[oesterreichische-kapital-und-geldtheorie]]
 - [[ideal-money-und-bitcoin]]
 - [[bitcoin-und-immobilien]]
-- [[bitcoin-mining-umwelt]]
+- [[bitcoin-mining-netz-und-oekonomie]]
 
 ## Open Questions
 

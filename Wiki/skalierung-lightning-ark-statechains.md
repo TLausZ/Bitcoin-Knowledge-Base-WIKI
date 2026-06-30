@@ -90,7 +90,7 @@ Das Ergebnis: eine Turing-vollständige Execution-Umgebung mit globalem State un
 - [[taproot-musig2-frost]]
 - [[bitcoin-geldpolitik-und-21-millionen-limit]]
 - [[bitcoin-monetarisierung]]
-- [[praxeologie-und-oesterreichische-oekonomik]]
+- [[praxeologie-methode-und-werttheorie]]
 
 ## Open Questions
 

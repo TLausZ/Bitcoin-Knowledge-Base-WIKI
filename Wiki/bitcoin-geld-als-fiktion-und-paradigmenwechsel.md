@@ -87,7 +87,7 @@ Diese Entdeckung ist nach Strolight keine intellektuelle Übung; sie verändert,
 - [[ideal-money-und-bitcoin]]
 - [[selbstverwahrung-und-boersenrisiken]]
 - [[kryptoanarchismus-und-cypherpunks]]
-- [[praxeologie-und-oesterreichische-oekonomik]]
+- [[praxeologie-methode-und-werttheorie]]
 - [[bitcoin-powerlaw-und-preismodelle]]
 
 ## Open Questions

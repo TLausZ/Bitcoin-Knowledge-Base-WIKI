@@ -116,7 +116,7 @@ Selbst eine Verlagerung von 1–5% der monetären Immobilien-Prämie zu Bitcoin 
 - [[bitcoin-unternehmens-strategie]]
 - [[bitcoin-als-inflationsschutz]]
 - [[bitcoin-als-strategische-reserve]]
-- [[praxeologie-und-oesterreichische-oekonomik]]
+- [[oesterreichische-kapital-und-geldtheorie]]
 - [[bitcoin-digitale-knappheit]]
 - [[selbstverwahrung-und-boersenrisiken]]
 - [[kapital-und-bitcoin]]

@@ -70,7 +70,7 @@ In dem ergänzenden Essay (2003) beschreibt Szabo die technischen Fortschritte i
 - [[digitales-bargeld-und-ecash]]
 - [[hashcash]]
 - [[bitcoin-geldpolitik-und-21-millionen-limit]]
-- [[praxeologie-und-oesterreichische-oekonomik]]
+- [[oesterreichische-kapital-und-geldtheorie]]
 - [[ideal-money-und-bitcoin]]
 
 ## Open Questions

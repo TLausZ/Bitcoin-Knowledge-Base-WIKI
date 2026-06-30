@@ -111,7 +111,7 @@ Die Parallele zur Internet-S-Kurve trägt, wenn man annimmt, dass Bitcoin als Ge
 ## Related
 
 - [[bitcoin-spieltheorie-und-anreize]]
-- [[praxeologie-und-oesterreichische-oekonomik]]
+- [[oesterreichische-kapital-und-geldtheorie]]
 - [[bitcoin-geldpolitik-und-21-millionen-limit]]
 - [[geld-staat-und-fiat-monopol]]
 - [[szabo-geldursprung]]

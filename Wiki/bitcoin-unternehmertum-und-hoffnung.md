@@ -44,7 +44,7 @@ Das Fernziel ist, was Breedlove eine „führerlose Zivilisation" nennt — zum 
 - [[bitcoin-spieltheorie-und-anreize]]
 - [[bitcoin-entropie-und-ordnung]]
 - [[bitcoin-als-inflationsschutz]]
-- [[praxeologie-und-oesterreichische-oekonomik]]
+- [[praxeologie-methode-und-werttheorie]]
 
 ## Open Questions
 

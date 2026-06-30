@@ -86,7 +86,7 @@ Fiat-Währungen scheiden schon strukturell aus: Eingebaute Inflation bedeutet, d
 
 ## Related
 
-- [[praxeologie-und-oesterreichische-oekonomik]]
+- [[praxeologie-methode-und-werttheorie]]
 - [[geld-staat-und-fiat-monopol]]
 - [[bitcoin-als-inflationsschutz]]
 - [[bitcoin-spieltheorie-und-anreize]]

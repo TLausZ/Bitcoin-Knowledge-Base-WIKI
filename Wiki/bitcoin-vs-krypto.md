@@ -1,8 +1,8 @@
 # Bitcoin vs. Krypto: Signal und Rauschen
 
 **Status:** established
-**Last updated:** 2026-06-22
-**Sources:** [[Liebe Krypto- und Fiat-Bros.md]], [[aprycot-nur-die-staerksten-einleitung]], [[aprycot-nur-die-staerksten-1-innovation-grundprinzipien]], [[aprycot-nur-die-staerksten-2-krypto-nicht-dezentralisiert]], [[aprycot-nur-die-staerksten-3-krypto-kein-finanzwesen]], [[aprycot-nur-die-staerksten-4-investitions-grundprinzip]], [[aprycot-nur-die-staerksten-5-schichtenarchitektur]], [[aprycot-nur-die-staerksten-6-warum-wir-uns-irren]], [[aprycot-nur-die-staerksten-7-fazit-anhaenge]]
+**Last updated:** 2026-06-29
+**Sources:** [[Liebe Krypto- und Fiat-Bros.md]], [[aprycot-nur-die-staerksten-einleitung]], [[aprycot-nur-die-staerksten-1-innovation-grundprinzipien]], [[aprycot-nur-die-staerksten-2-krypto-nicht-dezentralisiert]], [[aprycot-nur-die-staerksten-3-krypto-kein-finanzwesen]], [[aprycot-nur-die-staerksten-4-investitions-grundprinzip]], [[aprycot-nur-die-staerksten-5-schichtenarchitektur]], [[aprycot-nur-die-staerksten-6-warum-wir-uns-irren]], [[aprycot-nur-die-staerksten-7-fazit-anhaenge]], [[An Economic Analysis of Ethereum.md]]
 
 ## Summary
 
@@ -98,6 +98,24 @@ Teile 5–7 (bereits kompiliert in Pass 39) zeigen, dass wünschenswerte Krypto-
 
 ---
 
+### Lyn Aldens Investoren-Analyse von Ethereum (Jan 2021)
+
+Lyn Alden schrieb 2021 eine der präzisesten Investor-Analysen zu Ethereum aus einer Bitcoin-Perspektive. Ihr Ausgangspunkt war nicht ideologisch, sondern methodisch: Welche Risiken und welche Rückschlüsse erlaubt ein unfertige Basisschicht für Investoren?
+
+**DApps: weniger dezentral als beworben.** Die meisten DApps laufen über zentralisierte Frontends, zentralisierte Stablecoins und zentralisierte Oracles. Ein dezentrales Protokoll darunter löst das Problem nicht vollständig, wenn alle Schichten darüber zentralisiert bleiben.
+
+**ETH 2.0 als Alpha-Produkt.** Alden betont, dass Ethereum zum Zeitpunkt der Analyse noch in Alpha-Entwicklung war: Die Basisschicht wurde grundlegend umgebaut (Wechsel von PoW zu PoS, Sharding, Beacon Chain). Das ist im Gegensatz zu Bitcoin, dessen Basisschicht seit 2009 stabil läuft und seit 2017 keine fundamentale Änderung mehr erfahren hat.
+
+**Node-Dezentralisierung.** Bei Bitcoin kann jeder einen vollen Node auf einem normalen Laptop laufen lassen und die gesamte Blockchain selbst verifizieren. Ethereum 2.0 hingegen erfordert sogenannte Super-Full-Nodes für die vollständige Verifikation — diese können nur grosse Institutionen betreiben. Normale Nutzer müssen anderen Netzwerkteilnehmern vertrauen.
+
+**Geldpolitik: mehrfach geändert.** Bitcoins Geldpolitik ist seit dem ersten Block unverändert. Ethereums Geldpolitik wurde mehrfach durch Entwickler-Proposals angepasst (EIP 1559 und weitere). Alden sieht darin ein Strukturproblem: "Ethereum developers change their monetary policy as often as the Federal Reserve does, and for similar reasons."
+
+**Das Concorde-Risiko.** Aldens schärfste Analogie: Die Concorde konnte 1969 die Schallmauer durchbrechen und New York–London in 3 Stunden fliegen. Trotzdem blieb sie nie wirtschaftlich. 50 Jahre später existiert kein kommerzieller Überschallflug. Ethernet könnte ähnlich enden: technisch beeindruckend, aber ohne nachhaltiges wirtschaftliches Fundament — während Bitcoin als "slower and boring" die langfristige Lösung darstellt.
+
+**Aldens Portfolio-Fazit.** Sie hält ein 100/0 BTC/ETH-Verhältnis für sich. Ein 80/20 oder 90/10 sei nicht "verrückt", aber Ethereum sei erst dann interessant, wenn ETH 2.0 aus der Alpha-Phase heraus ist, die Geldpolitik stabil bleibt, und die Nutzung über Token-Spekulation hinausgeht.
+
+**"Hardest Money wins."** Wertspeicherung konzentriert sich historisch in der härtesten Geldform: Gold (nicht Kupfer, nicht Öl). Bitcoin optimiert für diese Eigenschaft mit fixer Geldpolitik, einfacher Verifikation, dezentralen Nodes. Ethereum versucht beides zu sein — Wertspeicher und Nutzungstoken — und muss beides beweisen.
+
 ## Related
 
 - [[selbstverwahrung-und-boersenrisiken]]
@@ -109,6 +127,7 @@ Teile 5–7 (bereits kompiliert in Pass 39) zeigen, dass wünschenswerte Krypto-
 - [[proof-of-stake-kritik]]
 - [[bitcoin-schichtenarchitektur]]
 - [[bitcoin-commons-und-governance]]
+- [[quotes]]
 
 ## Open Questions
 
@@ -116,3 +135,4 @@ Teile 5–7 (bereits kompiliert in Pass 39) zeigen, dass wünschenswerte Krypto-
 - Wann gilt eine Plattform als „zentralisiert" — ab welchem Grad von Custodianship?
 - Kann DeFi (on-chain, trustless) als weniger problematisch eingestuft werden als CeFi wie FTX?
 - Wie verhält sich Farringtons Dezentralisierungsargument nach Ethereums Merge zu PoS? Hat sich die Cloud-Abhängigkeit verändert?
+- Hat Aldens Concorde-Analogie nach dem Merge zu PoS und dem weiteren ETH-Ökosystem an Gültigkeit verloren oder gewonnen?

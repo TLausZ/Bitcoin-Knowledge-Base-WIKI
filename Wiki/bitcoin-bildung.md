@@ -100,7 +100,7 @@ Caveat: Der SBF-Fall zeigt die ethischen Fallstricke — Effective Altruism als 
 ## Related
 
 - [[bitcoin-als-strategische-reserve]]
-- [[praxeologie-und-oesterreichische-oekonomik]]
+- [[praxeologie-methode-und-werttheorie]]
 - [[bitcoin-kaufen-und-dca]]
 - [[selbstverwahrung-und-boersenrisiken]]
 - [[szabo-geldursprung]]

@@ -6,7 +6,7 @@
 
 ## Summary
 
-Bitcoin-Mining ist der Prozess, durch den neue Blöcke zur Blockchain hinzugefügt und neue Bitcoin in Umlauf gebracht werden. Miner berechnen Billionen von Hashwerten pro Sekunde und suchen nach einem, der einen vorgegebenen Zielwert unterschreitet. Dieser physische Aufwand — Proof of Work — sichert das Netzwerk, weil Angriffe real Geld und Energie kosten. Das Netzwerk passt die Schwierigkeit alle zwei Wochen automatisch an, um die Blockzeit bei zehn Minuten zu halten. Zur Umweltwirkung des Minings: → [[bitcoin-mining-umwelt]]
+Bitcoin-Mining ist der Prozess, durch den neue Blöcke zur Blockchain hinzugefügt und neue Bitcoin in Umlauf gebracht werden. Miner berechnen Billionen von Hashwerten pro Sekunde und suchen nach einem, der einen vorgegebenen Zielwert unterschreitet. Dieser physische Aufwand — Proof of Work — sichert das Netzwerk, weil Angriffe real Geld und Energie kosten. Das Netzwerk passt die Schwierigkeit alle zwei Wochen automatisch an, um die Blockzeit bei zehn Minuten zu halten. Zur Umweltwirkung des Minings: → [[bitcoin-mining-narrativ-und-kritik]], [[bitcoin-mining-energiequellen]], [[bitcoin-mining-netz-und-oekonomie]]
 
 ## Body
 
@@ -147,7 +147,9 @@ Fälschungssichere Kostspieligkeit passt in keine einzelne akademische Disziplin
 
 ## Related
 
-- [[bitcoin-mining-umwelt]] ← Vollständige Umwelt- und Energieevidenz (14 peer-reviewed Papers)
+- [[bitcoin-mining-narrativ-und-kritik]] ← Datenlage, Medien-Narrativ, Kritik und Fehlannahmen
+- [[bitcoin-mining-energiequellen]] ← Energiequellen, Curtailment, Methan, Abwärme, Wasser
+- [[bitcoin-mining-netz-und-oekonomie]] ← Netzstabilisierung, Preiseffekte, Mini-Grids, Fallstudien
 - [[proof-of-stake-kritik]] ← Detaillierte PoS-Sicherheitsanalyse (Nguyen)
 - [[bitcoin-whitepaper]]
 - [[bitcoin-geldpolitik-und-21-millionen-limit]]

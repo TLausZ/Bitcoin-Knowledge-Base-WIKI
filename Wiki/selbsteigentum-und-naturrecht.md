@@ -45,7 +45,7 @@ Damit schließt Bitcoin die Lücke zwischen dem philosophischen Anspruch des Nat
 
 ## Related
 
-- [[praxeologie-und-oesterreichische-oekonomik]]
+- [[praxeologie-methode-und-werttheorie]]
 - [[ergebnisgleichheit-und-freiheit]]
 - [[geld-staat-und-fiat-monopol]]
 - [[bitcoin-recht-sprache-geld]]

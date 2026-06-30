@@ -2,7 +2,7 @@
 
 **Status:** established
 **Last updated:** 2026-06-29
-**Sources:** [[2025-08-30_Blocktrainer-10 Fehlannahmen über Bitcoin und warum sie falsch sind!]], [[2026-06-08_BlocktrainerBitcoin_ 10 Einsteigerfragen]], [[20260607_Blocktrainer-Einstieg in Bitcoin_ Alles was Anfänger wissen müssen!]], [[2025-05-14_Blocktrainer-Bitcoin kaufen 2025_ Lohnt sich der Einstieg noch_]], [[Warum Bitcoin kein Ponzi-Schema ist_ Punkt für Punkt.md]], [[aprycot-nur-die-staerksten-6-warum-wir-uns-irren]], [[aprycot-parker-lewis-bitcoin-kein-schneeballsystem]], [[2026-06-29_bitcoin-gespraechsskript-fehlannahmen]]
+**Sources:** [[2025-08-30_Blocktrainer-10 Fehlannahmen über Bitcoin und warum sie falsch sind!]], [[2026-06-08_BlocktrainerBitcoin_ 10 Einsteigerfragen]], [[20260607_Blocktrainer-Einstieg in Bitcoin_ Alles was Anfänger wissen müssen!]], [[2025-05-14_Blocktrainer-Bitcoin kaufen 2025_ Lohnt sich der Einstieg noch_]], [[Warum Bitcoin kein Ponzi-Schema ist_ Punkt für Punkt.md]], [[Bitcoin_ Addressing the Ponzi Scheme Characterization.md]], [[aprycot-nur-die-staerksten-6-warum-wir-uns-irren]], [[aprycot-parker-lewis-bitcoin-kein-schneeballsystem]], [[2026-06-29_bitcoin-gespraechsskript-fehlannahmen]]
 
 ## Summary
 
@@ -62,7 +62,7 @@ Bitcoin-Mining verbraucht Energie. Das ist gewollt: Energie wird gegen Sicherhei
 
 Bitcoin nutzt zunehmend überschüssige und erneuerbare Energie, weil diese am günstigsten ist. Mining macht Überproduktion von Strom (Wasserenergie in Regenzeiten, Windenergie nachts) wirtschaftlich verwertbar. Laut Cambridge Centre for Alternative Finance (2025) laufen 52 % des weltweiten Bitcoin-Betriebs auf erneuerbarer Energie. In Finnland liefert die Abwärme von Bitcoin-Betrieb bereits 2 % der Fernwärmeversorgung. In den USA wird Erdgas, das an Ölfeldern früher abgefackelt wurde, heute für Bitcoin genutzt, was Emissionen aktiv reduziert.
 
-Laut Galaxy Digital (2021) verbraucht das traditionelle Bankensystem mehr als doppelt so viel Energie wie Bitcoin. Die Umweltdebatte vernachlässigt, was Bitcoin ersetzt. Von 16 peer-reviewed Papers zu Bitcoin und Energie bis 2025 kommen 14 zu positiven Ergebnissen. Greenpeace hat seine Anti-Bitcoin-Kampagne eingestellt. Siehe [[bitcoin-mining-umwelt]] für die vollständige Evidenzlage.
+Laut Galaxy Digital (2021) verbraucht das traditionelle Bankensystem mehr als doppelt so viel Energie wie Bitcoin. Die Umweltdebatte vernachlässigt, was Bitcoin ersetzt. Von 16 peer-reviewed Papers zu Bitcoin und Energie bis 2025 kommen 14 zu positiven Ergebnissen. Greenpeace hat seine Anti-Bitcoin-Kampagne eingestellt. Siehe [[bitcoin-mining-narrativ-und-kritik]] für die vollständige Evidenzlage.
 
 ### "Bitcoin wird nur von Kriminellen genutzt"
 
@@ -87,6 +87,8 @@ Lyn Alden (Makroökonomin) widerlegt dies systematisch anhand der SEC-Definition
 Bitcoin erfüllt keines der Kernmerkmale. Es gibt keinen Betreiber, der Versprechen macht und Gelder kontrolliert. Satoshi Nakamoto hat sich zurückgezogen und seine eigenen Bitcoin bis heute nie bewegt. Es gibt keine garantierten Renditen. Alle Transaktionen sind öffentlich einsehbar und von jedem prüfbar, das Gegenteil der für Ponzi-Schemata typischen Intransparenz. Auszahlungen sind jederzeit möglich.
 
 Alden schließt: Bitcoin passt zur Definition eines aufkommenden Geldes in der Marktfindungsphase, nicht zur Definition eines Betrugsschemas. [[Warum Bitcoin kein Ponzi-Schema ist_ Punkt für Punkt.md]]
+
+Wer die Definition weit genug dehnt, trifft einen zusätzlichen Punkt: Das globale Fraktionalreserve-Bankensystem erfüllt die breite Ponzi-Definition eher als Bitcoin. Banken halten im Schnitt nur 20 % der Einlagen als Reserve. Wenn genug Kunden gleichzeitig abheben wollten, könnte das System nicht zahlen — eines der SEC-Warnzeichen für ein Ponzi-Schema. Physisches Bargeld macht nur 13 % der gesamten Bankeinlagen aus. Das System funktioniert dauerhaft nur, weil die Musik nie aufhört — und wenn sie es tut, druckt die Zentralbank neue Stühle. Bitcoin existiert dagegen ohne Fraktionalreserve und erlaubt Selbstverwahrung, was das Gegenparteirisiko auf null reduziert. [[Bitcoin_ Addressing the Ponzi Scheme Characterization.md]]
 
 ### "Altcoins oder eine bessere Technologie werden Bitcoin ersetzen"
 
@@ -151,7 +153,7 @@ Lewis zieht die Parallele zu Hayeks «Anmaßung von Wissen» (1974): Die Fed hat
 - [[skalierung-lightning-ark-statechains]]
 - [[selbstverwahrung-und-boersenrisiken]]
 - [[bitcoin-mining-und-proof-of-work]]
-- [[bitcoin-mining-umwelt]]
+- [[bitcoin-mining-narrativ-und-kritik]]
 - [[bitcoin-volatilitaet-und-preisfindung]]
 - [[bitcoin-regierungsresistenz]]
 

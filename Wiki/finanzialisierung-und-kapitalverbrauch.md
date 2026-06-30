@@ -68,7 +68,7 @@ Zusammengefasst: Preise reagieren kurzfristig auf die Geschwindigkeit der Finanz
 - [[bitgenstein-geldtheorie-grundlagen]]
 - [[geld-staat-und-fiat-monopol]]
 - [[neofeudalism-und-bitcoin-exit]]
-- [[praxeologie-und-oesterreichische-oekonomik]]
+- [[oesterreichische-kapital-und-geldtheorie]]
 - [[bitcoin-spieltheorie-und-anreize]]
 - [[bitcoin-als-inflationsschutz]]
 - [[spekulation-unsicherheit-und-geld]]

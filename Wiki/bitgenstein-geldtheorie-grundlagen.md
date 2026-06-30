@@ -49,7 +49,7 @@ Die semantische Theorie würde das als Beweis für das Scheitern des neuen Gelde
 - [[spekulation-unsicherheit-und-geld]]
 - [[bitcoin-monetarisierung]]
 - [[szabo-geldursprung]]
-- [[praxeologie-und-oesterreichische-oekonomik]]
+- [[oesterreichische-kapital-und-geldtheorie]]
 - [[bitcoin-netzwerkeffekte-und-design]]
 
 ## Open Questions

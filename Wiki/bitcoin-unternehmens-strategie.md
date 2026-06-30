@@ -90,7 +90,7 @@ Wankum wendet dieses Modell auf Unternehmensfinanzierung an: Wandelanleihen zu n
 - [[bitcoin-als-strategische-reserve]]
 - [[bitcoin-volatilitaet-und-preisfindung]]
 - [[kapital-und-bitcoin]]
-- [[praxeologie-und-oesterreichische-oekonomik]]
+- [[oesterreichische-kapital-und-geldtheorie]]
 - [[selbstverwahrung-und-boersenrisiken]]
 - [[bitcoin-monetarisierung]]
 

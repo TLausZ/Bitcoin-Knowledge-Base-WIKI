@@ -52,7 +52,7 @@ Die konstruktive Alternative lautet: Gleichheit vor dem Recht konsequent durchse
 
 ## Related
 
-- [[praxeologie-und-oesterreichische-oekonomik]]
+- [[praxeologie-methode-und-werttheorie]]
 - [[geld-staat-und-fiat-monopol]]
 - [[bitcoin-spieltheorie-und-anreize]]
 - [[bitcoin-geld-als-fiktion-und-paradigmenwechsel]]

@@ -54,7 +54,7 @@ Unternehmen wie FutureBit und Coinmine bieten Plug-and-Play-Miner für Haushalte
 - [[bitcoin-schichtenarchitektur]]
 - [[bitcoin-netzwerk-und-nodes]]
 - [[bitcoin-mining-und-proof-of-work]]
-- [[bitcoin-mining-umwelt]]
+- [[bitcoin-mining-netz-und-oekonomie]]
 - [[konsensregeln-und-mempool-richtlinien]]
 - [[bitcoin-als-organismus]]
 

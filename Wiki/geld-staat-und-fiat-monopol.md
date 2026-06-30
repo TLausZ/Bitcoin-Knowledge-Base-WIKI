@@ -106,7 +106,7 @@ Bitcoin bietet über Gold hinaus: Konfiszierbarkeit sinkt gegen null, wenn Keys 
 
 ## Related
 
-- [[praxeologie-und-oesterreichische-oekonomik]]
+- [[oesterreichische-kapital-und-geldtheorie]]
 - [[bitcoin-als-inflationsschutz]]
 - [[bitcoin-geldpolitik-und-21-millionen-limit]]
 - [[bitcoin-netzwerk-und-nodes]]

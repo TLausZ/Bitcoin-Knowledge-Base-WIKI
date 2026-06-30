@@ -62,7 +62,7 @@ Fazit: „Das Problem ist unser ungedecktes Papiergeldsystem. Fiat pecunia — e
 
 ## Related
 
-- [[praxeologie-und-oesterreichische-oekonomik]]
+- [[oesterreichische-kapital-und-geldtheorie]]
 - [[geld-staat-und-fiat-monopol]]
 - [[bitcoin-geldpolitik-und-21-millionen-limit]]
 - [[bitcoin-als-inflationsschutz]]

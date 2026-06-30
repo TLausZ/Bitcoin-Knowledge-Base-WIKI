@@ -117,7 +117,7 @@ Technologie ist von Natur aus deflationär: Wir werden besser darin, Dinge herzu
 
 - [[bitcoin-geldpolitik-und-21-millionen-limit]]
 - [[bitcoin-geld-als-fiktion-und-paradigmenwechsel]]
-- [[praxeologie-und-oesterreichische-oekonomik]]
+- [[praxeologie-methode-und-werttheorie]]
 - [[bitcoin-spieltheorie-und-anreize]]
 - [[selbstverwahrung-und-boersenrisiken]]
 - [[bitcoin-kaufen-und-dca]]

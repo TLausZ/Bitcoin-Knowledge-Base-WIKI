@@ -118,7 +118,7 @@ Svanholms "Unabhängigkeit neu gedacht" (2020) sammelt im letzten Kapitel die Ge
 - [[kryptoanarchismus-und-cypherpunks]]
 - [[bitcoin-fehlannahmen]]
 - [[selbstverwahrung-und-boersenrisiken]]
-- [[praxeologie-und-oesterreichische-oekonomik]]
+- [[praxeologie-methode-und-werttheorie]]
 
 ## Open Questions
 

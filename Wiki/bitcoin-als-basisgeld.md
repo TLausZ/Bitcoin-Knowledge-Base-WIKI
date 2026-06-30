@@ -49,7 +49,7 @@ Maxwell argumentiert, dass die politische Linke strukturell falsch liegt, wenn s
 - [[geld-staat-und-fiat-monopol]]
 - [[geldpolitik-und-inflation]]
 - [[bitcoin-entfinanzialisierung]]
-- [[praxeologie-und-oesterreichische-oekonomik]]
+- [[oesterreichische-kapital-und-geldtheorie]]
 - [[bitcoin-humanitaere-anwendungen]]
 - [[iwf-weltbank-strukturanpassung]]
 - [[dollar-hegemonie-super-imperialismus]]

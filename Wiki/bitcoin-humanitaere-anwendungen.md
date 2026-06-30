@@ -1,8 +1,8 @@
 # Bitcoin als humanitäres Werkzeug
 
 **Status:** established
-**Last updated:** 2026-06-29
-**Sources:** [[aprycot-waehrung-der-letzten-instanz]], [[aprycot-bitcoin-palaestinas-waehrung-freiheit]], [[aprycot-gladstein-humanitaere-oekologische-argumente]], [[aprycot-gladstein-meinungsfreiheit-digitales-zeitalter]], [[aprycot-gigi-bitcoin-einsatz-venezuela]], [[aprycot-gladstein-kuba-bitcoin-revolution]], [[aprycot-gladstein-finanzielle-freiheit-afghanistan]], [[aprycot-gladstein-finanzielle-privilegien]], [[aprycot-gladstein-monetaerer-kolonialismus]], [[21 Bitcoin Use Cases You Probably Aren't Aware Of (unless you've studied it)]]
+**Last updated:** 2026-06-30
+**Sources:** [[aprycot-waehrung-der-letzten-instanz]], [[aprycot-bitcoin-palaestinas-waehrung-freiheit]], [[aprycot-gladstein-humanitaere-oekologische-argumente]], [[aprycot-gladstein-meinungsfreiheit-digitales-zeitalter]], [[aprycot-gigi-bitcoin-einsatz-venezuela]], [[aprycot-gladstein-kuba-bitcoin-revolution]], [[aprycot-gladstein-finanzielle-freiheit-afghanistan]], [[aprycot-gladstein-finanzielle-privilegien]], [[21 Bitcoin Use Cases You Probably Aren't Aware Of (unless you've studied it)]], [[The untold story about who is really using Bitcoin and why]], [[Do cybercriminals prefer Fiat or Bitcoin_ the data is clear]], [[The Bitcoin Facts that Every Investment Committee Must Know]]
 
 ## Summary
 
@@ -122,15 +122,7 @@ Gladsteins ursprünglicher Ausgangspunkt vor den ausführlichen Länder-Reportag
 
 ### Monetärer Kolonialismus: der CFA-Franc
 
-Frankreich unterhält seit 1945 eine Währungszone aus 15 afrikanischen Staaten (acht in WAEMU, sechs in CEMAC plus Komoren), die den CFA-Franc verwenden. Die Kernbedingungen:
-
-- **50% der Devisenreserven** müssen bei der Banque de France hinterlegt sein (erst 2020 offiziell auf das Eurosystem umgestellt — de facto kaum verändert).
-- **Konvertibilität garantiert Frankreich**, nicht die Staaten selbst — was politische Abhängigkeit erzeugt.
-- **Überbewerteter Wechselkurs** macht Exporte teurer und Importe günstiger, was lokale Industrie strukturell schwächt.
-
-Der CFA-Franc entstand nicht durch Konsens, sondern als Instrument der Nachkriegs-Kolonialkontinuität. Noch 2020 wurde er in «ECO» umbenannt — die strukturellen Bedingungen blieben weitgehend unverändert. Gladstein zitiert den senegalesischen Ökonomen Ndongo Samba Sylla: Das System transferiert jährlich Milliarden von afrikanischen Staaten nach Frankreich in Form von Zinsvorteilen und Seigniorage.
-
-Bitcoin bietet den betroffenen Bevölkerungen das erste Werkzeug, Wert außerhalb dieses Rahmens zu halten. Händler in Dakar oder Yaoundé können Ersparnisse in BTC halten, ohne dass Paris die Kaufkraft durch Geldpolitik beeinflusst. Das ist kein abstraktes Argument: In Ländern mit 30–50% jährlicher Kaufkraftverlust-Risiko ist ein unpolitisches, programmatisch knappes Gut strukturell attraktiver als staatliches Geld. [[aprycot-gladstein-monetaerer-kolonialismus]]
+Die französische CFA-Franc-Zone als Mechanismus fortgesetzter monetärer Kontrolle über 15 afrikanische Staaten — und Bitcoin als Werkzeug, Wert außerhalb dieses Rahmens zu halten — ist gesondert in [[monetaerer-kolonialismus-cfa-franc]] behandelt.
 
 ## Related
 
@@ -139,8 +131,9 @@ Bitcoin bietet den betroffenen Bevölkerungen das erste Werkzeug, Wert außerhal
 - [[bitcoin-kaufen-und-dca]]
 - [[lightning-netzwerk-grundlagen]]
 - [[kryptoanarchismus-und-cypherpunks]]
-- [[bitcoin-mining-umwelt]]
+- [[bitcoin-mining-netz-und-oekonomie]]
 - [[bitcoin-regierungsresistenz]]
+- [[monetaerer-kolonialismus-cfa-franc]]
 - [[cypherpunk-manifest]]
 - [[bitcoin-menschenrechte]]
 - [[el-salvador-bitcoin-adoption]]
@@ -166,6 +159,14 @@ Stand-out-Fälle mit konkreten Zahlen:
 - **Bhutan** baut Energieunabhängigkeit durch staatliches Bitcoin Mining
 
 Das gemeinsame Muster: Bitcoin hat praktischen Nutzen für Menschen, die vom herkömmlichen Finanzsystem ausgeschlossen, benachteiligt oder aktiv kontrolliert werden. Die Adoption folgt dem Nutzen. [[21 Bitcoin Use Cases You Probably Aren't Aware Of (unless you've studied it)]]
+
+**Warum der Westen den Nutzen nicht sieht.** Batten führt das «Bitcoin hat keinen Nutzen ausser Spekulation»-Argument auf eine Wahrnehmungslücke zurück: Wer nicht selbst Hyperinflation, fehlenden Bankzugang oder autokratische Herrschaft erlebt, übersieht die drei Probleme, die für die Mehrheit der Weltbevölkerung Alltag sind. Genau dort macht Bitcoin messbare Unterschiede bei Meinungsfreiheit und Lebensqualität. [[The untold story about who is really using Bitcoin and why]]
+
+**Der Kriminalitäts-Einwand, gegen die Daten gehalten.** Ransomware wird oft als Beleg dafür angeführt, dass «Bitcoin von Kriminellen genutzt wird». Batten ordnet ein: Ransomware macht rund 0,33% der gesamten Cyberkriminalität aus, und das US-Finanzministerium hält in seinem National Money Laundering Risk Assessment 2024 fest, dass die Nutzung virtueller Assets für Geldwäsche weit unter der von Fiat-Währung liegt. Der prognostizierte Gesamtschaden durch Cybercrime bis 2025 liegt bei 10,5 Bio. USD, ganz überwiegend im Fiat-System. [[Do cybercriminals prefer Fiat or Bitcoin_ the data is clear]]
+
+### Methan-Deponien: wo Klimanutzen und Menschen zusammenfallen
+
+Battens ESG-Argument für Mining auf Deponiegas hat eine menschliche Seite. Laut UN verursacht Methan über eine Million vorzeitige Todesfälle jährlich, vergleichbar mit Suizid und Covid zusammen in einem Jahr. Auf der geentlüfteten Deponie in Haiti, einer offenen Müllkippe, leben 2.000 bis 3.000 Müllsammler, die für rund 3 USD am Tag scavengen. Batten porträtiert Changlair Aristide, der mit zwölf Jahren anfing, und seine Frau Violene, deren Wunsch ein Zuhause ist, in dem sie bei Regen keine Plane hochhalten muss. Die Bewohner leiden an Atemwegserkrankungen und chronischen Kopfschmerzen; das Sickerwasser verseucht ihr Trink- und Kochwasser. Mining macht die Methanabscheidung auf solchen Deponien wirtschaftlich und finanziert zugleich Mülltrennung mit Schutzausrüstung und existenzsicherndem Lohn. Weil die Projekte ganze Gemeinden betreffen, handeln ihre Carbon Credits mit Aufschlag. Die Mess- und Klimaseite dieses Arguments liegt in [[bitcoin-energie-messung-beest]] und [[bitcoin-mining-energiequellen]]. [[The Bitcoin Facts that Every Investment Committee Must Know]]
 
 ## Open Questions
 

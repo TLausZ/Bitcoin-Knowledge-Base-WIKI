@@ -35,3 +35,5 @@ Derzeit keine bekannten Lücken ausser den Kandidaten unten.
 - **bitcoin-als-inflationsschutz** — erledigt: Artikel existiert.
 
 - **bitcoin-kiosk-regulierung** — `Bitcoin_Kiosk_Paper_July_ 2025.pdf` (Eric Peterson, Satoshi Action, Juli 2025) in RAW vorhanden. US-spezifisches Nischenthema; Artikel erst dann, wenn weitere Policy-Quellen verfügbar.
+
+- **bitcoin-kommunikation / Orange-Pilling** → erledigt (2026-06-30): Mit `Bitcoin's Most Important Fork: The Influence Upgrade` (Daniel Batten) liegt die zweite Quelle vor. Artikel `bitcoin-kommunikation-und-orange-pilling.md` erstellt (OrangePilling + Influence Upgrade: 7 Prinzipien, Sector Ambassadors, Crossing the Chasm).

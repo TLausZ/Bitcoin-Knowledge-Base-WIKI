@@ -74,7 +74,7 @@ Quittem formuliert es direkt: "Betrachte Bitcoin-Miner als Keimzellen für Zitad
 - [[bitcoin-geld-als-fiktion-und-paradigmenwechsel]]
 - [[kryptoanarchismus-und-cypherpunks]]
 - [[bitcoin-als-inflationsschutz]]
-- [[bitcoin-mining-umwelt]]
+- [[bitcoin-mining-narrativ-und-kritik]]
 
 ## Open Questions
 

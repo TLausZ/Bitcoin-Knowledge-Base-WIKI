@@ -68,7 +68,7 @@ Segals Schlussfolgerung: Keine der Bitcoin-Eigenschaften allein — absolute Kna
 - [[bitcoin-absolute-knappheit]]
 - [[bitcoin-alles-geteilt-durch-21-millionen]]
 - [[geldpolitik-und-inflation]]
-- [[praxeologie-und-oesterreichische-oekonomik]]
+- [[praxeologie-methode-und-werttheorie]]
 
 ## Open Questions
 

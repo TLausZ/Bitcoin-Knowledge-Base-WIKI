@@ -71,7 +71,7 @@ Brendon Quittem vergleicht Bitcoin mit Myzel — einem unterirdischen Pilznetzwe
 - [[gigi-philosophische-essays]]
 - [[bitcoin-spieltheorie-und-anreize]]
 - [[bitcoin-und-selbstverantwortung]]
-- [[bitcoin-mining-umwelt]]
+- [[bitcoin-mining-narrativ-und-kritik]]
 
 ## Open Questions
 

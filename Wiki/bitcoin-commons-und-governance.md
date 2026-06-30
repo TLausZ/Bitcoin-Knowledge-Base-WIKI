@@ -62,7 +62,7 @@ DeFi-Systeme mit Besicherungsquoten unter 200 % sind damit strukturell anfällig
 
 - [[bitcoin-schichtenarchitektur]]
 - [[bitcoin-vs-krypto]]
-- [[praxeologie-und-oesterreichische-oekonomik]]
+- [[oesterreichische-kapital-und-geldtheorie]]
 - [[bitcoin-geldpolitik-und-21-millionen-limit]]
 - [[bitcoin-fehlannahmen]]
 

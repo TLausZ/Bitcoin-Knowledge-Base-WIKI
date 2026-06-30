@@ -62,7 +62,7 @@ Die drei Säulen der Sicherheit verstärken sich: Die Währung (Bitcoin) schafft
 - [[bitcoin-netzwerk-und-nodes]]
 - [[bitcoin-zensurresistenz]]
 - [[geldpolitik-und-inflation]]
-- [[bitcoin-mining-umwelt]]
+- [[bitcoin-mining-netz-und-oekonomie]]
 
 ## Open Questions
 
