@@ -1,8 +1,8 @@
 # Shamir Secret Sharing
 
 **Status:** established
-**Last updated:** 2026-06-20
-**Sources:** [[202606_Shamir Secret Sharing-BitcoinDevs]], [[Vorlage für «Poor Man Shamir's Secret Sharing Scheme»]]
+**Last updated:** 2026-07-05
+**Sources:** [[202606_Shamir Secret Sharing-BitcoinDevs]], [[Vorlage für «Poor Man Shamir's Secret Sharing Scheme»]], [[20251130_heartmoney-schau-hin-der-tiger-greift-an]]
 
 ## Summary
 
@@ -80,6 +80,8 @@ Das ist kein echtes SSS. Beim mathematischen SSS ist ein Share unterhalb der Sch
 Steiner warnt selbst, dass die Sicherheit mit steigender Rechenleistung zu hinterfragen ist.
 
 Stärken des Ansatzes: keine Software, kein Gerät, keine digitale Angriffsfläche. Für Menschen, die keine technische Infrastruktur aufbauen wollen, ist es ein praktikabler Einstieg — solange die 8-Wort-Sicherheitsmarge dem eigenen Risikoprofil entspricht. [[Vorlage für «Poor Man Shamir's Secret Sharing Scheme»]]
+
+Das Schema wird inzwischen auch in der deutschsprachigen Einsteiger-Bildung vermittelt (Nowak, 2025), dort verbunden mit der Empfehlung, (fast) immer 24 statt 12 Wörter zu verwenden — die 8-Wort-Marge des Poor-Man-Schemas existiert nur bei 24 Wörtern. Aus demselben Kontext stammt ein oft übersehener Praxishinweis zur Lagerung: Wer seine Seedphrase in einem externen Bankschließfach deponiert, ist über die Schließfachversicherung in der Regel nur für den Materialwert des Trägers gedeckt (die Stahlplatte, nicht die Coins dahinter). Das Schließfach schützt also physisch, ersetzt aber keine Redundanz — geht der Inhalt verloren, gibt es keinen Ausgleich. [[20251130_heartmoney-schau-hin-der-tiger-greift-an]]
 
 ### Unterschied zu Multisig
 

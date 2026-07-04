@@ -71,6 +71,7 @@ Merkle Proof für TxC:
 - [[segregated-witness-segwit]]
 - [[taproot-musig2-frost]]
 - [[hashcash]]
+- [[starks]]
 
 ## Open Questions
 

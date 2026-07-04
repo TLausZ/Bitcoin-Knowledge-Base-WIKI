@@ -1,8 +1,8 @@
 # Bitcoin-Monetarisierung: Vom Sammlerstück zur Recheneinheit
 
 **Status:** established
-**Last updated:** 2026-06-23
-**Sources:** [[aprycot-das-bullische-argument-fuer-bitcoin]], [[Das bullische Argument für Bitcoin]], [[The Bullish Case for Bitcoin]], [[aprycot-jeder-ist-ein-scammer]], [[aprycot-parker-lewis-bitcoin-macht-anderes-geld-ueberfluessig]], [[aprycot-parker-lewis-gradually-then-suddenly.md]], [[aprycot-malki-bitcoin-weltreservewaehrung]]
+**Last updated:** 2026-07-04
+**Sources:** [[aprycot-das-bullische-argument-fuer-bitcoin]], [[Das bullische Argument für Bitcoin]], [[The Bullish Case for Bitcoin]], [[aprycot-jeder-ist-ein-scammer]], [[aprycot-parker-lewis-bitcoin-macht-anderes-geld-ueberfluessig]], [[aprycot-parker-lewis-gradually-then-suddenly.md]], [[aprycot-malki-bitcoin-weltreservewaehrung]], [[20260201_heartmoney-zwischen-goldrausch-und-zuversicht]], [[20250713_heartmoney-gehorsam-oder-bitcoin]], [[20260111_heartmoney-bitcoin-top-preis-flop]]
 
 ## Summary
 
@@ -39,6 +39,18 @@ Gold war Jahrtausende lang der dominante Wertspeicher. Bitcoin hat mehrere struk
 - **Knappheitsgarantie:** Das 21-Millionen-Limit ist im Code verankert und von der Netzwerkmehrheit durchgesetzt. Golddepots können theoretisch erschöpft werden — im Asteroidengürtel gibt es mehr.
 
 Golds einziger struktureller Vorteil: 5.000 Jahre Bewährung. Bitcoin hat 17 Jahre. [[aprycot-das-bullische-argument-fuer-bitcoin]]
+
+### Die Gold-Rally 2025 als Wegbereiter
+
+Das Jahr 2025 lieferte eine ungewöhnliche Konstellation: Gold stieg um über 64% mit zahlreichen Allzeithochs — eine der stärksten Jahresperformances seit Jahrzehnten —, während Bitcoin das Jahr mit −6% abschloss. Wirtschafts- und Bitcoin-Podcasts im DACH-Raum diskutierten monatelang fast nur noch Gold (u.a. Stelter/Stöferle zum «In Gold We Trust Report»), mit der wiederkehrenden Einordnung: Steigende Goldpreise sind eher ein Warnsignal als ein Grund zur Euphorie, weil sie schwindendes Vertrauen in Fiat-Währungen anzeigen.
+
+Die Bitcoin-Deutung dieser Lage (Nowak, Feb 2026): Gold ist nicht Gegner, sondern Wegbereiter. Die Rally macht die Schwächen des Schuldengeldsystems für ein breites Publikum greifbar («There is no free lunch») — und wer Gold wieder als monetären Anker ernst nimmt, hat den gedanklichen Schritt zu Bitcoin fast schon getan. Verdichtet: «Gold stellt die richtigen Fragen. Bitcoin gibt eine noch bessere Antwort.» Langfristig, so die begleitende Datenauswertung, bewahrt Gold Wert, während Bitcoin auch im Verhältnis zu Gold strukturell wächst. [[20260201_heartmoney-zwischen-goldrausch-und-zuversicht]], [[20260111_heartmoney-bitcoin-top-preis-flop]]
+
+### Umgekehrte Adoptionsreihenfolge: Institutionen vor Retail
+
+Der Zyklus 2024–2026 zeigte erstmals eine Adoptionswelle, die nicht von Privatanlegern getragen wurde. Beim Allzeithoch im Juli 2025 (>118.000 USD) kauften vor allem ETF-Anbieter, institutionelle Anleger und Treasury-Firmen; die Google-Suchanfragen nach «Bitcoin» blieben auf niedrigem Niveau, Retail war abwesend. Nowaks Kommentar bringt die verteilungspolitische Kehrseite auf den Punkt: «Andersrum wäre es schöner — erst die breite Bevölkerung, dann die Institutionen. Doch wie so oft sind es die mit dem Informations- und Kapitalvorsprung, die den ersten Schritt machen.»
+
+Das kehrt das für Bitcoin historisch typische Bottom-up-Muster um (vgl. [[crypto-assets-study-ifz-2021-2025]]: Retail vor Institutionen als Besonderheit der Krypto-Adoption) und verschiebt Boyapatis Wellenmodell: Die neue Kohorte dieses Zyklus waren nicht Privatanleger, sondern Bilanzen. [[20250713_heartmoney-gehorsam-oder-bitcoin]]
 
 ### Spieltheorie der Monetarisierung
 
@@ -118,6 +130,8 @@ Die Parallele zur Internet-S-Kurve trägt, wenn man annimmt, dass Bitcoin als Ge
 - [[bitcoin-als-inflationsschutz]]
 - [[bitcoin-als-strategische-reserve]]
 - [[hyperbitcoinization-und-zitadellen]]
+- [[bitcoin-volatilitaet-und-preisfindung]]
+- [[crypto-assets-study-ifz-2021-2025]]
 
 ## Open Questions
 

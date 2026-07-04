@@ -1,8 +1,8 @@
 # Bitcoin-Bildung und Mi Primer Bitcoin
 
 **Status:** established
-**Last updated:** 2026-06-24
-**Sources:** [[aprycot-bitcoin-diplom-gratis]], [[aprycot-bitcoin-diplom-finanzielle-bildung]], [[aprycot-bildungsoffensive-coinfinity-scholarium]], [[aprycot-marlas-bitcoin-abenteuer]], [[aprycot-grundlagen-oekonomie-ankuendigung]], [[aprycot-fab-gigis-21-lektionen-hoerbuch]], [[aprycot-fab-bitcoin-besser-verstehen]], [[aprycot-fab-bitcoin-lesestunde]], [[aprycot-du-brauchst-keinen-bitcoin-job]]
+**Last updated:** 2026-07-04
+**Sources:** [[aprycot-bitcoin-diplom-gratis]], [[aprycot-bitcoin-diplom-finanzielle-bildung]], [[aprycot-bildungsoffensive-coinfinity-scholarium]], [[aprycot-marlas-bitcoin-abenteuer]], [[aprycot-grundlagen-oekonomie-ankuendigung]], [[aprycot-fab-gigis-21-lektionen-hoerbuch]], [[aprycot-fab-bitcoin-besser-verstehen]], [[aprycot-fab-bitcoin-lesestunde]], [[aprycot-du-brauchst-keinen-bitcoin-job]], [[I Spent 40 Years Financially Blind. Here's What Nobody Taught Me — And Why That Was No Accident.]], [[Bitcoin events Summary of 2025 - It was extraordinary!]], [[20260118_heartmoney-bitcoin-trifft-bildung]], [[20250622_heartmoney-pommes-preise-bitcoin-ein-gefuhl-kehrt-zuruck]], [[20260308_heartmoney-nur-noch-1-million-bitcoin]], [[20251228_heartmoney-bitcoin-reicht-nicht-was-mir-2025]]
 
 ## Summary
 
@@ -97,6 +97,26 @@ Das Effective-Altruism-Prinzip (Maximierung des positiven Einflusses durch optim
 
 Caveat: Der SBF-Fall zeigt die ethischen Fallstricke — Effective Altruism als Rechtfertigung für eigennütziges Verhalten. Juniormind betont: der Geist der Idee (kluge Allokation) zählt, nicht ein schematisches Kalkül. Francisco d'Anconia aus Ayn Rands *Atlas Shrugged* als Rollenmodell: im System bleiben, es von innen mit den eigenen Werten aufladen. [[aprycot-du-brauchst-keinen-bitcoin-job]]
 
+### Die Gegenfolie: 40 Jahre finanziell blind (Szabelski, 2026)
+
+Warum es Projekte wie Mi Primer Bitcoin überhaupt braucht, illustriert Marek Szabelskis Selbstbericht: acht Jahre Grundschule, vier Jahre Gymnasium mit Wirtschafts-Leistungskurs, fünf Jahre BWL-Studium mit Mikro- und Makroökonomie, über acht Jahre Arbeit in einer Bank, und trotzdem kein Verständnis davon, was Geld ist. Seine Zuspitzung: Das ist kein individuelles Versagen, sondern Absicht. Wer in ein System hineingeboren wird und nichts über dessen Funktionsweise lernt, gibt still die Kontrolle ab. [[I Spent 40 Years Financially Blind. Here's What Nobody Taught Me — And Why That Was No Accident.]]
+
+Zwei konkrete Befunde stützen die These. Erstens die curriculare Lücke: Schulen lehren den Aufbau eines Frosches Organ für Organ, aber nicht, was Geld ist. Zweitens die theoretische Monokultur an Universitäten: Der Keynesianismus (Staat steuert die Wirtschaft) wird als einzige plausible Wahrheit gelehrt; die Österreichische Schule ([[oesterreichische-kapital-und-geldtheorie]]), die das Individuum ins Zentrum stellt und Geld als Marktergebnis statt Staatsschöpfung erklärt, kommt nicht vor. Szabelski schätzt, dass 90 Prozent der Menschen nie von ihr gehört haben. Er kündigt eine Artikelserie an, die gängige Lehrsätze prüft, darunter «die Wirtschaft benötigt Inflation, um zu wachsen», «der Inflations-Warenkorb ist akkurat und unvoreingenommen» und «dauerhafte Deflation würde alles kollabieren lassen» — dieselben Angriffspunkte wie in [[geldpolitik-und-inflation]]. Beiläufig eine Fussnote zur Schulgeschichte: Carl Menger wurde in Galizien geboren, auf heute polnischem Gebiet.
+
+Sein Gegenprogramm deckt sich mit dem Aprycot-Ansatz: Selbststudium ist machbar («Alles, was ich heute weiss, habe ich mir in 4,5 Jahren selbst beigebracht»), verlangt aber Neugier, Zeit und die Bereitschaft, Gelerntes zu hinterfragen — inklusive der eigenen Quellen, ihn selbst eingeschlossen.
+
+### Bitcoin im deutschen Schulunterricht: der Fall Bingen
+
+Was das Bitcoin-Diplom für El Salvador dokumentiert, existiert in Deutschland bislang als Einzelinitiative engagierter Lehrer. Dokumentierter Fall: Philipp Spath, Lehrer an der Realschule+ am Scharlachberg in Bingen (Rheinland-Pfalz), setzt Bitcoin auf den Stundenplan einer 10. Klasse — im Januar 2026 mit Nicole Nowak als Gast für zwei Doppelstunden. Als Unterrichtsmaterial diente unter anderem BlueGuys Video «Bitcoins Potential» (Geldeigenschaften als Einstieg). Nowaks Doppelbefund aus dem Besuch: Einzelne Lehrkräfte können auch im bestehenden System relevante Inhalte wertschätzend vermitteln — und gleichzeitig denken in ihrem Bitcoin-Umfeld auffallend viele Lehrer über den Ausstieg aus dem Beruf nach (Überlastung), was die Frage aufwirft, wer solche Inhalte künftig trägt. [[20260118_heartmoney-bitcoin-trifft-bildung]]
+
+### Zielgruppen jenseits der Schule: Senioren und VHS
+
+Zwei weitere deutschsprachige Bildungskanäle aus der Praxis: Der Verein «Wege aus der Einsamkeit» (Dagmar Hirche) organisiert Zoom-Bitcoin-Schulungen für Menschen 65+ — die sich selbst augenzwinkernd «Versilberer» nennen —, mit engagierten, kritischen und offenen Teilnehmern. Und an einzelnen Volkshochschulen bieten Ehrenamtliche Bitcoin-Kurse an; die VHS erreicht damit ein Publikum, das weder Podcasts noch Konferenzen konsumiert. Dazu kommen Einsteiger-Podcasts als Massenformat: «Bitcoin kurz erklärt» (Nowak) überschritt im März 2026 die Marke von 64.000 Streams und resoniert auffällig stark bei Frauen (siehe [[frauen-und-bitcoin]]). [[20250622_heartmoney-pommes-preise-bitcoin-ein-gefuhl-kehrt-zuruck]], [[20251228_heartmoney-bitcoin-reicht-nicht-was-mir-2025]], [[20260308_heartmoney-nur-noch-1-million-bitcoin]]
+
+### Zertifizierte Bitcoin-Ausbildung bleibt rar
+
+Das Bitcoin Talents Programm des Frankfurt Blockchain Center (10 Videosessions, zuletzt rund 140 Teilnehmer weltweit) wurde 2025 eingestellt bzw. in ein allgemeines Web3/DeFi-Programm überführt; ein explizites Bitcoin-Programm mit Zertifizierung existiert dort nicht mehr. Szabelski, dort erst Absolvent (2024), dann Mentor (2025), wertet das als Rückschritt: Gezielte, fundierte Bitcoin-Kurse für junge Menschen bleiben eine Lücke im Bildungsangebot. [[Bitcoin events Summary of 2025 - It was extraordinary!]]
+
 ## Related
 
 - [[bitcoin-als-strategische-reserve]]
@@ -105,6 +125,10 @@ Caveat: Der SBF-Fall zeigt die ethischen Fallstricke — Effective Altruism als 
 - [[selbstverwahrung-und-boersenrisiken]]
 - [[szabo-geldursprung]]
 - [[gigi-philosophische-essays]]
+- [[oesterreichische-kapital-und-geldtheorie]]
+- [[geldpolitik-und-inflation]]
+- [[bitcoin-konferenzen-und-community]]
+- [[frauen-und-bitcoin]]
 
 ## Open Questions
 

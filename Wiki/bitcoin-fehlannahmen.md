@@ -1,8 +1,8 @@
 # Bitcoin-Fehlannahmen
 
 **Status:** established
-**Last updated:** 2026-06-29
-**Sources:** [[2025-08-30_Blocktrainer-10 Fehlannahmen über Bitcoin und warum sie falsch sind!]], [[2026-06-08_BlocktrainerBitcoin_ 10 Einsteigerfragen]], [[20260607_Blocktrainer-Einstieg in Bitcoin_ Alles was Anfänger wissen müssen!]], [[2025-05-14_Blocktrainer-Bitcoin kaufen 2025_ Lohnt sich der Einstieg noch_]], [[Warum Bitcoin kein Ponzi-Schema ist_ Punkt für Punkt.md]], [[Bitcoin_ Addressing the Ponzi Scheme Characterization.md]], [[aprycot-nur-die-staerksten-6-warum-wir-uns-irren]], [[aprycot-parker-lewis-bitcoin-kein-schneeballsystem]], [[2026-06-29_bitcoin-gespraechsskript-fehlannahmen]]
+**Last updated:** 2026-07-04
+**Sources:** [[2025-08-30_Blocktrainer-10 Fehlannahmen über Bitcoin und warum sie falsch sind!]], [[2026-06-08_BlocktrainerBitcoin_ 10 Einsteigerfragen]], [[20260607_Blocktrainer-Einstieg in Bitcoin_ Alles was Anfänger wissen müssen!]], [[2025-05-14_Blocktrainer-Bitcoin kaufen 2025_ Lohnt sich der Einstieg noch_]], [[Warum Bitcoin kein Ponzi-Schema ist_ Punkt für Punkt.md]], [[Bitcoin_ Addressing the Ponzi Scheme Characterization.md]], [[aprycot-nur-die-staerksten-6-warum-wir-uns-irren]], [[aprycot-parker-lewis-bitcoin-kein-schneeballsystem]], [[2026-06-29_bitcoin-gespraechsskript-fehlannahmen]], [[20260322_heartmoney-zwischen-bitcoin-und-ego]]
 
 ## Summary
 
@@ -145,6 +145,8 @@ Es gibt keinen Organisator. Nakamoto hat sich zurückgezogen; es gibt kein Unter
 Das entscheidende Unterscheidungsmerkmal: In einem Schneeballsystem ist das Produkt strukturell wertlos ohne neue Käufer. Bitcoin hingegen hat ein fixes Angebot von 21 Millionen, das dezentral durch alle Full Nodes alle zehn Minuten durchgesetzt wird. Mehr Nutzer teilen sich denselben Kuchen, sie erschaffen keinen neuen.
 
 Lewis zieht die Parallele zu Hayeks «Anmaßung von Wissen» (1974): Die Fed hat nach 2008 $3,6 Bio. Basisgeld geschaffen, ohne zu wissen, wie viel genau nötig ist. Bitcoin ist der strukturelle Gegenentwurf: Geldpolitik durch Konsens statt durch Zentralbank, verifizierbar von jedem Full Node, ohne jemanden vertrauen zu müssen. [[aprycot-parker-lewis-bitcoin-kein-schneeballsystem]]
+
+Der Vorwurf bleibt prominent: Im März 2026 nannte Ex-Premier Boris Johnson Bitcoin auf X ein Ponzi-Schema (4,4 Mio. Aufrufe). Michael Saylors Konter verdichtete die Lewis-Argumente auf einen Satz — bei einem Ponzi verspricht ein Betreiber Renditen aus dem Geld neuer Einzahler; Bitcoin hat keinen Betreiber, verspricht nichts und liegt als offenes Protokoll für jeden prüfbar vor (rund 32.000 Likes). Das Beispiel zeigt zugleich die Asymmetrie der Reichweiten: Die Fehlannahme erreichte ein Vielfaches des Publikums ihrer Widerlegung. [[20260322_heartmoney-zwischen-bitcoin-und-ego]]
 
 ## Related
 

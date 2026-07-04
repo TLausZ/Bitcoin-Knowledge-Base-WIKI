@@ -1,8 +1,8 @@
 # Bitcoin und Künstliche Intelligenz
 
 **Status:** emerging
-**Last updated:** 2026-06-29
-**Sources:** [[Bitcoin and AI]]
+**Last updated:** 2026-07-04
+**Sources:** [[Bitcoin and AI]], [[20260222_heartmoney-bitcoin-zum-festhalten]], [[20260215_heartmoney-so-schnell-geht-das-nicht]], [[20251123_heartmoney-ki-hat-keine-traumata]]
 
 ## Summary
 
@@ -26,6 +26,14 @@ Bitcoin braucht das alles nicht. Ein Computerprogramm kann einen privaten Schlü
 
 Die Schlussfolgerung: In einer Welt, in der KI-Agenten autonom handeln, ist Bitcoin das natürliche Geld — nicht weil es politisch erwünscht ist, sondern weil es technisch das einzige Geld ist, das Maschinen selbst verwahren und bewegen können. [[Bitcoin and AI]]
 
+### Vissers These: KI zerreißt den Deal zwischen Arbeit und Geld
+
+Jordi Visser (Makro-Stratege, Substack «The Fracturing Trust in Capitalism», 2026) verschärft Wankums Makro-Argument zur sozialen Frage: KI ersetzt nicht eine einzelne Fähigkeit, sondern ist ein universeller Ersatz für kognitive Arbeit, der «in allem gleichzeitig besser wird». Wenn Kapital menschliche Arbeitskraft nicht mehr braucht, wird Wohlstand nicht mehr über Löhne breit verteilt; Staaten stopfen die Lücke mit Schulden, Transfers und Geldentwertung. Vissers Schluss: «Wenn Regierungen ihre Währung entwerten, um Sicherungsnetze für verdrängte Arbeitnehmer zu finanzieren, muss Begrenztheit in Mathematik festgeschrieben sein — nicht in Politik.» Bitcoin wandert damit vom Nice-to-have zur Notwendigkeit. Ergänzend beobachtet Visser die Community-Seite: Maximalisten, die −80%-Drawdowns hielten, trug keine Renditeerwartung, sondern eine geteilte Überzeugung über solides Geld und Freiheit ([[bitcoin-und-psychologie]]). In dieselbe Kerbe schlägt Matt Shumers viral gegangene Prognose (Feb 2026), Bildschirmarbeit werde in Monaten bis wenigen Jahren substanziell von KI übernommen — von der Quelle selbst als teilweise Marketing eingeordnet, aber auch abgezinst dramatisch. Erste Arbeitsmarkteffekte (IT-Absolventen mit Jobproblemen) waren 2026 bereits Alltagsthema. [[20260222_heartmoney-bitcoin-zum-festhalten]], [[20260215_heartmoney-so-schnell-geht-das-nicht]]
+
+### Wankums Maschinen-These wird Infrastruktur
+
+Die These, KI-Agenten bräuchten Bitcoin als einziges maschinenverwahrbares Geld, bekam 2026 einen Implementierungs-Datenpunkt: Lightning Labs veröffentlichte ein Open-Source-Toolkit, mit dem KI-Agenten direkt über das Lightning Network bezahlen — Transaktionen selbstständig ausführen, ohne menschliche Freigabe pro Schritt, global und in Echtzeit. Der Anwendungsfall wandert damit von der Spekulation in die Werkzeuglage. [[20260222_heartmoney-bitcoin-zum-festhalten]]
+
 ### Risiken: Energieverbrauch und Konzentration
 
 Bitcoin-Mining und KI-Training konkurrieren um günstige Energie und spezialisierte Hardware. Das kann zu Ressourcenkonflikten führen, treibt aber auch Innovation in erneuerbarer Energie und Energieeffizienz.
@@ -40,6 +48,8 @@ KI-Entwicklung konzentriert sich heute auf wenige Unternehmen (OpenAI, Google, M
 - [[bitcoin-skalierung-und-zahlungen]]
 - [[lightning-netzwerk-grundlagen]]
 - [[geldpolitik-und-inflation]]
+- [[bitcoin-und-psychologie]]
+- [[bitcoin-und-quantenrisiko]]
 
 ## Open Questions
 

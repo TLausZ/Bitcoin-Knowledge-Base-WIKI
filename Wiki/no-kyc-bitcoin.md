@@ -2,7 +2,7 @@
 
 **Status:** established
 **Last updated:** 2026-06-25
-**Sources:** [[Das Privacy Handbuch – Timo Volkov (2025)]], [[opsec-und-privatsphaere]]
+**Sources:** [[Das Privacy Handbuch – Timo Volkov (2025)]], [[opsec-und-privatsphaere]], [[bitcoin-ratgeber_kapitel-03-von-der-boerse-zur-eigenen-wallet]]
 
 ## Summary
 
@@ -47,6 +47,10 @@ Bei Überweisungen über Fintech-Banken (Revolut, N26, Wise) sieht der Verkäufe
 Wer beides hat — Bitcoin von einer regulierten Börse und No-KYC-Bitcoin — sollte sie nie in derselben On-Chain-Transaktion mischen. Sobald ein KYC-UTXO mit einem No-KYC-UTXO kombiniert wird, verliert Letzterer seinen Privatsphärevorteil. Die Trennung lässt sich durch separate Wallets und eine konsequente Passphrase-Strategie aufrechterhalten: eine Passphrase für die KYC-Coins, eine andere für No-KYC-Coins. Beide teilen dieselben 24 Seed-Wörter, führen aber auf vollständig getrennte Wallets.
 
 Jede empfangene Transaktion sollte sofort mit einem Label versehen werden: Quelle (Börse, P2P, Person), Datum, Zweck. Sparrow Wallet hat dafür eine eigene Labeling-Funktion. Wer weiß, woher seine UTXOs stammen, kann beim Ausgeben bewusste Entscheidungen treffen und vermeidet ungewollte Verknüpfungen.
+
+### Weitere Einsteiger-Optionen (Bitcoin-Ratgeber)
+
+Michael Wolfs "Bitcoin-Ratgeber" nennt für den KYC-freien Einstieg zusätzlich GetBittr (SEPA-Überweisung ohne Ausweis, Auszahlung direkt auf die eigene Wallet), Bisq 2 als aktuelle Desktop-Version und den P2P-Weg Hodl Hodl im Browser. Als laufend gepflegte Übersicht KYC-freier Anbieter verweist er auf das Verzeichnis kycnot.me. Der Ratgeber begründet die Empfehlung mit dem Sicherheitsrisiko von KYC-Leaks: Wird eine Plattform gehackt, sind Name, Adresse und Bestand verknüpfbar — dokumentierte Fälle reichen bis zu gezielten Überfällen und Entführungen.
 
 ## Related
 

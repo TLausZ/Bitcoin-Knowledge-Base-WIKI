@@ -2,7 +2,7 @@
 
 **Status:** established
 **Last updated:** 2026-06-20
-**Sources:** [[Bitcoins verwahren und vererben_ Ein praktischer Ratgeber -- Marc Steiner -- 1_ Auflage, Rheinfelden, 2020 -- Held, Stefan & Fabio Tröndle GbR_ -- isbn13 9783949098017 -- 6ba03ea3dd3602e370eb518e8ae1af9c -- Anna's Archive.pdf]], [[2020_Bitcoins-verwahren-und-vererben_Steiner]]
+**Sources:** [[Bitcoins verwahren und vererben_ Ein praktischer Ratgeber -- Marc Steiner -- 1_ Auflage, Rheinfelden, 2020 -- Held, Stefan & Fabio Tröndle GbR_ -- isbn13 9783949098017 -- 6ba03ea3dd3602e370eb518e8ae1af9c -- Anna's Archive.pdf]], [[2020_Bitcoins-verwahren-und-vererben_Steiner]], [[bitcoin-ratgeber_kapitel-06-bitcoin-vererben]]
 
 ## Summary
 

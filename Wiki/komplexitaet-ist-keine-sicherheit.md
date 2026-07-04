@@ -1,8 +1,8 @@
 # Komplexität ist keine Sicherheit
 
 **Status:** established
-**Last updated:** 2026-06-05
-**Sources:** [[20231005_komplexitaet-ist-keine-sicherheit]]
+**Last updated:** 2026-07-05
+**Sources:** [[20231005_komplexitaet-ist-keine-sicherheit]], [[20250914_heartmoney-bitcoin-online-bananen-offline]]
 
 ## Summary
 
@@ -29,6 +29,10 @@ Fortgeschrittene Setups (Multisig, Passphrase, Air-Gap) sind dann sinnvoll, wenn
 Anfänger werden oft zu komplexen Setups gedrängt — mit gut gemeinter Absicht, aber kontraproduktivem Ergebnis. Wer sich aus der eigenen Wallet aussperrt oder frustriert aufgibt und zurück zur Börse wechselt, ist schlechter dran als mit einer einfachen, gut verwahrten Hardware-Wallet.
 
 Expertenfunktionen wie Multisig oder Passphrasen sind als opt-in gedacht, nicht als Standard. Der richtige Zeitpunkt dafür ist, wenn man versteht, was bei einem Fehler passiert — und wie man ihn vermeidet.
+
+### Dieselbe Position aus der Bildungspraxis (Nowak, 2025)
+
+Aus der deutschsprachigen Einsteiger-Vermittlung kommt eine unabhängige Bestätigung, dort ausdrücklich als «unpopuläre Meinung» markiert: Technikbegeisterte Bitcoiner der ersten Stunde empfehlen Einsteigern gern Passphrase, Multisig oder Shamir-Backups — und übersehen, dass diese Lösungen für die breite Masse zu erklärungsbedürftig sind und technikaverse Anfänger überfordern. Das Argument deckt sich mit dem Sicherheits-Paradoxon oben: Zusatzfeatures wie eine Passphrase machen den Nutzer selbst zur Schwachstelle, weil er sie vergessen, verlegen oder falsch eintippen kann. Die adoptionsbezogene Zuspitzung geht über den Ursprungsartikel hinaus: Solange sichere Verwahrung dieses Komplexitätsniveau hat, bleibt sie ein Hindernis für Massenadoption. [[20250914_heartmoney-bitcoin-online-bananen-offline]]
 
 ### Simplicity is security
 

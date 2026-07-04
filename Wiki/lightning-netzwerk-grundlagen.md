@@ -2,7 +2,7 @@
 
 **Status:** established
 **Last updated:** 2026-06-20
-**Sources:** [[The Inbound Capacity Problem in the Lightning Network]], [[A Closer Look at Submarine Swaps in the Lightning Network]], [[20251218_die-skalierung-von-bitcoin-lightning-und-der-weg-zu-ark]], [[20231018_lightning-in-der-bitboxapp]], [[Eine Vision für wertaktivierendes Web.md]]
+**Sources:** [[The Inbound Capacity Problem in the Lightning Network]], [[A Closer Look at Submarine Swaps in the Lightning Network]], [[20251218_die-skalierung-von-bitcoin-lightning-und-der-weg-zu-ark]], [[20231018_lightning-in-der-bitboxapp]], [[Eine Vision für wertaktivierendes Web.md]], [[bitcoin-ratgeber_kapitel-04-das-lightning-netzwerk]]
 
 ## Summary
 
@@ -57,6 +57,10 @@ Lightning löst das: Es ist das erste digitale Inhaberinstrument — digitales B
 **Reale Kosten für Cyberspace-Aktionen:** Lightning ermöglicht, Aktionen mit echten Kosten zu verknüpfen. Bot-Farmen und Spam werden unrentabel, wenn jede Aktion eine Sat-Gebühr kostet. KYC ist nicht nötig — Reputation entsteht durch Staking von Sats, nicht durch Identitätsnachweis.
 
 Gigi: „Sobald du deine ersten Streaming-Zahlungen erhalten hast, fühlt es sich mehr als antiquiert an, mit den alten Zahlungsschienen unserer Fiat-Welt zu arbeiten." [[Eine Vision für wertaktivierendes Web.md]] → Ausführlicher in [[value4value-und-wertaktivierendes-web]]
+
+### Einsteiger-Wallets und das Custodial-Limit
+
+Für den Alltag trennt Michael Wolfs "Bitcoin-Ratgeber" die Spar-Wallet (größere Beträge, on-chain) klar von der Lightning-Wallet (Alltagsbeträge, Sekundenzahlungen). Non-Custodial-Optionen halten den Schlüssel beim Nutzer: Phoenix (automatisches Kanalmanagement, einsteigerfreundlich), Breez (mit integriertem Point-of-Sale), Zeus (fortgeschritten, an eigene Node koppelbar) und Aqua (Hybrid). Custodial-Wallets wie Blink oder Wallet of Satoshi sind einfacher, verwahren aber die Schlüssel für den Nutzer. Die Faustregel: Custodial Lightning nur für Kleingeld; alles über ein paar Euro gehört in eine Non-Custodial-Wallet. Aufgeladen wird eine Lightning-Wallet, indem man on-chain Bitcoin an ihre Empfangsadresse sendet — Lightning-Adressen beginnen mit „ln…", on-chain-Adressen mit „bc1…", „1…" oder „3…".
 
 ## Related
 

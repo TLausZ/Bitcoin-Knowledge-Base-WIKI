@@ -2,7 +2,7 @@
 
 **Status:** established
 **Last updated:** 2026-06-17
-**Sources:** [[Shelling Out -- The Origins of Money]], [[Advances in Distributed Security]]
+**Sources:** [[Shelling Out -- The Origins of Money]], [[Advances in Distributed Security]], [[bitcoin-ratgeber_kapitel-01-was-ist-geld]]
 
 ## Summary
 

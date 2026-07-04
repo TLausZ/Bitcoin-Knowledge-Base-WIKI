@@ -1,8 +1,8 @@
 # Bitcoin-Mining-Dezentralisierung und Transaktionszensur
 
 **Status:** established
-**Last updated:** 2026-06-22
-**Sources:** [[aprycot-bitcoin-transaktionskriege-home-mining]]
+**Last updated:** 2026-07-05
+**Sources:** [[aprycot-bitcoin-transaktionskriege-home-mining]], [[20250914_heartmoney-bitcoin-online-bananen-offline]], [[20250615_heartmoney-hitze-hoffnung-hashrate]]
 
 ## Summary
 
@@ -48,6 +48,8 @@ Für jeden einzelnen Home-Miner ist die Wahrscheinlichkeit, einen Block zu finde
 **Solarüberschuss:** Wer eine Solaranlage überdimensioniert, speist überschüssigen Strom zu schlechten Konditionen ins Netz ein. Ein ASIC kann seinen Energieverbrauch in Sekunden hochfahren und drosseln — er monetarisiert den Überschuss in Bitcoin, ohne Netzeinspeisung.
 
 Unternehmen wie FutureBit und Coinmine bieten Plug-and-Play-Miner für Haushalte an, ohne technisches Vorwissen.
+
+**Lotto-Mining:** Die unterste Einstiegsstufe sind Kleinstgeräte wie der NerdAxe Gamma (ca. 1,4 TH/s, Hersteller Nerdminer.de aus Deutschland), dokumentiert im DACH-Community-Alltag 2025. Profitabel schürfen können sie nicht; der Reiz ist die Lotterie-Chance, selbst einen Block zu finden und die volle Belohnung (2025: 3,125 BTC) zu kassieren. Installation in Minuten, Betrieb nebenher im Wohnzimmer. Der systemische Wert entspricht der Home-Mining-Logik oben, im Miniaturformat: Hashrate in privater Hand plus ein Bildungseffekt — wer einen Lotto-Miner betreibt, versteht Blockbelohnung, Hashrate und Wahrscheinlichkeit aus erster Hand. [[20250914_heartmoney-bitcoin-online-bananen-offline]], [[20250615_heartmoney-hitze-hoffnung-hashrate]]
 
 ## Related
 

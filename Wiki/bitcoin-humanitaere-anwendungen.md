@@ -1,8 +1,8 @@
 # Bitcoin als humanitäres Werkzeug
 
 **Status:** established
-**Last updated:** 2026-06-30
-**Sources:** [[aprycot-waehrung-der-letzten-instanz]], [[aprycot-bitcoin-palaestinas-waehrung-freiheit]], [[aprycot-gladstein-humanitaere-oekologische-argumente]], [[aprycot-gladstein-meinungsfreiheit-digitales-zeitalter]], [[aprycot-gigi-bitcoin-einsatz-venezuela]], [[aprycot-gladstein-kuba-bitcoin-revolution]], [[aprycot-gladstein-finanzielle-freiheit-afghanistan]], [[aprycot-gladstein-finanzielle-privilegien]], [[21 Bitcoin Use Cases You Probably Aren't Aware Of (unless you've studied it)]], [[The untold story about who is really using Bitcoin and why]], [[Do cybercriminals prefer Fiat or Bitcoin_ the data is clear]], [[The Bitcoin Facts that Every Investment Committee Must Know]]
+**Last updated:** 2026-07-02
+**Sources:** [[aprycot-waehrung-der-letzten-instanz]], [[aprycot-bitcoin-palaestinas-waehrung-freiheit]], [[aprycot-gladstein-humanitaere-oekologische-argumente]], [[aprycot-gladstein-meinungsfreiheit-digitales-zeitalter]], [[aprycot-gigi-bitcoin-einsatz-venezuela]], [[aprycot-gladstein-kuba-bitcoin-revolution]], [[aprycot-gladstein-finanzielle-freiheit-afghanistan]], [[aprycot-gladstein-finanzielle-privilegien]], [[21 Bitcoin Use Cases You Probably Aren't Aware Of (unless you've studied it)]], [[The untold story about who is really using Bitcoin and why]], [[Do cybercriminals prefer Fiat or Bitcoin_ the data is clear]], [[The Bitcoin Facts that Every Investment Committee Must Know]], [[038BitcoinsValueExplainedbyaRefugee]]
 
 ## Summary
 
@@ -168,6 +168,14 @@ Das gemeinsame Muster: Bitcoin hat praktischen Nutzen für Menschen, die vom her
 
 Battens ESG-Argument für Mining auf Deponiegas hat eine menschliche Seite. Laut UN verursacht Methan über eine Million vorzeitige Todesfälle jährlich, vergleichbar mit Suizid und Covid zusammen in einem Jahr. Auf der geentlüfteten Deponie in Haiti, einer offenen Müllkippe, leben 2.000 bis 3.000 Müllsammler, die für rund 3 USD am Tag scavengen. Batten porträtiert Changlair Aristide, der mit zwölf Jahren anfing, und seine Frau Violene, deren Wunsch ein Zuhause ist, in dem sie bei Regen keine Plane hochhalten muss. Die Bewohner leiden an Atemwegserkrankungen und chronischen Kopfschmerzen; das Sickerwasser verseucht ihr Trink- und Kochwasser. Mining macht die Methanabscheidung auf solchen Deponien wirtschaftlich und finanziert zugleich Mülltrennung mit Schutzausrüstung und existenzsicherndem Lohn. Weil die Projekte ganze Gemeinden betreffen, handeln ihre Carbon Credits mit Aufschlag. Die Mess- und Klimaseite dieses Arguments liegt in [[bitcoin-energie-messung-beest]] und [[bitcoin-mining-energiequellen]]. [[The Bitcoin Facts that Every Investment Committee Must Know]]
 
+### Dadaab: Geld, das man nicht stehlen kann (Batten, 2025)
+
+Auftakt von Battens Serie «Inspiring Stories» (September 2025). Das Flüchtlingslager Dadaab in Kenia, rund 80 km von der somalischen Grenze, besteht seit 1991 und zählt über 420'000 Bewohner, etwa so viele wie Minneapolis. Mehr als die Hälfte der somalischen Flüchtlinge dort ist unter 18 und hat nie woanders gelebt. Diebstahl und bewaffnete Überfälle gehören zum Alltag. Polizei fehlt weitgehend; Bewohner organisieren Nachtwachen und verteidigen sich mit Macheten und Stöcken gegen Angreifer, die oft AK-47s tragen. Bargeld sicher aufzubewahren ist unter diesen Bedingungen kaum möglich: «Man konnte kein Geld behalten. Leute kamen in deine Hütte und nahmen es dir weg.»
+
+Die Bewohner fanden einen Umweg über das Mobiltelefon, ihren bestgehüteten Besitz. Wer Geld schützen wollte, überzahlte die Safaricom-Rechnung, und die Guthaben wurden zu M-Pesa. Dieses Detail erzählte «Aisha» (Name geändert), eine ehemalige Dadaab-Bewohnerin, dem pensionierten Peace-Corps-Mitarbeiter Bryon Bothun in Minnesota, als beide zufällig eine frühe Max-Keiser-Sendung über Bitcoin sahen. Bothun war skeptisch («Ich sehe nicht, wie das irgendwem helfen soll»). Aishas Antwort: «Das hätten wir in Dadaab gerne gehabt.» Geld, das keine monatlichen Zahlungen an Safaricom voraussetzt, hätte nach ihrer Einschätzung jeder im Lager genutzt.
+
+Der Use Case leuchtete also zuerst jemandem ein, der nie Bitcoin besessen hat, während der Amerikaner mit Bankkonto ihn nicht sah. Das ist dasselbe Wahrnehmungsgefälle, das Gladstein «Check Your Financial Privilege» nennt, hier in einer einzigen Wohnzimmerszene. Bothun begann danach, Bitcoin zu nutzen und andere darüber aufzuklären. Batten zitiert eine Schätzung der Organisation DA-RI, wonach heute über 300'000 Flüchtlinge Bitcoin nutzen; bis 2035 erwartet sie über 7 Millionen. [[038BitcoinsValueExplainedbyaRefugee]]
+
 ## Open Questions
 
 - Wie wirkt sich staatliche CBDC-Infrastruktur auf humanitäre Bitcoin-Nutzung aus, wenn CBDCs Transaktionsüberwachung ermöglichen?
@@ -176,3 +184,5 @@ Battens ESG-Argument für Mining auf Deponiegas hat eine menschliche Seite. Laut
 - Wie vermeidet Mining-basierte Entwicklungshilfe, die Muster der Rohstoffextraktion zu wiederholen (Gewinne ins Ausland, lokale Bevölkerung profitiert kaum)?
 - Wie verändert sich die Venezuela-Situation, wenn Lightning auf Smartphone-Ebene massentauglich wird?
 - Kuba, Afghanistan, Gaza, Venezuela — alle Fälle sind aus 2021–2022. Wie hat sich die Nutzungssituation seitdem verändert? Sind Lightning-Zahlungen in diesen Regionen inzwischen einfacher zugänglich?
+- Battens Flüchtlings-Zahlen (300'000 Bitcoin-Nutzer heute, 7 Mio. bis 2035) stammen von der Advocacy-Organisation DA-RI. Unabhängige Bestätigung fehlt; Methodik der Schätzung unklar.
+- Nutzen Bewohner von Dadaab heute tatsächlich Bitcoin, oder blieb M-Pesa das dominante Werkzeug? Aishas Aussage ist retrospektiv-hypothetisch («hätten wir gerne gehabt»).

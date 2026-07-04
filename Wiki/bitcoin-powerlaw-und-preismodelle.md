@@ -1,8 +1,8 @@
 # Bitcoin Power Law und Preismodelle
 
 **Status:** established
-**Last updated:** 2026-06-20
-**Sources:** [[A Mechanistic Derivation of the Bitcoin Price Power Law_ Network Adoption Dynamics and Generalised Metcalfe Scaling]], [[bitcoin_powerlaw_v4_FINALA]], [[Bitcoin_Supply_Demand_Price_Dynamics]], [[Supply_and_Demand_Framework_Bitcoin_Price_Forecasting]]
+**Last updated:** 2026-07-04
+**Sources:** [[A Mechanistic Derivation of the Bitcoin Price Power Law_ Network Adoption Dynamics and Generalised Metcalfe Scaling]], [[bitcoin_powerlaw_v4_FINALA]], [[Bitcoin_Supply_Demand_Price_Dynamics]], [[Supply_and_Demand_Framework_Bitcoin_Price_Forecasting]], [[20260125_heartmoney-der-bitcoin-fruhling-beginnt]], [[20260510_heartmoney-ein-barenmarkt-fur-ameisen]], [[20260630_heartmoney-bitcoin-angst-und-magie]], [[20251123_heartmoney-ki-hat-keine-traumata]]
 
 ## Summary
 
@@ -53,15 +53,28 @@ Neben dem netzwerktheoretischen Power-Law-Ansatz gibt es einen komplementären B
 
 Der Unterschied zum Power Law: Das Power-Law-Modell leitet den Preispfad aus der Netzwerkdiffusion ab (deterministisch, topologisch); das Angebot-Nachfrage-Modell leitet ihn aus wirtschaftlichem Gleichgewicht ab (stochastisch, fundamentalseitig). Beide liefern für 2036 Preisbänder im Millionenbereich — ein konsistentes Signal aus unterschiedlichen Methodiken. [[Bitcoin_Supply_Demand_Price_Dynamics]], [[Supply_and_Demand_Framework_Bitcoin_Price_Forecasting]]
 
+### Log-periodisches Zyklusmodell und das Ende des 4-Jahres-Zyklus
+
+Der populäre 4-Jahres-Zyklus (drei grüne Jahre, ein rotes, getaktet durch das Halving) wurde mit dem Jahresabschluss 2025 gebrochen: Statt des erwarteten Hype-Jahres endete 2025 mit −6%, ohne «Uptober» und ohne Blow-off-Top. Stephen Perrenod — Astrophysiker und Co-Autor der mechanistischen Power-Law-Herleitung oben — vertritt dazu die Position, der 4-Jahres-Zyklus habe als sauberes Muster nie existiert. Die Daten deuteten stattdessen auf ein log-periodisches Muster: Die zeitlichen Abstände zwischen den großen Boom-Phasen verdoppeln sich ungefähr mit jeder Iteration. Daraus folgt, dass 2025 keine klassische Hype-Phase brachte und der nächste Haupt-Peak eher um 2027 zu erwarten wäre. [[20260125_heartmoney-der-bitcoin-fruhling-beginnt]]
+
+In dieselbe Richtung argumentieren Michael Saylor und Lyn Alden: Bitcoin werde inzwischen stärker von Kapitalflüssen, Kreditmärkten, globaler Liquidität und Makrobedingungen getrieben als vom Halving-Takt. [[20260510_heartmoney-ein-barenmarkt-fur-ameisen]]
+
+Praxis-Check aus dem Bärenmarkt 2025/26: Im Juni 2026 notierte der Kurs am unteren Power-Law-Band. Die Quelle formuliert das Falsifikationskriterium der Community-Praxis: Würde die untere Unterstützungslinie über mehrere Wochen signifikant unterschritten, wäre das Power Law mit seinen heutigen Parametern zu begraben. Im Mai 2026 hielt das Band (Erholung über 82.000 USD). [[20260630_heartmoney-bitcoin-angst-und-magie]]
+
+Das Modell ist inzwischen auch Anwendungswissen im DACH-Raum: Es dient als Beruhigungsrahmen in Bärenphasen (Einordnungs-Streams von Les Femmes Orange, Erklärvideos), als Timing-Heuristik für kreditfinanzierte Käufe (siehe [[bitcoin-auf-kredit]]) und als Rechenbasis für Renten-Gedankenexperimente («Wie viel Bitcoin reicht in 20 Jahren?») — Letzteres regelmäßig begleitet von Kritik an der Prognosegrundlage. [[20251123_heartmoney-ki-hat-keine-traumata]]
+
 ## Related
 
 - [[bitcoin-spieltheorie-und-anreize]]
 - [[bitcoin-netzwerk-und-nodes]]
 - [[bitcoin-geldpolitik-und-21-millionen-limit]]
 - [[bitcoin-alles-geteilt-durch-21-millionen]]
+- [[bitcoin-auf-kredit]]
+- [[bitcoin-volatilitaet-und-preisfindung]]
 
 ## Open Questions
 
+- Wie verhält sich Perrenods log-periodisches Zyklusmodell formal zur mechanistischen Power-Law-Herleitung (Santostasi & Perrenod)? Die Newsletter-Quelle referiert es nur aus zweiter Hand (Interview/Video) — Primärquelle für RAW gesucht.
 - Hält das kubische Adoptionswachstum auch bei globaler Massenadoption an, oder flacht es mit Marktsättigung ab?
 - Wie verhält sich das Modell nach dem letzten Halving (~2140), wenn der Block Subsidy auf null fällt?
 - Gibt es vergleichbare Potenzgesetze in anderen dezentralen Netzwerken (Ethereum, anderen L1s)?

@@ -1,8 +1,8 @@
 # Bitcoin Geldpolitik und das 21-Millionen-Limit
 
 **Status:** established
-**Last updated:** 2026-06-27
-**Sources:** [[20260424_wie-das-21-millionen-limit-von-bitcoin-tatsächlich-durchgesetzt-wird]], [[20220620_warum-ist-bitcoin-wichtig-de]], [[Die andere Seite der Medaille.md]], [[Bitcoin ist die Wiederentdeckung des Geldes.md]], [[aprycot-rochard-perfekte-geldpolitik-bitcoin]], [[waltz-bitcoin-facts]]
+**Last updated:** 2026-07-05
+**Sources:** [[20260424_wie-das-21-millionen-limit-von-bitcoin-tatsächlich-durchgesetzt-wird]], [[20220620_warum-ist-bitcoin-wichtig-de]], [[Die andere Seite der Medaille.md]], [[Bitcoin ist die Wiederentdeckung des Geldes.md]], [[aprycot-rochard-perfekte-geldpolitik-bitcoin]], [[waltz-bitcoin-facts]], [[20260308_heartmoney-nur-noch-1-million-bitcoin]]
 
 ## Summary
 
@@ -92,6 +92,12 @@ Rochard schließt mit einer Langzeitprognose: „Die Bitcoin-Zentralbank wird da
 Satoshi hat das 21-Millionen-Limit nicht aus einer ökonomischen Theorie abgeleitet, sondern nach eigenen Worten „geraten" — ein *educated guess*. In einer E-Mail an Martti Malmi erklärte er, er wollte eine Zahl wählen, die sowohl für ein Nischen-Experiment als auch für ein globales Währungssystem skalieren würde. Die genaue Zahl war sekundär; die Unveränderlichkeit des Ausgabeplans war der eigentliche Punkt. [[waltz-fact-05-21m-limit-educated-guess]]
 
 Paradoxerweise existierte das harte 21-Millionen-Limit im Code zunächst gar nicht. Aufgrund einer C++-Eigenheit hätte der Halving-Algorithmus nach dem letzten Halving (~Jahr 2214) von vorne begonnen — die Subventionen wären wieder gestiegen. BIP42 (2014) schloss diese Lücke explizit, indem es die Ausgabe nach 64 Halvings auf null setzt (`if (halvings >= 64) return 0`). Technisch gesehen wurde das 21-Millionen-Limit erst 2014 im Code verankert. [[waltz-fact-12-bitcoin-21m-cap-bip42]]
+
+### Meilenstein: der 20-millionste Bitcoin (März 2026)
+
+Am 9. März 2026 wurde mit Block 940.000 rechnerisch der 20-millionste Bitcoin geschürft. Seither verbleiben weniger als eine Million Coins — unter fünf Prozent der Gesamtmenge — für die Zeit bis etwa 2140. Der Ausgabeplan ist damit zu über 95 Prozent abgearbeitet, obwohl das Netzwerk erst 17 Jahre alt war.
+
+Eine Feinheit am Rande: Streng genommen waren zu diesem Zeitpunkt keine vollen 20 Millionen im Umlauf, weil einzelne Miner in der Vergangenheit ihre Blockbelohnung nicht vollständig beansprucht haben (ob Softwarefehler, Absicht oder Experiment, ist ungeklärt). Diese liegengelassenen Beträge entstehen nie nachträglich — die Subsidy eines Blocks ist eine einmalige Ausgabeerlaubnis, kein Guthaben. Die tatsächliche Endmenge liegt dadurch geringfügig unter dem theoretischen Maximum; an der Obergrenze ändert das nichts. [[20260308_heartmoney-nur-noch-1-million-bitcoin]]
 
 ## Related
 

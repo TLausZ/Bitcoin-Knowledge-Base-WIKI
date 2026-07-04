@@ -2,7 +2,7 @@
 
 **Status:** established
 **Last updated:** 2026-06-06
-**Sources:** [[20250123_wie-du-backups-deiner-wallet-sicher-erstellst-und-verwahrst]], [[20260226_warum-die-bitbox-dich-nicht-zwingt-deine-seedphrase-aufzuschreiben]], [[20250828_lerne-deine-seedphrase-nicht-auswendig]], [[20210305_bitcoin-backups-grundlagen-fehler-de]], [[20210309_bitcoin-backups-sichern-4-methoden-de]], [[20210524_bitcoin-vererben-erben-de]], [[20210618_steelwallet-bitcoin-backup-ewigkeit-de]]
+**Sources:** [[20250123_wie-du-backups-deiner-wallet-sicher-erstellst-und-verwahrst]], [[20260226_warum-die-bitbox-dich-nicht-zwingt-deine-seedphrase-aufzuschreiben]], [[20250828_lerne-deine-seedphrase-nicht-auswendig]], [[20210305_bitcoin-backups-grundlagen-fehler-de]], [[20210309_bitcoin-backups-sichern-4-methoden-de]], [[20210524_bitcoin-vererben-erben-de]], [[20210618_steelwallet-bitcoin-backup-ewigkeit-de]], [[bitcoin-ratgeber_kapitel-05-sicherheit]]
 
 ## Summary
 

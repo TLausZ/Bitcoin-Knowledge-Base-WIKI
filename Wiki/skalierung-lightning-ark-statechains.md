@@ -91,6 +91,7 @@ Das Ergebnis: eine Turing-vollständige Execution-Umgebung mit globalem State un
 - [[bitcoin-geldpolitik-und-21-millionen-limit]]
 - [[bitcoin-monetarisierung]]
 - [[praxeologie-methode-und-werttheorie]]
+- [[starks]]
 
 ## Open Questions
 

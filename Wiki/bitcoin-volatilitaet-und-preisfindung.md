@@ -1,8 +1,8 @@
 # Bitcoin-Volatilität und Preisfindung
 
 **Status:** established
-**Last updated:** 2026-06-23
-**Sources:** [[aprycot-parker-lewis-bitcoin-nicht-zu-volatil]]
+**Last updated:** 2026-07-04
+**Sources:** [[aprycot-parker-lewis-bitcoin-nicht-zu-volatil]], [[20251005_heartmoney-das-leiseste-allzeithoch-ever]], [[20251221_heartmoney-kein-uptober-kein-moonvember-und-jetzt]], [[20260111_heartmoney-bitcoin-top-preis-flop]], [[20260208_heartmoney-bitcoin-im-nebel-siehst-du-klar]], [[20260405_heartmoney-die-passion-des-satoshi]], [[20251116_heartmoney-wenn-der-hype-einfach-nicht-kommen-will]]
 
 ## Summary
 
@@ -58,9 +58,27 @@ Die Halbierung der Block-Belohnung alle ~210.000 Blöcke (ca. vier Jahre) erzeug
 
 Wankum (TBN #12) warnt davor, naive Preisziele aus vergangenen Zyklen abzuleiten. Das Grundmuster — Seitwärtsbewegung mit steigenden Tiefpunkten vor dem Halving, dann Aufwärtsschub — bleibt erkennbar, aber jeder Zyklus bringt neue Akteure, neue Hebelwirkung und neue Narrative. [[Bitcoin's paradigm shift and ETF prospects]]
 
+### Fallstudie: Der stille Zyklusbruch 2025/26
+
+Der Zyklus 2024–2026 lieferte einen dokumentierten Gegenfall zu den bisherigen Halving-Mustern, chronologisch aus DACH-Perspektive (Quellen: wöchentlicher Heart-Money-Newsletter, Nicole Nowak):
+
+- **Juli 2025:** Neues Allzeithoch über 118.000 USD — «auffallend leise»: kein Medienrauschen, kein FOMO. Käufer sind ETF-Anbieter, Institutionen und Treasury-Firmen; Privatanleger fehlen, die Google-Suchanfragen nach «Bitcoin» bleiben niedrig.
+- **Oktober 2025:** Allzeithoch ~125.000–126.000 USD, von der Quelle als «das leiseste Allzeithoch aller Zeiten» beschrieben.
+- **Q4 2025:** Die erwarteten Saisonmuster («Uptober», «Moonvember», Jahresend-Rally) bleiben sämtlich aus. Das Jahr 2025 — nach Zyklusschema ein Hype-Jahr — schließt mit −6%. Preisprognosen für 2026 fallen auffallend zurückhaltend aus.
+- **Februar 2026:** Kurs knapp 50% unter dem Allzeithoch. Bemerkenswert die Stimmungsdifferenz zu 2022: Der damalige Crash entsprach den Zykluserwartungen und war emotional «eingepreist»; der Bruch 2025/26 traf auf gegenteilige Erwartungen und erzeugte deutlich mehr Frust und Panik — obwohl das Preisniveau weit über dem von 2022 lag. Erwartungen, nicht absolute Preise, treiben die Emotionen.
+- **Mai/Juni 2026:** Erholung über 82.000 USD, Kurs am unteren Power-Law-Band (siehe [[bitcoin-powerlaw-und-preismodelle]]); Google-Trends für «Bitcoin» in Deutschland auf Jahrestief, Retail-Interesse weiterhin abwesend.
+
+Beobachtbare Verhaltenseffekte: Bitcoin-Neulinge pausierten Sparpläne, in der Community kursierten wieder Zweifel bis hin zu Verschwörungsdeutungen, und Kritiker nutzten die Schwächephase («dunkle Gefühlsregungen entladen sich am geschwächten Organismus»). Zugleich bestätigt der Verlauf Lewis' Wellenmodell: kein struktureller Bruch der Nachfragebasis, sondern eine Bereinigungsphase mit deutlich höheren Tiefpunkten als im Vorzyklus. [[20251005_heartmoney-das-leiseste-allzeithoch-ever]], [[20251221_heartmoney-kein-uptober-kein-moonvember-und-jetzt]], [[20260208_heartmoney-bitcoin-im-nebel-siehst-du-klar]], [[20260405_heartmoney-die-passion-des-satoshi]]
+
+### Die These «Der Preis ist wichtig»
+
+Gegen die Community-Konvention, den Preis für nebensächlich zu erklären («nenn lieber die Blockzeit»), setzt Nowak eine nüchterne Position: Der Preis ist langfristig der ehrlichste Test der Bitcoin-These. Wenn Bitcoin für Staaten, Institutionen und Privatpersonen tatsächlich relevanter wird, muss sich das über lange Zeiträume im Preis zeigen; eine dauerhaft negative Preisentwicklung würde die Adoptionsthese praktisch widerlegen, selbst wenn die monetären Eigenschaften intakt blieben — weil die meisten Menschen einem stagnierenden Asset keine Beachtung schenken. Konsequenz für die Kommunikation: Preisnennung gehört in Einsteiger-Formate. Das deckt sich mit Lewis' Sicht der Volatilität als Preisfindungs- und Informationsfunktion, setzt aber einen anderen Akzent als die reine «Zeit im Markt»-Rhetorik. [[20260111_heartmoney-bitcoin-top-preis-flop]], [[20251116_heartmoney-wenn-der-hype-einfach-nicht-kommen-will]]
+
 ## Related
 
 - [[bitcoin-monetarisierung]]
+- [[bitcoin-powerlaw-und-preismodelle]]
+- [[bitcoin-auf-kredit]]
 - [[bitcoin-antifragilitaet]]
 - [[bitcoin-digitale-knappheit]]
 - [[geldpolitik-und-inflation]]

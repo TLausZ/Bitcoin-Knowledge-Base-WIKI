@@ -1,8 +1,8 @@
 # Praxeologie: Methode und Werttheorie
 
 **Status:** established
-**Last updated:** 2026-06-30
-**Sources:** [[2023_Praxeology_ The invisible hand that feeds you -- Knut Svanholm]], [[2023_Praxeology-Invisible-Hand-Feeds-You_Svanholm]], [[2022_Bitcoin _ everything divided by 21 million -- Knut Svanholm]], [[2020_Bitcoin - Unabhängigkeit neu gedacht -- Knut Svanholm]], [[2024_Bitcoin_ The Inverse of Clown World -- Knut Svanholm]], [[aprycot-kritik-der-quantitativen-oekonomik]], [[aprycot-jeder-ist-ein-spekulant]]
+**Last updated:** 2026-07-05
+**Sources:** [[2023_Praxeology_ The invisible hand that feeds you -- Knut Svanholm]], [[2023_Praxeology-Invisible-Hand-Feeds-You_Svanholm]], [[2022_Bitcoin _ everything divided by 21 million -- Knut Svanholm]], [[2020_Bitcoin - Unabhängigkeit neu gedacht -- Knut Svanholm]], [[2024_Bitcoin_ The Inverse of Clown World -- Knut Svanholm]], [[aprycot-kritik-der-quantitativen-oekonomik]], [[aprycot-jeder-ist-ein-spekulant]], [[20260104_heartmoney-neues-jahr-neues-denken]]
 
 ## Summary
 
@@ -113,6 +113,12 @@ Knut Svanholm (schwedisch-isländischer Autor und Musiker) hat in fünf Büchern
 **"Bitcoin: The Inverse of Clown World" (2024, mit Luke de Wolf):** Das sozialpolitisch direkteste Buch. "Clown World" beschreibt eine Welt, in der biologischer Wettbewerb (Zugang zu staatlichen Privilegien, Subventionen, Regulierungsvorteilen) katallaktischen Wettbewerb (Wertschöpfung durch freiwilligen Tausch) verdrängt hat. Bitcoin als "Inverse": Es belohnt Wertschöpfung, nicht Privilegiensuche. Mit Vorwort von Giacomo Zucco. Das Konzept "Freedom Footprint" beschreibt, wie viel vom eigenen Handeln noch wirklich frei — also marktwirtschaftlich statt politisch bedingt — ist.
 
 **Verbindende These über alle Bücher:** Bitcoin ist nicht das Ziel, sondern ein Spiegel. Wer Bitcoin versteht, versteht, warum das Fiat-System strukturell nicht reparierbar ist — nicht wegen schlechter Personen in guten Institutionen, sondern wegen guter Personen in strukturell falschen Institutionen.
+
+### Mattes' Drei-Schichten-Modell: Was ist, was rechtens ist, was gut ist
+
+Leo Mattes («Eine Revolution der Denkart») vermittelt Praxeologie im deutschsprachigen Raum und ordnet sie in ein Drei-Schichten-Modell ein: Ganz unten die Praxeologie — sie beschreibt, *was ist* (wie menschliches Handeln funktioniert). Darauf der Libertarismus — er beantwortet, *was rechtens ist* (Kooperation statt Gewalt). Ganz oben Metaphysik oder Spiritualität — die Frage, *was gut ist*, was dem Leben Richtung und Sinn gibt. Seine Pointe gegen die Selbstüberschätzung der ersten beiden Schichten: «Weder Bitcoin noch Libertarismus liefern die Antwort. Ruhig auf dem eigenen Grundstück zu sitzen, verleiht dem Leben keinen Sinn.» Das Modell erklärt sauber, was Praxeologie leistet und was nicht — sie ist wertfreie Beschreibung, keine Ethik und keine Sinnstiftung (die Hoppe-Argumentationsethik oben liegt bereits auf Schicht zwei; für Schicht drei vgl. [[bitcoin-und-spiritualitaet]]).
+
+Zwei Randnotizen aus derselben Quelle: Mattes vermeidet das belastete Etikett «libertär» und sagt stattdessen «Ich bin für Kooperation» — ein Vermittlungsbefund, der zum Referenzpunkt-Problem in [[bitcoin-kommunikation-und-orange-pilling]] passt. Und die Beobachtung, dass Praxeologie an Universitäten und in Medien praktisch nicht vorkommt und viele ihr erst über die Bitcoin-Community begegnen, deckt sich mit der Rolle Bitcoins als Epistemik-Katalysator ([[bitcoin-und-spiritualitaet]], Tolle-Abschnitt). [[20260104_heartmoney-neues-jahr-neues-denken]]
 
 ## Related
 

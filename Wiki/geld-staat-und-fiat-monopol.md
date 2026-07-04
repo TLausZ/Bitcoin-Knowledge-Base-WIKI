@@ -1,8 +1,8 @@
 # Geld, Staat und das Fiat-Monopol
 
 **Status:** established
-**Last updated:** 2026-06-25
-**Sources:** [[aprycot-node-weltordnung]], [[aprycot-keynes-ueber-inflation]], [[Strukturanpassung_ Wie der IWF und die Weltbank arme Länder unterdrücken und ihre Ressourcen in reiche Länder leiten.md]], [[Bitcoin ist die Wiederentdeckung des Geldes.md]], [[aprycot-breedlove-herren-und-sklaven-des-geldes]], [[aprycot-fab-wurzel-allen-uebels]]
+**Last updated:** 2026-07-05
+**Sources:** [[aprycot-node-weltordnung]], [[aprycot-keynes-ueber-inflation]], [[Strukturanpassung_ Wie der IWF und die Weltbank arme Länder unterdrücken und ihre Ressourcen in reiche Länder leiten.md]], [[Bitcoin ist die Wiederentdeckung des Geldes.md]], [[aprycot-breedlove-herren-und-sklaven-des-geldes]], [[aprycot-fab-wurzel-allen-uebels]], [[20260609_heartmoney-bitcoin-precht-und-prag]]
 
 ## Summary
 
@@ -103,6 +103,10 @@ Fabs Unterscheidung zwischen solidem und unsolidem Geld ist direkt: Solides Geld
 Gold scheiterte nicht an seinen monetären Eigenschaften, sondern an zwei praktischen Schwächen: schlechte Transportierbarkeit über weite Strecken und Konfiszierbarkeit durch staatliche Gewalt. Fiat übernahm diese Lücke — aber nicht als neutrales Upgrade, sondern als Übernahme des Geldsystems durch die Gewalt. Fiat ist nicht durch Vertrauen gedeckt im substanziellen Sinn; es ist durch Militärmacht gedeckt: Steuererzwingung, gesetzliche Zahlungsmittelpflicht, Kapitalverkehrskontrollen.
 
 Bitcoin bietet über Gold hinaus: Konfiszierbarkeit sinkt gegen null, wenn Keys korrekt verwahrt werden. Wer seine Schlüssel selbst hält — mit Multisig oder auf einem Hardware-Wallet — besitzt Vermögen, das kein Staat per Dekret einziehen kann. Fab nennt das ein Menschenrecht: „Wert fair zu speichern ist ein grundlegendes Menschenrecht." Das ist keine technische Aussage, sondern eine moralische. Dunkle Absichten — Gier, Machtmissbrauch, Betrug — sind die eigentliche Wurzel des Übels. Bitcoin macht es strukturell schwerer, diese Absichten auf Kosten anderer durchzusetzen. [[aprycot-fab-wurzel-allen-uebels]]
+
+### Nachtrag 2026: Die Demokratie-Frage erreicht den Mainstream
+
+Dass die Verbindung zwischen Geldsystem und Staatsform kein Nischenthema mehr ist, zeigt ein Vorgang vom Juni 2026: Richard David Precht erklärte im Podcast *Lanz & Precht*, es werde „die liberale Demokratie in überschaubarer Zeit nicht mehr geben, wenn wir nicht über ein grundlegendes Update nachdenken" — der Ausschnitt ging viral. Fab (Coinfinity) setzte im Interview die geldpolitische Diagnose dazu: „Liberale Demokratien brauchen zwei Grenzen: unantastbares Eigentum und Geld, das nicht in staatlicher Hand liegt. Ohne diese Leitplanken wird das System zwangsläufig scheitern." Das ist Hoppes Monopol-Analyse in eine Bedingung für Demokratie umformuliert: Nicht Bitcoin gegen die Demokratie, sondern staatsfreies Geld als deren Leitplanke. Die begleitende Beobachtung — das Geldsystem sei selbst in intellektuellen Kreisen ein blinder Fleck, „wie ein Fisch das Wasser nicht sieht" — beschreibt präzise, warum Prechts Diagnose ohne die geldpolitische Ursachenschicht auskommt. [[20260609_heartmoney-bitcoin-precht-und-prag]]
 
 ## Related
 

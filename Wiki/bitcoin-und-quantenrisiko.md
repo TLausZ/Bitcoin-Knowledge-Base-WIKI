@@ -77,6 +77,7 @@ Die eigentliche Frage ist, ob Bitcoin vor einem Quantenangriff upgraden kann. Di
 - [[core-lightning-26-06]]
 - [[bitcoin-adresstypen]]
 - [[kryptografische-schlussel-und-adressen]]
+- [[starks]]
 
 ## Open Questions
 

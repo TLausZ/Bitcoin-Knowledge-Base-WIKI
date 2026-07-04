@@ -1,8 +1,8 @@
 # Phishing und Bitcoin-Angriffsmethoden
 
 **Status:** established
-**Last updated:** 2026-06-06
-**Sources:** [[20230906_online-sicherheit-betrügerische-e-mails-erkennen]], [[20250911_wie-man-bitcoin-von-anderen-stiehlt]], [[20240627_wie-unser-kundensupport-bitbox-produkte-prägt]], [[20220721_datenleck-activecampaign-de]]
+**Last updated:** 2026-07-05
+**Sources:** [[20230906_online-sicherheit-betrügerische-e-mails-erkennen]], [[20250911_wie-man-bitcoin-von-anderen-stiehlt]], [[20240627_wie-unser-kundensupport-bitbox-produkte-prägt]], [[20220721_datenleck-activecampaign-de]], [[20250921_heartmoney-von-spatsommer-zu-selbstermachtigung]], [[20250928_heartmoney-menschheit-geduld-bitcoin-in-dieser-reihenfolge]], [[bitcoin-ratgeber_kapitel-05-sicherheit]]
 
 ## Summary
 
@@ -52,6 +52,12 @@ Typische Muster nach einem Datenleck:
 Alle drei Muster folgen dem gleichen Prinzip: Dringlichkeit erzeugen, den Nutzer zu einer gefährlichen Aktion bewegen. Shift Crypto wird **niemals** nach Wiederherstellungswörtern, Wallet-Backups oder direkten Überweisungen fragen.
 
 **Strukturelles Schutzprinzip:** Seriöse Hardware-Wallet-Hersteller bieten in ihren Sicherheitsmitteilungen nach einem Datenleck immer dasselbe Muster: Kein Handlungsbedarf, keine Links zu Installationsdateien, kein Anlass zur Panik. Jede E-Mail, die das Gegenteil vermittelt, ist mit sehr hoher Wahrscheinlichkeit ein Angriff.
+
+### Rendite- und Mining-Scams (Social-Media-Muster 2025)
+
+Neben den technischen Angriffen oben existiert eine zweite Kategorie, die keinen Code braucht: Anlagebetrug im Bitcoin-Gewand. Das 2025 dokumentierte Muster läuft über Instagram-Direktnachrichten und Mail und verspricht Rendite durch «Bitcoin-Mining» oder Handelsprogramme. Der Ablauf ist immer gleich: hohe Renditen als Köder, der Kunde investiert, sieht (scheinbare) Gewinne, investiert mehr — dann sind Auszahlung und Guthaben eingefroren, das Geld ist weg. Auffällig ist die soziale Verteidigung der Betreiber: Kritiker werden zu «Informations-Calls» eingeladen («man müsse sich doch erst über die Renditechancen informieren»), Warnungen mit Empörung beantwortet.
+
+Der Angriff zielt nicht auf Schlüssel, sondern auf Fremdverwahrungs-Bereitschaft; die Gegenregel ist entsprechend nicht technisch, sondern kategorisch: Wer Bitcoin gegen Renditeversprechen abgibt, hat sie im Betrugsfall verloren («Not your keys, not your coins», [[selbstverwahrung-und-boersenrisiken]]). Historische Referenz für das Muster ist der österreichische Fall Optioment (2017/18, aufgearbeitet von Bitcoin Austria): dieselbe Dramaturgie, damals über Vertriebsstrukturen statt Instagram. Dass sich nur der Kanal ändert und nicht das Schema, macht die Fälle als Lehrmaterial brauchbar. [[20250921_heartmoney-von-spatsommer-zu-selbstermachtigung]], [[20250928_heartmoney-menschheit-geduld-bitcoin-in-dieser-reihenfolge]]
 
 ### Die zwei unverzichtbaren Grundregeln
 

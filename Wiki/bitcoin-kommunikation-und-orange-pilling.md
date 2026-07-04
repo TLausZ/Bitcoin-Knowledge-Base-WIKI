@@ -1,8 +1,8 @@
 # Bitcoin-Kommunikation und Orange-Pilling
 
 **Status:** established
-**Last updated:** 2026-06-30
-**Sources:** [[OrangePilling The Early Majority]], [[Bitcoin’s Most Important Fork_ The Influence Upgrade]]
+**Last updated:** 2026-07-04
+**Sources:** [[OrangePilling The Early Majority]], [[Bitcoin’s Most Important Fork_ The Influence Upgrade]], [[20250629_heartmoney-rechthaben-oder-bitcoin-verstehen]], [[20260519_heartmoney-wenn-die-wahrheit-zu-fruh-kommt]], [[20250622_heartmoney-pommes-preise-bitcoin-ein-gefuhl-kehrt-zuruck]], [[20251214_heartmoney-ich-mochte-die-welt-verandern]], [[20260329_heartmoney-mude-wutend-wach]], [[20250921_heartmoney-von-spatsommer-zu-selbstermachtigung]]
 
 ## Summary
 
@@ -40,6 +40,18 @@ Seine Fallbeispiele: Sam Roberts (Cartwright) brachte den ersten Pensionsfonds z
 
 Das gemeinsame Profil: Sie sind keine Extravertierten, sondern Ambivertierte, die wissen, wann sie reden und wann sie zuhören, und zuhören mehr. Sie sind «mehrsprachig» im Sinne von Übersetzern, die Bitcoins Eigenschaften in die Sprache des Gegenübers fassen, «unkorrelierte strategische Reserve» für einen Staatsfonds, «flexible Last» für einen Netzbetreiber, «ein Geschenk, das weitergibt» für eine Wohltätigkeitsorganisation. Statt 100 Pfeile abzuschiessen, die das Ziel verfehlen, setzen sie einen, der trifft. Bryan Zhang (CCAF) bestätigte Batten, dass prominente Bitcoin-Influencer bei den rund 30 Staatsfonds, die ihre Digital-Asset-Politik prüfen, eher neutral bis negativ wirkten, und dass Adoption fast vollständig von «den richtigen Botschaften und den richtigen Botschaftern» abhing. [[Bitcoin’s Most Important Fork_ The Influence Upgrade]]
 
+### Praxisbefunde aus dem DACH-Alltag (Nowak, 2025/26)
+
+Battens Prinzipien decken sich auffällig mit den Alltagsbeobachtungen einer deutschsprachigen Bitcoin-Bildnerin, die aus der Gegenrichtung — Einzelgespräche statt Institutionen — berichtet:
+
+**Rechthaben vs. Verstehen.** Die produktivste Interventionsfrage in festgefahrenen Diskussionen: «Geht es dir ums Rechthaben oder darum, etwas Neues zu lernen?» Dokumentierter Fall ist ein zufälliges Aufeinandertreffen von Bitcoin- und Immobilien-Stammtisch, das an Rechthaberei scheiterte — inklusive der Selbstbeobachtung, dass die Frage das Gespräch zwar entlarvte, aber auch kippte. Battens Lernbereitschafts-Test (Rückzug, wenn keine vorhanden) ist die mildere Variante desselben Prinzips. [[20250629_heartmoney-rechthaben-oder-bitcoin-verstehen]]
+
+**Referenzpunkt-These.** Neues wird nur als wahr akzeptiert, wenn es nicht zu weit vom bestehenden Referenzrahmen des Gegenübers liegt (Anker-Metapher aus der Kunstdidaktik). Für Bitcoin-Kommunikation folgt: nicht mit der Tür ins Haus fallen, sondern häppchenweise den Anker verschieben — mit dem bewussten Preis, von Eingeweihten dann als naiv wahrgenommen zu werden. Das ist Battens «Leute dort abholen, wo sie stehen» in erkenntnistheoretischer Formulierung. [[20260519_heartmoney-wenn-die-wahrheit-zu-fruh-kommt]]
+
+**Die Grenzfragen.** Drei wiederkehrende Dilemmata ohne saubere Antwort: Gibt es eine moralische Pflicht, Bitcoin anzusprechen, wenn das Thema passt (Inflationsklage an der Supermarktkasse) — oder ist das missionarisch? Wann ist Schweigen für den Familienfrieden legitim (Weihnachtsfrage)? Und wie viel Geduld schuldet man Kritikern, die erkennbar nicht lernen wollen — aufklären, Links schicken, oder Zeit schützen (Stummschalten statt Blocken als dokumentierte Praxis)? [[20250622_heartmoney-pommes-preise-bitcoin-ein-gefuhl-kehrt-zuruck]], [[20251214_heartmoney-ich-mochte-die-welt-verandern]], [[20250921_heartmoney-von-spatsommer-zu-selbstermachtigung]]
+
+**Umgang mit Medienkritik.** Statt Kritiker-Artikel Punkt für Punkt zu widerlegen, die Beweislast umkehren mit zwei Fragen: Warum ist es normal, dass immer mehr Geld geschaffen wird, ohne dass jemand darüber abstimmt? Warum gilt dieses System als alternativlos, während Bitcoin sich für seine Existenz rechtfertigen muss? [[20260329_heartmoney-mude-wutend-wach]]
+
 ### E — Der Bezug zum Preis
 
 Batten verknüpft Kommunikation mit Marktdynamik: Patient Capital, Nationalstaaten und Konzerne sind tendenziell Long-Term Holder, und deren Akkumulation ist laut Glassnode-Daten der grösste Treiber von Bullenmärkten. Verliert ein Bullrun an Schwung, liegt es entweder am Verkauf bestehender oder am Ausbleiben neuer Long-Term Holder. Damit wird die Frage, welche Botschafter welche Gegen-Erzählungen tragen, direkt preisrelevant. [[Bitcoin’s Most Important Fork_ The Influence Upgrade]]
@@ -51,6 +63,8 @@ Batten verknüpft Kommunikation mit Marktdynamik: Patient Capital, Nationalstaat
 - [[bitcoin-energie-messung-beest]]
 - [[greenpeace-vs-bitcoin]]
 - [[bitcoin-mining-narrativ-und-kritik]]
+- [[frauen-und-bitcoin]]
+- [[bitcoin-konferenzen-und-community]]
 
 ## Open Questions
 

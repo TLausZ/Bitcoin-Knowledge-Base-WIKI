@@ -1,8 +1,8 @@
 # Miniscript und zeitlich gesperrte Wiederherstellungsschlüssel
 
 **Status:** established
-**Last updated:** 2026-06-05
-**Sources:** [[20231109_erkunde-bitcoin-miniscript-mit-liana-und-der-bitbox02]], [[20241023_bitbox-10-2024-lugano-update]], [[20230323_bitcoin-miniscript-verstehen-teil-3]], [[20230302_bitcoin-miniscript-verstehen-teil-2-de]], [[20230216_bitcoin-miniscript-verstehen-teil-1-de]]
+**Last updated:** 2026-07-05
+**Sources:** [[20231109_erkunde-bitcoin-miniscript-mit-liana-und-der-bitbox02]], [[20241023_bitbox-10-2024-lugano-update]], [[20230323_bitcoin-miniscript-verstehen-teil-3]], [[20230302_bitcoin-miniscript-verstehen-teil-2-de]], [[20230216_bitcoin-miniscript-verstehen-teil-1-de]], [[20260315_heartmoney-ein-tag-der-alles-verandert]]
 
 ## Summary
 
@@ -48,6 +48,10 @@ Diese maschinenlesbare Analyse ist die Grundlage dafür, dass Wallet-Software wi
 ### Liana Wallet
 
 [Liana](https://wizardsardine.com/liana/) (von Wizardsardine) implementiert Miniscript-Wallets mit zeitlich gesperrten Wiederherstellungsschlüsseln. Kompatibel mit der BitBox02. Erfordert eine eigene Bitcoin-Node.
+
+### Ankunft in der Community-Praxis (2026)
+
+Liana wird inzwischen auf deutschsprachigen Community-Events in Workshops vermittelt (dokumentiert: Les-Femmes-Orange-Event München, März 2026). Der dort betonte Anwendungsfall ist die Vererbung: Der Besitzer gibt jederzeit selbst aus; stirbt er oder verliert den Zugriff, übernimmt nach Ablauf des Timelocks ein zuvor definierter zweiter Schlüssel. Damit adressiert ein einziges Setup die zwei größten Selbstverwahrungsrisiken, eigenen Zugangsverlust und die Weitergabe im Erbfall — die Vermittlung folgt also genau der Backup-Logik dieses Artikels, verpackt sie aber als Nachlassplanung. Als Kombination wird Liana (regelt, wer wann zugreifen kann) plus Hardware-Wallet (schützt die Schlüssel) empfohlen. Praktische Hürde neben der Node-Anforderung: Die Software gab es Anfang 2026 nur auf Englisch; die Übersetzung lief. [[20260315_heartmoney-ein-tag-der-alles-verandert]]
 
 ## Related
 
