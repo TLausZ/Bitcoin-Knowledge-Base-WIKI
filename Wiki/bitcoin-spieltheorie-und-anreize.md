@@ -2,7 +2,7 @@
 
 **Status:** established
 **Last updated:** 2026-06-20
-**Sources:** [[2024_Bitcoin_ The Inverse of Clown World -- Knut Svanholm, Luke de Wolf]], [[2024_Bitcoin-Inverse-of-Clown-World_Svanholm-de-Wolf]], [[2020_Bitcoin-Unabhaengigkeit-neu-gedacht_Svanholm-Herminghaus]]
+**Sources:** [[2024_Bitcoin_ The Inverse of Clown World -- Knut Svanholm, Luke de Wolf -- 2024 -- Lemniscate Media -- isbn13 9789916425206 -- f168b4ca352352987a04d1fa35c28cc8 -- Anna’s Archive]], [[2024_Bitcoin-Inverse-of-Clown-World_Svanholm-de-Wolf]], [[2020_Bitcoin-Unabhaengigkeit-neu-gedacht_Svanholm-Herminghaus]]
 
 ## Summary
 

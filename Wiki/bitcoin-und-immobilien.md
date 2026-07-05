@@ -2,7 +2,7 @@
 
 **Status:** established
 **Last updated:** 2026-06-29
-**Sources:** [[aprycot-digital-real-estate-bitcoin-immobilien]], [[aprycot-warum-bitcoin-optimale-kreditsicherheit]], [[aprycot-bitcoin-ist-kein-eigentum]], [[The Bitcoin Newsletter #1]], [[The Bitcoin Newsletter #5]], [[The Bitcoin Newsletter #10]], [[The Bitcoin Newsletter #13]], [[The Bitcoin Newsletter 13 - How Bitcoin is changing the housing market]], [[The importance of Bitcoin's mobility]], [[Bitcoin & Real Estate]], [[Real estate vs Bitcoin_ Dismantling the Cash-Flow Narrative]], [[Why Bitcoin Is The Ultimate Technology To Preserve Wealth]], [[Bitcoin's Role as Collateral in Real Estate Development]], [[The Role of Real Estate and Its Utility Value on a Bitcoin Standard]], [[Real Estate Refinancing_ The Economics of Leverage When Buying Bitcoin]], [[Exploring Bitcoin's Potential as Pristine Collateral for Lending]], [[How Bitcoin Mining Can Energize Real Estate]], [[Bitcoin's Impact on Global Markets_ Housing, Interest Rates, Lending, and Investments]], [[The Strategy Playbook_ Lessons for Real Estate Entrepreneurs]], [[Navigating the Shift from Real Estate to Bitcoin_ Redefining How Humanity Saves, Builds Wealth, and Lives]], [[Digital Real Estate — Pre-Order Now]], [[Toward the Separation of Money and Production]]
+**Sources:** [[aprycot-digital-real-estate-bitcoin-immobilien]], [[aprycot-warum-bitcoin-optimale-kreditsicherheit]], [[aprycot-bitcoin-ist-kein-eigentum]], [[The Bitcoin Newsletter #1 - Bitcoin vs real estate_ what is the better store of value_]], [[The Bitcoin Newsletter #5 - Bitcoin is digital real estate]], [[The Bitcoin Newsletter #10 - Bitcoin & Real Estate_ a guide.]], [[The Bitcoin Newsletter 13 - How Bitcoin is changing the housing market]], [[The Bitcoin Newsletter 13 - How Bitcoin is changing the housing market]], [[The importance of Bitcoin’s mobility]], [[Bitcoin & Real Estate]], [[Real estate vs Bitcoin_ Dismantling the Cash-Flow Narrative]], [[Why Bitcoin Is The Ultimate Technology To Preserve Wealth]], [[Bitcoin’s Role as Collateral in Real Estate Development]], [[The Role of Real Estate and Its Utility Value on a Bitcoin Standard]], [[Real Estate Refinancing_ The Economics of Leverage When Buying Bitcoin]], [[Exploring Bitcoin's Potential as Pristine Collateral for Lending]], [[How Bitcoin Mining Can Energize Real Estate]], [[Bitcoin’s Impact on Global Markets_ Housing, Interest Rates, Lending, and Investments]], [[The Strategy Playbook_ Lessons for Real Estate Entrepreneurs]], [[Navigating the Shift from Real Estate to Bitcoin_ Redefining How Humanity Saves, Builds Wealth, and Lives]], [[Digital Real Estate — Pre-Order Now (Early Access for Subscribers)]], [[Toward the Separation of Money and Production]]
 
 ## Summary
 
@@ -22,9 +22,9 @@ Das Problem ist real: Die Vermischung von Nutzfläche und Kapitalanlage treibt M
 
 Ein direkter CAGR-Vergleich seit Bitcoins Entstehung: Bitcoin >50% p.a., Immobilien ~5,6%. Der Unterschied erklärt sich strukturell, nicht zufällig.
 
-**Absolute vs. relative Knappheit.** Neues Bauland kann erschlossen werden. Gesetze erlauben dichtere Bebauung. Gold könnte im All gefördert werden. Bitcoins 21-Millionen-Grenze ist im Protokoll verankert und durch globalen Konsens aller Nodes praktisch unveränderbar — der einzige echte Fall absoluter Knappheit in der Geschichte. [[The Bitcoin Newsletter #1]]
+**Absolute vs. relative Knappheit.** Neues Bauland kann erschlossen werden. Gesetze erlauben dichtere Bebauung. Gold könnte im All gefördert werden. Bitcoins 21-Millionen-Grenze ist im Protokoll verankert und durch globalen Konsens aller Nodes praktisch unveränderbar — der einzige echte Fall absoluter Knappheit in der Geschichte. [[The Bitcoin Newsletter #1 - Bitcoin vs real estate_ what is the better store of value_]]
 
-**Mobilität in Krisen.** Wankum (TBN #15, 2023) stützt sich auf historische Fakten: Im Ukraine-Krieg wurden Immobilien bombardiert, beschlagnahmt, der Zugang blockiert. Im Dritten Reich enteignete das Nazi-Regime systematisch jüdischen Immobilienbesitz. Für Ukrainer, die im Februar 2022 flohen, war physisches Eigentum wertlos. Wer Bitcoin in einem Memoriertem Seed-Phrase trug, floh mit seinem Vermögen. [[The importance of Bitcoin's mobility]]
+**Mobilität in Krisen.** Wankum (TBN #15, 2023) stützt sich auf historische Fakten: Im Ukraine-Krieg wurden Immobilien bombardiert, beschlagnahmt, der Zugang blockiert. Im Dritten Reich enteignete das Nazi-Regime systematisch jüdischen Immobilienbesitz. Für Ukrainer, die im Februar 2022 flohen, war physisches Eigentum wertlos. Wer Bitcoin in einem Memoriertem Seed-Phrase trug, floh mit seinem Vermögen. [[The importance of Bitcoin’s mobility]]
 
 **Keine Verwaltungskosten.** Immobilien erfordern Steuern, Versicherungen, Instandhaltung, Gutachter, Makler, Verwaltung. Bitcoin hat nach der Einrichtung der Verwahrung keine laufenden Kosten. [[aprycot-warum-bitcoin-optimale-kreditsicherheit]]
 
@@ -53,13 +53,13 @@ Wankum (TBN #10) beschreibt vier praktische Wege, wie Immobilieninvestoren von I
 3. **Mieteinnahmen in Bitcoin konvertieren** — laufende Cash Flows als Akkumulationsmechanismus nutzen.
 4. **Immobilien beleihen und mit dem Kredit Bitcoin kaufen** — Leverage ohne Verkauf, vorausgesetzt, die Mieteinkünfte decken den Schuldendienst.
 
-MicroStrategy (heute Strategy) diente Wankum als Referenzmodell: Das Unternehmen nutzte Unternehmensanleihen und Aktienfinanzierung, um Bitcoin zu kaufen — ein Mechanismus, der auch für Immobilienentwickler mit stabilem Cash Flow funktioniert. [[The Bitcoin Newsletter #10]]
+MicroStrategy (heute Strategy) diente Wankum als Referenzmodell: Das Unternehmen nutzte Unternehmensanleihen und Aktienfinanzierung, um Bitcoin zu kaufen — ein Mechanismus, der auch für Immobilienentwickler mit stabilem Cash Flow funktioniert. [[The Bitcoin Newsletter #10 - Bitcoin & Real Estate_ a guide.]]
 
 ### Immobilienentwicklung mit Bitcoin als Sicherheit
 
 Wankum (TBN #20) beschreibt, wie Bitcoin in die Finanzstruktur von Immobilienprojekten integriert werden kann: als Projektkapital, das in Multisig-Wallets verwahrt wird und mit dessen Hilfe Baufinanzierungen strukturiert werden. Die Vorteile gegenüber klassischer Bankfinanzierung:
 
-Multisig ermöglicht es, dass Kreditgeber und -nehmer die Bitcoin gemeinsam kontrollieren — keiner kann sie eigenmächtig abziehen. Proof of Reserves macht die Sicherheit jederzeit öffentlich überprüfbar. Echtzeit-Liquidierung bei Vertragsbruch — statt monatelanger Zwangsversteigerungsverfahren bei Immobilien. [[Bitcoin's Role as Collateral in Real Estate Development]]
+Multisig ermöglicht es, dass Kreditgeber und -nehmer die Bitcoin gemeinsam kontrollieren — keiner kann sie eigenmächtig abziehen. Proof of Reserves macht die Sicherheit jederzeit öffentlich überprüfbar. Echtzeit-Liquidierung bei Vertragsbruch — statt monatelanger Zwangsversteigerungsverfahren bei Immobilien. [[Bitcoin’s Role as Collateral in Real Estate Development]]
 
 ### Immobilien refinanzieren, um Bitcoin zu kaufen
 
@@ -85,7 +85,7 @@ Wärmerückgewinnung aus Mining-Hardware kann Heizkosten reduzieren. Energieprod
 
 Wankum (TBN #27, 2024) beschreibt einen langfristigen Rückkopplungseffekt: Wenn Bitcoin die monetäre Prämie der Immobilien absorbiert, sinkt die strukturelle Nachfrage nach Immobilien als Kapitalanlage. Das drückt Wohnimmobilienpreise in realer Kaufkraft — und mit sinkenden Vermögenswertpreisen sinkt der Druck auf Zinsen.
 
-Bitcoin-besicherte Hypotheken werden in diesem Szenario zu einer sinnvollen Alternative: Statt eines Grundstücks als Sicherheit dient Bitcoin-Besitz. Das ermöglicht auch Menschen ohne lokales Immobilienvermögen Zugang zu Kredit — global, ohne Notar und ohne lokale Grundbuchsysteme. [[Bitcoin's Impact on Global Markets_ Housing, Interest Rates, Lending, and Investments]]
+Bitcoin-besicherte Hypotheken werden in diesem Szenario zu einer sinnvollen Alternative: Statt eines Grundstücks als Sicherheit dient Bitcoin-Besitz. Das ermöglicht auch Menschen ohne lokales Immobilienvermögen Zugang zu Kredit — global, ohne Notar und ohne lokale Grundbuchsysteme. [[Bitcoin’s Impact on Global Markets_ Housing, Interest Rates, Lending, and Investments]]
 
 ### Nutzwert von Immobilien unter einem Bitcoin-Standard
 
@@ -109,7 +109,7 @@ Pierre Rochard nennt diesen Mechanismus "speculative attack on fiat": Agenten, d
 - Gold: ca. $30 Billionen USD
 - Bitcoin zum Zeitpunkt TBN #1 (2023): ca. $400 Milliarden USD = 0,12% des Immobilienmarkts
 
-Selbst eine Verlagerung von 1–5% der monetären Immobilien-Prämie zu Bitcoin wäre ein Vielfaches des damaligen Bitcoin-Marktwertes. Die Frage ist nicht ob, sondern in welchem Tempo. [[The Bitcoin Newsletter #1]], [[Digital Real Estate — Pre-Order Now]]
+Selbst eine Verlagerung von 1–5% der monetären Immobilien-Prämie zu Bitcoin wäre ein Vielfaches des damaligen Bitcoin-Marktwertes. Die Frage ist nicht ob, sondern in welchem Tempo. [[The Bitcoin Newsletter #1 - Bitcoin vs real estate_ what is the better store of value_]], [[Digital Real Estate — Pre-Order Now (Early Access for Subscribers)]]
 
 ## Related
 

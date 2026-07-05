@@ -2,7 +2,7 @@
 
 **Status:** established
 **Last updated:** 2026-06-29
-**Sources:** [[The Bitcoin Newsletter #3]], [[The Bitcoin Newsletter #4]], [[The Bitcoin Newsletter #6]], [[The Bitcoin Newsletter #7]], [[The Bitcoin Newsletter #8]], [[The Bitcoin Newsletter #12]], [[The Bitcoin Newsletter 14 - How Bitcoin & Nostr foster innovation without institutional credit]], [[The Strategy Playbook_ Lessons for Real Estate Entrepreneurs]], [[From Cypherpunks to Corporations_ What Corporate Adoption Means For Bitcoin]], [[The Metaplanet Story_ From Crisis to a Bitcoin Standard]]
+**Sources:** [[The Bitcoin Newsletter #3 - Bitcoin, banks, and treasury management]], [[The Bitcoin Newsletter #4 - Bitcoin stocks]], [[The Bitcoin Newsletter #6 - Venture capital]], [[The Bitcoin Newsletter #7 - Why companies need to integrate Bitcoin into their strategies for long-term success]], [[The Bitcoin Newsletter #8 - How to be successful in Bitcoin]], [[The Bitcoin Newsletter 12 - How Bitcoin could change the financial industry]], [[The Bitcoin Newsletter 14 - How Bitcoin & Nostr foster innovation without institutional credit]], [[The Strategy Playbook_ Lessons for Real Estate Entrepreneurs]], [[From Cypherpunks to Corporations_ What Corporate Adoption Means For Bitcoin]], [[The Metaplanet Story_ From Crisis to a Bitcoin Standard]]
 
 ## Summary
 
@@ -14,13 +14,13 @@ Unternehmen halten ihr Treasury traditionell in Fiat-Cash, das durch Inflation k
 
 Murray Rothbard beschrieb das Grundproblem: Im Fiat-System fehlen Unternehmern stabile Preissignale für Langfristplanung. Geldmenge und Zinsen werden politisch gesteuert, Investitionskalkulationen werden systematisch verzerrt. Ein Unternehmen, das Cash hält, verliert real jährlich; ein Unternehmen, das investiert, riskiert, auf kreditgetriebene Malinvestments (österreichischer Begriff) zu setzen.
 
-Das Bankensystemversagen von 2023 — Silicon Valley Bank, Signature Bank, Silvergate — zeigte die Konsequenz: Unternehmen mit Cash auf einer einzelnen Bank waren einem Kontrahentenrisiko ausgesetzt, das niemand eingepreist hatte. Wankum (TBN #3) zog die Schlussfolgerung: "Bitcoin ist die einzige Form von Geld ohne Kontrahentenrisiko." [[The Bitcoin Newsletter #3]]
+Das Bankensystemversagen von 2023 — Silicon Valley Bank, Signature Bank, Silvergate — zeigte die Konsequenz: Unternehmen mit Cash auf einer einzelnen Bank waren einem Kontrahentenrisiko ausgesetzt, das niemand eingepreist hatte. Wankum (TBN #3) zog die Schlussfolgerung: "Bitcoin ist die einzige Form von Geld ohne Kontrahentenrisiko." [[The Bitcoin Newsletter #3 - Bitcoin, banks, and treasury management]]
 
 ### 2–5% Treasury-Allokation als Einstieg
 
 Wankum empfiehlt Unternehmen, die noch keine Bitcoin-Position haben, eine moderate erste Allokation von 2–5% des Treasury. Die Logik: Die asymmetrische Upside-Chance rechtfertigt das Risiko, auch wenn Bitcoin volatil bleibt. Gleichzeitig ist 2–5% ein Betrag, der bei einem totalen Bitcoin-Kurskollaps keine existenzielle Bedrohung für das Unternehmen darstellt.
 
-Für Unternehmen mit höherem Überzeugungsgrad beschreibt er weitergehende Schritte: operative Cash Flows für Bitcoin-Akkumulation nutzen, Refinanzierungen über Wandelanleihen strukturieren. [[The Bitcoin Newsletter #3]]
+Für Unternehmen mit höherem Überzeugungsgrad beschreibt er weitergehende Schritte: operative Cash Flows für Bitcoin-Akkumulation nutzen, Refinanzierungen über Wandelanleihen strukturieren. [[The Bitcoin Newsletter #3 - Bitcoin, banks, and treasury management]]
 
 ### Vier Prinzipien für erfolgreiche Bitcoin-Strategie
 
@@ -31,7 +31,7 @@ TBN #8 fasst die praktischen Grundregeln zusammen, die Wankum aus eigener Erfahr
 3. **So wenig Bitcoin wie möglich verkaufen** — Bitcoin als Treasury-Asset funktioniert am besten als Long-Accumulation-Strategie, nicht als Handelsposition.
 4. **Kein Overleverage** — Leveraged Bitcoin-Positionen können im Bärenmarkt liquidiert werden. Ohne Liquidation gibt es kein permanentes Verlust-Risiko.
 
-[[The Bitcoin Newsletter #8]]
+[[The Bitcoin Newsletter #8 - How to be successful in Bitcoin]]
 
 ### Bitcoin-Aktien als Exposure-Alternative
 
@@ -39,7 +39,7 @@ Für Unternehmen oder Investoren, die Bitcoin nicht direkt halten können (regul
 
 Bitcoin-Miner wie RIOT Platforms, CleanSpark, Bitfarms — ihre Revenues hängen direkt vom Bitcoin-Preis ab, und sie sind damit eine leveraged Wette auf Bitcoin. Risiken: Managementrisiko, operationelle Kosten, Mining-Effizienz.
 
-Unternehmen mit Bitcoin-Treasury wie MicroStrategy (MSTR) und Square (SQ) — ihre Bewertung enthält implizit die Bitcoin-Position. Wer nicht direkt in Bitcoin investieren kann, kann diese Exposure über börsennotierte Wertpapiere aufbauen. [[The Bitcoin Newsletter #4]]
+Unternehmen mit Bitcoin-Treasury wie MicroStrategy (MSTR) und Square (SQ) — ihre Bewertung enthält implizit die Bitcoin-Position. Wer nicht direkt in Bitcoin investieren kann, kann diese Exposure über börsennotierte Wertpapiere aufbauen. [[The Bitcoin Newsletter #4 - Bitcoin stocks]]
 
 ### Das Strategy-Flywheel
 

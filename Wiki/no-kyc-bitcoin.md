@@ -2,7 +2,7 @@
 
 **Status:** established
 **Last updated:** 2026-06-25
-**Sources:** [[Das Privacy Handbuch – Timo Volkov (2025)]], [[opsec-und-privatsphaere]], [[bitcoin-ratgeber_kapitel-03-von-der-boerse-zur-eigenen-wallet]]
+**Sources:** [[Das Privacy Handbuch_ Ein Ratgeber für digitale Sicherheit und Privatsphäre]], [[opsec-und-privatsphaere]], [[bitcoin-ratgeber_kapitel-03-von-der-boerse-zur-eigenen-wallet]]
 
 ## Summary
 

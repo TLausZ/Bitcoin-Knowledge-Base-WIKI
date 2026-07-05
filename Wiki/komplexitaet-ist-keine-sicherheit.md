@@ -2,7 +2,7 @@
 
 **Status:** established
 **Last updated:** 2026-07-05
-**Sources:** [[20231005_komplexitaet-ist-keine-sicherheit]], [[20250914_heartmoney-bitcoin-online-bananen-offline]]
+**Sources:** [[20231005_komplexität-ist-keine-sicherheit]], [[20250914_heartmoney-bitcoin-online-bananen-offline]]
 
 ## Summary
 

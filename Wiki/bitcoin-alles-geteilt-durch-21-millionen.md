@@ -2,7 +2,7 @@
 
 **Status:** established
 **Last updated:** 2026-06-20
-**Sources:** [[2022_Bitcoin _ everything divided by 21 million -- Knut Svanholm]], [[2022_Bitcoin-Everything-Divided-by-21-Million_Svanholm]], [[2024_Bitcoin-Inverse-of-Clown-World_Svanholm-de-Wolf]]
+**Sources:** [[2022_Bitcoin-Everything-Divided-by-21-Million_Svanholm]], [[2024_Bitcoin-Inverse-of-Clown-World_Svanholm-de-Wolf]]
 
 ## Summary
 

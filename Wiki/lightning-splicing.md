@@ -2,7 +2,7 @@
 
 **Status:** established
 **Last updated:** 2026-06-09
-**Sources:** [[Splices and Liquidity in the Lightning Network]], [[Rebalancing in the Lightning Network_ Circular Payments, Fee Management and Splices]], [[How Splices Impact Lightning Network Fees.md]], [[phoenix-wallet-lightning]]
+**Sources:** [[Splices and Liquidity in the Lightning Network]], [[Rebalancing in the Lightning Network_ Circular Payments, Fee Management and Splices]], [[How Splices Impact Lightning Network Fees.md]], [[phoenix-wallet-lightning]]
 
 ## Summary
 

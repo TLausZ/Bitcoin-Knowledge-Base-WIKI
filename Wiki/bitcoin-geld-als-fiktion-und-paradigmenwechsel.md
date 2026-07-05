@@ -2,7 +2,7 @@
 
 **Status:** established
 **Last updated:** 2026-06-22
-**Sources:** [[2020_Bitcoin - Unabhängigkeit neu gedacht -- Knut Svanholm]], [[2020_Bitcoin-Unabhaengigkeit-neu-gedacht_Svanholm-Herminghaus]], [[aprycot-legendaerer-schatz-satoshi-nakamoto]]
+**Sources:** [[2020_Bitcoin - Unabhängigkeit neu gedacht -- Knut Svanholm; Volker Herminghaus -- Onleihe_ E-Book, Erscheinungsort nicht ermittelbar, 2020 -- Held, Stefan -- isbn13 9783949098000 -- 724f3b63a29697d05775b3355c29172a -- Anna’s Archive]], [[2020_Bitcoin-Unabhaengigkeit-neu-gedacht_Svanholm-Herminghaus]], [[aprycot-legendaerer-schatz-satoshi-nakamoto]]
 
 ## Summary
 

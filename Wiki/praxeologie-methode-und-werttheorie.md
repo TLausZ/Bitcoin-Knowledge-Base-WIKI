@@ -2,7 +2,7 @@
 
 **Status:** established
 **Last updated:** 2026-07-05
-**Sources:** [[2023_Praxeology_ The invisible hand that feeds you -- Knut Svanholm]], [[2023_Praxeology-Invisible-Hand-Feeds-You_Svanholm]], [[2022_Bitcoin _ everything divided by 21 million -- Knut Svanholm]], [[2020_Bitcoin - Unabhängigkeit neu gedacht -- Knut Svanholm]], [[2024_Bitcoin_ The Inverse of Clown World -- Knut Svanholm]], [[aprycot-kritik-der-quantitativen-oekonomik]], [[aprycot-jeder-ist-ein-spekulant]], [[20260104_heartmoney-neues-jahr-neues-denken]]
+**Sources:** [[2023_Praxeology_ The invisible hand that feeds you -- Knut Svanholm, Mel Shilling (editor), Niko Laamanen (editor) -- US, 2023 -- Konsensus Network OÜ -- isbn13 9789916723050 -- b32bc473f4c0bf8666d9acbae39177ca -- Anna’s Archive]], [[2023_Praxeology-Invisible-Hand-Feeds-You_Svanholm]], [[2022_Bitcoin-Everything-Divided-by-21-Million_Svanholm]], [[2020_Bitcoin - Unabhängigkeit neu gedacht -- Knut Svanholm; Volker Herminghaus -- Onleihe_ E-Book, Erscheinungsort nicht ermittelbar, 2020 -- Held, Stefan -- isbn13 9783949098000 -- 724f3b63a29697d05775b3355c29172a -- Anna’s Archive]], [[2024_Bitcoin_ The Inverse of Clown World -- Knut Svanholm, Luke de Wolf -- 2024 -- Lemniscate Media -- isbn13 9789916425206 -- f168b4ca352352987a04d1fa35c28cc8 -- Anna’s Archive]], [[aprycot-kritik-der-quantitativen-oekonomik]], [[aprycot-jeder-ist-ein-spekulant]], [[20260104_heartmoney-neues-jahr-neues-denken]]
 
 ## Summary
 

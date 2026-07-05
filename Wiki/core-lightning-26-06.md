@@ -2,7 +2,7 @@
 
 **Status:** established
 **Last updated:** 2026-06-09
-**Sources:** [[Core Lightning 26.06_ _Quantum-Resistant Lightning Channel"]]
+**Sources:** [[Core Lightning 26.06_ _Quantum-Resistant Lightning Channel”]]
 
 ## Summary
 

@@ -1,6 +1,24 @@
 # Open Questions & Gaps
 
-Offene Fragen, Lücken und Themen, die mehr Quellen benötigen. Stand: 2026-06-29 (Health Check 2)
+Offene Fragen, Lücken und Themen, die mehr Quellen benötigen. Stand: 2026-07-05 (Health Check 3)
+
+## Gebrochene Backlinks (Health Check 3, 2026-07-05)
+
+Related-Links auf Artikel, die nie erstellt wurden. Pro Link: erstellen, auf bestehenden Artikel umbiegen oder entfernen?
+
+- `[[bitcoin-als-reserve-und-anlagegut]]` ← iwf-weltbank-strukturanpassung, value4value-und-wertaktivierendes-web (Kandidaten: bitcoin-als-strategische-reserve, bitcoin-etf-und-institutionelle-verwahrung)
+- `[[bitcoin-als-zahlungsmittel]]` ← value4value-und-wertaktivierendes-web (Kandidat: bitcoin-skalierung-und-zahlungen)
+- `[[bitcoin-fuer-entwicklungslaender]]` ← iwf-weltbank-strukturanpassung (Kandidaten: monetaerer-kolonialismus-cfa-franc, bitcoin-humanitaere-anwendungen)
+- `[[proof-of-work-grundlagen]]` ← iwf-weltbank-strukturanpassung, value4value-und-wertaktivierendes-web (Kandidaten: bitcoin-mining-und-proof-of-work, energiestandard-und-proof-of-work)
+- `[[cantillon-effekt]]` ← bitcoin-menschenrechte (im Fliesstext bereits mit Fallback auf geldpolitik-und-inflation markiert)
+- `[[cantillon-effekt-und-geldpolitik]]` ← iwf-weltbank-strukturanpassung (Kandidat: geldpolitik-und-inflation)
+- `[[geldgeschichte-und-sound-money]]` ← energiestandard-und-proof-of-work (Kandidat: szabo-geldursprung)
+- `[[gigi-bitcoin-als-naturgewalt]]`, `[[bitcoin-ist-die-wiederentdeckung-des-geldes]]` ← gigi-philosophische-essays (geplante Essay-Artikel; RAW-Quellen vorhanden)
+
+Stale Source-Zitate (Ziel-Datei existiert nicht mehr in RAW):
+
+- `[[2026-06-09_nunchuk-faq]]` und `[[Recover a Nunchuk Wallet with Sparrow (2026)]]` ← nunchuk-wallet.md. Erstere laut Registry ersetzt durch die zwei zitierten FAQ-Dateien, letztere Datei wurde entfernt. Zitate löschen?
+- `[[2026-06-29_bitcoin-gespraechsskript-fehlannahmen]]` ← bitcoin-fehlannahmen.md zeigt auf eine Datei in Outputs/ statt RAW. Als Eigenproduktion kennzeichnen oder Zitat entfernen?
 
 ## Fehlende Wiki-Artikel
 

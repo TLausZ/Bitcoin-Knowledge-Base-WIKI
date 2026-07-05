@@ -2,7 +2,7 @@
 
 **Status:** established
 **Last updated:** 2026-06-22
-**Sources:** [[20230103_wir-feiern-proof-of-keys-de]], [[aprycot-seedor-bitcoin-ist-sicher]], [[aprycot-21bitcoin-custody-einfach-erklaert]], [[20230118_die-bitbox01-ist-am-ende-ihrer-reise-de]], [[20220822_warum-bitcoin-eigenes-wallet-halten-de]], [[20220103_proof-of-keys-bitcoin-de]], [[20210622_warum-bitcoin-nicht-auf-boersen-aufbewahren-de]], [[2025-10-03_Blocktrainer-Bitcoin sicher aufbewahren 2025_ Selbstverwahrung, Wallet und Co..]], [[2025-05-14_Blocktrainer-Bitcoin_ 5 Anfängerfehler, die teuer werden können]], [[Bitcoin ist die Wiederentdeckung des Geldes.md]], [[Die andere Seite der Medaille.md]], [[bitcoin-ratgeber_kapitel-02-sei-deine-eigene-bank]]
+**Sources:** [[20230103_wir-feiern-proof-of-keys-de]], [[aprycot-seedor-bitcoin-ist-sicher]], [[aprycot-21bitcoin-custody-einfach-erklaert]], [[20230118_die-bitbox01-ist-am-ende-ihrer-reise-de]], [[20220822_warum-bitcoin-eigenes-wallet-halten-de]], [[20220103_proof-of-keys-bitcoin-de]], [[20210622_warum-bitcoin-nicht-auf-boersen-aufbewahren-de]], [[2025-10-03_Blocktrainer-Bitcoin sicher aufbewahren 2025_ Selbstverwahrung, Wallet und Co.]], [[2025-05-14_Blocktrainer-Bitcoin_ 5 Anfängerfehler, die teuer werden können]], [[Bitcoin ist die Wiederentdeckung des Geldes.md]], [[Die andere Seite der Medaille.md]], [[bitcoin-ratgeber_kapitel-02-sei-deine-eigene-bank]]
 
 ## Summary
 

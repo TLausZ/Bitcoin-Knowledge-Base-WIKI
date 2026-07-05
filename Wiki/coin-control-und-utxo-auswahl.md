@@ -34,7 +34,7 @@ Wer viele kleine UTXOs aus DCA-Käufen akkumuliert hat, kann sie gezielt konsoli
 
 ### Verhältnis zu Labels
 
-Coin Control funktioniert besser mit konsequentem UTXO-Labeling. Ohne Labels — wer diesen UTXO mir geschickt hat, aus welchem Kontext er stammt — ist manuelle Auswahl blind. Mit Labels lässt sich gezielt entscheiden. BIP-329 standardisiert Wallet-Labels, sodass sie zwischen Wallets portierbar sind. [[bip-329-wallet-labels]]
+Coin Control funktioniert besser mit konsequentem UTXO-Labeling. Ohne Labels — wer diesen UTXO mir geschickt hat, aus welchem Kontext er stammt — ist manuelle Auswahl blind. Mit Labels lässt sich gezielt entscheiden. BIP-329 standardisiert Wallet-Labels, sodass sie zwischen Wallets portierbar sind. [[bip-0329]]
 
 ### Verhältnis zu CoinJoin
 
@@ -45,7 +45,7 @@ CoinJoin verbessert Privatsphäre durch Vermischung mehrerer Nutzer in einer Tra
 - [[utxo-modell-und-konsolidierung]]
 - [[coinjoin-und-on-chain-privatsphaere]]
 - [[sparrow-wallet]]
-- [[bip-329-wallet-labels]]
+- [[bip-0329]]
 - [[opsec-und-privatsphaere]]
 
 ## Open Questions
