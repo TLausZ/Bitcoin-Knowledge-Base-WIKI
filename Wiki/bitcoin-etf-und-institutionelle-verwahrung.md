@@ -65,6 +65,7 @@ Das Goldparadox ist lehrreich: Gold war dezentral, aber seine physischen Eigensc
 ## Related
 
 - [[selbstverwahrung-und-boersenrisiken]]
+- [[bitcoin-silent-ipo]]
 - [[geld-staat-und-fiat-monopol]]
 - [[multisig-und-kollaborative-verwahrung]]
 - [[bitcoin-netzwerk-und-nodes]]

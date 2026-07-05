@@ -2,7 +2,7 @@
 
 **Status:** established
 **Last updated:** 2026-06-30
-**Sources:** [[aprycot-gladstein-humanitaere-oekologische-argumente]], [[aprycot-alden-energieverbrauch-bitcoin]], [[aprycot-captain-sidd-bitcoin-wird-unsere-erde-retten]], [[aprycot-parker-lewis-bitcoin-keine-energieverschwendung]], [[aprycot-jesse-bitcoin-mining-mini-grids]], [[20251031_How Bitcoin Mining Keeps Energy Prices Low]], [[Economic_Integration_Bitcoin_Mining_Renewable_Energy]], [[Leveraging_Bitcoin_Miners_as_Flexible_Load_Resources_for_Power_System_Stability_and_Efficiency]], [[High resolution modeling and analysis of cryptocurrency mining’s impact on power grids- Carbon footprint, reliability, and electricity price]], [[The truth is not enough]], [[Volcanoes, Geese and Bitcoin]]
+**Sources:** [[aprycot-gladstein-humanitaere-oekologische-argumente]], [[aprycot-alden-energieverbrauch-bitcoin]], [[aprycot-captain-sidd-bitcoin-wird-unsere-erde-retten]], [[aprycot-parker-lewis-bitcoin-keine-energieverschwendung]], [[aprycot-jesse-bitcoin-mining-mini-grids]], [[How Bitcoin Mining Keeps Energy Prices Low]], [[Economic_Integration_Bitcoin_Mining_Renewable_Energy]], [[Leveraging_Bitcoin_Miners_as_Flexible_Load_Resources_for_Power_System_Stability_and_Efficiency]], [[High resolution modeling and analysis of cryptocurrency mining’s impact on power grids- Carbon footprint, reliability, and electricity price]], [[The truth is not enough]], [[Volcanoes, Geese and Bitcoin]]
 
 ## Summary
 
@@ -47,7 +47,7 @@ Bitcoin Mining senkt Strompreise für alle anderen Verbraucher — durch mehrere
 - Kenia: −28,5% Strompreis durch Hydro-Mining-Kolokalisation (CNBC, 2024)
 - UK: £2,5 Mio. Curtailment-Kosten/Tag — vermeidbar durch Mining
 
-[[20251031_How Bitcoin Mining Keeps Energy Prices Low]]
+[[How Bitcoin Mining Keeps Energy Prices Low]]
 
 ### Grundlagen: Energievergleich, Layer-Fallacy und Mini-Grids
 

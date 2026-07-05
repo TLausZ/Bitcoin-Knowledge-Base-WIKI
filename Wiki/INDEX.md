@@ -1,6 +1,6 @@
 # Bitcoin KB — Wiki Index
 
-Alle Artikel alphabetisch. Stand: 2026-07-05 (Compile-Pass Bitcoin-Ratgeber: +2 neue Artikel [bitcoin-einsteiger-onboarding, wolf-21-lektionen], 10 Artikel um Ratgeber-Quellen ergänzt)
+Alle Artikel alphabetisch. Stand: 2026-07-05 (Compile-Pass: +2 neue Artikel [bitcoin-silent-ipo, stablecoins-und-agentische-zahlungen], bitcoin-mining-energiequellen ergänzt)
 
 | Artikel | Status | Beschreibung |
 |---------|--------|-------------|
@@ -55,6 +55,7 @@ Alle Artikel alphabetisch. Stand: 2026-07-05 (Compile-Pass Bitcoin-Ratgeber: +2 
 | [[bitcoin-versicherung]] | emerging | Bitsurance: erste Versicherung für selbst verwahrte Bitcoin; Schutz gegen physische Risiken (Raub, Feuer, Erpressung, Naturkatastrophen); kein Custody-Risiko |
 | [[bitcoin-rechtliche-angriffe]] | established | Rechtsstreit als Angriff auf Bitcoin; Craig Wright vs. Hodlonaut (Norwegen, Sieg Oktober 2022); OpenSats Legal Defense Fund; Shift Crypto Spende $10k |
 | [[bitcoin-regierungsresistenz]] | established | Gladstein: Netzwerkangriff SegWit2X 2017 (83% Hashrate, scheiterte an Full Nodes); regulatorische Angriffe (6102-Analogie, China/Indien-Verbote → P2P-Exodus); Gigi: technische Unbannbarkeit (256-Bit-Zahl, SHA-256 per Hand, Junger v. Daley); Anreizstruktur gegen Angriff. |
+| [[bitcoin-silent-ipo]] | emerging | Jordi Visser (Nov 2025): Seitwärtsphase als IPO-Analogon — OG-Whales distribuieren an Institutionen (Galaxy 9 Mrd. für einen Kunden), gebrochene Nasdaq-Korrelation als Distributionssignatur; danach breitere Eigentümerbasis, weniger Volatilität. |
 | [[bitcoin-skalierung-und-zahlungen]] | established | Lewis GTS: Bitcoin ≠ Visa; konkurriert mit Fed als Währungsemittent/Abwicklungsschicht; digitale Knappheit = 0-zu-1-Innovation; Blockraumknappheit → Gebührenmarkt → sichert 21M; Lightning. |
 | [[bitcoin-sprache-und-terminologie]] | established | Gigi: interne Bitcoin-Metaphern (Wallet/Key/Adresse/Coins jeweils ungenau erklärt); linguistische Angriffe: „nicht gehostete Wallet", #ChangeTheCode (Larsen/Ripple), Proof-of-Stake-Misnomer |
 | [[craig-wright-faketoshi]] | established | Craig Wright: Faketoshi-Behauptung 2016, BCH Hash War 2018, juristische Offensive (Hodlonaut/McCormack/Kleiman/Tulip Trading), COPA v. Wright 2024 (Urteil: nicht Satoshi, Dokumente gefälscht) |
@@ -158,6 +159,7 @@ Alle Artikel alphabetisch. Stand: 2026-07-05 (Compile-Pass Bitcoin-Ratgeber: +2 
 | [[soft-fork-und-hard-fork]] | established | Hard Fork (Regeln entfernen) vs. Soft Fork (Regeln hinzufügen); Kompatibilität und Chainsplits |
 | [[sparrow-wallet]] | established | Sparrow Wallet: UTXO-Transparenz, Coin Selection, Pay-to-many, Multisig; "cold-storage sweating"; Server-Wahl (Public/Bitcoin Core/Electrum/BitBox-Server) |
 | [[specter-diy]] | established | Specter DIY / Shield Lite / Shield Metal: Air-Gap via QR, Smartcard-Secure-Chip, Anti-Phishing-Wörter, temporärer Seed, Specter Association (Swiss Non-Profit), ClavaStack-Shop; drei Varianten (165/190/399 €) |
+| [[stablecoins-und-agentische-zahlungen]] | emerging | Stripe Sessions 2026: Stablecoin-Stack aus Bridge/Privy/Tempo, Streaming-Micropayments für KI-Agenten (MPP), Link hält Stablecoins (250 Mio. Nutzer), Treasury-Rails in 100→160 Ländern; Einordnung vs. Lightning und Fiat-Kontrollrisiken. |
 | [[starks]] | established | STARK-Validitätsbeweise (StarkWare-Serie): Prover/Verifier, Constraints, Fehlerverstärkung via Reed-Solomon, FRI-Folding, Merkle-Commitment; einzige Annahme sichere Hashfunktion → post-quanten-sicher; 1 Mio. Tx verifizierbar mit Aufwand von ~6 |
 | [[taproot-musig2-frost]] | established | Taproot (Soft Fork 2021): Schnorr, MAST, Key-Path/Script-Path; MuSig2 (n-von-n Aggregation); FROST (Threshold-Signaturen) |
 | [[transaktionsgebuehren-und-mempool]] | established | Blockgröße (begrenzt), Miner-Incentive (sat/vByte), Mempool (mempool.space/jochen-hoenicke.de), Priorität-Auswahl in BitBoxApp; Zusammenhang mit UTXO-Konsolidierung |

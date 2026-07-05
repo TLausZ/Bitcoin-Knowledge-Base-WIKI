@@ -77,6 +77,7 @@ Gegen die Community-Konvention, den Preis für nebensächlich zu erklären («ne
 ## Related
 
 - [[bitcoin-monetarisierung]]
+- [[bitcoin-silent-ipo]]
 - [[bitcoin-powerlaw-und-preismodelle]]
 - [[bitcoin-auf-kredit]]
 - [[bitcoin-antifragilitaet]]
