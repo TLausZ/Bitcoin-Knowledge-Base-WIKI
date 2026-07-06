@@ -1,6 +1,6 @@
 # Bitcoin KB — Wiki Index
 
-Alle Artikel alphabetisch. Stand: 2026-07-05 (Compile-Pass: +2 neue Artikel [bitcoin-silent-ipo, stablecoins-und-agentische-zahlungen], bitcoin-mining-energiequellen ergänzt)
+Alle Artikel alphabetisch. Stand: 2026-07-06 (Compile-Pass: +1 neuer Artikel [bitbox02-features] aus BitBox02-Feature-Highlights-CSV)
 
 | Artikel | Status | Beschreibung |
 |---------|--------|-------------|
@@ -90,6 +90,7 @@ Alle Artikel alphabetisch. Stand: 2026-07-05 (Compile-Pass: +2 neue Artikel [bit
 | [[bitcoin-mining-und-proof-of-work]] | established | Mining als Würfelspiel mit SHA-256-Hashfunktionen; Proof of Work als Sicherheitsmechanismus |
 | [[bitcoin-only-vs-multi-edition]] | established | Bitcoin-only (~25% weniger Code) vs. Multi (Altcoins, U2F); gleiche Hardware, unwiderrufliche Firmware-Wahl |
 | [[bitcoin-vaults]] | emerging | Verzögerte Auszahlungen + Wiederherstellungspfad; benötigt Covenants für vollständige Umsetzung |
+| [[bitbox02-features]] | established | Feature-Katalog BitBox02/BitBoxApp (33 Herstellerangaben): Child keys (BIP-85), Coin Control, Silent Payments, Anti-Klepto, reproduzierbare Builds, Miniscript, Multisig, Taproot, WalletConnect, U2F, Payment Requests, Kauf/Verkauf (Pocket), eigener Full Node, watch-only |
 | [[bitbox02-nova]] | established | BitBox02 Nova: iPhone-Support via Whisper/BLE, EAL6+ Chip, OLED-Glasdisplay |
 | [[coin-control-und-utxo-auswahl]] | established | Manuelle UTXO-Auswahl als Datenschutzwerkzeug; Common Input Ownership Heuristic; CoinJoin-Vorbereitung; Umsetzung in Sparrow, Electrum, BitBoxApp |
 | [[coinjoin-und-on-chain-privatsphaere]] | established | CoinJoin: gleiche Output-Beträge machen Transaktionen unzuordenbar; Samourai/Wasabi-Situation 2024 |

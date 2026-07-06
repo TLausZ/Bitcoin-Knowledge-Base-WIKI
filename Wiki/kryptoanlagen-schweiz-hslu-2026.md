@@ -1,12 +1,12 @@
 # Kryptoanlagen Schweiz HSLU 2026
 
 **Status:** established
-**Last updated:** 2026-07-02
-**Sources:** [[20260629_hslu-kryptoanlagen-schweiz-2026]]
+**Last updated:** 2026-07-06
+**Sources:** [[20260629_hslu-kryptoanlagen-schweiz-2026]], [[Kryptoanlagen in der Schweiz 2026.pdf]]
 
 ## Summary
 
-Die HSLU-Kryptoanlagen-Studie 2026 (IFZ, Hochschule Luzern, mit der Luzerner Kantonalbank) befragte im Februar/März 2026 repräsentativ 1'772 Personen aus allen drei Schweizer Sprachregionen. 18 Prozent halten aktuell Kryptoanlagen, rund 140'000 Personen kamen innert eines Jahres hinzu. Der stärkste Prädiktor künftiger Investitionen ist die bisherige Anlageerfahrung, weder Alter noch Geschlecht noch Einkommen. In einem Entscheidungsexperiment schlägt Anbietervertrauen die Gebührenhöhe deutlich. Basis ist bislang nur die Blog-Zusammenfassung; das Studien-PDF war beim Ingest noch nicht verfügbar.
+Die HSLU-Kryptoanlagen-Studie 2026 (IFZ, Hochschule Luzern, mit der Luzerner Kantonalbank) befragte im Februar/März 2026 repräsentativ 1'772 Personen aus allen drei Schweizer Sprachregionen. 18 Prozent halten aktuell Kryptoanlagen, rund 140'000 Personen kamen innert eines Jahres hinzu. Der stärkste Prädiktor künftiger Investitionen ist die bisherige Anlageerfahrung, weder Alter noch Geschlecht noch Einkommen. In einem Entscheidungsexperiment schlägt Anbietervertrauen die Gebührenhöhe deutlich. Basis ist die Blog-Publikation, seit Juli 2026 auch als PDF in RAW; der vollständige Studienbericht mit Detailauswertungen ist weiterhin nicht publiziert.
 
 ## Body
 
@@ -40,6 +40,6 @@ Die Studie misst «Kryptoanlagen» insgesamt, nicht Bitcoin spezifisch; die Blog
 
 ## Open Questions
 
-- Studien-PDF nachladen, sobald verfügbar: Asset-Aufschlüsselung (Bitcoin vs. übrige Kryptoanlagen), Verwahrungsformen (Börse, Bank, Self-Custody), Sprachregionen-Unterschiede.
+- Vollständigen Studienbericht nachladen, sobald publiziert: Asset-Aufschlüsselung (Bitcoin vs. übrige Kryptoanlagen), Verwahrungsformen (Börse, Bank, Self-Custody), Sprachregionen-Unterschiede. Das vorliegende PDF (Juli 2026) ist nur die Blogfassung und beantwortet diese Fragen nicht.
 - Wie robust ist die Zeitreihe 11 → 16 → 18 Prozent angesichts wechselnder Studienpartner (PostFinance 2024, LUKB 2025/2026)?
 - Widerspricht der Vertrauensbefund (Bank schlägt Coinbase) dem Self-Custody-Narrativ oder bestätigt er nur, dass Neueinsteiger den Weg des geringsten Widerstands wählen?
