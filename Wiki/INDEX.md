@@ -1,6 +1,6 @@
 # Bitcoin KB — Wiki Index
 
-Alle Artikel alphabetisch. Stand: 2026-07-07 (Compile-Pass: +2 neue Artikel [makro-zinskurve-fed-und-rezession], [onchain-indikatoren-und-anlegerverhalten] aus Wüstenfeld/Bitcoin Market Intelligence; 4 Artikel erweitert)
+Alle Artikel alphabetisch. Stand: 2026-07-08 (Compile-Pass: fortego-backup-sicherheit um Steelwallet-Entsorgung erweitert)
 
 | Artikel | Status | Beschreibung |
 |---------|--------|-------------|
@@ -59,7 +59,7 @@ Alle Artikel alphabetisch. Stand: 2026-07-07 (Compile-Pass: +2 neue Artikel [mak
 | [[bitcoin-skalierung-und-zahlungen]] | established | Lewis GTS: Bitcoin ≠ Visa; konkurriert mit Fed als Währungsemittent/Abwicklungsschicht; digitale Knappheit = 0-zu-1-Innovation; Blockraumknappheit → Gebührenmarkt → sichert 21M; Lightning. |
 | [[bitcoin-sprache-und-terminologie]] | established | Gigi: interne Bitcoin-Metaphern (Wallet/Key/Adresse/Coins jeweils ungenau erklärt); linguistische Angriffe: „nicht gehostete Wallet", #ChangeTheCode (Larsen/Ripple), Proof-of-Stake-Misnomer |
 | [[craig-wright-faketoshi]] | established | Craig Wright: Faketoshi-Behauptung 2016, BCH Hash War 2018, juristische Offensive (Hodlonaut/McCormack/Kleiman/Tulip Trading), COPA v. Wright 2024 (Urteil: nicht Satoshi, Dokumente gefälscht) |
-| [[fortego-backup-sicherheit]] | established | Double Responsibility Problem (Verlust vs. Diebstahl); Fortego CodeBook-Trennung; absolute Seed-Phrase-Regel; Sicherheitsarchitektur (Protokollierung, Verschlüsselung, Geo-Backup); Vergleich Backup-Ansätze |
+| [[fortego-backup-sicherheit]] | established | Double Responsibility Problem (Verlust vs. Diebstahl); Fortego CodeBook-Trennung; absolute Seed-Phrase-Regel; Sicherheitsarchitektur (Protokollierung, Verschlüsselung, Geo-Backup); Vergleich Backup-Ansätze; Steelwallet-Entsorgung (forensische Ätzung, Ersatzwörter) |
 | [[firmware-verifikation-und-reproduzierbarkeit]] | established | Reproduzierbare Builds: selber Code → selbe Binärdatei; Docker-Kompilierung; Hash-Vergleich; Community-Bestätigungen |
 | [[bitcoin-whitepaper]] | established | Satoshi Nakamotos Original-Whitepaper: Double-Spend-Problem, PoW, UTXO-Modell, SPV, Incentive-Mechanismus |
 | [[satoshi-ankuendigung-2009]] | established | Satoshi auf P2P Foundation (2009-02-11): erste öffentliche Ankündigung; "crypto proof instead of trust"; "distributed timestamp server"; Wei Dai kommentiert; Verbindung zur Cypherpunk-Tradition |

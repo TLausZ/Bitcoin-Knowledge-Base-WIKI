@@ -1,8 +1,8 @@
 # Fortego: Backup-Sicherheit und Double Responsibility Problem
 
 **Status:** established
-**Last updated:** 2026-06-19
-**Sources:** [[fortego_Das Double Responsibility Problem]], [[fortego_Die Fortego-Sicherheitsarchitektur]], [[fortego_Seed Phrase_ Die eine Regel, die keine Ausnahme kennt]]
+**Last updated:** 2026-07-08
+**Sources:** [[fortego_Das Double Responsibility Problem]], [[fortego_Die Fortego-Sicherheitsarchitektur]], [[fortego_Seed Phrase_ Die eine Regel, die keine Ausnahme kennt]], [[Deine Steelwallet ist leer. Wegwerfen kannst du sie trotzdem nicht.]]
 
 ## Summary
 
@@ -67,6 +67,20 @@ Vergleich mit anderen Ansätzen:
 | Passphrase als zweite Schicht | Mittel | Mittel | Mittel |
 | Shamir Secret Sharing (SSS) | Niedrig | Niedrig | Hoch |
 | Fortego (CodeBook-Trennung) | Niedrig | Niedrig | Mittel |
+
+### Steelwallet-Entsorgung: wenn das Backup zum Problem wird
+
+Eine Steelwallet ist gebaut, um Feuer, Wasser und Schlag zu überstehen. Dieselbe Eigenschaft, die sie als Backup attraktiv macht, wird am Lebensende zum Problem: Wie entsorgt man ein Artefakt, das genau dafür konstruiert wurde, sich nicht zerstören zu lassen? Der Fall zeigt das Double Responsibility Problem aus einer neuen Richtung — nicht bei der Aufbewahrung, sondern beim Loswerden.
+
+**«Leer» heisst nicht harmlos.** Eine leergeräumte Wallet bleibt lesbar, und jede aus dem Backup abgeleitete Adresse kann weiter Bitcoin empfangen: eine Auszahlung einer Exchange, eine vergessene Dauerzahlung, ein alter Kontakt, der erneut dorthin zahlt. Restbeträge unter einer selten genutzten Konto-Variante werden leicht übersehen. Wer die Seed Phrase einmal hat, muss nicht sofort zugreifen; er kann still mitlesen und beim ersten Eingang abräumen. Der Zugriff bleibt dauerhaft offen, solange das Artefakt existiert.
+
+**Abschleifen genügt nicht.** Die Wörter sind meist gestanzt oder geprägt, nicht nur oberflächlich graviert. Der Stempel verdichtet das Metall, und diese Verformung reicht tiefer als die sichtbare Vertiefung. Schleift man nur bis zur glatten Oberfläche, entfernt man die Form, nicht die Spur darunter. Es ist dieselbe Physik, mit der Forensiker abgeschliffene Seriennummern an Fahrzeugen wieder sichtbar machen: Ein Ätzmittel reagiert auf verformtes und unverformtes Metall unterschiedlich, die Zeichen tauchen als Geister wieder auf. «Sichtbar unleserlich» ist deshalb kein verlässliches Kriterium.
+
+**Echte Zerstörung.** Verlässlich weg ist die Platte erst nach professioneller Einschmelzung oder Schredderung, wo kein zusammenhängendes Stück mehr übrig bleibt. Bis dahin ist sie voll lesbar, also muss man die Wörter vorher selbst unkenntlich machen oder die Platte gar nicht erst aus der Hand geben. Ein lesbares Backup reicht man niemandem zur späteren Bearbeitung. Selbst Hand anlegen geht, bringt aber genau den Aufwand, um den es hier geht, plus den Rest Zweifel, ob die Spuren wirklich weg sind.
+
+**Der Hebel liegt vor dem Kauf.** Zwei Ansätze entschärfen das Problem, bevor es entsteht. Erstens: zerlegbare Metall-Backups aus einzelnen Scheiben oder Kacheln, je ein Wort pro Teil. Am Lebensende lassen sie sich räumlich und zeitlich verteilt entsorgen; eine einzelne gefundene Scheibe trägt ein Wort von zwölf oder vierundzwanzig und ist ohne die anderen wertlos. Der Vorteil greift aber nur eng am Lebensende — ein gefundener Scheibenstapel ist genauso lesbar wie eine Platte. Zweitens, und weitergehend: nur Ersatzwörter einschlagen. Schlägt man Fortegos Backup-Karte (nur die Ersatzwörter, erst mit dem getrennt verwahrten CodeBook zur echten Seed rekonstruierbar) in die Steelwallet, dreht sich die Logik um. Selbst wer die komplette Platte findet, hält nie den echten Zugang in der Hand. Das forensische Tilgen verliert seine Schärfe, weil dort nie etwas Gefährliches stand.
+
+Das dahinterliegende Prinzip ist dasselbe wie beim Double Responsibility Problem: Ein einzelner Fund darf nie den vollen Zugriff bedeuten. Zerlegbare Systeme lösen das über die Form, die CodeBook-Trennung über den Inhalt.
 
 ## Related
 
