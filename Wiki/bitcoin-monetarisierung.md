@@ -1,8 +1,8 @@
 # Bitcoin-Monetarisierung: Vom Sammlerstück zur Recheneinheit
 
 **Status:** established
-**Last updated:** 2026-07-04
-**Sources:** [[aprycot-das-bullische-argument-fuer-bitcoin]], [[Das bullische Argument für Bitcoin]], [[The Bullish Case for Bitcoin]], [[aprycot-jeder-ist-ein-scammer]], [[aprycot-parker-lewis-bitcoin-macht-anderes-geld-ueberfluessig]], [[aprycot-parker-lewis-gradually-then-suddenly.md]], [[aprycot-malki-bitcoin-weltreservewaehrung]], [[20260201_heartmoney-zwischen-goldrausch-und-zuversicht]], [[20250713_heartmoney-gehorsam-oder-bitcoin]], [[20260111_heartmoney-bitcoin-top-preis-flop]]
+**Last updated:** 2026-07-07
+**Sources:** [[aprycot-das-bullische-argument-fuer-bitcoin]], [[Das bullische Argument für Bitcoin]], [[The Bullish Case for Bitcoin]], [[aprycot-jeder-ist-ein-scammer]], [[aprycot-parker-lewis-bitcoin-macht-anderes-geld-ueberfluessig]], [[aprycot-parker-lewis-gradually-then-suddenly.md]], [[aprycot-malki-bitcoin-weltreservewaehrung]], [[20260201_heartmoney-zwischen-goldrausch-und-zuversicht]], [[20250713_heartmoney-gehorsam-oder-bitcoin]], [[20260111_heartmoney-bitcoin-top-preis-flop]], [[20240301_bmi-ist-bitcoin-bessere-alternative-gold-de]]
 
 ## Summary
 
@@ -39,6 +39,12 @@ Gold war Jahrtausende lang der dominante Wertspeicher. Bitcoin hat mehrere struk
 - **Knappheitsgarantie:** Das 21-Millionen-Limit ist im Code verankert und von der Netzwerkmehrheit durchgesetzt. Golddepots können theoretisch erschöpft werden — im Asteroidengürtel gibt es mehr.
 
 Golds einziger struktureller Vorteil: 5.000 Jahre Bewährung. Bitcoin hat 17 Jahre. [[aprycot-das-bullische-argument-fuer-bitcoin]]
+
+### ETP-Divergenz Anfang 2024 (Wüstenfeld)
+
+Ein früherer Datenpunkt zum Bitcoin-Gold-Verhältnis stammt aus Jan Wüstenfelds Newsletter vom März 2024. Zu Jahresbeginn 2024 verzeichneten Bitcoin-ETPs beträchtliche Zuflüsse, während Gold-ETPs zugleich erhebliche Nettoabflüsse zeigten — eine Divergenz, die André Dragosch dokumentierte und die sogar der Bitcoin-Kritiker Peter Schiff als Umschichtung von Gold zu Bitcoin deutete. Wüstenfeld ordnet ein, dass sich daraus keine kausale Sicherheit ableiten lässt (andere Faktoren möglich), die Gegenläufigkeit aber heraussticht.
+
+Sein Bitcoin-vs-Gold-Vergleich deckt sich mit Boyapatis Kriterien (Transportierbarkeit, Verifizierbarkeit, Teilbarkeit) und ergänzt den damaligen Stock-to-Flow-Stand: 59 für Bitcoin gegenüber 63 für Gold, kurz vor dem Halving 2024, das Bitcoin über Gold heben würde. Golds bleibender Vorteil sei seine jahrtausendelange Geschichte; Wüstenfeld führt zudem an, dass der größte Teil des Goldpreises auf die Wertaufbewahrungsfunktion und nicht auf die industrielle Nutzung zurückgeht. [[20240301_bmi-ist-bitcoin-bessere-alternative-gold-de]]
 
 ### Die Gold-Rally 2025 als Wegbereiter
 

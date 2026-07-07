@@ -1,8 +1,8 @@
 # Bitcoin Power Law und Preismodelle
 
 **Status:** established
-**Last updated:** 2026-07-04
-**Sources:** [[A Mechanistic Derivation of the Bitcoin Price Power Law_ Network Adoption Dynamics and Generalised Metcalfe Scaling]], [[bitcoin_powerlaw_v4_FINALA]], [[Bitcoin_Supply_Demand_Price_Dynamics]], [[Supply_and_Demand_Framework_Bitcoin_Price_Forecasting]], [[20260125_heartmoney-der-bitcoin-fruhling-beginnt]], [[20260510_heartmoney-ein-barenmarkt-fur-ameisen]], [[20260630_heartmoney-bitcoin-angst-und-magie]], [[20251123_heartmoney-ki-hat-keine-traumata]]
+**Last updated:** 2026-07-07
+**Sources:** [[A Mechanistic Derivation of the Bitcoin Price Power Law_ Network Adoption Dynamics and Generalised Metcalfe Scaling]], [[bitcoin_powerlaw_v4_FINALA]], [[Bitcoin_Supply_Demand_Price_Dynamics]], [[Supply_and_Demand_Framework_Bitcoin_Price_Forecasting]], [[20260125_heartmoney-der-bitcoin-fruhling-beginnt]], [[20260510_heartmoney-ein-barenmarkt-fur-ameisen]], [[20260630_heartmoney-bitcoin-angst-und-magie]], [[20251123_heartmoney-ki-hat-keine-traumata]], [[20230207_bmi-ausgabe-20-halvingzyklen-de]]
 
 ## Summary
 
@@ -52,6 +52,12 @@ Neben dem netzwerktheoretischen Power-Law-Ansatz gibt es einen komplementären B
 - **Liquid Supply ist der stärkste Preis-Hebel**: Wenn institutionelle Akkumulation und strategische Reserven BTC aus der Liquid Supply nehmen, steigt der Gleichgewichtspreis stark
 
 Der Unterschied zum Power Law: Das Power-Law-Modell leitet den Preispfad aus der Netzwerkdiffusion ab (deterministisch, topologisch); das Angebot-Nachfrage-Modell leitet ihn aus wirtschaftlichem Gleichgewicht ab (stochastisch, fundamentalseitig). Beide liefern für 2036 Preisbänder im Millionenbereich — ein konsistentes Signal aus unterschiedlichen Methodiken. [[Bitcoin_Supply_Demand_Price_Dynamics]], [[Supply_and_Demand_Framework_Bitcoin_Price_Forecasting]]
+
+### Halving-Zyklen im Vergleich und ihre schwindende Relevanz (Wüstenfeld, 2023)
+
+Schon Anfang 2023 argumentierte Jan Wüstenfeld gegen eine mechanische Lesart der Halving-Zyklen. Das Halving alle 210.000 Blöcke halbiert die Blockbelohnung (im Mai 2024 von 6,25 auf 3,125 BTC), doch der Verkaufsdruck aus der Neuemission sinkt relativ zum umlaufenden Bestand mit jedem Zyklus: tägliche Emission 1800 BTC im vorletzten, 900 im damaligen, 450 ab 2024. Daraus folgt seine These, dass Halvings über die Zeit für den Preis immer weniger Gewicht haben sollten — eine frühe Formulierung des Arguments, das 2025/26 mit dem Zyklusbruch breit diskutiert wurde. Er nennt zwei weitere Dämpfer: professionelle Miner mit Kapitalmarktzugang, die den unmittelbaren Verkaufsdruck strecken können, und die zunehmende Kopplung an traditionelle Makro-Zyklen.
+
+Sein Zyklusvergleich (Stand Tag 1003 im dritten Zyklus) fand die damalige Kursentwicklung schwächer als in den beiden Vorzyklen und beobachtete statt eines klaren Blow-off-Tops ein Doppel-Top — mögliche Ursachen: veränderte Makrolandschaft und institutionelle Beteiligung, die Bitcoin stärker mit den Finanzmärkten korreliert. Das Timing bis zum ATH lag nah am Vorzyklus (549 vs. 527 Tage). Die Analyse ist deskriptiv und ohne die mechanistische Basis der Power-Law-Modelle; ihr Wert liegt im frühen Zweifel an der Zyklus-Mechanik. [[20230207_bmi-ausgabe-20-halvingzyklen-de]]
 
 ### Log-periodisches Zyklusmodell und das Ende des 4-Jahres-Zyklus
 

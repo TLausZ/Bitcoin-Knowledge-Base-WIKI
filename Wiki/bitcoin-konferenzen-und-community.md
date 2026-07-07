@@ -1,8 +1,8 @@
 # Bitcoin-Konferenzen und Community
 
 **Status:** established
-**Last updated:** 2026-07-04
-**Sources:** [[Why is it worth attending Bitcoin conferences, and how can it help you develop yourself_]], [[Bitcoin events Summary of 2025 - It was extraordinary!]], [[20250727_heartmoney-zwischen-bitcoin-burg-und-sternenstaub]], [[20260630_heartmoney-bitcoin-angst-und-magie]], [[20251013_heartmoney-magie-in-ingolstadt]], [[20250908_heartmoney-zwischen-berlin-bitcoin-und-visionaren-weltverbesserern]], [[bitcoin-ratgeber_kapitel-08-vernetze-dich]]
+**Last updated:** 2026-07-07
+**Sources:** [[Why is it worth attending Bitcoin conferences, and how can it help you develop yourself_]], [[Bitcoin events Summary of 2025 - It was extraordinary!]], [[20250727_heartmoney-zwischen-bitcoin-burg-und-sternenstaub]], [[20260630_heartmoney-bitcoin-angst-und-magie]], [[20251013_heartmoney-magie-in-ingolstadt]], [[20250908_heartmoney-zwischen-berlin-bitcoin-und-visionaren-weltverbesserern]], [[bitcoin-ratgeber_kapitel-08-vernetze-dich]], [[20221101_bmi-deutschsprachige-community-de]]
 
 ## Summary
 
@@ -27,6 +27,12 @@ Szabelskis Jahresrückblick 2025 dokumentiert die Bandbreite der Szene [[Bitcoin
 Das Bitcoin FilmFest in Warschau (viertägig, mit Pizza Day, Filmvorführungen, Bitcoin-Walk) zählte nur etwa 150–200 Teilnehmer, mit entsprechend familiärer Dynamik. Die BTC Prague erreichte am Freitag und Samstag 7'000–8'000 Teilnehmer; der Business Day davor blieb klein. Die Konferenz in Ingolstadt verkaufte über 3'000 Tickets, und Szabelski hebt hervor, dass vor allem Banken und Finanzdienstleister Mitarbeiter zum Lernen schickten. Die Amsterdamer Konferenz schloss sein Jahr mit einer Panel-Moderation («Wie bekomme ich einen Job in Bitcoin?») ab.
 
 Am Rand fällt ein Detail zur Grösse des Kapitals im Raum: Auf einem VIP-Abend berichtete ein Konferenzorganisator, wie ihm ein Freund innerhalb von drei Tagen 203 Millionen Dollar organisierte. Konferenzen sind längst auch B2B- und Finanzierungsplattformen.
+
+### Meetup-Wachstum im Bärenmarkt 2022 (Wüstenfeld)
+
+Ein früher Datenpunkt zur DACH-Basis stammt aus Jan Wüstenfelds erster deutscher Newsletter-Ausgabe (1. November 2022, tiefer Bärenmarkt). Er verfolgte über den Oktober 2022 das Mitgliederwachstum in den Telegram-Gruppen der Einundzwanzig-Meetups: Während der Bitcoin-Kurs im Monat rund 5 % zulegte, wuchsen die Meetup-Gruppen um fast 7 %, und mindestens drei neue Meetups wurden gegründet. In den Telegram-Gruppen zählte er knapp 5.500 Bitcoiner, inklusive meetup.com-Angaben rund 27.600. Pro Million Einwohner lagen die meisten Bundesländer und Staaten bei 40–70 Telegram-Gruppenmitgliedern, mit Ausreißern nach oben und unten; Mecklenburg-Vorpommern und Niedersachsen zeigten als Ausnahme rückläufige Zahlen.
+
+Wüstenfeld liest die Zahlen als Beleg, dass die deutschsprachige Community auch im Bärenmarkt wächst — sein Fazit «The number of Bitcoin plebs is going up forever». Die Kennzahlen sind selbst erhobene Momentaufnahmen (Telegram-/meetup.com-Mitglieder ≠ aktive Teilnehmer), taugen aber als Basiswert für den späteren Vergleich mit den Konferenzzahlen ab 2023. [[20221101_bmi-deutschsprachige-community-de]]
 
 ### Zitadellen: das nichtkommerzielle Gegenmodell
 

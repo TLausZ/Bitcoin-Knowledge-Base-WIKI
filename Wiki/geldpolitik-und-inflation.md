@@ -1,8 +1,8 @@
 # Geldpolitik und Inflation: Das 2%-Paradigma
 
 **Status:** established
-**Last updated:** 2026-06-23
-**Sources:** [[aprycot-bednarek-paradigmenwechsel-geldpolitik]], [[aprycot-parker-lewis-bitcoin-ist-gesunder-menschenverstand]], [[aprycot-parker-lewis-bitcoin-bringt-das-in-ordnung]], [[aprycot-parker-lewis-enders-game-das-grosse-spiel]], [[aprycot-time-to-challenge-pladoyer-vernunft.md]]
+**Last updated:** 2026-07-07
+**Sources:** [[aprycot-bednarek-paradigmenwechsel-geldpolitik]], [[aprycot-parker-lewis-bitcoin-ist-gesunder-menschenverstand]], [[aprycot-parker-lewis-bitcoin-bringt-das-in-ordnung]], [[aprycot-parker-lewis-enders-game-das-grosse-spiel]], [[aprycot-time-to-challenge-pladoyer-vernunft.md]], [[20221129_bmi-marktupdate-geldmenge-euro-vs-btc-de]]
 
 ## Summary
 
@@ -59,6 +59,12 @@ Die zentralen „Was wäre wenn"-Fragen (Deutschland/Europa-Fokus):
 - Die Eurozone erlaubt Währungsherrschaft durch USD und EUR — externe Sanktionierung und Abschneiden vom Welthandel als Druckmittel.
 
 Fazit: „Das Problem ist unser ungedecktes Papiergeldsystem. Fiat pecunia — es werde Geld. Geldschöpfung auf Knopfdruck." Immobilien, Aktien und Gold sind nicht die Lösung, sondern die notwendige Konsequenz aus kaputtem Geld — Teil der Vermögensillusion, die das Handeln von Politik und Notenbanken bestimmt. Bitcoin ist die eigentliche Alternative. [[aprycot-time-to-challenge-pladoyer-vernunft.md]]
+
+### Momentaufnahme Oktober 2022: EZB vs. Fed vs. Bitcoin (Wüstenfeld)
+
+Jan Wüstenfeld lieferte im November 2022 einen konkreten Vergleich der Geldmengenentwicklung. Der Oktober 2022 war der erste Monat, in dem das Geldmengenwachstum der Eurozone im Monatsvergleich negativ wurde (M2 −0,47 %, M3 −0,45 %), während es beim US-Dollar bereits seit Jahresbeginn schrumpfte. Im Jahresvergleich stand der Euro dennoch schlechter da: M2 +5,2 % und M3 +5,3 % gegenüber M2 +1,3 % beim Dollar — für den Euro mehr als doppelt so hoch. Wüstenfeld stellt dem Bitcoins damalige Emissionsrate von unter 2 % gegenüber, die durch die Halbierung der Blockbelohnung alle 210.000 Blöcke garantiert weiter sinkt (die Neuausgabe pro Block fiel im Frühjahr 2024 von 6,25 auf 3,125 BTC).
+
+Der Kontrast dient ihm als praktisches Argument für das Bednarek-Thema: vorhersehbares, über die Zeit fallendes Geldmengenwachstum gegen ein Fiat-System, dessen Wert von Notenbank-Entscheidungen abhängt. [[20221129_bmi-marktupdate-geldmenge-euro-vs-btc-de]]
 
 ## Related
 

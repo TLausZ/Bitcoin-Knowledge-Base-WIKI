@@ -1,6 +1,6 @@
 # Bitcoin KB — Wiki Index
 
-Alle Artikel alphabetisch. Stand: 2026-07-06 (Compile-Pass: +1 neuer Artikel [bitbox02-features] aus BitBox02-Feature-Highlights-CSV)
+Alle Artikel alphabetisch. Stand: 2026-07-07 (Compile-Pass: +2 neue Artikel [makro-zinskurve-fed-und-rezession], [onchain-indikatoren-und-anlegerverhalten] aus Wüstenfeld/Bitcoin Market Intelligence; 4 Artikel erweitert)
 
 | Artikel | Status | Beschreibung |
 |---------|--------|-------------|
@@ -118,7 +118,9 @@ Alle Artikel alphabetisch. Stand: 2026-07-06 (Compile-Pass: +1 neuer Artikel [bi
 | [[bitblik]] | established | bitblik FAQ (2026): BLIK–Bitcoin Bridge; Lightning Hold-Invoice Escrow; non-custodial P2P; kein KYC; FOSS; kein App Store; ~2 min Settlement; Polen |
 | [[mt-gox]] | established | Kollaps Feb 2014: 850k BTC verschwunden. Transaction-Malleability-Erklärung war Halbwahrheit (~1.811 BTC erklärt). WizSec: Hot-Wallet-Drain seit 2011. Karpelès 2019 auf Bewährung. Gläubiger-Auszahlungen laufen bis Okt 2026. |
 | [[muun-wallet]] | established | Muun (2019–2021): non-custodial Lightning+On-Chain; Emergency Kit (Output Descriptors); Submarine Swaps; LND-basiert; warum Mnemonic allein nicht reicht; Taproot-Upgrade |
+| [[makro-zinskurve-fed-und-rezession]] | emerging | Wüstenfeld (BMI 2022/23): invertierte 10-2-Zinskurve als Rezessionssignal mit langer Fed-Verzögerung (1989: 21 Wo., 2000: 43, 2006: 63–72); Fed-Pivot ≠ sofort bullisch (S&P-1989/2000/2006); Preiserholung Anfang 2023, verfrühte Pivot-Erwartung, Basisszenario später Endzins 5–5,25%. |
 | [[monetaerer-kolonialismus-cfa-franc]] | established | Frankreichs CFA-Franc-Zone (15 Staaten seit 1945): 50% Reservepflicht bei Banque de France, garantierte Konvertibilität, überbewerteter Kurs; Sylla: Milliarden-Werttransfer/Jahr; «ECO»-Umbenennung 2020 kosmetisch; Bitcoin als Ausweg |
+| [[onchain-indikatoren-und-anlegerverhalten]] | emerging | Wüstenfeld (BMI 2023 + SSRN-Paper mit Geldner/Beckmann): Erholung 2023 von Stackern statt neuen Nutzern (Adressen/Tx hoch, Transfervolumen flach, LTH ~67% ATH); Working Paper: Kleinanleger prozyklisch auf Sentiment/Medien, Großanleger schwächer/gegenläufig; Blockchain als Forschungsdatenquelle. |
 | [[lightning-splicing]] | established | Splicing in Lightning: Splice-In/Out; Channel-Kapazität ändern ohne Close; Operational vs. Financial Costs; Vergleich mit Circular Payments und Fee Management; Phoenix-Praxis |
 | [[lightning-rebalancing]] | established | Lightning Rebalancing: Channel-Imbalance durch Routing; 3 Strategien (Circular Payments, Fee Management, Splices); Intermediate vs. Edge Node |
 | [[no-kyc-bitcoin]] | established | P2P-Bitcoin ohne KYC: Risiken von Börsen-KYC (Datenlecks, Blockchain-Überwachung), P2P-Plattformen (PeachBitcoin, RoboSats, Bisq, HodlHodl), Passphrase-Trennung KYC/No-KYC, Labeling |
@@ -206,7 +208,7 @@ Alle Artikel alphabetisch. Stand: 2026-07-06 (Compile-Pass: +1 neuer Artikel [bi
 | [[bitcoin-und-spiritualitaet]] | emerging | Community-Phänomen dokumentiert (DACH 2025/26): Tolle-Rezeption als First-Principles-Denken, Benners Frequenz-These, Deus-ex-machina-Motiv, Zitadellen-Synchronizität, Sein vs. Tun. Als Adoptionsmotiv ernst genommen, als Erkenntnisanspruch nicht prüfbar. |
 | [[nostr-protokoll]] | established | Wankum TBN #2/#14/#26: Protokoll statt Plattform. Kryptografische Identität (Key-Pair), keine Account-Sperre möglich. Cashu-Integration für Micropayments. Nostr + Bitcoin = freie Kommunikation + freies Geld. Innovation ohne institutionellen Kredit. |
 
-*143 Artikel, basierend auf 538 RAW-Quellen (inkl. 6 EPUBs aus Svanholm/Steiner/Rosenbaum und 51 Heart-Money-Newslettern).*
+*145 Artikel, basierend auf RAW-Quellen (inkl. 6 EPUBs aus Svanholm/Steiner/Rosenbaum, 51 Heart-Money-Newslettern und Wüstenfelds Bitcoin Market Intelligence).*
 
 ## Bitcoin Improvement Proposals (BIPs)
 

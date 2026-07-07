@@ -1,8 +1,8 @@
 # Selbstverwahrung und Börsenrisiken
 
 **Status:** established
-**Last updated:** 2026-06-22
-**Sources:** [[20230103_wir-feiern-proof-of-keys-de]], [[aprycot-seedor-bitcoin-ist-sicher]], [[aprycot-21bitcoin-custody-einfach-erklaert]], [[20230118_die-bitbox01-ist-am-ende-ihrer-reise-de]], [[20220822_warum-bitcoin-eigenes-wallet-halten-de]], [[20220103_proof-of-keys-bitcoin-de]], [[20210622_warum-bitcoin-nicht-auf-boersen-aufbewahren-de]], [[2025-10-03_Blocktrainer-Bitcoin sicher aufbewahren 2025_ Selbstverwahrung, Wallet und Co.]], [[2025-05-14_Blocktrainer-Bitcoin_ 5 Anfängerfehler, die teuer werden können]], [[Bitcoin ist die Wiederentdeckung des Geldes.md]], [[Die andere Seite der Medaille.md]], [[bitcoin-ratgeber_kapitel-02-sei-deine-eigene-bank]]
+**Last updated:** 2026-07-07
+**Sources:** [[20230103_wir-feiern-proof-of-keys-de]], [[aprycot-seedor-bitcoin-ist-sicher]], [[aprycot-21bitcoin-custody-einfach-erklaert]], [[20230118_die-bitbox01-ist-am-ende-ihrer-reise-de]], [[20220822_warum-bitcoin-eigenes-wallet-halten-de]], [[20220103_proof-of-keys-bitcoin-de]], [[20210622_warum-bitcoin-nicht-auf-boersen-aufbewahren-de]], [[2025-10-03_Blocktrainer-Bitcoin sicher aufbewahren 2025_ Selbstverwahrung, Wallet und Co.]], [[2025-05-14_Blocktrainer-Bitcoin_ 5 Anfängerfehler, die teuer werden können]], [[Bitcoin ist die Wiederentdeckung des Geldes.md]], [[Die andere Seite der Medaille.md]], [[bitcoin-ratgeber_kapitel-02-sei-deine-eigene-bank]], [[20221115_bmi-ftx-bankrott-de]]
 
 ## Summary
 
@@ -43,6 +43,14 @@ Der Proof-of-Keys Day am **3. Januar** (Jahrestag des ersten Bitcoin-Blocks, des
 
 1. **Persönlich:** Man bestätigt, dass man noch Zugang zu seinen Coins hat und versteht, wie Selbstverwahrung funktioniert.
 2. **Systemisch:** Koordinierte Abhebungen legen solvent erscheinende, aber tatsächlich unterdeckte Börsen offen.
+
+### FTX in Echtzeit: Börsenabflüsse und Proof-of-Reserves-Welle (Wüstenfeld, Nov 2022)
+
+Jan Wüstenfeld dokumentierte in seinem Newsletter unmittelbar nach dem FTX-Kollaps, wie sich das Ereignis on-chain niederschlug. Die realisierten Nettoverluste erreichten am 9. November 2022 rund 1,9 Milliarden Dollar — beträchtlich, aber unter den Werten des LUNA-Crashs (≈2,5 Mrd. am 9. und 11. Mai) und des Celsius-Ereignisses (4,2 Mrd. am 13. Juni). Der Anteil der seit mehr als sechs Monaten unbewegten Bitcoin fiel nur leicht von 81 % auf 79 %; der Bestand, der länger als ein Jahr ruhte, nahm sogar zu. Langfristige Halter saßen die Turbulenzen also aus.
+
+Die für dieses Thema zentrale Beobachtung: Seit Beginn des FTX-Crashs verließen mehr als 200.000 Bitcoin die Börsen — möglicherweise einer der größten wöchentlichen Nettoabflüsse der Bitcoin-Geschichte. Wüstenfeld deutet das als praktische Lektion von «Not your keys, not your coins»: Wer Coins auf einer Börse hält, erfährt erst bei deren Implosion, ob die Bitcoin überhaupt existierten. Zugleich blieben laut seiner Analyse über 2 Millionen Bitcoin auf Börsen liegen.
+
+Als Nebeneffekt kündigten nach dem Disaster mehr Börsen Proof-of-Reserves an. Kraken praktizierte das bereits länger; Huobi, Binance, Crypto.com, Deribit, Kucoin und Okx zogen mit Ankündigungen nach. Wüstenfelds Einordnung: kein Ersatz für Selbstverwahrung, aber ein Anfang, um die Widerstandsfähigkeit des Ökosystems zu verbessern — und ein direkter Bezug zur offenen Frage weiter unten, wie sich Börsensolvenz überhaupt prüfen lässt. [[20221115_bmi-ftx-bankrott-de]]
 
 ### Bitcoin als erlaubnisfreies System
 
