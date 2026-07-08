@@ -1,9 +1,10 @@
 # Bitcoin KB — Wiki Index
 
-Alle Artikel alphabetisch. Stand: 2026-07-08 (Compile-Pass: fortego-backup-sicherheit um Steelwallet-Entsorgung erweitert)
+Alle Artikel alphabetisch. Stand: 2026-07-08 (Compile-Pass 77: Wüstenfelds BBR-Newsletter, 23 Ausgaben #0–#22 ingested, +1 neuer Hub-Artikel [bitcoin-akademische-forschung-bbr], mining-narrativ-und-kritik erweitert. Pass 76: englisches Wüstenfeld-Archiv. Pass 74: +2 Artikel [makro-zinskurve-fed-und-rezession], [onchain-indikatoren-und-anlegerverhalten])
 
 | Artikel | Status | Beschreibung |
 |---------|--------|-------------|
+| [[bitcoin-akademische-forschung-bbr]] | established | Wüstenfelds «Bits of Bitcoin Research»-Newsletter (23 Ausgaben #0–#22, 2025): >40 Studien in fünf Feldern — Safe Haven/Portfolio (Marinescu 5,47%→30,35% bei hoher EPU), Mining/Energie (Cambridge 52,4% nachhaltig, Curtailment, MARA/Afrika), Adoption/Marktstruktur (EZB, ETF-Stabilisierung, MSTR), Zentralbankreserven (Kwasniewski & Baur), Humanitäres (DARI-Refugees, Gladstein Freedom Money). Register-Hub mit deklariertem Pro-Bitcoin-Bias. |
 | [[bitcoin-adoptionsstudie-2026-dach]] | established | Rochel/Oberwasser 2026: n=35 DACH-Tiefen-Interviews, 6 Käufersegmente, 5 Mismatch-Heuristiken, Jobs-to-be-Done-Methodik. Kernbefund: Scheitern an Angebots-Job-Mismatch, nicht an Technologie. Pull-Mechaniken, Anti-Befunde, Champion-Triade für institutionelle Adoption. |
 | [[bitcoin-adoption-reise]] | established | Gigi: 6-Schritte-Modell (kaufen → … → Fiat fallen lassen); El Salvador; Fallbeispiel Szabelski. Neu: Fallbeispiel Nowak (Data Analystin → Bitcoin-Bildung, Gründungszuschuss, soziale Kosten) und Schritt 4 im DACH-Alltag (Bitrefill, Spar Schweiz/Lightning, V4V-Kreislauf). |
 | [[bitcoin-als-basisgeld]] | established | Parker Lewis GTS: Wirtschaftliche Ungleichheit hat monetäre Ursache (Cantillon). Keine politische Lösung für ökonomisches Problem. Bitcoin repariert das Fundament — parteiübergreifend. Maxwell: Cantillon'sche Oligarchie, Petrodollar, MMT, die politische Linke und Bitcoin. |
@@ -208,7 +209,7 @@ Alle Artikel alphabetisch. Stand: 2026-07-08 (Compile-Pass: fortego-backup-siche
 | [[bitcoin-und-spiritualitaet]] | emerging | Community-Phänomen dokumentiert (DACH 2025/26): Tolle-Rezeption als First-Principles-Denken, Benners Frequenz-These, Deus-ex-machina-Motiv, Zitadellen-Synchronizität, Sein vs. Tun. Als Adoptionsmotiv ernst genommen, als Erkenntnisanspruch nicht prüfbar. |
 | [[nostr-protokoll]] | established | Wankum TBN #2/#14/#26: Protokoll statt Plattform. Kryptografische Identität (Key-Pair), keine Account-Sperre möglich. Cashu-Integration für Micropayments. Nostr + Bitcoin = freie Kommunikation + freies Geld. Innovation ohne institutionellen Kredit. |
 
-*145 Artikel, basierend auf RAW-Quellen (inkl. 6 EPUBs aus Svanholm/Steiner/Rosenbaum, 51 Heart-Money-Newslettern und Wüstenfelds Bitcoin Market Intelligence).*
+*146 Artikel, basierend auf RAW-Quellen (inkl. 6 EPUBs aus Svanholm/Steiner/Rosenbaum, 51 Heart-Money-Newslettern sowie Wüstenfelds Bitcoin Market Intelligence und Bits of Bitcoin Research).*
 
 ## Bitcoin Improvement Proposals (BIPs)
 

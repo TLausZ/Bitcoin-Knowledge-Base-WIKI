@@ -1,8 +1,8 @@
 # Bitcoin-Volatilität und Preisfindung
 
 **Status:** established
-**Last updated:** 2026-07-04
-**Sources:** [[aprycot-parker-lewis-bitcoin-nicht-zu-volatil]], [[20251005_heartmoney-das-leiseste-allzeithoch-ever]], [[20251221_heartmoney-kein-uptober-kein-moonvember-und-jetzt]], [[20260111_heartmoney-bitcoin-top-preis-flop]], [[20260208_heartmoney-bitcoin-im-nebel-siehst-du-klar]], [[20260405_heartmoney-die-passion-des-satoshi]], [[20251116_heartmoney-wenn-der-hype-einfach-nicht-kommen-will]]
+**Last updated:** 2026-07-07
+**Sources:** [[aprycot-parker-lewis-bitcoin-nicht-zu-volatil]], [[20251005_heartmoney-das-leiseste-allzeithoch-ever]], [[20251221_heartmoney-kein-uptober-kein-moonvember-und-jetzt]], [[20260111_heartmoney-bitcoin-top-preis-flop]], [[20260208_heartmoney-bitcoin-im-nebel-siehst-du-klar]], [[20260405_heartmoney-die-passion-des-satoshi]], [[20251116_heartmoney-wenn-der-hype-einfach-nicht-kommen-will]], [[20240710_bmi-did-germany-cause-correction-en]]
 
 ## Summary
 
@@ -69,6 +69,14 @@ Der Zyklus 2024–2026 lieferte einen dokumentierten Gegenfall zu den bisherigen
 - **Mai/Juni 2026:** Erholung über 82.000 USD, Kurs am unteren Power-Law-Band (siehe [[bitcoin-powerlaw-und-preismodelle]]); Google-Trends für «Bitcoin» in Deutschland auf Jahrestief, Retail-Interesse weiterhin abwesend.
 
 Beobachtbare Verhaltenseffekte: Bitcoin-Neulinge pausierten Sparpläne, in der Community kursierten wieder Zweifel bis hin zu Verschwörungsdeutungen, und Kritiker nutzten die Schwächephase («dunkle Gefühlsregungen entladen sich am geschwächten Organismus»). Zugleich bestätigt der Verlauf Lewis' Wellenmodell: kein struktureller Bruch der Nachfragebasis, sondern eine Bereinigungsphase mit deutlich höheren Tiefpunkten als im Vorzyklus. [[20251005_heartmoney-das-leiseste-allzeithoch-ever]], [[20251221_heartmoney-kein-uptober-kein-moonvember-und-jetzt]], [[20260208_heartmoney-bitcoin-im-nebel-siehst-du-klar]], [[20260405_heartmoney-die-passion-des-satoshi]]
+
+### Fallstudie: Verkaufte der deutsche Staat den Preis? (2024)
+
+Ein konkreter Test der These «Narrative treiben den Preis, nicht Angebotsschocks» lieferte der Sommer 2024. Der Freistaat Sachsen begann ab dem 19. Juni, knapp 50.000 vom BKA beschlagnahmte Bitcoin (Movie2k-Verfahren, damals ~2,12 Mrd. USD) zu verkaufen; parallel fiel der Kurs um etwa 11 %. Jan Wüstenfeld prüfte, ob der Verkauf die direkte Ursache war, und kam zu einem klaren Nein.
+
+Seine Belege: Die Drawdowns konzentrierten sich auf US- und zuletzt Asien-Handelszeiten, nicht auf europäische Bürozeiten, in denen deutsche Behörden verkaufen würden. Die Wallet-Flow-Daten zeigten Abflüsse tagsüber und Rückflüsse abends (18–20 Uhr UTC) — offenbar tagsüber gesetzte Limit-Orders, deren unausgeführter Rest abends zurück in die Wallets ging, um über Nacht nichts auf Börsen zu lassen («Not your keys, not your coins» sogar hier). Und im Verhältnis zur Marktliquidität waren die Mengen klein: Selbst ein Tag mit 740 Mio. USD Abfluss (~12.360 BTC) ist gering gegenüber realen Handelsvolumina von 10–35 Mrd. USD.
+
+Wüstenfelds Schluss stützt das Preisfindungsbild dieses Artikels: Nicht der mechanische Angebotsschock bewegte den Kurs, sondern die Narrative rundherum — der Deutschland-Verkauf plus die Ankündigung der Mt.-Gox-Gläubigerauszahlungen. Ein liquider Markt verarbeitet selbst einen 50.000-BTC-Verkauf ohne den Effekt, den die Schlagzeilen suggerierten. [[20240710_bmi-did-germany-cause-correction-en]]
 
 ### Die These «Der Preis ist wichtig»
 

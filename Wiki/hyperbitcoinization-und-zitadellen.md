@@ -1,8 +1,8 @@
 # Hyperbitcoinization und Zitadellen
 
 **Status:** emerging
-**Last updated:** 2026-06-30
-**Sources:** [[aprycot-warren-zeitreisender-zukunft]], [[The Path to Hyberbitcoinization]], [[The Path to Hyperbitcoinization]]
+**Last updated:** 2026-07-07
+**Sources:** [[aprycot-warren-zeitreisender-zukunft]], [[The Path to Hyberbitcoinization]], [[The Path to Hyperbitcoinization]], [[20240722_bmi-bitcoin-nation-sound-money-democracy-en]]
 
 ## Summary
 
@@ -43,6 +43,12 @@ Der Wert von Warrens Text liegt weniger in der Prognose als im Denkmuster: Was p
 Das Denkmuster hat eine Entsprechung in Gigis Arbeit: Bitcoin verändert die Beziehung zwischen Individuum, Gemeinschaft und Staat fundamental — aber nur, wenn Selbstsouveränität praktiziert wird. Wer die privaten Schlüssel hält, kann nicht enteignet werden. Wer auf einer Börse hält, ist Teil des alten Systems. [[bitcoin-und-selbstverantwortung]]
 
 Hyperbitcoinization als Konzept beschreibt den Punkt, an dem Bitcoin das dominante Wertaufbewahrungsmittel wird und andere Güter gegen Bitcoin bewertet werden — statt umgekehrt. [[bitcoin-geld-als-fiktion-und-paradigmenwechsel]]
+
+### Bitcoin Nations: Governance als wählbarer Dienst (Fischer)
+
+Michael Anton Fischers Buch «Bitcoin Nations: The Future of Governance in the Digital Age» liefert eine zweite, unabhängig entstandene Zukunftsvision, die Jan Wüstenfeld 2024 vorstellt (und deren Lektorat er offenlegt). Der erste Buchteil legt die ökonomische Grundlage (Geld, Sound Money), der zweite entwirft die Governance-These: Der Staat soll sein territoriales Monopol verlieren, sodass Menschen ihren Governance-Anbieter wählen können wie einen Internetprovider. Der eingeführte Wettbewerb soll Staatsführung verbessern, wo klassische Demokratien aus Fischers Sicht zu starr sind, um mit technologischem Wandel Schritt zu halten.
+
+Die Parallele zum Zitadellen-Denken ist deutlich: Fischer beruft sich auf historische Präzedenzfälle nicht-territorialer Ordnung (etwa die jüdische Diaspora) und skizziert digitale Staatsbürgerschaft — inklusive digital übertragbarer Eigentums- und Bürgerrechte —, die geopolitische Spannungen entschärfen soll. In seinem Fluchtpunkt (Jahr 2140) wäre die «Bitcoin Nation» kein Superstaat, sondern ein dezentraler Anbieter von Grundrechten und diplomatischen Diensten. Das ergänzt Warrens Typologie um ein konkretes Modell für Zitadellen des Typs «souverän» und teilt dieselbe Grundannahme: Wenn staatliche Institutionen an Anpassungsfähigkeit verlieren, entstehen wählbare Parallelstrukturen. Wie bei Warren gilt der Vorbehalt — es ist ein Zukunftsentwurf, kein Befund. [[20240722_bmi-bitcoin-nation-sound-money-democracy-en]]
 
 ## Related
 

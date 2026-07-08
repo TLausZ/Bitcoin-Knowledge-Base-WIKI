@@ -1,8 +1,8 @@
 # Bitcoin Mining und Proof of Work
 
 **Status:** established
-**Last updated:** 2026-06-22
-**Sources:** [[aprycot-nguyen-pos-falsche-denkweise]], [[aprycot-nguyen-pos-private-schluessel-faelschungssicher]], [[20250327_wie-funktioniert-bitcoin-mining-eigentlich]], [[20260424_wie-das-21-millionen-limit-von-bitcoin-tatsächlich-durchgesetzt-wird]], [[learnmeabitcoin-beginners-guide-mining]], [[learnmeabitcoin-beginners-guide-difficulty]], [[learnmeabitcoin-technical-mining-overview]], [[learnmeabitcoin-technical-mining-candidate-block]], [[learnmeabitcoin-technical-mining-target]], [[learnmeabitcoin-technical-mining-coinbase-transaction]], [[learnmeabitcoin-technical-mining-block-reward]], [[learnmeabitcoin-technical-mining-memory-pool]], [[On the Instability of Bitcoin Without the Block Reward]], [[20240924_Economic Limits Crypto Blockchains - QJE Sept 2024]]
+**Last updated:** 2026-07-07
+**Sources:** [[aprycot-nguyen-pos-falsche-denkweise]], [[aprycot-nguyen-pos-private-schluessel-faelschungssicher]], [[20250327_wie-funktioniert-bitcoin-mining-eigentlich]], [[20260424_wie-das-21-millionen-limit-von-bitcoin-tatsächlich-durchgesetzt-wird]], [[learnmeabitcoin-beginners-guide-mining]], [[learnmeabitcoin-beginners-guide-difficulty]], [[learnmeabitcoin-technical-mining-overview]], [[learnmeabitcoin-technical-mining-candidate-block]], [[learnmeabitcoin-technical-mining-target]], [[learnmeabitcoin-technical-mining-coinbase-transaction]], [[learnmeabitcoin-technical-mining-block-reward]], [[learnmeabitcoin-technical-mining-memory-pool]], [[On the Instability of Bitcoin Without the Block Reward]], [[20240924_Economic Limits Crypto Blockchains - QJE Sept 2024]], [[20240801_bmi-what-is-bitcoin-mining-en]]
 
 ## Summary
 
@@ -39,6 +39,8 @@ Bitcoin-Mining ist kein "Lösen komplexer mathematischer Rätsel". Es ist ein W�
 - **Riesiger Wertebereich:** 2^256 mögliche Ergebnisse — mehr als Atome im Universum
 
 Der Zielwert bestimmt den Schwierigkeitsgrad: Niedriger Zielwert → sehr wenige gültige Hashes → schwieriger; hoher Zielwert → mehr gültige Hashes → leichter.
+
+Jan Wüstenfeld nutzt in seinem Melanion-GreenTech-Erklärstück dasselbe Bild und macht die Rückführung auf den Doppelspend als eigentlichen Zweck explizit: Vor Bitcoin brauchte digitaler Wertetransfer zwingend eine zentrale Instanz (Bank, PayPal, Visa), um Eigentum zu bestätigen und Doppelausgaben zu verhindern. Satoshis Kombination aus Blockchain und Proof-of-Work ersetzt genau dieses Vertrauen. Sein Beispiel demonstriert die Hash-Sensitivität konkret: «Melanion GreenTech» ergibt einen bestimmten SHA-256-Hash, «melanion GreenTech» einen völlig anderen — die minimale Änderung macht jede nachträgliche Blockmanipulation für alle sofort prüfbar. [[20240801_bmi-what-is-bitcoin-mining-en]]
 
 ### Was Miner konkret tun
 

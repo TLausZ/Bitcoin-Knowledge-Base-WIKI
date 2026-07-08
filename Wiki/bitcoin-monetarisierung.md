@@ -2,7 +2,7 @@
 
 **Status:** established
 **Last updated:** 2026-07-07
-**Sources:** [[aprycot-das-bullische-argument-fuer-bitcoin]], [[Das bullische Argument für Bitcoin]], [[The Bullish Case for Bitcoin]], [[aprycot-jeder-ist-ein-scammer]], [[aprycot-parker-lewis-bitcoin-macht-anderes-geld-ueberfluessig]], [[aprycot-parker-lewis-gradually-then-suddenly.md]], [[aprycot-malki-bitcoin-weltreservewaehrung]], [[20260201_heartmoney-zwischen-goldrausch-und-zuversicht]], [[20250713_heartmoney-gehorsam-oder-bitcoin]], [[20260111_heartmoney-bitcoin-top-preis-flop]], [[20240301_bmi-ist-bitcoin-bessere-alternative-gold-de]]
+**Sources:** [[aprycot-das-bullische-argument-fuer-bitcoin]], [[Das bullische Argument für Bitcoin]], [[The Bullish Case for Bitcoin]], [[aprycot-jeder-ist-ein-scammer]], [[aprycot-parker-lewis-bitcoin-macht-anderes-geld-ueberfluessig]], [[aprycot-parker-lewis-gradually-then-suddenly.md]], [[aprycot-malki-bitcoin-weltreservewaehrung]], [[20260201_heartmoney-zwischen-goldrausch-und-zuversicht]], [[20250713_heartmoney-gehorsam-oder-bitcoin]], [[20260111_heartmoney-bitcoin-top-preis-flop]], [[20240301_bmi-ist-bitcoin-bessere-alternative-gold-de]], [[20240301_bmi-is-bitcoin-superior-alternative-gold-en]]
 
 ## Summary
 
