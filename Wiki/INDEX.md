@@ -1,6 +1,6 @@
 # Bitcoin KB — Wiki Index
 
-Alle Artikel alphabetisch. Stand: 2026-07-08 (Compile-Pass 77: Wüstenfelds BBR-Newsletter, 23 Ausgaben #0–#22 ingested, +1 neuer Hub-Artikel [bitcoin-akademische-forschung-bbr], mining-narrativ-und-kritik erweitert. Pass 76: englisches Wüstenfeld-Archiv. Pass 74: +2 Artikel [makro-zinskurve-fed-und-rezession], [onchain-indikatoren-und-anlegerverhalten])
+Alle Artikel alphabetisch. Stand: 2026-07-10 (Compile-Pass 78: +1 neuer Artikel [crypto-adaption-europa-bsd-2026] aus Boerse-Stuttgart-Digital-Marktstudie. Pass 77: Wüstenfelds BBR-Newsletter (23 Ausgaben) + Hub [bitcoin-akademische-forschung-bbr]. Pass 76: englisches Wüstenfeld-Archiv. Pass 74: +2 Artikel [makro-zinskurve-fed-und-rezession], [onchain-indikatoren-und-anlegerverhalten])
 
 | Artikel | Status | Beschreibung |
 |---------|--------|-------------|
@@ -96,6 +96,7 @@ Alle Artikel alphabetisch. Stand: 2026-07-08 (Compile-Pass 77: Wüstenfelds BBR-
 | [[coin-control-und-utxo-auswahl]] | established | Manuelle UTXO-Auswahl als Datenschutzwerkzeug; Common Input Ownership Heuristic; CoinJoin-Vorbereitung; Umsetzung in Sparrow, Electrum, BitBoxApp |
 | [[coinjoin-und-on-chain-privatsphaere]] | established | CoinJoin: gleiche Output-Beträge machen Transaktionen unzuordenbar; Samourai/Wasabi-Situation 2024 |
 | [[cypherpunk-manifest]] | established | Eric Hughes (1993): Privatsphäre als Grundrecht im digitalen Raum; Kryptographie als einziges wirksames Werkzeug; "Cypherpunks write code"; Vorläufer von Bitcoin |
+| [[crypto-adaption-europa-bsd-2026]] | established | Boerse Stuttgart Digital, European Crypto Compass 2026 (6.051 Interviews DE/IT/FR/ES): 25% investiert, 36% planen; Wissenslücke (65% finanz- vs. 30% kryptoinformiert); Hausbank-Vertrauen >2x vs. Krypto-Plattformen, 35% wechselbereit; MiCAR stärkt Vertrauen; Hürden Betrug/Regulierung/Komplexität; Länderprofile (ES dynamisch, DE finanzkompetent/skeptisch, FR bankgebunden, IT wissensnachfragend). Krypto-breit, Auftragsforschung. |
 | [[crypto-assets-study-ifz-2021-2025]] | established | IFZ-Studienserie 2021–2025 zum CH/FL-Anbieter-Ökosystem: Marktzyklus in Handelsvolumen (92.6 Mrd. → 16.2 Mrd. → Erholung), Firmenwachstum bis 407 (2025), AuM 15 Mrd. CHF; konstant: B2B-Fokus trotz Bottom-up-Adoption, kleine BTC-Beimischung verbessert Sharpe Ratio |
 | [[kryptoanlagen-schweiz-hslu-2026]] | established | HSLU/IFZ-Studie 2026 (n=1'772): 18% der Schweizer halten Kryptoanlagen (+140'000/Jahr); Erfahrung stärkster Treiber künftiger Investitionen; Bankvertrauen schlägt Preis; prozyklischer Einstieg mit Survivorship Bias; 15% Interesse an Bank-Kryptoberatung |
 | [[kryptoanarchismus-und-cypherpunks]] | established | Cypherpunk-Bewegung 1986–2022: Hacker-Ethik, Timothy Mays Kryptoanarchismus, Barlow-Deklaration, PGP, Krypto-Kriege; direkte Vorgeschichte von Bitcoin |
@@ -209,7 +210,7 @@ Alle Artikel alphabetisch. Stand: 2026-07-08 (Compile-Pass 77: Wüstenfelds BBR-
 | [[bitcoin-und-spiritualitaet]] | emerging | Community-Phänomen dokumentiert (DACH 2025/26): Tolle-Rezeption als First-Principles-Denken, Benners Frequenz-These, Deus-ex-machina-Motiv, Zitadellen-Synchronizität, Sein vs. Tun. Als Adoptionsmotiv ernst genommen, als Erkenntnisanspruch nicht prüfbar. |
 | [[nostr-protokoll]] | established | Wankum TBN #2/#14/#26: Protokoll statt Plattform. Kryptografische Identität (Key-Pair), keine Account-Sperre möglich. Cashu-Integration für Micropayments. Nostr + Bitcoin = freie Kommunikation + freies Geld. Innovation ohne institutionellen Kredit. |
 
-*146 Artikel, basierend auf RAW-Quellen (inkl. 6 EPUBs aus Svanholm/Steiner/Rosenbaum, 51 Heart-Money-Newslettern sowie Wüstenfelds Bitcoin Market Intelligence und Bits of Bitcoin Research).*
+*147 Artikel, basierend auf RAW-Quellen (inkl. 6 EPUBs aus Svanholm/Steiner/Rosenbaum, 51 Heart-Money-Newslettern sowie Wüstenfelds Bitcoin Market Intelligence und Bits of Bitcoin Research).*
 
 ## Bitcoin Improvement Proposals (BIPs)
 
