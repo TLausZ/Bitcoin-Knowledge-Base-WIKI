@@ -4,6 +4,8 @@ Interaktive 3D-Konturkarten der Wiki-Artikel. Jeder Artikel ist ein Hügel;
 die Höhe entspricht seinem Gewicht aus `tools/rank_articles.py`
 (0.7 · PageRank im Backlink-Graph + 0.3 · log-normierte RAW-Quellenzahl).
 
+![Gesamtkarte des Bitcoin-Wikis](wiki-map-screenshot.png)
+
 Alles sind einzelne HTML-Dateien ohne Abhängigkeiten — Doppelklick genügt.
 Rendering: Canvas 2D mit eigener orthografischer Projektion und
 Marching-Squares-Konturen, kein WebGL.
@@ -12,13 +14,42 @@ Marching-Squares-Konturen, kein WebGL.
 
 | Datei | Inhalt |
 |---|---|
-| `wiki-map-full.html` | Gesamtkarte: alle Artikel (Stand 2026-07-11: 410), Positionen force-directed aus dem Backlink-Graphen — verlinkte Artikel liegen beieinander, thematische Cluster werden zu Gebirgszügen. Linkes Panel mit sortierbarer Artikelliste (Gewicht ↓/↑, A–Z/Z–A); der Hintergrundbalken jeder Zeile zeigt das Gewicht. Hover in der Liste markiert den Hügel auf der Karte, Klick hält die Markierung fest; Hover auf der Karte zeigt jeden Titel. Top 22 dauerhaft beschriftet. |
+| `wiki-map-full.html` | Gesamtkarte: alle Artikel (Stand 2026-07-11: 410), Positionen force-directed aus dem Backlink-Graphen — verlinkte Artikel liegen beieinander, thematische Cluster werden zu Gebirgszügen. |
 | `wiki-topographie.html` | Kompakte Karte der Top-14-Artikel, jeder Gipfel beschriftet. |
 | `kontur-demo.html` | Ursprünglicher Prototyp mit Zufallsterrain. Leertaste würfelt neu. |
+| `wiki-map-screenshot.png` | Screenshot der Gesamtkarte für diese README. |
 
-Bedienung überall gleich: ziehen dreht und kippt, Scrollrad zoomt.
-Alle Linien sind durchsichtig gezeichnet (kein Verdecken), und jede Kontur
-wirft einen flachen Schatten auf die Bodenebene.
+## Bedienung der Gesamtkarte
+
+| Eingabe | Wirkung |
+|---|---|
+| Ziehen mit der Maus | dreht (horizontal) und kippt (vertikal) |
+| Scrollrad | Zoom, Faktor 0.4 bis 8 |
+| `W` `A` `S` `D` | verschiebt den Kartenausschnitt (flüssig, Tasten kombinierbar) |
+| `R` | setzt Drehung, Kippwinkel, Zoom und Verschiebung zurück |
+| Klick auf ein Label (Karte oder Liste) | wählt den Artikel aus, nochmal klicken wählt ab |
+
+Das Gelände ist ein fester Körper: pro Höhenstufe werden Wand und Deckel
+deckend gefüllt, rückseitige Linien verschwinden dahinter wie bei einem
+Stufenmodell. Der Schatten auf der Bodenebene bleibt nur am vorderen Rand
+sichtbar.
+
+### Labels und Auswahl
+
+Beschriftet sind immer die gewichtigsten Artikel im sichtbaren Ausschnitt
+(`LABEL_TOP`, aktuell 21 — wie die 21 Millionen). Beim Hineinzoomen wächst
+das Label-Budget quadratisch mit, bei Maximal-Zoom sind alle sichtbaren
+Artikel beschriftet. Gipfel, die hinter Bergen liegen, bekommen kein Label
+(Sehstrahl-Test gegen das Höhenfeld).
+
+Das linke Panel listet alle Artikel, sortierbar nach Gewicht ↓/↑ oder
+A–Z/Z–A; der Hintergrundbalken jeder Zeile zeigt das Gewicht. Hover in der
+Liste oder auf einem Karten-Label hebt den Hügel hervor. Bei Auswahl
+erscheint oben im Kartenbereich Name und GitHub-URL des Artikels; die URL
+öffnet die Wiki-Seite in einem neuen Fenster. Die Basis-URL steckt als
+Konstante `WIKI_URL` im HTML und als `url`-Spalte in `Outputs/ranking.csv`.
+
+## Determinismus
 
 Beide Wiki-Karten sind deterministisch: Terrain-Rauschen und Layout laufen
 mit festem Seed, dieselben Daten ergeben also bei jedem Laden exakt
@@ -45,9 +76,20 @@ aus den Daten erzeugt und müssen nicht gepflegt werden.
 Goldener-Winkel-Spirale nach Ranking; ihre `PEAKS`-Liste wird nicht von
 `layout_map.py` aktualisiert.
 
+Screenshot neu erzeugen (headless Chrome, aus diesem Ordner):
+
+```
+"/Applications/Google Chrome.app/Contents/MacOS/Google Chrome" \
+  --headless=new --disable-gpu --hide-scrollbars \
+  --screenshot=wiki-map-screenshot.png --window-size=1600,1000 \
+  --virtual-time-budget=4000 "file://$(pwd)/wiki-map-full.html"
+```
+
 ## Stellschrauben (im Quelltext)
 
 - `SIG` / `SKIRT` — Breite von Gipfel und Sockel; SKIRT verbindet Nachbarhügel zu Graten
 - `waves`-Schleife — Anzahl und Amplitude der Rausch-Oktaven (Zackigkeit der Linien)
 - `L` — Anzahl Höhenlinien
-- `LABEL_TOP` — wie viele Artikel dauerhaft beschriftet werden (nur Gesamtkarte)
+- `LABEL_TOP` — Label-Budget in der Startansicht (nur Gesamtkarte)
+- `ZOOM0` — Zoom beim Laden und nach `R`
+- `WIKI_URL` — Basis-URL für die Artikel-Links
