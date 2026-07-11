@@ -63,6 +63,24 @@ Satoshi Nakamoto kodierte das Limit — und damit die Lösung — direkt in den 
 
 Das 21-Millionen-Limit macht Bitcoin auch zensurresistent: Wer eigene Keys hält und Bitcoin direkt sendet, braucht keine Bank als Mittler. Das Netz hat keinen Schalter, den eine Behörde umlegen könnte — anders als Bankkonten, die eingefroren werden können.
 
+### Satoshi über Knappheit und Deflation
+
+Nakamoto stellte das feste Angebot ausdrücklich gegen das Gelddrucken. Verlorene Coins behandelte er als Umverteilung zugunsten aller anderen Halter:
+
+> Those coins can never be recovered, and the total circulation is less. Since the effective circulation is reduced, all the remaining coins are worth slightly more. It's the opposite of when a government prints money and the value of existing money goes down.
+
+([BitcoinTalk, 10.12.2009](https://satoshi.nakamotoinstitute.org/posts/bitcointalk/17/); Sammlung: [[the-quotable-satoshi]])
+
+Kürzer, ein halbes Jahr später: «Lost coins only make everyone else's coins worth slightly more. Think of it as a donation to everyone.» ([21.06.2010](https://satoshi.nakamotoinstitute.org/posts/bitcointalk/131/))
+
+Das Angebotsmodell verglich er mit einem Edelmetall, dessen Menge feststeht und dessen Wert sich bewegt:
+
+> Instead of the supply changing to keep the value the same, the supply is predetermined and the value changes. As the number of users grows, the value per coin increases. It has the potential for a positive feedback loop.
+
+([P2P Foundation, 18.02.2009](https://satoshi.nakamotoinstitute.org/posts/p2pfoundation/3/))
+
+Zur Teilbarkeit bei künftiger Deflation verwies er auf die acht internen Nachkommastellen: 21 Millionen Coins bei damals 6,8 Milliarden Menschen, intern aber `1.00000000` statt `1.00`, mit der Option, mehr Stellen anzuzeigen, «if there's massive deflation in the future». ([06.02.2010](https://satoshi.nakamotoinstitute.org/posts/bitcointalk/46/)) Ganze Sammlung in [[satoshi-zitate]].
+
 ### „21 Millionen: nie mehr" — Node als Verifikationsinstanz
 
 Gigi präzisiert: Das 21-Millionen-Limit gilt nur dann für einen Nutzer, wenn er einen eigenen Full Node betreibt. Ein Full Node ist die rechnerische Seite der Medaille — er prüft nicht nur Transaktionen, sondern auch, ob die Geldmenge den Konsensregeln entspricht. Wer keinen eigenen Node betreibt, verlässt sich auf die Ehrlichkeit eines fremden Nodes für die wichtigste Eigenschaft von Bitcoin.
@@ -102,6 +120,7 @@ Eine Feinheit am Rande: Streng genommen waren zu diesem Zeitpunkt keine vollen 2
 ## Related
 
 - [[bitcoin-mining-und-proof-of-work]]
+- [[satoshi-zitate]]
 - [[konsensregeln-und-mempool-richtlinien]]
 - [[selbstverwahrung-und-boersenrisiken]]
 

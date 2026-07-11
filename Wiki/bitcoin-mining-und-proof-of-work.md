@@ -87,6 +87,22 @@ Bei aktueller Hashrate ist ein 51%-Angriff prohibitiv teuer. Und selbst bei Erfo
 
 Proof of Work ist der einzige bekannte Konsensmechanismus, der Sybil-Resistenz (Schutz vor gefälschten Identitäten) ohne zentralen Gatekeeper bietet. Mehr Hashrate = mehr Einfluss — aber Hashrate kostet echte Ressourcen, die man nicht fälschen kann.
 
+### Satoshi über Abstimmung und Anreiz
+
+Nakamoto beschrieb Proof-of-Work im Whitepaper ausdrücklich als Abstimmungsverfahren, das das Sybil-Problem umgeht:
+
+> The proof-of-work also solves the problem of determining representation in majority decision making. If the majority were based on one-IP-address-one-vote, it could be subverted by anyone able to allocate many IPs. Proof-of-work is essentially one-CPU-one-vote.
+
+([Whitepaper, 31.10.2008](https://nakamotoinstitute.org/library/bitcoin/); Sammlung: [[the-quotable-satoshi]])
+
+Den Grund, warum ein Angreifer mit Übermacht trotzdem meist ehrlich mint, formulierte er als Kosten-Nutzen-Rechnung:
+
+> If a greedy attacker is able to assemble more CPU power than all the honest nodes, he would have to choose between using it to defraud people by stealing back his payments, or using it to generate new coins. He ought to find it more profitable to play by the rules [...] than to undermine the system and the validity of his own wealth.
+
+([Whitepaper, 31.10.2008](https://nakamotoinstitute.org/library/bitcoin/))
+
+Auf der Mailing List brachte er 2008 den Sicherheitsanker auf einen Satz: «The proof-of-work chain is the solution to the synchronisation problem, and to knowing what the globally shared view is without having to trust anyone.» ([09.11.2008](https://satoshi.nakamotoinstitute.org/emails/cryptography/8/)) Für leichte Clients zählt dabei, dass sich diese Kette durch beliebige Mittelsmänner reichen lässt: «It doesn't matter who tells you a longest chain, the proof-of-work speaks for itself.» ([07.08.2010](https://satoshi.nakamotoinstitute.org/posts/bitcointalk/327/)) Ausführliche Zitatsammlung in [[satoshi-zitate]].
+
 ### Hardware-Evolution: CPU → GPU → FPGA → ASIC
 
 **CPU-Mining (2009–2010):** Satoshi und die ersten Nutzer minen auf normalen Prozessoren. Einstiegskosten: null. Jeder PC kann mitmachen.
@@ -154,6 +170,7 @@ Fälschungssichere Kostspieligkeit passt in keine einzelne akademische Disziplin
 - [[bitcoin-mining-netz-und-oekonomie]] ← Netzstabilisierung, Preiseffekte, Mini-Grids, Fallstudien
 - [[proof-of-stake-kritik]] ← Detaillierte PoS-Sicherheitsanalyse (Nguyen)
 - [[bitcoin-whitepaper]]
+- [[satoshi-zitate]]
 - [[bitcoin-geldpolitik-und-21-millionen-limit]]
 - [[konsensregeln-und-mempool-richtlinien]]
 - [[transaktionsgebuehren-und-mempool]]

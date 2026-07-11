@@ -100,6 +100,26 @@ SPV-Nodes müssen Peers nach Transaktionen fragen, die für ihre Adressen releva
 
 Die Stärke des Netzwerks liegt darin, dass kein zentraler Punkt existiert, den man abschalten könnte. Selbst wenn eine große Anzahl von Nodes gleichzeitig ausfällt, bleibt das Netzwerk funktionsfähig — es gibt immer noch andere Nodes, die die Blockchain halten und Transaktionen weitergeben.
 
+### Satoshis ursprüngliche Node-Erwartung
+
+Nakamoto rechnete nicht damit, dass jeder Nutzer einen Full Node betreibt. Schon in der zweiten Mailing-List-Antwort skizzierte er eine Konsolidierung zu Spezialisten:
+
+> At first, most users would run network nodes, but as the network grows beyond a certain point, it would be left more and more to specialists with server farms of specialized hardware.
+
+([Cryptography Mailing List, 02.11.2008](https://satoshi.nakamotoinstitute.org/emails/cryptography/2/); Sammlung: [[the-quotable-satoshi]])
+
+2010 wurde er konkreter und nannte eine Obergrenze:
+
+> I anticipate there will never be more than 100K nodes, probably less. It will reach an equilibrium where it's not worth it for more nodes to join in. The rest will be lightweight clients, which could be millions.
+
+([BitcoinTalk, 14.07.2010](https://satoshi.nakamotoinstitute.org/posts/bitcointalk/188/))
+
+> The current system where every user is a network node is not the intended configuration for large scale. That would be like every Usenet user runs their own NNTP server.
+
+([BitcoinTalk, 29.07.2010](https://satoshi.nakamotoinstitute.org/posts/bitcointalk/287/))
+
+Diese Sicht steht in Spannung zum heutigen Ideal, dass möglichst viele Nutzer einen eigenen Full Node betreiben (siehe die Node-Weltordnung-Argumente von Goldstein weiter oben). Nakamotos Skalierungsplan setzte auf Simplified Payment Verification für die Masse und Full Nodes bei einer kleineren Zahl von Betreibern. Wie viel davon durch Lightning und günstige Heim-Hardware überholt ist, bleibt offen. Weitere Zitate in [[satoshi-zitate]].
+
 ### Die zwei Seiten der Medaille: Kryptographie und Proof-of-Work
 
 Gigi präzisiert, warum Bitcoin mehr ist als Kryptographie. Kryptographie schützt private Daten — aber sie erfordert Geheimhaltung und damit Schlüsselinhaber. Ein globales Währungssystem darf keinen „Hauptschlüssel" haben.
@@ -151,6 +171,7 @@ StopAndDecrypt nennt das Ergebnis eine "uneinnehmbare Festung der Validierung": 
 - [[hardware-wallet-einstieg]]
 - [[geld-staat-und-fiat-monopol]]
 - [[selbstverwahrung-und-boersenrisiken]]
+- [[satoshi-zitate]]
 
 ## Open Questions
 

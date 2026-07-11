@@ -90,6 +90,14 @@ ASIC-Mining-Hardware verwandelt nahezu 100% des eingesetzten Stroms in Wärme. D
 
 Das Modell ist skalierbar: Jeder Mining-Standort neben einem Wärmenetz kann seine Abwärme einspeisen. Die Wirtschaftlichkeit verbessert sich, weil der Betreiber zwei Erlösströme hat (Bitcoin + Wärmeverkauf).
 
+Nakamoto hatte beides — Standortwahl nach billigster Energie und Wärmenutzung — schon 2010 vorweggenommen:
+
+> The heat from your computer is not wasted if you need to heat your home. [...] Bitcoin generation should end up where it's cheapest. Maybe that will be in cold climates where there's electric heat, where it would be essentially free.
+
+([BitcoinTalk, 09.08.2010](https://satoshi.nakamotoinstitute.org/posts/bitcointalk/337/); Sammlung: [[the-quotable-satoshi]])
+
+Den Energie-«Verschwendungs»-Einwand beantwortete er zwei Tage vorher mit dem Gold-Vergleich: «Gold mining is a waste, but that waste is far less than the utility of having gold available as a medium of exchange. [...] The utility of the exchanges made possible by Bitcoin will far exceed the cost of electricity used. Therefore, not having Bitcoin would be the net waste.» ([07.08.2010](https://satoshi.nakamotoinstitute.org/posts/bitcointalk/327/)) Ganze Sammlung in [[satoshi-zitate]].
+
 ### Wasserverbrauch: vom Angriffsvektor zur Lösung
 
 Als das «Bitcoin nutzt fossile Energie»-Argument unter neuen Daten zerfiel (Bloomberg Intelligence: 53% nachhaltige Energie), trat ein neuer Vorwurf an seine Stelle: «Bitcoin verbraucht zu viel Wasser». Auch hier stammt die Quelle von Alex de Vries, der Wasser «pro Transaktion» misst. Cambridge hatte die Pro-Transaktion-Metrik bereits als «not a meaningful metric» verworfen, was per Definition auch jede andere Ressource auf dieser Basis trifft. Battens BBC-Rebuttal zeigt zusätzlich, dass schon die Schlagzeile «payment» mit «transaction» verwechselt. [[Rebuttal of BBCNews article, and the Underlying Study, on Bitcoin Water Usage]]
@@ -106,6 +114,7 @@ Die interessantere Frage ist die umgekehrte: Kann Mining Wasserknappheit lindern
 - [[bitcoin-energie-messung-beest]]
 - [[bitcoin-mining-und-proof-of-work]]
 - [[energiestandard-und-proof-of-work]]
+- [[satoshi-zitate]]
 
 ## Open Questions
 

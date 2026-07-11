@@ -35,6 +35,14 @@ Vor Bitcoin hatten nur natürliche Objekte echte Knappheit: Gold, Land, Zeit. Di
 
 Das 21-Millionen-Limit ist vollkommen angebotsinelastisch: Kein Preissignal kann mehr Bitcoin erzeugen. Dies ist einmalig in der Geldgeschichte. Bitcoin ist damit nach Breedlove „die härteste Form von Geld in der Geschichte der Menschheit."
 
+Nakamoto selbst hatte die Werttheorie dahinter 2010 in einem Gedankenexperiment umrissen — seine Antwort auf den Einwand, Bitcoin verletze Mises' Regressionstheorem. Er beschreibt ein Metall, das keinen Gebrauchswert hat, aber eine Eigenschaft, die kein physisches Metall besitzt:
+
+> imagine there was a base metal as scarce as gold but with the following properties: boring grey in colour, not a good conductor of electricity, not particularly strong [...] not useful for any practical or ornamental purpose ... and one special, magical property: can be transported over a communications channel.
+
+([BitcoinTalk, 27.08.2010](https://satoshi.nakamotoinstitute.org/posts/bitcointalk/428/); Sammlung: [[the-quotable-satoshi]])
+
+Zur Einordnung des Assets war er im selben Monat knapp: «Bitcoins have no dividend or potential future dividend, therefore not like a stock. More like a collectible or commodity.» ([27.08.2010](https://satoshi.nakamotoinstitute.org/posts/bitcointalk/427/)) Weitere Zitate in [[satoshi-zitate]].
+
 ### Bridgewater-Prinzipien als Spiegel
 
 Breedlove wendet Dalios eigenes Principled-Thinking-System auf den Bitcoin-Fall an:
@@ -70,6 +78,7 @@ Breedlove nutzt ein Marktanalogiebeispiel: Larry produziert Zitronen; sein Preis
 ## Related
 
 - [[bitcoin-digitale-knappheit]]
+- [[satoshi-zitate]]
 - [[bitcoin-fehlannahmen]]
 - [[bitcoin-monetarisierung]]
 - [[geldpolitik-und-inflation]]

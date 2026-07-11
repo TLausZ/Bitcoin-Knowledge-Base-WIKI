@@ -1,6 +1,6 @@
 # Bitcoin KB — Wiki Index
 
-Alle Artikel alphabetisch. Stand: 2026-07-10 (Compile-Pass 78: +1 neuer Artikel [crypto-adaption-europa-bsd-2026] aus Boerse-Stuttgart-Digital-Marktstudie. Pass 77: Wüstenfelds BBR-Newsletter (23 Ausgaben) + Hub [bitcoin-akademische-forschung-bbr]. Pass 76: englisches Wüstenfeld-Archiv. Pass 74: +2 Artikel [makro-zinskurve-fed-und-rezession], [onchain-indikatoren-und-anlegerverhalten])
+Alle Artikel alphabetisch. Stand: 2026-07-11 (Compile-Pass 79: +1 neuer Artikel [satoshi-zitate] aus Satoshi Nakamoto Institute «The Quotable Satoshi»; Schlüsselzitate in 5 Fachartikel eingewoben. Pass 78: +1 neuer Artikel [crypto-adaption-europa-bsd-2026] aus Boerse-Stuttgart-Digital-Marktstudie. Pass 77: Wüstenfelds BBR-Newsletter (23 Ausgaben) + Hub [bitcoin-akademische-forschung-bbr]. Pass 76: englisches Wüstenfeld-Archiv. Pass 74: +2 Artikel [makro-zinskurve-fed-und-rezession], [onchain-indikatoren-und-anlegerverhalten])
 
 | Artikel | Status | Beschreibung |
 |---------|--------|-------------|
@@ -64,6 +64,7 @@ Alle Artikel alphabetisch. Stand: 2026-07-10 (Compile-Pass 78: +1 neuer Artikel 
 | [[firmware-verifikation-und-reproduzierbarkeit]] | established | Reproduzierbare Builds: selber Code → selbe Binärdatei; Docker-Kompilierung; Hash-Vergleich; Community-Bestätigungen |
 | [[bitcoin-whitepaper]] | established | Satoshi Nakamotos Original-Whitepaper: Double-Spend-Problem, PoW, UTXO-Modell, SPV, Incentive-Mechanismus |
 | [[satoshi-ankuendigung-2009]] | established | Satoshi auf P2P Foundation (2009-02-11): erste öffentliche Ankündigung; "crypto proof instead of trust"; "distributed timestamp server"; Wei Dai kommentiert; Verbindung zur Cypherpunk-Tradition |
+| [[satoshi-zitate]] | established | Thematisch geordnete Satoshi-Zitate aus «The Quotable Satoshi» (SNI): Vertrauensproblem/Banken, Double-Spending + PoW (Byzantine Generals, one-CPU-one-vote), 21M/Deflation, Metall-Gedankenexperiment, Node-Konsolidierung/SPV, Privatsphäre/Tor, Gebühren, Mining/Energie (Gold- und Heiz-Argument), Motive («territory of freedom»), «I am not Dorian Nakamoto». Verbatim-Quelle: [[the-quotable-satoshi]] mit Link zu jeder Stelle. |
 | [[bip-0329]] | emerging | BIP-329 Standard für portierbare Wallet-Labels zwischen verschiedenen Softwares |
 | [[bip-0085]] | emerging | Aus einem Backup mehrere unabhängige Wallets ableiten — Hot Wallets, Geschenke, Passwörter |
 | [[bitcoin-adresstypen]] | established | Legacy P2PKH (1...), P2SH (3...), Native SegWit P2WPKH (bc1q, ~38% günstiger, Standard), Taproot P2TR (bc1p); alle interoperabel; ein Seed für alle Typen |
