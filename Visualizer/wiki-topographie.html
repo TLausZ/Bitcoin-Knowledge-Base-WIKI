@@ -1,0 +1,146 @@
+<meta charset="utf-8">
+<title>Bitcoin-Wiki · Topographie</title>
+<style>
+  html,body{margin:0;height:100%;background:#ece2cd;overflow:hidden;
+    font:13px/1.4 ui-sans-serif,system-ui,sans-serif;color:#8a7a5e}
+  #c{display:block;touch-action:none;cursor:grab}
+  #c.drag{cursor:grabbing}
+  #cap{position:fixed;left:18px;top:16px;user-select:none;pointer-events:none;max-width:60%}
+  #cap h1{margin:0;font-size:15px;font-weight:600;color:#5c4a34;letter-spacing:.02em}
+  #cap p{margin:3px 0 0;font-size:12px}
+  #hint{position:fixed;left:18px;bottom:14px;user-select:none;pointer-events:none}
+  b{color:#5c4a34}
+</style>
+<div id="cap"><h1>Bitcoin-Wiki · Topographie</h1>
+  <p>Höhe = Artikelgewicht (PageRank + Quellen). Top 14 Artikel.</p></div>
+<canvas id="c"></canvas>
+<div id="hint">ziehen zum drehen · <b>scroll</b> zoom</div>
+
+<script>
+// ranking output (tools/rank_articles.py) → peak per article, height ∝ score
+const PEAKS = [{"name": "hardware-wallet-sicherheitsarchitektur", "score": 1.0, "x": 0.0, "y": 0.0},{"name": "wallet-backup-strategien", "score": 0.947, "x": -0.215, "y": 0.197},{"name": "opsec-und-privatsphaere", "score": 0.896, "x": 0.036, "y": -0.41},{"name": "bitcoin-mining-und-proof-of-work", "score": 0.662, "x": 0.307, "y": 0.4},{"name": "bitcoin-geldpolitik-und-21-millionen-limit", "score": 0.607, "x": -0.574, "y": -0.101},{"name": "selbstverwahrung-und-boersenrisiken", "score": 0.578, "x": 0.549, "y": -0.35},{"name": "coinjoin-und-on-chain-privatsphaere", "score": 0.527, "x": -0.185, "y": 0.689},{"name": "bip-0341", "score": 0.492, "x": -0.355, "y": -0.684},{"name": "bitcoin-mining-narrativ-und-kritik", "score": 0.481, "x": 0.774, "y": 0.283},{"name": "multisig-und-kollaborative-verwahrung", "score": 0.472, "x": -0.808, "y": 0.333},{"name": "taproot-musig2-frost", "score": 0.467, "x": 0.39, "y": -0.834},{"name": "konsensregeln-und-mempool-richtlinien", "score": 0.437, "x": 0.289, "y": 0.922},{"name": "skalierung-lightning-ark-statechains", "score": 0.409, "x": -0.873, "y": -0.506},{"name": "bitcoin-mining-energiequellen", "score": 0.408, "x": 1.026, "y": -0.225}];
+
+const cv = document.getElementById('c'), ctx = cv.getContext('2d');
+const N = 170, ZMAX = 0.85, SIG = 0.12, SKIRT = 0.26, DOM = 1.3;  // SKIRT = base that bridges to adjacent hills
+const g2w = i => (i/(N-1)*2-1)*DOM;                   // grid index → world coord
+let yaw = 0.6, pitch = 1.12, scale0 = 0.34, zoom = 1;
+let segsByLevel = [], peaks = [];
+
+// --- build terrain field from the article peaks --------------------------
+function buildField(){
+  const waves=[];                       // random jagged detail (multi-octave)
+  for(let k=0;k<32;k++){const a=Math.random()*6.28, fr=3+Math.random()*11;
+    waves.push({dx:Math.cos(a)*fr, dy:Math.sin(a)*fr, ph:Math.random()*6.28,
+      amp:(.03+Math.random()*.05)/(1+fr*0.06)});}   // higher freq → a bit lower amp
+  const f=[]; let mn=1e9,mx=-1e9;
+  for(let j=0;j<N;j++){f[j]=[];
+    for(let i=0;i<N;i++){
+      const x=g2w(i), y=g2w(j); let v=0;
+      for(const p of PEAKS){const dx=x-p.x,dy=y-p.y, r2=dx*dx+dy*dy;
+        v+=p.score*(Math.exp(-r2/(2*SIG*SIG)) + 0.35*Math.exp(-r2/(2*SKIRT*SKIRT)));}
+      for(const w of waves) v+=w.amp*Math.sin(x*w.dx+y*w.dy+w.ph);
+      f[j][i]=v; if(v<mn)mn=v; if(v>mx)mx=v;
+    }}
+  for(let j=0;j<N;j++)for(let i=0;i<N;i++)f[j][i]=(f[j][i]-mn)/(mx-mn);
+  // label anchor = actual surface height at each article's position
+  peaks = PEAKS.map(p=>{
+    const gi=Math.round((p.x/DOM+1)/2*(N-1)), gj=Math.round((p.y/DOM+1)/2*(N-1));
+    return {x:p.x, y:p.y, z:f[gj][gi]*ZMAX, name:p.name.replace(/-/g,' ')};
+  });
+  return f;
+}
+
+function contour(f, level){
+  const segs=[], ip=(a,b)=>(level-a)/(b-a);
+  for(let j=0;j<N-1;j++)for(let i=0;i<N-1;i++){
+    const a=f[j][i], b=f[j][i+1], c=f[j+1][i+1], d=f[j+1][i], cr={};
+    if((a>level)!==(b>level)) cr.T={x:i+ip(a,b), y:j};
+    if((b>level)!==(c>level)) cr.R={x:i+1,        y:j+ip(b,c)};
+    if((c>level)!==(d>level)) cr.B={x:i+1-ip(c,d),y:j+1};
+    if((d>level)!==(a>level)) cr.L={x:i,          y:j+1-ip(d,a)};
+    const k=Object.keys(cr);
+    if(k.length===2) segs.push([cr[k[0]],cr[k[1]]]);
+    else if(k.length===4){
+      if((a+b+c+d)/4>level){segs.push([cr.T,cr.R]);segs.push([cr.B,cr.L]);}
+      else {segs.push([cr.T,cr.L]);segs.push([cr.R,cr.B]);}
+    }
+  }
+  return segs;
+}
+
+function build(){
+  const f=buildField();
+  segsByLevel=[]; const L=28;
+  for(let l=1;l<L;l++) segsByLevel.push({z:l/L*ZMAX, segs:contour(f,l/L)});
+  draw();
+}
+
+function project(x,y,z,cx,cy,sc){
+  const cyw=Math.cos(yaw), syw=Math.sin(yaw), cp=Math.cos(pitch), sp=Math.sin(pitch);
+  const X=x*cyw-y*syw, Y1=x*syw+y*cyw, zc=z-ZMAX/2, Y=Y1*cp+zc*sp;
+  return [cx+X*sc, cy-Y*sc];
+}
+
+function draw(){
+  const W=cv.width, H=cv.height, cx=W/2, cy=H/2, sc=Math.min(W,H)*scale0*zoom;
+  const dpr=window.devicePixelRatio||1;
+  ctx.clearRect(0,0,W,H); ctx.lineCap='round'; ctx.lineJoin='round';
+
+  ctx.strokeStyle='rgba(110,92,64,0.09)'; ctx.lineWidth=1*dpr; ctx.beginPath();
+  for(const lv of segsByLevel) for(const s of lv.segs){
+    const p=project(g2w(s[0].x), g2w(s[0].y), 0, cx,cy,sc);
+    const q=project(g2w(s[1].x), g2w(s[1].y), 0, cx,cy,sc);
+    ctx.moveTo(p[0],p[1]); ctx.lineTo(q[0],q[1]);
+  } ctx.stroke();
+
+  ctx.strokeStyle='rgba(74,58,40,0.72)'; ctx.lineWidth=1.1*dpr; ctx.beginPath();
+  for(const lv of segsByLevel) for(const s of lv.segs){
+    const p=project(g2w(s[0].x), g2w(s[0].y), lv.z, cx,cy,sc);
+    const q=project(g2w(s[1].x), g2w(s[1].y), lv.z, cx,cy,sc);
+    ctx.moveTo(p[0],p[1]); ctx.lineTo(q[0],q[1]);
+  } ctx.stroke();
+
+  // article labels: screen-vertical leader + upright text (billboarded),
+  // pushed up to avoid overlaps where hills stack behind each other
+  ctx.textAlign='center'; ctx.textBaseline='bottom';
+  ctx.font=`${11.5*dpr}px ui-sans-serif,system-ui,sans-serif`;
+  const lh=15*dpr, pad=4*dpr, placed=[];
+  const items=peaks.map(pk=>{const [x,y]=project(pk.x,pk.y,pk.z,cx,cy,sc);
+    return {pk,x,y,w:ctx.measureText(pk.name).width+2*pad};})
+    .sort((a,b)=>a.y-b.y);                            // higher-on-screen first
+  for(const it of items){
+    let ty=it.y-40*dpr;
+    for(let n=0;n<40;n++){let hit=false;
+      for(const b of placed)
+        if(Math.abs(it.x-b.x)<(it.w+b.w)/2 && Math.abs(ty-b.ty)<lh){ty=b.ty-lh;hit=true;}
+      if(!hit) break;
+    }
+    placed.push({x:it.x, ty, w:it.w});
+    ctx.strokeStyle='rgba(74,58,40,0.5)'; ctx.lineWidth=1*dpr;
+    ctx.beginPath(); ctx.moveTo(it.x,it.y); ctx.lineTo(it.x,ty); ctx.stroke();
+    ctx.fillStyle='rgba(74,58,40,0.92)';
+    ctx.beginPath(); ctx.arc(it.x,it.y,2*dpr,0,7); ctx.fill();
+    ctx.fillStyle='rgba(236,226,205,0.82)';           // backing for readability
+    ctx.fillRect(it.x-it.w/2, ty-lh, it.w, lh);
+    ctx.fillStyle='rgba(74,58,40,0.92)';
+    ctx.fillText(it.pk.name, it.x, ty-2*dpr);
+  }
+}
+
+let drag=false, px=0, py=0;
+cv.addEventListener('pointerdown',e=>{drag=true;px=e.clientX;py=e.clientY;
+  cv.classList.add('drag');cv.setPointerCapture(e.pointerId);});
+cv.addEventListener('pointermove',e=>{if(!drag)return;
+  yaw+=(e.clientX-px)*0.008;
+  pitch=Math.max(0.12,Math.min(1.55,pitch+(e.clientY-py)*0.006));
+  px=e.clientX; py=e.clientY; draw();});
+cv.addEventListener('pointerup',()=>{drag=false;cv.classList.remove('drag');});
+cv.addEventListener('wheel',e=>{e.preventDefault();
+  zoom=Math.max(.4,Math.min(3,zoom*(e.deltaY<0?1.1:0.9)));draw();},{passive:false});
+
+function resize(){const dpr=window.devicePixelRatio||1;
+  cv.width=innerWidth*dpr; cv.height=innerHeight*dpr;
+  cv.style.width=innerWidth+'px'; cv.style.height=innerHeight+'px'; draw();}
+addEventListener('resize',resize);
+resize(); build();
+</script>

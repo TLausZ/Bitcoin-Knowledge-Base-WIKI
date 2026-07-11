@@ -1,0 +1,165 @@
+<meta charset="utf-8">
+<title>Contour Terrain</title>
+<style>
+  html,body{margin:0;height:100%;background:#ece2cd;overflow:hidden;
+    font:13px/1.4 ui-sans-serif,system-ui,sans-serif;color:#8a7a5e}
+  #c{display:block;touch-action:none;cursor:grab}
+  #c.drag{cursor:grabbing}
+  #hint{position:fixed;left:16px;bottom:14px;user-select:none;pointer-events:none}
+  b{color:#5c4a34}
+</style>
+<canvas id="c"></canvas>
+<div id="hint">ziehen zum drehen · <b>Leertaste</b> neu · <b>scroll</b> zoom</div>
+<script>
+const cv = document.getElementById('c'), ctx = cv.getContext('2d');
+const N = 150;                       // grid resolution
+let yaw = 0.6, pitch = 1.12, scale0 = 0.34, zoom = 1;
+let segsByLevel = [];               // [{z, segs:[[p,p],...]}]
+let peaks = [];                     // [{x,y,z,name}] in world coords
+const ZMAX = 0.85;
+const NAMES=["Nordgrat","Hochstein","Wildspitze","Graukamm","Firnkopf",
+  "Steinhorn","Dohlenberg","Weißfluh","Rabenegg","Lärchkopf","Silbereck","Kaltjoch"];
+
+// --- random terrain: sum of gaussian bumps -------------------------------
+function rnd(a,b){return a+Math.random()*(b-a);}
+function makeTerrain(){
+  const bumps=[];
+  const nb = 4 + (Math.random()*4|0);
+  for(let k=0;k<nb;k++)
+    bumps.push({cx:rnd(-.7,.7), cy:rnd(-.7,.7),
+      amp:rnd(.4,1), s:rnd(.14,.4)});   // all positive → peaks rise up
+  // rugged detail: a few random directional waves perturb the contours
+  const waves=[];
+  for(let k=0;k<7;k++){const a=rnd(0,6.28), fr=rnd(2.5,7);
+    waves.push({dx:Math.cos(a)*fr, dy:Math.sin(a)*fr,
+      ph:rnd(0,6.28), amp:rnd(.02,.06)});}
+  const f=[]; let mn=1e9,mx=-1e9;
+  for(let j=0;j<N;j++){f[j]=[];
+    for(let i=0;i<N;i++){
+      const x=i/(N-1)*2-1, y=j/(N-1)*2-1; let v=0;
+      for(const b of bumps){const dx=x-b.cx,dy=y-b.cy;
+        v+=b.amp*Math.exp(-(dx*dx+dy*dy)/(2*b.s*b.s));}
+      for(const w of waves) v+=w.amp*Math.sin(x*w.dx+y*w.dy+w.ph);
+      f[j][i]=v; if(v<mn)mn=v; if(v>mx)mx=v;
+    }}
+  // normalize to 0..1
+  for(let j=0;j<N;j++)for(let i=0;i<N;i++)f[j][i]=(f[j][i]-mn)/(mx-mn);
+  return f;
+}
+
+// --- marching squares: segments for one level ----------------------------
+function contour(f, level){
+  const segs=[];
+  const ip=(a,b)=>(level-a)/(b-a);
+  for(let j=0;j<N-1;j++)for(let i=0;i<N-1;i++){
+    const a=f[j][i], b=f[j][i+1], c=f[j+1][i+1], d=f[j+1][i], cr={};
+    if((a>level)!==(b>level)) cr.T={x:i+ip(a,b), y:j};
+    if((b>level)!==(c>level)) cr.R={x:i+1,        y:j+ip(b,c)};
+    if((c>level)!==(d>level)) cr.B={x:i+1-ip(c,d),y:j+1};
+    if((d>level)!==(a>level)) cr.L={x:i,          y:j+1-ip(d,a)};
+    const k=Object.keys(cr);
+    if(k.length===2) segs.push([cr[k[0]],cr[k[1]]]);
+    else if(k.length===4){                       // saddle
+      if((a+b+c+d)/4>level){segs.push([cr.T,cr.R]);segs.push([cr.B,cr.L]);}
+      else {segs.push([cr.T,cr.L]);segs.push([cr.R,cr.B]);}
+    }
+  }
+  return segs;
+}
+
+// local maxima → named peaks (only prominent ones get a label)
+function findPeaks(f){
+  const win=16, out=[];
+  for(let j=win;j<N-win;j++)for(let i=win;i<N-win;i++){
+    const v=f[j][i]; if(v<0.6) continue;
+    let top=true;
+    for(let dj=-win;dj<=win&&top;dj++)for(let di=-win;di<=win;di++)
+      if(f[j+dj][i+di]>v){top=false;break;}
+    if(top) out.push({x:i/(N-1)*2-1, y:j/(N-1)*2-1, z:v*ZMAX, v});
+  }
+  out.sort((a,b)=>b.v-a.v);            // highest first
+  const names=NAMES.slice().sort(()=>Math.random()-0.5);
+  return out.slice(0,5).map((p,k)=>({...p, name:names[k]}));
+}
+
+function regen(){
+  const f=makeTerrain();
+  segsByLevel=[];
+  const L=28;
+  for(let l=1;l<L;l++){
+    const level=l/L;
+    segsByLevel.push({z:level*ZMAX, segs:contour(f,level)});
+  }
+  peaks=findPeaks(f);
+  draw();
+}
+
+// --- projection (orthographic turntable) ---------------------------------
+function project(x,y,z,cx,cy,sc){
+  const cyw=Math.cos(yaw), syw=Math.sin(yaw);
+  const cp=Math.cos(pitch), sp=Math.sin(pitch);
+  const X = x*cyw - y*syw;
+  const Y1= x*syw + y*cyw;
+  const zc = z - ZMAX/2;                          // pivot around middle
+  const Y = Y1*cp + zc*sp;
+  return [cx + X*sc, cy - Y*sc];
+}
+
+function draw(){
+  const W=cv.width, H=cv.height, cx=W/2, cy=H/2, sc=Math.min(W,H)*scale0*zoom;
+  ctx.clearRect(0,0,W,H);
+  ctx.lineCap='round'; ctx.lineJoin='round';
+  const dpr=window.devicePixelRatio||1;
+
+  // shadows first: every line dropped to the floor (z = 0)
+  ctx.strokeStyle='rgba(110,92,64,0.09)'; ctx.lineWidth=1*dpr;
+  ctx.beginPath();
+  for(const lv of segsByLevel) for(const s of lv.segs){
+    const p=project(s[0].x/(N-1)*2-1, s[0].y/(N-1)*2-1, 0, cx,cy,sc);
+    const q=project(s[1].x/(N-1)*2-1, s[1].y/(N-1)*2-1, 0, cx,cy,sc);
+    ctx.moveTo(p[0],p[1]); ctx.lineTo(q[0],q[1]);
+  }
+  ctx.stroke();
+
+  // contour lines, transparent so back lines read through
+  ctx.strokeStyle='rgba(74,58,40,0.72)'; ctx.lineWidth=1.1*dpr;
+  ctx.beginPath();
+  for(const lv of segsByLevel) for(const s of lv.segs){
+    const p=project(s[0].x/(N-1)*2-1, s[0].y/(N-1)*2-1, lv.z, cx,cy,sc);
+    const q=project(s[1].x/(N-1)*2-1, s[1].y/(N-1)*2-1, lv.z, cx,cy,sc);
+    ctx.moveTo(p[0],p[1]); ctx.lineTo(q[0],q[1]);
+  }
+  ctx.stroke();
+
+  // peak labels: screen-vertical leader + upright text (billboarded)
+  ctx.textAlign='center'; ctx.textBaseline='bottom';
+  ctx.font=`${12.5*dpr}px ui-sans-serif,system-ui,sans-serif`;
+  for(const pk of peaks){
+    const [x,y]=project(pk.x,pk.y,pk.z,cx,cy,sc), top=y-46*dpr;
+    ctx.strokeStyle='rgba(74,58,40,0.55)'; ctx.lineWidth=1*dpr;
+    ctx.beginPath(); ctx.moveTo(x,y); ctx.lineTo(x,top); ctx.stroke();
+    ctx.fillStyle='rgba(74,58,40,0.9)';
+    ctx.beginPath(); ctx.arc(x,y,2*dpr,0,7); ctx.fill();
+    ctx.fillText(pk.name, x, top-4*dpr);
+  }
+}
+
+// --- interaction ---------------------------------------------------------
+let drag=false, px=0, py=0;
+cv.addEventListener('pointerdown',e=>{drag=true;px=e.clientX;py=e.clientY;
+  cv.classList.add('drag');cv.setPointerCapture(e.pointerId);});
+cv.addEventListener('pointermove',e=>{if(!drag)return;
+  yaw += (e.clientX-px)*0.008;
+  pitch = Math.max(0.12, Math.min(1.55, pitch + (e.clientY-py)*0.006));
+  px=e.clientX; py=e.clientY; draw();});
+cv.addEventListener('pointerup',()=>{drag=false;cv.classList.remove('drag');});
+cv.addEventListener('wheel',e=>{e.preventDefault();
+  zoom=Math.max(.4,Math.min(3,zoom*(e.deltaY<0?1.1:0.9)));draw();},{passive:false});
+addEventListener('keydown',e=>{if(e.key==='r'||e.key==='R'||e.key===' '){e.preventDefault();regen();}});
+
+function resize(){const dpr=window.devicePixelRatio||1;
+  cv.width=innerWidth*dpr; cv.height=innerHeight*dpr;
+  cv.style.width=innerWidth+'px'; cv.style.height=innerHeight+'px'; draw();}
+addEventListener('resize',resize);
+resize(); regen();
+</script>
