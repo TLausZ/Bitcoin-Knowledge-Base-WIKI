@@ -46,6 +46,10 @@ The corpus includes ~17 peer-reviewed papers on Bitcoin mining's relationship to
 
 These papers cover demand response, curtailment reduction, methane mitigation, grid stability, and the use of Bitcoin mining as a flexible load alongside wind, solar, geothermal, and biorefinery systems.
 
+## Visualizer
+
+An interactive 3D contour map of the wiki, where each article is a hill whose height reflects its weight in the backlink graph. **Live demo: https://tlausz.github.io/Bitcoin-Knowledge-Base-WIKI/** — see [`Visualizer/`](Visualizer/) for details.
+
 ## What's not here
 
 Raw source material (articles, PDFs, transcripts) lives locally and is excluded via `.gitignore`. Only the compiled wiki is published.

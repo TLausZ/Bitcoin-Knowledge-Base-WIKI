@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Force-directed Layout für Visualizer/wiki-map-full.html.
+"""Force-directed Layout für Visualizer/index.html.
 
 Liest den [[Backlink]]-Graphen aus Wiki/, die Scores aus Outputs/ranking.csv,
 rechnet ein Fruchterman-Reingold-Layout (verlinkte Artikel ziehen sich an)
@@ -22,7 +22,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 from rank_articles import WIKI, NAV_FILES, norm, parse_article
 
 ROOT = Path(__file__).resolve().parent.parent
-HTML = ROOT / "Visualizer" / "wiki-map-full.html"
+HTML = ROOT / "Visualizer" / "index.html"
 CSV = ROOT / "Outputs" / "ranking.csv"
 R = 2.3          # Zielradius der Karte (DOM=2.7 im HTML, mit Rand)
 DMIN = 0.22      # Mindestabstand zwischen Gipfeln

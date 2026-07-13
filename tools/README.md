@@ -35,7 +35,7 @@ python3 tools/rank_articles.py --csv Outputs/ranking.csv
 ## layout_map.py
 
 Berechnet das Layout für die topografische Karte
-`Visualizer/wiki-map-full.html`. Liest den Linkgraphen aus `Wiki/` und die
+`Visualizer/index.html`. Liest den Linkgraphen aus `Wiki/` und die
 Scores aus `Outputs/ranking.csv`, rechnet ein Fruchterman-Reingold-Layout
 (verlinkte Artikel ziehen sich an, fester Seed → reproduzierbar) und
 ersetzt die eingebettete `PEAKS`-Konstante direkt im HTML.

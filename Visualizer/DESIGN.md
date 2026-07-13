@@ -2,7 +2,7 @@
 
 Corporate Identity der Wiki-Karten in diesem Ordner. Format nach
 github.com/google-labs-code/design.md: YAML-Tokens plus Prosa. Die Tokens
-sind aus `wiki-map-full.html` extrahiert und gelten als Referenz für alle
+sind aus `index.html` extrahiert und gelten als Referenz für alle
 weiteren Visualisierungen der Knowledge Base. Tokens haben Vorrang vor
 eigenen Annahmen.
 

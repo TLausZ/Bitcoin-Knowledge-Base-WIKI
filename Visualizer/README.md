@@ -1,5 +1,7 @@
 # Visualizer
 
+**Live-Demo: https://tlausz.github.io/Bitcoin-Knowledge-Base-WIKI/**
+
 Interaktive 3D-Konturkarten der Wiki-Artikel. Jeder Artikel ist ein Hügel;
 die Höhe entspricht seinem Gewicht aus `tools/rank_articles.py`
 (0.7 · PageRank im Backlink-Graph + 0.3 · log-normierte RAW-Quellenzahl).
@@ -14,7 +16,7 @@ Marching-Squares-Konturen, kein WebGL.
 
 | Datei | Inhalt |
 |---|---|
-| `wiki-map-full.html` | Gesamtkarte: alle Artikel (Stand 2026-07-11: 410), Positionen force-directed aus dem Backlink-Graphen — verlinkte Artikel liegen beieinander, thematische Cluster werden zu Gebirgszügen. |
+| `index.html` | Gesamtkarte: alle Artikel (Stand 2026-07-11: 410), Positionen force-directed aus dem Backlink-Graphen — verlinkte Artikel liegen beieinander, thematische Cluster werden zu Gebirgszügen. |
 | `wiki-topographie.html` | Kompakte Karte der Top-14-Artikel, jeder Gipfel beschriftet. |
 | `kontur-demo.html` | Ursprünglicher Prototyp mit Zufallsterrain. Leertaste würfelt neu. |
 | `wiki-map-screenshot.png` | Screenshot der Gesamtkarte für diese README. |
@@ -82,7 +84,7 @@ Screenshot neu erzeugen (headless Chrome, aus diesem Ordner):
 "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome" \
   --headless=new --disable-gpu --hide-scrollbars \
   --screenshot=wiki-map-screenshot.png --window-size=1600,1000 \
-  --virtual-time-budget=4000 "file://$(pwd)/wiki-map-full.html"
+  --virtual-time-budget=4000 "file://$(pwd)/index.html"
 ```
 
 ## Stellschrauben (im Quelltext)
