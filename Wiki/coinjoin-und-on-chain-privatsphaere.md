@@ -78,6 +78,7 @@ Nach einem CoinJoin sollte man die Coin Selection (welche UTXOs für eine Transa
 - [[silent-payments]]
 - [[payment-codes-und-adressaustausch]]
 - [[opsec-und-privatsphaere]]
+- [[bitcoin-whitepaper-errata]] ← CoinJoin widerlegt die Multi-Input-Annahme aus Kapitel 10 des Whitepapers
 
 ## Open Questions
 

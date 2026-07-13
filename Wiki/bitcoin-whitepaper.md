@@ -80,6 +80,7 @@ Die Identität ist bis heute unbekannt. Bekannte Fakten: Nakamoto schrieb fehler
 - [[hashcash]]
 - [[segregated-witness-segwit]]
 - [[bitcoin-fehlannahmen]]
+- [[bitcoin-whitepaper-errata]] ← bekannte Fehler des Papers, Terminologie-Drift, Implementierungs-Abweichungen
 
 ## Open Questions
 

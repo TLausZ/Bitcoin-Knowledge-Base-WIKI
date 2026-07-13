@@ -1,8 +1,8 @@
 # Selbstverwahrung und Börsenrisiken
 
 **Status:** established
-**Last updated:** 2026-07-07
-**Sources:** [[20230103_wir-feiern-proof-of-keys-de]], [[aprycot-seedor-bitcoin-ist-sicher]], [[aprycot-21bitcoin-custody-einfach-erklaert]], [[20230118_die-bitbox01-ist-am-ende-ihrer-reise-de]], [[20220822_warum-bitcoin-eigenes-wallet-halten-de]], [[20220103_proof-of-keys-bitcoin-de]], [[20210622_warum-bitcoin-nicht-auf-boersen-aufbewahren-de]], [[2025-10-03_Blocktrainer-Bitcoin sicher aufbewahren 2025_ Selbstverwahrung, Wallet und Co.]], [[2025-05-14_Blocktrainer-Bitcoin_ 5 Anfängerfehler, die teuer werden können]], [[Bitcoin ist die Wiederentdeckung des Geldes.md]], [[Die andere Seite der Medaille.md]], [[bitcoin-ratgeber_kapitel-02-sei-deine-eigene-bank]], [[20221115_bmi-ftx-bankrott-de]]
+**Last updated:** 2026-07-13
+**Sources:** [[20230103_wir-feiern-proof-of-keys-de]], [[aprycot-seedor-bitcoin-ist-sicher]], [[aprycot-21bitcoin-custody-einfach-erklaert]], [[20230118_die-bitbox01-ist-am-ende-ihrer-reise-de]], [[20220822_warum-bitcoin-eigenes-wallet-halten-de]], [[20220103_proof-of-keys-bitcoin-de]], [[20210622_warum-bitcoin-nicht-auf-boersen-aufbewahren-de]], [[2025-10-03_Blocktrainer-Bitcoin sicher aufbewahren 2025_ Selbstverwahrung, Wallet und Co.]], [[2025-05-14_Blocktrainer-Bitcoin_ 5 Anfängerfehler, die teuer werden können]], [[Bitcoin ist die Wiederentdeckung des Geldes.md]], [[Die andere Seite der Medaille.md]], [[bitcoin-ratgeber_kapitel-02-sei-deine-eigene-bank]], [[20221115_bmi-ftx-bankrott-de]], [[11 Questions You Should Ask Your Bitcoin Exchange.md]]
 
 ## Summary
 
@@ -107,6 +107,14 @@ Gigi: „Wenn du nicht im Besitz deiner eigenen Schlüssel bist, besitzt du kein
 Nur wer beides kombiniert — eigene Schlüssel und eigenen Node — hat Geld wiederentdeckt: etwas, das ihm allein gehört, das kein Gegenparteirisiko hat und dessen Regeln er selbst verifiziert. Das war vor Bitcoin für digitales Geld strukturell unmöglich.
 
 Geld hat nach Gigi keine Rendite, kein Gegenparteirisiko, braucht keine Identität und muss nicht wachsen. Shitcoins und Fiat-Deposits sind keine Alternative, weil sie all diese Eigenschaften verletzen. [[Die andere Seite der Medaille.md]]
+
+### Börsen-Due-Diligence: 11 Fragen (River)
+
+Wer trotz aller Risiken eine Börse nutzt — sei es nur als Kaufweg vor der Selbstverwahrung — kann deren Vertrauenswürdigkeit systematisch prüfen. River (Bitcoin-only-Börse, selbst Partei) publizierte dafür eine Checkliste mit elf Fragen: Wie wird mein Bitcoin gesichert? Wie schützt ihr mein Konto? Nutzt ihr Dritte für die Custody? Verleiht ihr Kundeneinlagen? Habt ihr Proof of Reserves? Gab es je einen Breach? Wie schützt ihr meine Daten? Wie sind Dollar-Einlagen gesichert? Was passiert bei eurem Konkurs? Habt ihr eine Versicherung? Seid ihr auditiert, lizenziert, reguliert?
+
+Rivers eigene Antworten zeigen, wie ein seriöses Custody-Setup aussieht: 100% der Kundeneinlagen in Cold Storage mit 3-von-5-Multisig, Schlüssel geografisch über die USA verteilt generiert und gesichert; keine Drittparteien mit Schlüsselzugriff; Full Reserve ohne Lending, monatlich per Proof of Reserves belegt; Kundeneigentum explizit in den Terms of Service («You own your bitcoin») als Schutz im Konkursfall — der Gegenentwurf zu Yield-Produkten wie Celsius, wo Kunden das Eigentum vertraglich übertrugen.
+
+Zwei Punkte relativieren das Bild. Bitcoin-Einlagen sind auch bei River nicht versichert (nur USD via FDIC-Partnerbank bis 250.000 USD); River argumentiert selbst, dass Versicherungspolicen für Bitcoin-Custody meist nur kleine Teile der Einlagen und enge Schadensfälle abdecken. Und für die Konkursbehandlung von Kundenassets gibt es weiterhin keinen bindenden Präzedenzfall, nur eine Tendenz der Gerichte, Kundeneigentum bei klaren Verträgen anzuerkennen. Die Checkliste beantwortet damit die unten stehende offene Frage zur Solvenzprüfung teilweise: Monatliche Proof of Reserves plus jährliche Finanzaudits (bei River: BPM, SOC 2 Type II) sind der aktuelle Stand der Verifizierbarkeit — ein Fortschritt gegenüber blindem Vertrauen, aber kein Ersatz für eigene Schlüssel. [[11 Questions You Should Ask Your Bitcoin Exchange.md]]
 
 ### Custodial vs. Non-Custodial — Grundbegriffe (21bitcoin)
 

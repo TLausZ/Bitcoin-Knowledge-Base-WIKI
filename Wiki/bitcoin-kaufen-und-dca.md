@@ -1,8 +1,8 @@
 # Bitcoin kaufen und DCA
 
 **Status:** established
-**Last updated:** 2026-06-08
-**Sources:** [[20230308_ankundigung-einer-neuen-partnerschaft-bitbox-pocket-bitcoin]], [[20230308_bitbox-03-2023-trift-update-de]], [[20221101_wie-man-bitcoin-kauft-de]], [[20220809_wie-man-grosse-menge-bitcoin-kauft-de]], [[20210512_bitbox-relai-schweizer-kombo-de]], [[20210623_mit-pocket-bitcoin-auf-bitbox02-stacken-de]], [[2025-05-14_Blocktrainer-Bitcoin kaufen 2025_ Lohnt sich der Einstieg noch_]], [[2025-05-14_Blocktrainer-Bitcoin_ 5 Anfängerfehler, die teuer werden können]], [[2026-06-08_BlocktrainerBitcoin_ 10 Einsteigerfragen]], [[bitcoin-ratgeber_kapitel-03-von-der-boerse-zur-eigenen-wallet]]
+**Last updated:** 2026-07-13
+**Sources:** [[20230308_ankundigung-einer-neuen-partnerschaft-bitbox-pocket-bitcoin]], [[20230308_bitbox-03-2023-trift-update-de]], [[20221101_wie-man-bitcoin-kauft-de]], [[20220809_wie-man-grosse-menge-bitcoin-kauft-de]], [[20210512_bitbox-relai-schweizer-kombo-de]], [[20210623_mit-pocket-bitcoin-auf-bitbox02-stacken-de]], [[2025-05-14_Blocktrainer-Bitcoin kaufen 2025_ Lohnt sich der Einstieg noch_]], [[2025-05-14_Blocktrainer-Bitcoin_ 5 Anfängerfehler, die teuer werden können]], [[2026-06-08_BlocktrainerBitcoin_ 10 Einsteigerfragen]], [[bitcoin-ratgeber_kapitel-03-von-der-boerse-zur-eigenen-wallet]], [[Does timing matter for recurring bitcoin buys_.md]]
 
 ## Summary
 
@@ -30,6 +30,14 @@ Wer Bitcoin auf einer Börse kauft, hält zunächst ein Versprechen, keinen Bitc
 ### DCA als Akkumulierungsstrategie
 
 Dollar-Cost-Averaging bedeutet: regelmäßig einen fixen Betrag kaufen, unabhängig vom Preis. Das eliminiert das Timing-Problem ("kaufe ich heute oder warte ich?") und senkt den durchschnittlichen Einstandspreis über Zeit. Für Privatanleger ohne aktive Marktbeobachtung ist DCA die pragmatische Wahl.
+
+### Spielt das Timing des Sparplans eine Rolle? (River-Backtest)
+
+River hat die Frage empirisch geprüft: Backtest aller Ausführungszeitpunkte für tägliche und wöchentliche Recurring Buys seit Januar 2023, in Stunden-Inkrementen (24 tägliche, 168 wöchentliche Strategien). Die Preise wurden um Bitcoins durchschnittliche Aufwertung von rund 1,6% pro Woche normalisiert — ohne diese Korrektur wäre das Ergebnis trivial («früher in der Woche kaufen»).
+
+Bei täglichen Käufen ist das Timing bedeutungslos: nur 0,08% Differenz zwischen der besten (11 Uhr EST) und schlechtesten Stunde (19 Uhr EST). Bei wöchentlichen Käufen zeigt sich ein realer, aber bescheidener Effekt von 0,77% zwischen dem besten Zeitpunkt (Freitag 3 Uhr EST) und dem schlechtesten (Mittwoch 21 Uhr EST). Ein wöchentlicher 100-USD-Sparplan hätte über den Testzeitraum am besten Zeitpunkt 253 USD mehr Bitcoin geholt als am schlechtesten.
+
+Rivers Erklärung: Früher Freitagmorgen liegt in einer ruhigen Phase der globalen Handelswoche (US-Märkte zu, Europa noch nicht offen, Risikoabbau vors Wochenende), während Mittwochabend mit dem Start des Asien-Handelstags zusammenfällt. ETFs handeln nur zu Börsenzeiten, was diese Muster verstärken kann. Die Einordnung des Reports selbst: Für passive Anleger lohnt der Stress nicht, keine Garantie, dass die Muster halten — wer aber ohnehin einen wöchentlichen Sparplan einrichtet, kann Mittwoch meiden und Freitagmorgen oder das Wochenende wählen. [[Does timing matter for recurring bitcoin buys_.md]]
 
 ### Direktkauf in die Hardware-Wallet
 

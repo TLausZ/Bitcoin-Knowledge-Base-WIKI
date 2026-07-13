@@ -172,6 +172,7 @@ StopAndDecrypt nennt das Ergebnis eine "uneinnehmbare Festung der Validierung": 
 - [[geld-staat-und-fiat-monopol]]
 - [[selbstverwahrung-und-boersenrisiken]]
 - [[satoshi-zitate]]
+- [[bitcoin-whitepaper-errata]] ← Terminologie-Drift «nodes» vs. Miner seit dem Whitepaper
 
 ## Open Questions
 

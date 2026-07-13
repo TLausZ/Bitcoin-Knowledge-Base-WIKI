@@ -113,6 +113,7 @@ Die strukturelle Lektion aus beiden Konflikten ist identisch: Konsensparameter, 
 - [[bitcoin-geldpolitik-und-21-millionen-limit]]
 - [[kryptoanarchismus-und-cypherpunks]]
 - [[craig-wright-faketoshi]]
+- [[bitcoin-whitepaper-errata]] ← «one-CPU-one-vote» ist keine Regel-Abstimmung; Nodes definieren Gültigkeit
 
 ## Open Questions
 

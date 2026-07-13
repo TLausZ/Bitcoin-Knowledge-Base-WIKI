@@ -43,6 +43,7 @@ Covenants sind zum Zeitpunkt dieses Artikels Vorschläge ohne konkreten Aktivier
 - [[bitcoin-vaults]]
 - [[soft-fork-und-hard-fork]]
 - [[skalierung-lightning-ark-statechains]]
+- [[bitcoin-whitepaper-errata]] ← warum Encumbrances Signatur-Abdeckung brauchen (P2SH-Vorgeschichte)
 
 ## Open Questions
 

@@ -175,6 +175,7 @@ Fälschungssichere Kostspieligkeit passt in keine einzelne akademische Disziplin
 - [[konsensregeln-und-mempool-richtlinien]]
 - [[transaktionsgebuehren-und-mempool]]
 - [[hashcash]]
+- [[bitcoin-whitepaper-errata]] ← Selfish Mining senkt die Sicherheitsschwelle auf ~30%; most-work statt longest chain
 
 ## Open Questions
 

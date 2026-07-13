@@ -1,8 +1,8 @@
 # Nick Szabo: Evolutionärer Ursprung des Geldes
 
 **Status:** established
-**Last updated:** 2026-06-17
-**Sources:** [[Shelling Out -- The Origins of Money]], [[Advances in Distributed Security]], [[bitcoin-ratgeber_kapitel-01-was-ist-geld]]
+**Last updated:** 2026-07-13
+**Sources:** [[Shelling Out -- The Origins of Money]], [[Advances in Distributed Security]], [[bitcoin-ratgeber_kapitel-01-was-ist-geld]], [[allfiatcurrenciesflow.jpeg]]
 
 ## Summary
 
@@ -59,6 +59,12 @@ Aus Szabos Rahmen betrachtet ist Bitcoin bemerkenswert: Es ist das erste Objekt,
 - **Haltbar**: Solange das Netzwerk läuft, existieren die Bitcoin
 
 Szabo hat den Begriff "Bit Gold" für ein ähnliches Konzept geprägt (ein nie realisiertes Protokoll, das Hashcash mit Eigentumsregistrierung kombinierte). Bitcoin realisierte, was Szabo konzeptuell vorbereitet hatte.
+
+### Die Geldgeschichte als Zeitstrahl (River-Infografik)
+
+Rivers Infografik «A history of money» ([[allfiatcurrenciesflow.jpeg]], Datenbasis: World GeoHistoGram, Michigan Geographic Alliance / Central Michigan University 2010) visualisiert Szabos These über 11.000 Jahre: Geldformen als parallele Ströme in sieben Kategorien — Commodity (Vieh ab ~9000 BCE, Getreide, Salz, Tabak), Shells & Beads (Kaurimuscheln, Wampum, Rai-Steine), Metalle (Gold ab ~5000 BCE, Silber, Bronze), Münzen (Lydien, Drachme, Denar, Solidus, Dinar), Papier (Jiaozi, Flying Cash, Banknoten), Kredit (Tontafeln ab ~2500 BCE, Tally Sticks, Wechsel) und Digital.
+
+Zwei Details stützen die Artikel-These direkt. Erstens die Langlebigkeit der Sammelgüter: Kaurimuscheln und Gold laufen als durchgehende Ströme über Jahrtausende, während einzelne Münz- und Papierwährungen kommen und gehen. Zweitens die Darstellung des Fiat-Systems: Alle heutigen Nationalwährungen erscheinen ab 1971 (Nixon beendet die Goldkonvertibilität) als ein einziger gemeinsamer Strom — historisch gesehen ein einzelnes, junges Experiment, kein Bündel unabhängiger Geldformen. Bitcoin taucht in der Digital-Spalte neben E-Money, Stablecoins und CBDCs auf, als einzige dieser Formen ohne Fiat-Anbindung.
 
 ### Advances in Distributed Security
 

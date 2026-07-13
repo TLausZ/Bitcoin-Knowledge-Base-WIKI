@@ -72,6 +72,7 @@ Merkle Proof für TxC:
 - [[taproot-musig2-frost]]
 - [[hashcash]]
 - [[starks]]
+- [[bitcoin-whitepaper-errata]] ← Merkle-Pruning aus Kapitel 7 funktioniert nicht universell
 
 ## Open Questions
 

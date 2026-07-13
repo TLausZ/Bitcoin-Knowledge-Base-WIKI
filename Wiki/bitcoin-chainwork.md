@@ -40,3 +40,4 @@ Das exponenzielle Wachstum zeigt die Vertrauenswürdigkeit der Kette: Je mehr ku
 - [[bitcoin-mining-und-proof-of-work]]
 - [[mining-schwierigkeit]]
 - [[bitcoin-blockchain-struktur]]
+- [[bitcoin-whitepaper-errata]] ← der Juli-2010-Wechsel von longest chain zu most-work chain

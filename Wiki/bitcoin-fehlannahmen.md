@@ -158,6 +158,7 @@ Der Vorwurf bleibt prominent: Im März 2026 nannte Ex-Premier Boris Johnson Bitc
 - [[bitcoin-mining-narrativ-und-kritik]]
 - [[bitcoin-volatilitaet-und-preisfindung]]
 - [[bitcoin-regierungsresistenz]]
+- [[bitcoin-whitepaper-errata]] ← interne, eingestandene Fehler des Whitepapers selbst
 
 ## Open Questions
 
