@@ -1,6 +1,7 @@
 # Taproot, MuSig2 und FROST
 
 **Status:** established
+**Themen:** protokoll
 **Last updated:** 2026-06-06
 **Sources:** [[20250206_musig2-und-frost-multisignaturverfahren-auf-taproot-erklärt]], [[20220818_taproot-keim-bitcoin-anwendungen-de]], [[20220118_bitbox-01-2022-maighels-update-de]], [[20220331_bitbox-03-2022-glaernisch-update-de]], [[learnmeabitcoin-technical-upgrades-taproot]]
 

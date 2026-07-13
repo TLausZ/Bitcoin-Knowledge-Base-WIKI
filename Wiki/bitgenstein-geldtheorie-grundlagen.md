@@ -1,6 +1,7 @@
 # Bitgenstein: Grundlagen der Geldtheorie
 
 **Status:** established
+**Themen:** grundlagen, mining, oekonomie
 **Last updated:** 2026-06-22
 **Sources:** [[aprycot-bitgenstein-semantik-ergo-realitaet]], [[aprycot-bitgenstein-aepfel-zebras-wissen]], [[aprycot-bitgenstein-zeit-energie-dreiecksspiel]]
 

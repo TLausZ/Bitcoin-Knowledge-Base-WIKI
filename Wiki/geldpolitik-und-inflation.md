@@ -1,6 +1,7 @@
 # Geldpolitik und Inflation: Das 2%-Paradigma
 
 **Status:** established
+**Themen:** oekonomie
 **Last updated:** 2026-07-07
 **Sources:** [[aprycot-bednarek-paradigmenwechsel-geldpolitik]], [[aprycot-parker-lewis-bitcoin-ist-gesunder-menschenverstand]], [[aprycot-parker-lewis-bitcoin-bringt-das-in-ordnung]], [[aprycot-parker-lewis-enders-game-das-grosse-spiel]], [[aprycot-time-to-challenge-pladoyer-vernunft.md]], [[20221129_bmi-marktupdate-geldmenge-euro-vs-btc-de]]
 

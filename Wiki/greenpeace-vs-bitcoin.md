@@ -1,6 +1,7 @@
 # Greenpeace vs. Bitcoin
 
 **Status:** established
+**Themen:** mining, adoption, kritik, studien
 **Last updated:** 2026-06-30
 **Sources:** [[Rebuttal_ GreenpeaceUSA REPORT on Bitcoin and Big Finance]], [[An Open Letter to Greenpeace about Bitcoin]], [[The Data vs. The Narrative_ How GreenpeaceUSA’s Anti-Bitcoin Campaign Stalled the Green Transition]], [[The Skull that Switched Sides]], [[How use of the term “Greenwash” Can Discourage critical thinking about Bitcoin]], [[Open letter to GreenpeaceUSA]], [[Rebuttal of GreenpeaceUSA Report on Bitcoin]]
 

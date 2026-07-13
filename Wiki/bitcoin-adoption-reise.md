@@ -1,6 +1,7 @@
 # Bitcoin-Adoption: Die persönliche Reise
 
 **Status:** established
+**Themen:** grundlagen, lightning, oekonomie, philosophie, adoption
 **Last updated:** 2026-07-04
 **Sources:** [[aprycot-gigi-weg-zum-bitcoin-standard.md]], [[aprycot-gigi-liebe-familie-liebe-freunde]], [[Reflections after 4 years (one Bitcoin cycle) rabbit hole journey]], [[20250803_heartmoney-bitcoin-statt-burnout]], [[20250622_heartmoney-pommes-preise-bitcoin-ein-gefuhl-kehrt-zuruck]], [[20250713_heartmoney-gehorsam-oder-bitcoin]], [[20250810_heartmoney-magisch-oder-logisch-7-grunde-fur-bitcoin]], [[20250817_heartmoney-eine-zwischenzeit]], [[20260426_heartmoney-elf-minuten-auf-dem-boden]]
 

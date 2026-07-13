@@ -1,6 +1,7 @@
 # Dollar-Hegemonie und Super-Imperialismus
 
 **Status:** established
+**Themen:** oekonomie, adoption
 **Last updated:** 2026-06-24
 **Sources:** [[aprycot-gladstein-das-ende-des-super-imperialismus.md]], [[aprycot-gladstein-kosten-petrodollar]]
 

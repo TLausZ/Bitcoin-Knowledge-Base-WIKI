@@ -1,6 +1,7 @@
 # Proof-of-Stake: Sicherheitsprobleme und Worst-Case-Versagen
 
 **Status:** established
+**Themen:** protokoll, kritik
 **Last updated:** 2026-06-22
 **Sources:** [[aprycot-nguyen-pos-falsche-denkweise]], [[aprycot-nguyen-pos-private-schluessel-faelschungssicher]]
 

@@ -1,6 +1,7 @@
 # Fedimint und Community Custody
 
 **Status:** emerging
+**Themen:** protokoll, lightning, philosophie
 **Last updated:** 2026-06-23
 **Sources:** [[aprycot-fedimints-gladstein]], [[digitales-bargeld-und-ecash]]
 

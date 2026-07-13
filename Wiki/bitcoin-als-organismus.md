@@ -1,6 +1,7 @@
 # Bitcoin als Organismus
 
 **Status:** established
+**Themen:** protokoll, mining, philosophie, adoption, kritik
 **Last updated:** 2026-07-04
 **Sources:** [[aprycot-bitcoin-ist-das-mycel-des-geldes]], [[aprycot-bitcoin-pionier-spezies]], [[20260125_heartmoney-der-bitcoin-fruhling-beginnt]], [[20260315_heartmoney-ein-tag-der-alles-verandert]]
 

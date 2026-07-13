@@ -1,6 +1,7 @@
 # Muun Wallet
 
 **Status:** established
+**Themen:** protokoll, lightning, wallets
 **Last updated:** 2026-06-09
 **Sources:** [[Self-Custody in Muun__Why Not just a Mnemonic_]], [[Muun Releases Non-Custodial Bitcoin and Lightning Wallet for iOS]], [[A Deep Dive into LND_ Overview and Channel Funding Process]], [[A Closer Look at Submarine Swaps in the Lightning Network]], [[How to Build a Bulletproof Lightning Node]], [[Designing a foolproof script upgrading mechanism]]
 

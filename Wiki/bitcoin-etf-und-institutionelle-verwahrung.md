@@ -1,6 +1,7 @@
 # Bitcoin-ETF und institutionelle Verwahrung
 
 **Status:** established
+**Themen:** self-custody, oekonomie, adoption
 **Last updated:** 2026-06-22
 **Sources:** [[aprycot-vertrau-mir-bruder]]
 

@@ -1,6 +1,7 @@
 # Bitcoin und Absolute Knappheit
 
 **Status:** established
+**Themen:** protokoll, oekonomie, philosophie
 **Last updated:** 2026-06-25
 **Sources:** [[aprycot-breedlove-offener-brief-ray-dalio]], [[aprycot-breedlove-die-zahl-null-und-bitcoin]]
 

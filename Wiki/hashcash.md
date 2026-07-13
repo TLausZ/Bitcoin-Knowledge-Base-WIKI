@@ -1,6 +1,7 @@
 # Hashcash und Proof-of-Work
 
 **Status:** established
+**Themen:** grundlagen, protokoll, mining, geschichte
 **Last updated:** 2026-06-17
 **Sources:** [[hashcash]], [[bitcoin-whitepaper]]
 

@@ -1,6 +1,7 @@
 # Bitcoin Seed Cracking: Praktische Angriffsflächen
 
 **Status:** established
+**Themen:** self-custody
 **Last updated:** 2026-06-28
 **Sources:** [[alex-waltz-ethereum-wallet-hack]]
 

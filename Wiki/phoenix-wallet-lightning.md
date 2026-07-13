@@ -1,6 +1,7 @@
 # Phoenix Wallet und Lightning Network
 
 **Status:** established
+**Themen:** protokoll, self-custody, lightning, wallets
 **Last updated:** 2026-06-09
 **Sources:** [[2026-06-09_phoenix-wallet-faq]]
 

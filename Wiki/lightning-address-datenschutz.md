@@ -1,6 +1,7 @@
 # Lightning Address und Datenschutz
 
 **Status:** established
+**Themen:** privacy, lightning
 **Last updated:** 2026-06-12
 **Sources:** [[reneaaron_spark-lnaddress-doxxer]], [[2026-06-09_wallet-of-satoshi-faq]]
 

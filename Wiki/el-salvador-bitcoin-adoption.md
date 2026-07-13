@@ -1,6 +1,7 @@
 # El Salvador — Bitcoin-Adoption
 
 **Status:** established
+**Themen:** lightning, adoption
 **Last updated:** 2026-06-22
 **Sources:** [[aprycot-gladstein-el-salvador-dorf-starker-mann]]
 

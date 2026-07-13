@@ -1,6 +1,7 @@
 # Multisig und kollaborative Verwahrung
 
 **Status:** established
+**Themen:** self-custody
 **Last updated:** 2026-06-06
 **Sources:** [[20260326_sichere-deine-bitcoin-mit-bitbox-und-unchained]], [[20240919_was-ist-multisig-alles-was-du-wissen-musst]], [[20220623_bitcoin-multisig-sparrow-bitbox02-de]], [[20220309_bitbox02-multisig-specter-desktop-de]]
 

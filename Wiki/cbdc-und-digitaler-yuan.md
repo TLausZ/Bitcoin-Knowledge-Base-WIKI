@@ -1,6 +1,7 @@
 # CBDC und Digitaler Yuan
 
 **Status:** established
+**Themen:** protokoll, mining, oekonomie, philosophie
 **Last updated:** 2026-06-22
 **Sources:** [[aprycot-gladstein-china-blockchain-bitcoin-freiheit]]
 

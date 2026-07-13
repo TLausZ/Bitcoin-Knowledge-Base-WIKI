@@ -1,6 +1,7 @@
 # Digitales Bargeld und eCash
 
 **Status:** established
+**Themen:** oekonomie, geschichte
 **Last updated:** 2026-06-23
 **Sources:** [[The Beauty of eCash]], [[2017_Your Secret Right to Cash]], [[1993_protecting-privacy-with-electronic-cash.pdf]], [[Satoshi Nakamoto Institute]], [[aprycot-gladstein-die-suche-nach-digitalem-bargeld]]
 

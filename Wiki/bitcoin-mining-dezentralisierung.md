@@ -1,6 +1,7 @@
 # Bitcoin-Mining-Dezentralisierung und Transaktionszensur
 
 **Status:** established
+**Themen:** grundlagen, protokoll, self-custody, mining
 **Last updated:** 2026-07-05
 **Sources:** [[aprycot-bitcoin-transaktionskriege-home-mining]], [[20250914_heartmoney-bitcoin-online-bananen-offline]], [[20250615_heartmoney-hitze-hoffnung-hashrate]]
 

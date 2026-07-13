@@ -1,6 +1,7 @@
 # Bitcoin und Immobilien
 
 **Status:** established
+**Themen:** mining, oekonomie, adoption
 **Last updated:** 2026-06-29
 **Sources:** [[aprycot-digital-real-estate-bitcoin-immobilien]], [[aprycot-warum-bitcoin-optimale-kreditsicherheit]], [[aprycot-bitcoin-ist-kein-eigentum]], [[The Bitcoin Newsletter #1 - Bitcoin vs real estate_ what is the better store of value_]], [[The Bitcoin Newsletter #5 - Bitcoin is digital real estate]], [[The Bitcoin Newsletter #10 - Bitcoin & Real Estate_ a guide.]], [[The Bitcoin Newsletter 13 - How Bitcoin is changing the housing market]], [[The Bitcoin Newsletter 13 - How Bitcoin is changing the housing market]], [[The importance of Bitcoin’s mobility]], [[Bitcoin & Real Estate]], [[Real estate vs Bitcoin_ Dismantling the Cash-Flow Narrative]], [[Why Bitcoin Is The Ultimate Technology To Preserve Wealth]], [[Bitcoin’s Role as Collateral in Real Estate Development]], [[The Role of Real Estate and Its Utility Value on a Bitcoin Standard]], [[Real Estate Refinancing_ The Economics of Leverage When Buying Bitcoin]], [[Exploring Bitcoin's Potential as Pristine Collateral for Lending]], [[How Bitcoin Mining Can Energize Real Estate]], [[Bitcoin’s Impact on Global Markets_ Housing, Interest Rates, Lending, and Investments]], [[The Strategy Playbook_ Lessons for Real Estate Entrepreneurs]], [[Navigating the Shift from Real Estate to Bitcoin_ Redefining How Humanity Saves, Builds Wealth, and Lives]], [[Digital Real Estate — Pre-Order Now (Early Access for Subscribers)]], [[Toward the Separation of Money and Production]]
 

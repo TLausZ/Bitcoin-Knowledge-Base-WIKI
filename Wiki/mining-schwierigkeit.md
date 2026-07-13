@@ -1,6 +1,7 @@
 # Mining-Schwierigkeit
 
 **Status:** established
+**Themen:** protokoll, mining
 **Last updated:** 2026-06-28
 **Sources:** [[learnmeabitcoin-beginners-guide-difficulty]], [[alex-waltz-difficulty-adjustment]]
 

@@ -1,6 +1,7 @@
 # Shamir Secret Sharing
 
 **Status:** established
+**Themen:** protokoll, self-custody
 **Last updated:** 2026-07-05
 **Sources:** [[202606_Shamir Secret Sharing-BitcoinDevs]], [[Vorlage für «Poor Man Shamir's Secret Sharing Scheme»]], [[20251130_heartmoney-schau-hin-der-tiger-greift-an]]
 

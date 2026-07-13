@@ -1,6 +1,7 @@
 # Bitcoin kann nicht kopiert werden
 
 **Status:** established
+**Themen:** protokoll, privacy, oekonomie
 **Last updated:** 2026-06-23
 **Sources:** [[aprycot-parker-lewis-bitcoin-kann-nicht-kopiert-werden]], [[aprycot-parker-lewis-bitcoin-nicht-blockchain]]
 

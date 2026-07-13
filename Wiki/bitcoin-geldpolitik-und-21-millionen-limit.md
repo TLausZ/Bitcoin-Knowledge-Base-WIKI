@@ -1,6 +1,7 @@
 # Bitcoin Geldpolitik und das 21-Millionen-Limit
 
 **Status:** established
+**Themen:** grundlagen, protokoll, oekonomie
 **Last updated:** 2026-07-05
 **Sources:** [[20260424_wie-das-21-millionen-limit-von-bitcoin-tatsächlich-durchgesetzt-wird]], [[20220620_warum-ist-bitcoin-wichtig-de]], [[Die andere Seite der Medaille.md]], [[Bitcoin ist die Wiederentdeckung des Geldes.md]], [[aprycot-rochard-perfekte-geldpolitik-bitcoin]], [[waltz-bitcoin-facts]], [[20260308_heartmoney-nur-noch-1-million-bitcoin]]
 

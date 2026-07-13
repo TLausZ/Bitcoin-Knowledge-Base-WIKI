@@ -1,6 +1,7 @@
 # Kryptografische Schlüssel und Adressen
 
 **Status:** established
+**Themen:** protokoll, privacy
 **Last updated:** 2026-06-19
 **Sources:** [[learnmeabitcoin-beginners-guide-keys-addresses]], [[learnmeabitcoin-beginners-guide-private-keys]], [[learnmeabitcoin-beginners-guide-public-keys]], [[learnmeabitcoin-technical-keys-overview]], [[learnmeabitcoin-technical-keys-private-key]], [[learnmeabitcoin-technical-keys-public-key]], [[learnmeabitcoin-technical-keys-public-key-hash]], [[learnmeabitcoin-technical-keys-address]], [[learnmeabitcoin-technical-keys-checksum]], [[learnmeabitcoin-technical-keys-base58]], [[learnmeabitcoin-technical-keys-bech32]], [[learnmeabitcoin-technical-keys-signature]], [[learnmeabitcoin-technical-keys-private-key-wif]]
 

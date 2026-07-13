@@ -1,6 +1,7 @@
 # Hardware-Wallet Sicherheitsarchitektur
 
 **Status:** established
+**Themen:** self-custody
 **Last updated:** 2026-06-06
 **Sources:** [[20250227_worauf-man-beim-kauf-einer-neuen-hardware-wallet-achten-sollte]], [[20260312_warum-vorsichtig-sein-eine-hardware-wallet-nicht-ersetzen-kann-zero-day-schwachstellen-erklärt]], [[20250620_vorstellung-der-bitbox02-nova]], [[20250703_whisper-wie-die-sichere-bluetooth-integration-der-bitbox02-nova-funktioniert]], [[20220419_hardware-wallet-display-pflicht-de]], [[20220118_bitbox-01-2022-maighels-update-de]], [[20210906_was-bedeutet-open-source-de]], [[20210609_secure-chip-open-source-firmware-de]], [[20210317_5-fragen-hardware-wallet-sicherheit-de]], [[20210615_bitboxapp-android-de]]
 

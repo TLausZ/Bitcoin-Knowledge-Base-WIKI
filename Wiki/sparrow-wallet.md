@@ -1,6 +1,7 @@
 # Sparrow Wallet
 
 **Status:** established
+**Themen:** self-custody, privacy, wallets
 **Last updated:** 2026-06-22 (Pass 34: 7 offizielle Sparrow-Docs)
 **Sources:** [[20210714_einblick-bitcoin-internals-sparrow-wallet-bitbox02-de]], [[20220623_bitcoin-multisig-sparrow-bitbox02-de]], [[sparrowwallet-Best Practices]], [[sparrowwallet-Quick Start Guide]], [[sparrowwallet-Connect to Bitcoin Core]], [[sparrowwallet-Server Performance]], [[sparrowwallet-Setup a Coldcard wallet]], [[sparrowwallet-Spending Privately]], [[sparrowwallet-Frequently Asked Questions]]
 

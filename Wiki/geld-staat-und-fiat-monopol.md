@@ -1,6 +1,7 @@
 # Geld, Staat und das Fiat-Monopol
 
 **Status:** established
+**Themen:** oekonomie, adoption
 **Last updated:** 2026-07-05
 **Sources:** [[aprycot-node-weltordnung]], [[aprycot-keynes-ueber-inflation]], [[Strukturanpassung_ Wie der IWF und die Weltbank arme Länder unterdrücken und ihre Ressourcen in reiche Länder leiten.md]], [[Bitcoin ist die Wiederentdeckung des Geldes.md]], [[aprycot-breedlove-herren-und-sklaven-des-geldes]], [[aprycot-fab-wurzel-allen-uebels]], [[20260609_heartmoney-bitcoin-precht-und-prag]]
 

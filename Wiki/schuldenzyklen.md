@@ -1,6 +1,7 @@
 # Schuldenzyklen
 
 **Status:** established
+**Themen:** privacy, oekonomie, adoption
 **Last updated:** 2026-07-02
 **Sources:** [[Why the whole world live on credit, and how debt cycles work_]], [[Reflections after 4 years (one Bitcoin cycle) rabbit hole journey]]
 

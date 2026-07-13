@@ -1,6 +1,7 @@
 # Ideal Money und Bitcoin
 
 **Status:** speculative
+**Themen:** privacy, oekonomie
 **Last updated:** 2026-06-09
 **Sources:** [[2012_ideal-money-and-asymptotically-ideal-money]], [[2026_the-praxeology-of-privacy.pdf]]
 

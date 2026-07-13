@@ -1,6 +1,7 @@
 # Bitcoin-Antifragilität
 
 **Status:** established
+**Themen:** protokoll, philosophie
 **Last updated:** 2026-06-23
 **Sources:** [[aprycot-parker-lewis-bitcoin-ist-antifragil]]
 

@@ -1,6 +1,7 @@
 # Michael Wolf: 21 Lektionen aus dem Bitcoin-Ratgeber
 
 **Status:** established
+**Themen:** grundlagen, protokoll, oekonomie, philosophie, buecher
 **Last updated:** 2026-07-05
 **Sources:** [[bitcoin-ratgeber_kapitel-09-21-lektionen]]
 

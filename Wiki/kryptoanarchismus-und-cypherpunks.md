@@ -1,6 +1,7 @@
 # Kryptoanarchismus und die Cypherpunk-Bewegung
 
 **Status:** established
+**Themen:** philosophie
 **Last updated:** 2026-06-22
 **Sources:** [[1988_The Crypto Anarchist Manifesto]], [[1992_Libertaria in Cyberspace]], [[19940910_The-Cyphernomicon]], [[1996_A Declaration of the Independence of Cyberspace]], [[2014_Meditations on Cypherpunk Nightmares]], [[2017_Fog of CryptoWar]], [[cypherpunk-manifesto.txt]], [[aprycot-gesegnet-sind-die-bitcoiner]]
 

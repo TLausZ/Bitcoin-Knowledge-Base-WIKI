@@ -1,6 +1,7 @@
 # Ergebnisgleichheit und Freiheit
 
 **Status:** established
+**Themen:** philosophie
 **Last updated:** 2026-06-22
 **Sources:** [[aprycot-ein-plaedoyer-fuer-ungleichheit]]
 

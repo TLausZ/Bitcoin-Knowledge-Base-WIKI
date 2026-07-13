@@ -1,6 +1,7 @@
 # Cypherpunk's Manifesto
 
 **Status:** established
+**Themen:** privacy, philosophie, geschichte
 **Last updated:** 2026-06-22
 **Sources:** [[cypherpunk-manifesto.txt]], [[aprycot-gigi-freiheit-privatsphaere]]
 

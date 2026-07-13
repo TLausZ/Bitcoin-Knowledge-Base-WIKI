@@ -1,6 +1,7 @@
 # Fortego: Backup-Sicherheit und Double Responsibility Problem
 
 **Status:** established
+**Themen:** protokoll, self-custody
 **Last updated:** 2026-07-08
 **Sources:** [[fortego_Das Double Responsibility Problem]], [[fortego_Die Fortego-Sicherheitsarchitektur]], [[fortego_Seed Phrase_ Die eine Regel, die keine Ausnahme kennt]], [[Deine Steelwallet ist leer. Wegwerfen kannst du sie trotzdem nicht.]]
 

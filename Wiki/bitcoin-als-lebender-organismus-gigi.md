@@ -1,6 +1,7 @@
 # Bitcoin als lebender Organismus (Gigi)
 
 **Status:** established
+**Themen:** protokoll, self-custody, philosophie
 **Last updated:** 2026-06-22
 **Sources:** [[aprycot-gigi-lebenszeichen]], [[aprycot-gigi-bitcoins-lebensraeume]]
 

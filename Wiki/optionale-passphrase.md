@@ -1,6 +1,7 @@
 # Optionale Passphrase (BIP-39)
 
 **Status:** established
+**Themen:** self-custody
 **Last updated:** 2026-06-06
 **Sources:** [[20240411_warum-backups-auf-microsd-karten-nicht-verschlüsselt-werden-sollten]], [[20250123_wie-du-backups-deiner-wallet-sicher-erstellst-und-verwahrst]], [[20231005_komplexität-ist-keine-sicherheit]], [[20230216_optionale-passphrase-vorteile-und-risiken-de]], [[20211130_bitbox-11-2021-planura-update-de]]
 

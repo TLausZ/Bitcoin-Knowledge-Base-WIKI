@@ -1,6 +1,7 @@
 # Hyperbitcoinization und Zitadellen
 
 **Status:** emerging
+**Themen:** oekonomie, adoption
 **Last updated:** 2026-07-07
 **Sources:** [[aprycot-warren-zeitreisender-zukunft]], [[The Path to Hyberbitcoinization]], [[The Path to Hyperbitcoinization]], [[20240722_bmi-bitcoin-nation-sound-money-democracy-en]]
 

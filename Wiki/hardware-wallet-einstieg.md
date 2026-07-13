@@ -1,6 +1,7 @@
 # Hardware-Wallet — Warum und für wen
 
 **Status:** established
+**Themen:** grundlagen, self-custody, adoption
 **Last updated:** 2026-07-05
 **Sources:** [[20200409_wieso-hardware-wallet-bitcoin-de]], [[20250824_heartmoney-endlich-durchstarten-mit-bitcoin-8-schritte-plan]]
 

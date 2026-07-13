@@ -1,6 +1,7 @@
 # Frauen und Bitcoin
 
 **Status:** established
+**Themen:** oekonomie, philosophie
 **Last updated:** 2026-07-04
 **Sources:** [[20260315_heartmoney-ein-tag-der-alles-verandert]], [[20260308_heartmoney-nur-noch-1-million-bitcoin]], [[20251013_heartmoney-magie-in-ingolstadt]], [[20250908_heartmoney-zwischen-berlin-bitcoin-und-visionaren-weltverbesserern]], [[20250615_heartmoney-hitze-hoffnung-hashrate]], [[20250629_heartmoney-rechthaben-oder-bitcoin-verstehen]]
 

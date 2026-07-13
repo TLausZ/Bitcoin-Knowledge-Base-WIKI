@@ -1,6 +1,7 @@
 # Monetärer Kolonialismus und der CFA-Franc
 
 **Status:** established
+**Themen:** oekonomie, adoption
 **Last updated:** 2026-06-30
 **Sources:** [[aprycot-gladstein-monetaerer-kolonialismus]]
 

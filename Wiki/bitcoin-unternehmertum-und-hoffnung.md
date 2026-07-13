@@ -1,6 +1,7 @@
 # Bitcoin, Unternehmertum und Hoffnung
 
 **Status:** established
+**Themen:** oekonomie, philosophie
 **Last updated:** 2026-06-25
 **Sources:** [[aprycot-breedlove-bitcoin-ist-hoffnung]]
 

@@ -1,6 +1,7 @@
 # Bitcoin Chainwork und kumulativer Proof-of-Work
 
 **Status:** established
+**Themen:** protokoll, mining
 **Last updated:** 2026-06-28
 **Sources:** [[alex-waltz-bitcoin-total-hash-computations]]
 

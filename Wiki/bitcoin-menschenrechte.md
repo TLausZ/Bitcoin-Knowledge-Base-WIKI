@@ -1,6 +1,7 @@
 # Bitcoin und Menschenrechte
 
 **Status:** established
+**Themen:** oekonomie, philosophie, adoption
 **Last updated:** 2026-06-23
 **Sources:** [[aprycot-herbort-bitcoin-menschenrechte]]
 

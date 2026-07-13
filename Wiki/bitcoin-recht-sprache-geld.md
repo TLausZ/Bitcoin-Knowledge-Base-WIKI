@@ -1,6 +1,7 @@
 # Bitcoin: Recht, Sprache und Geld
 
 **Status:** established
+**Themen:** privacy, mining, oekonomie, philosophie, kritik, geschichte
 **Last updated:** 2026-06-22
 **Sources:** [[aprycot-gigi-unveraeusserliche-eigentumsrechte]]
 

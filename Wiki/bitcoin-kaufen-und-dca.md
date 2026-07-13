@@ -1,6 +1,7 @@
 # Bitcoin kaufen und DCA
 
 **Status:** established
+**Themen:** grundlagen, self-custody
 **Last updated:** 2026-07-13
 **Sources:** [[20230308_ankundigung-einer-neuen-partnerschaft-bitbox-pocket-bitcoin]], [[20230308_bitbox-03-2023-trift-update-de]], [[20221101_wie-man-bitcoin-kauft-de]], [[20220809_wie-man-grosse-menge-bitcoin-kauft-de]], [[20210512_bitbox-relai-schweizer-kombo-de]], [[20210623_mit-pocket-bitcoin-auf-bitbox02-stacken-de]], [[2025-05-14_Blocktrainer-Bitcoin kaufen 2025_ Lohnt sich der Einstieg noch_]], [[2025-05-14_Blocktrainer-Bitcoin_ 5 Anfängerfehler, die teuer werden können]], [[2026-06-08_BlocktrainerBitcoin_ 10 Einsteigerfragen]], [[bitcoin-ratgeber_kapitel-03-von-der-boerse-zur-eigenen-wallet]], [[Does timing matter for recurring bitcoin buys_.md]]
 

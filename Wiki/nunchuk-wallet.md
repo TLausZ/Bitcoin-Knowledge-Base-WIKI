@@ -1,6 +1,7 @@
 # Nunchuk Wallet
 
 **Status:** established
+**Themen:** protokoll, self-custody, wallets
 **Last updated:** 2026-06-20
 **Sources:** [[2026-06-09_nunchuk-faq]], [[The Definitive Guide to Bitcoin Inheritance (2026)]], [[Recover a Miniscript wallet with Bitcoin Core (2026)]], [[Recover a Nunchuk Wallet with Sparrow (2026)]], [[nunchuckFAQ-general]], [[nunchuck FAQ Wallet]], [[Nunchuk wallet FAQ inheritence]], [[Nunchuk wallet FAQ subscription]]
 

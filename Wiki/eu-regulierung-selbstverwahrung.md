@@ -1,6 +1,7 @@
 # EU-Regulierung und Bitcoin-Selbstverwahrung
 
 **Status:** established
+**Themen:** self-custody, adoption
 **Last updated:** 2026-06-05
 **Sources:** [[20240328_was-bedeuten-künftige-eu-regulierungen-für-bitbox-kunden]], [[20250109_wie-satoshi-tests-der-selbstverwahrung-schaden-und-warum-aopp-die-lösung-ist]]
 

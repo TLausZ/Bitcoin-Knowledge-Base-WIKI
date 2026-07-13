@@ -1,6 +1,7 @@
 # Bitcoin als Inflationsschutz
 
 **Status:** established
+**Themen:** oekonomie
 **Last updated:** 2026-06-22
 **Sources:** [[2022_Bitcoin-Everything-Divided-by-21-Million_Svanholm]], [[2020_Bitcoin-Unabhaengigkeit-neu-gedacht_Svanholm-Herminghaus]], [[Counterfactual_Analysis_Bitcoin_Gold_Rainy_Day_Funds]], [[2023_Praxeology-Invisible-Hand-Feeds-You_Svanholm]], [[aprycot-die-natur-des-wertes]], [[aprycot-keynes-ueber-inflation]]
 

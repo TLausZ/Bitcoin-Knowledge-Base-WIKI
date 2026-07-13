@@ -1,6 +1,7 @@
 # WalletConnect und DApps
 
 **Status:** established
+**Themen:** wallets
 **Last updated:** 2026-06-20
 **Sources:** [[20240118_mithilfe-von-walletconnect-die-bitboxapp-mit-einer-dapp-verbinden]]
 

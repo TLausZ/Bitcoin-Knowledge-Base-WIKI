@@ -1,6 +1,7 @@
 # Bitcoin und Unternehmens-Strategie
 
 **Status:** established
+**Themen:** oekonomie, philosophie, adoption, kritik
 **Last updated:** 2026-06-29
 **Sources:** [[The Bitcoin Newsletter #3 - Bitcoin, banks, and treasury management]], [[The Bitcoin Newsletter #4 - Bitcoin stocks]], [[The Bitcoin Newsletter #6 - Venture capital]], [[The Bitcoin Newsletter #7 - Why companies need to integrate Bitcoin into their strategies for long-term success]], [[The Bitcoin Newsletter #8 - How to be successful in Bitcoin]], [[The Bitcoin Newsletter 12 - How Bitcoin could change the financial industry]], [[The Bitcoin Newsletter 14 - How Bitcoin & Nostr foster innovation without institutional credit]], [[The Strategy Playbook_ Lessons for Real Estate Entrepreneurs]], [[From Cypherpunks to Corporations_ What Corporate Adoption Means For Bitcoin]], [[The Metaplanet Story_ From Crisis to a Bitcoin Standard]]
 

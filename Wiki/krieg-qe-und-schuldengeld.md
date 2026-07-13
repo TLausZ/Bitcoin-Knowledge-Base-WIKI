@@ -1,6 +1,7 @@
 # Krieg, QE und Schuldengeld
 
 **Status:** established
+**Themen:** oekonomie
 **Last updated:** 2026-06-22
 **Sources:** [[aprycot-gladstein-unsichtbare-kosten-des-krieges-qe]]
 

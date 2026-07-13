@@ -1,6 +1,7 @@
 # On-Chain-Indikatoren und Anlegerverhalten
 
 **Status:** emerging
+**Themen:** protokoll, oekonomie, studien
 **Last updated:** 2026-07-07
 **Sources:** [[20230221_bmi-ausgabe-21-onchain-update-de]], [[20230509_bmi-ausgabe-22-sentiment-paper-de]], [[20230221_bmi-issue-21-onchain-update-en]], [[20230509_bmi-issue-22-sentiment-paper-en]]
 

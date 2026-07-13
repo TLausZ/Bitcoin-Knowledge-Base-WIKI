@@ -1,6 +1,7 @@
 # Airgap und Kommunikationskanäle bei Hardware-Wallets
 
 **Status:** established
+**Themen:** self-custody, philosophie
 **Last updated:** 2026-06-06
 **Sources:** [[20211104_macht-airgap-bitcoin-hardware-wallets-sicherer-de]]
 

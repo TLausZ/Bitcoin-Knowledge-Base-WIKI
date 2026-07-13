@@ -1,6 +1,7 @@
 # Bitcoin Blockchain: Struktur und Aufbau
 
 **Status:** established
+**Themen:** protokoll
 **Last updated:** 2026-06-19
 **Sources:** [[learnmeabitcoin-beginners-guide-blockchain]], [[learnmeabitcoin-beginners-guide-blocks]], [[learnmeabitcoin-technical-blockchain-overview]], [[learnmeabitcoin-technical-blockchain-height]], [[learnmeabitcoin-technical-blockchain-longest-chain]], [[learnmeabitcoin-technical-blockchain-chain-reorganization]], [[learnmeabitcoin-technical-blockchain-51-attack]]
 

@@ -1,6 +1,7 @@
 # Digitales Zeitstempel und Hash-Verkettung
 
 **Status:** established
+**Themen:** grundlagen, protokoll, geschichte
 **Last updated:** 2026-06-17
 **Sources:** [[How to time-stamp a digital document]], [[Improving the Efficiency and Reliability of Digital Time-Stamping ]], [[secure-names-bit-strings]], [[secure-timestamping-service]]
 

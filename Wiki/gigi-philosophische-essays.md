@@ -1,6 +1,7 @@
 # Gigis philosophische Essays
 
 **Status:** established
+**Themen:** philosophie
 **Last updated:** 2026-06-22
 **Sources:** [[Freude.md]], [[Erdrückend _ Gigi.md]], [[aprycot-zauberstaub-kryptographie]], [[aprycot-kreativitaet-gigi]], [[aprycot-bitcoins-anziehungskraft]], [[aprycot-tyrannei-gigi]], [[aprycot-menschen-gigi]], [[aprycot-gigi-das-geschriebene-wort]], [[aprycot-gigi-bitcoin-die-welt-wacht-auf]]
 

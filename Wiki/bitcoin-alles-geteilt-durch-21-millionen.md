@@ -1,8 +1,9 @@
 # Bitcoin: Alles geteilt durch 21 Millionen
 
 **Status:** established
-**Last updated:** 2026-06-20
-**Sources:** [[2022_Bitcoin-Everything-Divided-by-21-Million_Svanholm]], [[2024_Bitcoin-Inverse-of-Clown-World_Svanholm-de-Wolf]]
+**Themen:** oekonomie, buecher
+**Last updated:** 2026-07-13
+**Sources:** [[2022_Bitcoin-Everything-Divided-by-21-Million_Svanholm]], [[2023_Bitcoin-Alles-durch-21-Millionen_Svanholm-Herminghaus]]
 
 ## Summary
 
@@ -95,18 +96,6 @@ In Computerspielen hat der Charakter zwei primäre Ressourcen: Gesundheitspunkte
 
 Netzwerk-Technologien folgen S-förmigen Adoptionskurven (Metcalfe-Effekt): Langsamer Start, explosives Wachstum in der Mitte, Abschwächung bei Sättigung. Radio, Telefon, TV, PC, Internet, Google, Facebook — alle S-förmig. Jede folgende Technologie wurde schneller adoptiert als die vorherige, weil das bestehende Netzwerk (Internet, Smartphones) bereits vorhanden war. [[2022_Bitcoin-Everything-Divided-by-21-Million_Svanholm]] → [[bitcoin-powerlaw-und-preismodelle]]
 
-### Bitcoin Fixes This: Warum Preise fallen sollten
-
-Übung macht den Meister. Das ist eine der einfachsten Wahrheiten, die Kinder lernen: Wer etwas übt, wird besser darin. Besser werden heißt: effizienter produzieren, niedrigere Grenzkosten. Daher sollten in einem funktionierenden Geldsystem alle Preise über Zeit sinken — weil Menschen ständig besser werden in dem, was sie tun.
-
-Warum sinken Preise nicht? Weil das Geld selbst kaputt ist.
-
-**Gold:** Goldschürfer wurden ungefähr genauso effizienter wie der Rest der Wirtschaft. Die Goldproduktion wuchs in etwa proportional zur gesteigerten Produktivität — Preise blieben grob stabil.
-
-**Fiat:** Die Kosten für die Produktion eines neuen Dollars sind geringer als die Kosten, das Wort "Dollar" auf einer Tastatur einzutippen. Preise steigen trotz massiver Produktivitätssteigerungen überall.
-
-**Bitcoin:** Die Produktion neuer Satoshis ist *nicht* von der Effizienz der Miner abhängig. Der Difficulty-Adjustment-Algorithmus reguliert die Mining-Schwierigkeit basierend auf der Zeit — nicht auf der Effizienz. Kein Mensch hat je in einer Wirtschaft mit absolut endlichem, voll teilbarem und teleportierbarem Geld gelebt. Bitcoin ist historisch ohne Präzedenz. (Svanholm & de Wolf, 2024) [[2024_Bitcoin-Inverse-of-Clown-World_Svanholm-de-Wolf]]
-
 ### Transition: Kredit ist kein Geld
 
 Jede Einheit Fiat-Währung ist Kredit, den jemand jemandem schuldet — kein Kapital, keine gespeicherte Arbeit. Das System kann keine Deflation zulassen, weil Deflation die Kreditlast in realen Werten erhöhen würde. Es *muss* inflationieren, um zu überleben.
@@ -115,6 +104,7 @@ Technologie ist von Natur aus deflationär: Wir werden besser darin, Dinge herzu
 
 ## Related
 
+- [[bitcoin-inverse-of-clown-world]]
 - [[bitcoin-geldpolitik-und-21-millionen-limit]]
 - [[bitcoin-geld-als-fiktion-und-paradigmenwechsel]]
 - [[praxeologie-methode-und-werttheorie]]

@@ -1,6 +1,7 @@
 # Bitcoin Covenants
 
 **Status:** emerging
+**Themen:** protokoll, self-custody
 **Last updated:** 2026-06-04
 **Sources:** [[20240229_was-sind-bitcoin-covenants-ctv-und-checktxhashverify]], [[20260409_wie-bitcoin-vaults-komfort-mit-sicherheit-verbinden]]
 

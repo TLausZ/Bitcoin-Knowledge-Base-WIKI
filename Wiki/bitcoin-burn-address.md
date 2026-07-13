@@ -1,6 +1,7 @@
 # Bitcoin Burn Address
 
 **Status:** established
+**Themen:** protokoll
 **Last updated:** 2026-06-28
 **Sources:** [[alex-waltz-bitcoin-burn-address]]
 

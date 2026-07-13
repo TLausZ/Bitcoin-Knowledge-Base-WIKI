@@ -1,6 +1,7 @@
 # Bitcoin-Datenformate
 
 **Status:** established
+**Themen:** protokoll
 **Last updated:** 2026-06-19
 **Sources:** [[learnmeabitcoin-technical-general-hexadecimal]], [[learnmeabitcoin-technical-general-bytes]], [[learnmeabitcoin-technical-general-little-endian]], [[learnmeabitcoin-technical-general-byte-order]], [[learnmeabitcoin-technical-general-compact-size]]
 

@@ -1,6 +1,7 @@
 # Satoshis Original-Ankündigung (2009)
 
 **Status:** established
+**Themen:** philosophie, geschichte, satoshi
 **Last updated:** 2026-06-19
 **Sources:** [[Bitcoin open source implementation of P2P currency]]
 

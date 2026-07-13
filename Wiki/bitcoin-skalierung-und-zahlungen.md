@@ -1,6 +1,7 @@
 # Bitcoin: Skalierung und Zahlungen
 
 **Status:** established
+**Themen:** protokoll, lightning, oekonomie
 **Last updated:** 2026-06-23
 **Sources:** [[aprycot-parker-lewis-bitcoin-nicht-zu-langsam]]
 

@@ -1,6 +1,7 @@
 # Finanzialisierung und Kapitalverbrauch
 
 **Status:** established
+**Themen:** oekonomie
 **Last updated:** 2026-06-22
 **Sources:** [[aprycot-bitgenstein-ueber-zeit-risiko]], [[aprycot-bitgenstein-konsum-maximierung]], [[aprycot-bitgenstein-verhaltensweisen-anreize]], [[aprycot-bitgenstein-landwirtschaft-und-kapital]]
 

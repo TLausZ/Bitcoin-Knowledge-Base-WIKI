@@ -1,6 +1,7 @@
 # Bitcoin-Regierungsresistenz
 
 **Status:** established
+**Themen:** grundlagen, protokoll, mining, philosophie, kritik
 **Last updated:** 2026-06-23
 **Sources:** [[aprycot-gladstein-koennen-regierungen-bitcoin-aufhalten]], [[aprycot-parker-lewis-bitcoin-kann-nicht-verboten-werden]], [[aprycot-parker-lewis-bitcoin-nicht-nur-fuer-kriminelle]], [[aprycot-gigi-konsequenzen-bitcoin-verbot]]
 

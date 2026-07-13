@@ -1,6 +1,7 @@
 # Bitcoins Silent IPO: OG-Distribution als Reifephase
 
 **Status:** emerging
+**Themen:** protokoll, oekonomie, adoption
 **Last updated:** 2026-07-05
 **Sources:** [[Bitcoins Silent IPO_ Why This Consolidation Isnt What You Think]]
 

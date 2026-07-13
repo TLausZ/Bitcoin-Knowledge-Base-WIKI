@@ -1,6 +1,7 @@
 # Phishing und Bitcoin-Angriffsmethoden
 
 **Status:** established
+**Themen:** self-custody, mining, kritik
 **Last updated:** 2026-07-05
 **Sources:** [[20230906_online-sicherheit-betrügerische-e-mails-erkennen]], [[20250911_wie-man-bitcoin-von-anderen-stiehlt]], [[20240627_wie-unser-kundensupport-bitbox-produkte-prägt]], [[20220721_datenleck-activecampaign-de]], [[20250921_heartmoney-von-spatsommer-zu-selbstermachtigung]], [[20250928_heartmoney-menschheit-geduld-bitcoin-in-dieser-reihenfolge]], [[bitcoin-ratgeber_kapitel-05-sicherheit]]
 

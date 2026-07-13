@@ -1,6 +1,7 @@
 # BitBox02 Features
 
 **Status:** established
+**Themen:** protokoll, self-custody, privacy, lightning, wallets
 **Last updated:** 2026-07-06
 **Sources:** [[Feature Highlights of the BitBox02 - EN]]
 

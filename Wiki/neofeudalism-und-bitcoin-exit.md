@@ -1,6 +1,7 @@
 # Neo-Feudalismus und Bitcoin als Exit
 
 **Status:** established
+**Themen:** oekonomie, adoption
 **Last updated:** 2026-06-24
 **Sources:** [[aprycot-bitgenstein-rhapsodie-nakamoto]], [[aprycot-bitcoin-ist-ariadne]], [[aprycot-svetski-utopische-dystopien]]
 

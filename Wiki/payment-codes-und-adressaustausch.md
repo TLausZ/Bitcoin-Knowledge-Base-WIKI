@@ -1,6 +1,7 @@
 # Payment Codes und Adressaustausch
 
 **Status:** emerging
+**Themen:** protokoll, privacy
 **Last updated:** 2026-06-04
 **Sources:** [[20240606_payment-codes-bitcoin-adressen-privat-austauschen]]
 

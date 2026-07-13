@@ -1,6 +1,7 @@
 # Silent Payments (BIP-352)
 
 **Status:** emerging
+**Themen:** protokoll, self-custody, privacy
 **Last updated:** 2026-06-04
 **Sources:** [[20240905_silent-payments-erklärt-teil-1]], [[20241017_silent-payments-erklärt-teil-2]], [[20241023_bitbox-10-2024-lugano-update]]
 

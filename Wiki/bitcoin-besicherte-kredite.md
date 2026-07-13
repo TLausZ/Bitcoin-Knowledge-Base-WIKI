@@ -1,6 +1,7 @@
 # Bitcoin-besicherte Kredite und Buy-Borrow-Die
 
 **Status:** established
+**Themen:** oekonomie
 **Last updated:** 2026-07-04
 **Sources:** [[20260421_heartmoney-von-bitcoin-leben-geht-das-wirklich]], [[20251026_heartmoney-bitcoin-auf-kredit-lohnt-sich-das]], [[20260412_heartmoney-bitcoin-proton-iran]], [[20260510_heartmoney-ein-barenmarkt-fur-ameisen]], [[20260630_heartmoney-bitcoin-angst-und-magie]]
 

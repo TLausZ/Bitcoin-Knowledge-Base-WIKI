@@ -1,6 +1,7 @@
 # Bitcoin Power Law und Preismodelle
 
 **Status:** established
+**Themen:** oekonomie
 **Last updated:** 2026-07-07
 **Sources:** [[A Mechanistic Derivation of the Bitcoin Price Power Law_ Network Adoption Dynamics and Generalised Metcalfe Scaling]], [[bitcoin_powerlaw_v4_FINALA]], [[Bitcoin_Supply_Demand_Price_Dynamics]], [[Supply_and_Demand_Framework_Bitcoin_Price_Forecasting]], [[20260125_heartmoney-der-bitcoin-fruhling-beginnt]], [[20260510_heartmoney-ein-barenmarkt-fur-ameisen]], [[20260630_heartmoney-bitcoin-angst-und-magie]], [[20251123_heartmoney-ki-hat-keine-traumata]], [[20230207_bmi-ausgabe-20-halvingzyklen-de]], [[20230207_bmi-issue-20-halving-cycles-en]]
 

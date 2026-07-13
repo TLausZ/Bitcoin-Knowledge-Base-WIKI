@@ -1,6 +1,7 @@
 # Diceware und eigene Seed-Generierung
 
 **Status:** established
+**Themen:** self-custody, philosophie, wallets
 **Last updated:** 2026-06-22
 **Sources:** [[20210203_wuerfle-bitcoin-wallet-diceware-de]], [[aprycot-diy-private-schluessel-bitcoin]]
 

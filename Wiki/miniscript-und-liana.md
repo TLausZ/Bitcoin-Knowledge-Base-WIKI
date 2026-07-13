@@ -1,6 +1,7 @@
 # Miniscript und zeitlich gesperrte Wiederherstellungsschlüssel
 
 **Status:** established
+**Themen:** protokoll, self-custody, philosophie, wallets
 **Last updated:** 2026-07-05
 **Sources:** [[20231109_erkunde-bitcoin-miniscript-mit-liana-und-der-bitbox02]], [[20241023_bitbox-10-2024-lugano-update]], [[20230323_bitcoin-miniscript-verstehen-teil-3]], [[20230302_bitcoin-miniscript-verstehen-teil-2-de]], [[20230216_bitcoin-miniscript-verstehen-teil-1-de]], [[20260315_heartmoney-ein-tag-der-alles-verandert]]
 

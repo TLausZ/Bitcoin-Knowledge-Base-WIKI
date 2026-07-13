@@ -1,6 +1,7 @@
 # Bitcoin als digitale Knappheit
 
 **Status:** established
+**Themen:** mining, oekonomie, philosophie
 **Last updated:** 2026-06-22
 **Sources:** [[aprycot-bitcoin-ist-digitale-knappheit]], [[aprycot-legendaerer-schatz-satoshi-nakamoto]]
 

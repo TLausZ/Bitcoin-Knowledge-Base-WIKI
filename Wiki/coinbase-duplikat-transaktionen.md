@@ -1,6 +1,7 @@
 # Coinbase-Transaktions-Duplikate
 
 **Status:** established
+**Themen:** protokoll
 **Last updated:** 2026-06-28
 **Sources:** [[alex-waltz-transaction-in-two-blocks]]
 

@@ -1,6 +1,7 @@
 # Bitcoin und Quantenrisiko
 
 **Status:** established
+**Themen:** protokoll, self-custody
 **Last updated:** 2026-06-29
 **Sources:** [[Bitcoin and Quantum Risk_ What Actually Matters]], [[core-lightning-26-06]], [[bip-0451]]
 

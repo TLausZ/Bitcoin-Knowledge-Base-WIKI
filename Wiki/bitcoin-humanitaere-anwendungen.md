@@ -1,6 +1,7 @@
 # Bitcoin als humanitäres Werkzeug
 
 **Status:** established
+**Themen:** mining, lightning, oekonomie, philosophie, adoption
 **Last updated:** 2026-07-02
 **Sources:** [[aprycot-waehrung-der-letzten-instanz]], [[aprycot-bitcoin-palaestinas-waehrung-freiheit]], [[aprycot-gladstein-humanitaere-oekologische-argumente]], [[aprycot-gladstein-meinungsfreiheit-digitales-zeitalter]], [[aprycot-gigi-bitcoin-einsatz-venezuela]], [[aprycot-gladstein-kuba-bitcoin-revolution]], [[aprycot-gladstein-finanzielle-freiheit-afghanistan]], [[aprycot-gladstein-finanzielle-privilegien]], [[21 Bitcoin Use Cases You Probably Aren't Aware Of (unless you've studied it)]], [[The untold story about who is really using Bitcoin and why]], [[Do cybercriminals prefer Fiat or Bitcoin_ the data is clear]], [[The Bitcoin Facts that Every Investment Committee Must Know]], [[038BitcoinsValueExplainedbyaRefugee]]
 

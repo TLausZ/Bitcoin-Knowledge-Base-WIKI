@@ -1,6 +1,7 @@
 # Payment Requests (SLIP-24)
 
 **Status:** established
+**Themen:** protokoll, self-custody, lightning
 **Last updated:** 2026-06-04
 **Sources:** [[20240822_bitcoin-sicher-an-eine-börse-versenden-mit-payment-requests]], [[20240711_bitbox-07-2024-ritom-update]], [[20241002_bitbox-10-2024-livigno-update]]
 

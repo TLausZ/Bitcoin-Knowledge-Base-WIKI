@@ -1,6 +1,7 @@
 # Bitcoin Mining: Netz und Ökonomie
 
 **Status:** established
+**Themen:** mining, oekonomie, adoption, studien
 **Last updated:** 2026-06-30
 **Sources:** [[aprycot-gladstein-humanitaere-oekologische-argumente]], [[aprycot-alden-energieverbrauch-bitcoin]], [[aprycot-captain-sidd-bitcoin-wird-unsere-erde-retten]], [[aprycot-parker-lewis-bitcoin-keine-energieverschwendung]], [[aprycot-jesse-bitcoin-mining-mini-grids]], [[How Bitcoin Mining Keeps Energy Prices Low]], [[Economic_Integration_Bitcoin_Mining_Renewable_Energy]], [[Leveraging_Bitcoin_Miners_as_Flexible_Load_Resources_for_Power_System_Stability_and_Efficiency]], [[High resolution modeling and analysis of cryptocurrency mining’s impact on power grids- Carbon footprint, reliability, and electricity price]], [[The truth is not enough]], [[Volcanoes, Geese and Bitcoin]]
 

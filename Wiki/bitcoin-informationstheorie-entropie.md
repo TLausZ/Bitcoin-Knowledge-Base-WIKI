@@ -1,6 +1,7 @@
 # Bitcoin, Informationstheorie und Entropie
 
 **Status:** emerging
+**Themen:** oekonomie, philosophie
 **Last updated:** 2026-06-23
 **Sources:** [[aprycot-segal-bitcoin-informations-theorie]]
 

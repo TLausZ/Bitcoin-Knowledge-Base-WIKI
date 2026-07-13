@@ -1,6 +1,7 @@
 # Hardware-Wallet-Angriffsvektoren
 
 **Status:** established
+**Themen:** self-custody, kritik
 **Last updated:** 2026-06-05
 **Sources:** [[20230406_die-funf-grossten-schwachstellen-in-hardware-wallets-und-wie-die-bitbox02-sie-behebt]]
 

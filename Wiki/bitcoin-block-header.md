@@ -1,6 +1,7 @@
 # Bitcoin Block-Header
 
 **Status:** established
+**Themen:** protokoll
 **Last updated:** 2026-06-19
 **Sources:** [[learnmeabitcoin-technical-block-overview]], [[learnmeabitcoin-technical-block-version]], [[learnmeabitcoin-technical-block-previous-block]], [[learnmeabitcoin-technical-block-merkle-root]], [[learnmeabitcoin-technical-block-time]], [[learnmeabitcoin-technical-block-bits]], [[learnmeabitcoin-technical-block-nonce]], [[learnmeabitcoin-technical-block-hash]], [[learnmeabitcoin-technical-block-blkdat]]
 

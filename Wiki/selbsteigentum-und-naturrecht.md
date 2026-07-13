@@ -1,6 +1,7 @@
 # Selbsteigentum und Naturrecht
 
 **Status:** established
+**Themen:** oekonomie, philosophie
 **Last updated:** 2026-06-23
 **Sources:** [[aprycot-breedlove-philosophie-maximalismus-freiheit.md]]
 

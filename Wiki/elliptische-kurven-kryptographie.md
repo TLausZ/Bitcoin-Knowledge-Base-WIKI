@@ -1,6 +1,7 @@
 # Elliptische Kurven-Kryptographie in Bitcoin
 
 **Status:** established
+**Themen:** protokoll
 **Last updated:** 2026-06-27
 **Sources:** [[learnmeabitcoin-technical-cryptography-overview]], [[learnmeabitcoin-technical-cryptography-hash-function]], [[learnmeabitcoin-technical-cryptography-elliptic-curve]], [[learnmeabitcoin-technical-cryptography-elliptic-curve-ecdsa]], [[learnmeabitcoin-technical-cryptography-elliptic-curve-schnorr]], [[2018_Grokking-Bitcoin_Rosenbaum]], [[waltz-bitcoin-facts]]
 

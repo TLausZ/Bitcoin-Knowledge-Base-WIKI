@@ -1,6 +1,7 @@
 # Coin Control und UTXO-Auswahl
 
 **Status:** established
+**Themen:** privacy, wallets
 **Last updated:** 2026-06-20
 **Sources:** [[sparrow-wallet]], [[electrum-wallet]], [[utxo-modell-und-konsolidierung]], [[coinjoin-und-on-chain-privatsphaere]]
 

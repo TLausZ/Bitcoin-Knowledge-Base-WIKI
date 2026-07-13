@@ -1,6 +1,7 @@
 # Seedphrase-Entropie und Sicherheit
 
 **Status:** established
+**Themen:** self-custody, philosophie, wallets
 **Last updated:** 2026-06-04
 **Sources:** [[20240523_wie-schwer-ist-es-eine-seedphrase-zu-erraten]], [[20240411_warum-backups-auf-microsd-karten-nicht-verschlüsselt-werden-sollten]]
 

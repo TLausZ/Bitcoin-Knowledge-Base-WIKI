@@ -1,6 +1,7 @@
 # Komplexität ist keine Sicherheit
 
 **Status:** established
+**Themen:** grundlagen, philosophie
 **Last updated:** 2026-07-05
 **Sources:** [[20231005_komplexität-ist-keine-sicherheit]], [[20250914_heartmoney-bitcoin-online-bananen-offline]]
 

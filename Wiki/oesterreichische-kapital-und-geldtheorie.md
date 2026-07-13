@@ -1,6 +1,7 @@
 # Österreichische Kapital- und Geldtheorie
 
 **Status:** established
+**Themen:** oekonomie
 **Last updated:** 2026-06-30
 **Sources:** [[2023_Praxeology-Invisible-Hand-Feeds-You_Svanholm]], [[aprycot-bitcoin-ist-kein-eigentum]], [[aprycot-kapital-im-21-jahrhundert]], [[Mises_ Der ursprüngliche toxische Maximalist.md]], [[aprycot-bitcoin-gutes-schlechtes-geld-taghizadegan]]
 

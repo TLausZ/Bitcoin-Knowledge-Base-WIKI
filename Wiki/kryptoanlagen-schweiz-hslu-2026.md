@@ -1,6 +1,7 @@
 # Kryptoanlagen Schweiz HSLU 2026
 
 **Status:** established
+**Themen:** grundlagen, protokoll, self-custody, oekonomie, adoption, studien
 **Last updated:** 2026-07-06
 **Sources:** [[20260629_hslu-kryptoanlagen-schweiz-2026]], [[Kryptoanlagen in der Schweiz 2026.pdf]]
 

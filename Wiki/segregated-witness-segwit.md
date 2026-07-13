@@ -1,6 +1,7 @@
 # Segregated Witness (SegWit)
 
 **Status:** established
+**Themen:** protokoll, lightning
 **Last updated:** 2026-06-28
 **Sources:** [[20151221_bip-0141]], [[learnmeabitcoin-beginners-guide-segwit]], [[learnmeabitcoin-technical-upgrades-segregated-witness]], [[blocksizewar]], [[2018_Grokking-Bitcoin_Rosenbaum]], [[alex-waltz-first-block-over-1mb]]
 

@@ -1,6 +1,7 @@
 # River Bitcoin Adoption Report 2026
 
 **Status:** emerging
+**Themen:** lightning, oekonomie, adoption, studien
 **Last updated:** 2026-07-13
 **Sources:** [[river-bitcoin-adoption-report-2026.pdf]]
 

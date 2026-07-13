@@ -1,6 +1,7 @@
 # Hacker-Ethik
 
 **Status:** emerging
+**Themen:** philosophie
 **Last updated:** 2026-06-09
 **Sources:** [[1986_The Conscience of a Hacker]]
 

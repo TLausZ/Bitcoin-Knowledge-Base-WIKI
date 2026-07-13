@@ -1,6 +1,7 @@
 # Bitcoin-Launch Januar 2009: Forensische Frühgeschichte
 
 **Status:** established
+**Themen:** grundlagen, protokoll, geschichte, satoshi
 **Last updated:** 2026-06-27
 **Sources:** [[1stbitcoinminer-com_transcriptions.md]]
 

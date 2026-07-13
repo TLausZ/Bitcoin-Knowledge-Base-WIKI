@@ -1,6 +1,7 @@
 # Bitcoin-Bildung und Mi Primer Bitcoin
 
 **Status:** established
+**Themen:** grundlagen, oekonomie, philosophie
 **Last updated:** 2026-07-04
 **Sources:** [[aprycot-bitcoin-diplom-gratis]], [[aprycot-bitcoin-diplom-finanzielle-bildung]], [[aprycot-bildungsoffensive-coinfinity-scholarium]], [[aprycot-marlas-bitcoin-abenteuer]], [[aprycot-grundlagen-oekonomie-ankuendigung]], [[aprycot-fab-gigis-21-lektionen-hoerbuch]], [[aprycot-fab-bitcoin-besser-verstehen]], [[aprycot-fab-bitcoin-lesestunde]], [[aprycot-du-brauchst-keinen-bitcoin-job]], [[I Spent 40 Years Financially Blind. Here's What Nobody Taught Me — And Why That Was No Accident.]], [[Bitcoin events Summary of 2025 - It was extraordinary!]], [[20260118_heartmoney-bitcoin-trifft-bildung]], [[20250622_heartmoney-pommes-preise-bitcoin-ein-gefuhl-kehrt-zuruck]], [[20260308_heartmoney-nur-noch-1-million-bitcoin]], [[20251228_heartmoney-bitcoin-reicht-nicht-was-mir-2025]]
 

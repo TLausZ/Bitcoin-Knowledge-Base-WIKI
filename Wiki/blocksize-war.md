@@ -1,7 +1,8 @@
 # Der Blocksize-Krieg (2015–2017)
 
 **Status:** established
-**Last updated:** 2026-06-27
+**Themen:** protokoll, geschichte, buecher
+**Last updated:** 2026-07-13
 **Sources:** [[blocksizewar]], [[20181114_bitcoinmagazine-when-fork-forks-bitcoin-cash-goes-war]], [[20181116_bitcoinmagazine-one-day-after-bch-hard-fork]], [[20181123_bitcoinmagazine-one-week-later-bitcoin-cash-split]], [[20181201_bitcoinmagazine-bch-hash-war-came-and-went]], [[20181209_bitcoinmagazine-bitcoin-abc-bitmain-ver-suit-bch-split]], [[Mises_ Der ursprüngliche toxische Maximalist.md]], [[BIP-110 and The Blocksize War..md]]
 
 ## Summary
@@ -9,6 +10,10 @@
 Der Blocksize-Krieg war ein zweijähriger Konflikt (2015–2017) darüber, wer die Konsensregeln von Bitcoin kontrolliert. Die Big-Blocker, angeführt von Gavin Andresen, Roger Ver, Jihan Wu und später Jeff Garzik, wollten das 1-MB-Blocklimit per Hard Fork erhöhen, um mehr On-Chain-Transaktionen zu ermöglichen. Die Small-Blocker, darunter Gregory Maxwell, Adam Back, Peter Todd und das Bitcoin-Core-Team, setzten auf Soft Forks, Kapazitätserweiterung durch SegWit und Layer-2-Lösungen wie Lightning. Nach einer Reihe gescheiterter Fork-Versuche (Bitcoin XT, Bitcoin Classic, Bitcoin Unlimited, BTC1/SegWit2x) endete der Krieg am 8. November 2017 mit der bedingungslosen Kapitulation der SegWit2x-Befürworter. SegWit wurde aktiviert, Bitcoin Cash überlebte als Splitter-Coin — und der Konflikt legte den Grundstein für das Prinzip, dass Endnutzer und nicht Miner oder Unternehmen die letzte Entscheidungsgewalt über Bitcoins Protokollregeln haben.
 
 ## Body
+
+### Über das Buch (Jonathan Bier, 2021)
+
+*The Blocksize War* ist Jonathan Biers Augenzeugen-Chronik des Konflikts, geschrieben Anfang 2021, als der Kampf bereits Geschichte war. Bier war kein neutraler Historiker, sondern selbst im Space aktiv — er erschien uneingeladen beim „Runden Tisch Hongkong", infiltrierte den geheimen Small-Blocker-Slack („Lions' Den") und führte Gespräche mit Hauptakteuren beider Lager. Das Buch macht daraus keine ausgewogene Politgeschichte, sondern eine dichte Chronologie der wichtigsten Ereignisse aus Sicht von jemandem, der dabei war; Bier weist selbst darauf hin, dass er aus dem Gedächtnis erzählt und sich für Ungenauigkeiten entschuldigt. Sein Rahmen: Oberflächlich ging es um die maximale Blockgröße, tatsächlich um die tiefere Frage, wer die Regeln des Bitcoin-Protokolls kontrolliert. Die deutsche Ausgabe stammt aus dem Aprycot-Umfeld. Weil das Buch die maßgebliche Quelle für den gesamten folgenden Ablauf ist, deckt sich dieser Artikel weitgehend mit Biers Darstellung und ergänzt sie um spätere Ereignisse (BCH-Hash-War 2018, BIP-110-Debatte 2026).
 
 ### Hintergrund: Das 1-MB-Limit
 

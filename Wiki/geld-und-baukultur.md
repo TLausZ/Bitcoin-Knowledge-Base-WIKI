@@ -1,6 +1,7 @@
 # Geld und Baukultur
 
 **Status:** emerging
+**Themen:** oekonomie
 **Last updated:** 2026-06-29
 **Sources:** [[The Connection Between Money and Building Culture]]
 

@@ -1,6 +1,7 @@
 # Nostr-Protokoll
 
 **Status:** established
+**Themen:** privacy, oekonomie, philosophie, adoption
 **Last updated:** 2026-06-29
 **Sources:** [[The Bitcoin Newsletter #2 - Bitcoin is not speculation.]], [[The Bitcoin Newsletter 14 - How Bitcoin & Nostr foster innovation without institutional credit]], [[Nostr_ The Importance of Censorship-Resistant Communication for Innovation and Human Progress]], [[redefreiheit-und-protokolle]]
 

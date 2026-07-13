@@ -1,6 +1,7 @@
 # CoinJoin und On-Chain-Privatsphäre
 
 **Status:** established
+**Themen:** protokoll, privacy
 **Last updated:** 2026-06-25 (Pass 53: CoinJoin-Rechtslage + Lightning/Liquid-Swaps)
 **Sources:** [[20240508_was-ist-eigentlich-ein-coinjoin]], [[20240606_payment-codes-bitcoin-adressen-privat-austauschen]], [[sparrowwallet-Spending Privately]], [[Das Privacy Handbuch_ Ein Ratgeber für digitale Sicherheit und Privatsphäre]], [[alex-waltz-joinmarket]]
 

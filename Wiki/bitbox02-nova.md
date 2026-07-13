@@ -1,6 +1,7 @@
 # BitBox02 Nova
 
 **Status:** established
+**Themen:** wallets
 **Last updated:** 2026-06-04
 **Sources:** [[20250620_vorstellung-der-bitbox02-nova]], [[20250703_whisper-wie-die-sichere-bluetooth-integration-der-bitbox02-nova-funktioniert]], [[20241212_wie-sich-die-bitbox02-seit-ihrem-start-im-jahr-2019-verbessert-hat]], [[20260521_bitbox02-nova-jetzt-in-bitcoin-orange-erhältlich]]
 

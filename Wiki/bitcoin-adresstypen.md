@@ -1,6 +1,7 @@
 # Bitcoin-Adresstypen
 
 **Status:** established
+**Themen:** grundlagen, protokoll, self-custody
 **Last updated:** 2026-06-06
 **Sources:** [[20211021_was-sind-bitcoin-adressen-de]], [[20220331_bitbox-03-2022-glaernisch-update-de]], [[20220118_bitbox-01-2022-maighels-update-de]]
 

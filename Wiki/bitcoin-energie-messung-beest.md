@@ -1,6 +1,7 @@
 # Bitcoin-Energiemessung und das BEEST-Modell
 
 **Status:** established
+**Themen:** mining, oekonomie, studien
 **Last updated:** 2026-06-30
 **Sources:** [[BEEST (Bitcoin Energy & Emissions Sustainability Tracker)]], [[Bitcoin By Energy Source]], [[The Bitcoin Facts that Every Investment Committee Must Know]], [[Why Bitcoin is an essential part of every ESG Fund]], [[7 Renewables Misconceptions]], [[Positive Press ABOUT BITCOIN & ESG outnumbers negatives 4_1 so far in 2023]], [[Improving OUR ESTIMATE of Bitcoin ENERGY CONSUMPTION]], [[Accurately, dynamically calculating Bitcoin Network Emissions]], [[Comparing Bitcoin Mining to other Industries’ energy mix]], [[New Insights on Bitcoin Mining and Sustainability]], [[Bitcoin Mining Now Uses 10.9% More Renewables, Goes Unreported]], [[Quantifying the EMISSION NEGATIVE COMPONENT OF the Bitcoin Network]]
 

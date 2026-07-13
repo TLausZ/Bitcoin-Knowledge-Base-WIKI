@@ -1,6 +1,7 @@
 # JoinMarket
 
 **Status:** established
+**Themen:** privacy, kritik, wallets
 **Last updated:** 2026-06-28
 **Sources:** [[alex-waltz-joinmarket]]
 

@@ -1,6 +1,7 @@
 # Bitcoin-Frühgeschichte: Magic Internet Money
 
 **Status:** established
+**Themen:** protokoll, mining, philosophie, geschichte, satoshi
 **Last updated:** 2026-06-27
 **Sources:** [[aprycot-gigi-magisches-internet-geld.md]], [[linkedin-Woher kamen die 10000 BTC für zwei Pizzen.md]], [[waltz-bitcoin-facts]], [[1stbitcoinminer-com_transcriptions.md]]
 

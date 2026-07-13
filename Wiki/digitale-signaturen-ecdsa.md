@@ -1,6 +1,7 @@
 # Digitale Signaturen (ECDSA)
 
 **Status:** established
+**Themen:** protokoll, privacy
 **Last updated:** 2026-06-19
 **Sources:** [[learnmeabitcoin-beginners-guide-digital-signatures]]
 

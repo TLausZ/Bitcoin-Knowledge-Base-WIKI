@@ -1,6 +1,7 @@
 # Bitcoin-Einsteiger-Onboarding: Von der Börse zur eigenen Wallet
 
 **Status:** established
+**Themen:** grundlagen, self-custody, philosophie, adoption, wallets
 **Last updated:** 2026-07-05
 **Sources:** [[bitcoin-ratgeber_einleitung]], [[bitcoin-ratgeber_kapitel-02-sei-deine-eigene-bank]], [[bitcoin-ratgeber_kapitel-03-von-der-boerse-zur-eigenen-wallet]]
 

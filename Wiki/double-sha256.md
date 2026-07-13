@@ -1,6 +1,7 @@
 # Double-SHA256 in Bitcoin
 
 **Status:** established
+**Themen:** protokoll, mining
 **Last updated:** 2026-06-28
 **Sources:** [[alex-waltz-double-sha256]]
 

@@ -1,6 +1,7 @@
 # Krypto-Adaption in Europa: European Crypto Compass 2026
 
 **Status:** established
+**Themen:** adoption, studien
 **Last updated:** 2026-07-10
 **Sources:** [[bsd_crypto-compass_2026_de_26-05-28]]
 

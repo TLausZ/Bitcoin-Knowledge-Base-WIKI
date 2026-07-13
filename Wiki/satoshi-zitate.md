@@ -1,6 +1,7 @@
 # Satoshi Zitate
 
 **Status:** established
+**Themen:** privacy, mining, oekonomie, geschichte, satoshi, zitate
 **Last updated:** 2026-07-11
 **Sources:** [[the-quotable-satoshi]]
 

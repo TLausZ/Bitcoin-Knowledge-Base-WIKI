@@ -1,6 +1,7 @@
 # Hardware-Wallet-Migration
 
 **Status:** established
+**Themen:** self-custody, wallets
 **Last updated:** 2026-06-05
 **Sources:** [[20230517_wechsel-vom-ledger-nano-auf-bitbox02-ist-super-einfach]], [[20230517_der-wechsel-von-trezor-auf-die-bitbox02-ist-super-einfach]], [[20230118_die-bitbox01-ist-am-ende-ihrer-reise-de]]
 

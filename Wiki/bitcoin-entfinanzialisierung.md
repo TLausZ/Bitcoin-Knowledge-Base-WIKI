@@ -1,6 +1,7 @@
 # Bitcoin und die Entfinanzialisierung
 
 **Status:** established
+**Themen:** oekonomie
 **Last updated:** 2026-06-23
 **Sources:** [[aprycot-parker-lewis-bitcoin-ist-die-grosse-entfinanzialisierung]]
 

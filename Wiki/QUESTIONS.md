@@ -28,6 +28,24 @@ Stale Source-Zitate (Ziel-Datei existiert nicht mehr in RAW):
 
 Derzeit keine bekannten Lücken ausser den Kandidaten unten.
 
+## Geplant: einzelne Studien und Bücher als eigene Wiki-Artikel (später)
+
+Viele Studien und Bücher leben aktuell nur *innerhalb* von Artikeln (v.a. der BBR-Hub `bitcoin-akademische-forschung-bbr` bündelt >40 Studien) oder als RAW-Quellen — sie sind keine eigenen Knoten auf der Karte. Plan (vom User bestätigt 2026-07-13): echte Studien-Papers und Bücher als je eigene, zusammengefasste Wiki-Artikel anlegen, strukturell ähnlich der BIP-Sammlung. Jeder bekäme dann automatisch sein `studien`- bzw. `buecher`-Tag (via STUDIEN_SET/BUECHER_SET in classify_topics.py, oder bei grösserer Menge ein Slug-Muster + Regel). Priorität laut User: Mining/Energie-Studien zuerst. Buch-Artikel bisher nur `wolf-21-lektionen` und `bitcoin-alles-geteilt-durch-21-millionen`. Noch nicht begonnen.
+
+Bücher-Quellen bereits im RAW (verifizierte Inventur 2026-07-13: 8 EPUB-Dateien + 1 MOBI = 7 verschiedene Bücher; Dubletten durch EN/DE-Ausgaben und Formatkopien) als Material für eigene Buch-Artikel:
+
+- Knut Svanholm — *Bitcoin: Everything Divided by 21 Million* (2022, EN) — Artikel existiert (`bitcoin-alles-geteilt-durch-21-millionen`); Dubletten: DE-Ausgabe *Alles durch 21 Millionen* (2023) als EPUB **und** MOBI — alles dasselbe Buch, ein Artikel
+- Knut Svanholm / Volker Herminghaus — *Bitcoin: Unabhängigkeit neu gedacht* (2020, DE)
+- Knut Svanholm, Luke de Wolf — *Bitcoin: The Inverse of Clown World* (2024, EN)
+- Knut Svanholm — *Praxeology: The Invisible Hand That Feeds You* (2023, EN)
+- Marc Steiner — *Bitcoins verwahren und vererben: Ein praktischer Ratgeber* (2020, DE)
+- *Das Privacy Handbuch: Ein Ratgeber für digitale Sicherheit und Privatsphäre*
+- Kalle Rosenbaum — *Grokking Bitcoin* (2018, Manning)
+
+Beim späteren Anlegen der Buch-Artikel: eine Datei pro Buch als Quelle wählen (bevorzugt die Originalsprache), die übrigen Ausgaben/Formate als weitere Sources nennen, nicht je einen eigenen Artikel.
+
+**Harte Regel (Urheberrecht): Bücher nie reproduzieren.** Der Artikel ist eine eigene, deutlich kürzere Synthese in eigenen Worten — kein Volltext, keine langen Passagen, keine kapitelweise Nacherzählung, die das Buch ersetzt. Verbatim-Zitate nur sehr sparsam und mit Quellenangabe. Wie tief gelesen wird (ganzes Buch vs. ausgewählte Kapitel), wird pro Buch beim Schreiben entschieden — nicht vorab festgelegt.
+
 ## Offene Spannungen und Fragen
 
 **Miner-Incentives nach Halving:** → beantwortet (2026-06-20). Beide RAW-Quellen ingested (Carlsten et al. CCS 2016, Budish QJE 2024). Wiki-Artikel erweitert. Ausgang bleibt offen — empirisch unentschieden.

@@ -1,6 +1,7 @@
 # Bitcoin-only vs. Multi Edition
 
 **Status:** established
+**Themen:** self-custody
 **Last updated:** 2026-06-05
 **Sources:** [[20251002_warum-gibt-es-eine-bitcoin-only-edition-der-bitbox]]
 

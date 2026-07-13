@@ -1,6 +1,7 @@
 # Specter DIY
 
 **Status:** established
+**Themen:** self-custody, wallets
 **Last updated:** 2026-06-27 (USB-Befehlssatz, SD-Card-Protokoll, offizielle Docs ergänzt)
 **Sources:** [[Specter-Hardware-Wallet-Anleitung_v1_0_0]], [[Specter-Shield-Metal-Manual-part_EN_v1_0_0]], [[Specter DIY – Testbericht zur ersten DIY Bitcoin Hardware Wallet]], [[specter-diy-introduction]], [[specter-diy-faq]], [[specter-diy-shopping]], [[specter-diy-assembly]], [[specter-diy-shield]], [[specter-diy-shield-lite]], [[specter-diy-quickstart]], [[specter-diy-communication]], [[specter-diy-roadmap]], [[20220309_bitbox02-multisig-specter-desktop-de]]
 

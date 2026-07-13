@@ -1,6 +1,7 @@
 # Bitcoin-Volatilität und Preisfindung
 
 **Status:** established
+**Themen:** oekonomie, adoption
 **Last updated:** 2026-07-07
 **Sources:** [[aprycot-parker-lewis-bitcoin-nicht-zu-volatil]], [[20251005_heartmoney-das-leiseste-allzeithoch-ever]], [[20251221_heartmoney-kein-uptober-kein-moonvember-und-jetzt]], [[20260111_heartmoney-bitcoin-top-preis-flop]], [[20260208_heartmoney-bitcoin-im-nebel-siehst-du-klar]], [[20260405_heartmoney-die-passion-des-satoshi]], [[20251116_heartmoney-wenn-der-hype-einfach-nicht-kommen-will]], [[20240710_bmi-did-germany-cause-correction-en]]
 

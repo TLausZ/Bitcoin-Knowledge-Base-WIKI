@@ -1,6 +1,7 @@
 # Bitcoin unter rechtlichem Beschuss
 
 **Status:** established
+**Themen:** kritik, geschichte
 **Last updated:** 2026-06-05
 **Sources:** [[20220912_unterstuetzung-hodlonaut-de]]
 

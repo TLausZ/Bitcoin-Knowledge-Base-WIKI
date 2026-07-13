@@ -1,6 +1,7 @@
 # Lightning Rebalancing
 
 **Status:** established
+**Themen:** protokoll, lightning, adoption
 **Last updated:** 2026-06-09
 **Sources:** [[Rebalancing_ The Key to the Lightning Network]], [[Rebalancing in the Lightning Network_ Circular Payments, Fee Management and Splices]]
 

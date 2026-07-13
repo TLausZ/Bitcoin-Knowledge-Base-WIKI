@@ -1,6 +1,7 @@
 # Bitcoin-Adoptionsstudie 2026 (DACH)
 
 **Status:** established
+**Themen:** adoption, studien
 **Last updated:** 2026-06-28
 **Sources:** [[bitcoin-adoptionsstudie-2026-1bis74.pdf]], [[bitcoin-adoptionsstudie-2026-75bis126.pdf]]
 

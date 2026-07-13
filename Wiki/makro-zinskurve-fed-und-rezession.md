@@ -1,6 +1,7 @@
 # Makro: Zinskurve, Fed-Pivot und Rezessionssignale
 
 **Status:** emerging
+**Themen:** oekonomie
 **Last updated:** 2026-07-07
 **Sources:** [[20221213_bmi-invertierte-zinskurven-de]], [[20230124_bmi-ausgabe-19-preiserholung-fed-pivot-de]], [[20230124_bmi-issue-19-price-recovery-fed-pivot-en]]
 

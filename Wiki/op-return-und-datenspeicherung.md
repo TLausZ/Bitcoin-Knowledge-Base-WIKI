@@ -1,6 +1,7 @@
 # OP_RETURN und Datenspeicherung auf der Blockchain
 
 **Status:** established
+**Themen:** protokoll
 **Last updated:** 2026-06-04
 **Sources:** [[20250508_daten-speichern-auf-der-blockchain-wie-funktioniert-op-return]]
 

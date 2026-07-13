@@ -1,6 +1,7 @@
 # Bitcoin-Whitepaper: Errata und Abweichungen
 
 **Status:** established
+**Themen:** grundlagen, protokoll, mining, kritik, geschichte, satoshi
 **Last updated:** 2026-07-13
 **Sources:** [[bitcoin-paper-errata-and-details.md]]
 

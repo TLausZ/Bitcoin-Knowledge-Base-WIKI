@@ -1,6 +1,7 @@
 # Bitcoin, Haltefrist und Steuern (DACH)
 
 **Status:** emerging
+**Themen:** oekonomie, geschichte
 **Last updated:** 2026-07-05
 **Sources:** [[20260609_heartmoney-bitcoin-precht-und-prag]], [[20260421_heartmoney-von-bitcoin-leben-geht-das-wirklich]], [[20260519_heartmoney-wenn-die-wahrheit-zu-fruh-kommt]]
 

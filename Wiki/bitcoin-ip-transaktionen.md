@@ -1,6 +1,7 @@
 # Bitcoin Pay-to-IP
 
 **Status:** established
+**Themen:** protokoll, satoshi
 **Last updated:** 2026-06-28
 **Sources:** [[alex-waltz-bitcoin-ip-transactions]]
 

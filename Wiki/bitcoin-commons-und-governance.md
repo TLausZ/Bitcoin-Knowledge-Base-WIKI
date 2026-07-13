@@ -1,6 +1,7 @@
 # Bitcoin als Allmende: Governance und Rehypothecation
 
 **Status:** established
+**Themen:** philosophie
 **Last updated:** 2026-06-22
 **Sources:** [[aprycot-nur-die-staerksten-7-fazit-anhaenge]]
 

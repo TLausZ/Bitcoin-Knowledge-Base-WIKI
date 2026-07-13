@@ -1,6 +1,7 @@
 # Wallet of Satoshi
 
 **Status:** established
+**Themen:** self-custody, lightning, wallets
 **Last updated:** 2026-06-09
 **Sources:** [[2026-06-09_wallet-of-satoshi-faq]]
 

@@ -1,6 +1,7 @@
 # Bitcoin-Schichtenarchitektur und das Gall'sche Gesetz
 
 **Status:** established
+**Themen:** lightning
 **Last updated:** 2026-06-22
 **Sources:** [[aprycot-nur-die-staerksten-5-schichtenarchitektur]]
 

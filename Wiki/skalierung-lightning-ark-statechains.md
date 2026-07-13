@@ -1,6 +1,7 @@
 # Skalierung: Lightning, Ark und Statechains
 
 **Status:** emerging
+**Themen:** lightning
 **Last updated:** 2026-06-24
 **Sources:** [[20251218_die-skalierung-von-bitcoin-lightning-und-der-weg-zu-ark]], [[20260212_bitcoin-senden-ohne-sie-zu-bewegen-statechains-erklärt]], [[20231018_lightning-in-der-bitboxapp]], [[20240314_wie-die-bitbox02-den-seed-für-die-lightning-wallet-sicher-ableitet]], [[aprycot-svanholm-wahre-skalierungsloesung]], [[Introducing Cube]]
 

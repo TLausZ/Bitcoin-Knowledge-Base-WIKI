@@ -1,6 +1,7 @@
 # Bitcoin, nicht Blockchain
 
 **Status:** established
+**Themen:** protokoll, oekonomie, philosophie
 **Last updated:** 2026-06-23
 **Sources:** [[aprycot-parker-lewis-bitcoin-nicht-blockchain]]
 

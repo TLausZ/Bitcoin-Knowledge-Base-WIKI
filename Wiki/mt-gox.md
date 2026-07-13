@@ -1,6 +1,7 @@
 # Mt. Gox
 
 **Status:** established
+**Themen:** geschichte, kritik, self-custody
 **Last updated:** 2026-06-28
 **Sources:** [[alex-waltz-mtgox-full-story]], [[bitcoin-fruehgeschichte]], [[selbstverwahrung-und-boersenrisiken]], [[alex-waltz-bitcoin-largest-loss-2609btc]]
 

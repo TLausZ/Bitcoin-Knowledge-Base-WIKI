@@ -1,6 +1,7 @@
 # Bitcoin Whitepaper
 
 **Status:** established
+**Themen:** grundlagen, protokoll, privacy, geschichte, satoshi
 **Last updated:** 2026-06-22
 **Sources:** [[20081031_bitcoin-whitepaper]], [[aprycot-strolight-whitepaper-schwieriger-teil]]
 

@@ -1,6 +1,7 @@
 # Core Lightning 26.06
 
 **Status:** established
+**Themen:** protokoll, lightning, wallets
 **Last updated:** 2026-06-09
 **Sources:** [[Core Lightning 26.06_ _Quantum-Resistant Lightning Channel”]]
 

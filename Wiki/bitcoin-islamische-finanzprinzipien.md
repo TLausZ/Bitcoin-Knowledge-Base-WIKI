@@ -1,6 +1,7 @@
 # Bitcoin und islamische Finanzprinzipien
 
 **Status:** established
+**Themen:** oekonomie, adoption
 **Last updated:** 2026-06-22
 **Sources:** [[aprycot-bitcoin-ist-halal]]
 

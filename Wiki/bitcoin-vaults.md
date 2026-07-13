@@ -1,6 +1,7 @@
 # Bitcoin Vaults
 
 **Status:** emerging
+**Themen:** protokoll, self-custody, lightning
 **Last updated:** 2026-06-04
 **Sources:** [[20260409_wie-bitcoin-vaults-komfort-mit-sicherheit-verbinden]]
 

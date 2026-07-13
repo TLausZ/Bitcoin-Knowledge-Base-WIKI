@@ -1,6 +1,7 @@
 # Nick Szabo: Evolutionärer Ursprung des Geldes
 
 **Status:** established
+**Themen:** oekonomie, philosophie
 **Last updated:** 2026-07-13
 **Sources:** [[Shelling Out -- The Origins of Money]], [[Advances in Distributed Security]], [[bitcoin-ratgeber_kapitel-01-was-ist-geld]], [[allfiatcurrenciesflow.jpeg]]
 

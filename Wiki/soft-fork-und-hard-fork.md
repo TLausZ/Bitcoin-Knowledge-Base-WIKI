@@ -1,6 +1,7 @@
 # Soft Fork und Hard Fork
 
 **Status:** established
+**Themen:** protokoll
 **Last updated:** 2026-06-20
 **Sources:** [[20241114_soft-fork-oder-hard-fork-was-ist-der-unterschied]], [[blocksizewar]], [[2018_Grokking-Bitcoin_Rosenbaum]]
 

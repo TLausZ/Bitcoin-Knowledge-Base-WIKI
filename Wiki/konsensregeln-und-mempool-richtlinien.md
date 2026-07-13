@@ -1,6 +1,7 @@
 # Konsensregeln und Mempool-Richtlinien
 
 **Status:** established
+**Themen:** protokoll
 **Last updated:** 2026-06-04
 **Sources:** [[20251023_der-unterschied-zwischen-bitcoin-konsensregeln-und-mempool-richtlinien]], [[20250508_daten-speichern-auf-der-blockchain-wie-funktioniert-op-return]]
 

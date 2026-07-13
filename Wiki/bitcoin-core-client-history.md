@@ -1,6 +1,7 @@
 # Bitcoin Core: Client-Geschichte und Namensfindung
 
 **Status:** established
+**Themen:** geschichte
 **Last updated:** 2026-06-28
 **Sources:** [[alex-waltz-bitcoin-core-naming-history]], [[alex-waltz-bitcoin-v01-source-code-secrets]], [[alex-waltz-satoshi-alternative-names]], [[alex-waltz-satoshi-november-2008-version]]
 

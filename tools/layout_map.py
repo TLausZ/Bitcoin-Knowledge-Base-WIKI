@@ -46,6 +46,17 @@ def load_graph():
     return sorted(known), sorted(edges)
 
 
+def load_topics():
+    """slug -> Themenliste aus der **Themen:**-Zeile jedes Artikels."""
+    topics = {}
+    for path in WIKI.glob("*.md"):
+        if path.name in NAV_FILES:
+            continue
+        m = re.search(r"^\*\*Themen:\*\* (.+)$", path.read_text(encoding="utf-8"), flags=re.M)
+        topics[norm(path.stem)] = [t.strip() for t in m.group(1).split(",")] if m else []
+    return topics
+
+
 def load_scores():
     with CSV.open(encoding="utf-8") as f:
         rows = list(csv.DictReader(f))
@@ -115,10 +126,12 @@ def fruchterman_reingold(nodes, edges, scores):
 def main():
     nodes, edges = load_graph()
     scores = load_scores()
+    topics = load_topics()
     print(f"{len(nodes)} Artikel, {len(edges)} Links — Layout rechnet …")
     layout = fruchterman_reingold(nodes, edges, scores)
     peaks = [{"n": a, "s": round(scores.get(a, 0.01), 3),
-              "x": round(layout[a][0], 3), "y": round(layout[a][1], 3)}
+              "x": round(layout[a][0], 3), "y": round(layout[a][1], 3),
+              "t": topics.get(a, [])}
              for a in sorted(nodes, key=lambda a: -scores.get(a, 0))]
     js = "const PEAKS = " + json.dumps(peaks, ensure_ascii=False, separators=(",", ":")) + ";"
     html = HTML.read_text(encoding="utf-8")

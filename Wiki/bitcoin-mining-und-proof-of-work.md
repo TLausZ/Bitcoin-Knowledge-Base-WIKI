@@ -1,6 +1,7 @@
 # Bitcoin Mining und Proof of Work
 
 **Status:** established
+**Themen:** mining
 **Last updated:** 2026-07-07
 **Sources:** [[aprycot-nguyen-pos-falsche-denkweise]], [[aprycot-nguyen-pos-private-schluessel-faelschungssicher]], [[20250327_wie-funktioniert-bitcoin-mining-eigentlich]], [[20260424_wie-das-21-millionen-limit-von-bitcoin-tatsächlich-durchgesetzt-wird]], [[learnmeabitcoin-beginners-guide-mining]], [[learnmeabitcoin-beginners-guide-difficulty]], [[learnmeabitcoin-technical-mining-overview]], [[learnmeabitcoin-technical-mining-candidate-block]], [[learnmeabitcoin-technical-mining-target]], [[learnmeabitcoin-technical-mining-coinbase-transaction]], [[learnmeabitcoin-technical-mining-block-reward]], [[learnmeabitcoin-technical-mining-memory-pool]], [[On the Instability of Bitcoin Without the Block Reward]], [[20240924_Economic Limits Crypto Blockchains - QJE Sept 2024]], [[20240801_bmi-what-is-bitcoin-mining-en]]
 

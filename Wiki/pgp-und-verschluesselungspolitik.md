@@ -1,6 +1,7 @@
 # PGP und Verschlüsselungspolitik
 
 **Status:** established
+**Themen:** protokoll
 **Last updated:** 2026-06-09
 **Sources:** [[1991_Why I Wrote PGP]], [[2017_Fog of CryptoWar]]
 

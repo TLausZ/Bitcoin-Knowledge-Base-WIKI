@@ -1,6 +1,7 @@
 # Kapital und Bitcoin
 
 **Status:** established
+**Themen:** privacy, mining, lightning, oekonomie, philosophie
 **Last updated:** 2026-06-22
 **Sources:** [[aprycot-kapital-im-21-jahrhundert]], [[aprycot-bitgenstein-ueber-zeit-risiko]], [[aprycot-bitgenstein-konsum-maximierung]], [[aprycot-bitgenstein-verhaltensweisen-anreize]], [[aprycot-bitgenstein-geld-kapital-skalierbarkeit]], [[aprycot-bitgenstein-landwirtschaft-und-kapital]]
 

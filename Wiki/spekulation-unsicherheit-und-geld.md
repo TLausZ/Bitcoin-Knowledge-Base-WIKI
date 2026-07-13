@@ -1,6 +1,7 @@
 # Spekulation, Unsicherheit und Geld
 
 **Status:** established
+**Themen:** oekonomie
 **Last updated:** 2026-06-25
 **Sources:** [[aprycot-jeder-ist-ein-spekulant]], [[aprycot-node-weltordnung]], [[aprycot-mattes-ergodizitaet-von-geld]]
 

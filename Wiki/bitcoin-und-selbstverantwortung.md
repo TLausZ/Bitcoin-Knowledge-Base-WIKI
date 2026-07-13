@@ -1,6 +1,7 @@
 # Bitcoin und Selbstverantwortung
 
 **Status:** established
+**Themen:** protokoll, self-custody, philosophie
 **Last updated:** 2026-06-23
 **Sources:** [[aprycot-gigi-das-ei-des-phoenix]], [[aprycot-gigi-verantwortung-bitcoin-annehmen]]
 

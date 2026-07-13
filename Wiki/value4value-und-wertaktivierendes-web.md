@@ -1,6 +1,7 @@
 # Value4Value und das wertaktivierende Web
 
 **Status:** established
+**Themen:** lightning, oekonomie, philosophie
 **Last updated:** 2026-06-23
 **Sources:** [[Eine Vision für wertaktivierendes Web.md]], [[aprycot-gigi-freiheit-der-werte.md]]
 

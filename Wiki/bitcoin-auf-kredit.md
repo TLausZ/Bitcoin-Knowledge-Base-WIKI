@@ -1,6 +1,7 @@
 # Bitcoin auf Kredit
 
 **Status:** established
+**Themen:** oekonomie, philosophie
 **Last updated:** 2026-07-04
 **Sources:** [[20251026_heartmoney-bitcoin-auf-kredit-lohnt-sich-das]], [[20250720_heartmoney-bitcoin-theorie-trifft-wirklichkeit]], [[20251013_heartmoney-magie-in-ingolstadt]], [[20260111_heartmoney-bitcoin-top-preis-flop]]
 

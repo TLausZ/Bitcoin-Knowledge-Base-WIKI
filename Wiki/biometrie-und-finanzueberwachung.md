@@ -1,6 +1,7 @@
 # Biometrie und Finanzüberwachung
 
 **Status:** established
+**Themen:** privacy
 **Last updated:** 2026-06-22
 **Sources:** [[Banking on Biometrics_ Is Fraud Prevention the Real Goal_]], [[aprycot-gladstein-bitcoin-protest-ueberwachung-bargeld]], [[aprycot-gigi-aufstieg-souveraenes-individuum]]
 

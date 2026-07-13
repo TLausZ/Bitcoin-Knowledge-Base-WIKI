@@ -1,6 +1,7 @@
 # Bitcoin und Zensurresistenz
 
 **Status:** established
+**Themen:** privacy, oekonomie
 **Last updated:** 2026-06-23
 **Sources:** [[aprycot-parker-lewis-bitcoin-nicht-nur-fuer-kriminelle]]
 

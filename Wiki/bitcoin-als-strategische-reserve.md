@@ -1,6 +1,7 @@
 # Bitcoin als Strategische Reserve
 
 **Status:** emerging
+**Themen:** protokoll, mining, oekonomie, adoption, wallets
 **Last updated:** 2026-07-05
 **Sources:** [[Strategic_Reserve_Best_Practice_Paper_1-10-25]], [[Counterfactual_Analysis_Bitcoin_Gold_Rainy_Day_Funds]], [[Bitcoin_and_Bitcoin_Mining_Guide]], [[aprycot-roekke-seetee-aktionaersbrief]], [[20260412_heartmoney-bitcoin-proton-iran]]
 

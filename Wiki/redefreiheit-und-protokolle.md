@@ -1,6 +1,7 @@
 # Redefreiheit und Protokolle
 
 **Status:** established
+**Themen:** privacy, oekonomie, philosophie
 **Last updated:** 2026-06-22
 **Sources:** [[aprycot-gigi-redefreiheit]]
 

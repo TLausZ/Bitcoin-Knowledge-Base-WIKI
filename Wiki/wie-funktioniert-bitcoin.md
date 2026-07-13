@@ -1,6 +1,7 @@
 # Wie funktioniert Bitcoin?
 
 **Status:** established
+**Themen:** grundlagen, protokoll, privacy, mining
 **Last updated:** 2026-06-19
 **Sources:** [[learnmeabitcoin-beginners-how-does-bitcoin-work]]
 

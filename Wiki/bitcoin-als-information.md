@@ -1,6 +1,7 @@
 # Bitcoin als Information
 
 **Status:** established
+**Themen:** protokoll, privacy, mining, philosophie
 **Last updated:** 2026-06-23
 **Sources:** [[aprycot-gigi-konsequenzen-bitcoin-verbot]]
 

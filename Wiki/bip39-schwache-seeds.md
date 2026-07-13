@@ -1,6 +1,7 @@
 # BIP39 Schwache Seeds
 
 **Status:** established
+**Themen:** bips, self-custody
 **Last updated:** 2026-06-28
 **Sources:** [[alex-waltz-bip39-weak-seeds]], [[alex-waltz-electrum-first-deterministic-wallet]]
 

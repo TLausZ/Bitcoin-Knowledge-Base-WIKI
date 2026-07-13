@@ -1,6 +1,7 @@
 # Bitcoin als Trojanisches Pferd der Freiheit
 
 **Status:** established
+**Themen:** protokoll, philosophie, geschichte
 **Last updated:** 2026-06-22
 **Sources:** [[aprycot-gladstein-trojanisches-pferd-freiheit]]
 

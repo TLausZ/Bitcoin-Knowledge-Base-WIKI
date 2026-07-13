@@ -1,6 +1,7 @@
 # Transaktionsgebühren und Mempool
 
 **Status:** established
+**Themen:** protokoll, privacy
 **Last updated:** 2026-06-27
 **Sources:** [[20210714_wieso-muss-ich-eine-transaktionsgebuehr-bezahlen-de]], [[20210804_was-ist-eigentlich-eine-utxo-de]], [[waltz-bitcoin-facts]]
 

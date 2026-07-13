@@ -1,6 +1,7 @@
 # Bitcoin und Künstliche Intelligenz
 
 **Status:** emerging
+**Themen:** lightning, oekonomie
 **Last updated:** 2026-07-04
 **Sources:** [[Bitcoin and AI]], [[20260222_heartmoney-bitcoin-zum-festhalten]], [[20260215_heartmoney-so-schnell-geht-das-nicht]], [[20251123_heartmoney-ki-hat-keine-traumata]]
 

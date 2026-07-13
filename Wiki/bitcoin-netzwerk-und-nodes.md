@@ -1,6 +1,7 @@
 # Bitcoin-Netzwerk und Nodes
 
 **Status:** established
+**Themen:** grundlagen, protokoll
 **Last updated:** 2026-06-22
 **Sources:** [[learnmeabitcoin-beginners-guide-network]], [[learnmeabitcoin-beginners-guide-node]], [[learnmeabitcoin-technical-networking-overview]], [[learnmeabitcoin-technical-networking-node]], [[learnmeabitcoin-technical-networking-magic-bytes]], [[2018_Grokking-Bitcoin_Rosenbaum]], [[aprycot-node-weltordnung]], [[Die andere Seite der Medaille.md]]
 

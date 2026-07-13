@@ -1,6 +1,7 @@
 # Bitcoin-Transaktionsstruktur
 
 **Status:** established
+**Themen:** protokoll, oekonomie
 **Last updated:** 2026-06-20
 **Sources:** [[learnmeabitcoin-beginners-guide-transactions]], [[2018_Grokking-Bitcoin_Rosenbaum]], [[learnmeabitcoin-beginners-guide-outputs]], [[learnmeabitcoin-technical-transaction-overview]], [[learnmeabitcoin-technical-transaction-input]], [[learnmeabitcoin-technical-transaction-output]], [[learnmeabitcoin-technical-transaction-fee]], [[learnmeabitcoin-technical-transaction-size]], [[learnmeabitcoin-technical-transaction-locktime]], [[learnmeabitcoin-technical-transaction-utxo]], [[learnmeabitcoin-technical-transaction-witness]], [[learnmeabitcoin-technical-transaction-wtxid]], [[learnmeabitcoin-technical-transaction-psbt]], [[learnmeabitcoin-technical-transaction-input-txid]], [[learnmeabitcoin-technical-transaction-input-vout]], [[learnmeabitcoin-technical-transaction-input-scriptsig]], [[learnmeabitcoin-technical-transaction-input-sequence]], [[learnmeabitcoin-technical-transaction-output-scriptpubkey]]
 

@@ -1,6 +1,7 @@
 # Merkle-Bäume
 
 **Status:** established
+**Themen:** protokoll
 **Last updated:** 2026-06-17
 **Sources:** [[Protocols for Public Key Cryptosystems]], [[Improving the Efficiency and Reliability of Digital Time-Stamping ]], [[bitcoin-whitepaper]]
 

@@ -1,6 +1,7 @@
 # bitblik — BLIK–Bitcoin Bridge
 
 **Status:** established
+**Themen:** lightning, wallets
 **Last updated:** 2026-06-09
 **Sources:** [[2026-06-09_bitblik-faq]]
 

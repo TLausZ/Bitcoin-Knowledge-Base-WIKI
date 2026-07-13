@@ -1,6 +1,7 @@
 # Bitcoin und Psychologie
 
 **Status:** emerging
+**Themen:** philosophie
 **Last updated:** 2026-07-04
 **Sources:** [[20251109_heartmoney-konsistenz-kosmos-zen-auf-der-toilette]], [[20250713_heartmoney-gehorsam-oder-bitcoin]], [[20260222_heartmoney-bitcoin-zum-festhalten]], [[20260208_heartmoney-bitcoin-im-nebel-siehst-du-klar]]
 

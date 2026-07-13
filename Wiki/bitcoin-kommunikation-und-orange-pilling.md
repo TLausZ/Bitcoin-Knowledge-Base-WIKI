@@ -1,6 +1,7 @@
 # Bitcoin-Kommunikation und Orange-Pilling
 
 **Status:** established
+**Themen:** philosophie, adoption, kritik
 **Last updated:** 2026-07-04
 **Sources:** [[OrangePilling The Early Majority]], [[Bitcoin’s Most Important Fork_ The Influence Upgrade]], [[20250629_heartmoney-rechthaben-oder-bitcoin-verstehen]], [[20260519_heartmoney-wenn-die-wahrheit-zu-fruh-kommt]], [[20250622_heartmoney-pommes-preise-bitcoin-ein-gefuhl-kehrt-zuruck]], [[20251214_heartmoney-ich-mochte-die-welt-verandern]], [[20260329_heartmoney-mude-wutend-wach]], [[20250921_heartmoney-von-spatsommer-zu-selbstermachtigung]]
 

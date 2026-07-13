@@ -1,6 +1,7 @@
 # Bitcoin und Spiritualität
 
 **Status:** emerging
+**Themen:** philosophie, adoption
 **Last updated:** 2026-07-04
 **Sources:** [[20260504_heartmoney-wenn-bitcoin-dich-zu-tolle-fuhrt]], [[20260322_heartmoney-zwischen-bitcoin-und-ego]], [[20260125_heartmoney-der-bitcoin-fruhling-beginnt]], [[20251207_heartmoney-bitcoin-deus-ex-machina]], [[20260301_heartmoney-es-ging-nie-um-bitcoin]], [[20250727_heartmoney-zwischen-bitcoin-burg-und-sternenstaub]], [[20260630_heartmoney-bitcoin-angst-und-magie]], [[20260215_heartmoney-so-schnell-geht-das-nicht]], [[20251103_heartmoney-der-spate-vogel-wird-belohnt]], [[20260405_heartmoney-die-passion-des-satoshi]], [[20260201_heartmoney-zwischen-goldrausch-und-zuversicht]]
 

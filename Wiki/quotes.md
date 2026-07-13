@@ -1,6 +1,7 @@
 # Quotes
 
 **Status:** living document
+**Themen:** zitate, philosophie
 **Last updated:** 2026-06-29
 
 Notable quotes on Bitcoin — collected from primary sources and conversations. Verbatim where sourced directly; context noted where helpful.

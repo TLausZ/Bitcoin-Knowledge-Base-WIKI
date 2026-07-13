@@ -1,6 +1,7 @@
 # Bitcoin-Konferenzen und Community
 
 **Status:** established
+**Themen:** oekonomie, philosophie
 **Last updated:** 2026-07-07
 **Sources:** [[Why is it worth attending Bitcoin conferences, and how can it help you develop yourself_]], [[Bitcoin events Summary of 2025 - It was extraordinary!]], [[20250727_heartmoney-zwischen-bitcoin-burg-und-sternenstaub]], [[20260630_heartmoney-bitcoin-angst-und-magie]], [[20251013_heartmoney-magie-in-ingolstadt]], [[20250908_heartmoney-zwischen-berlin-bitcoin-und-visionaren-weltverbesserern]], [[bitcoin-ratgeber_kapitel-08-vernetze-dich]], [[20221101_bmi-deutschsprachige-community-de]]
 

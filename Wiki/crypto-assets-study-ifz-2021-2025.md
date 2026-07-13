@@ -1,6 +1,7 @@
 # Crypto Assets Study IFZ 2021–2025
 
 **Status:** established
+**Themen:** adoption, studien
 **Last updated:** 2026-07-02
 **Sources:** [[IFZ-Crypto-Assets-Study-2021.pdf]], [[Crypto_Assets_Study_2022.pdf]], [[Crypto_Assets_Study_2023.pdf]], [[Crypto_Assets_Study_2024.pdf]], [[Crypto_Assets_Study_2025-1.pdf]]
 

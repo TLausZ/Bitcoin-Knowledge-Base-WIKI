@@ -1,6 +1,7 @@
 # Energiestandard und Proof of Work
 
 **Status:** established
+**Themen:** mining, adoption
 **Last updated:** 2026-06-27
 **Sources:** [[aprycot-henry-ford-energiewaehrung]], [[Seetee Aktionärsbrief _ Kjell Inge Røkke.md]]
 

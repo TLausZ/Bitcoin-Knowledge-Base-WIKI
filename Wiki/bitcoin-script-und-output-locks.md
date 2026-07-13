@@ -1,6 +1,7 @@
 # Bitcoin Script und Output-Locks
 
 **Status:** established
+**Themen:** protokoll
 **Last updated:** 2026-06-20
 **Sources:** [[learnmeabitcoin-beginners-guide-locks]], [[learnmeabitcoin-technical-script-overview]], [[learnmeabitcoin-technical-script-p2pk]], [[learnmeabitcoin-technical-script-p2pkh]], [[learnmeabitcoin-technical-script-p2ms]], [[learnmeabitcoin-technical-script-p2sh]], [[learnmeabitcoin-technical-script-p2wpkh]], [[learnmeabitcoin-technical-script-p2wsh]], [[learnmeabitcoin-technical-script-p2tr]], [[learnmeabitcoin-technical-script-return]], [[learnmeabitcoin-technical-script-p2sh-p2wpkh]], [[learnmeabitcoin-technical-script-p2sh-p2wsh]], [[2018_Grokking-Bitcoin_Rosenbaum]]
 

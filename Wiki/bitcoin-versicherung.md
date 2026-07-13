@@ -1,6 +1,7 @@
 # Bitcoin-Versicherung für Selbstverwahrung
 
 **Status:** emerging
+**Themen:** oekonomie, self-custody
 **Last updated:** 2026-06-08
 **Sources:** [[20240208_die-erste-versicherung-für-deine-eigenen-bitcoin]], [[20240208_bitbox-02-2024-fletschhorn-update]]
 

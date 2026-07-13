@@ -1,6 +1,7 @@
 # Bitcoin vs. Krypto: Signal und Rauschen
 
 **Status:** established
+**Themen:** grundlagen, philosophie
 **Last updated:** 2026-06-29
 **Sources:** [[Liebe Krypto- und Fiat-Bros.md]], [[aprycot-nur-die-staerksten-einleitung]], [[aprycot-nur-die-staerksten-1-innovation-grundprinzipien]], [[aprycot-nur-die-staerksten-2-krypto-nicht-dezentralisiert]], [[aprycot-nur-die-staerksten-3-krypto-kein-finanzwesen]], [[aprycot-nur-die-staerksten-4-investitions-grundprinzip]], [[aprycot-nur-die-staerksten-5-schichtenarchitektur]], [[aprycot-nur-die-staerksten-6-warum-wir-uns-irren]], [[aprycot-nur-die-staerksten-7-fazit-anhaenge]], [[An Economic Analysis of Ethereum.md]]
 

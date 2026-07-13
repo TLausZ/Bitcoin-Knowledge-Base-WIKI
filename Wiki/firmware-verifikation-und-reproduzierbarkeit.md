@@ -1,6 +1,7 @@
 # Firmware-Verifikation und Reproduzierbarkeit
 
 **Status:** established
+**Themen:** self-custody, philosophie
 **Last updated:** 2026-06-05
 **Sources:** [[20230119_bitbox02-firmware-verifizieren-de]]
 

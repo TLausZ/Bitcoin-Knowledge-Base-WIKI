@@ -1,6 +1,7 @@
 # Bitcoin: Entropie, Ordnung und der ewige Kampf
 
 **Status:** established
+**Themen:** protokoll, privacy, mining, philosophie, geschichte
 **Last updated:** 2026-06-23
 **Sources:** [[aprycot-gigi-ewiger-kampf-von-bitcoin.md]]
 

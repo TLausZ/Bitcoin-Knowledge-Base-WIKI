@@ -1,6 +1,7 @@
 # Bitcoin Entropie und Zufallszahlen
 
 **Status:** established
+**Themen:** self-custody, philosophie
 **Last updated:** 2026-06-28
 **Sources:** [[alex-waltz-quantum-rng-bitcoin-entropy]]
 

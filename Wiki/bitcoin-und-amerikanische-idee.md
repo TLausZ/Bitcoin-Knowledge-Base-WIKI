@@ -1,6 +1,7 @@
 # Bitcoin und die amerikanische Idee
 
 **Status:** established
+**Themen:** oekonomie, philosophie, geschichte
 **Last updated:** 2026-06-23
 **Sources:** [[aprycot-gladstein-bitcoin-amerikanische-idee]], [[aprycot-parker-lewis-bitcoin-ist-ein-aufschrei]]
 

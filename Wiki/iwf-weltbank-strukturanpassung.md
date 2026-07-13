@@ -1,6 +1,7 @@
 # IWF und Weltbank: Strukturanpassung und Ressourcenabfluss
 
 **Status:** established
+**Themen:** oekonomie, adoption
 **Last updated:** 2026-06-22
 **Sources:** [[Strukturanpassung_ Wie der IWF und die Weltbank arme Länder unterdrücken und ihre Ressourcen in reiche Länder leiten.md]]
 

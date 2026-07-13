@@ -1,6 +1,7 @@
 # STARKs
 
 **Status:** established
+**Themen:** protokoll
 **Last updated:** 2026-07-02
 **Sources:** [[How STARKs Work_ Part 1]], [[How STARKs Work_ Part 2]], [[How STARKs Work_ Part 3]], [[How STARKs Work_ Part 4]], [[How STARKs Work_ Part 5]], [[How STARKs Work_ Part 6]]
 

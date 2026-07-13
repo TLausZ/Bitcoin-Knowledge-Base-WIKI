@@ -1,6 +1,7 @@
 # HD-Wallets und Schlüsselableitung
 
 **Status:** established
+**Themen:** protokoll, self-custody, privacy
 **Last updated:** 2026-06-19
 **Sources:** [[20220505_wie-entsteht-bitcoin-adresse-de]], [[20210804_bitbox-08-2021-cristallina-update-de]], [[20240314_wie-die-bitbox02-den-seed-für-die-lightning-wallet-sicher-ableitet]], [[learnmeabitcoin-technical-keys-hd-wallets]], [[learnmeabitcoin-technical-keys-hd-wallets-extended-keys]], [[learnmeabitcoin-technical-keys-hd-wallets-derivation-paths]], [[learnmeabitcoin-technical-keys-hd-wallets-mnemonic-seed]]
 

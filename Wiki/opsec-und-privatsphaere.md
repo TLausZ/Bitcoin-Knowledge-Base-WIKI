@@ -1,6 +1,7 @@
 # OPSEC und Privatsphäre für Bitcoin-Nutzer
 
 **Status:** established
+**Themen:** privacy
 **Last updated:** 2026-06-25 (Pass 53: Passphrase-Strategie, Gerätestapel-Kontext, Steuern DE)
 **Sources:** [[20250522_sprich-nicht-über-deine-bitcoin]], [[20211220_bitbox02-bestellen-ohne-adresse-de]], [[20210320_shift-crypto-datenschutz-de]], [[aprycot-gigi-privatsphaere-in-bitcoin.md]], [[Das Privacy Handbuch_ Ein Ratgeber für digitale Sicherheit und Privatsphäre]], [[bitcoin-ratgeber_kapitel-07-privacy]]
 

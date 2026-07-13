@@ -1,6 +1,7 @@
 # Regulierung: ToFR, Satoshi-Tests und AOPP
 
 **Status:** established
+**Themen:** protokoll, adoption
 **Last updated:** 2026-06-06
 **Sources:** [[20250109_wie-satoshi-tests-der-selbstverwahrung-schaden-und-warum-aopp-die-lösung-ist]], [[20210804_bitbox-08-2021-cristallina-update-de]]
 

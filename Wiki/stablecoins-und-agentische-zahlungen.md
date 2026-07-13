@@ -1,6 +1,7 @@
 # Stablecoins und agentische Zahlungen: Die Stripe-Infrastruktur
 
 **Status:** emerging
+**Themen:** lightning, oekonomie
 **Last updated:** 2026-07-05
 **Sources:** [[stripe_sessions2026-Opening remarks and product keynote]]
 

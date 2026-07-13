@@ -1,6 +1,7 @@
 # Bitcoin: Netzwerkeffekte, Designphilosophie und historische Einordnung
 
 **Status:** established
+**Themen:** protokoll, lightning, oekonomie
 **Last updated:** 2026-06-24
 **Sources:** [[aprycot-bitcoin-ist-schwerkraft]], [[aprycot-bitcoin-ist-logos-techne]], [[aprycot-bitcoin-ist-venedig]], [[aprycot-bitcoin-ist-schlechter-ist-besser-gwern]], [[aprycot-alden-bitcoin-netzwerkeffekt]]
 

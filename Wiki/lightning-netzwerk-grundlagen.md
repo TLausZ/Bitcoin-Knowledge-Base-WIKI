@@ -1,6 +1,7 @@
 # Lightning Netzwerk: Grundlagen
 
 **Status:** established
+**Themen:** grundlagen, protokoll, lightning
 **Last updated:** 2026-06-20
 **Sources:** [[The Inbound Capacity Problem in the Lightning Network]], [[A Closer Look at Submarine Swaps in the Lightning Network]], [[20251218_die-skalierung-von-bitcoin-lightning-und-der-weg-zu-ark]], [[20231018_lightning-in-der-bitboxapp]], [[Eine Vision für wertaktivierendes Web.md]], [[bitcoin-ratgeber_kapitel-04-das-lightning-netzwerk]]
 

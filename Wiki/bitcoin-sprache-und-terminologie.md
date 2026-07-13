@@ -1,6 +1,7 @@
 # Bitcoin: Sprache und Terminologie
 
 **Status:** established
+**Themen:** protokoll, philosophie, kritik
 **Last updated:** 2026-06-22
 **Sources:** [[aprycot-gigi-woerter-in-bitcoin]]
 

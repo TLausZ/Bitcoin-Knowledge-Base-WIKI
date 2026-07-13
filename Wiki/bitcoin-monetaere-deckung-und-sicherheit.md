@@ -1,6 +1,7 @@
 # Monetäre Deckung und Bitcoins Sicherheitsarchitektur
 
 **Status:** established
+**Themen:** grundlagen, protokoll, privacy, mining, oekonomie
 **Last updated:** 2026-06-23
 **Sources:** [[aprycot-parker-lewis-bitcoin-nicht-durch-nichts-gedeckt]]
 

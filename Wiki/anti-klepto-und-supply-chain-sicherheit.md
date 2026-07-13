@@ -1,6 +1,7 @@
 # Anti-Klepto und Supply-Chain-Sicherheit
 
 **Status:** established
+**Themen:** protokoll, self-custody, kritik
 **Last updated:** 2026-06-05
 **Sources:** [[20230713_anti-klepto-wie-die-bitbox02-versteckte-seed-extraktion-verhindert]], [[20230810_verteidigung-in-der-tiefe-seed-verschlüsselung-im-arbeitsspeicher]], [[20230629_bitbox-06-2023-bellinzona-update-de]], [[20221130_hardware-wallets-seed-stehlen-de]], [[20221222_supply-chain-angriffe-verhindern-de]]
 

@@ -1,6 +1,7 @@
 # Electrum Wallet
 
 **Status:** established
+**Themen:** protokoll, privacy, wallets
 **Last updated:** 2026-06-28
 **Sources:** [[20210107_bitbox02-electrum-anleitung-de]], [[20210531_erweiterte-electrum-funktionen-de]], [[sparrowwallet-Server Performance]], [[alex-waltz-electrum-first-deterministic-wallet]]
 
