@@ -106,3 +106,7 @@ Beim späteren Anlegen der Buch-Artikel: eine Datei pro Buch als Quelle wählen 
 
 **Michael Wolf / Bitcoinlighthouse als Quelle:** Bislang nur der Ratgeber ingestiert. Workshops, Newsletter und die Vererbungs-Beratungsseite (bitcoinlighthouse.de) sind Werbung im Buch, keine eigenständigen Quellen — kein Nachingest nötig, solange keine inhaltlichen Texte vorliegen.
 
+
+## CLAUDE.md-Restrukturierung (2026-07-14)
+
+**Artikel-Sprache Schweizer Hochdeutsch:** Die neue Writing-Rule (CLAUDE.md) legt Schweizer Hochdeutsch für alle Wiki-Artikel fest, auch bei englischen Quellen. Bestehende englischsprachige Artikel sind damit formal nicht mehr konform. Beim nächsten Health-Check: englische Artikel identifizieren und als Umstellungs-Kandidaten flaggen (kein Auto-Fix, Umfang zuerst schätzen).
