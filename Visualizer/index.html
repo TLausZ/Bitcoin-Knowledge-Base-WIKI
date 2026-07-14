@@ -14,12 +14,6 @@
   #cap p{margin:3px 0 0;font-size:12px}
   /* GitHub-Link des ausgewählten Artikels: im Kartenbereich, linksbündig
      direkt neben dem Listen-Panel, unterhalb der Titelleiste */
-  #link{position:fixed;left:292px;top:73px;font-size:12px;color:#6b5a42;
-    max-width:calc(100% - 308px);overflow:hidden;text-overflow:ellipsis;
-    white-space:nowrap;background:#ece2cd;padding:2px 6px;border-radius:3px}
-  #link:empty{display:none}   /* ohne Auswahl kein leeres Kästchen zeigen */
-  #link b{font-weight:600;color:#5c4a34}
-  #link a{color:#5c4a34}
   #hint{position:fixed;left:296px;bottom:14px;user-select:none;pointer-events:none}
   b{color:#5c4a34}
   /* Listen-Panel beginnt unterhalb der Titelleiste (top = deren Höhe) */
@@ -60,22 +54,26 @@
     #ptoggle,#ptoggle.hidden{left:auto;right:10px;top:12px;width:auto;height:auto;
       padding:6px 11px;line-height:1.2;font-size:13px;border-radius:5px;z-index:4}
     #hint{display:none}                      /* Tastatur-Hinweis ist am Handy sinnlos */
-    #link{left:8px;right:8px;top:auto;bottom:10px;max-width:none;
-      background:rgba(236,226,205,0.92)}
   }
   /* --- Lese-Modal: rendert die MD-Datei von GitHub über allem --- */
   #modal{position:fixed;inset:0;z-index:10;display:none;background:rgba(60,48,32,.5)}
   #modal.open{display:block}
   #mcard{position:absolute;inset:16px;background:#f4ecd8;color:#3f3320;border-radius:8px;
     overflow-y:auto;-webkit-overflow-scrolling:touch;box-shadow:0 10px 40px rgba(0,0,0,.35)}
-  #mhead{position:sticky;top:0;display:flex;justify-content:space-between;align-items:center;
+  #mhead{position:sticky;top:0;display:flex;align-items:center;
     padding:10px 10px 6px;background:#f4ecd8;border-bottom:1px solid rgba(110,92,64,.18);z-index:1}
   #mclose{width:38px;height:38px;border-radius:50%;border:none;cursor:pointer;padding:0;
-    background:#5c4a34;color:#f2ead6;font-size:18px;line-height:38px}
+    background:#5c4a34;color:#f2ead6;font-size:18px;line-height:38px}   /* X aussen rechts; margin-left:auto sitzt auf #mgh */
   #mclose:hover{background:#6e5a40}
   #mback{border:none;cursor:pointer;height:38px;padding:0 15px;border-radius:19px;
     background:#5c4a34;color:#f2ead6;font:inherit;font-size:13px}
   #mback:hover{background:#6e5a40}
+  #mgh{margin-left:auto;                                    /* GitHub-Link + X bilden die rechte Gruppe */
+    display:inline-flex;align-items:center;height:38px;padding:0 14px;margin-right:8px;
+    border:1px solid rgba(110,92,64,.5);border-radius:19px;
+    color:#5c4a34;text-decoration:none;font-size:13px;white-space:nowrap}
+  #mgh:hover{background:rgba(110,92,64,.1)}
+  #mbody .ghfallback{display:inline-block;margin-top:12px;color:#8a5a1e;font-weight:600}
   #mbody{max-width:740px;margin:0 auto;padding:8px 28px 60px}
   #mbody.loading,#mbody.error{color:#8a7a5e;padding-top:48px;text-align:center}
   @media (max-width:640px){#mcard{inset:0;border-radius:0}#mbody{padding:8px 18px 60px}}
@@ -113,6 +111,19 @@
   #mbody summary::before{content:'\25B8   '}          /* ▸ zu */
   #mbody details[open] summary::before{content:'\25BE   '}   /* ▾ offen */
   #mbody details>p{margin:0;padding:0 12px 10px}
+  /* --- Disclaimer beim Start: überdeckt alles, nur der Knopf schliesst --- */
+  #disc{position:fixed;inset:0;z-index:20;display:flex;align-items:center;justify-content:center;
+    padding:20px;background:rgba(60,48,32,.55)}
+  #disccard{background:#f4ecd8;color:#3f3320;max-width:440px;width:100%;border-radius:10px;
+    padding:24px 26px 22px;box-shadow:0 12px 44px rgba(0,0,0,.4)}
+  #disccard h2{margin:0 0 14px;font-size:18px;font-weight:600;color:#5c4a34}
+  #disccard ul{margin:0 0 20px;padding-left:20px}
+  #disccard li{margin:7px 0;line-height:1.5;font-size:14px}
+  #disccard .lic{margin:0 0 18px;font-size:12.5px;color:#6b5a42}
+  #disccard .lic a{color:#8a5a1e}
+  #discok{display:block;width:100%;padding:10px;border:none;border-radius:6px;cursor:pointer;
+    background:#5c4a34;color:#f2ead6;font:inherit;font-size:14px;font-weight:600}
+  #discok:hover{background:#6e5a40}
 </style>
 <div id="panel">
   <div id="sort">
@@ -126,15 +137,26 @@
 <button id="ptoggle" title="Liste ein-/ausblenden (H)">‹</button>
 <div id="cap"><h1>Bitcoin-Wiki · Gesamtkarte</h1>
   <p id="sub"></p></div>
-<div id="link"></div>
 <canvas id="c"></canvas>
 <div id="hint">ziehen zum drehen · <b>scroll</b> zoom · <b>W A S D</b> verschieben · <b>R</b> reset · <b>H</b> Liste</div>
 <div id="modal"><div id="mcard">
   <div id="mhead">
     <button id="mback" title="Zurück">‹ Zurück</button>
+    <a id="mgh" target="_blank" rel="noopener" title="Originaldatei auf GitHub">GitHub ↗</a>
     <button id="mclose" title="Schliessen (Esc)">✕</button>
   </div>
   <div id="mbody" class="markdown-body"></div>
+</div></div>
+<div id="disc"><div id="disccard">
+  <h2>Hinweis</h2>
+  <ul>
+    <li>Handverlesener Inhalt, mit AI in dieses Wiki formatiert.</li>
+    <li>Kein Anspruch auf Vollständigkeit.</li>
+    <li>AI macht Fehler. Don't trust, verify.</li>
+  </ul>
+  <p class="lic">Dieses Wiki steht unter der freien Lizenz
+    <a href="http://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0</a>.</p>
+  <button id="discok">Einverstanden</button>
 </div></div>
 
 <script>
@@ -556,7 +578,7 @@ function endPointer(e){
   // Klick auf ein Label: Artikel auswählen bzw. per Toggle wieder abwählen —
   // gleiche Wirkung wie ein Klick in der Liste (inkl. Markierung dort)
   const h=labelAt(e.clientX,e.clientY);
-  if(h>=0){sel=(sel===h?-1:h); updateLink(); renderList(); draw();
+  if(h>=0){sel=(sel===h?-1:h); renderList(); draw();
     if(sel===h) openDoc(PEAKS[h].n);}       // beim Auswählen das Lese-Modal öffnen
 }
 cv.addEventListener('pointerup',endPointer);
@@ -640,20 +662,6 @@ topicEl.append(new Option(`Alle Themen (${PEAKS.length})`,''));
 // leere Kategorien (z.B. Sonstiges-Fallback ohne Treffer) nicht anzeigen
 for(const [tok,label] of TOPICS){const c=tCount(tok); if(c) topicEl.append(new Option(`${label} (${c})`,tok));}
 topicEl.onchange=renderList;
-const linkEl=document.getElementById('link');
-
-// Zeigt Name + GitHub-URL des ausgewählten Artikels im Kartenbereich.
-// Nur die URL selbst ist verlinkt (öffnet in neuem Fenster), der Name
-// davor ist reiner Text. Ohne Auswahl bleibt die Stelle leer.
-function updateLink(){
-  linkEl.innerHTML='';
-  if(sel<0) return;
-  const n=PEAKS[sel].n, url=WIKI_URL+encodeURIComponent(n)+'.md';
-  const b=document.createElement('b'); b.textContent=n.replace(/-/g,' ')+': ';
-  const a=document.createElement('a');
-  a.href=url; a.target='_blank'; a.rel='noopener'; a.textContent=url;
-  linkEl.append(b,a);
-}
 let mode='w', dirW=-1, dirA=1;            // w: weight, a: alpha; -1 = desc
 
 function renderList(){
@@ -687,7 +695,7 @@ function renderList(){
       requestAnimationFrame(()=>d.scrollIntoView({block:'center'}));}
     // Klick: Auswahl setzen bzw. per Toggle wieder aufheben,
     // danach die sel-Markierung in der Liste aktualisieren
-    d.onclick=()=>{sel=(sel===i?-1:i); updateLink(); draw();
+    d.onclick=()=>{sel=(sel===i?-1:i); draw();
       for(const c of listEl.children) c.className='';
       if(sel>=0) d.className='sel';
       if(sel===i) openDoc(PEAKS[i].n);};      // beim Auswählen das Lese-Modal öffnen
@@ -712,7 +720,7 @@ saBtn.onclick=()=>{if(mode==='a') dirA=-dirA; mode='a'; renderList();};
 const API_BASE='https://api.github.com/repos/TLausZ/Bitcoin-Knowledge-Base-WIKI/contents/Wiki/';
 const modal=document.getElementById('modal'), mcard=document.getElementById('mcard'),
       mbody=document.getElementById('mbody'), mclose=document.getElementById('mclose'),
-      mback=document.getElementById('mback');
+      mback=document.getElementById('mback'), mgh=document.getElementById('mgh');
 const NAMES=new Set(PEAKS.map(p=>p.n));   // gültige Artikel-Slugs — nur diese werden verlinkt
 const cache=new Map();   // slug -> gerendertes HTML: Rück-/Wiederbesuch ohne neuen API-Call
 const hist=[];           // Slug-Stapel für die Zurück-Navigation
@@ -768,10 +776,11 @@ async function openDoc(name, back=false){
   const seq=++docSeq;                       // auch der Cache-Pfad entwertet noch laufende Fetches
   if(!back && curDoc && curDoc!==name) hist.push(curDoc);
   curDoc=name; updateNav();
+  mgh.href=WIKI_URL+encodeURIComponent(name)+'.md';   // Original auf GitHub (auch bei Ladefehler nutzbar)
   modal.classList.add('open');
   // Kartenauswahl mitziehen, damit sie nach dem Schliessen zum gelesenen Artikel passt
   const i=PEAKS.findIndex(p=>p.n===name);
-  if(i>=0 && sel!==i){sel=i; updateLink(); renderList(); draw();}
+  if(i>=0 && sel!==i){sel=i; renderList(); draw();}
   if(cache.has(name)){renderDoc(cache.get(name)); return;}   // aus Cache: kein API-Call
   mbody.className='markdown-body loading'; mbody.textContent='Lädt …'; mcard.scrollTop=0;
   try{
@@ -788,7 +797,12 @@ async function openDoc(name, back=false){
   }catch(err){
     if(seq!==docSeq) return;
     mbody.className='markdown-body error';
-    mbody.textContent='Konnte das Dokument nicht laden: '+err.message;
+    mbody.innerHTML='';
+    const p=document.createElement('p'); p.textContent='Konnte das Dokument nicht laden: '+err.message;
+    const a=document.createElement('a'); a.className='ghfallback';
+    a.href=WIKI_URL+encodeURIComponent(name)+'.md'; a.target='_blank'; a.rel='noopener';
+    a.textContent='Original auf GitHub öffnen ↗';   // Ausweg bei API-Limit
+    mbody.append(p,a);
   }
 }
 function closeDoc(){modal.classList.remove('open'); hist.length=0; curDoc=null; updateNav();}
@@ -810,5 +824,6 @@ function resize(){const dpr=window.devicePixelRatio||1;
 addEventListener('resize',resize);
 document.getElementById('sub').textContent=   // Untertitel aus den Daten, veraltet nie
   `Alle ${PEAKS.length} Artikel · Höhe = Gewicht (PageRank + Quellen) · Top ${LABEL_TOP} beschriftet`;
+document.getElementById('discok').onclick=()=>document.getElementById('disc').remove();
 resize(); build(); renderList();
 </script>
