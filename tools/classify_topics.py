@@ -59,7 +59,7 @@ STUDIEN_SET = {
 # eines bloss zitieren. Wächst, sobald Buch-Zusammenfassungen als eigene
 # Artikel angelegt werden (siehe Wiki/QUESTIONS.md).
 BUECHER_SET = {
-    "21-lektionen", "bitcoin-alles-geteilt-durch-21-millionen",
+    "bitcoin-alles-geteilt-durch-21-millionen",
     "bitcoin-inverse-of-clown-world", "praxeology",
     "bitcoin-unabhaengigkeit-neu-gedacht",
     "internet-of-money-vol1", "internet-of-money-vol2", "internet-of-money-vol3",
@@ -69,6 +69,8 @@ BUECHER_SET = {
     "bitcoin-development-philosophy",
     "der-bitcoin-standard", "der-fiat-standard", "gesetze-der-wirtschaft",
     "the-bitcoin-handbook", "goldene-zukunft", "das-buch-satoshis",
+    "das-kleine-bitcoin-buch", "das-trojanische-pferd-der-freiheit",
+    "hidden-repression_how-the-imf-and-world-bank-sell-exploitation-as-development",
 }
 
 # (tag, regex) — trifft gegen slug + " " + beschreibung (lowercase, ascii-gefaltet)

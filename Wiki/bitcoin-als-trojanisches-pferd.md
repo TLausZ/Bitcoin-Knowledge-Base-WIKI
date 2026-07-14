@@ -53,6 +53,7 @@ Das Pferd steht bereits in der Stadt.
 
 ## Related
 
+- [[das-trojanische-pferd-der-freiheit]]
 - [[bitcoin-und-amerikanische-idee]]
 - [[bitcoin-spieltheorie-und-anreize]]
 - [[bitcoin-als-lebender-organismus-gigi]]
