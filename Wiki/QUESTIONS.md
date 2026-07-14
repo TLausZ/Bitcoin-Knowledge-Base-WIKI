@@ -6,14 +6,14 @@ Offene Fragen, Lücken und Themen, die mehr Quellen benötigen. Stand: 2026-07-0
 
 Related-Links auf Artikel, die nie erstellt wurden. Pro Link: erstellen, auf bestehenden Artikel umbiegen oder entfernen?
 
-- `[[bitcoin-als-reserve-und-anlagegut]]` ← iwf-weltbank-strukturanpassung, value4value-und-wertaktivierendes-web (Kandidaten: bitcoin-als-strategische-reserve, bitcoin-etf-und-institutionelle-verwahrung)
-- `[[bitcoin-als-zahlungsmittel]]` ← value4value-und-wertaktivierendes-web (Kandidat: bitcoin-skalierung-und-zahlungen)
-- `[[bitcoin-fuer-entwicklungslaender]]` ← iwf-weltbank-strukturanpassung (Kandidaten: monetaerer-kolonialismus-cfa-franc, bitcoin-humanitaere-anwendungen)
-- `[[proof-of-work-grundlagen]]` ← iwf-weltbank-strukturanpassung, value4value-und-wertaktivierendes-web (Kandidaten: bitcoin-mining-und-proof-of-work, energiestandard-und-proof-of-work)
+- `[[bitcoin-als-strategische-reserve]]` ← iwf-weltbank-strukturanpassung, value4value-und-wertaktivierendes-web (Kandidaten: bitcoin-als-strategische-reserve, bitcoin-etf-und-institutionelle-verwahrung)
+- `[[bitcoin-skalierung-und-zahlungen]]` ← value4value-und-wertaktivierendes-web (Kandidat: bitcoin-skalierung-und-zahlungen)
+- `[[bitcoin-humanitaere-anwendungen]]` ← iwf-weltbank-strukturanpassung (Kandidaten: monetaerer-kolonialismus-cfa-franc, bitcoin-humanitaere-anwendungen)
+- `[[bitcoin-mining-und-proof-of-work]]` ← iwf-weltbank-strukturanpassung, value4value-und-wertaktivierendes-web (Kandidaten: bitcoin-mining-und-proof-of-work, energiestandard-und-proof-of-work)
 - `[[cantillon-effekt]]` ← bitcoin-menschenrechte (im Fliesstext bereits mit Fallback auf geldpolitik-und-inflation markiert)
-- `[[cantillon-effekt-und-geldpolitik]]` ← iwf-weltbank-strukturanpassung (Kandidat: geldpolitik-und-inflation)
-- `[[geldgeschichte-und-sound-money]]` ← energiestandard-und-proof-of-work (Kandidat: szabo-geldursprung)
-- `[[gigi-bitcoin-als-naturgewalt]]`, `[[bitcoin-ist-die-wiederentdeckung-des-geldes]]` ← gigi-philosophische-essays (geplante Essay-Artikel; RAW-Quellen vorhanden)
+- `[[geldpolitik-und-inflation]]` ← iwf-weltbank-strukturanpassung (Kandidat: geldpolitik-und-inflation)
+- `[[der-bitcoin-standard]]` ← energiestandard-und-proof-of-work (Kandidat: szabo-geldursprung)
+- `[[bitcoin-als-lebender-organismus-gigi]]`, `[[bitcoin-ist-die-wiederentdeckung-des-geldes]]` ← gigi-philosophische-essays (geplante Essay-Artikel; RAW-Quellen vorhanden)
 
 Stale Source-Zitate (Ziel-Datei existiert nicht mehr in RAW):
 
@@ -105,3 +105,4 @@ Beim späteren Anlegen der Buch-Artikel: eine Datei pro Buch als Quelle wählen 
 **Kapitel 1 (Was ist Geld?) breit verlinkbar:** Der Ratgeber deckt Geldeigenschaften, Goldstandard, Petrodollar, Cantillon-Effekt und Proof-of-Work-als-Vertrauen ab. Kompiliert wurde nur nach `szabo-geldursprung`. Bei Gelegenheit prüfen, ob `geldpolitik-und-inflation` (Cantillon), `geld-staat-und-fiat-monopol` (Petrodollar) und `bitcoin-mining-und-proof-of-work` (PoW als Vertrauen) den Ratgeber ebenfalls als Beleg aufnehmen sollten.
 
 **Michael Wolf / Bitcoinlighthouse als Quelle:** Bislang nur der Ratgeber ingestiert. Workshops, Newsletter und die Vererbungs-Beratungsseite (bitcoinlighthouse.de) sind Werbung im Buch, keine eigenständigen Quellen — kein Nachingest nötig, solange keine inhaltlichen Texte vorliegen.
+

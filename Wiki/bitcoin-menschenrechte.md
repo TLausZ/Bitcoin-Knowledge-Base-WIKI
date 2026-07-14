@@ -23,7 +23,7 @@ Herbort zeigt an zeitgenössischen Fällen, wie staatliche Geldpolitik zur Waffe
 
 Alexej Nawalnys Stiftung wurde als extremistisch eingestuft, womit ihr Bankzugang gekappt wurde. Die Uiguren in Xinjiang sind einem Überwachungs- und Finanzsystem ausgesetzt, das soziale Kontrolle über Zahlungsinfrastruktur ausübt. Nasrin Sotoudeh, iranische Menschenrechtsanwältin, und Malcolm Bidali, Aktivist für Migrantenrechte, wurden analog verfolgt.
 
-Das Cantillon-Prinzip spielt hier auf einer systemischen Ebene: Geldschöpfung begünstigt strukturell ihre Schöpfer. Bereits Richard Cantillon beschrieb um 1730, dass die Nähe zur Geldschöpfung Wohlstand ungleich verteilt. Moderne Fiat-Schöpfung — ein Buchungssatz bei einer Zentralbank — ist derselbe Mechanismus. Die Institution, die Geld schöpft, gewinnt immer zuerst. [[geldpolitik-und-inflation]] [[cantillon-effekt]] (wenn dieser Artikel noch fehlt: [[bitcoin-als-basisgeld]])
+Das Cantillon-Prinzip spielt hier auf einer systemischen Ebene: Geldschöpfung begünstigt strukturell ihre Schöpfer. Bereits Richard Cantillon beschrieb um 1730, dass die Nähe zur Geldschöpfung Wohlstand ungleich verteilt. Moderne Fiat-Schöpfung — ein Buchungssatz bei einer Zentralbank — ist derselbe Mechanismus. Die Institution, die Geld schöpft, gewinnt immer zuerst. [[geldpolitik-und-inflation]] [[bitcoin-als-basisgeld]]
 
 ### 2,2 Milliarden Menschen ohne Bankzugang
 

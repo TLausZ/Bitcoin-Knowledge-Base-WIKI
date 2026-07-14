@@ -70,7 +70,7 @@ Das Seetee-Modell ist ein Unternehmensbeispiel für das, was Ford 1921 konzeptue
 - [[bitcoin-mining-energiequellen]]
 - [[bitcoin-spieltheorie-und-anreize]]
 - [[bitcoin-recht-sprache-geld]]
-- [[geldgeschichte-und-sound-money]]
+- [[der-bitcoin-standard]]
 - [[bitcoin-adoption-reise]]
 
 ## Open Questions

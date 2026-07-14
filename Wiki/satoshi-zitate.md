@@ -310,7 +310,7 @@ Zur Person, zum Abgang und zu späteren Identitätsbehauptungen siehe [[bitcoin-
 - [[bitcoin-absolute-knappheit]]
 - [[bitcoin-mining-energiequellen]]
 - [[bitcoin-regierungsresistenz]]
-- [[quotes]]
+- [[zitate]]
 
 ## Open Questions
 

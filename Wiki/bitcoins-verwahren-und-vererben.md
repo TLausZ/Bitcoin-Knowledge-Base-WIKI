@@ -13,14 +13,14 @@ Marc Steiners praktischer Ratgeber (Aprycot Media, 2020, Vorwort von Jonas Schne
 
 ### Ausgangsproblem
 
-Bitcoin macht dich zur eigenen Bank — mit der Kehrseite, dass es keine Helpline gibt. Die „Null-Fehler-Toleranz" der Kryptowelt gilt auch beim Vererben: Coins an eine falsche Adresse oder ein verlorener Schlüssel sind in der Regel endgültig weg. Steiners Leitsatz ist der Szene-Klassiker „Nur wer seine Bitcoins selber verwaltet, besitzt Bitcoins". Daraus folgt für ihn: Jeder Bitcoin-Besitzer braucht einen Nachlassplan, und zwar solange er bei klarem Verstand und guter Gesundheit ist.
+Bitcoin macht dich zur eigenen Bank, mit der Kehrseite, dass es keine Helpline gibt. Die „Null-Fehler-Toleranz" der Kryptowelt gilt auch beim Vererben: Coins an eine falsche Adresse oder ein verlorener Schlüssel sind in der Regel endgültig weg. Steiners Leitsatz ist der Szene-Klassiker „Nur wer seine Bitcoins selber verwaltet, besitzt Bitcoins". Daraus folgt für ihn: Jeder Bitcoin-Besitzer braucht einen Nachlassplan, und zwar solange er bei klarem Verstand und guter Gesundheit ist.
 
 ### Verwahrungs-Entscheidungen (Buch-Logik)
 
 Steiner führt schrittweise durch die Wallet-Typen und leitet daraus ab, was sich fürs Erbe eignet:
 
-- **Custodial vs. non-custodial:** Custodial (Börse/Kryptobank hält die Schlüssel) ist bequem, aber Fremdverwahrung — einfrierbar, hackbar, und beim Erbfall problematisch, weil das Einloggen mit dem Namen des Verstorbenen mancherorts strafbar ist. Fürs Erbe klar abgelehnt.
-- **Cold vs. hot storage:** Hot-Wallets (permanent online) nur für Kleinbeträge — „nicht mehr, als du Bargeld in der Brieftasche trägst". Für langfristige Verwahrung und Erbe ausschließlich Cold Storage.
+- **Custodial vs. non-custodial:** Custodial (Börse/Kryptobank hält die Schlüssel) ist bequem, aber Fremdverwahrung, einfrierbar, hackbar, und beim Erbfall problematisch, weil das Einloggen mit dem Namen des Verstorbenen mancherorts strafbar ist. Fürs Erbe klar abgelehnt.
+- **Cold vs. hot storage:** Hot-Wallets (permanent online) nur für Kleinbeträge, „nicht mehr, als du Bargeld in der Brieftasche trägst". Für langfristige Verwahrung und Erbe ausschließlich Cold Storage.
 - **Fazit des Buches:** non-custodial + cold ist die einzige Basis, auf der ein mehrjähriger Nachlassplan aufsetzt.
 
 ### Werkzeuge für Sicherung und Vererbung
@@ -29,14 +29,14 @@ Das Buch behandelt die gängigen Bausteine und wie sie im Nachlassplan zusammens
 
 - **Hardware-Wallet** als Cold-Storage-Gerät.
 - **Seed-Backup** (12/24 Wörter), möglichst metallgestanzt gegen Feuer/Wasser.
-- **Passphrase** als 25. Wort — zusätzlicher Schutz, aber auch zusätzliche Verlustquelle, die im Plan bedacht sein muss.
-- **Shamir Secret Sharing** — Aufteilung des Seeds in mehrere Teile, von denen eine Schwelle zur Wiederherstellung genügt.
+- **Passphrase** als 25. Wort, zusätzlicher Schutz, aber auch zusätzliche Verlustquelle, die im Plan bedacht sein muss.
+- **Shamir Secret Sharing**, Aufteilung des Seeds in mehrere Teile, von denen eine Schwelle zur Wiederherstellung genügt.
 - **Multisig** als kryptografisches Mehr-Augen-Prinzip, bei dem mehrere Schlüssel für eine Ausgabe nötig sind.
 - **Schließfach/Tresor** zur räumlich getrennten Ablage von Teilgeheimnissen.
 
 ### Der Nachlassplan
 
-Das eigentliche Thema ist die Choreografie für den Ernstfall. Steiner betont die zentrale Spannung: Der Plan muss zugänglich genug sein, dass die Erben (für die Bitcoin meist Neuland ist) Schritt für Schritt an die Coins kommen — und zugleich sicher genug, dass niemand zu Lebzeiten das Guthaben abräumt. Beide Fehlrichtungen sind fatal: offen herumliegende Zugangsdaten laden Angreifer ein, zu gut versteckte machen das Erbe unauffindbar.
+Das eigentliche Thema ist die Choreografie für den Ernstfall. Steiner betont die zentrale Spannung: Der Plan muss zugänglich genug sein, dass die Erben (für die Bitcoin meist Neuland ist) Schritt für Schritt an die Coins kommen, und zugleich sicher genug, dass niemand zu Lebzeiten das Guthaben abräumt. Beide Fehlrichtungen sind fatal: offen herumliegende Zugangsdaten laden Angreifer ein, zu gut versteckte machen das Erbe unauffindbar.
 
 Praktische Elemente des Plans:
 
@@ -45,7 +45,7 @@ Praktische Elemente des Plans:
 - Einbindung von Testament und rechtlicher Ebene neben der technischen.
 - Steiners kostenloses Hilfstool zur strukturierten Erfassung der eigenen Situation.
 
-Das Buch versteht sich ausdrücklich als Inspirationsquelle und Nachschlagewerk, das an Punkte erinnert, die man selbst übersehen würde — nicht als starre Vorschrift. Steiner ermutigt, auch unkonventionelle Vererbungswege zu prüfen.
+Das Buch versteht sich ausdrücklich als Inspirationsquelle und Nachschlagewerk, das an Punkte erinnert, die man selbst übersehen würde, nicht als starre Vorschrift. Steiner ermutigt, auch unkonventionelle Vererbungswege zu prüfen.
 
 ## Related
 

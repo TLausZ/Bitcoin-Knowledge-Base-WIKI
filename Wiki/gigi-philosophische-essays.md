@@ -59,7 +59,7 @@ Feedbackschleife: Je mehr Menschen Bitcoin halten, desto mehr Kaufkraft steht da
 
 ## Related
 
-- [[gigi-bitcoin-als-naturgewalt]]
+- [[bitcoin-als-lebender-organismus-gigi]]
 - [[bitcoin-ist-die-wiederentdeckung-des-geldes]]
 - [[bitcoin-fehlannahmen]]
 - [[value4value-und-wertaktivierendes-web]]

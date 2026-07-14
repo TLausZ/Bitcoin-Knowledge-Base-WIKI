@@ -41,7 +41,7 @@ SATOSHI_SET = {
 }
 
 # Zitate: nur echte Zitatsammlungen, nicht Artikel die jemanden zitieren.
-ZITATE_SET = {"satoshi-zitate", "quotes"}
+ZITATE_SET = {"satoshi-zitate", "zitate"}
 
 # Studien: nur Artikel die selbst eine Studie/ein Report/Forschung sind,
 # nicht solche die eine Studie bloss zitieren (greenpeace, volatilitaet …).
@@ -59,13 +59,16 @@ STUDIEN_SET = {
 # eines bloss zitieren. Wächst, sobald Buch-Zusammenfassungen als eigene
 # Artikel angelegt werden (siehe Wiki/QUESTIONS.md).
 BUECHER_SET = {
-    "wolf-21-lektionen", "bitcoin-alles-geteilt-durch-21-millionen",
-    "bitcoin-inverse-of-clown-world", "praxeology-svanholm",
+    "21-lektionen", "bitcoin-alles-geteilt-durch-21-millionen",
+    "bitcoin-inverse-of-clown-world", "praxeology",
     "bitcoin-unabhaengigkeit-neu-gedacht",
     "internet-of-money-vol1", "internet-of-money-vol2", "internet-of-money-vol3",
-    "origins-of-money-menger", "blocksize-war",
-    "bitcoins-verwahren-und-vererben-steiner", "das-privacy-handbuch-volkov",
+    "origins-of-money", "blocksize-war",
+    "bitcoins-verwahren-und-vererben", "das-privacy-handbuch",
     "grokking-bitcoin", "mastering-bitcoin",
+    "bitcoin-development-philosophy",
+    "der-bitcoin-standard", "der-fiat-standard", "gesetze-der-wirtschaft",
+    "the-bitcoin-handbook", "goldene-zukunft", "das-buch-satoshis",
 }
 
 # (tag, regex) — trifft gegen slug + " " + beschreibung (lowercase, ascii-gefaltet)
@@ -95,10 +98,12 @@ BIP_SECOND = [
 OVERRIDES = {
     # gezielte Korrekturen nach Report-Review, slug -> Themenliste
     "bitcoin-versicherung": ["oekonomie", "self-custody"],
-    "quotes": ["zitate", "philosophie"],
+    "zitate": ["zitate", "philosophie"],
     "mt-gox": ["geschichte", "kritik", "self-custody"],
+    # Gigi-Essay: Geld-Ethik + Selbstverwahrung, nicht "protokoll"/"adoption" (Trigger: node)
+    "bitcoin-ist-die-wiederentdeckung-des-geldes": ["oekonomie", "philosophie", "self-custody"],
     # Menger 1892: Geldursprung/Werttheorie, nicht "kritik" (Trigger war "Widerlegung")
-    "origins-of-money-menger": ["oekonomie", "philosophie", "buecher"],
+    "origins-of-money": ["oekonomie", "philosophie", "buecher"],
 }
 
 

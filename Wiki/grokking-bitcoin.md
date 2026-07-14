@@ -7,13 +7,13 @@
 
 ## Summary
 
-Kalle Rosenbaums technische Einführung, hier in der deutschen Ausgabe „Bitcoin begreifen" (übersetzt von Volker Herminghaus). Das Buch erklärt, wie Bitcoin auf Protokollebene funktioniert, und baut das Verständnis Schicht für Schicht auf — von Hashfunktionen bis Segregated Witness. Es richtet sich an technisch interessierte Leser, die nicht nur wissen wollen *warum*, sondern *wie* Bitcoin arbeitet; jedes Kapitel enthält Übungen.
+Kalle Rosenbaums technische Einführung, hier in der deutschen Ausgabe „Bitcoin begreifen" (übersetzt von Volker Herminghaus). Das Buch erklärt, wie Bitcoin auf Protokollebene funktioniert, und baut das Verständnis Schicht für Schicht auf, von Hashfunktionen bis Segregated Witness. Es richtet sich an technisch interessierte Leser, die nicht nur wissen wollen *warum*, sondern *wie* Bitcoin arbeitet; jedes Kapitel enthält Übungen.
 
 ## Body
 
 ### Einordnung
 
-Als Referenz- und Lernbuch gehört „Bitcoin begreifen" neben *Mastering Bitcoin* zur technischen Standardliteratur, ist aber didaktischer angelegt: Konzepte werden mit Diagrammen und einem durchgehenden Beispiel entwickelt, nicht mit Code-Listings. Es ist kein Ideen- oder Ökonomiebuch, weshalb es hier bewusst als Kurzeintrag geführt wird — die Substanz sind die einzelnen technischen Konzepte, die im Wiki eigene Artikel haben.
+Als Referenz- und Lernbuch gehört „Bitcoin begreifen" neben *Mastering Bitcoin* zur technischen Standardliteratur, ist aber didaktischer angelegt: Konzepte werden mit Diagrammen und einem durchgehenden Beispiel entwickelt, nicht mit Code-Listings. Es ist kein Ideen- oder Ökonomiebuch, weshalb es hier bewusst als Kurzeintrag geführt wird, die Substanz sind die einzelnen technischen Konzepte, die im Wiki eigene Artikel haben.
 
 ### Kapitelübersicht
 

@@ -89,10 +89,10 @@ Gigi: „Es ist Tag 2 für das Internet, und es ist an der Zeit, es zu repariere
 ## Related
 
 - [[lightning-netzwerk-grundlagen]]
-- [[bitcoin-als-zahlungsmittel]]
+- [[bitcoin-skalierung-und-zahlungen]]
 - [[selbstverwahrung-und-boersenrisiken]]
-- [[bitcoin-als-reserve-und-anlagegut]]
-- [[proof-of-work-grundlagen]]
+- [[bitcoin-als-strategische-reserve]]
+- [[bitcoin-mining-und-proof-of-work]]
 
 ## Open Questions
 

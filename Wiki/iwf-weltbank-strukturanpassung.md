@@ -82,11 +82,11 @@ Nabourema: „Stell dir vor, dass wir in 10 oder 20 Jahren ein Stadium erreichen
 ## Related
 
 - [[geld-staat-und-fiat-monopol]]
-- [[bitcoin-als-reserve-und-anlagegut]]
-- [[bitcoin-fuer-entwicklungslaender]]
-- [[cantillon-effekt-und-geldpolitik]]
+- [[bitcoin-als-strategische-reserve]]
+- [[bitcoin-humanitaere-anwendungen]]
+- [[geldpolitik-und-inflation]]
 - [[selbstverwahrung-und-boersenrisiken]]
-- [[proof-of-work-grundlagen]]
+- [[bitcoin-mining-und-proof-of-work]]
 
 ## Open Questions
 

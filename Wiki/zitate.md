@@ -1,4 +1,4 @@
-# Quotes
+# Zitate
 
 **Status:** living document
 **Themen:** zitate, philosophie

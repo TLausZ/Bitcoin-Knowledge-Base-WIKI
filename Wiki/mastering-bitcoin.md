@@ -7,7 +7,7 @@
 
 ## Summary
 
-Das technische Standardwerk zu Bitcoin, hier in der dritten Auflage (2023) von Andreas M. Antonopoulos und David A. Harding (O'Reilly). Es beschreibt das Protokoll auf Ingenieursniveau — mit Code, Serialisierungsformaten und Kommandozeilen-Beispielen — und richtet sich an Entwickler und technisch versierte Leser. Die dritte Auflage ist stark überarbeitet und deckt SegWit, Taproot, Schnorr-Signaturen und Gebühren-Mechaniken ab.
+Das technische Standardwerk zu Bitcoin, hier in der dritten Auflage (2023) von Andreas M. Antonopoulos und David A. Harding (O'Reilly). Es beschreibt das Protokoll auf Ingenieursniveau, mit Code, Serialisierungsformaten und Kommandozeilen-Beispielen, und richtet sich an Entwickler und technisch versierte Leser. Die dritte Auflage ist stark überarbeitet und deckt SegWit, Taproot, Schnorr-Signaturen und Gebühren-Mechaniken ab.
 
 ## Body
 

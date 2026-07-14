@@ -128,7 +128,7 @@ Lyn Alden schrieb 2021 eine der präzisesten Investor-Analysen zu Ethereum aus e
 - [[proof-of-stake-kritik]]
 - [[bitcoin-schichtenarchitektur]]
 - [[bitcoin-commons-und-governance]]
-- [[quotes]]
+- [[zitate]]
 
 ## Open Questions
 
