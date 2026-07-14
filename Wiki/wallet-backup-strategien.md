@@ -82,6 +82,7 @@ Wenn niemand weiß, dass man Bitcoin besitzt, oder niemand das Backup findet, si
 - [[diceware-und-seed-generierung]]
 - [[optionale-passphrase]]
 - [[multisig-und-kollaborative-verwahrung]]
+- [[bitcoins-verwahren-und-vererben]]
 
 ## Open Questions
 
