@@ -626,6 +626,7 @@ if(isMobile()){panelEl.classList.add('hidden');ptoggle.classList.add('hidden');
 
 addEventListener('keydown',e=>{
   if(document.getElementById('modal').classList.contains('open')) return;   // beim Lesen keine Kartensteuerung
+  if(/^(input|textarea|select)$/i.test(e.target.tagName)) return;           // beim Tippen im Filter/Feld keine Kartensteuerung
   const k=e.key.toLowerCase();
   if(k==='h'){togglePanel(); return;}
   if(k==='r'){yaw=0.6; pitch=1.08; zoom=ZOOM0; panX=0; panY=0; draw(); return;}   // = Startwerte oben
