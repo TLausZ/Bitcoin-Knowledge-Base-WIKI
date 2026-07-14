@@ -125,22 +125,6 @@ Gladsteins ursprünglicher Ausgangspunkt vor den ausführlichen Länder-Reportag
 
 Die französische CFA-Franc-Zone als Mechanismus fortgesetzter monetärer Kontrolle über 15 afrikanische Staaten — und Bitcoin als Werkzeug, Wert außerhalb dieses Rahmens zu halten — ist gesondert in [[monetaerer-kolonialismus-cfa-franc]] behandelt.
 
-## Related
-
-- [[bitcoin-als-inflationsschutz]]
-- [[geld-staat-und-fiat-monopol]]
-- [[bitcoin-kaufen-und-dca]]
-- [[lightning-netzwerk-grundlagen]]
-- [[kryptoanarchismus-und-cypherpunks]]
-- [[bitcoin-mining-netz-und-oekonomie]]
-- [[bitcoin-regierungsresistenz]]
-- [[monetaerer-kolonialismus-cfa-franc]]
-- [[cypherpunk-manifest]]
-- [[bitcoin-menschenrechte]]
-- [[el-salvador-bitcoin-adoption]]
-
----
-
 ### 21 dokumentierte Anwendungsfälle (Batten, 2026)
 
 Daniel Batten's Zusammenstellung mit Quellenbelegen zeigt, warum das "kein Use Case"-Argument tendenziell ein westliches Wahrnehmungsproblem ist. Die meisten Anwendungsfälle sind im globalen Süden, wo Bitcoin product-market-fit gefunden hat, bevor er den Westen erreichte — das Gegenteil der üblichen Technologieadoption.
@@ -176,6 +160,20 @@ Auftakt von Battens Serie «Inspiring Stories» (September 2025). Das Flüchtlin
 Die Bewohner fanden einen Umweg über das Mobiltelefon, ihren bestgehüteten Besitz. Wer Geld schützen wollte, überzahlte die Safaricom-Rechnung, und die Guthaben wurden zu M-Pesa. Dieses Detail erzählte «Aisha» (Name geändert), eine ehemalige Dadaab-Bewohnerin, dem pensionierten Peace-Corps-Mitarbeiter Bryon Bothun in Minnesota, als beide zufällig eine frühe Max-Keiser-Sendung über Bitcoin sahen. Bothun war skeptisch («Ich sehe nicht, wie das irgendwem helfen soll»). Aishas Antwort: «Das hätten wir in Dadaab gerne gehabt.» Geld, das keine monatlichen Zahlungen an Safaricom voraussetzt, hätte nach ihrer Einschätzung jeder im Lager genutzt.
 
 Der Use Case leuchtete also zuerst jemandem ein, der nie Bitcoin besessen hat, während der Amerikaner mit Bankkonto ihn nicht sah. Das ist dasselbe Wahrnehmungsgefälle, das Gladstein «Check Your Financial Privilege» nennt, hier in einer einzigen Wohnzimmerszene. Bothun begann danach, Bitcoin zu nutzen und andere darüber aufzuklären. Batten zitiert eine Schätzung der Organisation DA-RI, wonach heute über 300'000 Flüchtlinge Bitcoin nutzen; bis 2035 erwartet sie über 7 Millionen. [[038BitcoinsValueExplainedbyaRefugee]]
+
+## Related
+
+- [[bitcoin-als-inflationsschutz]]
+- [[geld-staat-und-fiat-monopol]]
+- [[bitcoin-kaufen-und-dca]]
+- [[lightning-netzwerk-grundlagen]]
+- [[kryptoanarchismus-und-cypherpunks]]
+- [[bitcoin-mining-netz-und-oekonomie]]
+- [[bitcoin-regierungsresistenz]]
+- [[monetaerer-kolonialismus-cfa-franc]]
+- [[cypherpunk-manifest]]
+- [[bitcoin-menschenrechte]]
+- [[el-salvador-bitcoin-adoption]]
 
 ## Open Questions
 
