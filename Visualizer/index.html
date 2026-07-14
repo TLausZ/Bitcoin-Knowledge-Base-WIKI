@@ -1,4 +1,5 @@
 <meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
 <title>Bitcoin-Wiki · Gesamtkarte</title>
 <style>
   html,body{margin:0;height:100%;background:#ece2cd;overflow:hidden;
@@ -51,6 +52,17 @@
     rgba(110,92,64,0.18) var(--w), transparent var(--w))}   /* Balkenbreite = Gewicht */
   #list div:hover,#list div.sel{background:#5c4a34;color:#f2ead6}
   #list span{opacity:.55;font-size:10.5px;margin-left:6px}
+  /* --- Mobile: Panel wird Vollbild, ein Pill oben rechts schaltet Karte <-> Liste --- */
+  @media (max-width:640px){
+    #panel{width:100%}
+    #panel.hidden{transform:translateX(-100%)}
+    #cap{padding-right:96px}                 /* Platz für die Umschalt-Pill freihalten */
+    #ptoggle,#ptoggle.hidden{left:auto;right:10px;top:12px;width:auto;height:auto;
+      padding:6px 11px;line-height:1.2;font-size:13px;border-radius:5px;z-index:4}
+    #hint{display:none}                      /* Tastatur-Hinweis ist am Handy sinnlos */
+    #link{left:8px;right:8px;top:auto;bottom:10px;max-width:none;
+      background:rgba(236,226,205,0.92)}
+  }
 </style>
 <div id="panel">
   <div id="sort">
@@ -451,9 +463,22 @@ function labelAt(mx,my){
 // Mausrad zoomt, Bewegung ohne Taste aktualisiert den Hover-Zustand.
 // ============================================================================
 let drag=false, px=0, py=0, moved=false;    // px/py: letzte Zeigerposition; moved: wurde gezogen?
-cv.addEventListener('pointerdown',e=>{drag=true;moved=false;px=e.clientX;py=e.clientY;
-  cv.classList.add('drag');cv.setPointerCapture(e.pointerId);});   // Capture: Ziehen endet nicht am Canvas-Rand
+const pts=new Map();                        // aktive Zeiger (für Zwei-Finger-Pinch)
+let pinchD=0, pinchX=0, pinchY=0;           // letzter Fingerabstand + Mittelpunkt (0 = neu messen)
+cv.addEventListener('pointerdown',e=>{
+  pts.set(e.pointerId,{x:e.clientX,y:e.clientY}); cv.setPointerCapture(e.pointerId);
+  if(pts.size===1){drag=true;moved=false;px=e.clientX;py=e.clientY;cv.classList.add('drag');}
+  else if(pts.size===2){drag=false;pinchD=0;}   // zweiter Finger: vom Drehen auf Pinch umschalten
+});
 cv.addEventListener('pointermove',e=>{
+  if(pts.has(e.pointerId)) pts.set(e.pointerId,{x:e.clientX,y:e.clientY});
+  if(pts.size>=2){                            // zwei Finger: Pinch zoomt, gemeinsames Schieben pannt
+    const a=[...pts.values()], d=Math.hypot(a[0].x-a[1].x,a[0].y-a[1].y),
+          mx=(a[0].x+a[1].x)/2, my=(a[0].y+a[1].y)/2, dpr=window.devicePixelRatio||1;
+    if(pinchD){zoom=Math.max(.4,Math.min(8,zoom*d/pinchD));   // Abstandsverhältnis = Zoomfaktor
+      panX+=(mx-pinchX)*dpr; panY+=(my-pinchY)*dpr;}          // panX/panY liegen in Gerätepixeln
+    pinchD=d; pinchX=mx; pinchY=my; moved=true; draw(); return;
+  }
   if(drag){
     if(Math.abs(e.clientX-px)+Math.abs(e.clientY-py)>2) moved=true;  // echtes Ziehen, kein Klick mehr
     yaw+=(e.clientX-px)*0.008;              // horizontale Bewegung dreht die Karte
@@ -464,14 +489,20 @@ cv.addEventListener('pointermove',e=>{
   const h=labelAt(e.clientX,e.clientY);
   if(h!==hover){hover=h; draw(); cv.style.cursor=h>=0?'pointer':'grab';}
 });
-cv.addEventListener('pointerup',e=>{
+function endPointer(e){
+  pts.delete(e.pointerId);
+  if(pts.size===1){                          // ein Finger bleibt: weiter drehen, ohne Klick auszulösen
+    const p=[...pts.values()][0]; drag=true; moved=true; px=p.x; py=p.y; return;}
+  if(pts.size) return;                        // noch mehr Finger unten: nichts tun
   drag=false; cv.classList.remove('drag');
-  if(moved) return;                          // nach dem Drehen keinen Klick auslösen
+  if(moved) return;                          // nach dem Drehen/Pinch keinen Klick auslösen
   // Klick auf ein Label: Artikel auswählen bzw. per Toggle wieder abwählen —
   // gleiche Wirkung wie ein Klick in der Liste (inkl. Markierung dort)
   const h=labelAt(e.clientX,e.clientY);
   if(h>=0){sel=(sel===h?-1:h); updateLink(); renderList(); draw();}
-});
+}
+cv.addEventListener('pointerup',endPointer);
+cv.addEventListener('pointercancel',endPointer);
 // Mausrad: Zoom multiplikativ in 10%-Schritten, begrenzt auf 0.4..4.
 // preventDefault verhindert, dass die Seite selbst scrollt.
 cv.addEventListener('wheel',e=>{e.preventDefault();
@@ -498,15 +529,20 @@ function panStep(){
 // Panel ein-/ausklappen: PANEL_W auf 0/276 setzen, damit die Karte den
 // freiwerdenden Platz nutzt, dann neu zeichnen.
 const ptoggle=document.getElementById('ptoggle'), panelEl=document.getElementById('panel');
+const isMobile=()=>matchMedia('(max-width:640px)').matches;
 function togglePanel(){
   const hide=!panelEl.classList.contains('hidden');
   panelEl.classList.toggle('hidden',hide);
   ptoggle.classList.toggle('hidden',hide);
-  ptoggle.textContent=hide?'›':'‹';
-  PANEL_W=hide?0:276;
+  // mobil deckt das Panel die ganze Breite ab (Umschalter), verschiebt die Karte also nicht
+  PANEL_W=(hide||isMobile())?0:276;
+  ptoggle.textContent=isMobile()?(hide?'☰ Liste':'✕ Karte'):(hide?'›':'‹');
   draw();
 }
 ptoggle.onclick=togglePanel;
+// mobil beim Laden auf der Karte starten, Liste eingeklappt
+if(isMobile()){panelEl.classList.add('hidden');ptoggle.classList.add('hidden');
+  PANEL_W=0;ptoggle.textContent='☰ Liste';}
 
 addEventListener('keydown',e=>{
   const k=e.key.toLowerCase();
@@ -612,6 +648,8 @@ saBtn.onclick=()=>{if(mode==='a') dirA=-dirA; mode='a'; renderList();};
 // ============================================================================
 function resize(){const dpr=window.devicePixelRatio||1;
   cv.width=innerWidth*dpr; cv.height=innerHeight*dpr;         // interne Auflösung in Gerätepixeln
+  // PANEL_W an aktuelle Breite/Zustand koppeln (Orientierungswechsel, Desktop<->Mobile)
+  PANEL_W=(isMobile()||panelEl.classList.contains('hidden'))?0:276;
   cv.style.width=innerWidth+'px'; cv.style.height=innerHeight+'px'; draw();}   // CSS-Größe in CSS-Pixeln
 addEventListener('resize',resize);
 document.getElementById('sub').textContent=   // Untertitel aus den Daten, veraltet nie
