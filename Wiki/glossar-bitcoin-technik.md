@@ -3,13 +3,17 @@
 **Status:** established
 **Themen:** protokoll, privacy, mining, glossar
 **Last updated:** 2026-07-15
-**Sources:** [[glossary-bitcoinbook]], [[Glossary – aantonop]], [[Glossary-bitcoindesign]], [[glossary-lnbook]]
+**Sources:** [[glossary-bitcoinbook]], [[Glossary – aantonop]], [[Glossary-bitcoindesign]], [[glossary-lnbook]], [[Glossary — Bitcoindevorg]], [[Glossar - Bitcoinorg]]
 
 ## Summary
 
 Nachschlage-Glossar für die technischen Begriffe des Bitcoin-Protokolls auf der Basisschicht: Transaktionen, Blöcke, Schlüssel und Adressen, Script, Konsens und Mining-Mechanik. Allgemeine und ökonomische Begriffe stehen im [[glossar-allgemein]], Lightning-Begriffe im [[glossar-lightning]]. Fachbegriffe behalten ihre englische Bezeichnung. Wo ein eigener Konzeptartikel existiert, verweist ein Pfeil darauf; dort steht die ausführliche Erklärung.
 
 ## Body
+
+### 51%-Attacke (Majority Attack)
+
+Ein Angriff, bei dem eine Partei die Mehrheit der Hashleistung kontrolliert und damit die jüngste Transaktionshistorie umschreiben oder das Bestätigen neuer Transaktionen blockieren kann. Er ermöglicht Double-Spending kürzlich bestätigter Zahlungen, kann aber keine fremden Coins stehlen und keine alten Blöcke beliebig verändern. Je höher die Hashrate des Netzwerks, desto teurer und unwahrscheinlicher wird ein solcher Angriff.
 
 ### Adresse (Address)
 
@@ -18,6 +22,10 @@ Eine kurze Zeichenfolge, die einem Absender sagt, unter welchen Bedingungen er B
 ### Adressformate (P2PKH, P2SH, P2WPKH, P2WSH, P2TR)
 
 Die historisch aufeinanderfolgenden Adresstypen. Legacy (P2PKH, beginnt mit 1) sperrt auf einen Public-Key-Hash; P2SH (beginnt mit 3) auf einen Script-Hash; Native SegWit (P2WPKH/P2WSH, «bc1q») legt die Signaturdaten in den Witness; Taproot (P2TR, «bc1p») fasst Signatur und komplexe Bedingungen effizient und privat zusammen. Alle sind untereinander zahlungskompatibel. → [[bitcoin-adresstypen]]
+
+### Address Reuse (Adress-Wiederverwendung)
+
+Dieselbe Adresse für mehrere Zahlungseingänge zu verwenden. Das schwächt die Privatsphäre, weil sich alle Beträge auf dieser Adresse öffentlich derselben Person zuordnen lassen. Empfohlen ist eine frische Adresse pro Eingang. → [[coin-control-und-utxo-auswahl]]
 
 ### Base58Check
 
@@ -35,6 +43,10 @@ Ein Datenpaket aus Transaktionen mit einem Header, das auf den Vorgängerblock v
 
 Der 80 Byte kleine Kopf eines Blocks: Version, Hash des Vorgängers, Merkle Root, Zeitstempel, Schwierigkeitsziel und Nonce. Sein Hash ist der Proof of Work. → [[bitcoin-block-header]]
 
+### Block Height (Blockhöhe)
+
+Die Position eines Blocks in der Kette, gezählt ab dem Genesis-Block (Höhe 0). Sie dient als eindeutige Reihenfolge- und Zeitangabe, etwa als Referenz für Timelocks.
+
 ### Blockchain
 
 Die fortlaufende, von jedem Full Node geprüfte Kette validierter Blöcke, jeder verankert im vorherigen bis zurück zum Genesis-Block. → [[bitcoin-blockchain-struktur]]
@@ -46,6 +58,10 @@ Die neu erzeugten Bitcoin, die ein Miner für einen gültigen Block erhält, aus
 ### Byzantine Generals Problem
 
 Das Grundproblem verteilter Systeme, sich trotz möglicherweise böswilliger oder ausfallender Teilnehmer auf einen gemeinsamen Zustand zu einigen. Bitcoins Proof of Work ist eine praktische Lösung dafür.
+
+### Change Address (Wechselgeld-Adresse)
+
+Weil ein UTXO immer vollständig ausgegeben wird, fliesst der nicht benötigte Rest als Wechselgeld an eine eigene Adresse der Absender-Wallet zurück — wie das Rückgeld beim Barkauf. Wallets erzeugen dafür automatisch eine frische Adresse. → [[coin-control-und-utxo-auswahl]]
 
 ### Coinbase / Coinbase Transaction
 
@@ -111,6 +127,10 @@ Eine Einwegfunktion, die beliebig grosse Daten auf einen kurzen Fingerabdruck fe
 
 Eine Script-Bedingung, die eine Ausgabe erst freigibt, wenn ein bestimmtes Geheimnis offengelegt wird. Baustein von [[glossar-lightning|HTLCs]].
 
+### Hashrate (Hashleistung)
+
+Die gesamte Rechenleistung, mit der das Netzwerk nach gültigen Blöcken sucht, gemessen in Hashes pro Sekunde. Eine hohe Hashrate verteuert das Umschreiben der Kette und erhöht damit die Sicherheit gegen eine 51%-Attacke. Nicht mit der Difficulty verwechseln: Die Hashrate ist die tatsächlich geleistete Arbeit, die Difficulty der daran angepasste Zielwert.
+
 ### HD Wallet / HD Protocol
 
 Hierarchisch-deterministische Wallet (BIP-32): Alle Schlüssel entstehen aus einem einzigen Seed in einer Baumstruktur. Ein Backup des Seeds sichert damit die ganze Wallet. → [[hd-wallets-und-schluesselableitung]]
@@ -123,9 +143,17 @@ Der erstmalige Download und die vollständige Prüfung der gesamten Blockchain, 
 
 Eine Bedingung, die das Ausgeben einer Ausgabe bis zu einem Zeitpunkt oder einer Blockhöhe sperrt. Absolute Timelocks nutzen CLTV (OP_CHECKLOCKTIMEVERIFY), relative Timelocks CSV (OP_CHECKSEQUENCEVERIFY). Zentral für Zahlungskanäle und HTLCs.
 
+### Mainnet / Testnet / Regtest / Signet
+
+Die verschiedenen Bitcoin-Netzwerke. Mainnet ist das echte Netz mit werthaltigen Coins. Testnet, Signet und das lokale Regtest sind Testumgebungen, deren Coins keinen Wert haben — gedacht für Entwicklung und Ausprobieren.
+
 ### Mempool
 
 Der Zwischenspeicher gültiger, aber noch unbestätigter Transaktionen, aus dem Miner nach Gebühr auswählen. → [[transaktionsgebuehren-und-mempool]]
+
+### Merge Avoidance
+
+Eine Privatsphäre-Strategie, die das Zusammenführen von UTXOs unterschiedlicher Herkunft in einer Transaktion vermeidet. Wer Eingänge aus verschiedenen Quellen kombiniert, verrät, dass sie derselben Person gehören. → [[coin-control-und-utxo-auswahl]]
 
 ### Merkle Tree / Merkle Root
 
@@ -162,6 +190,10 @@ Eine Transaktion verbraucht Inputs (Verweise auf frühere UTXOs) und erzeugt Out
 ### Output Script Descriptor
 
 Ein kompaktes, standardisiertes Datenstück, das alle Informationen enthält, um eine bestimmte Menge von Adressen oder Schlüsseln zu erzeugen — robuster als eine lange Adressliste beim Backup und Import.
+
+### Pruned Node (Gekürzter Node)
+
+Ein Full Node, der jeden Block selbst prüft, alte Blockdaten nach der Prüfung aber wieder verwirft, um Speicherplatz zu sparen. Er behält die volle Prüfsouveränität, kann alte Blöcke aber nicht mehr an andere Knoten ausliefern.
 
 ### PSBT (Partially Signed Bitcoin Transaction)
 
@@ -215,6 +247,14 @@ Die frühere Eigenschaft, dass sich der Hash (die ID) einer Transaktion ändern 
 
 Die Eigenschaft einer Sprache, jedes berechenbare Programm ausführen zu können. Bitcoin Script ist bewusst nicht Turing-vollständig, um das Verhalten von Transaktionen vorhersagbar und sicher zu halten.
 
+### TXID (Transaction ID)
+
+Der eindeutige Bezeichner einer Transaktion, gebildet als doppelter SHA-256-Hash ihrer Daten. Über TXID plus Ausgabe-Index wird jeder einzelne Output referenziert.
+
+### UASF / MASF (Soft-Fork-Aktivierung)
+
+Zwei Wege, einen Soft Fork zu aktivieren. Beim Miner-Activated Soft Fork (MASF) signalisieren die Miner ihre Bereitschaft; beim User-Activated Soft Fork (UASF) erzwingen ihn die Full Nodes zu einem Stichtag. Der UASF-Druck war 2017 zentral für die Aktivierung von SegWit. → [[soft-fork-und-hard-fork]]
+
 ### UTXO (Unspent Transaction Output)
 
 Ein noch nicht ausgegebener Transaktionsausgang. Das Guthaben einer Wallet ist die Summe ihrer UTXOs; ausgeben heisst, UTXOs als Eingänge zu verbrauchen und neue zu erzeugen. → [[utxo-modell-und-konsolidierung]]
@@ -222,6 +262,10 @@ Ein noch nicht ausgegebener Transaktionsausgang. Das Guthaben einer Wallet ist d
 ### Watch-only Wallet
 
 Eine Wallet, die nur die öffentlichen Schlüssel (xpub) kennt: Sie sieht Guthaben und Verlauf und kann unsignierte PSBTs erstellen, aber nichts ausgeben.
+
+### Weight Units / vByte (Blockgewicht)
+
+Seit SegWit wird die Grösse einer Transaktion in Weight Units gemessen; vier Weight Units ergeben ein virtuelles Byte (vByte). Ein Block fasst höchstens vier Millionen Weight Units. Gebühren werden pro vByte angegeben (sat/vByte). → [[transaktionsgebuehren-und-mempool]]
 
 ### WIF (Wallet Import Format)
 
