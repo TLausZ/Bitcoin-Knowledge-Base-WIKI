@@ -71,6 +71,8 @@ Beide Mechanismen sind Beispiele für **Defense in Depth**: Kein einzelner Angri
 - [[hardware-wallet-sicherheitsarchitektur]]
 - [[payment-requests]]
 
+- [[bitcoins-verwahren-und-vererben|Bitcoins verwahren und vererben (Marc Steiner)]] ← Buch
+
 ## Open Questions
 
 - Werden andere Hardware-Wallet-Hersteller Anti-Klepto implementieren?

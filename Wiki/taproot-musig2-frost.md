@@ -73,6 +73,8 @@ Die Technologien skalieren besonders für größere Organisationen mit komplexer
 - [[bitcoin-vaults]]
 - [[skalierung-lightning-ark-statechains]]
 
+- [[mastering-bitcoin|Mastering Bitcoin (Antonopoulos/Harding)]] ← Buch
+
 ## Open Questions
 
 - Wann werden MuSig2 und FROST in gängigen Wallet-Software-Implementierungen (inkl. Hardware-Wallets) verfügbar sein?

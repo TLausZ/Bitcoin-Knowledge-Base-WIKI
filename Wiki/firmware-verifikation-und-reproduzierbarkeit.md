@@ -47,6 +47,8 @@ Die BitBox02-Firmware kombiniert Reproduzierbarkeit mit Open-Source-Code und ext
 - [[hardware-wallet-sicherheitsarchitektur]]
 - [[bitcoin-only-vs-multi-edition]]
 
+- [[bitcoin-development-philosophy|Bitcoin Development Philosophy (Kalle & Linnea Rosenbaum)]] ← Buch
+
 ## Open Questions
 
 - Wie viele unabhängige Nutzer bestätigen aktiv jedes Release?

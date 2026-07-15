@@ -132,6 +132,9 @@ Zwei Randnotizen aus derselben Quelle: Mattes vermeidet das belastete Etikett «
 - [[bitcoin-spieltheorie-und-anreize]]
 - [[bitcoin-fehlannahmen]]
 
+- [[praxeology|Praxeology (Knut Svanholm)]] ← Buch
+- [[gesetze-der-wirtschaft|Die Gesetze der Wirtschaft (Saifedean Ammous)]] ← Buch
+
 ## Open Questions
 
 - Wie verhält sich praxeologische Theorie zu Verhaltensökonomik (Behavioral Economics), die empirisch menschliche Irrationalität nachweist?

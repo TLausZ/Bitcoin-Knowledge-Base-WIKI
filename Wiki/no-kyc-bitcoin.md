@@ -60,6 +60,9 @@ Michael Wolfs "Bitcoin-Ratgeber" nennt für den KYC-freien Einstieg zusätzlich 
 - [[coin-control-und-utxo-auswahl]]
 - [[sparrow-wallet]]
 
+- [[das-privacy-handbuch|Das Privacy Handbuch (Timo Volkov)]] ← Buch
+- [[internet-of-money-vol3|The Internet of Money Vol. 3 (Andreas Antonopoulos)]] ← Buch
+
 ## Open Questions
 
 - Wie entwickelt sich der regulatorische Druck auf P2P-Börsen in der EU (MiCA)?

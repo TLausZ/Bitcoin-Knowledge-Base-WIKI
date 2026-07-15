@@ -175,6 +175,8 @@ StopAndDecrypt nennt das Ergebnis eine "uneinnehmbare Festung der Validierung": 
 - [[satoshi-zitate]]
 - [[bitcoin-whitepaper-errata]] ← Terminologie-Drift «nodes» vs. Miner seit dem Whitepaper
 
+- [[mastering-bitcoin|Mastering Bitcoin (Antonopoulos/Harding)]] ← Buch
+
 ## Open Questions
 
 - Wie viele aktive Full Nodes gibt es aktuell im Bitcoin-Netzwerk?

@@ -63,6 +63,8 @@ Die Errata-Sammlung ist gelebte Selbstkritik: Fehler des Gründungsdokuments wer
 - [[bitcoin-netzwerk-und-nodes]]
 - [[satoshi-zitate]]
 
+- [[das-buch-satoshis|Das Buch Satoshis (Phil Champagne)]] ← Buch
+
 ## Open Questions
 
 - marrukins Kommentar zur Difficulty-Berechnung (Summe der 2.016 Blockzeiten vs. 20.160 Minuten) blieb im Gist unbeantwortet; der bekannte Off-by-one-Bug (nur 2.015 Intervalle werden gemessen) fehlt im Dokument ganz.

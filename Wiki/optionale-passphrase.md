@@ -61,6 +61,8 @@ Da die Passphrase getrennt von der Seedphrase existiert, muss sie getrennt gesic
 - [[hardware-wallet-sicherheitsarchitektur]]
 - [[komplexitaet-ist-keine-sicherheit]]
 
+- [[bitcoins-verwahren-und-vererben|Bitcoins verwahren und vererben (Marc Steiner)]] ← Buch
+
 ## Open Questions
 
 - Wie entwickeln sich Standards für Passphrase-Backup (z.B. getrennte Stahl-Sicherung)?

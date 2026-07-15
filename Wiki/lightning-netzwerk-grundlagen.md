@@ -72,6 +72,9 @@ Für den Alltag trennt Michael Wolfs "Bitcoin-Ratgeber" die Spar-Wallet (größe
 - [[lightning-address-datenschutz]]
 - [[bitcoin-transaktionsstruktur]]
 
+- [[einfuehrung-in-das-lightning-netzwerk|Einführung in das Lightning-Netzwerk (Antonopoulos/Osuntokun/Pickhardt)]] ← Buch
+- [[internet-of-money-vol2|The Internet of Money Vol. 2 (Andreas Antonopoulos)]] ← Buch
+
 ## Open Questions
 
 - Wie verändert sich die Privatsphäre durch Multi-Path-Payments (MPP) gegenüber Single-Path?

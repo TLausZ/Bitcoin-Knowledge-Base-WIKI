@@ -121,6 +121,8 @@ Svanholms "Unabhängigkeit neu gedacht" (2020) sammelt im letzten Kapitel die Ge
 - [[selbstverwahrung-und-boersenrisiken]]
 - [[praxeologie-methode-und-werttheorie]]
 
+- [[bitcoin-inverse-of-clown-world|Bitcoin: Inverse of Clown World (Svanholm/de Wolf)]] ← Buch
+
 ## Open Questions
 
 - Ist das spieltheoretische Gleichgewicht von Bitcoin langfristig stabil, wenn staatliche Akteure massiv Druck ausüben?

@@ -54,6 +54,9 @@ Die spirituelle Dimension, die Strolight beschreibt, folgt aus dieser Reinheit: 
 - [[bitcoin-vs-krypto]]
 - [[hashcash]]
 
+- [[der-bitcoin-standard|Der Bitcoin-Standard (Saifedean Ammous)]] ← Buch
+- [[bitcoin-alles-geteilt-durch-21-millionen|Bitcoin – Alles geteilt durch 21 Millionen (Knut Svanholm)]] ← Buch
+
 ## Open Questions
 
 - Hat Satoshi je öffentlich erklärt, warum die frühen Coins nie bewegt wurden?

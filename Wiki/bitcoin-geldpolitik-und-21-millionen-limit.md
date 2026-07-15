@@ -125,6 +125,8 @@ Eine Feinheit am Rande: Streng genommen waren zu diesem Zeitpunkt keine vollen 2
 - [[konsensregeln-und-mempool-richtlinien]]
 - [[selbstverwahrung-und-boersenrisiken]]
 
+- [[der-bitcoin-standard|Der Bitcoin-Standard (Saifedean Ammous)]] ← Buch
+
 ## Open Questions
 
 - Wie entwickeln sich die Miner-Anreize, wenn die Block Subsidy gegen Null geht und nur noch Transaktionsgebühren verbleiben?

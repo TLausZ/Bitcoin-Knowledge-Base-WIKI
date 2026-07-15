@@ -80,6 +80,9 @@ In dem ergänzenden Essay (2003) beschreibt Szabo die technischen Fortschritte i
 - [[oesterreichische-kapital-und-geldtheorie]]
 - [[ideal-money-und-bitcoin]]
 
+- [[origins-of-money|On the Origins of Money (Carl Menger)]] ← Buch
+- [[der-bitcoin-standard|Der Bitcoin-Standard (Saifedean Ammous)]] ← Buch
+
 ## Open Questions
 
 - Ist Szabo der anonyme Satoshi Nakamoto? (Sprachliche Analysen deuten darauf hin, aber er hat es nie bestätigt.)

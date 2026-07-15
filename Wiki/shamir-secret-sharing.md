@@ -109,6 +109,8 @@ SLIP-39 (verwendet von Trezor für Seed-Backup) ist dagegen klassisches SSS: Die
 - [[seedphrase-entropie-und-sicherheit]]
 - [[optionale-passphrase]]
 
+- [[bitcoins-verwahren-und-vererben|Bitcoins verwahren und vererben (Marc Steiner)]] ← Buch
+
 ## Open Questions
 
 - Wann wird FROST in gängigen Hardware-Wallets (BitBox02, Coldcard, Ledger) verfügbar?

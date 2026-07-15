@@ -77,6 +77,8 @@ Der Kontrast dient ihm als praktisches Argument für das Bednarek-Thema: vorhers
 - [[finanzialisierung-und-kapitalverbrauch]]
 - [[ideal-money-und-bitcoin]]
 
+- [[der-fiat-standard|Der Fiat-Standard (Saifedean Ammous)]] ← Buch
+
 ## Open Questions
 
 ### Gesunder Menschenverstand und kognitive Dissonanz (Parker Lewis)

@@ -178,6 +178,9 @@ Fälschungssichere Kostspieligkeit passt in keine einzelne akademische Disziplin
 - [[hashcash]]
 - [[bitcoin-whitepaper-errata]] ← Selfish Mining senkt die Sicherheitsschwelle auf ~30%; most-work statt longest chain
 
+- [[mastering-bitcoin|Mastering Bitcoin (Antonopoulos/Harding)]] ← Buch
+- [[internet-of-money-vol2|The Internet of Money Vol. 2 (Andreas Antonopoulos)]] ← Buch
+
 ## Open Questions
 
 - Reichen Gebühren allein für ausreichende Netzwerksicherheit? Budget-Argument (Budish, QJE 2024) und Stabilitätsargument (Carlsten et al., CCS 2016) zeigen ernste Probleme. Optimistische Gegenposition: Blockplatz-Knappheit + Second Layer. Ausgang unbekannt. Siehe `Outputs/2026-06-20_miner-incentives-nach-halving.md`.

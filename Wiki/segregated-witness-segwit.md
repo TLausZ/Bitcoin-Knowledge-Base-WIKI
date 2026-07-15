@@ -74,7 +74,9 @@ Der Witness-Merkle-Root wird im Coinbase-Script als `OP_RETURN` committet — er
 - [[taproot-musig2-frost]]
 - [[bitcoin-whitepaper]]
 - [[konsensregeln-und-mempool-richtlinien]]
-- [[blocksize-war]]
+
+- [[mastering-bitcoin|Mastering Bitcoin (Antonopoulos/Harding)]] ← Buch
+- [[blocksize-war|The Blocksize War (Jonathan Bier)]] ← Buch
 
 ## Open Questions
 

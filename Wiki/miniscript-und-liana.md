@@ -60,6 +60,8 @@ Liana wird inzwischen auf deutschsprachigen Community-Events in Workshops vermit
 - [[bitcoin-covenants]]
 - [[wallet-backup-strategien]]
 
+- [[bitcoins-verwahren-und-vererben|Bitcoins verwahren und vererben (Marc Steiner)]] ← Buch
+
 ## Open Questions
 
 - Wie entwickelt sich die Nutzung von Liana und ähnlichen Wallets in der Praxis?

@@ -82,6 +82,8 @@ Weinhold beschreibt Fiat als "Virus" — ein System, das nicht durch Mehrwert, s
 - [[bitcoin-und-immobilien]]
 - [[bitcoin-mining-netz-und-oekonomie]]
 
+- [[der-bitcoin-standard|Der Bitcoin-Standard (Saifedean Ammous)]] ← Buch
+
 ## Open Questions
 
 - Wie verhält sich Bitcoin zu TIPS (Treasury Inflation-Protected Securities) in einem systematischen Backtest über Zinserhöhungszyklen?

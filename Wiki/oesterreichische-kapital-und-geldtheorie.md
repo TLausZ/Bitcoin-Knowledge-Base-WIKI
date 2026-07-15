@@ -94,6 +94,9 @@ Zum KYC-Vergleich: Bargeld erfordert keine Identitätsverifizierung — Bitcoin 
 - [[bitcoin-und-immobilien]]
 - [[finanzialisierung-und-kapitalverbrauch]]
 
+- [[gesetze-der-wirtschaft|Die Gesetze der Wirtschaft (Saifedean Ammous)]] ← Buch
+- [[origins-of-money|On the Origins of Money (Carl Menger)]] ← Buch
+
 ## Open Questions
 
 - Lässt sich die Spar-Kaskade empirisch von anderen Produktivitätstreibern (Technologie) trennen?

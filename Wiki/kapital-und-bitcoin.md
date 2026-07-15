@@ -89,6 +89,8 @@ Wendell Berry beschreibt in "The Unsettling of America" den Wandel von Versorger
 - [[bitcoin-alles-geteilt-durch-21-millionen]]
 - [[szabo-geldursprung]]
 
+- [[gesetze-der-wirtschaft|Die Gesetze der Wirtschaft (Saifedean Ammous)]] ← Buch
+
 ## Open Questions
 
 - Wie verhält sich Farringtons Kapital-Theorie zur Debatte über Bitcoin als "unproduktiver Asset" (kein Cashflow)?

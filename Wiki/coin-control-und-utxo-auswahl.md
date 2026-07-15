@@ -49,6 +49,8 @@ CoinJoin verbessert Privatsphäre durch Vermischung mehrerer Nutzer in einer Tra
 - [[bip-0329]]
 - [[opsec-und-privatsphaere]]
 
+- [[das-privacy-handbuch|Das Privacy Handbuch (Timo Volkov)]] ← Buch
+
 ## Open Questions
 
 - Wie verhält sich automatische Coin-Selection (Branch-and-Bound, FIFO) gegenüber Datenschutz-Heuristiken im Vergleich zu echter manueller Auswahl?

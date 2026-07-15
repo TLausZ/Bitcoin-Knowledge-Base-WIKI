@@ -79,6 +79,9 @@ Nein — und das ist die Stärke des Systems. Bitcoin kennt auf Protokollebene k
 - [[bitcoin-fehlannahmen]]
 - [[bitcoin-als-information]]
 
+- [[bitcoin-unabhaengigkeit-neu-gedacht|Bitcoin – Unabhängigkeit neu gedacht (Knut Svanholm)]] ← Buch
+- [[das-trojanische-pferd-der-freiheit|Das trojanische Pferd der Freiheit (Alex Gladstein)]] ← Buch
+
 ## Open Questions
 
 - Wie verändert sich das Angriffsszenario, wenn staatliche Akteure große Hashrate-Anteile akkumulieren (z. B. durch staatliche Mining-Unternehmen)?

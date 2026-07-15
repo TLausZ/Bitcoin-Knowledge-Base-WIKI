@@ -121,6 +121,8 @@ Dass die Verbindung zwischen Geldsystem und Staatsform kein Nischenthema mehr is
 - [[szabo-geldursprung]]
 - [[iwf-weltbank-strukturanpassung]]
 
+- [[der-fiat-standard|Der Fiat-Standard (Saifedean Ammous)]] ← Buch
+
 ## Open Questions
 
 - Wie stabil ist eine Bitcoin-Weltordnung ohne staatliche Rechtsdurchsetzung — löst Bitcoin das Sicherheitsproblem oder nur das Geldproblem?

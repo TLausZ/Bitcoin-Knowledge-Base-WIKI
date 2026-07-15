@@ -101,6 +101,8 @@ Wenn Hardware-Wallets drahtlos kommunizieren (z.B. Bluetooth für iPhone-Unterst
 - [[bitbox02-nova]]
 - [[opsec-und-privatsphaere]]
 
+- [[bitcoins-verwahren-und-vererben|Bitcoins verwahren und vererben (Marc Steiner)]] ← Buch
+
 ## Open Questions
 
 - Wie entwickeln sich die Sicherheitsstandards für Hardware-Wallets mit Bluetooth/NFC?

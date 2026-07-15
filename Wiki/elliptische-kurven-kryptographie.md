@@ -122,6 +122,8 @@ s × G =? R + e × PublicKey
 - [[bitcoin-mining-und-proof-of-work]]
 - [[hd-wallets-und-schluesselableitung]]
 
+- [[mastering-bitcoin|Mastering Bitcoin (Antonopoulos/Harding)]] ← Buch
+
 ## Open Questions
 
 - Wie sicher ist secp256k1 gegenüber Quantencomputern (Grover, Shor)?

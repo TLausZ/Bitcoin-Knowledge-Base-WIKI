@@ -116,6 +116,8 @@ Kein Backdoor, kein Passwort-Reset: Wer den Private Key verliert, verliert die B
 - [[hardware-wallet-sicherheitsarchitektur]]
 - [[taproot-musig2-frost]]
 
+- [[mastering-bitcoin|Mastering Bitcoin (Antonopoulos/Harding)]] ← Buch
+
 ## Open Questions
 
 - Wie schützt Taproot (Schlüsselaggregation) die Privatsphäre auf Adressebene?

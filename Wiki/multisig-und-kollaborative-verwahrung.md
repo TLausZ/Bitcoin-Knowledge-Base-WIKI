@@ -71,6 +71,8 @@ Beim ersten Empfang einer Adresse registriert die BitBox02 das Multisig-Setup: D
 - [[bitcoin-vaults]]
 - [[wallet-backup-strategien]]
 
+- [[bitcoins-verwahren-und-vererben|Bitcoins verwahren und vererben (Marc Steiner)]] ← Buch
+
 ## Open Questions
 
 - Wann ist Multisig sinnvoller als eine gute Einzelwallet mit optionaler Passphrase?

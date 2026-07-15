@@ -74,6 +74,9 @@ Zusammengefasst: Preise reagieren kurzfristig auf die Geschwindigkeit der Finanz
 - [[bitcoin-als-inflationsschutz]]
 - [[spekulation-unsicherheit-und-geld]]
 
+- [[der-fiat-standard|Der Fiat-Standard (Saifedean Ammous)]] ← Buch
+- [[gesetze-der-wirtschaft|Die Gesetze der Wirtschaft (Saifedean Ammous)]] ← Buch
+
 ## Open Questions
 
 - Gibt es empirische Belege dafür, dass Negativzinsen den Kapitalstock messbar verringert haben (nicht nur die Investitionsquote)?

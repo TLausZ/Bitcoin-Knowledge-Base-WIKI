@@ -65,6 +65,8 @@ Hardware-Wallet-Rollout am Beispiel BitBox02: Senden an bc1p-Adressen ab Januar 
 - [[hd-wallets-und-schluesselableitung]]
 - [[utxo-modell-und-konsolidierung]]
 
+- [[mastering-bitcoin|Mastering Bitcoin (Antonopoulos/Harding)]] ← Buch
+
 ## Open Questions
 
 - Wann wird Taproot zum neuen Standard in gängigen Wallets und auf Börsen?

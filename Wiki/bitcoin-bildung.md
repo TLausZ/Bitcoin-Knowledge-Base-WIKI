@@ -131,6 +131,8 @@ Das Bitcoin Talents Programm des Frankfurt Blockchain Center (10 Videosessions, 
 - [[bitcoin-konferenzen-und-community]]
 - [[frauen-und-bitcoin]]
 
+- [[das-kleine-bitcoin-buch|Das kleine Bitcoin-Buch (The Bitcoin Collective)]] ← Buch
+
 ## Open Questions
 
 - Wie entwickelt sich Mi Primer Bitcoin außerhalb El Salvadors — gibt es vergleichbare Curriculum-Projekte in anderen Ländern?

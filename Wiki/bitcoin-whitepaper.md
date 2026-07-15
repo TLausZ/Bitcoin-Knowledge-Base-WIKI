@@ -83,6 +83,8 @@ Die Identität ist bis heute unbekannt. Bekannte Fakten: Nakamoto schrieb fehler
 - [[bitcoin-fehlannahmen]]
 - [[bitcoin-whitepaper-errata]] ← bekannte Fehler des Papers, Terminologie-Drift, Implementierungs-Abweichungen
 
+- [[das-buch-satoshis|Das Buch Satoshis (Phil Champagne)]] ← Buch
+
 ## Open Questions
 
 - Wer ist Satoshi Nakamoto — und würde es eine Rolle spielen, wenn es bekannt würde?

@@ -119,6 +119,8 @@ Die Schlüsseleigenschaft: Wer die Lightning-Entropie kennt, kann nicht auf den 
 - [[opsec-und-privatsphaere]]
 - [[skalierung-lightning-ark-statechains]]
 
+- [[mastering-bitcoin|Mastering Bitcoin (Antonopoulos/Harding)]] ← Buch
+
 ## Open Questions
 
 - Wie verhalten sich verschiedene Ableitungspfade bei der Wallet-Migration (z.B. von Ledger zu BitBox02)?

@@ -137,6 +137,9 @@ Eine Übergangs-Lösung für Einsteiger: Custodial-Wallet mit automatischer Übe
 - [[bitcoin-fehlannahmen]]
 - [[eu-regulierung-selbstverwahrung]]
 
+- [[bitcoin-unabhaengigkeit-neu-gedacht|Bitcoin – Unabhängigkeit neu gedacht (Knut Svanholm)]] ← Buch
+- [[bitcoins-verwahren-und-vererben|Bitcoins verwahren und vererben (Marc Steiner)]] ← Buch
+
 ## Open Questions
 
 - Wie kann man die Solvenz einer Börse überprüfen (Proof of Reserves)?

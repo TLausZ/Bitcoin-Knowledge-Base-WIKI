@@ -130,6 +130,8 @@ Lyn Alden schrieb 2021 eine der präzisesten Investor-Analysen zu Ethereum aus e
 - [[bitcoin-commons-und-governance]]
 - [[zitate]]
 
+- [[internet-of-money-vol2|The Internet of Money Vol. 2 (Andreas Antonopoulos)]] ← Buch
+
 ## Open Questions
 
 - Hat der FTX-Zusammenbruch langfristig das Regulierungsumfeld für Selbstverwahrung verschlechtert oder verbessert?

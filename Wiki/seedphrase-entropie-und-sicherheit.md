@@ -59,6 +59,8 @@ Wer dem Gerät bezüglich Zufallsgenerierung nicht blind vertrauen will, kann se
 - [[hardware-wallet-sicherheitsarchitektur]]
 - [[diceware-und-seed-generierung]]
 
+- [[bitcoins-verwahren-und-vererben|Bitcoins verwahren und vererben (Marc Steiner)]] ← Buch
+
 ## Open Questions
 
 - Wie sollte man mit der zunehmenden Rechenleistung (Quantencomputer) umgehen? Ab wann wird 256-Bit-Entropie kritisch?

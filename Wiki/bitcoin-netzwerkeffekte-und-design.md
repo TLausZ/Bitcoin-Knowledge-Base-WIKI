@@ -67,6 +67,8 @@ Lyn Alden liefert in ihrer Analyse eine systematische Klassifikation der Netzwer
 - [[bitcoin-whitepaper]]
 - [[digitales-bargeld-und-ecash]]
 
+- [[internet-of-money-vol1|The Internet of Money Vol. 1 (Andreas Antonopoulos)]] ← Buch
+
 ## Open Questions
 
 - Reflexivität des Bitcoin-Preises: Gibt es einen Punkt, ab dem Fundamentals stabil genug werden, dass anhaltende Preisangriffe keine existenzielle Bedrohung mehr sind?

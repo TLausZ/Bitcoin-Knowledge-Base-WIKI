@@ -161,6 +161,8 @@ Der Vorwurf bleibt prominent: Im März 2026 nannte Ex-Premier Boris Johnson Bitc
 - [[bitcoin-regierungsresistenz]]
 - [[bitcoin-whitepaper-errata]] ← interne, eingestandene Fehler des Whitepapers selbst
 
+- [[der-bitcoin-standard|Der Bitcoin-Standard (Saifedean Ammous)]] ← Buch
+
 ## Open Questions
 
 - Wie verändert sich die Fehlannahmen-Landschaft mit steigender institutioneller Adoption?

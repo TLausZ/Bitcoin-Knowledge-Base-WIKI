@@ -84,6 +84,8 @@ Drei Fehler kosten besonders oft Geld: (1) Aus Panik bei Kursrückgängen verkau
 - [[bitcoin-fehlannahmen]]
 - [[selbstverwahrung-und-boersenrisiken]]
 
+- [[das-kleine-bitcoin-buch|Das kleine Bitcoin-Buch (The Bitcoin Collective)]] ← Buch
+
 ## Open Questions
 
 - Welche DCA-Alternativen zu Pocket Bitcoin gibt es für europäische Nutzer?

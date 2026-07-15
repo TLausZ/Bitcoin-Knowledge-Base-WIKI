@@ -53,6 +53,8 @@ Alle Inputs einer Konsolidierungstransaktion werden miteinander verknüpft — e
 - [[opsec-und-privatsphaere]]
 - [[konsensregeln-und-mempool-richtlinien]]
 
+- [[mastering-bitcoin|Mastering Bitcoin (Antonopoulos/Harding)]] ← Buch
+
 ## Open Questions
 
 - Wie entwickeln sich Gebühren langfristig, wenn die Block-Subsidy sinkt?

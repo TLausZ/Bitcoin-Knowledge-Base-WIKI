@@ -140,6 +140,9 @@ Die Parallele zur Internet-S-Kurve trägt, wenn man annimmt, dass Bitcoin als Ge
 - [[bitcoin-volatilitaet-und-preisfindung]]
 - [[crypto-assets-study-ifz-2021-2025]]
 
+- [[der-bitcoin-standard|Der Bitcoin-Standard (Saifedean Ammous)]] ← Buch
+- [[origins-of-money|On the Origins of Money (Carl Menger)]] ← Buch
+
 ## Open Questions
 
 - In welchem Stadium der Monetarisierung befindet sich Bitcoin aktuell — und woran würde man den Übergang in die dritte Phase erkennen?

@@ -132,6 +132,8 @@ Die Blöcke werden auf Dateien von maximal 128 MB verteilt (`blk00000.dat`, `blk
 - [[soft-fork-und-hard-fork]]
 - [[bitcoin-datenformate]]
 
+- [[mastering-bitcoin|Mastering Bitcoin (Antonopoulos/Harding)]] ← Buch
+
 ## Open Questions
 
 - Wie funktioniert Extra-Nonce in der Coinbase-Transaktion wenn die Nonce-Range erschöpft ist?

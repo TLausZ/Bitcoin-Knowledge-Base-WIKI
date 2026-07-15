@@ -123,6 +123,8 @@ Selbst eine Verlagerung von 1–5% der monetären Immobilien-Prämie zu Bitcoin 
 - [[kapital-und-bitcoin]]
 - [[bitcoin-volatilitaet-und-preisfindung]]
 
+- [[der-bitcoin-standard|Der Bitcoin-Standard (Saifedean Ammous)]] ← Buch
+
 ## Open Questions
 
 - Wie verhält sich die monetäre Prämie der Immobilien empirisch zum Bitcoin-Preis — gibt es messbare Substitutionseffekte auf Marktebene?

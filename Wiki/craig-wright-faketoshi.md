@@ -114,6 +114,8 @@ Wright antwortete, er habe "Vitalek [sic] gebrochen" — dieser habe Angst, weil
 - [[segregated-witness-segwit]]
 - [[soft-fork-und-hard-fork]]
 
+- [[das-buch-satoshis|Das Buch Satoshis (Phil Champagne)]] ← Buch
+
 ## Open Questions
 
 - Welche strafrechtlichen Konsequenzen kann das UK-Urteil (Dokumentenfälschung, Lügen vor Gericht) für Wright haben?

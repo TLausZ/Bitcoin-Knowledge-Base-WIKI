@@ -141,6 +141,8 @@ Die erste Transaktion in jedem Block hat keine Inputs. Der Miner erstellt sie se
 - [[segregated-witness-segwit]]
 - [[bitcoin-datenformate]]
 
+- [[mastering-bitcoin|Mastering Bitcoin (Antonopoulos/Harding)]] ← Buch
+
 ## Open Questions
 
 - Wie verändert Taproot die Transaktionsstruktur bei Multisig?

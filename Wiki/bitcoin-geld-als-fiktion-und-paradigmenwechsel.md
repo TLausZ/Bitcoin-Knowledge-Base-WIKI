@@ -91,6 +91,8 @@ Diese Entdeckung ist nach Strolight keine intellektuelle Übung; sie verändert,
 - [[praxeologie-methode-und-werttheorie]]
 - [[bitcoin-powerlaw-und-preismodelle]]
 
+- [[bitcoin-unabhaengigkeit-neu-gedacht|Bitcoin – Unabhängigkeit neu gedacht (Knut Svanholm)]] ← Buch
+
 ## Open Questions
 
 - Ist "Hyperbitcoinisierung" ein realistisches Szenario oder bleibt Bitcoin ein Wertaufbewahrungsmittel neben Fiat?

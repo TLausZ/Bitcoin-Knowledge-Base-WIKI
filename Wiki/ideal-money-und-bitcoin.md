@@ -45,6 +45,8 @@ Bitcoin aus dieser Perspektive: Finanzielle Privatsphäre ist nicht ein Merkmal 
 - [[digitales-bargeld-und-ecash]]
 - [[coinjoin-und-on-chain-privatsphaere]]
 
+- [[der-bitcoin-standard|Der Bitcoin-Standard (Saifedean Ammous)]] ← Buch
+
 ## Open Questions
 
 - Hat Nash explizit zu Bitcoin Stellung genommen? Existieren Transkripte oder Interviews?

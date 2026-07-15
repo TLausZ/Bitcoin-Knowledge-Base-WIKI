@@ -312,6 +312,8 @@ Zur Person, zum Abgang und zu späteren Identitätsbehauptungen siehe [[bitcoin-
 - [[bitcoin-regierungsresistenz]]
 - [[zitate]]
 
+- [[das-buch-satoshis|Das Buch Satoshis (Phil Champagne)]] ← Buch
+
 ## Open Questions
 
 - Wie ist Nakamotos Node-Konsolidierungs-Sicht («never more than 100K nodes») mit dem heutigen Ideal maximaler Node-Dezentralisierung zu vereinbaren?

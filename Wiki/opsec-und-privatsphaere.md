@@ -119,6 +119,8 @@ Es gibt Situationen, wo offenes Sprechen über den eigenen Bitcoin-Besitz wichti
 - [[no-kyc-bitcoin]]
 - [[coinjoin-und-on-chain-privatsphaere]]
 
+- [[das-privacy-handbuch|Das Privacy Handbuch (Timo Volkov)]] ← Buch
+
 ## Open Questions
 
 - Wie weit sollte man OPSEC in der Praxis treiben? Wo wird es unverhältnismäßig?

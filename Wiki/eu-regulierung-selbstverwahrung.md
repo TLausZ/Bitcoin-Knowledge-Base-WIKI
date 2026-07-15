@@ -43,6 +43,8 @@ AOPP (Address Ownership Proof Protocol) ist eine sauberere Alternative: Die Wall
 - [[opsec-und-privatsphaere]]
 - [[hardware-wallet-sicherheitsarchitektur]]
 
+- [[bitcoin-unabhaengigkeit-neu-gedacht|Bitcoin – Unabhängigkeit neu gedacht (Knut Svanholm)]] ← Buch
+
 ## Open Questions
 
 - Wie werden EU-MiCA und AML-Regeln in der Praxis auf Exchanges durchgesetzt?

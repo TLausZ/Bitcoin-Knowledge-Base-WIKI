@@ -175,6 +175,9 @@ Der Use Case leuchtete also zuerst jemandem ein, der nie Bitcoin besessen hat, w
 - [[bitcoin-menschenrechte]]
 - [[el-salvador-bitcoin-adoption]]
 
+- [[das-trojanische-pferd-der-freiheit|Das trojanische Pferd der Freiheit (Alex Gladstein)]] ← Buch
+- [[hidden-repression_how-the-imf-and-world-bank-sell-exploitation-as-development|Hidden Repression (Gladstein/Nabourema/Booth)]] ← Buch
+
 ## Open Questions
 
 - Wie wirkt sich staatliche CBDC-Infrastruktur auf humanitäre Bitcoin-Nutzung aus, wenn CBDCs Transaktionsüberwachung ermöglichen?

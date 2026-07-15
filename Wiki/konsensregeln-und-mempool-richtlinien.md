@@ -54,6 +54,8 @@ Mempool-Richtlinien schützen auch vor Spam: Eine Mindestgebühr verhindert, das
 - [[bitcoin-mining-und-proof-of-work]]
 - [[op-return-und-datenspeicherung]]
 
+- [[mastering-bitcoin|Mastering Bitcoin (Antonopoulos/Harding)]] ← Buch
+
 ## Open Questions
 
 - Wo verläuft die sinnvolle Grenze zwischen individuell konfigurierbaren Mempool-Richtlinien und Konsensregeln?

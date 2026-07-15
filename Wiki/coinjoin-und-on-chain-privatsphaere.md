@@ -81,6 +81,8 @@ Nach einem CoinJoin sollte man die Coin Selection (welche UTXOs für eine Transa
 - [[opsec-und-privatsphaere]]
 - [[bitcoin-whitepaper-errata]] ← CoinJoin widerlegt die Multi-Input-Annahme aus Kapitel 10 des Whitepapers
 
+- [[das-privacy-handbuch|Das Privacy Handbuch (Timo Volkov)]] ← Buch
+
 ## Open Questions
 
 - Wie entwickeln sich dezentrale CoinJoin-Protokolle (JoinMarket) nach den Verhaftungen 2024?

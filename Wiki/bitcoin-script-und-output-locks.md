@@ -188,6 +188,8 @@ Nodes relayieren nur Standard-Scripts (oben beschrieben). Custom Scripts können
 - [[taproot-musig2-frost]]
 - [[skalierung-lightning-ark-statechains]]
 
+- [[mastering-bitcoin|Mastering Bitcoin (Antonopoulos/Harding)]] ← Buch
+
 ## Open Questions
 
 - Wie unterscheidet sich Miniscript von Raw Bitcoin Script?

@@ -87,6 +87,8 @@ Der Vorteil dieser Methode: Man muss keinem Gerät in Bezug auf Zufälligkeit ve
 - [[hd-wallets-und-schluesselableitung]]
 - [[hardware-wallet-sicherheitsarchitektur]]
 
+- [[bitcoins-verwahren-und-vererben|Bitcoins verwahren und vererben (Marc Steiner)]] ← Buch
+
 ## Open Questions
 
 - Wie viele Würfelwürfe pro Wort sind nötig, damit die Entropie nicht durch den Prozess selbst reduziert wird?

@@ -53,6 +53,8 @@ Jede UTXO, die als Input in einer Transaktion verwendet wird, vergrößert diese
 - [[bitcoin-adresstypen]]
 - [[konsensregeln-und-mempool-richtlinien]]
 
+- [[mastering-bitcoin|Mastering Bitcoin (Antonopoulos/Harding)]] ← Buch
+
 ## Open Questions
 
 - Wie entwickeln sich Gebühren langfristig, wenn das Block-Subsidy abnimmt und Gebühren die Haupteinnahme der Miner werden?
