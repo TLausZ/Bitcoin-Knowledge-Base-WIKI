@@ -57,6 +57,7 @@ OVERRIDES = {
     "geschichte":  {"SEED": 12, "BETA": 6,    "L": 32, "BASECUT": 0.14, "ZMAX": 0.4,  "BASE": 0.21, "TERW": 2,    "RIDGE": 0.2,  "DBIAS": 1,   "SPREAD": 0.6,  "IRAD": 2.5,  "COASTW": 0.55, "LIFT": -0.36},
     "satoshi":     {"SEED": 13, "BETA": 6,    "L": 32, "BASECUT": 0.14, "ZMAX": 0.4,  "BASE": 0.21, "TERW": 2,    "RIDGE": 0.2,  "DBIAS": 1,   "SPREAD": 0.35, "IRAD": 2.5,  "COASTW": 0.55, "LIFT": -0.36},
     "zitate":      {"SEED": 14, "BETA": 6,    "L": 32, "BASECUT": 0.12, "ZMAX": 0.4,  "BASE": 0.21, "TERW": 2,    "RIDGE": 0.2,  "DBIAS": 1,   "SPREAD": 0.2,  "IRAD": 1.4,  "COASTW": 0.75, "LIFT": -0.36},
+    "studien":     {"SEED": 15, "BETA": 3.5,  "L": 32, "BASECUT": 0.14, "ZMAX": 0.4,  "BASE": 0.21, "TERW": 2,    "RIDGE": 0.3,  "DBIAS": 1,   "SPREAD": 0.55, "IRAD": 1.75, "COASTW": 0.75, "LIFT": -0.36},
     "buecher":     {"SEED": 16, "BETA": 3.85, "L": 32, "BASECUT": 0.16, "ZMAX": 0.4,  "BASE": 0.21, "TERW": 2,    "RIDGE": 0.6,  "DBIAS": 1,   "SPREAD": 0.6,  "IRAD": 1.75, "COASTW": 0.25, "LIFT": -0.36},
     "wallets":     {"SEED": 17, "BETA": 4.5,  "L": 32, "BASECUT": 0.14, "ZMAX": 0.4,  "BASE": 0.21, "TERW": 2,    "RIDGE": 0.25, "DBIAS": 1,   "SPREAD": 0.75, "IRAD": 2.15, "COASTW": 0.75, "LIFT": -0.36},
     "glossar":     {"SEED": 18, "BETA": 4.65, "L": 32, "BASECUT": 0.68, "ZMAX": 0.55, "BASE": 0.01, "TERW": 0.04, "RIDGE": 0.15, "DBIAS": 0.45,"SPREAD": 0.15, "IRAD": 1.4,  "COASTW": 1.2,  "LIFT": -0.36},

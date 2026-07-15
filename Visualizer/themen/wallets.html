@@ -483,14 +483,20 @@ function draw(){
   const {cx,cy,sc,dpr}=view(), W=cv.width, H=cv.height;
   ctx.clearRect(0,0,W,H); ctx.lineCap='round'; ctx.lineJoin='round';
 
-  // 1. "Schatten": alle Konturen flach auf eine Ebene UNTER dem Gelände
-  // projiziert (z=-0.35 statt 0), sehr blass — so löst sich der Schatten
-  // sichtbar von der Karte und verschwindet nicht hinter ihr.
+  // 1. "Schatten": alle SICHTBAREN Konturen flach auf eine Ebene UNTER dem
+  // Gelände projiziert (z=-0.35 statt 0), sehr blass — so löst sich der Schatten
+  // sichtbar von der Karte und verschwindet nicht hinter ihr. Wichtig: dieselbe
+  // BASECUT-Kappung wie das Gelände (Stufen unter cutZ überspringen), sonst wirft
+  // die Insel einen Schatten aus Ringen, die auf ihr gar nicht existieren.
+  const cutZ=BASECUT*ZMAX, zoff=-cutZ+LIFT*0.35;   // zoff: gemeinsamer Höhen-Offset (auch für Labels)
   ctx.strokeStyle='rgba(110,92,64,0.07)'; ctx.lineWidth=1*dpr; ctx.beginPath();
-  for(const lv of segsByLevel) for(const s of lv.segs){
-    const p=project(g2w(s[0].x), g2w(s[0].y), -0.35, cx,cy,sc);
-    const q=project(g2w(s[1].x), g2w(s[1].y), -0.35, cx,cy,sc);
-    ctx.moveTo(p[0],p[1]); ctx.lineTo(q[0],q[1]);
+  for(const lv of segsByLevel){
+    if(lv.z<cutZ) continue;
+    for(const s of lv.segs){
+      const p=project(g2w(s[0].x), g2w(s[0].y), -0.35, cx,cy,sc);
+      const q=project(g2w(s[1].x), g2w(s[1].y), -0.35, cx,cy,sc);
+      ctx.moveTo(p[0],p[1]); ctx.lineTo(q[0],q[1]);
+    }
   } ctx.stroke();
 
   // 2. Höhenrelief als fester Körper. Der Boden-Schnitt (BASECUT) kappt die
@@ -498,7 +504,6 @@ function draw(){
   // Stufe wird als deckende Grundfläche bis zum Boden gefüllt (solidBase),
   // die höheren jeweils mit einer Wand eine Stufe tiefer. Mehrere Ringe einer
   // Stufe werden mit evenodd zusammen gefüllt, damit Senken Löcher bleiben.
-  const cutZ=BASECUT*ZMAX, zoff=-cutZ+LIFT*0.35;   // zoff: gemeinsamer Höhen-Offset (auch für Labels)
   ctx.strokeStyle='rgba(74,58,40,0.68)'; ctx.lineWidth=0.85*dpr; ctx.fillStyle='#ece2cd';
   const wall=(ZMAX/L)*Math.sin(pitch)*sc, sp=Math.sin(pitch);
   let baseDrawn=false;
