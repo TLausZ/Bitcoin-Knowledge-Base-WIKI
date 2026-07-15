@@ -18,12 +18,12 @@ NAV = {"INDEX.md", "QUESTIONS.md", "CLAUDE.md", "CHANGELOG.md", "_INGESTED.md"}
 CATS = ["grundlagen", "protokoll", "bips", "self-custody", "privacy", "mining",
         "lightning", "oekonomie", "philosophie", "adoption", "kritik",
         "geschichte", "satoshi", "zitate", "studien", "buecher", "wallets",
-        "sonstiges"]
+        "glossar", "sonstiges"]
 
 # Beim Kappen zuerst behalten: spezifische/Leaf-Themen. Breite Sammelthemen
 # (protokoll, grundlagen) fliegen zuerst raus, damit z.B. 'geschichte' bleibt.
 # Kuratierte Tags (satoshi/zitate/studien/buecher) stehen zuoberst -> nie gekappt.
-KEEP_PRIORITY = ["satoshi", "zitate", "studien", "buecher", "kritik", "geschichte",
+KEEP_PRIORITY = ["glossar", "satoshi", "zitate", "studien", "buecher", "kritik", "geschichte",
                  "wallets", "mining", "lightning", "privacy", "self-custody",
                  "adoption", "oekonomie", "philosophie", "protokoll", "grundlagen",
                  "bips"]
@@ -42,6 +42,10 @@ SATOSHI_SET = {
 
 # Zitate: nur echte Zitatsammlungen, nicht Artikel die jemanden zitieren.
 ZITATE_SET = {"satoshi-zitate", "zitate"}
+
+# Glossar: die drei Nachschlage-Glossare (Begriffslisten), kuratiert wie die
+# anderen Sammel-Tags. Kein Keyword — sonst würde jeder Begriffs-Artikel triggern.
+GLOSSAR_SET = {"glossar-allgemein", "glossar-bitcoin-technik", "glossar-lightning"}
 
 # Studien: nur Artikel die selbst eine Studie/ein Report/Forschung sind,
 # nicht solche die eine Studie bloss zitieren (greenpeace, volatilitaet …).
@@ -152,6 +156,8 @@ def classify(slug, desc):
         tags.append("satoshi")
     if slug in ZITATE_SET:
         tags.append("zitate")
+    if slug in GLOSSAR_SET:
+        tags.append("glossar")
     if slug in STUDIEN_SET:
         tags.append("studien")
     if slug in BUECHER_SET:
