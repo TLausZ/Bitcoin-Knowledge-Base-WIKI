@@ -2,19 +2,6 @@
 <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
 <title>Bitcoin-Wiki · Gesamtkarte</title>
 <style>
-  /* Crossfade beim Wechsel zwischen Karten (gleicher Ursprung, Chrome/Safari) */
-  @view-transition { navigation: auto; }
-  /* Verstecktes Admin-Panel (Taste 0): FFT-Regler zum Tunen je Themenkarte */
-  #adm{position:fixed;top:0;right:0;z-index:30;width:214px;max-height:100vh;overflow-y:auto;
-    background:#f2ead6;border:1px solid rgba(110,92,64,0.4);border-top:none;border-right:none;
-    border-radius:0 0 0 8px;padding:11px 13px;box-shadow:0 6px 20px rgba(60,48,32,.18)}
-  #adm[hidden]{display:none}
-  #adm .row{margin:0 0 8px}
-  #adm .lab{display:flex;justify-content:space-between;font-size:11px;color:#5c4a34;margin:0 0 2px}
-  #adm .lab .v{color:#8a5a1e;font-variant-numeric:tabular-nums}
-  #adm input[type=range]{width:100%;margin:0;accent-color:#8a5a1e;height:15px}
-  #admout{margin-top:8px;padding-top:8px;border-top:1px solid rgba(110,92,64,0.3);
-    font-size:10.5px;line-height:1.5;color:#6b5a42;user-select:all;word-break:break-all;cursor:text}
   html,body{margin:0;height:100%;background:#ece2cd;overflow:hidden;
     font:13px/1.4 ui-sans-serif,system-ui,sans-serif;color:#8a7a5e}
   #c{display:block;touch-action:none;cursor:grab}
@@ -152,7 +139,6 @@
   <p id="sub"></p></div>
 <canvas id="c"></canvas>
 <div id="hint">ziehen zum drehen · <b>scroll</b> zoom · <b>W A S D</b> verschieben · <b>R</b> reset · <b>H</b> Liste</div>
-<div id="adm" hidden><div id="admrows"></div><div id="admout"></div></div>
 <div id="modal"><div id="mcard">
   <div id="mhead">
     <button id="mback" title="Zurück">‹ Zurück</button>
@@ -197,28 +183,12 @@ const LABEL_TOP = 21;   // 21 wie die 21 Millionen
 // ============================================================================
 const cv = document.getElementById('c'), ctx = cv.getContext('2d');
 let PANEL_W=276;   // Breite des linken Panels; 0 wenn eingeklappt (siehe view())
-const N = 256,        // Auflösung des Höhenfelds: N×N Gitter (Zweierpotenz für die FFT)
+const N = 240,        // Auflösung des Höhenfelds: N×N Gitterpunkte
+      ZMAX = 0.9,     // maximale Hügelhöhe in Weltkoordinaten
+      SIG = 0.115,    // Breite (Sigma) des Hauptgipfels pro Artikel
+      SKIRT = 0.17,   // Breite des flachen "Rocksaums" um jeden Gipfel
       DOM = 2.7,      // halbe Kantenlänge der Ebene: x/y laufen -DOM..+DOM
-      ZOOM0 = 1.25,   // Zoom beim Laden und nach R-Reset
-      SIG = 0.115,    // Breite (Sigma) der Artikel-Gausskurven im Datenfeld
-      SKIRT = 0.17;   // Breite des flachen Sockels je Artikel im Datenfeld
-// --- FFT-Relief-Parameter (Defaults aus karten-wip v6). let, weil das versteckte
-//     Admin-Panel (Taste 0) sie live ändert; der Generator kann sie pro Themenkarte
-//     am Marker unten überschreiben. ---
-let SEED = 2,         // FFT-Rauschmuster (Themennummer bei Themenkarten)
-    BETA = 6.00,      // Rauheit: gross = glatt
-    L = 32,           // Höhenlinien-Stufen
-    ZMAX = 0.40,      // Max-Höhe in Weltkoordinaten
-    BASE = 0.21,      // Grundhöhe
-    TERW = 2.00,      // Höhenzug oben
-    RIDGE = 0.20,     // Gebirge (geriffelt ↔ glatt)
-    DBIAS = 1.00,     // Daten-Bias: Artikel-Cluster = höhere Massive
-    SPREAD = 0.85,    // Datenzoom: skaliert die Artikelpositionen
-    IRAD = 2.50,      // Inselradius
-    COASTW = 0.55,    // Küstenbreite (smoothstep-Rampe)
-    BASECUT = 0.14,   // Boden-Schnitt
-    LIFT = -0.36;     // Schwebehöhe
-/*__THEME_CFG__*/
+      ZOOM0 = 1.25;   // Zoom beim Laden und nach R-Reset
 let yaw = 0.6,        // Drehung um die Hochachse (ändert sich beim Ziehen)
     pitch = 1.08,     // Kippwinkel der Kamera (1.55 ≈ fast Draufsicht)
     scale0 = 0.2,     // Grundmaßstab, wird mit zoom multipliziert
@@ -230,105 +200,58 @@ let segsByLevel = [], // vorberechnete Kontur-Segmente pro Höhenstufe (für den
     peaks = [],       // PEAKS angereichert um echte Höhe z und Anzeigename
     hover = -1,       // Index des Artikels unter der Maus (-1 = keiner)
     sel = -1;         // Index des in der Liste angeklickten Artikels
-let ENV = null,       // weiche radiale Insel-Maske (Form + Küste), datenunabhängig
-    DATA = null;      // Artikeldichte-Feld, treibt den Daten-Bias im Relief
 // Gitterindex 0..N-1 → Weltkoordinate -DOM..+DOM
 const g2w = i => (i/(N-1)*2-1)*DOM;
 
 // ============================================================================
-// HÖHENFELD (FFT-Relief statt summierter Gauss-Hügel)
-// Zwei entkoppelte Felder plus geformtes FFT-Rauschen ergeben Gebirgszüge
-// statt isolierter Kegel:
-//   ENV  = weiche radiale Insel-Maske (Form + Küste), datenunabhängig.
-//   DATA = Artikeldichte (Gauss-Summe, Positionen mit SPREAD skaliert), treibt
-//          den Höhen-Bias, definiert aber NICHT die Küste.
-//   computeField = weisses Rauschen → 2D-FFT → Spektrum mit f^(-BETA/2) formen
-//          → Rück-FFT → ridged transform, dann von ENV maskiert und vom
-//          DATA-Bias in der Höhe moduliert.
+// HÖHENFELD
+// Baut aus den PEAKS-Daten ein N×N-Gitter mit Höhenwerten 0..1.
+// Jeder Artikel wird zu einem Hügel: Höhe = Gewicht, Position = x/y.
+// Dazu kommt leichtes Wellenrauschen, damit das "Tal" zwischen den Hügeln
+// nicht steril flach aussieht, sondern wie echtes Gelände.
 // ============================================================================
-const mulberry32=a=>()=>{a=(a+0x6D2B79F5)|0;let t=Math.imul(a^a>>>15,1|a);
-  t=t+Math.imul(t^t>>>7,61|t)^t;return((t^t>>>14)>>>0)/4294967296;};
+function buildField(){
+  // --- Hintergrund-Wellen (dekoratives Rauschen) ---
+  // 18 Sinuswellen mit zufälliger Richtung, Frequenz und Phase.
+  const waves=[];
+  let s=21;                                   // fester Seed → Karte bei jedem Laden identisch
+  // Deterministischer Pseudozufallsgenerator (mulberry32) statt Math.random,
+  // damit dieselben Wellen bei jedem Seitenaufruf entstehen.
+  const rnd=()=>{s=(s+0x6D2B79F5)|0; let t=Math.imul(s^s>>>15,1|s);   // mulberry32
+    t=t+Math.imul(t^t>>>7,61|t)^t; return ((t^t>>>14)>>>0)/4294967296;};
+  for(let k=0;k<18;k++){const a=rnd()*6.28, fr=3+rnd()*11;
+    waves.push({dx:Math.cos(a)*fr, dy:Math.sin(a)*fr, ph:rnd()*6.28,
+      amp:(.015+rnd()*.03)/(1+fr*0.06)});}     // hohe Frequenz → kleinere Amplitude
 
-function fft1d(re,im,n,inv){
-  for(let i=1,j=0;i<n;i++){let bit=n>>1;
-    for(;j&bit;bit>>=1) j^=bit; j^=bit;
-    if(i<j){let t=re[i];re[i]=re[j];re[j]=t; t=im[i];im[i]=im[j];im[j]=t;}}
-  for(let len=2;len<=n;len<<=1){
-    const ang=(inv?2:-2)*Math.PI/len, wr=Math.cos(ang), wi=Math.sin(ang);
-    for(let i=0;i<n;i+=len){let cr=1,ci=0;
-      for(let k=0;k<len>>1;k++){
-        const a=i+k, b=a+(len>>1);
-        const vr=re[b]*cr-im[b]*ci, vi=re[b]*ci+im[b]*cr;
-        re[b]=re[a]-vr; im[b]=im[a]-vi; re[a]+=vr; im[a]+=vi;
-        const nr=cr*wr-ci*wi; ci=cr*wi+ci*wr; cr=nr;}}}
-  if(inv) for(let i=0;i<n;i++){re[i]/=n; im[i]/=n;}
-}
-function fft2d(re,im,M,inv){
-  const rr=new Float64Array(M), ri=new Float64Array(M);
-  for(let r=0;r<M;r++){const o=r*M;
-    for(let c=0;c<M;c++){rr[c]=re[o+c];ri[c]=im[o+c];}
-    fft1d(rr,ri,M,inv);
-    for(let c=0;c<M;c++){re[o+c]=rr[c];im[o+c]=ri[c];}}
-  for(let c=0;c<M;c++){
-    for(let r=0;r<M;r++){rr[r]=re[r*M+c];ri[r]=im[r*M+c];}
-    fft1d(rr,ri,M,inv);
-    for(let r=0;r<M;r++){re[r*M+c]=rr[r];im[r*M+c]=ri[r];}}
-}
-
-// ENV (Insel-Maske) + DATA (Artikeldichte). ENV braucht keine Daten, DATA schon.
-function buildEnvelope(){
-  const e=[];
-  for(let j=0;j<N;j++){e[j]=[];
-    for(let i=0;i<N;i++){
-      const r=Math.hypot(g2w(i), g2w(j));
-      const m=Math.min(1, Math.max(0, (IRAD-r)/COASTW));
-      e[j][i]=m*m*(3-2*m);   // smoothstep → weiche Küste
-    }}
-  ENV=e;
-  if(!PEAKS||!PEAKS.length){ DATA=null; return; }
-  const d=[]; let mx=0;
-  for(let j=0;j<N;j++){d[j]=[];
-    for(let i=0;i<N;i++){
-      const x=g2w(i), y=g2w(j); let v=0;
-      for(const p of PEAKS){const px=p.x*SPREAD, py=p.y*SPREAD, dx=x-px, dy=y-py, r2=dx*dx+dy*dy;
-        if(r2>0.6) continue;
-        const ps=Math.pow(p.s,1.35);
-        v+=ps*(Math.exp(-Math.pow(r2/(2*SIG*SIG),1.7))
-             + 0.25*Math.exp(-r2/(2*SKIRT*SKIRT)));}
-      d[j][i]=v; if(v>mx)mx=v;
-    }}
-  const nm=mx||1;
-  for(let j=0;j<N;j++)for(let i=0;i<N;i++)d[j][i]/=nm;
-  DATA=d;
-}
-
-function computeField(){
-  const M=N, rnd=mulberry32((SEED*2654435761)^0x9e3779b9);
-  const re=new Float64Array(M*M), im=new Float64Array(M*M);
-  for(let i=0;i<M*M;i++) re[i]=rnd()*2-1;      // weisses Rauschen
-  fft2d(re,im,M,false);
-  for(let v=0;v<M;v++)for(let u=0;u<M;u++){     // Spektrum mit f^(-BETA/2) formen
-    const fu=u<=M/2?u:u-M, fv=v<=M/2?v:v-M;
-    const f=Math.hypot(fu,fv), s=f===0?0:Math.pow(f,-BETA/2), idx=v*M+u;
-    re[idx]*=s; im[idx]*=s;}
-  fft2d(re,im,M,true);
-  let rmn=1e9,rmx=-1e9;
-  for(let i=0;i<M*M;i++){const v=re[i]; if(v<rmn)rmn=v; if(v>rmx)rmx=v;}
-  const f=[]; let mx=0;
+  // --- Höhenwert für jeden Gitterpunkt berechnen ---
+  const f=[]; let mn=1e9,mx=-1e9;              // mn/mx für spätere Normierung
   for(let j=0;j<N;j++){f[j]=[];
     for(let i=0;i<N;i++){
-      const nz=(re[j*M+i]-rmn)/(rmx-rmn);
-      const mask=ENV ? ENV[j][i] : 0;
-      if(mask<=0){ f[j][i]=0; continue; }
-      const dat=DATA ? DATA[j][i] : 0;
-      const ridge=1-Math.abs(2*nz-1);                // Grate (Kämme + Täler)
-      const relief=RIDGE*ridge+(1-RIDGE)*nz;         // Gebirge ↔ glatt
-      const amp=1-DBIAS+DBIAS*dat;                   // Daten-Bias: Cluster = hohe Massive
-      const val=mask*(BASE+TERW*relief*amp);
-      f[j][i]=val; if(val>mx)mx=val;
+      const x=g2w(i), y=g2w(j); let v=0;       // Weltkoordinate dieses Gitterpunkts
+      // Beitrag aller Artikel-Hügel aufsummieren
+      for(const p of PEAKS){const dx=x-p.x,dy=y-p.y, r2=dx*dx+dy*dy;
+        if(r2>0.6) continue;                   // zu weit weg → kein Beitrag (Performance)
+        const ps=Math.pow(p.s,1.35);           // Gewicht leicht gestaucht: kleine Hügel bleiben sichtbar
+        v+=ps*(Math.exp(-Math.pow(r2/(2*SIG*SIG),1.7))   // Super-Gauss: flaches Plateau, sanfter Rand
+             + 0.25*Math.exp(-r2/(2*SKIRT*SKIRT)));}     // breiter flacher Sockel um den Gipfel
+      // Wellenrauschen addieren
+      for(const w of waves) v+=w.amp*Math.sin(x*w.dx+y*w.dy+w.ph);
+      // Zum Rand hin sanft auf 0 ausblenden, damit die Konturlinien
+      // in einer runden "Insel" auslaufen statt hart am Gitterrand abzubrechen.
+      const r=Math.hypot(x,y);                 // radialer Fade: Linien enden nicht am Grid-Rand
+      const m=Math.min(1, Math.max(0, (2.62-r)/0.32));
+      v*=m*m*(3-2*m);                          // smoothstep
+      f[j][i]=v; if(v<mn)mn=v; if(v>mx)mx=v;
     }}
-  const nm=mx||1;
-  for(let j=0;j<N;j++)for(let i=0;i<N;i++)f[j][i]/=nm;   // auf 0..1 normieren
+  // Auf 0..1 normieren, damit die Konturstufen unabhängig von den Rohwerten sind.
+  for(let j=0;j<N;j++)for(let i=0;i<N;i++)f[j][i]=(f[j][i]-mn)/(mx-mn);
+
+  // peaks-Array für die Anzeige aufbauen: jede Position bekommt ihre
+  // tatsächliche Höhe aus dem fertigen Feld (dort setzen die Label-Linien an).
+  peaks = PEAKS.map(p=>{
+    const gi=Math.round((p.x/DOM+1)/2*(N-1)), gj=Math.round((p.y/DOM+1)/2*(N-1));  // Welt → Gitterindex
+    return {x:p.x, y:p.y, z:f[gj][gi]*ZMAX, name:p.n.replace(/-/g,' ')};
+  });
   return f;
 }
 
@@ -409,21 +332,13 @@ function chainLoops(segs){
 // (für das Gelände). Bei jedem draw() wird nur noch projiziert und
 // gezeichnet — die teure Rechnung passiert also nur einmal.
 function build(){
-  buildEnvelope();                  // ENV + DATA (braucht PEAKS)
-  const f = field = computeField(); // Feld auch global merken (Label-Sichtbarkeit)
-  segsByLevel=[]; loopsByLevel=[];
+  const f = field = buildField();   // Feld auch global merken (Label-Sichtbarkeit)
+  segsByLevel=[]; loopsByLevel=[]; const L=32;
   for(let l=1;l<L;l++){
     const segs=contour(f,l/L);
     segsByLevel.push({z:l/L*ZMAX, segs});
     loopsByLevel.push({z:l/L*ZMAX, loops:chainLoops(segs)});
   }
-  // peaks: Positionen mit SPREAD skaliert (wie das Datenfeld), Höhe aus dem Feld
-  peaks = PEAKS.map(p=>{
-    const x=p.x*SPREAD, y=p.y*SPREAD;
-    const gi=Math.round((x/DOM+1)/2*(N-1)), gj=Math.round((y/DOM+1)/2*(N-1));
-    const z=(gi>=0&&gi<N&&gj>=0&&gj<N)?field[gj][gi]*ZMAX:0;
-    return {x, y, z, name:p.n.replace(/-/g,' ')};
-  });
   draw();
 }
 
@@ -490,31 +405,46 @@ function draw(){
     ctx.moveTo(p[0],p[1]); ctx.lineTo(q[0],q[1]);
   } ctx.stroke();
 
-  // 2. Höhenrelief als fester Körper. Der Boden-Schnitt (BASECUT) kappt die
-  // untersten Stufen, LIFT hebt die Insel schweben. Die unterste sichtbare
-  // Stufe wird als deckende Grundfläche bis zum Boden gefüllt (solidBase),
-  // die höheren jeweils mit einer Wand eine Stufe tiefer. Mehrere Ringe einer
-  // Stufe werden mit evenodd zusammen gefüllt, damit Senken Löcher bleiben.
-  const cutZ=BASECUT*ZMAX, zoff=-cutZ+LIFT*0.35;   // zoff: gemeinsamer Höhen-Offset (auch für Labels)
-  ctx.strokeStyle='rgba(74,58,40,0.68)'; ctx.lineWidth=0.85*dpr; ctx.fillStyle='#ece2cd';
-  const wall=(ZMAX/L)*Math.sin(pitch)*sc, sp=Math.sin(pitch);
-  let baseDrawn=false;
-  for(const lv of loopsByLevel){
-    if(lv.z<cutZ) continue;
-    const solidBase=!baseDrawn; baseDrawn=true;
-    const rings=lv.loops.map(loop=>loop.map(p=>project(g2w(p.x),g2w(p.y),lv.z+zoff,cx,cy,sc)));
-    if(!solidBase) for(const pts of rings){   // Wand: Ring vorwärts, dann eine Stufe tiefer rückwärts
-      ctx.beginPath();
-      pts.forEach(([qx,qy],k)=>k?ctx.lineTo(qx,qy):ctx.moveTo(qx,qy));
-      for(let k=pts.length-1;k>=0;k--) ctx.lineTo(pts[k][0], pts[k][1]+wall);
-      ctx.closePath(); ctx.fill();
-    }
-    ctx.beginPath();                          // Deckel: alle Ringe der Stufe zusammen (evenodd)
-    for(const pts of rings){
-      pts.forEach(([qx,qy],k)=>k?ctx.lineTo(qx,qy):ctx.moveTo(qx,qy));
-      ctx.closePath();
-    }
-    ctx.fill('evenodd'); ctx.stroke();
+  // 1b. Kartenkörper: die Grundfläche der Insel wird deckend in der
+  // Hintergrundfarbe gefüllt (projizierter Kreis → Ellipse). Das verdeckt
+  // den Schatten überall dort, wo die Karte davor liegt — sichtbar bleibt
+  // er nur am vorderen Rand.
+  {
+    const [ex,ey]=project(0,0,0,cx,cy,sc);   // Mittelpunkt der Bodenebene
+    ctx.fillStyle='#ece2cd';                 // = Seitenhintergrund
+    ctx.beginPath();
+    // Kreis mit Radius 2.62 (Rand des radialen Fades); vertikal um cos(pitch)
+    // gestaucht, weil die Bodenebene gekippt betrachtet wird.
+    ctx.ellipse(ex,ey,2.62*sc,2.62*sc*Math.cos(pitch),0,0,7);
+    ctx.fill();
+  }
+
+  // 2. Die eigentlichen Höhenlinien: die Karte als fester Körper.
+  // Pro Konturring werden von unten nach oben zwei Flächen deckend gefüllt:
+  //   a) die "Wand" — der Ring zusammen mit sich selbst eine Höhenstufe
+  //      tiefer. Ohne sie klaffen bei flachem Blickwinkel senkrechte Lücken
+  //      zwischen den Stufen und die Karte wirkt von der Seite durchsichtig.
+  //   b) der "Deckel" — der Ring auf seiner Höhe, gefüllt und umrandet.
+  // Die Füllungen übermalen alles, was dahinter/darunter liegt.
+  // (Bei dieser Projektion gilt: pro Bildpunkt gewinnt die höchste Fläche,
+  // deshalb ist die Reihenfolge niedrig → hoch korrekt.)
+  ctx.strokeStyle='rgba(74,58,40,0.68)'; ctx.lineWidth=0.85*dpr;
+  ctx.fillStyle='#ece2cd';
+  // Bildschirm-Versatz einer Höhenstufe nach unten: nur die Höhe z ändert
+  // sich, in der Projektion ist das ein rein vertikaler Shift um z·sin(pitch).
+  const wall=(ZMAX/32)*Math.sin(pitch)*sc;
+  for(const lv of loopsByLevel) for(const loop of lv.loops){
+    // Ringpunkte einmal projizieren, für Wand und Deckel wiederverwenden
+    const pts=loop.map(p=>project(g2w(p.x), g2w(p.y), lv.z, cx,cy,sc));
+    // a) Wand: Ring vorwärts, dann derselbe Ring eine Stufe tiefer rückwärts
+    ctx.beginPath();
+    pts.forEach(([px,py],k)=>k?ctx.lineTo(px,py):ctx.moveTo(px,py));
+    for(let k=pts.length-1;k>=0;k--) ctx.lineTo(pts[k][0], pts[k][1]+wall);
+    ctx.closePath(); ctx.fill();
+    // b) Deckel: der Ring selbst
+    ctx.beginPath();
+    pts.forEach(([px,py],k)=>k?ctx.lineTo(px,py):ctx.moveTo(px,py));
+    ctx.closePath(); ctx.fill(); ctx.stroke();
   }
 
   // 3. Dauerhafte Labels: die gewichtigsten Artikel, die gerade SICHTBAR sind.
@@ -536,7 +466,7 @@ function draw(){
   // mehr als je gleichzeitig im Ausschnitt liegen → alle sichtbaren beschriftet.
   const budget=Math.round(LABEL_TOP*Math.pow(zoom/ZOOM0,2));
   const items=peaks.map((pk,i)=>({pk,i}))
-    .map(o=>{const [x,y]=project(o.pk.x,o.pk.y,o.pk.z+zoff,cx,cy,sc); return {...o,x,y};})
+    .map(o=>{const [x,y]=project(o.pk.x,o.pk.y,o.pk.z,cx,cy,sc); return {...o,x,y};})
     .filter(o=>o.x>pw-mg && o.x<W+mg && o.y>-mg && o.y<H+mg)   // nur Gipfel im Bild
     .filter(o=>peakVisible(o.pk))             // hinter Bergen verdeckte Gipfel überspringen
     .slice(0,budget)                          // die schwersten davon (Reihenfolge = Gewicht)
@@ -574,7 +504,7 @@ function draw(){
   // Marker für Artikel OHNE dauerhaftes Label: wird nur bei Hover oder
   // Auswahl in der Liste gezeichnet (braune Box, beiger Text).
   function marker(i){                     // brown box, beige text
-    const pk=peaks[i], [x,y]=project(pk.x,pk.y,pk.z+zoff,cx,cy,sc);
+    const pk=peaks[i], [x,y]=project(pk.x,pk.y,pk.z,cx,cy,sc);
     ctx.font=`${12*dpr}px ui-sans-serif,system-ui,sans-serif`;
     const w=ctx.measureText(pk.name).width+8*dpr, ty=y-22*dpr;
     const tx=Math.max(w/2+2*dpr, Math.min(W-w/2-2*dpr, x));   // clamp on screen
@@ -696,11 +626,6 @@ if(isMobile()){panelEl.classList.add('hidden');ptoggle.classList.add('hidden');
 
 addEventListener('keydown',e=>{
   if(document.getElementById('modal').classList.contains('open')) return;   // beim Lesen keine Kartensteuerung
-  if(e.key==='0'){   // verstecktes Admin-Panel; nicht wenn im Suchfeld getippt wird (Range-Slider ok)
-    const t=e.target;
-    if(!(t.tagName==='INPUT' && t.type!=='range')) toggleAdmin();
-    return;
-  }
   if(/^(input|textarea|select)$/i.test(e.target.tagName)) return;           // beim Tippen im Filter/Feld keine Kartensteuerung
   const k=e.key.toLowerCase();
   if(k==='h'){togglePanel(); return;}
@@ -734,27 +659,20 @@ const TOPICS=[['grundlagen','Grundlagen'],['protokoll','Protokoll & Technik'],
 const topicEl=document.getElementById('topic');
 // Optionen mit Artikelzahl pro Thema aufbauen; "Alle" zeigt den Gesamtbestand.
 const tCount=t=>PEAKS.filter(p=>(p.t||[]).includes(t)).length;
-// Dropdown = Karten-Umschalter, auf Gesamtkarte UND Themenkarten (View-Transition-Crossfade).
-// Kartenliste: Themenkarte → THEME_CARDS (Generator-injiziert); Gesamtkarte → Themen mit >0
-// Artikeln aus den Daten (PEAKS ist dort ungefiltert), das lässt sonstiges automatisch weg.
-const onCard=(typeof THEME!=='undefined');
-const cards=(typeof THEME_CARDS!=='undefined')?THEME_CARDS:TOPICS.filter(([tok])=>tCount(tok)>0);
-topicEl.append(new Option('Gesamtkarte','__all'));
-for(const [tok,label] of cards) topicEl.append(new Option(label,tok));
-topicEl.value=onCard?THEME:'__all';
-topicEl.onchange=()=>{ const v=topicEl.value;
-  // Pfad je nach Standort: Themenkarte liegt in themen/, Gesamtkarte in Visualizer/.
-  location.href = (v==='__all')
-    ? (onCard?'../index.html':'index.html')
-    : (onCard?'':'themen/')+v+'.html'; };
+topicEl.append(new Option(`Alle Themen (${PEAKS.length})`,''));
+// leere Kategorien (z.B. Sonstiges-Fallback ohne Treffer) nicht anzeigen
+for(const [tok,label] of TOPICS){const c=tCount(tok); if(c) topicEl.append(new Option(`${label} (${c})`,tok));}
+topicEl.onchange=renderList;
 let mode='w', dirW=-1, dirA=1;            // w: weight, a: alpha; -1 = desc
 
 function renderList(){
   // Indizes statt der Objekte sortieren — i bleibt so der Index in PEAKS/peaks,
   // den auch hover/sel auf der Karte verwenden.
   // Filter: Teilstring im Dateinamen (Bindestriche als Leerzeichen behandelt), case-insensitive
-  const q=searchEl.value.trim().toLowerCase();   // Thema läuft jetzt über das Dropdown = Navigation
+  const q=searchEl.value.trim().toLowerCase();
+  const tf=topicEl.value;   // gewähltes Thema, '' = alle
   let idx=PEAKS.map((_,i)=>i);
+  if(tf) idx=idx.filter(i=>(PEAKS[i].t||[]).includes(tf));
   if(q) idx=idx.filter(i=>PEAKS[i].n.replace(/-/g,' ').toLowerCase().includes(q));
   if(mode==='w') idx.sort((a,b)=>dirW*(PEAKS[a].s-PEAKS[b].s) || PEAKS[a].n.localeCompare(PEAKS[b].n));  // bei gleichem Gewicht alphabetisch
   else idx.sort((a,b)=>dirA*PEAKS[a].n.localeCompare(PEAKS[b].n));
@@ -907,59 +825,6 @@ function resize(){const dpr=window.devicePixelRatio||1;
 addEventListener('resize',resize);
 document.getElementById('sub').textContent=   // Untertitel aus den Daten, veraltet nie
   `Alle ${PEAKS.length} Artikel · Höhe = Gewicht (PageRank + Quellen) · Top ${LABEL_TOP} beschriftet`;
-// ============================================================================
-// VERSTECKTES ADMIN-PANEL (Taste 0) — FFT-Regler zum Tunen je Themenkarte.
-// Nirgends in der UI vermerkt. Die Zeile unten im Panel (user-select:all) ist
-// das Overrides-Objekt, das der Generator (tools/build_theme_cards.py) je Karte
-// einbacken kann. rb='build' → Feld+Levels+Peaks neu, rb='draw' → nur zeichnen.
-// ============================================================================
-const admCtrls=[
-  {k:'SEED',   lab:'Seed (Thema)',  min:1,   max:21,  step:1,    dec:0, rb:'build', get:()=>SEED,   set:v=>SEED=v},
-  {k:'BETA',   lab:'β Rauheit',     min:3.5, max:6,   step:0.05, dec:2, rb:'build', get:()=>BETA,   set:v=>BETA=v},
-  {k:'L',      lab:'Höhenlinien',   min:25,  max:48,  step:1,    dec:0, rb:'build', get:()=>L,      set:v=>L=v},
-  {k:'BASECUT',lab:'Boden-Schnitt', min:0,   max:0.85,step:0.02, dec:2, rb:'draw',  get:()=>BASECUT,set:v=>BASECUT=v},
-  {k:'ZMAX',   lab:'Max-Höhe',      min:0.3, max:1.4, step:0.05, dec:2, rb:'build', get:()=>ZMAX,   set:v=>ZMAX=v},
-  {k:'BASE',   lab:'Grundhöhe',     min:0.01,max:0.6, step:0.02, dec:2, rb:'build', get:()=>BASE,   set:v=>BASE=v},
-  {k:'TERW',   lab:'Höhenzug oben', min:0,   max:2,   step:0.02, dec:2, rb:'build', get:()=>TERW,   set:v=>TERW=v},
-  {k:'RIDGE',  lab:'Gebirge',       min:0,   max:1,   step:0.05, dec:2, rb:'build', get:()=>RIDGE,  set:v=>RIDGE=v},
-  {k:'DBIAS',  lab:'Daten-Bias',    min:0,   max:1,   step:0.05, dec:2, rb:'build', get:()=>DBIAS,  set:v=>DBIAS=v},
-  {k:'SPREAD', lab:'Datenzoom',     min:0,   max:1.4, step:0.05, dec:2, rb:'build', get:()=>SPREAD, set:v=>SPREAD=v},
-  {k:'IRAD',   lab:'Inselradius',   min:1.4, max:2.7, step:0.05, dec:2, rb:'build', get:()=>IRAD,   set:v=>IRAD=v},
-  {k:'COASTW', lab:'Küstenbreite',  min:0.05,max:2,   step:0.05, dec:2, rb:'build', get:()=>COASTW, set:v=>COASTW=v},
-  {k:'LIFT',   lab:'Schwebehöhe',   min:-1,  max:1,   step:0.02, dec:2, rb:'draw',  get:()=>LIFT,   set:v=>LIFT=v},
-];
-let admDirty=null, admQueued=false;
-function admSchedule(rb){   // Slider-Eingaben pro Frame bündeln (FFT ist teuer)
-  if(rb==='build') admDirty='build'; else if(admDirty!=='build') admDirty='draw';
-  if(admQueued) return; admQueued=true;
-  requestAnimationFrame(()=>{ admQueued=false; const d=admDirty; admDirty=null;
-    if(d==='build') build(); else if(d==='draw') draw(); });
-}
-const admRows=document.getElementById('admrows'), admOut=document.getElementById('admout');
-for(const c of admCtrls){
-  const row=document.createElement('div'); row.className='row';
-  row.innerHTML=`<div class="lab"><span>${c.lab}</span><span class="v" id="av_${c.k}"></span></div>`+
-    `<input type="range" id="as_${c.k}" min="${c.min}" max="${c.max}" step="${c.step}">`;
-  admRows.appendChild(row);
-  row.querySelector('input').addEventListener('input',e=>{ c.set(parseFloat(e.target.value)); admSchedule(c.rb); admSync(); });
-}
-function admSync(){
-  const o={};
-  for(const c of admCtrls){
-    const s=document.getElementById('as_'+c.k);
-    if(document.activeElement!==s) s.value=c.get();
-    document.getElementById('av_'+c.k).textContent=(+c.get()).toFixed(c.dec);
-    o[c.k]=+(+c.get()).toFixed(c.dec);
-  }
-  const key=(typeof THEME!=='undefined')?THEME:'global';
-  admOut.textContent=`"${key}": ${JSON.stringify(o)}`;
-}
-function toggleAdmin(){ const a=document.getElementById('adm'); a.hidden=!a.hidden; if(!a.hidden) admSync(); }
-admSync();
-
-{ const disc=document.getElementById('disc');   // Hinweis nur einmal pro Sitzung
-  if(sessionStorage.getItem('discOK')) disc.remove();
-  else document.getElementById('discok').onclick=()=>{ sessionStorage.setItem('discOK','1'); disc.remove(); };
-}
+document.getElementById('discok').onclick=()=>document.getElementById('disc').remove();
 resize(); build(); renderList();
 </script>
