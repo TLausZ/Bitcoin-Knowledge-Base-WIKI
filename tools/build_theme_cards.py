@@ -80,7 +80,7 @@ def main():
     eligible = [(i, slug, name, sum(1 for p in peaks if slug in (p.get("t") or [])))
                 for i, (slug, name) in enumerate(CATS, start=1)]
     eligible = [(i, slug, name, c) for (i, slug, name, c) in eligible if c > 0]
-    theme_cards_json = json.dumps([[slug, name] for (_, slug, name, _) in eligible],
+    theme_cards_json = json.dumps([[slug, name, c] for (_, slug, name, c) in eligible],
                                   ensure_ascii=False)
 
     for i, (slug, name) in enumerate(CATS, start=1):
@@ -98,6 +98,7 @@ def main():
         doc = doc.replace("/*__THEME_CFG__*/", cfg, 1)
         # 2) PEAKS auf dieses Thema filtern + Umschalter-Liste einspritzen
         new_decl = (f"const THEME = {json.dumps(slug)};\n"
+                    f"const TOTAL = {len(peaks)};\n"
                     f"const THEME_CARDS = {theme_cards_json};\n"
                     f"const PEAKS = {peaks_literal}"
                     ".filter(p => (p.t || []).includes(THEME));")

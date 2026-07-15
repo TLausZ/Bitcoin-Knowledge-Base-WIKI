@@ -738,9 +738,13 @@ const tCount=t=>PEAKS.filter(p=>(p.t||[]).includes(t)).length;
 // Kartenliste: Themenkarte → THEME_CARDS (Generator-injiziert); Gesamtkarte → Themen mit >0
 // Artikeln aus den Daten (PEAKS ist dort ungefiltert), das lässt sonstiges automatisch weg.
 const onCard=(typeof THEME!=='undefined');
-const cards=(typeof THEME_CARDS!=='undefined')?THEME_CARDS:TOPICS.filter(([tok])=>tCount(tok)>0);
-topicEl.append(new Option('Gesamtkarte','__all'));
-for(const [tok,label] of cards) topicEl.append(new Option(label,tok));
+// Zahl je Option: Gesamtkarte hat volles PEAKS → tCount stimmt; Themenkarte hat
+// gefiltertes PEAKS, deshalb bringt der Generator die Zahlen in THEME_CARDS mit.
+const cards=(typeof THEME_CARDS!=='undefined')?THEME_CARDS
+  :TOPICS.filter(([tok])=>tCount(tok)>0).map(([tok,label])=>[tok,label,tCount(tok)]);
+const total=(typeof TOTAL!=='undefined')?TOTAL:PEAKS.length;
+topicEl.append(new Option(`Gesamtkarte (${total})`,'__all'));
+for(const [tok,label,c] of cards) topicEl.append(new Option(`${label} (${c})`,tok));
 topicEl.value=onCard?THEME:'__all';
 topicEl.onchange=()=>{ const v=topicEl.value;
   // Pfad je nach Standort: Themenkarte liegt in themen/, Gesamtkarte in Visualizer/.
