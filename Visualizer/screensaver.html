@@ -703,7 +703,8 @@ function buildPalette(){
                     'IRAD','COASTW','BASECUT','LIFT']){
       const v=num(n); if(v!==null) eval(n+'='+v);
     }
-    resize(); build(); buildPalette();
+    resize(); build();
+    // buildPalette();   // Palette-Leiste (?pal=N) deaktiviert — bei Farbarbeit wieder einkommentieren
     requestAnimationFrame(animate);
   }catch(e){
     document.getElementById('err').style.display='flex';

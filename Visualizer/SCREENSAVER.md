@@ -144,7 +144,10 @@ als Alternativen im `PALETTES`-Objekt gespeichert, umschaltbar per `?pal=N`.
 - Palette-Leiste (Arbeitswerkzeug): mit `?pal=N` erscheinen rechts 32
   Boxen (oben Stufe 32), beschriftet 1–32, mit der aktiven Palette;
   abgeblendet, was nie als Ring erscheint (Stufe 32 und alles unter
-  BASECUT, aktuell 1–4). Ohne `?pal` keine Leiste.
+  BASECUT, aktuell 1–4). Ohne `?pal` keine Leiste. Aktuell deaktiviert:
+  der `buildPalette()`-Aufruf im Start-Block ist auskommentiert, Code
+  (CSS `#pal`, div, Funktion) bleibt drin — für Farbarbeit wieder
+  einkommentieren.
 - Gezeichnete Ringe: `L=32` Stufen, Konturschleife l=1–31, BASECUT=0.14
   kappt 1–4 → sichtbar sind die Stufen 5–31 (27 Ringe).
 
