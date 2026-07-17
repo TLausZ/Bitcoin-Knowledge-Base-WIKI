@@ -970,5 +970,19 @@ admSync();
   if(sessionStorage.getItem('discOK')) disc.remove();
   else document.getElementById('discok').onclick=()=>{ sessionStorage.setItem('discOK','1'); disc.remove(); };
 }
+// Screensaver: nach 42 s ohne Eingabe zu screensaver.html wechseln.
+// Nicht am Handy (dort gibt es keinen Screensaver) und nicht beim Lesen
+// eines Artikels (offenes Modal).
+{ const IDLE=42_000; let idleT;
+  const arm=()=>{ clearTimeout(idleT);
+    idleT=setTimeout(()=>{
+      if(matchMedia('(max-width:640px)').matches) return arm();
+      if(modal.classList.contains('open')) return arm();
+      location.href='screensaver.html';
+    }, IDLE); };
+  for(const ev of ['mousemove','mousedown','keydown','wheel','touchstart','scroll'])
+    addEventListener(ev, arm, {passive:true});
+  arm();
+}
 resize(); build(); renderList();
 </script>

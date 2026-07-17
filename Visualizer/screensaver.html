@@ -1,0 +1,621 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Bitcoin-Wiki · Screensaver</title>
+<style>
+  html,body{margin:0;height:100%;background:#ece2cd;overflow:hidden;cursor:none;
+    font:13px/1.4 ui-sans-serif,system-ui,sans-serif;color:#8a7a5e}
+  #c{display:block}
+  #err{position:fixed;inset:0;display:none;align-items:center;justify-content:center;
+    text-align:center;padding:20px;color:#5c4a34}
+</style>
+<canvas id="c"></canvas>
+<div id="err"><div>Karte konnte nicht geladen werden.<br>
+  Bitte über http öffnen, z.&nbsp;B. <b>python3 -m http.server</b> im Visualizer-Ordner.</div></div>
+<script>
+'use strict';
+// ============================================================================
+// SCREENSAVER: langsamer Überflug über die Gesamtkarte.
+// Kein eigener Datenbestand — PEAKS und die Relief-Parameter werden zur
+// Laufzeit aus index.html gelesen, damit dieser File nie veraltet, wenn
+// tools/layout_map.py die Karte neu baut. Gelände-Pipeline (FFT-Relief,
+// Marching Squares, Projektion) ist aus index.html übernommen.
+// ============================================================================
+const cv=document.getElementById('c'), ctx=cv.getContext('2d');
+const N=256, DOM=2.7, SIG=0.115, SKIRT=0.17, LABEL_TOP=21;
+let PEAKS=[], SEED=2, BETA=6, L=32, ZMAX=0.4, BASE=0.21, TERW=2, RIDGE=0.2,
+    DBIAS=1, SPREAD=0.85, IRAD=2.5, COASTW=0.55, BASECUT=0.14, LIFT=-0.36;
+let yaw=0.6, pitch=1.08, zoom=1.25, camX=0, camY=0,  // camX/camY: Blickziel in Weltkoordinaten
+    roll=0,                                          // Banking im Flugmodus (Canvas-Rotation)
+    anchorY=0.55;                                    // Bildhöhe des Blickziels (Flug: tiefer, mehr Gelände voraus)
+const scale0=0.2;
+let segsByLevel=[], loopsByLevel=[], field=[], peaks=[], ENV=null, DATA=null;
+const g2w=i=>(i/(N-1)*2-1)*DOM;
+
+// --- Gelände-Pipeline (identisch zu index.html) -----------------------------
+const mulberry32=a=>()=>{a=(a+0x6D2B79F5)|0;let t=Math.imul(a^a>>>15,1|a);
+  t=t+Math.imul(t^t>>>7,61|t)^t;return((t^t>>>14)>>>0)/4294967296;};
+
+function fft1d(re,im,n,inv){
+  for(let i=1,j=0;i<n;i++){let bit=n>>1;
+    for(;j&bit;bit>>=1) j^=bit; j^=bit;
+    if(i<j){let t=re[i];re[i]=re[j];re[j]=t; t=im[i];im[i]=im[j];im[j]=t;}}
+  for(let len=2;len<=n;len<<=1){
+    const ang=(inv?2:-2)*Math.PI/len, wr=Math.cos(ang), wi=Math.sin(ang);
+    for(let i=0;i<n;i+=len){let cr=1,ci=0;
+      for(let k=0;k<len>>1;k++){
+        const a=i+k, b=a+(len>>1);
+        const vr=re[b]*cr-im[b]*ci, vi=re[b]*ci+im[b]*cr;
+        re[b]=re[a]-vr; im[b]=im[a]-vi; re[a]+=vr; im[a]+=vi;
+        const nr=cr*wr-ci*wi; ci=cr*wi+ci*wr; cr=nr;}}}
+  if(inv) for(let i=0;i<n;i++){re[i]/=n; im[i]/=n;}
+}
+function fft2d(re,im,M,inv){
+  const rr=new Float64Array(M), ri=new Float64Array(M);
+  for(let r=0;r<M;r++){const o=r*M;
+    for(let c=0;c<M;c++){rr[c]=re[o+c];ri[c]=im[o+c];}
+    fft1d(rr,ri,M,inv);
+    for(let c=0;c<M;c++){re[o+c]=rr[c];im[o+c]=ri[c];}}
+  for(let c=0;c<M;c++){
+    for(let r=0;r<M;r++){rr[r]=re[r*M+c];ri[r]=im[r*M+c];}
+    fft1d(rr,ri,M,inv);
+    for(let r=0;r<M;r++){re[r*M+c]=rr[r];im[r*M+c]=ri[r];}}
+}
+function buildEnvelope(){
+  const e=[];
+  for(let j=0;j<N;j++){e[j]=[];
+    for(let i=0;i<N;i++){
+      const r=Math.hypot(g2w(i), g2w(j));
+      const m=Math.min(1, Math.max(0, (IRAD-r)/COASTW));
+      e[j][i]=m*m*(3-2*m);
+    }}
+  ENV=e;
+  const d=[]; let mx=0;
+  for(let j=0;j<N;j++){d[j]=[];
+    for(let i=0;i<N;i++){
+      const x=g2w(i), y=g2w(j); let v=0;
+      for(const p of PEAKS){const px=p.x*SPREAD, py=p.y*SPREAD, dx=x-px, dy=y-py, r2=dx*dx+dy*dy;
+        if(r2>0.6) continue;
+        const ps=Math.pow(p.s,1.35);
+        v+=ps*(Math.exp(-Math.pow(r2/(2*SIG*SIG),1.7))
+             + 0.25*Math.exp(-r2/(2*SKIRT*SKIRT)));}
+      d[j][i]=v; if(v>mx)mx=v;
+    }}
+  const nm=mx||1;
+  for(let j=0;j<N;j++)for(let i=0;i<N;i++)d[j][i]/=nm;
+  DATA=d;
+}
+function computeField(){
+  const M=N, rnd=mulberry32((SEED*2654435761)^0x9e3779b9);
+  const re=new Float64Array(M*M), im=new Float64Array(M*M);
+  for(let i=0;i<M*M;i++) re[i]=rnd()*2-1;
+  fft2d(re,im,M,false);
+  for(let v=0;v<M;v++)for(let u=0;u<M;u++){
+    const fu=u<=M/2?u:u-M, fv=v<=M/2?v:v-M;
+    const f=Math.hypot(fu,fv), s=f===0?0:Math.pow(f,-BETA/2), idx=v*M+u;
+    re[idx]*=s; im[idx]*=s;}
+  fft2d(re,im,M,true);
+  let rmn=1e9,rmx=-1e9;
+  for(let i=0;i<M*M;i++){const v=re[i]; if(v<rmn)rmn=v; if(v>rmx)rmx=v;}
+  const f=[]; let mx=0;
+  for(let j=0;j<N;j++){f[j]=[];
+    for(let i=0;i<N;i++){
+      const nz=(re[j*M+i]-rmn)/(rmx-rmn);
+      const mask=ENV[j][i];
+      if(mask<=0){ f[j][i]=0; continue; }
+      const dat=DATA?DATA[j][i]:0;
+      const ridge=1-Math.abs(2*nz-1);
+      const relief=RIDGE*ridge+(1-RIDGE)*nz;
+      const amp=1-DBIAS+DBIAS*dat;
+      const val=mask*(BASE+TERW*relief*amp);
+      f[j][i]=val; if(val>mx)mx=val;
+    }}
+  const nm=mx||1;
+  for(let j=0;j<N;j++)for(let i=0;i<N;i++)f[j][i]/=nm;
+  return f;
+}
+function contour(f, level){
+  const segs=[], ip=(a,b)=>(level-a)/(b-a);
+  for(let j=0;j<N-1;j++)for(let i=0;i<N-1;i++){
+    const a=f[j][i], b=f[j][i+1], c=f[j+1][i+1], d=f[j+1][i], cr={};
+    if((a>level)!==(b>level)) cr.T={x:i+ip(a,b), y:j};
+    if((b>level)!==(c>level)) cr.R={x:i+1,        y:j+ip(b,c)};
+    if((c>level)!==(d>level)) cr.B={x:i+1-ip(c,d),y:j+1};
+    if((d>level)!==(a>level)) cr.L={x:i,          y:j+1-ip(d,a)};
+    const k=Object.keys(cr);
+    if(k.length===2) segs.push([cr[k[0]],cr[k[1]]]);
+    else if(k.length===4){
+      if((a+b+c+d)/4>level){segs.push([cr.T,cr.R]);segs.push([cr.B,cr.L]);}
+      else {segs.push([cr.T,cr.L]);segs.push([cr.R,cr.B]);}
+    }
+  }
+  return segs;
+}
+function chainLoops(segs){
+  const key=p=>Math.round(p.x*8192)+','+Math.round(p.y*8192);
+  const map=new Map();
+  segs.forEach((s,i)=>{for(let e=0;e<2;e++){const k=key(s[e]);
+    if(!map.has(k)) map.set(k,[]); map.get(k).push({i,e});}});
+  const used=new Array(segs.length).fill(false), loops=[];
+  for(let i0=0;i0<segs.length;i0++){
+    if(used[i0]) continue;
+    used[i0]=true;
+    const pts=[segs[i0][0], segs[i0][1]];
+    while(true){
+      const k=key(pts[pts.length-1]);
+      const c=(map.get(k)||[]).find(c=>!used[c.i]);
+      if(!c) break;
+      used[c.i]=true;
+      pts.push(segs[c.i][1-c.e]);
+      if(key(pts[pts.length-1])===key(pts[0])) break;
+    }
+    loops.push(pts);
+  }
+  const area=pts=>{let a=0;
+    for(let k=0;k<pts.length;k++){const p=pts[k],q=pts[(k+1)%pts.length];
+      a+=p.x*q.y-q.x*p.y;} return Math.abs(a);};
+  return loops.sort((a,b)=>area(b)-area(a));
+}
+function build(){
+  buildEnvelope();
+  const f = field = computeField();
+  segsByLevel=[]; loopsByLevel=[];
+  for(let l=1;l<L;l++){
+    const segs=contour(f,l/L);
+    segsByLevel.push({z:l/L*ZMAX, segs});
+    loopsByLevel.push({z:l/L*ZMAX, loops:chainLoops(segs)});
+  }
+  peaks = PEAKS.map(p=>{
+    const x=p.x*SPREAD, y=p.y*SPREAD;
+    const gi=Math.round((x/DOM+1)/2*(N-1)), gj=Math.round((y/DOM+1)/2*(N-1));
+    const z=(gi>=0&&gi<N&&gj>=0&&gj<N)?field[gj][gi]*ZMAX:0;
+    return {x, y, z, name:p.n.replace(/-/g,' ')};
+  });
+}
+function project(x,y,z,cx,cy,sc){
+  const cyw=Math.cos(yaw), syw=Math.sin(yaw), cp=Math.cos(pitch), sp=Math.sin(pitch);
+  const X=x*cyw-y*syw, Y1=x*syw+y*cyw,
+        zc=z-ZMAX/2,
+        Y=Y1*cp+zc*sp;
+  return [cx+X*sc, cy-Y*sc];
+}
+function peakVisible(pk){
+  const syw=Math.sin(yaw), cyw=Math.cos(yaw);
+  const slope=Math.cos(pitch)/Math.sin(pitch);
+  const step=2*DOM/(N-1);
+  let x=pk.x, y=pk.y, h=pk.z;
+  while(true){
+    x-=step*syw; y-=step*cyw; h+=step*slope;
+    if(h>=ZMAX) return true;
+    if(x<-DOM||x>DOM||y<-DOM||y>DOM) return true;
+    const gi=Math.round((x/DOM+1)/2*(N-1)), gj=Math.round((y/DOM+1)/2*(N-1));
+    if(field[gj][gi]*ZMAX > h+0.02) return false;
+  }
+}
+
+// --- Zeichnen (wie index.html, ohne Hover/Panel; hi = Tour-Highlight) --------
+let tourIdx=-1;
+
+// Label-Fade: Labels ploppen nicht, sondern blenden beim Erscheinen und
+// Verschwinden über LABEL_FADE Sekunden. Zustand pro Artikel-Index; beim
+// Ausblenden wird die zuletzt bekannte Geometrie weiterverwendet.
+const LABEL_FADE=0.1;
+const labState=new Map(), labGhosts=[]; let labT=performance.now();
+function paintLabel(st, dpr){
+  const hi=st.hi;
+  ctx.font=`${st.fs}px ui-sans-serif,system-ui,sans-serif`;
+  ctx.strokeStyle=hi?'rgba(120,70,40,0.85)':'rgba(74,58,40,0.4)'; ctx.lineWidth=(hi?1.2:1)*dpr;
+  ctx.beginPath(); ctx.moveTo(st.x,st.y); ctx.lineTo(st.x,st.ty); ctx.lineTo(st.tx,st.ty); ctx.stroke();
+  ctx.fillStyle=hi?'rgba(150,90,50,0.95)':'rgba(74,58,40,0.9)';
+  ctx.beginPath(); ctx.arc(st.x,st.y,(hi?3:1.8)*dpr,0,7); ctx.fill();
+  ctx.fillStyle=hi?'rgba(92,74,52,0.97)':'rgba(236,226,205,0.82)';
+  ctx.fillRect(st.tx-st.w/2, st.ty-st.lh, st.w, st.lh);
+  ctx.fillStyle=hi?'#f2ead6':'rgba(74,58,40,0.9)';
+  ctx.fillText(st.name, st.tx, st.ty-2*dpr);
+}
+function drawLabels(entries, dpr){
+  const now=performance.now(), dt=Math.min(0.1,(now-labT)/1000); labT=now;
+  const seen=new Set();
+  for(const e of entries){
+    let st=labState.get(e.i); if(!st){st={a:0}; labState.set(e.i,st);}
+    // Positionssprung (neue Stapelhöhe/Kollisionslage): alte Lage als Geist
+    // ausblenden, an der neuen frisch einblenden. Die kontinuierliche
+    // Kamerabewegung verschiebt pro Frame nur um Bruchteile von Pixeln und
+    // bleibt unter der Schwelle.
+    if(st.a>0.05 && (Math.abs(e.ty-st.ty)>st.lh*0.5 || Math.abs(e.tx-st.tx)>st.w*0.5)){
+      labGhosts.push({...st});
+      st.a=0;
+    }
+    Object.assign(st,e); st.tgt=1; seen.add(e.i);
+  }
+  for(const [i,st] of labState) if(!seen.has(i)) st.tgt=0;
+  ctx.textAlign='center'; ctx.textBaseline='bottom';
+  for(let g=labGhosts.length-1;g>=0;g--){       // Geister zuerst (liegen unter den aktiven)
+    const st=labGhosts[g];
+    st.a-=dt/LABEL_FADE;
+    if(st.a<=0){ labGhosts.splice(g,1); continue; }
+    ctx.globalAlpha=st.a;
+    paintLabel(st, dpr);
+  }
+  for(const [i,st] of labState){
+    st.a=Math.max(0, Math.min(1, st.a+(st.tgt?dt:-dt)/LABEL_FADE));
+    if(st.a===0){ labState.delete(i); continue; }
+    ctx.globalAlpha=st.a;
+    paintLabel(st, dpr);
+  }
+  ctx.globalAlpha=1;
+}
+function draw(){
+  const W=cv.width, H=cv.height, dpr=window.devicePixelRatio||1;
+  const sc=Math.min(W,H)*scale0*zoom;
+  // Bildmitte so verschieben, dass das Blickziel (camX/camY) zentriert liegt.
+  // Die Projektion ist orthografisch, also linear in x/y — der Offset des
+  // projizierten Ziels gegenüber dem Ursprung genügt.
+  const cyw=Math.cos(yaw), syw=Math.sin(yaw);
+  const TX=camX*cyw-camY*syw, TY=(camX*syw+camY*cyw)*Math.cos(pitch);
+  const cx=W/2-TX*sc, cy=H*anchorY+TY*sc;
+  ctx.clearRect(0,0,W,H); ctx.lineCap='round'; ctx.lineJoin='round';
+  ctx.save();
+  if(roll){ctx.translate(W/2,H/2); ctx.rotate(roll); ctx.translate(-W/2,-H/2);}
+
+  // Schatten-Ebene unter der schwebenden Insel
+  const cutZ=BASECUT*ZMAX, zoff=-cutZ+LIFT*0.35;
+  ctx.strokeStyle='rgba(110,92,64,0.07)'; ctx.lineWidth=1*dpr; ctx.beginPath();
+  for(const lv of segsByLevel){
+    if(lv.z<cutZ) continue;
+    for(const s of lv.segs){
+      const p=project(g2w(s[0].x), g2w(s[0].y), -0.35, cx,cy,sc);
+      const q=project(g2w(s[1].x), g2w(s[1].y), -0.35, cx,cy,sc);
+      ctx.moveTo(p[0],p[1]); ctx.lineTo(q[0],q[1]);
+    }
+  } ctx.stroke();
+
+  // Gelände als fester Körper
+  ctx.strokeStyle='rgba(74,58,40,0.68)'; ctx.lineWidth=0.85*dpr; ctx.fillStyle='#ece2cd';
+  const wall=(ZMAX/L)*Math.sin(pitch)*sc;
+  let baseDrawn=false;
+  for(const lv of loopsByLevel){
+    if(lv.z<cutZ) continue;
+    const solidBase=!baseDrawn; baseDrawn=true;
+    const rings=lv.loops.map(loop=>loop.map(p=>project(g2w(p.x),g2w(p.y),lv.z+zoff,cx,cy,sc)));
+    if(!solidBase) for(const pts of rings){
+      ctx.beginPath();
+      pts.forEach(([qx,qy],k)=>k?ctx.lineTo(qx,qy):ctx.moveTo(qx,qy));
+      for(let k=pts.length-1;k>=0;k--) ctx.lineTo(pts[k][0], pts[k][1]+wall);
+      ctx.closePath(); ctx.fill();
+    }
+    ctx.beginPath();
+    for(const pts of rings){
+      pts.forEach(([qx,qy],k)=>k?ctx.lineTo(qx,qy):ctx.moveTo(qx,qy));
+      ctx.closePath();
+    }
+    ctx.fill('evenodd'); ctx.stroke();
+  }
+
+  // Labels: die LABEL_TOP schwersten sichtbaren Gipfel, Kollisionen nach oben schieben
+  ctx.textAlign='center'; ctx.textBaseline='bottom';
+  ctx.font=`${11*dpr}px ui-sans-serif,system-ui,sans-serif`;
+  const lh=14*dpr, pad=4*dpr, placed=[], mg=20*dpr;
+  const items=peaks.map((pk,i)=>({pk,i}))
+    .map(o=>{const [x,y]=project(o.pk.x,o.pk.y,o.pk.z+zoff,cx,cy,sc); return {...o,x,y};})
+    .filter(o=>o.x>-mg && o.x<W+mg && o.y>-mg && o.y<H+mg)
+    .filter(o=>peakVisible(o.pk))
+    // Label-Budget: Rampe hoch 6, Untergrenze 21, Obergrenze 42 —
+    // die Top 21 immer, nie mehr als 42. Verworfen: linear (zu viele),
+    // quadratisch (21*(zoom/1.25)^2), hoch 4 bis 439 (Schluss zu voll).
+    .slice(0, Math.min(42, Math.max(LABEL_TOP,
+      Math.round(Math.pow((zoom-1.10)/2.30,6)*(peaks.length-1)+1))))
+    .map(o=>({...o,w:ctx.measureText(o.pk.name).width+2*pad})).sort((a,b)=>a.y-b.y);
+  const clampX=(x,w)=>Math.max(w/2+2*dpr, Math.min(W-w/2-2*dpr, x));
+  const entries=[];
+  for(const it of items){
+    const tx=clampX(it.x, it.w);
+    let ty=it.y-34*dpr;
+    for(let n=0;n<50;n++){let hit=false;
+      for(const b of placed)
+        if(Math.abs(tx-b.x)<(it.w+b.w)/2 && Math.abs(ty-b.ty)<lh){ty=b.ty-lh;hit=true;}
+      if(!hit) break;}
+    // Stapel-Bremse: mehr als 6 Zeilen über dem Gipfel ergäbe Label-Türme mit
+    // langen Leitlinien (dichte Cluster in mittlerer Distanz) — dann lieber
+    // weglassen; im Close-up ist Platz und das Label kommt wieder.
+    if(it.y-ty > 34*dpr+6*lh) continue;
+    placed.push({x:tx, ty, w:it.w});
+    entries.push({i:it.i, name:it.pk.name, x:it.x, y:it.y, tx, ty, w:it.w, lh,
+                  fs:11*dpr, hi:it.i===tourIdx});
+  }
+  drawLabels(entries, dpr);
+  ctx.restore();
+}
+
+// --- Kamerafahrt --------------------------------------------------------------
+// Drei inkommensurable Perioden: die Fahrt wiederholt sich praktisch nie exakt.
+// Eine Umrundung ~4 min, dazu langsames Atmen von Kippwinkel und Zoom.
+// URL-Parameter: ?speed=4 = Zeitraffer zum Testen, ?mode=flug = Flugsimulator
+// statt Orbit (Tiefflug entlang eines Pfads, Blick voraus, Banking in Kurven,
+// alle ~27 s ein Seitenblick nach unten, abwechselnd links und rechts).
+const Q=new URLSearchParams(location.search);
+const SPEED=parseFloat(Q.get('speed'))||1, MODE=Q.get('mode')||'';  // ''=Wechsel Orbit/Flug
+// ?labels=N: Basis fürs Label-Budget. Orbit skaliert N quadratisch mit dem
+// Zoom (Default 21), im Flug ist N das fixe Maximum (Default 28).
+const LBASE=parseInt(Q.get('labels'))||0;
+// ?zoom=N (Test): friert den Orbit-Zoom auf N ein (keine Atmung) —
+// z.B. zum Grössenvergleich mit ?render=flug.
+const ZFIX=parseFloat(Q.get('zoom'))||0;
+
+// ============================================================================
+// FLUGMODUS: echte Ego-Perspektive wie im Flugsimulator. Eigener Renderer:
+// das Höhenfeld wird in Tiefenscheiben (far → near) als Profillinien gemalt,
+// jede Scheibe deckend gefüllt — nahe Berge verdecken ferne (Painter).
+// Horizont oben, Gelände rauscht unten durch, Banking in Kurven, alle ~27 s
+// ein Seitenblick nach unten (abwechselnd links/rechts).
+// ============================================================================
+function sampleH(x,y){                       // Geländehöhe in Weltkoordinaten, bilinear
+  const gx=(x/DOM+1)/2*(N-1), gy=(y/DOM+1)/2*(N-1);
+  const i=Math.floor(gx), j=Math.floor(gy);
+  if(i<0||j<0||i>=N-1||j>=N-1) return 0;
+  const fx=gx-i, fy=gy-j;
+  return (field[j][i]*(1-fx)*(1-fy)+field[j][i+1]*fx*(1-fy)
+         +field[j+1][i]*(1-fx)*fy+field[j+1][i+1]*fx*fy)*ZMAX;
+}
+
+let prevHead=null, prevT=null, rollS=0;
+const fc={x:0, y:0, z:0.6, hx:0, hy:1, horizon:0.30};   // Kamerazustand Flugmodus
+// Ein Flug-Segment = eine Überquerung: Start weit draussen über dem Meer,
+// quadratische Bezierkurve übers Inselinnere, Abflug auf der Gegenseite.
+// fi wählt die Route (deterministisch pseudozufällig), s läuft 0..1.
+function flightCam(fi, s, t){
+  const rnd=mulberry32(((fi+1)*2654435761)^0x1b873593);
+  // Anflug von weit draussen (R0), Abflug kurz hinter der Küste (R1) —
+  // so endet der Überflug ohne langes Starren aufs leere Meer
+  const th=rnd()*2*Math.PI, dth=Math.PI+(rnd()*1.6-0.8), R0=4.3, R1=2.4;
+  const p0x=R0*Math.cos(th),     p0y=R0*Math.sin(th);
+  const p2x=R1*Math.cos(th+dth), p2y=R1*Math.sin(th+dth);
+  const mx=rnd()*1.2-0.6, my=rnd()*1.2-0.6;      // Wegpunkt nahe Inselmitte
+  const cxp=2*mx-(p0x+p2x)/2,   cyp=2*my-(p0y+p2y)/2;
+  const u=1-s;
+  const px=u*u*p0x+2*u*s*cxp+s*s*p2x, py=u*u*p0y+2*u*s*cyp+s*s*p2y;
+  const vx=2*u*(cxp-p0x)+2*s*(p2x-cxp), vy=2*u*(cyp-p0y)+2*s*(p2y-cyp);
+  const sp=Math.hypot(vx,vy)||1e-9, ux=vx/sp, uy=vy/sp;
+  fc.hx=ux; fc.hy=uy; fc.x=px; fc.y=py;          // Blick immer geradeaus
+  // Flughöhe: sicher über dem Gelände, sanft nachgeführt; am Segmentstart hart setzen
+  const ground=field.length?sampleH(px,py):0;
+  const zTarget=Math.max(0.46, ground+0.15)+0.03*Math.sin(t*2*Math.PI/568);
+  fc.z += (s<0.005) ? (zTarget-fc.z) : (zTarget-fc.z)*0.03;
+  fc.horizon=0.30+0.015*Math.sin(t*2*Math.PI/72); // leichtes Wogen wie Eigenbewegung
+  // Banking: Roll nur aus der Kursänderung (geglättet)
+  const head=Math.atan2(ux,uy);
+  if(s<0.005){prevHead=null; rollS=0;}
+  if(prevHead!==null && t>prevT){
+    let dh=head-prevHead;
+    while(dh>Math.PI) dh-=2*Math.PI; while(dh<-Math.PI) dh+=2*Math.PI;
+    const target=Math.max(-0.14, Math.min(0.14, dh/(t-prevT)*13.3));  // Faktor an Flugtempo gekoppelt (20 bei CROSS=320)
+    rollS+=(target-rollS)*Math.min(1,(t-prevT)*2);
+  }
+  prevHead=head; prevT=t;
+  roll=rollS;
+}
+
+// Sichtstrahl Gipfel → Kamera in 3D abschreiten; Gelände darüber = verdeckt
+function peakVisibleP(pk){
+  const dx=fc.x-pk.x, dy=fc.y-pk.y, dist=Math.hypot(dx,dy);
+  const steps=Math.max(2, Math.ceil(dist/(2*DOM/(N-1))));
+  for(let k=1;k<steps;k++){
+    const f=k/steps;
+    if(sampleH(pk.x+dx*f, pk.y+dy*f) > pk.z+(fc.z-pk.z)*f+0.02) return false;
+  }
+  return true;
+}
+
+function drawFlight(){
+  const W=cv.width, H=cv.height, dpr=window.devicePixelRatio||1;
+  const fl=H*1.15;                             // Brennweite (vert. FOV ~47°)
+  const horizonY=H*fc.horizon;
+  const rx=fc.hy, ry=-fc.hx;                   // rechts der Blickrichtung
+  const seaZ=BASECUT*ZMAX;                     // Boden-Schnitt = Meeresspiegel
+  ctx.clearRect(0,0,W,H); ctx.lineCap='round'; ctx.lineJoin='round';
+  ctx.save();
+  if(roll){ctx.translate(W/2,H/2); ctx.rotate(roll); ctx.translate(-W/2,-H/2);}
+  ctx.fillStyle='#ece2cd';
+  const SLICES=190, COLS=Math.max(160, Math.round(W/(6*dpr))),
+        zNear=0.18, zFar=7.0, ratio=zFar/zNear, margin=40*dpr;
+  const ys=new Float64Array(COLS+1), hs=new Float64Array(COLS+1),
+        pys=new Float64Array(COLS+1), phs=new Float64Array(COLS+1),
+        skyY=new Float64Array(COLS+1).fill(Infinity);   // oberste Landkante pro Spalte
+  const lw=ZMAX/L;                             // Höhenstufen wie im Orbit-Renderer
+  let havePrev=false;
+  for(let k=SLICES-1;k>=0;k--){                // fern → nah (Painter)
+    const zc=zNear*Math.pow(ratio, k/(SLICES-1));
+    const sHalf=(W/2+margin)/fl*zc;            // halbe Scheibenbreite in Weltkoordinaten
+    const bx=fc.x+fc.hx*zc, by=fc.y+fc.hy*zc;  // Scheibenmitte
+    for(let c=0;c<=COLS;c++){
+      const s=(c/COLS-0.5)*2*sHalf;
+      const h=Math.max(sampleH(bx+rx*s, by+ry*s), seaZ);
+      hs[c]=h;
+      ys[c]=horizonY-fl*(h-fc.z)/zc;
+      if(h>seaZ+0.004 && ys[c]<skyY[c]) skyY[c]=ys[c];   // Silhouette mitführen
+    }
+    // Deckfläche: Profil oben, unten bis zum Bildrand geschlossen
+    ctx.beginPath();
+    for(let c=0;c<=COLS;c++){
+      const x=(c/COLS)*W;
+      c?ctx.lineTo(x,ys[c]):ctx.moveTo(x,ys[c]);
+    }
+    ctx.lineTo(W,H+8); ctx.lineTo(0,H+8); ctx.closePath(); ctx.fill();
+    const alpha=Math.max(0.16, Math.min(0.68, 0.68*(1.15-zc/zFar)));
+    // Scheiben-Profillinien testweise entfernt — nur noch Höhenlinien.
+    // (Bei Bedarf: Profil über Land mit rgba(74,58,40,alpha*0.3) nachziehen.)
+    ctx.lineWidth=0.85*dpr;
+    // Höhenlinien im Band zur vorigen (ferneren) Scheibe: Marching Squares
+    // pro Zelle, Schnittpunkte in Bildkoordinaten interpoliert. Nähere Fills
+    // übermalen später verdeckte Segmente — Painter regelt die Verdeckung.
+    if(havePrev){
+      ctx.strokeStyle=`rgba(74,58,40,${alpha.toFixed(3)})`;
+      ctx.beginPath();
+      for(let c=0;c<COLS;c++){
+        const h00=phs[c], h10=phs[c+1], h11=hs[c+1], h01=hs[c];
+        const mn=Math.min(h00,h10,h11,h01), mx=Math.max(h00,h10,h11,h01);
+        if(mx<=seaZ+0.002) continue;           // Zelle ganz im Meer
+        const l0=Math.ceil(mn/lw), l1=Math.floor(mx/lw);
+        if(l1<l0) continue;
+        const x0=(c/COLS)*W, x1=((c+1)/COLS)*W;
+        const y00=pys[c], y10=pys[c+1], y11=ys[c+1], y01=ys[c];
+        for(let li=l0; li<=l1; li++){
+          const lev=li*lw;
+          if(lev<=seaZ) continue;
+          const pts=[];
+          const edge=(a,b,ax,ay,bx2,by2)=>{
+            if((a>lev)!==(b>lev)){const f=(lev-a)/(b-a);
+              pts.push(ax+(bx2-ax)*f, ay+(by2-ay)*f);}
+          };
+          edge(h00,h10, x0,y00, x1,y10);       // ferne Kante
+          edge(h10,h11, x1,y10, x1,y11);       // rechte Kante
+          edge(h01,h11, x0,y01, x1,y11);       // nahe Kante
+          edge(h00,h01, x0,y00, x0,y01);       // linke Kante
+          if(pts.length>=4){ctx.moveTo(pts[0],pts[1]); ctx.lineTo(pts[2],pts[3]);}
+          if(pts.length===8){ctx.moveTo(pts[4],pts[5]); ctx.lineTo(pts[6],pts[7]);}
+        }
+      }
+      ctx.stroke();
+    }
+    pys.set(ys); phs.set(hs); havePrev=true;
+  }
+
+  // Silhouettenkante: oberste Landkante pro Spalte (Kuppen gegen den Himmel),
+  // damit Gipfel ohne dichte Konturen nicht im Papier verschwinden.
+  ctx.strokeStyle='rgba(74,58,40,0.68)'; ctx.lineWidth=0.85*dpr;
+  ctx.beginPath();
+  let sky=false;
+  for(let c=0;c<=COLS;c++){
+    if(skyY[c]<Infinity){
+      const x=(c/COLS)*W;
+      sky?ctx.lineTo(x,skyY[c]):ctx.moveTo(x,skyY[c]); sky=true;
+    } else sky=false;
+  }
+  ctx.stroke();
+
+  // Labels: sichtbare Gipfel in Blickrichtung, nah = grössere Schrift
+  const lh0=14, pad=4*dpr, placed=[];
+  const items=peaks.map((pk,i)=>{
+    const dx=pk.x-fc.x, dy=pk.y-fc.y;
+    const zc=dx*fc.hx+dy*fc.hy;
+    if(zc<0.3||zc>3.6) return null;
+    const s=dx*rx+dy*ry;
+    const x=W/2+fl*s/zc, y=horizonY-fl*(pk.z-fc.z)/zc;
+    if(x<-margin||x>W+margin||y<-margin||y>H+margin) return null;
+    return {pk, i, x, y, zc};
+  }).filter(o=>o&&peakVisibleP(o.pk))
+    .slice(0, LBASE||84)
+    .sort((a,b)=>a.y-b.y);
+  const clampX=(x,w)=>Math.max(w/2+2*dpr, Math.min(W-w/2-2*dpr, x));
+  const entries=[];
+  for(const it of items){
+    const fscale=Math.max(0.85, Math.min(1.5, 1.15/it.zc));   // Perspektive in der Schrift
+    const fs=11*fscale*dpr, lh=lh0*fscale*dpr;
+    ctx.font=`${fs}px ui-sans-serif,system-ui,sans-serif`;
+    const wpx=ctx.measureText(it.pk.name).width+2*pad;
+    const tx=clampX(it.x,wpx);
+    let ty=it.y-30*fscale*dpr;
+    for(let n=0;n<50;n++){let hit=false;
+      for(const b of placed)
+        if(Math.abs(tx-b.x)<(wpx+b.w)/2 && Math.abs(ty-b.ty)<Math.max(lh,b.lh)){ty=b.ty-b.lh;hit=true;}
+      if(!hit) break;}
+    if(it.y-ty > 30*fscale*dpr+6*lh) continue;   // Stapel-Bremse wie im Orbit-Modus
+    placed.push({x:tx, ty, w:wpx, lh});
+    entries.push({i:it.i, name:it.pk.name, x:it.x, y:it.y, tx, ty, w:wpx, lh,
+                  fs, hi:it.i===tourIdx});
+  }
+  drawLabels(entries, dpr);
+  ctx.restore();
+}
+
+function orbitCam(t){
+  yaw   = 0.6 + t*2*Math.PI/400;   // 1.2x schneller als die 480er-Fassung
+  pitch = 1.08 + 0.16*Math.sin(t*2*Math.PI/194);
+  zoom  = ZFIX || 2.25 + 1.15*Math.sin(t*2*Math.PI/302);   // 1.10 .. 3.40
+  camX = 0; camY = 0;                              // Inselmitte bleibt fixiert
+  roll = 0;
+  // Bildanker an den Kippwinkel gekoppelt: je mehr Draufsicht (pitch gross),
+  // desto höher rückt die Insel im Bild (unterer Rand bleibt sichtbar);
+  // in der Seitenansicht (pitch klein) wieder mittig.
+  const n=(pitch-0.92)/0.32;                       // 0 = Seitenansicht, 1 = max. Draufsicht
+  anchorY = 0.55 - 0.08*n;
+}
+
+// Ablauf ohne mode-Parameter: Orbit (100 s) → 3 Überflüge (je 40 s) → Orbit …
+// Jeder Szenenwechsel (auch zwischen zwei Überflügen) über- und ausblenden,
+// nie hart schneiden. ?mode=flug / ?mode=orbit fixiert einen Modus.
+const ORBIT_DUR=42, CROSS=213, NCROSS=1, CYCLE=ORBIT_DUR+NCROSS*CROSS;  // 213 = 320/1.5: Flug 1.5x schneller
+const FADE=1.5, FADEOUT=2.5;   // Ausblenden früher: deckt den Abflug übers Meer ab
+const TRIM=(CROSS-28)/CROSS;   // Route endet vorzeitig (gleicher Endpunkt wie die bestätigten 42 s bei CROSS=320)
+let t0=null;                   // Zeit des ersten gezeichneten Frames (für das Start-Fade-in)
+function animate(now){
+  const t=now/1000*SPEED;
+  tourIdx = Math.floor(t/30) % Math.min(LABEL_TOP, peaks.length);  // Tour: alle 30 s der nächste Top-Artikel
+  if(t0===null) t0=t;
+  let fade=1;
+  if(MODE==='orbit'){ orbitCam(t); draw(); }
+  else if(MODE==='flug'){
+    const lt=t%CROSS;
+    flightCam(Math.floor(t/CROSS), lt/CROSS*TRIM, t); drawFlight();
+    fade=Math.min(1, lt/FADE, (CROSS-lt)/FADEOUT);
+  } else {
+    const u=t%CYCLE;
+    if(u<ORBIT_DUR){
+      orbitCam(t); draw();
+      fade=Math.min(1, u/FADE, (ORBIT_DUR-u)/FADE);
+    } else {
+      const v=u-ORBIT_DUR, ci=Math.floor(v/CROSS), lt=v%CROSS;
+      flightCam(Math.floor(t/CYCLE)*NCROSS+ci, lt/CROSS*TRIM, t); drawFlight();
+      fade=Math.min(1, lt/FADE, (CROSS-lt)/FADEOUT);
+    }
+  }
+  fade=Math.min(fade, (t-t0)/FADE);   // Start des Screensavers: immer einblenden
+  if(fade<1){  // Blende: Papierfarbe über die Szene legen
+    ctx.fillStyle=`rgba(236,226,205,${(1-Math.max(0,fade)).toFixed(3)})`;
+    ctx.fillRect(0,0,cv.width,cv.height);
+  }
+  requestAnimationFrame(animate);
+}
+
+// --- Beenden: echte Mausbewegung, Klick, Taste oder Scrollen → zurück zur Karte
+let moved=0, lastX=null, lastY=null;
+// ?noexit=1: zum Testen Maus/Tastatur-Exit abschalten (Q wird oben geparst,
+// Script läuft top-down, daher hier schon verfügbar)
+const exitSaver=()=>{ if(!Q.has('noexit')) location.replace('index.html'); };
+addEventListener('mousemove', e=>{
+  if(lastX!==null) moved+=Math.hypot(e.clientX-lastX, e.clientY-lastY);
+  lastX=e.clientX; lastY=e.clientY;
+  if(moved>40) exitSaver();          // Toleranz gegen Zitter-Events beim Laden
+});
+addEventListener('mousedown', exitSaver);
+addEventListener('keydown', exitSaver);
+addEventListener('wheel', exitSaver);
+addEventListener('touchstart', exitSaver);
+
+function resize(){
+  const dpr=window.devicePixelRatio||1;
+  cv.width=innerWidth*dpr; cv.height=innerHeight*dpr;
+  cv.style.width=innerWidth+'px'; cv.style.height=innerHeight+'px';
+}
+addEventListener('resize', resize);
+
+// --- Start: PEAKS + Relief-Parameter live aus index.html lesen ---------------
+(async ()=>{
+  try{
+    const src=await (await fetch('index.html')).text();
+    PEAKS=JSON.parse(src.match(/const PEAKS = (\[.*?\]);/s)[1]);
+    const block=src.slice(src.indexOf('let SEED'), src.indexOf('/*__THEME_CFG__*/'));
+    const num=n=>{const m=block.match(new RegExp('\\b'+n+'\\s*=\\s*(-?[\\d.]+)'));
+      return m?parseFloat(m[1]):null;};
+    for(const n of ['SEED','BETA','L','ZMAX','BASE','TERW','RIDGE','DBIAS','SPREAD',
+                    'IRAD','COASTW','BASECUT','LIFT']){
+      const v=num(n); if(v!==null) eval(n+'='+v);
+    }
+    resize(); build();
+    requestAnimationFrame(animate);
+  }catch(e){
+    document.getElementById('err').style.display='flex';
+    document.getElementById('cap').style.display='none';
+    document.body.style.cursor='auto';
+  }
+})();
+</script>
