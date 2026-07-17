@@ -19,7 +19,36 @@ Marching-Squares-Konturen, kein WebGL.
 | `index.html` | Gesamtkarte: alle Artikel (Stand 2026-07-11: 410), Positionen force-directed aus dem Backlink-Graphen — verlinkte Artikel liegen beieinander, thematische Cluster werden zu Gebirgszügen. |
 | `wiki-topographie.html` | Kompakte Karte der Top-14-Artikel, jeder Gipfel beschriftet. |
 | `kontur-demo.html` | Ursprünglicher Prototyp mit Zufallsterrain. Leertaste würfelt neu. |
+| `screensaver.html` | Screensaver der Gesamtkarte, siehe eigener Abschnitt unten. |
+| `SCREENSAVER.md` | Technische Doku zum Screensaver. |
 | `wiki-map-screenshot.png` | Screenshot der Gesamtkarte für diese README. |
+| `screensaver-screenshot.jpg` | Screenshot des Screensavers für die READMEs. |
+
+## Screensaver
+
+Die Gesamtkarte als Bildschirmschoner: ein langsamer Orbit um die Insel im
+Wechsel mit Überflügen in Ego-Perspektive, die Höhenringe nach Höhe
+eingefärbt (Atlas-Palette: Grün → Gelb → Ocker → Rostbraun → Grau → Weiss).
+Auf der Live-Demo startet er von selbst nach 42 s ohne Eingabe; jede
+Mausbewegung, Taste oder Berührung führt zurück zur Karte.
+
+![Screensaver: nach Höhe eingefärbte Konturkarte](screensaver-screenshot.jpg)
+
+**Direkt öffnen: https://tlausz.github.io/Bitcoin-Knowledge-Base-WIKI/screensaver.html?noexit=1**
+
+URL-Parameter (kombinierbar mit `&`):
+
+| Parameter | Wirkung |
+|---|---|
+| `noexit=1` | Exit-Events aus — die Seite bleibt trotz Mausbewegung offen |
+| `pal=1…5` | Palette umschalten: 1 Atlas-Klassiker (Standard), 2 sonnig, 3 kühl, 4 sepia-nah, 5 hypsometrisch |
+| `mode=flug` / `mode=orbit` | Modus fixieren statt Wechsel-Zyklus |
+| `speed=N` | Zeitraffer, z. B. `speed=8` zum Testen |
+| `labels=N` | Label-Maximum im Flugmodus (Standard 84) |
+| `zoom=N` | friert den Orbit-Zoom auf N ein (Standard: langsames Atmen 1.10–3.40) |
+
+Technische Details — Renderer, Timeline, Höhenfärbung, Entscheidungen —
+in [`SCREENSAVER.md`](SCREENSAVER.md).
 
 ## Bedienung der Gesamtkarte
 

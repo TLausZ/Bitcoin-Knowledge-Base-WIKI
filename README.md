@@ -50,6 +50,12 @@ These papers cover demand response, curtailment reduction, methane mitigation, g
 
 An interactive 3D contour map of the wiki, where each article is a hill whose height reflects its weight in the backlink graph. **Live demo: https://tlausz.github.io/Bitcoin-Knowledge-Base-WIKI/** — see [`Visualizer/`](Visualizer/) for details.
 
+The map doubles as a screensaver: a slow orbit around the island alternating with low-altitude flyovers, contour rings tinted by elevation. It starts by itself after 42 seconds of idle on the live demo, or open it directly:
+
+**https://tlausz.github.io/Bitcoin-Knowledge-Base-WIKI/screensaver.html?noexit=1**
+
+<img src="Visualizer/screensaver-screenshot.jpg" width="480" alt="Screensaver: elevation-tinted contour map of the wiki">
+
 ## What's not here
 
 Raw source material (articles, PDFs, transcripts) lives locally and is excluded via `.gitignore`. Only the compiled wiki is published.
