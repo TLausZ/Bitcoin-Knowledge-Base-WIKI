@@ -34,7 +34,12 @@ Mausbewegung, Taste oder Berührung führt zurück zur Karte.
 
 ![Screensaver: nach Höhe eingefärbte Konturkarte](screensaver-screenshot.jpg)
 
-**Direkt öffnen: https://tlausz.github.io/Bitcoin-Knowledge-Base-WIKI/screensaver.html?noexit=1**
+**Direkt öffnen (alle Parameter auf Defaultwerten):
+https://tlausz.github.io/Bitcoin-Knowledge-Base-WIKI/screensaver.html?noexit=1&pal=1&speed=1&labels=84**
+
+`mode` und `zoom` fehlen im Link bewusst: sie haben keinen neutralen Wert —
+sobald sie gesetzt sind, fixieren sie den Modus bzw. frieren den Zoom ein.
+Weglassen bedeutet Wechsel-Zyklus und atmender Zoom (das Default-Verhalten).
 
 URL-Parameter (kombinierbar mit `&`):
 
