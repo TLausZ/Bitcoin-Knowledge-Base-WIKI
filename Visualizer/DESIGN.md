@@ -68,6 +68,12 @@ stroke:
 
 ## Farbe
 
+**Ausnahme Screensaver:** `screensaver.html` färbt die Höhenringe
+hypsometrisch in Pastelltönen (Palette «Atlas-Klassiker», definiert im
+`PALETTES`-Objekt dort; Doku in `SCREENSAVER.md`). Linien, Labels, Papier
+und alles Übrige folgen weiterhin den Tokens dieser Datei. Der
+interaktive Visualizer (`index.html`) bleibt einfarbig.
+
 Alle Farben stammen aus einer Familie. `paper` ist die einzige
 Flächenfarbe; Panel, Titelleiste und Kartenkörper unterscheiden sich nicht
 im Ton, sondern nur durch Trennlinien (`border`). Text staffelt sich über

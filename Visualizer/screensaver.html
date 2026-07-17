@@ -7,8 +7,15 @@
   #c{display:block}
   #err{position:fixed;inset:0;display:none;align-items:center;justify-content:center;
     text-align:center;padding:20px;color:#5c4a34}
+  /* Palette-Leiste (Arbeitswerkzeug Höhenfärbung): 32 Boxen, oben=höchste Stufe */
+  #pal{position:fixed;top:8px;right:8px;bottom:8px;width:56px;
+    display:flex;flex-direction:column;gap:2px}
+  #pal div{flex:1;display:flex;align-items:center;justify-content:center;
+    font-size:11px;color:#5c4a34;border:1px solid rgba(110,92,64,0.25);border-radius:3px}
+  #pal div.aus{opacity:0.3}   /* Stufe wird nicht als Ring gezeichnet */
 </style>
 <canvas id="c"></canvas>
+<div id="pal"></div>
 <div id="err"><div>Karte konnte nicht geladen werden.<br>
   Bitte über http öffnen, z.&nbsp;B. <b>python3 -m http.server</b> im Visualizer-Ordner.</div></div>
 <script>
@@ -275,6 +282,7 @@ function draw(){
   let baseDrawn=false;
   for(const lv of loopsByLevel){
     if(lv.z<cutZ) continue;
+    if(PAL_STOPS) ctx.fillStyle=ringColor(Math.round(lv.z/ZMAX*L));
     const solidBase=!baseDrawn; baseDrawn=true;
     const rings=lv.loops.map(loop=>loop.map(p=>project(g2w(p.x),g2w(p.y),lv.z+zoff,cx,cy,sc)));
     if(!solidBase) for(const pts of rings){
@@ -405,6 +413,20 @@ function peakVisibleP(pk){
   return true;
 }
 
+// Farbstufen für den Flug-Gradient: Offset über die Höhe (0=ZMAX, 1=Meer),
+// pro Ring-Band zwei gleiche Stops = harte Kante wie im Orbit. Statisch,
+// einmal berechnet (Palette und Relief-Parameter ändern sich zur Laufzeit nicht).
+let PAL_GRAD=null;
+function gradStops(){
+  const lw=ZMAX/L, l0=Math.ceil(BASECUT*L), seaZ=BASECUT*ZMAX;
+  const off=h=>Math.min(1,Math.max(0,(ZMAX-h)/(ZMAX-seaZ)));
+  const st=[];
+  for(let l=L-1;l>=l0;l--)
+    st.push([off(Math.min((l+1)*lw,ZMAX)),ringColor(l)],[off(l*lw),ringColor(l)]);
+  st.push([off(l0*lw),'#ece2cd'],[1,'#ece2cd']);   // Küstenband unterm ersten Ring
+  return st;
+}
+
 function drawFlight(){
   const W=cv.width, H=cv.height, dpr=window.devicePixelRatio||1;
   const fl=H*1.15;                             // Brennweite (vert. FOV ~47°)
@@ -415,6 +437,7 @@ function drawFlight(){
   ctx.save();
   if(roll){ctx.translate(W/2,H/2); ctx.rotate(roll); ctx.translate(-W/2,-H/2);}
   ctx.fillStyle='#ece2cd';
+  if(PAL_STOPS && !PAL_GRAD) PAL_GRAD=gradStops();
   const SLICES=190, COLS=Math.max(160, Math.round(W/(6*dpr))),
         zNear=0.18, zFar=7.0, ratio=zFar/zNear, margin=40*dpr;
   const ys=new Float64Array(COLS+1), hs=new Float64Array(COLS+1),
@@ -433,7 +456,15 @@ function drawFlight(){
       ys[c]=horizonY-fl*(h-fc.z)/zc;
       if(h>seaZ+0.004 && ys[c]<skyY[c]) skyY[c]=ys[c];   // Silhouette mitführen
     }
-    // Deckfläche: Profil oben, unten bis zum Bildrand geschlossen
+    // Deckfläche: Profil oben, unten bis zum Bildrand geschlossen.
+    // Mit Palette: Stufen-Gradient über die Höhe (y ist pro Scheibe linear in h);
+    // unterhalb des Meeresspiegels läuft der letzte Stop (Papier) weiter.
+    if(PAL_GRAD){
+      const g=ctx.createLinearGradient(0,horizonY-fl*(ZMAX-fc.z)/zc,
+                                       0,horizonY-fl*(seaZ-fc.z)/zc);
+      for(const [o,c] of PAL_GRAD) g.addColorStop(o,c);
+      ctx.fillStyle=g;
+    }
     ctx.beginPath();
     for(let c=0;c<=COLS;c++){
       const x=(c/COLS)*W;
@@ -478,6 +509,10 @@ function drawFlight(){
     }
     pys.set(ys); phs.set(hs); havePrev=true;
   }
+
+  // Sichtbare Land-Spalten zählen: Grundlage für das vorgezogene Flug-Ende
+  // (Insel unter dem Bildrand verschwunden → Sprung zum Fade-out in animate)
+  landCols=0; for(let c=0;c<=COLS;c++) if(skyY[c]<H) landCols++;
 
   // Silhouettenkante: oberste Landkante pro Spalte (Kuppen gegen den Himmel),
   // damit Gipfel ohne dichte Konturen nicht im Papier verschwinden.
@@ -543,12 +578,24 @@ function orbitCam(t){
 // Ablauf ohne mode-Parameter: Orbit (100 s) → 3 Überflüge (je 40 s) → Orbit …
 // Jeder Szenenwechsel (auch zwischen zwei Überflügen) über- und ausblenden,
 // nie hart schneiden. ?mode=flug / ?mode=orbit fixiert einen Modus.
-const ORBIT_DUR=42, CROSS=213, NCROSS=1, CYCLE=ORBIT_DUR+NCROSS*CROSS;  // 213 = 320/1.5: Flug 1.5x schneller
+const ORBIT_DUR=84, CROSS=213, NCROSS=1, CYCLE=ORBIT_DUR+NCROSS*CROSS;  // 213 = 320/1.5: Flug 1.5x schneller
 const FADE=1.5, FADEOUT=2.5;   // Ausblenden früher: deckt den Abflug übers Meer ab
 const TRIM=(CROSS-28)/CROSS;   // Route endet vorzeitig (gleicher Endpunkt wie die bestätigten 42 s bei CROSS=320)
 let t0=null;                   // Zeit des ersten gezeichneten Frames (für das Start-Fade-in)
+// Vorgezogenes Flug-Ende: Die Insel verschwindet je nach Route zwischen ~160
+// und ~210 s unter dem Bildrand (gemessen über 14 Routen) — danach würde nur
+// noch leeres Meer gerendert. Sobald 2 s lang kein Land mehr im Bild war
+// (Hysterese gegen kurze Aussetzer), springt tOff direkt an den Fade-out-
+// Punkt. Der Sprung ist unsichtbar: fade ist dort noch 1, im Bild nur Papier.
+let tOff=0, landCols=0, lfFi=-1, lastLandLt=0;
+function flightPhase(fi, lt){
+  if(fi!==lfFi){lfFi=fi; lastLandLt=0;}
+  if(landCols>0) lastLandLt=lt;
+  else if(lastLandLt>30 && lt-lastLandLt>2 && lt<CROSS-FADEOUT)
+    tOff+=CROSS-FADEOUT-lt;
+}
 function animate(now){
-  const t=now/1000*SPEED;
+  const t=now/1000*SPEED+tOff;
   tourIdx = Math.floor(t/30) % Math.min(LABEL_TOP, peaks.length);  // Tour: alle 30 s der nächste Top-Artikel
   if(t0===null) t0=t;
   let fade=1;
@@ -556,6 +603,7 @@ function animate(now){
   else if(MODE==='flug'){
     const lt=t%CROSS;
     flightCam(Math.floor(t/CROSS), lt/CROSS*TRIM, t); drawFlight();
+    flightPhase(Math.floor(t/CROSS), lt);
     fade=Math.min(1, lt/FADE, (CROSS-lt)/FADEOUT);
   } else {
     const u=t%CYCLE;
@@ -565,6 +613,7 @@ function animate(now){
     } else {
       const v=u-ORBIT_DUR, ci=Math.floor(v/CROSS), lt=v%CROSS;
       flightCam(Math.floor(t/CYCLE)*NCROSS+ci, lt/CROSS*TRIM, t); drawFlight();
+      flightPhase(Math.floor(t/CYCLE)*NCROSS+ci, lt);
       fade=Math.min(1, lt/FADE, (CROSS-lt)/FADEOUT);
     }
   }
@@ -598,6 +647,50 @@ function resize(){
 }
 addEventListener('resize', resize);
 
+// --- Höhenfärbung: Höhenstufe l (1..L) → Pastellfarbe ------------------------
+// Palette 1 (Atlas-Klassiker) ist der Standard und immer aktiv. ?pal=1…5
+// schaltet zum Vergleich um und zeigt die Leiste rechts (Arbeitswerkzeug).
+// Stützpunkte über t=l/L, linear interpoliert.
+const PALETTES={
+  1:[ // Atlas-Klassiker (User-Vorlage), pastellig: 35% Richtung Papierweiss aufgehellt
+    [0.12,[130,177,135]],[0.24,[182,204,155]],[0.36,[237,231,191]],[0.46,[224,187,142]],
+    [0.56,[206,147,111]],[0.66,[176,121,104]],[0.76,[142,109,102]],[0.84,[163,156,150]],
+    [0.92,[215,211,206]],[1.00,[250,248,245]]],
+  2:[ // sonnig: Creme → Gold → Orange-Rosa
+    [0.12,[238,228,196]],[0.45,[236,214,168]],[0.72,[234,196,158]],[1.00,[232,180,170]]],
+  3:[ // kühl: Mint → Hellblau → Violett
+    [0.12,[194,220,202]],[0.45,[188,210,222]],[0.72,[186,196,224]],[1.00,[202,186,220]]],
+  4:[ // sepia-nah: Beige → Rosé → Flieder
+    [0.12,[230,218,196]],[0.45,[228,203,188]],[0.72,[219,190,196]],[1.00,[203,183,212]]],
+  5:[ // hypsometrisch: Salbeigrün (Küste) → Sand → Apricot → Terracotta-Rosa
+    [0.12,[195,212,174]],[0.40,[232,222,176]],[0.68,[233,199,162]],[1.00,[226,178,164]]],
+};
+const PAL_STOPS=PALETTES[Q.get('pal')]||PALETTES[1];   // Standard: Atlas-Klassiker
+function ringColor(l){
+  const t=l/L, s=PAL_STOPS;
+  let a=s[0], b=s[s.length-1];
+  for(let i=0;i<s.length-1;i++)
+    if(t>=s[i][0] && t<=s[i+1][0]){a=s[i]; b=s[i+1]; break;}
+  const f=b[0]===a[0]?0:Math.min(1,Math.max(0,(t-a[0])/(b[0]-a[0])));
+  const c=a[1].map((v,i)=>Math.round(v+(b[1][i]-v)*f));
+  return `rgb(${c[0]},${c[1]},${c[2]})`;
+}
+
+// Palette-Leiste rechts: alle 32 Stufen, oben=32. Abgeblendet, was nie als
+// Ring erscheint: Stufe 32 (Konturschleife läuft bis 31) und alles unter
+// dem Meeresspiegel (l/L < BASECUT, aktuell 1–4).
+function buildPalette(){
+  if(!PALETTES[Q.get('pal')]) return;       // Leiste nur mit gültigem ?pal=1…5
+  const el=document.getElementById('pal'); el.innerHTML='';
+  for(let l=L;l>=1;l--){
+    const d=document.createElement('div');
+    d.textContent=l;
+    d.style.background=ringColor(l);
+    if(l>=L || l/L<BASECUT) d.classList.add('aus');
+    el.appendChild(d);
+  }
+}
+
 // --- Start: PEAKS + Relief-Parameter live aus index.html lesen ---------------
 (async ()=>{
   try{
@@ -610,7 +703,7 @@ addEventListener('resize', resize);
                     'IRAD','COASTW','BASECUT','LIFT']){
       const v=num(n); if(v!==null) eval(n+'='+v);
     }
-    resize(); build();
+    resize(); build(); buildPalette();
     requestAnimationFrame(animate);
   }catch(e){
     document.getElementById('err').style.display='flex';

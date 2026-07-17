@@ -39,13 +39,14 @@ kopiert. Änderungen dort müssen hier nachgezogen werden.
 
 ## Ablauf (Timeline in animate)
 
-Konstanten: `ORBIT_DUR=42`, `CROSS=213` (320/1.5, Flug 1.5x schneller),
-`NCROSS=1`, `CYCLE=ORBIT_DUR+NCROSS*CROSS` (=255 s), `FADE=1.5` (einblenden),
+Konstanten: `ORBIT_DUR=84` (verdoppelt von 42, 17. Juli 2026), `CROSS=213`
+(320/1.5, Flug 1.5x schneller), `NCROSS=1`, `CYCLE=ORBIT_DUR+NCROSS*CROSS`
+(=297 s), `FADE=1.5` (einblenden),
 `FADEOUT=2.5` (ausblenden), `TRIM=(CROSS-28)/CROSS` (gleicher Routen-Endpunkt
 wie die vom User bestätigten 42 s bei CROSS=320). Banking-Faktor 13.3 ist ans
 Flugtempo gekoppelt (20 bei CROSS=320).
 
-- Default (kein mode-Parameter): 42 s Orbit → 1 Überflug à 213 s → wieder
+- Default (kein mode-Parameter): 84 s Orbit → 1 Überflug à 213 s → wieder
   Orbit. Da yaw eine Funktion der Gesamtzeit ist, zeigt jede Orbit-Phase
   einen anderen Abschnitt der Umrundung.
 - Jeder Szenenwechsel (auch Überflug→Überflug) fadet über Papierfarbe
@@ -56,6 +57,16 @@ Flugtempo gekoppelt (20 bei CROSS=320).
   CROSS=320 iterativ auf −42 s eingestellt (15→25→35→40→42) und bei jeder
   Tempoänderung als FRAKTION beibehalten (bei CROSS=213 sind das −28 s).
   Bei Änderungen an CROSS die Sekundenzahl entsprechend mitskalieren.
+- Vorgezogenes Flug-Ende (17. Juli 2026): `drawFlight` zählt pro Frame die
+  Spalten mit sichtbarem Land (`landCols`, via skyY). Ist 2 s lang kein Land
+  mehr im Bild (Hysterese; zusätzlich muss vorher >30 s Land sichtbar gewesen
+  sein), addiert `flightPhase` die Restzeit auf `tOff` und springt damit
+  direkt an den Fade-out-Punkt (`CROSS-FADEOUT`). Grund: Die Insel verschwindet
+  je nach Route zwischen ~160 und ~210 s unter dem Bildrand (gemessen über
+  14 Routen), ein fixer früherer Schnitt passt wegen der Streuung nicht.
+  Der Sprung ist unsichtbar (fade=1, nur leeres Papier im Bild). `tOff`
+  verschiebt die gesamte Zeitachse (`t=now*SPEED+tOff`), Orbit-yaw und
+  tourIdx springen mit — egal, beides zyklisch.
 - Artikel-Highlight (`tourIdx`): wechselt alle 30 s durch die Top-21-Artikel
   (peaks ist gewichtssortiert), gilt in beiden Modi.
 - Label-Fade: beide Renderer zeichnen Labels über den gemeinsamen Helper
@@ -113,7 +124,35 @@ eine Tiefensortierung):
   (0.85–1.5×), Verdeckung per 3D-Sichtstrahl (`peakVisibleP`), Budget 84
   (früher 28, auf User-Wunsch verdreifacht), gleiche Stapel-Bremse.
 
+## Höhenfärbung (17. Juli 2026)
+
+Beide Renderer färben die Ringe nach Höhenstufe (hypsometrisch, pastell).
+Standard ist Palette 1 «Atlas-Klassiker» (User-Vorlage, 35% Richtung
+Papierweiss aufgehellt): Grün → Gelb → Ocker → Rost → Braunrot → Grau →
+Weiss. Die Paletten 2–5 (sonnig, kühl, sepia-nah, hypsometrisch) bleiben
+als Alternativen im `PALETTES`-Objekt gespeichert, umschaltbar per `?pal=N`.
+
+- `ringColor(l)`: Stufe l (1..L) → Farbe, lineare Interpolation über
+  Stützpunkte `[t, [r,g,b]]` mit t=l/L.
+- Orbit: `fillStyle=ringColor(l)` pro Ring-Ebene (Wände inklusive),
+  Konturlinien bleiben braun.
+- Flug: pro Tiefenscheibe ein linearer Gradient mit harten Stufen
+  (`gradStops`, einmal berechnet) — die Bildhöhe ist pro Scheibe linear
+  zur Geländehöhe, darum stimmen die Bänder exakt mit dem Orbit überein.
+  Küstenband unter Ring 5 und Meer bleiben Papier. Kosten: ~190 Gradients
+  pro Frame, bisher unauffällig.
+- Palette-Leiste (Arbeitswerkzeug): mit `?pal=N` erscheinen rechts 32
+  Boxen (oben Stufe 32), beschriftet 1–32, mit der aktiven Palette;
+  abgeblendet, was nie als Ring erscheint (Stufe 32 und alles unter
+  BASECUT, aktuell 1–4). Ohne `?pal` keine Leiste.
+- Gezeichnete Ringe: `L=32` Stufen, Konturschleife l=1–31, BASECUT=0.14
+  kappt 1–4 → sichtbar sind die Stufen 5–31 (27 Ringe).
+
 ## URL-Parameter
+
+- `?pal=N` — Palette 1–5 umschalten und Palette-Leiste einblenden
+  (Standard ohne Parameter: Palette 1, keine Leiste; ungültige Werte
+  wirken wie kein Parameter).
 
 - `?speed=N` — Zeitraffer (Testen; N beliebig, ohne = 1).
 - `?mode=flug` / `?mode=orbit` — Modus fixieren; ohne: Wechsel-Zyklus.
