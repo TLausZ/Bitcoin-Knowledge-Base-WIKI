@@ -380,7 +380,15 @@ function flightCam(fi, s, t){
   const px=u*u*p0x+2*u*s*cxp+s*s*p2x, py=u*u*p0y+2*u*s*cyp+s*s*p2y;
   const vx=2*u*(cxp-p0x)+2*s*(p2x-cxp), vy=2*u*(cyp-p0y)+2*s*(p2y-cyp);
   const sp=Math.hypot(vx,vy)||1e-9, ux=vx/sp, uy=vy/sp;
-  fc.hx=ux; fc.hy=uy; fc.x=px; fc.y=py;          // Blick immer geradeaus
+  fc.x=px; fc.y=py;
+  // Startzentrierung: am Segmentanfang Blick auf die Inselmitte (Ursprung),
+  // bis s=0.25 weich (smoothstep) in die Flugrichtung übergeblendet — die
+  // Bezier-Tangente allein liess die Insel anfangs seitlich im Bild stehen.
+  let w=Math.min(1,s/0.25); w=w*w*(3-2*w);
+  const dl=Math.hypot(px,py)||1e-9;
+  const bx=ux*w-px/dl*(1-w), by=uy*w-py/dl*(1-w);
+  const bl=Math.hypot(bx,by)||1e-9;
+  fc.hx=bx/bl; fc.hy=by/bl;                      // danach Blick geradeaus
   // Flughöhe: sicher über dem Gelände, sanft nachgeführt; am Segmentstart hart setzen
   const ground=field.length?sampleH(px,py):0;
   const zTarget=Math.max(0.46, ground+0.15)+0.03*Math.sin(t*2*Math.PI/568);
@@ -585,17 +593,16 @@ function drawFlight(){
   const clampX=(x,w)=>Math.max(w/2+2*dpr, Math.min(W-w/2-2*dpr, x));
   const entries=[];
   for(const it of items){
-    const fscale=Math.max(0.85, Math.min(1.5, 1.15/it.zc));   // Perspektive in der Schrift
-    const fs=11*fscale*dpr, lh=lh0*fscale*dpr;
+    const fs=11*dpr, lh=lh0*dpr;   // fixe Schriftgrösse wie im Orbit-Modus
     ctx.font=`${fs}px ui-sans-serif,system-ui,sans-serif`;
     const wpx=ctx.measureText(it.pk.name).width+2*pad;
     const tx=clampX(it.x,wpx);
-    let ty=it.y-30*fscale*dpr;
+    let ty=it.y-30*dpr;
     for(let n=0;n<50;n++){let hit=false;
       for(const b of placed)
         if(Math.abs(tx-b.x)<(wpx+b.w)/2 && Math.abs(ty-b.ty)<Math.max(lh,b.lh)){ty=b.ty-b.lh;hit=true;}
       if(!hit) break;}
-    if(it.y-ty > 30*fscale*dpr+6*lh) continue;   // Stapel-Bremse wie im Orbit-Modus
+    if(it.y-ty > 30*dpr+6*lh) continue;   // Stapel-Bremse wie im Orbit-Modus
     placed.push({x:tx, ty, w:wpx, lh});
     entries.push({i:it.i, name:it.pk.name, x:it.x, y:it.y, tx, ty, w:wpx, lh,
                   fs, hi:it.i===tourIdx});

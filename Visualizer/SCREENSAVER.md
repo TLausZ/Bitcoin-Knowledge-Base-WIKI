@@ -130,14 +130,18 @@ eine Tiefensortierung):
   Bezierkurve, Start R0=4.3 (weit draussen überm Meer), Wegpunkt nahe
   Inselmitte, Exit R1=2.4 (direkt hinter der Küste). Routenwahl deterministisch
   pseudozufällig über `mulberry32(fi)`, fi = globaler Überflug-Index.
-- Blick immer geradeaus (Flugrichtung = Bezier-Ableitung). Kein Seitenblick
-  mehr (war drin, auf User-Wunsch entfernt).
+- Blick geradeaus (Flugrichtung = Bezier-Ableitung). Kein Seitenblick
+  mehr (war drin, auf User-Wunsch entfernt). Ausnahme Segmentstart: bis
+  s=0.25 wird der Blick von «auf die Inselmitte» weich (smoothstep) in die
+  Flugrichtung übergeblendet — die Tangente allein liess die Insel beim
+  Flugstart seitlich im Bild stehen (17. Juli 2026).
 - Flughöhe: max(0.46, Gelände+0.15), sanft nachgeführt, am Segmentstart hart
   gesetzt. Horizont bei 0.30·H mit leichtem Wogen. Brennweite fl=H*1.15.
 - Kein Banking mehr (auf User-Wunsch entfernt, 17. Juli 2026): `roll` bleibt
   im Flug 0, der Horizont waagrecht. Die Canvas-Rotations-Hooks in
   drawFlight und draw sind noch da, falls es je zurückkommt.
-- Labels: perspektivisch projiziert, Schrift skaliert mit 1/Distanz
+- Labels: perspektivisch projiziert, Schrift fix 11px wie im Orbit-Modus
+  (Distanz-Skalierung entfernt, 17. Juli 2026)
   (0.85–1.5×), Verdeckung per 3D-Sichtstrahl (`peakVisibleP`), Budget 84
   (früher 28, auf User-Wunsch verdreifacht), gleiche Stapel-Bremse.
 
