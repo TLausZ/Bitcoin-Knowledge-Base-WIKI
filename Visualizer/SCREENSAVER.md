@@ -101,9 +101,18 @@ funktioniert nur aus steiler Draufsicht; in Bodennähe braucht Verdeckung
 eine Tiefensortierung):
 - Klassisches Depth-Slice-Verfahren: 190 Tiefenscheiben (zNear 0.18 bis
   zFar 7.0, geometrische Staffelung), von fern nach nah gemalt. Jede Scheibe:
-  Höhenprofil via `sampleH` (bilinear aus `field`), als Papier gefüllt
-  (Painter: nah übermalt fern), ferne Linien blasser. Meer (= BASECUT-Ebene)
-  bleibt leeres Papier.
+  Höhenprofil via `sampleH` (bilinear aus `field`), gefüllt (Painter: nah
+  übermalt fern), ferne Linien blasser. Meer (= BASECUT-Ebene) bleibt
+  leeres Papier.
+- Zwei Pässe seit 17. Juli 2026 (Performance): Pass 1 sampelt alle Profile
+  nah→fern in wiederverwendete Puffer (`FBUF`) und führt pro Scheibe den
+  unteren Fill-Rand mit (`EV` = min-y aller näheren Scheiben). Pass 2 malt
+  fern→nah, füllt aber nur noch das sichtbare Band (Profil bis EV+2px)
+  statt bis zum Bildrand. Vorher wurde der Bildschirm ~100× übermalt —
+  das war der Löwenanteil der Frame-Zeit, mit Höhenfärbung doppelt teuer.
+  Gemessen (M-Serie, 1280×659 css, mode=flug, pal=1): vorher Ø 33 ms
+  (~30 fps, p95 67 ms), nachher Ø 16.6 ms (stabile 60 fps, p95 17 ms) —
+  schneller als der alte Renderer sogar ohne Färbung (Ø 21 ms).
 - Höhenlinien-Look wie im Wiki: pro Scheiben-Band (Zelle = 2 Spalten × 2
   Scheiben) Marching Squares über die 32 Höhenstufen (`ZMAX/L`), Schnittpunkte
   in Bildkoordinaten interpoliert, direkt nach dem Fill der näheren Scheibe
@@ -136,11 +145,15 @@ als Alternativen im `PALETTES`-Objekt gespeichert, umschaltbar per `?pal=N`.
   Stützpunkte `[t, [r,g,b]]` mit t=l/L.
 - Orbit: `fillStyle=ringColor(l)` pro Ring-Ebene (Wände inklusive),
   Konturlinien bleiben braun.
-- Flug: pro Tiefenscheibe ein linearer Gradient mit harten Stufen
-  (`gradStops`, einmal berechnet) — die Bildhöhe ist pro Scheibe linear
-  zur Geländehöhe, darum stimmen die Bänder exakt mit dem Orbit überein.
-  Küstenband unter Ring 5 und Meer bleiben Papier. Kosten: ~190 Gradients
-  pro Frame, bisher unauffällig.
+- Flug: pro Tiefenscheibe ein linearer Gradient mit harten Stufen — die
+  Bildhöhe ist pro Scheibe linear zur Geländehöhe, darum stimmen die
+  Bänder exakt mit dem Orbit überein. Küstenband unter Ring 5 und Meer
+  bleiben Papier. Alle Scheiben-Gradients werden EINMAL vorberechnet
+  (`buildGrads`; Länge fl·(ZMAX−seaZ)/zc ist zeitlich konstant, ungültig
+  nur bei Resize) und pro Frame bloss vertikal verschoben (translate).
+  Verworfen nach Messung: Gradients pro Frame neu bauen (+12 ms) und ein
+  einziger Gradient unter scale()-Transform (+29 ms, verlässt den
+  schnellen Render-Pfad).
 - Palette-Leiste (Arbeitswerkzeug): mit `?pal=N` erscheinen rechts 32
   Boxen (oben Stufe 32), beschriftet 1–32, mit der aktiven Palette;
   abgeblendet, was nie als Ring erscheint (Stufe 32 und alles unter

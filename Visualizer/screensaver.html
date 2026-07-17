@@ -413,18 +413,29 @@ function peakVisibleP(pk){
   return true;
 }
 
-// Farbstufen für den Flug-Gradient: Offset über die Höhe (0=ZMAX, 1=Meer),
-// pro Ring-Band zwei gleiche Stops = harte Kante wie im Orbit. Statisch,
-// einmal berechnet (Palette und Relief-Parameter ändern sich zur Laufzeit nicht).
-let PAL_GRAD=null;
-function gradStops(){
+// Flug-Gradients: Offset über die Höhe (0=ZMAX, 1=Meer), pro Ring-Band zwei
+// gleiche Stops = harte Kante wie im Orbit. Die Gradient-Länge pro Scheibe
+// (fl*(ZMAX-seaZ)/zc) ist über die Zeit konstant — darum werden alle
+// SLICES Gradients EINMAL vorberechnet und pro Frame nur vertikal verschoben
+// (translate). Neu bauen pro Frame kostete ~14 ms, Fills unter scale() noch
+// mehr (beides gemessen, 17. Juli 2026).
+let PAL_GRADS=null;   // {fl, grads:[]} — ungültig bei Resize (fl hängt an H)
+let FBUF=null;        // Frame-Puffer des Flug-Renderers (je Auflösung einmal allokiert)
+function buildGrads(fl,SLICES,zNear,ratio){
   const lw=ZMAX/L, l0=Math.ceil(BASECUT*L), seaZ=BASECUT*ZMAX;
   const off=h=>Math.min(1,Math.max(0,(ZMAX-h)/(ZMAX-seaZ)));
-  const st=[];
-  for(let l=L-1;l>=l0;l--)
-    st.push([off(Math.min((l+1)*lw,ZMAX)),ringColor(l)],[off(l*lw),ringColor(l)]);
-  st.push([off(l0*lw),'#ece2cd'],[1,'#ece2cd']);   // Küstenband unterm ersten Ring
-  return st;
+  const grads=[];
+  for(let k=0;k<SLICES;k++){
+    const zc=zNear*Math.pow(ratio,k/(SLICES-1));
+    const g=ctx.createLinearGradient(0,0,0,fl*(ZMAX-seaZ)/zc);
+    for(let l=L-1;l>=l0;l--){
+      g.addColorStop(off(Math.min((l+1)*lw,ZMAX)),ringColor(l));
+      g.addColorStop(off(l*lw),ringColor(l));
+    }
+    g.addColorStop(off(l0*lw),'#ece2cd'); g.addColorStop(1,'#ece2cd');   // Küstenband
+    grads.push(g);
+  }
+  return {fl,grads};
 }
 
 function drawFlight(){
@@ -437,58 +448,84 @@ function drawFlight(){
   ctx.save();
   if(roll){ctx.translate(W/2,H/2); ctx.rotate(roll); ctx.translate(-W/2,-H/2);}
   ctx.fillStyle='#ece2cd';
-  if(PAL_STOPS && !PAL_GRAD) PAL_GRAD=gradStops();
   const SLICES=190, COLS=Math.max(160, Math.round(W/(6*dpr))),
         zNear=0.18, zFar=7.0, ratio=zFar/zNear, margin=40*dpr;
-  const ys=new Float64Array(COLS+1), hs=new Float64Array(COLS+1),
-        pys=new Float64Array(COLS+1), phs=new Float64Array(COLS+1),
-        skyY=new Float64Array(COLS+1).fill(Infinity);   // oberste Landkante pro Spalte
+  if(PAL_STOPS && (!PAL_GRADS || PAL_GRADS.fl!==fl))
+    PAL_GRADS=buildGrads(fl,SLICES,zNear,ratio);
+  const skyY=new Float64Array(COLS+1).fill(Infinity);   // oberste Landkante pro Spalte
   const lw=ZMAX/L;                             // Höhenstufen wie im Orbit-Renderer
-  let havePrev=false;
-  for(let k=SLICES-1;k>=0;k--){                // fern → nah (Painter)
+  // Pass 1: nah → fern sampeln. YS/HS = Profil je Scheibe, EV = unterer
+  // Fill-Rand je Scheibe (min-y aller näheren Scheiben). Damit füllt Pass 2
+  // nur noch das sichtbare Band statt bis zum Bildrand — der Overdraw
+  // (~100× Bildfläche) war der Löwenanteil der Frame-Zeit, mit Gradient
+  // doppelt bezahlt (gemessen 17. Juli 2026: 33 → 16.6 ms/Frame, stabile
+  // 60 fps; Details in SCREENSAVER.md).
+  const stride=COLS+1;
+  if(!FBUF || FBUF.stride!==stride || FBUF.slices!==SLICES)
+    FBUF={stride, slices:SLICES,
+          ys:new Float64Array(SLICES*stride), hs:new Float64Array(SLICES*stride),
+          ev:new Float64Array(SLICES*stride), run:new Float64Array(stride)};
+  const YS=FBUF.ys, HS=FBUF.hs, EV=FBUF.ev, run=FBUF.run;
+  run.fill(Infinity);
+  for(let k=0;k<SLICES;k++){
     const zc=zNear*Math.pow(ratio, k/(SLICES-1));
     const sHalf=(W/2+margin)/fl*zc;            // halbe Scheibenbreite in Weltkoordinaten
     const bx=fc.x+fc.hx*zc, by=fc.y+fc.hy*zc;  // Scheibenmitte
+    const base=k*stride;
     for(let c=0;c<=COLS;c++){
       const s=(c/COLS-0.5)*2*sHalf;
       const h=Math.max(sampleH(bx+rx*s, by+ry*s), seaZ);
-      hs[c]=h;
-      ys[c]=horizonY-fl*(h-fc.z)/zc;
-      if(h>seaZ+0.004 && ys[c]<skyY[c]) skyY[c]=ys[c];   // Silhouette mitführen
+      const y=horizonY-fl*(h-fc.z)/zc;
+      HS[base+c]=h; YS[base+c]=y; EV[base+c]=run[c];
+      if(y<run[c]) run[c]=y;
+      if(h>seaZ+0.004 && y<skyY[c]) skyY[c]=y;   // Silhouette mitführen
     }
-    // Deckfläche: Profil oben, unten bis zum Bildrand geschlossen.
-    // Mit Palette: Stufen-Gradient über die Höhe (y ist pro Scheibe linear in h);
-    // unterhalb des Meeresspiegels läuft der letzte Stop (Papier) weiter.
-    if(PAL_GRAD){
-      const g=ctx.createLinearGradient(0,horizonY-fl*(ZMAX-fc.z)/zc,
-                                       0,horizonY-fl*(seaZ-fc.z)/zc);
-      for(const [o,c] of PAL_GRAD) g.addColorStop(o,c);
-      ctx.fillStyle=g;
-    }
+  }
+  // Pass 2: fern → nah malen (Painter wie gehabt)
+  const fpad=2*dpr;                            // Fill-Überlappung gegen Antialiasing-Säume
+  for(let k=SLICES-1;k>=0;k--){
+    const zc=zNear*Math.pow(ratio, k/(SLICES-1));
+    const base=k*stride;
+    // Deckfläche: Profil oben, unten nur bis knapp unter die Oberkante der
+    // näheren Scheiben (EV+pad; nächste Scheibe: Bildrand).
+    // Mit Palette: der vorberechnete Stufen-Gradient dieser Scheibe wird nur
+    // vertikal an den Höhen-Nullpunkt (y von ZMAX) geschoben — y ist pro
+    // Scheibe linear in h, die Gradient-Länge zeitlich konstant. Unterhalb
+    // des Meeresspiegels läuft der letzte Stop (Papier) weiter.
+    const yTop=horizonY-fl*(ZMAX-fc.z)/zc;
+    if(PAL_GRADS){ctx.save(); ctx.translate(0,yTop); ctx.fillStyle=PAL_GRADS.grads[k];}
+    const dy=PAL_GRADS?yTop:0;
     ctx.beginPath();
     for(let c=0;c<=COLS;c++){
       const x=(c/COLS)*W;
-      c?ctx.lineTo(x,ys[c]):ctx.moveTo(x,ys[c]);
+      c?ctx.lineTo(x,YS[base+c]-dy):ctx.moveTo(x,YS[base+c]-dy);
     }
-    ctx.lineTo(W,H+8); ctx.lineTo(0,H+8); ctx.closePath(); ctx.fill();
+    for(let c=COLS;c>=0;c--){
+      const x=(c/COLS)*W;
+      const bot=Math.max(YS[base+c], Math.min(EV[base+c]+fpad, H+8));
+      ctx.lineTo(x,bot-dy);
+    }
+    ctx.closePath(); ctx.fill();
+    if(PAL_GRADS) ctx.restore();
     const alpha=Math.max(0.16, Math.min(0.68, 0.68*(1.15-zc/zFar)));
     // Scheiben-Profillinien testweise entfernt — nur noch Höhenlinien.
     // (Bei Bedarf: Profil über Land mit rgba(74,58,40,alpha*0.3) nachziehen.)
     ctx.lineWidth=0.85*dpr;
-    // Höhenlinien im Band zur vorigen (ferneren) Scheibe: Marching Squares
+    // Höhenlinien im Band zur ferneren Nachbarscheibe (k+1): Marching Squares
     // pro Zelle, Schnittpunkte in Bildkoordinaten interpoliert. Nähere Fills
     // übermalen später verdeckte Segmente — Painter regelt die Verdeckung.
-    if(havePrev){
+    if(k<SLICES-1){
+      const pb=base+stride;                    // fernere Scheibe k+1
       ctx.strokeStyle=`rgba(74,58,40,${alpha.toFixed(3)})`;
       ctx.beginPath();
       for(let c=0;c<COLS;c++){
-        const h00=phs[c], h10=phs[c+1], h11=hs[c+1], h01=hs[c];
+        const h00=HS[pb+c], h10=HS[pb+c+1], h11=HS[base+c+1], h01=HS[base+c];
         const mn=Math.min(h00,h10,h11,h01), mx=Math.max(h00,h10,h11,h01);
         if(mx<=seaZ+0.002) continue;           // Zelle ganz im Meer
         const l0=Math.ceil(mn/lw), l1=Math.floor(mx/lw);
         if(l1<l0) continue;
         const x0=(c/COLS)*W, x1=((c+1)/COLS)*W;
-        const y00=pys[c], y10=pys[c+1], y11=ys[c+1], y01=ys[c];
+        const y00=YS[pb+c], y10=YS[pb+c+1], y11=YS[base+c+1], y01=YS[base+c];
         for(let li=l0; li<=l1; li++){
           const lev=li*lw;
           if(lev<=seaZ) continue;
@@ -507,7 +544,6 @@ function drawFlight(){
       }
       ctx.stroke();
     }
-    pys.set(ys); phs.set(hs); havePrev=true;
   }
 
   // Sichtbare Land-Spalten zählen: Grundlage für das vorgezogene Flug-Ende
