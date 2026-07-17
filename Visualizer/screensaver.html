@@ -338,8 +338,7 @@ function draw(){
 // Drei inkommensurable Perioden: die Fahrt wiederholt sich praktisch nie exakt.
 // Eine Umrundung ~4 min, dazu langsames Atmen von Kippwinkel und Zoom.
 // URL-Parameter: ?speed=4 = Zeitraffer zum Testen, ?mode=flug = Flugsimulator
-// statt Orbit (Tiefflug entlang eines Pfads, Blick voraus, Banking in Kurven,
-// alle ~27 s ein Seitenblick nach unten, abwechselnd links und rechts).
+// statt Orbit (Tiefflug entlang eines Pfads, Blick voraus, Horizont waagrecht).
 const Q=new URLSearchParams(location.search);
 const SPEED=parseFloat(Q.get('speed'))||1, MODE=Q.get('mode')||'';  // ''=Wechsel Orbit/Flug
 // ?labels=N: Basis fürs Label-Budget. Orbit skaliert N quadratisch mit dem
@@ -353,8 +352,7 @@ const ZFIX=parseFloat(Q.get('zoom'))||0;
 // FLUGMODUS: echte Ego-Perspektive wie im Flugsimulator. Eigener Renderer:
 // das Höhenfeld wird in Tiefenscheiben (far → near) als Profillinien gemalt,
 // jede Scheibe deckend gefüllt — nahe Berge verdecken ferne (Painter).
-// Horizont oben, Gelände rauscht unten durch, Banking in Kurven, alle ~27 s
-// ein Seitenblick nach unten (abwechselnd links/rechts).
+// Horizont oben (waagrecht, kein Banking), Gelände rauscht unten durch.
 // ============================================================================
 function sampleH(x,y){                       // Geländehöhe in Weltkoordinaten, bilinear
   const gx=(x/DOM+1)/2*(N-1), gy=(y/DOM+1)/2*(N-1);
@@ -365,7 +363,6 @@ function sampleH(x,y){                       // Geländehöhe in Weltkoordinaten
          +field[j+1][i]*(1-fx)*fy+field[j+1][i+1]*fx*fy)*ZMAX;
 }
 
-let prevHead=null, prevT=null, rollS=0;
 const fc={x:0, y:0, z:0.6, hx:0, hy:1, horizon:0.30};   // Kamerazustand Flugmodus
 // Ein Flug-Segment = eine Überquerung: Start weit draussen über dem Meer,
 // quadratische Bezierkurve übers Inselinnere, Abflug auf der Gegenseite.
@@ -389,17 +386,7 @@ function flightCam(fi, s, t){
   const zTarget=Math.max(0.46, ground+0.15)+0.03*Math.sin(t*2*Math.PI/568);
   fc.z += (s<0.005) ? (zTarget-fc.z) : (zTarget-fc.z)*0.03;
   fc.horizon=0.30+0.015*Math.sin(t*2*Math.PI/72); // leichtes Wogen wie Eigenbewegung
-  // Banking: Roll nur aus der Kursänderung (geglättet)
-  const head=Math.atan2(ux,uy);
-  if(s<0.005){prevHead=null; rollS=0;}
-  if(prevHead!==null && t>prevT){
-    let dh=head-prevHead;
-    while(dh>Math.PI) dh-=2*Math.PI; while(dh<-Math.PI) dh+=2*Math.PI;
-    const target=Math.max(-0.14, Math.min(0.14, dh/(t-prevT)*13.3));  // Faktor an Flugtempo gekoppelt (20 bei CROSS=320)
-    rollS+=(target-rollS)*Math.min(1,(t-prevT)*2);
-  }
-  prevHead=head; prevT=t;
-  roll=rollS;
+  roll=0;   // kein Banking: Horizont bleibt waagrecht (User-Wunsch, 17. Juli 2026)
 }
 
 // Sichtstrahl Gipfel → Kamera in 3D abschreiten; Gelände darüber = verdeckt
@@ -482,7 +469,9 @@ function drawFlight(){
     }
   }
   // Pass 2: fern → nah malen (Painter wie gehabt)
-  const fpad=2*dpr;                            // Fill-Überlappung gegen Antialiasing-Säume
+  const fpad=10*dpr;                           // Fill-Überlappung: muss auch an steilen
+  // Zacken-Segmenten die AA-Kanten der Nachbarscheibe satt überdecken — bei
+  // 2px schien dort pro Frame Papier durch (helles Flimmern, 17. Juli 2026)
   for(let k=SLICES-1;k>=0;k--){
     const zc=zNear*Math.pow(ratio, k/(SLICES-1));
     const base=k*stride;
@@ -502,7 +491,11 @@ function drawFlight(){
     }
     for(let c=COLS;c>=0;c--){
       const x=(c/COLS)*W;
-      const bot=Math.max(YS[base+c], Math.min(EV[base+c]+fpad, H+8));
+      // Nachbar-Maximum statt nur EV[c]: kreuzen sich die Kanten zweier
+      // näherer Scheiben steil zwischen zwei Spalten, deckt EV[c]+Pad den
+      // Keil nicht ab (Streifen-Artefakte, 17. Juli 2026)
+      const e=Math.max(EV[base+c], EV[base+Math.max(0,c-1)], EV[base+Math.min(COLS,c+1)]);
+      const bot=Math.max(YS[base+c], Math.min(e+fpad, H+8));
       ctx.lineTo(x,bot-dy);
     }
     ctx.closePath(); ctx.fill();

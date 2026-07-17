@@ -43,8 +43,7 @@ Konstanten: `ORBIT_DUR=84` (verdoppelt von 42, 17. Juli 2026), `CROSS=213`
 (320/1.5, Flug 1.5x schneller), `NCROSS=1`, `CYCLE=ORBIT_DUR+NCROSS*CROSS`
 (=297 s), `FADE=1.5` (einblenden),
 `FADEOUT=2.5` (ausblenden), `TRIM=(CROSS-28)/CROSS` (gleicher Routen-Endpunkt
-wie die vom User bestätigten 42 s bei CROSS=320). Banking-Faktor 13.3 ist ans
-Flugtempo gekoppelt (20 bei CROSS=320).
+wie die vom User bestätigten 42 s bei CROSS=320).
 
 - Default (kein mode-Parameter): 84 s Orbit → 1 Überflug à 213 s → wieder
   Orbit. Da yaw eine Funktion der Gesamtzeit ist, zeigt jede Orbit-Phase
@@ -107,12 +106,20 @@ eine Tiefensortierung):
 - Zwei Pässe seit 17. Juli 2026 (Performance): Pass 1 sampelt alle Profile
   nah→fern in wiederverwendete Puffer (`FBUF`) und führt pro Scheibe den
   unteren Fill-Rand mit (`EV` = min-y aller näheren Scheiben). Pass 2 malt
-  fern→nah, füllt aber nur noch das sichtbare Band (Profil bis EV+2px)
+  fern→nah, füllt aber nur noch das sichtbare Band (Profil bis EV+10px)
   statt bis zum Bildrand. Vorher wurde der Bildschirm ~100× übermalt —
   das war der Löwenanteil der Frame-Zeit, mit Höhenfärbung doppelt teuer.
   Gemessen (M-Serie, 1280×659 css, mode=flug, pal=1): vorher Ø 33 ms
   (~30 fps, p95 67 ms), nachher Ø 16.6 ms (stabile 60 fps, p95 17 ms) —
   schneller als der alte Renderer sogar ohne Färbung (Ø 21 ms).
+  Nachbesserung gleichentags, zweiteilig: (a) der untere Fill-Rand nimmt
+  pro Spalte das Maximum aus EV[c-1..c+1], nicht nur EV[c] — kreuzen sich
+  Kanten näherer Scheiben steil zwischen zwei Spalten, blieben sonst Keile
+  offen. (b) Überlappung von 2 auf 10 px erhöht — an steilen Zacken-
+  Segmenten deckte 2 px die AA-Kanten nicht satt ab, Papier flimmerte
+  durch (Fills wirkten leicht transparent). Weiche Gradient-Stops als
+  Alternative getestet und verworfen: User will die harten Farbstufen.
+  Mit 10 px weiterhin stabile 60 fps.
 - Höhenlinien-Look wie im Wiki: pro Scheiben-Band (Zelle = 2 Spalten × 2
   Scheiben) Marching Squares über die 32 Höhenstufen (`ZMAX/L`), Schnittpunkte
   in Bildkoordinaten interpoliert, direkt nach dem Fill der näheren Scheibe
@@ -127,8 +134,9 @@ eine Tiefensortierung):
   mehr (war drin, auf User-Wunsch entfernt).
 - Flughöhe: max(0.46, Gelände+0.15), sanft nachgeführt, am Segmentstart hart
   gesetzt. Horizont bei 0.30·H mit leichtem Wogen. Brennweite fl=H*1.15.
-- Banking: Roll aus Kursänderung (geglättet, Faktor 20 — an das 8× langsamere
-  Tempo angepasst), Canvas-Rotation um Bildmitte in drawFlight UND draw.
+- Kein Banking mehr (auf User-Wunsch entfernt, 17. Juli 2026): `roll` bleibt
+  im Flug 0, der Horizont waagrecht. Die Canvas-Rotations-Hooks in
+  drawFlight und draw sind noch da, falls es je zurückkommt.
 - Labels: perspektivisch projiziert, Schrift skaliert mit 1/Distanz
   (0.85–1.5×), Verdeckung per 3D-Sichtstrahl (`peakVisibleP`), Budget 84
   (früher 28, auf User-Wunsch verdreifacht), gleiche Stapel-Bremse.
