@@ -144,10 +144,30 @@ eine Tiefensortierung):
 ## Höhenfärbung (17. Juli 2026)
 
 Beide Renderer färben die Ringe nach Höhenstufe (hypsometrisch, pastell).
-Standard ist Palette 1 «Atlas-Klassiker» (User-Vorlage, 35% Richtung
-Papierweiss aufgehellt): Grün → Gelb → Ocker → Rost → Braunrot → Grau →
-Weiss. Die Paletten 2–5 (sonnig, kühl, sepia-nah, hypsometrisch) bleiben
-als Alternativen im `PALETTES`-Objekt gespeichert, umschaltbar per `?pal=N`.
+Standard ist Palette 1 «Meer»: Landfarben des Atlas-Klassikers
+(User-Vorlage, 35% Richtung Papierweiss aufgehellt — Grün → Gelb → Ocker →
+Rost → Braunrot → Grau → Weiss) plus Navy-Meer und Himmel. Die Paletten
+2–6 (sonnig, kühl, sepia-nah, hypsometrisch, Atlas-Klassiker pur mit
+Papier-Hintergrund = früherer Standard) bleiben als Alternativen im
+`PALETTES`-Objekt gespeichert, umschaltbar per `?pal=N`.
+
+Meer und Himmel (nur Palette 1, also auch ohne `?pal`-Parameter):
+
+- Meerfarbe `SEA_RGB` helles Navy statt Papier — Hintergrund,
+  Flug-Gradient unterhalb Ring 5 und Blendfarbe hängen an dieser
+  Konstante, die Insel liegt sichtbar im Meer.
+- Im Flugmodus ist der Hintergrund zweigeteilt (`SKY`-Konstante):
+  Himmel-Verlauf oberhalb von `horizonY` (tiefes Blau → Teal → Creme,
+  Vintage-Bildvorlage), Meer darunter — sonst gäbe es ohne Horizontlinie
+  keine Tiefenwirkung.
+- Das Meer ist tiefengestaffelt (`seaMix`): nah `SEA_RGB`, am Horizont
+  `SEA_FAR_RGB` (dunkles Navy); die Scheiben-Gradients mischen pro
+  Scheibe über k/(SLICES−1). Das Hintergrundband hinter den Scheiben ist
+  flach im dunkelsten Ton (`seaMix(1)`) — Verlaufsvarianten (linear und
+  log-perspektivisch) erzeugten an der Naht zur fernsten Scheibe einen
+  sichtbaren Balken unter dem Horizont.
+
+Mit `?pal=2…6` bleibt der Hintergrund einfarbig Papier.
 
 - `ringColor(l)`: Stufe l (1..L) → Farbe, lineare Interpolation über
   Stützpunkte `[t, [r,g,b]]` mit t=l/L.
@@ -156,7 +176,8 @@ als Alternativen im `PALETTES`-Objekt gespeichert, umschaltbar per `?pal=N`.
 - Flug: pro Tiefenscheibe ein linearer Gradient mit harten Stufen — die
   Bildhöhe ist pro Scheibe linear zur Geländehöhe, darum stimmen die
   Bänder exakt mit dem Orbit überein. Küstenband unter Ring 5 und Meer
-  bleiben Papier. Alle Scheiben-Gradients werden EINMAL vorberechnet
+  bekommen die Meerfarbe `SEA` (Palette 1: helles Navy, sonst Papier). Alle
+  Scheiben-Gradients werden EINMAL vorberechnet
   (`buildGrads`; Länge fl·(ZMAX−seaZ)/zc ist zeitlich konstant, ungültig
   nur bei Resize) und pro Frame bloss vertikal verschoben (translate).
   Verworfen nach Messung: Gradients pro Frame neu bauen (+12 ms) und ein
@@ -174,7 +195,7 @@ als Alternativen im `PALETTES`-Objekt gespeichert, umschaltbar per `?pal=N`.
 
 ## URL-Parameter
 
-- `?pal=N` — Palette 1–5 umschalten und Palette-Leiste einblenden
+- `?pal=N` — Palette 1–6 umschalten und Palette-Leiste einblenden
   (Standard ohne Parameter: Palette 1, keine Leiste; ungültige Werte
   wirken wie kein Parameter).
 
