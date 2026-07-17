@@ -113,6 +113,8 @@ OVERRIDES = {
     "origins-of-money": ["oekonomie", "philosophie", "buecher"],
     # SciFi-Anthologie: Geld-Zukunftsszenarien, nicht "mining" (Trigger war Energie-Story «Xtra Watt»)
     "magic-future-money": ["oekonomie", "philosophie", "buecher"],
+    # Datensnapshot Treasury-Companies: Marktdaten, nicht "sonstiges" (kein Keyword-Match)
+    "bitcoin-treasury-companies": ["oekonomie", "adoption"],
 }
 
 

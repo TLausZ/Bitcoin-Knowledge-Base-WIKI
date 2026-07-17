@@ -89,7 +89,7 @@ Abschnitt 3 ("Krypto ist kein Finanzwesen") untersucht, ob DeFi-Projekte die Dez
 
 #### Das Investitions-Kategorienfehler
 
-Die Analogie, die Krypto-Investoren rechtfertigt, ist die Venture-Capital-Logik: Viele Versuche scheitern, aber einige Ausreißer machen das Portfolio gut. Diese Logik funktioniert bei Software-Startups, weil dort ein profitabler Endzustand konzeptuell existiert. Bei Krypto fehlt dieser Endzustand.
+Die Analogie, die Krypto-Investoren rechtfertigt, ist die Venture-Capital-Logik: Viele Versuche scheitern, aber einige Ausreisser machen das Portfolio gut. Diese Logik funktioniert bei Software-Startups, weil dort ein profitabler Endzustand konzeptuell existiert. Bei Krypto fehlt dieser Endzustand.
 
 Farrington: Wer auf einen "ertragreichen Endzustand" wartet, hofft vergeblich — die philosophischen, technischen und wirtschaftlichen Probleme aus Abschnitten 1–3 verschwinden nicht durch mehr Kapital. Vorab-Liquidität ist keine F&E-Finanzierung, sie ist eine Blase. Die Shadow-Industrie der Krypto-Influencer (YouTube, TikTok, Twitter) verwaltet Kleinanleger-Aufmerksamkeit als Produktionsfaktor für Token-Launches. [[aprycot-nur-die-staerksten-4-investitions-grundprinzip]]
 

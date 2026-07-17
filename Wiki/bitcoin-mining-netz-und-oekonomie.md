@@ -30,7 +30,7 @@ Brad Jones, ehemaliger CEO von ERCOT (dem texanischen Netzbetreiber mit der höc
 
 **Duke University (Norris et al., 2025):** Bitcoin Mining ist der effektivste flexible Verbraucher mit **95% Lastreduzierung** in Spitzenzeiten — deutlich mehr als alle anderen flexiblen Abnehmer. Flexible Lasten können teure Grid-Upgrades verzögern oder ganz vermeiden.
 
-**Norwegen als natürliches Experiment (September 2024):** Als Bitcoin-Miner das norwegische Stromnetz verließen, stiegen die Strompreise für Privathaushalte sofort um **20%**. Ein unbeabsichtigtes Experiment, das den Preissenkungseffekt direkt belegt.
+**Norwegen als natürliches Experiment (September 2024):** Als Bitcoin-Miner das norwegische Stromnetz verliessen, stiegen die Strompreise für Privathaushalte sofort um **20%**. Ein unbeabsichtigtes Experiment, das den Preissenkungseffekt direkt belegt.
 
 ### Volkswirtschaftliche Preiseffekte
 
@@ -56,20 +56,20 @@ Bitcoin Mining senkt Strompreise für alle anderen Verbraucher — durch mehrere
 
 **Der "Kosten-pro-Transaktion"-Trugschluss.** Ein verbreitetes Argument: Je mehr Transaktionen, desto mehr Strom. Das ist strukturell falsch. Bitcoin's Energieverbrauch ist an die Hashrate gebunden, nicht an die Transaktionszahl. Analogie: Ein Geschirrspüler verbraucht gleich viel Strom, ob er 10 oder 50 Tassen wäscht. Eine E-Mail braucht gleich viel Serverkapazität, egal wie viele Wörter sie hat. Mehr Transaktionen auf der Base Layer erhöhen nicht den Mining-Energieverbrauch.
 
-**Layer-Skalierung als Antwort (Lyn Alden).** Bitcoin skaliert über Schichten, nicht über größere Blöcke:
+**Layer-Skalierung als Antwort (Lyn Alden).** Bitcoin skaliert über Schichten, nicht über grössere Blöcke:
 - *Lightning Network* (seit 2018 aktiv): nahezu null Gebühren, sofortige Abwicklung, kein zusätzlicher Mining-Strom pro Transaktion. Beispiel BTC2021 Miami: THNDR Games wickelte 13.571 Transaktionen zu durchschnittlich $0,0005 Gebühr ab.
 - *Liquid Sidechain*: Peg-in/Peg-out über eine Federation, L-BTC für schnellere Finalität.
-- *Exchanges*: Coinbase, Cash App etc. als interne Datenbankbewegungen — null On-Chain-Fußabdruck.
+- *Exchanges*: Coinbase, Cash App etc. als interne Datenbankbewegungen — null On-Chain-Fussabdruck.
 - Bitcoin als *Fedwire-Analogie*: Das Fedwire-System der US-Notenbank wickelt ~5 Transaktionen/Sekunde ab, bewegt dabei aber unbegrenzte Werte. Bitcoin-Settlement ist ähnlich konzipiert: hochwertig, final, sicher — und auf Schicht 2/3 beliebig erweiterbar.
 
-**Harry Sudocks drei Miner-"Superkräfte" (GRIID VP Strategy).** Mining-Energie macht 80–90% der Betriebskosten aus. Daraus folgen drei strukturelle Vorteile gegenüber anderen Großverbrauchern:
+**Harry Sudocks drei Miner-"Superkräfte" (GRIID VP Strategy).** Mining-Energie macht 80–90% der Betriebskosten aus. Daraus folgen drei strukturelle Vorteile gegenüber anderen Grossverbrauchern:
 1. Unterbrechbarkeit ohne operativen Schaden (5-Minuten-Abschaltung statt Stunden wie Aluminiumhütten)
 2. Ortsflexibilität (Miner können dorthin, wo Strom am günstigsten ist)
 3. Intermittenz ist kein Problem (Mining kann stunden- oder tageweise unterbrochen werden)
 
 Diese drei Eigenschaften machen Bitcoin-Miner zur idealen flexiblen Last für Stromnetze mit hohem Erneuerbaren-Anteil.
 
-**China Sichuan: Saisonale Hydro-Migration.** In der Regenzeit produzieren Sichuan-Wasserkraftwerke Stromüberschüsse, die nicht abtransportiert werden können. Miner migrierten saisonal in diese Region — und verließen sie wieder in der Trockenzeit, wenn Hydrokraftwerke weniger produzierten. Ein natürliches Anpassungssystem vor dem chinesischen Mining-Verbot 2021.
+**China Sichuan: Saisonale Hydro-Migration.** In der Regenzeit produzieren Sichuan-Wasserkraftwerke Stromüberschüsse, die nicht abtransportiert werden können. Miner migrierten saisonal in diese Region — und verliessen sie wieder in der Trockenzeit, wenn Hydrokraftwerke weniger produzierten. Ein natürliches Anpassungssystem vor dem chinesischen Mining-Verbot 2021.
 
 **Oklo + Compass Mining (Lyn Alden, 2021).** Oklo Inc. baut Mikro-Kernreaktoren; Compass Mining schloss eine 20-Jahr/150-MW-Partnerschaft. Nuklearabfall dient als Brennstoff; die Sicherheits- und Standortprobleme der Kernenergie (permanentes Sicherheitspersonal, abgelegene Standorte) werden durch Bitcoin-Mining-Co-Lokalisierung gelöst — kein Netzanschluss nötig, Mining-Einnahmen finanzieren den Betrieb. [[aprycot-alden-energieverbrauch-bitcoin]]
 
@@ -81,7 +81,7 @@ Konkrete Zahlen (April 2022): 4 Antminer S9 = 5,3 kW kombinierte Last, CAPEX ~$1
 
 Alex Gladstein beschreibt 2021 das Virunga-Projekt in der DRC als Beispiel dafür, dass Mining-Finanzierung nicht nur für reiche Industrieländer gilt. Die EU finanzierte 2014 ein 15-MW-Wasserkraftwerk im Virunga-Nationalpark — aber ohne Übertragungsnetz fehlte ein Abnehmer. 2020 begann der Park, die überschüssige Energie per Bitcoin-Mining zu monetarisieren.
 
-Der wirtschaftliche Effekt war sofort spürbar: Die kongolesische Regierung zahlt dem Park ~100.000 USD/Jahr, das Betriebsbudget liegt bei ~1.000.000 USD/Monat. Mining schließt diese Lücke. Sobald lokale Stromnachfrage wächst und Kunden mehr als 2–5 Cent/kWh zahlen, schalten die Miner ab und überlassen die Kapazität. Mining ist hier nicht Konkurrenz zur Elektrifizierung, sondern die Initialzündung für sie.
+Der wirtschaftliche Effekt war sofort spürbar: Die kongolesische Regierung zahlt dem Park ~100.000 USD/Jahr, das Betriebsbudget liegt bei ~1.000.000 USD/Monat. Mining schliesst diese Lücke. Sobald lokale Stromnachfrage wächst und Kunden mehr als 2–5 Cent/kWh zahlen, schalten die Miner ab und überlassen die Kapazität. Mining ist hier nicht Konkurrenz zur Elektrifizierung, sondern die Initialzündung für sie.
 
 Nur 8,7% der kongolesischen Bevölkerung hatten 2019 Stromanschluss. Ohne Elektrizität werden Bäume gefällt, Holzkohle gebrannt — 1,6 Millionen Todesfälle/Jahr durch Innenraumluft-Verschmutzung. Bitcoin-finanzierte Wasserkraft kann beides angehen: Energiequelle monetarisieren *und* Abholzung reduzieren. Ein weiterer 30-MW-Damm ist in Planung, mit Mining als Teil der Überbrückungsfinanzierung. → [[bitcoin-humanitaere-anwendungen]] für den humanitären Kontext. [[aprycot-gladstein-humanitaere-oekologische-argumente]]
 
@@ -101,7 +101,7 @@ Captain Sidd (Evan Bayless) formulierte im März 2021 das vielleicht klarste Gru
 
 *Günstigere Erneuerbare.* Laut Lazard Levelized Cost of Energy 2020 sind Solar, Geothermie und Wind gleichwertig oder billiger als Kohle und Kernkraft. Bei Überkapazitäten (Nacht, windige Perioden) fallen die Preise noch weiter. Mining bietet Entwicklern erneuerbarer Projekte eine weitere Einnahmequelle und senkt die Investitionsschwelle.
 
-*Verschwendetes Erdgas.* Ölbohrungen in abgelegenen Gebieten treffen regelmäßig auf Erdgas, das zu weit von Verbrauchern entfernt ist, um transportiert zu werden. Statt es abzufackeln, können Betreiber einen Generator plus Miner-Container aufstellen und das Gas direkt in Bitcoin umwandeln. Upstream Data, Crusoe Energy und Giga Energy sind frühe Pioniere. Das eliminiert nicht nur Methanemissionen, sondern schafft einen Einkommensstrom aus vorher wertloser Ressource.
+*Verschwendetes Erdgas.* Ölbohrungen in abgelegenen Gebieten treffen regelmässig auf Erdgas, das zu weit von Verbrauchern entfernt ist, um transportiert zu werden. Statt es abzufackeln, können Betreiber einen Generator plus Miner-Container aufstellen und das Gas direkt in Bitcoin umwandeln. Upstream Data, Crusoe Energy und Giga Energy sind frühe Pioniere. Das eliminiert nicht nur Methanemissionen, sondern schafft einen Einkommensstrom aus vorher wertloser Ressource.
 
 *Gestrandete Energie.* Mining-Hardware ist ortsunabhängiger als fast jeder andere Stromverbraucher. Islands nahezu 100% erneuerbare Energie (73% Wasser, 27% Geothermie) hat mehr Kapazität als lokale Nachfrage. BitFury betreibt dort ein Rechenzentrum ohne Kühlungskosten — 30–40% der Betriebskosten normaler Rechenzentren entfallen damit. Analoges Beispiel: Norilsk (Russland), extreme Temperaturen + Energieüberschuss + 180.000 Einwohner = idealer Mining-Standort.
 

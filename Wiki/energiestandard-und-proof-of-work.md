@@ -7,7 +7,7 @@
 
 ## Summary
 
-Henry Ford schlug 1921 vor, Gold als Grundlage der Weltwährung durch eine Energiewährung zu ersetzen — mit der Energiestunde als Werteinheit. Er identifizierte Gold als die Ursache aller Kriege, weil es von internationalen Banken kontrolliert werden kann. Dieses Prinzip — Energie als Währungsanker — findet in Bitcoins Proof of Work seine digitale Realisierung, obwohl Ford das naturgemäß nicht wusste.
+Henry Ford schlug 1921 vor, Gold als Grundlage der Weltwährung durch eine Energiewährung zu ersetzen — mit der Energiestunde als Werteinheit. Er identifizierte Gold als die Ursache aller Kriege, weil es von internationalen Banken kontrolliert werden kann. Dieses Prinzip — Energie als Währungsanker — findet in Bitcoins Proof of Work seine digitale Realisierung, obwohl Ford das naturgemäss nicht wusste.
 
 ## Body
 
@@ -19,7 +19,7 @@ Ford's Kernthese:
 
 > „Die Ursache aller Kriege ist Gold. Wir werden der Welt zwei Dinge demonstrieren, erstens die Durchführbarkeit und zweitens die Vorteile der Ablösung des Goldes als Grundlage der Währung durch den unvergänglichen Reichtum der Natur."
 
-Das Argument dahinter: Eine Gruppe internationaler Banken kontrollierte damals den Großteil der weltweiten Goldvorräte. Für diese Banken ist ein Krieg ein aktiver Markt — beide kriegführenden Seiten brauchen Kredite, und das Goldsystem gewinnt immer, unabhängig davon, wer militärisch verliert. Die jungen Männer sterben; die Globalisten bleiben sicher und wohlhabend.
+Das Argument dahinter: Eine Gruppe internationaler Banken kontrollierte damals den Grossteil der weltweiten Goldvorräte. Für diese Banken ist ein Krieg ein aktiver Markt — beide kriegführenden Seiten brauchen Kredite, und das Goldsystem gewinnt immer, unabhängig davon, wer militärisch verliert. Die jungen Männer sterben; die Globalisten bleiben sicher und wohlhabend.
 
 ### Die Energiestunde als Werteinheit
 
@@ -45,7 +45,7 @@ Bitcoin hat Fords Intuition 88 Jahre später ohne direkten Bezug umgesetzt — a
 
 Bitcoins Proof of Work verankert jeden Block in physikalisch realen Energiekosten. Ein Miner muss Elektrizität aufwenden, um eine Nonce mit ausreichend vielen Nullen zu finden. Diese aufgewandte Energie ist nicht fälschbar — die Existenz eines gültigen Block-Hashs beweist den Aufwand. Adam Gibson nennt das "Verdinglichung von Information": Informationen, in die echte Energiekosten eingebettet sind. Jede Manipulation der Vergangenheit würde erfordern, diese Energiekosten neu aufzuwenden.
 
-Wo Ford eine Zentralbehörde (die US-Regierung + Muscle Shoals-Staudamm) brauchte, um die Energiebindung zu garantieren, löst Bitcoin das dezentral: Tausende von Minern weltweit, jeder im Wettbewerb, ohne zentralen Koordinator. Das schließt die Schwachstelle, die Ford selbst nicht überwinden konnte — seine Energie-Währung hätte immer noch jemanden gebraucht, der die Reserven verwaltet.
+Wo Ford eine Zentralbehörde (die US-Regierung + Muscle Shoals-Staudamm) brauchte, um die Energiebindung zu garantieren, löst Bitcoin das dezentral: Tausende von Minern weltweit, jeder im Wettbewerb, ohne zentralen Koordinator. Das schliesst die Schwachstelle, die Ford selbst nicht überwinden konnte — seine Energie-Währung hätte immer noch jemanden gebraucht, der die Reserven verwaltet.
 
 Die Essenz bleibt dieselbe: Geld, das in physikalischen Realitäten verankert ist, kann nicht beliebig erschaffen und nicht von Insidern zugunsten von Insidern verteilt werden.
 

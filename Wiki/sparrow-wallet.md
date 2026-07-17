@@ -60,7 +60,7 @@ Echter Cold-Storage-Anforderungen:
 
 ### Coldcard-Integration (Air-Gapped Setup)
 
-Sparrow unterstützt Coldcard vollständig, einschließlich des vollständig air-gapped Workflows via microSD-Karte. [[sparrowwallet-Setup a Coldcard wallet]]
+Sparrow unterstützt Coldcard vollständig, einschliesslich des vollständig air-gapped Workflows via microSD-Karte. [[sparrowwallet-Setup a Coldcard wallet]]
 
 **Setup-Ablauf (Air-Gapped):**
 
@@ -95,7 +95,7 @@ Sparrow implementiert mehrere Techniken für privateres Transaktieren. [[sparrow
 
 **Stonewall (Fake Coinjoin):** Eine Transaktion, die allein erstellt wird, aber für externe Beobachter wie ein Zwei-Personen-Coinjoin aussieht. Funktioniert mit Hardware-Wallets. Voraussetzung: Das Wallet muss mehr als das Doppelte des Zahlbetrags als Saldo haben. Aktivierung: Im Send-Tab „Privacy" Toggle auswählen.
 
-**Whirlpool Coinjoin:** Sparrow integriert Samourai Wallets Whirlpool-Protokoll direkt. UTXOs werden in eine Pool-Größe (0,01 BTC, 0,05 BTC, etc.) eingebracht, dann in mehreren Mixes mit anderen Teilnehmern versehen, bis die Verbindung zur Herkunft kryptographisch gebrochen ist. Post-Mix-UTXOs werden in einem separaten Konto verwaltet.
+**Whirlpool Coinjoin:** Sparrow integriert Samourai Wallets Whirlpool-Protokoll direkt. UTXOs werden in eine Pool-Grösse (0,01 BTC, 0,05 BTC, etc.) eingebracht, dann in mehreren Mixes mit anderen Teilnehmern versehen, bis die Verbindung zur Herkunft kryptographisch gebrochen ist. Post-Mix-UTXOs werden in einem separaten Konto verwaltet.
 
 **PayNym / BIP47:** Jede Wallet kann einen Payment Code (analog zu einem xpub, aber ohne Wallet-Informationen preiszugeben) erstellen. Payment Codes ermöglichen es, wiederholt an dieselbe Person zu zahlen, ohne jedes Mal eine neue Adresse anfragen zu müssen — und ohne die Privatsphäre des Empfängers zu verletzen. PayNyms sind kurze Aliases für Payment Codes (z.B. `+roundgrass881`). Eine einmalige Notification-Transaktion (546 sats + Fee) verknüpft Sender und Empfänger.
 
@@ -127,7 +127,7 @@ Für Pruned Nodes: Sparrow kann auch mit prunierten Nodes arbeiten; Transaktions
 
 Wer einen eigenen Electrum Server betreiben will, hat drei relevante Optionen (Benchmark auf Raspberry Pi 4, 8 GB RAM, 1 TB USB-SSD, Stand Feb 2022): [[sparrowwallet-Server Performance]]
 
-| Implementierung | Sync-Dauer (Pi 4) | DB-Größe | txindex nötig? | Stärke |
+| Implementierung | Sync-Dauer (Pi 4) | DB-Grösse | txindex nötig? | Stärke |
 |---|---|---|---|---|
 | **Fulcrum** | 2–3 Tage | ~102 GB | Ja | Beste Query-Performance, C++ |
 | **Electrs** | 12–24 Stunden | ~32 GB | Nein | Kleinster Footprint, auf Prebuilt-Nodes verbreitet |
@@ -135,7 +135,7 @@ Wer einen eigenen Electrum Server betreiben will, hat drei relevante Optionen (B
 
 **Sparrow-Empfehlung:** Fulcrum für beste Performance. Electrs für minimalen Speicherbedarf oder Raspberry Pi mit knappem Speicher. ElectrumX ist für öffentliche Server gedacht und auf Heimhardware kaum sinnvoll.
 
-Ein Electrum Server speichert — anders als Bitcoin Core mit Wallet — keine nutzerspezifischen Daten. Alle Wallet-Details bleiben ausschließlich in der Sparrow-Wallet-Datei.
+Ein Electrum Server speichert — anders als Bitcoin Core mit Wallet — keine nutzerspezifischen Daten. Alle Wallet-Details bleiben ausschliesslich in der Sparrow-Wallet-Datei.
 
 ---
 

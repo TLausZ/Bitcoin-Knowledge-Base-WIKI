@@ -25,7 +25,7 @@ Mises unterschied scharf zwischen zwei Konzepten, die im Alltag vermischt werden
 
 **Fallwahrscheinlichkeit (subjektive Wahrscheinlichkeit):** Gilt für einmalige, nicht reproduzierbare Ereignisse. Ob ein bestimmtes Unternehmen in fünf Jahren noch existiert, ob eine Währung Kaufkraft erhält, ob eine politische Entscheidung eine Volkswirtschaft stärkt oder schwächt — all das lässt sich nicht aus statistischer Klasse ableiten. Man kann Meinungen bilden, keine objektiven Wahrscheinlichkeiten berechnen. Solche Unsicherheiten sind nicht versicherbar.
 
-Wirtschaft ist ausschließlich Fallwahrscheinlichkeit. Es gibt keine natürliche Klasse, aus der man sichere Prognosen über künftige Preise, Nachfrage oder politische Entscheidungen ableiten kann.
+Wirtschaft ist ausschliesslich Fallwahrscheinlichkeit. Es gibt keine natürliche Klasse, aus der man sichere Prognosen über künftige Preise, Nachfrage oder politische Entscheidungen ableiten kann.
 
 ### Drei Reaktionen auf Unsicherheit
 
@@ -41,9 +41,9 @@ Alle drei Reaktionen können gleichzeitig auftreten. Ein Unternehmer nutzt Techn
 
 ### Geld als Absicherung gegen Unsicherheit
 
-Hans-Hermann Hoppe erweitert die Mises'sche Geldtheorie: Geld entsteht nicht nur, weil direkter Tausch ineffizient ist, sondern weil Unsicherheit Absicherung erfordert. Wer nicht weiß, was er in einem Monat brauchen wird, hält das am besten verkäufliche Gut — also Geld.
+Hans-Hermann Hoppe erweitert die Mises'sche Geldtheorie: Geld entsteht nicht nur, weil direkter Tausch ineffizient ist, sondern weil Unsicherheit Absicherung erfordert. Wer nicht weiss, was er in einem Monat brauchen wird, hält das am besten verkäufliche Gut — also Geld.
 
-Das "Beste" in diesem Kontext bedeutet: Ein Gut, das zu jedem zukünftigen Zeitpunkt, an jedem zukünftigen Ort und in jeder Menge als Tauschmittel akzeptiert wird. Marktfähigkeit über Zeit, Raum und Maßstab.
+Das "Beste" in diesem Kontext bedeutet: Ein Gut, das zu jedem zukünftigen Zeitpunkt, an jedem zukünftigen Ort und in jeder Menge als Tauschmittel akzeptiert wird. Marktfähigkeit über Zeit, Raum und Massstab.
 
 Gold setzte sich historisch durch, weil es diese Anforderungen besser erfüllte als andere Güter. US-Dollar dominierten im 20. Jahrhundert, weil staatliche Gesetze ihre Akzeptanz erzwangen und Netzwerkeffekte ihre Nutzung verstärkten. Bitcoin konkurriert mit beiden, indem es mathematisch begrenzte Knappheit und permissionslose Übertragbarkeit kombiniert. [[aprycot-node-weltordnung]]
 
@@ -61,13 +61,13 @@ Wer Bitcoin hält, spekuliert darauf, dass:
 - staatliche Einschränkungen den Netzwerkeffekt nicht so stark beschädigen, dass er zusammenbricht
 - kein fundamentaler kryptografischer Angriff die Sicherheitsannahmen bricht
 
-Beide sind Fallwahrscheinlichkeiten. Beide sind spekulativ. Der Unterschied liegt in den Eigenschaften der jeweiligen Spekulation: USD hat staatliche Erzwingung, Netzwerkgröße und kurze Rückkopplungsschleifen. Bitcoin hat mathematisch begrenztes Angebot, keine zentrale Emittenten und keine Möglichkeit, Konsensregeln durch politischen Druck zu ändern.
+Beide sind Fallwahrscheinlichkeiten. Beide sind spekulativ. Der Unterschied liegt in den Eigenschaften der jeweiligen Spekulation: USD hat staatliche Erzwingung, Netzwerkgrösse und kurze Rückkopplungsschleifen. Bitcoin hat mathematisch begrenztes Angebot, keine zentrale Emittenten und keine Möglichkeit, Konsensregeln durch politischen Druck zu ändern.
 
 Goldstein formuliert das direkt: Das nächste Mal, wenn jemand Bitcoin als "reine Spekulation" kritisiert, lohnt sich die Frage zurück: Womit halten Sie Ihr Vermögen? [[aprycot-jeder-ist-ein-spekulant]]
 
 ### Unternehmer als Spezialisten der Spekulation
 
-Der Unternehmer ist bei Mises derjenige, der Fallwahrscheinlichkeiten berufsmäßig navigiert. Er antizipiert künftige Verbraucherpräferenzen, setzt Kapital ein, um sie zu bedienen, und gewinnt, wenn er richtig lag. Verluste sind das Signal, dass er falsch lag.
+Der Unternehmer ist bei Mises derjenige, der Fallwahrscheinlichkeiten berufsmässig navigiert. Er antizipiert künftige Verbraucherpräferenzen, setzt Kapital ein, um sie zu bedienen, und gewinnt, wenn er richtig lag. Verluste sind das Signal, dass er falsch lag.
 
 In einem funktionierenden Markt ohne staatliche Eingriffe korrigieren Unternehmerverluste Fehlallokationen schnell: Wer konsistent falsch liegt, verliert Kapital und muss es anderen überlassen. Das System ist ein dezentrales Entdeckungsverfahren für die Frage, was die Zukunft bringen wird. [[aprycot-jeder-ist-ein-spekulant]]
 
@@ -77,7 +77,7 @@ Bitcoin-Mining ist eine Form unternehmerischer Spekulation: auf Energiekosten, H
 
 Leopold Mattes bringt einen mathematischen Begriff aus der Thermodynamik in die Geldtheorie: Ergodizität. Ein System ist ergodisch, wenn der Zeitmittelwert eines Prozesses — also das Ergebnis eines Akteurs über viele Runden — gleich dem Ensemble-Mittelwert ist, d.h. dem Durchschnittsergebnis über viele Akteure in einem einzigen Moment. Für ergodische Systeme macht es keinen Unterschied, ob man viele Experimente nacheinander oder viele parallele Experimente gleichzeitig betrachtet. [[aprycot-mattes-ergodizitaet-von-geld]]
 
-Der entscheidende Unterschied zeigt sich am Kontrast zwischen Würfelspiel und Russischem Roulette. Beim Würfelspiel: Wer 100-mal wirft, erhält im Mittel dasselbe Ergebnis wie 100 Menschen, die gleichzeitig je einmal würfeln. Das Spiel ist ergodisch. Russisches Roulette: Wer 100-mal spielt, ist mit hoher Wahrscheinlichkeit tot. Die 100 parallelen Spieler verlieren im Mittel nur einen Sechstel. Das Spiel ist nicht ergodisch — weil ein einziger Totalverlust alle weiteren Versuche ausschließt.
+Der entscheidende Unterschied zeigt sich am Kontrast zwischen Würfelspiel und Russischem Roulette. Beim Würfelspiel: Wer 100-mal wirft, erhält im Mittel dasselbe Ergebnis wie 100 Menschen, die gleichzeitig je einmal würfeln. Das Spiel ist ergodisch. Russisches Roulette: Wer 100-mal spielt, ist mit hoher Wahrscheinlichkeit tot. Die 100 parallelen Spieler verlieren im Mittel nur einen Sechstel. Das Spiel ist nicht ergodisch — weil ein einziger Totalverlust alle weiteren Versuche ausschliesst.
 
 Das Kernprinzip: Jede noch so kleine Wahrscheinlichkeit eines Totalverlusts führt über einen ausreichend langen Zeithorizont zum Totalverlust mit Sicherheit. Für einen einzelnen Akteur, der lange genug spielt, ist Nicht-Ergodizität mit Totalverlust gleichbedeutend.
 

@@ -7,7 +7,7 @@
 
 ## Summary
 
-Das Double Responsibility Problem beschreibt das strukturelle Dilemma bei Bitcoin-Backups: Ein Seed-Backup muss gleichzeitig auffindbar (Verlustschutz) und unzugänglich (Diebstahlschutz) sein — zwei Anforderungen, die sich direkt widersprechen. Jede zusätzliche Kopie erhöht die Sicherheit gegen Verlust, vergrößert aber die Angriffsfläche. Fortego löst dieses Dilemma durch Trennung von Backup und Zugangsschlüssel (CodeBook): Wer nur eines hat, kann nichts rekonstruieren.
+Das Double Responsibility Problem beschreibt das strukturelle Dilemma bei Bitcoin-Backups: Ein Seed-Backup muss gleichzeitig auffindbar (Verlustschutz) und unzugänglich (Diebstahlschutz) sein — zwei Anforderungen, die sich direkt widersprechen. Jede zusätzliche Kopie erhöht die Sicherheit gegen Verlust, vergrössert aber die Angriffsfläche. Fortego löst dieses Dilemma durch Trennung von Backup und Zugangsschlüssel (CodeBook): Wer nur eines hat, kann nichts rekonstruieren.
 
 ## Body
 
@@ -21,7 +21,7 @@ Jeder Bitcoiner mit Selbstverwahrung hat dasselbe Dilemma. Zwei Ängste, eine Qu
 
 Der Kern: 12–24 Wörter im Klartext sollen gleichzeitig *auffindbar* und *unsichtbar* sein. Das ist strukturell unmöglich ohne zusätzliche Schicht.
 
-**Mehr Redundanz** senkt Verlustrisiko, vergrößert Angriffsfläche. **Mehr Abschottung** senkt Zugriffsrisiko, erhöht das Risiko, dass das Backup im Notfall oder Erbfall nicht mehr zugänglich ist. Man kann eine Seite verbessern — nur auf Kosten der anderen.
+**Mehr Redundanz** senkt Verlustrisiko, vergrössert Angriffsfläche. **Mehr Abschottung** senkt Zugriffsrisiko, erhöht das Risiko, dass das Backup im Notfall oder Erbfall nicht mehr zugänglich ist. Man kann eine Seite verbessern — nur auf Kosten der anderen.
 
 Fortegos Antwort: Das Backup und der Zugangsschlüssel (CodeBook) werden getrennt aufbewahrt. Wer nur das Backup findet, hat die Wörter, aber keinen Schlüssel zu ihrer Rekonstruktion. Wer nur das CodeBook findet, hat den Schlüssel, aber keine Wörter.
 
@@ -50,7 +50,7 @@ Jede Änderung am CodeBook wird als neuer Eintrag protokolliert — kein stilles
 Das CodeBook liegt in Fortegos Systemen nur verschlüsselt vor. Der Entschlüsselungsschlüssel wird nicht im Klartext gespeichert, sondern über einen verwalteten Schlüsseldienst geschützt und nur im Arbeitsspeicher gehalten. Ein kompromittiertes Dateisystem oder Server-Snapshot reicht für Zugriff nicht aus.
 
 **3. Redundante Geo-Backups**
-Produktivsystem, Sicherungskopien und Wiederherstellungsweg sind bewusst getrennt. Verschiedene Anbieter, geografisch getrennte Speicherorte. Einzelner Systemausfall betrifft nicht alle Kopien. Sicherungskopien werden regelmäßig technisch verifiziert.
+Produktivsystem, Sicherungskopien und Wiederherstellungsweg sind bewusst getrennt. Verschiedene Anbieter, geografisch getrennte Speicherorte. Einzelner Systemausfall betrifft nicht alle Kopien. Sicherungskopien werden regelmässig technisch verifiziert.
 
 **4. User-controlled Freigabe**
 Das CodeBook wird nur auf kontrollierte Anfrage freigegeben. Fortego kann nicht einseitig zugreifen oder freigeben; der Nutzer entscheidet.

@@ -2,8 +2,8 @@
 
 **Status:** established
 **Themen:** self-custody, oekonomie, adoption
-**Last updated:** 2026-06-22
-**Sources:** [[aprycot-vertrau-mir-bruder]]
+**Last updated:** 2026-07-17
+**Sources:** [[aprycot-vertrau-mir-bruder]], [[2024-01-20_Ein Blick in die Glaskugel - Praktische Tipps zum Bitcoin-Kauf]]
 
 ## Summary
 
@@ -25,7 +25,7 @@ Der BlackRock-Antrag von 2023 war ein 1940er-ETF. Farrington hält das für die 
 
 Farrington entwickelt acht Erwartungen, die er explizit zur Falsifizierbarkeit offenlegt:
 
-**1. Der ETF wird genehmigt.** BlackRocks Genehmigungsquote war historisch außergewöhnlich hoch. Faktisch bestätigt: Der Spot-Bitcoin-ETF wurde im Januar 2024 genehmigt.
+**1. Der ETF wird genehmigt.** BlackRocks Genehmigungsquote war historisch aussergewöhnlich hoch. Faktisch bestätigt: Der Spot-Bitcoin-ETF wurde im Januar 2024 genehmigt.
 
 **2. Coinbase wird einziger Authorized Participant.** Als Verwahrer tätig, mit tiefen Beziehungen zu institutionellen Anlegern. Das verschafft Coinbase eine Monopolstellung bei der Erstellung und Rücknahme von ETF-Anteilen. Jeder institutionelle Zugang zu Bitcoin läuft damit über einen einzigen Kontrollpunkt.
 
@@ -33,13 +33,19 @@ Farrington entwickelt acht Erwartungen, die er explizit zur Falsifizierbarkeit o
 
 **4. JPMorgan Cascade.** Wenn JPMorgan oder eine vergleichbare Institution beginnt, über ETF-Anteile mehr Bitcoin zu repräsentieren, als physisch vorhanden ist, entsteht Fraktionalreserve auf Bitcoin — ohne das Bitcoin-Protokoll zu ändern. Das ist das klassische Gold-Problem, das zum Fiat-System führte.
 
-**5. Preiskontrolle durch Futures-Märkte.** Wenn die Preisfindung primär über Derivate stattfindet, können große Akteure den Spotpreis beeinflussen, ohne physisches Bitcoin zu bewegen.
+**5. Preiskontrolle durch Futures-Märkte.** Wenn die Preisfindung primär über Derivate stattfindet, können grosse Akteure den Spotpreis beeinflussen, ohne physisches Bitcoin zu bewegen.
 
 **6. New York Agreement 2.0.** Der erste NY Agreement (2017) versuchte, Bitcoin über einen Konsens der Unternehmen zu verändern. Ein institutionell gestützter zweiter Versuch hätte mehr Ressourcen — und könnte auf andere Protokolländerungen abzielen (z.B. KYC-Anforderungen in Layer-2, Inflation).
 
-**7. ETF-Schutzmaßnahmen gelten nicht.** Wer über einen ETF in Bitcoin investiert, hat die gleichen Gegenparteirisiken wie beim direkten Kauf, aber ohne die Möglichkeit, Bitcoin in einer Krise zu verwenden. Im Black-Swan-Szenario — Bankrott des ETF-Anbieters, staatliche Einfrierung — hält der ETF-Investor wertlose Anteile.
+**7. ETF-Schutzmassnahmen gelten nicht.** Wer über einen ETF in Bitcoin investiert, hat die gleichen Gegenparteirisiken wie beim direkten Kauf, aber ohne die Möglichkeit, Bitcoin in einer Krise zu verwenden. Im Black-Swan-Szenario — Bankrott des ETF-Anbieters, staatliche Einfrierung — hält der ETF-Investor wertlose Anteile.
 
 **8. Bitcoin zu Papier-Bitcoin.** Analog zum Goldstandard: Echtes Bitcoin wird in Verwahrung konzentriert; Papierversprechen auf Bitcoin zirkulieren statt der eigentlichen Coins. Der Prozess, den Hoppe für Gold beschreibt, beginnt sich zu wiederholen. [[aprycot-vertrau-mir-bruder]]
+
+### Der GBTC-Diskont in der Praxis (Januar 2024)
+
+Der Marktstart der Spot-ETFs im Januar 2024 bestätigte Farringtons Punkt zur fehlenden Rücknahme empirisch. Pascal Hügli (Less Noise More Signal) dokumentierte, dass aus Grayscales GBTC — dem ehemaligen 1933er-Trust, der mit der Umwandlung in einen ETF erstmals einlösbar wurde — in den ersten fünf Handelstagen über 2,2 Mrd. USD abflossen; JPMorgan rechnete mit bis zu 10 Mrd. USD. Die jahrelang im Trust gefangenen Anleger realisierten ihr «Geld», sobald sie konnten, verstärkt durch GBTCs mit 1,5 % höchste Gebühr. Der Abfluss war zunächst Verkaufsdruck, sollte laut Hügli aber versiegen — danach würden Netto-Zuflüsse in die günstigeren ETFs preisstützend wirken. [[2024-01-20_Ein Blick in die Glaskugel - Praktische Tipps zum Bitcoin-Kauf]]
+
+Aus Anlegersicht ergänzt Hügli eine praktische Warnung: Spot-ETF nicht mit dem seit Oktober 2021 handelbaren Futures-ETF verwechseln. Letzterer muss seine Terminkontrakte monatlich rollen, was bei Contango zu schleichendem Wertverlust («Contango-Bleed») führt; die ISIN identifiziert das gewünschte Produkt eindeutig. → gebündelt in [[bitcoin-marktkommentar-lnms]], vgl. [[bitcoin-kaufen-und-dca]].
 
 ### Institutionelle Verwahrung ist strukturell schwierig
 
@@ -59,9 +65,9 @@ Farrington nennt vier Ansätze, die diese Lücke angehen könnten:
 
 ### "Vertraue, aber überprüfe"
 
-Farrington schließt mit dem Hinweis, dass die eigentliche Frage nicht "Soll man dem ETF vertrauen?" ist, sondern "Wie baut man Systeme, die Vertrauen überprüfbar machen?" Bitcoin selbst ist die Antwort auf diese Frage für Einzelpersonen. Für Institutionen fehlt die Infrastruktur noch. Bis sie existiert, tragen institutionelle ETF-Nutzer Risiken, die Bitcoin-Nutzer mit Selbstverwahrung nicht haben.
+Farrington schliesst mit dem Hinweis, dass die eigentliche Frage nicht "Soll man dem ETF vertrauen?" ist, sondern "Wie baut man Systeme, die Vertrauen überprüfbar machen?" Bitcoin selbst ist die Antwort auf diese Frage für Einzelpersonen. Für Institutionen fehlt die Infrastruktur noch. Bis sie existiert, tragen institutionelle ETF-Nutzer Risiken, die Bitcoin-Nutzer mit Selbstverwahrung nicht haben.
 
-Das Goldparadox ist lehrreich: Gold war dezentral, aber seine physischen Eigenschaften erzwangen Verwahrung durch Dritte, was schließlich zur Zentralbank führte. Bitcoin hat das physische Verwahrungsproblem gelöst. Das soziale und rechtliche Problem — wie Institutionen Bitcoin halten ohne Kontrolle aufzugeben — ist noch offen.
+Das Goldparadox ist lehrreich: Gold war dezentral, aber seine physischen Eigenschaften erzwangen Verwahrung durch Dritte, was schliesslich zur Zentralbank führte. Bitcoin hat das physische Verwahrungsproblem gelöst. Das soziale und rechtliche Problem — wie Institutionen Bitcoin halten ohne Kontrolle aufzugeben — ist noch offen.
 
 ## Related
 
@@ -73,6 +79,8 @@ Das Goldparadox ist lehrreich: Gold war dezentral, aber seine physischen Eigensc
 - [[regulierung-tofr-aopp]]
 - [[eu-regulierung-selbstverwahrung]]
 - [[miniscript-und-liana]]
+- [[bitcoin-marktkommentar-lnms]]
+- [[bitcoin-treasury-companies]]
 
 ## Open Questions
 

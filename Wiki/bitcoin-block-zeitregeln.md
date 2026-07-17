@@ -13,7 +13,7 @@ Bitcoin verwaltet Zeit bewusst unpräzise. Miner setzen Zeitstempel in jeden Blo
 
 ### Die drei Zeitregeln
 
-**MedianPast Time Rule (Konsensregel):** Ein Block wird nur akzeptiert, wenn sein Zeitstempel größer ist als der Median der letzten 11 Blöcke. Das verhindert, dass die Blockchain zeitlich rückwärts läuft. Weil es ein Median ist, müsste ein Angreifer sechs der letzten elf Blöcke kontrollieren, um es zu umgehen. Blöcke, die diese Regel verletzen, werden von allen Nodes abgelehnt.
+**MedianPast Time Rule (Konsensregel):** Ein Block wird nur akzeptiert, wenn sein Zeitstempel grösser ist als der Median der letzten 11 Blöcke. Das verhindert, dass die Blockchain zeitlich rückwärts läuft. Weil es ein Median ist, müsste ein Angreifer sechs der letzten elf Blöcke kontrollieren, um es zu umgehen. Blöcke, die diese Regel verletzen, werden von allen Nodes abgelehnt.
 
 **Future Block Time Rule (Policy-Regel):** Der Zeitstempel darf nicht mehr als zwei Stunden über der Median-Zeit der Peer-Nodes liegen. Das ist eine Policy-Regel, keine Konsensregel — ein Block kann lokal als „zu weit in der Zukunft" abgelehnt werden, bleibt aber potenziell gültig. Sobald die lokale Zeit aufholt, kann er akzeptiert werden. Das erklärt, warum Block 2.289 früher abgebaut wurde als Block 2.297: Dessen Zeitstempel lag innerhalb der 2-Stunden-Grenze, kam aber früher ins Netzwerk.
 

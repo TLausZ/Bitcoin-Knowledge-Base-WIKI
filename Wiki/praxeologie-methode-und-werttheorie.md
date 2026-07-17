@@ -17,11 +17,11 @@ Die meisten Wissenschaften sind A-posteriori: Sie kommen durch Beobachtung und E
 
 Der Grund: Menschliche Ereignisse sind einmalig und nicht reproduzierbar. Ein Experiment in der Physik kann wiederholt werden; eine historische Wirtschaftsentscheidung nicht. Sozialwissenschaften, die empirisch vorgehen, können nur Modelle bauen — keine universellen Gesetze ableiten. Econometrics ist dazu verdammt, die Vergangenheit zu beschreiben, nicht die Zukunft vorherzusagen.
 
-Außerdem: Sozialwissenschaftliche Experimente sind immer durch die Werte der Forscher geprägt — welche Gruppen werden untersucht, welche Fragen gestellt, welche Ergebnisse als relevant gelten. Praxeologie versucht diese Biases zu eliminieren, indem sie von unbestreitbaren Axiomen ausgeht und nur logisch deduziert.
+Ausserdem: Sozialwissenschaftliche Experimente sind immer durch die Werte der Forscher geprägt — welche Gruppen werden untersucht, welche Fragen gestellt, welche Ergebnisse als relevant gelten. Praxeologie versucht diese Biases zu eliminieren, indem sie von unbestreitbaren Axiomen ausgeht und nur logisch deduziert.
 
 ### Die Ökonometrie-Kritik: Warum Werturteile nicht quantifizierbar sind
 
-Rudi Bednarek schärft diesen Punkt systematisch: Werturteile sind per Definition subjektiv und verändern sich ständig. Es gibt keine beobachtbaren Konstanten zwischen der Außenwelt und individuellem menschlichem Handeln — anders als in der Physik, wo Lichtgeschwindigkeit und Gravitationskonstante invariant sind. [[aprycot-kritik-der-quantitativen-oekonomik]]
+Rudi Bednarek schärft diesen Punkt systematisch: Werturteile sind per Definition subjektiv und verändern sich ständig. Es gibt keine beobachtbaren Konstanten zwischen der Aussenwelt und individuellem menschlichem Handeln — anders als in der Physik, wo Lichtgeschwindigkeit und Gravitationskonstante invariant sind. [[aprycot-kritik-der-quantitativen-oekonomik]]
 
 Die Wissenschaftstheorie unterscheidet nomothetische Wissenschaften (suchen allgemeine Gesetze, die für alle gleichartigen Phänomene gelten) von idiographischen Wissenschaften (beschreiben einmalige Ereignisse). Naturwissenschaften sind nomothetisch. Geschichte ist idiographisch. Die Ökonomik versucht nomothetisch zu sein, trifft dabei aber auf die Tatsache, dass menschliche Handlungen idiographisch sind — jedes Handeln ist ein einmaliges Ereignis, geprägt von subjektiven Werten, die sich von Mensch zu Mensch und von Moment zu Moment unterscheiden.
 
@@ -43,7 +43,7 @@ Aus dem Handlungs-Axiom folgt:
 
 ### Subjektive Wertlehre
 
-Wert ist immer subjektiv. Das folgt zwingend aus dem Handlungs-Axiom, ist keine bloße Meinung. Ein Gut hat keinen inneren Wert. Sein Wert ergibt sich daraus, wie ein handelndes Individuum glaubt, dass es ihm dabei hilft, seine Ziele zu erreichen.
+Wert ist immer subjektiv. Das folgt zwingend aus dem Handlungs-Axiom, ist keine blosse Meinung. Ein Gut hat keinen inneren Wert. Sein Wert ergibt sich daraus, wie ein handelndes Individuum glaubt, dass es ihm dabei hilft, seine Ziele zu erreichen.
 
 Das erklärt das "Diamant-Wasser-Paradox": Wasser ist überlebenswichtig, Diamanten nicht — trotzdem ist Wasser billiger. Die subjektive Wertlehre löst das über den **Grenznutzen**: Nicht der Gesamtnutzen eines Gutes zählt, sondern der Nutzen einer zusätzlichen Einheit. Wasser ist so abundant, dass die letzte verfügbare Einheit einen niedrigen Grenznutzen hat. Diamanten sind so knapp, dass jede Einheit einen hohen Grenznutzen hat.
 
@@ -72,7 +72,7 @@ Zentralplanung scheitert, weil sie das dezentrale Wissen des Markts nicht repliz
 
 ### Unternehmerschaft: Alles Handeln ist Gewinnstreben
 
-Praxeologisch gesehen ist Profit die "attained satisfaction minus forgone satisfaction" — keine Geldgröße, sondern ein subjektiver Zustand. Daraus folgt: Jedes menschliche Handeln sucht Profit, auch Altruismus. Wer Geld spendet, bewertet das gute Gefühl höher als den Geldwert. Selbst Suizid ist praxeologisch ein Gewinnstreben: der Handelnde bewertet den Tod höher als sein Leben.
+Praxeologisch gesehen ist Profit die "attained satisfaction minus forgone satisfaction" — keine Geldgrösse, sondern ein subjektiver Zustand. Daraus folgt: Jedes menschliche Handeln sucht Profit, auch Altruismus. Wer Geld spendet, bewertet das gute Gefühl höher als den Geldwert. Selbst Suizid ist praxeologisch ein Gewinnstreben: der Handelnde bewertet den Tod höher als sein Leben.
 
 Das macht es unmöglich, "gegen Profit zu sein" — man wäre dann automatisch "für Verluste". Was Praxeologie nicht tut: Sie bewertet Motive nicht. Sie zeigt nur, dass alle Handlung auf Unzufriedenheitsreduktion abzielt. Marktgewinn (messbarer Geldüberschuss) ist nur die sichtbare Spitze eines viel weiteren Phänomens.
 

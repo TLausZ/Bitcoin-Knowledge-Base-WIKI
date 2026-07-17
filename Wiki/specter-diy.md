@@ -19,7 +19,7 @@ CryptoAdvance, gegründet 2018 in München vom Quantenphysiker Stepan Snigirev u
 
 ### Kernphilosophie: Vertrauen minimieren
 
-Das Designziel ist nicht Komfort, sondern minimales Vertrauen in Hersteller und Lieferkette. Wer die Standardkomponenten (STM32F469I-DISCO Entwicklerboard, Waveshare QR-Scanner) selbst in normalen Elektronikläden kauft, muss keiner Firma beim Zusammenbau vertrauen. Die Einzelkäufe lassen nicht auf den Bau einer Bitcoin-Wallet schließen (Privatsphäre), kein Hersteller weiß vom Zusammenbau (Supply-Chain-Resistenz), und alle Teile sind in Rohform inspizierbar.
+Das Designziel ist nicht Komfort, sondern minimales Vertrauen in Hersteller und Lieferkette. Wer die Standardkomponenten (STM32F469I-DISCO Entwicklerboard, Waveshare QR-Scanner) selbst in normalen Elektronikläden kauft, muss keiner Firma beim Zusammenbau vertrauen. Die Einzelkäufe lassen nicht auf den Bau einer Bitcoin-Wallet schliessen (Privatsphäre), kein Hersteller weiss vom Zusammenbau (Supply-Chain-Resistenz), und alle Teile sind in Rohform inspizierbar.
 
 Die Firmware ist MIT-lizenziert, vollständig Open-Source auf GitHub, und unterstützt reproduzierbare Builds — jeder kann verifizieren, dass die installierte Binärdatei exakt dem publizierten Quellcode entspricht. Die Embit-Library, die Specter dabei entwickelte, floss in andere DIY-Wallet-Projekte ein (SeedSigner, Krux).
 
@@ -31,7 +31,7 @@ Wer das Gerät fertig montiert bei ClavaStack kauft, gewinnt Komfort, muss dafü
 
 **Specter Shield Lite (190 €)** ergänzt die Basis um einen Smartcard-Slot mit Secure Chip. Zwei Smartcards sind im Lieferumfang. Kein Akku, 3D-gedrucktes Gehäuse. Das Preis-Leistungs-Verhältnis ist das beste der drei Varianten — volle Sicherheitsarchitektur zu einem mit anderen Hardware-Wallets konkurrenzfähigen Preis.
 
-**Specter Shield Metal (399 €)** bietet dasselbe Sicherheitsniveau mit gefrästem Aluminiumgehäuse und integriertem Lithium-Polymer-Akku (3,7 V) — die einzige Variante ohne externe Powerbank. Ladezeit ca. 3,75 Stunden, Akkulaufzeit ca. 4,5 Stunden. Geladen wird ausschließlich über das mitgelieferte Kabel am unteren Port (5 V DC, min. 500 mA); rote LED = lädt, aus = voll. Maße: 13,4 × 6,7 × 2,6 cm, Gewicht 248 g. Lieferumfang: 2 Smartcards (optional getarnt), SD-Karte, 2× Backup Stack Mini für Seedphrase, 5× Tamper-Evident Bags, hochwertiges Stoffmäppchen. Akku nicht selbst wechselbar — eigene Öffnungsversuche erlöschen die Garantie.
+**Specter Shield Metal (399 €)** bietet dasselbe Sicherheitsniveau mit gefrästem Aluminiumgehäuse und integriertem Lithium-Polymer-Akku (3,7 V) — die einzige Variante ohne externe Powerbank. Ladezeit ca. 3,75 Stunden, Akkulaufzeit ca. 4,5 Stunden. Geladen wird ausschliesslich über das mitgelieferte Kabel am unteren Port (5 V DC, min. 500 mA); rote LED = lädt, aus = voll. Masse: 13,4 × 6,7 × 2,6 cm, Gewicht 248 g. Lieferumfang: 2 Smartcards (optional getarnt), SD-Karte, 2× Backup Stack Mini für Seedphrase, 5× Tamper-Evident Bags, hochwertiges Stoffmäppchen. Akku nicht selbst wechselbar — eigene Öffnungsversuche erlöschen die Garantie.
 
 | | Specter DIY | Shield Lite | Shield Metal |
 |---|---|---|---|
@@ -61,7 +61,7 @@ Die Seedphrase-Erzeugung kombiniert mehrere Quellen: den True Random Number Gene
 
 #### Air-Gap-Kommunikation
 
-Das Gerät kommuniziert nach dem initialen Firmware-Flashen (Micro-USB) ausschließlich über QR-Codes und SD-Karte. USB ist optional, wird aber von Specter nicht empfohlen. Diese Architektur hat zwei Vorteile gegenüber USB: Der genaue Datenaustausch ist für jeden sichtbar und verifizierbar, und die Angriffsfläche (Datenmenge und Kommunikationsfrequenz) wird reduziert.
+Das Gerät kommuniziert nach dem initialen Firmware-Flashen (Micro-USB) ausschliesslich über QR-Codes und SD-Karte. USB ist optional, wird aber von Specter nicht empfohlen. Diese Architektur hat zwei Vorteile gegenüber USB: Der genaue Datenaustausch ist für jeden sichtbar und verifizierbar, und die Angriffsfläche (Datenmenge und Kommunikationsfrequenz) wird reduziert.
 
 Der PSBT-Signing-Ablauf läuft so: Die Software-Wallet erstellt eine unsignierte Transaktion, zeigt sie als QR-Code. Das Specter-Gerät scannt, zeigt alle Details auf dem 4-Zoll-Touchscreen (Empfängeradresse, Betrag, In- und Outputs, Locktime, nSequence, Replace-by-Fee), der Nutzer bestätigt. Das Gerät zeigt die signierte Transaktion als QR-Code zurück, die Software-Wallet scannt und broadcastet.
 
@@ -69,7 +69,7 @@ Für die Adressverifizierung wird der QR-Code-Inhalt `bitcoin:<address>?index=<i
 
 Wallets werden per QR mit dem Befehl `addwallet <name>&<descriptor>` importiert. Descriptors folgen dem Bitcoin-Core-Standard, ergänzt um Miniscript-Unterstützung.
 
-Beim PSBT-Signing: Das Gerät sendet nur die globale Transaktion und die Partial Signatures zurück — alle anderen PSBT-Felder werden entfernt, um die QR-Code-Größe zu minimieren. Die Host-Software muss die signierte PSBT mit der ursprünglichen PSBT zusammenführen. Fingerprint `00000000` in der BIP32-Derivation wird durch den echten Geräte-Fingerprint ersetzt, was die Kompatibilität mit Software-Wallets verbessert, die den Fingerprint nicht kennen.
+Beim PSBT-Signing: Das Gerät sendet nur die globale Transaktion und die Partial Signatures zurück — alle anderen PSBT-Felder werden entfernt, um die QR-Code-Grösse zu minimieren. Die Host-Software muss die signierte PSBT mit der ursprünglichen PSBT zusammenführen. Fingerprint `00000000` in der BIP32-Derivation wird durch den echten Geräte-Fingerprint ersetzt, was die Kompatibilität mit Software-Wallets verbessert, die den Fingerprint nicht kennen.
 
 #### USB-Befehlssatz
 
@@ -83,7 +83,7 @@ USB-Kommunikation läuft über menschenlesbare Klartextnachrichten (einfachere F
 | `showaddr <type> <derivation> [witness_script]` | Zeigt Adresse an; type: `wpkh`, `sh-wpkh`, `pkh`, `sh`, `sh-wsh`, `wsh` |
 | `importwallet <name>&<descriptor>` | Nutzer wird zur Bestätigung der neuen Wallet aufgefordert |
 
-USB-Kommunikation ist standardmäßig deaktiviert. Aktivierung unter **Device settings → Communication → USB communication**.
+USB-Kommunikation ist standardmässig deaktiviert. Aktivierung unter **Device settings → Communication → USB communication**.
 
 #### SD-Karte
 
@@ -109,7 +109,7 @@ Das Gerät ist bewusst so gebaut, dass mehrere Koordinations-Apps verwendbar sin
 
 ### Kritikpunkte
 
-Die Lernkurve ist steil — das Gerät richtet sich explizit an fortgeschrittene Nutzer. Der Micro-USB-Anschluss (statt USB-C) ist ein Komfortmangel. Die Geräte sind groß und schwer verglichen mit anderen Hardware-Wallets. Die günstigeren Varianten im 3D-Druck-Gehäuse wirken wie Prototypen. Wer das Gerät fertig kauft, muss dem Zusammenbauer vertrauen. Die Firmware-Sprache ist englisch, deutschsprachige Tutorials gibt es aber.
+Die Lernkurve ist steil — das Gerät richtet sich explizit an fortgeschrittene Nutzer. Der Micro-USB-Anschluss (statt USB-C) ist ein Komfortmangel. Die Geräte sind gross und schwer verglichen mit anderen Hardware-Wallets. Die günstigeren Varianten im 3D-Druck-Gehäuse wirken wie Prototypen. Wer das Gerät fertig kauft, muss dem Zusammenbauer vertrauen. Die Firmware-Sprache ist englisch, deutschsprachige Tutorials gibt es aber.
 
 ## Related
 

@@ -23,15 +23,15 @@ Jameson Lopp, der Wright 2014 auf Twitter und 2017 persönlich in Arnhem traf, b
 
 Der Hintergrund der Satoshi-Inszenierung ist kommerzieller Natur. Stefan Matthews — ein australischer IT-Experte, den Wright von seiner Zeit bei der Glücksspielseite Centrebet kannte — brachte den kanadischen Milliardär Calvin Ayre (Gründer von Bodog) ins Spiel. Matthews arbeitete später für Bodog und war Director in Wrights Firma DeMorgan.
 
-Robert MacGregor, Gründer des kanadischen Geldtransferunternehmens nTrust, schloss im Juni 2015 einen Deal mit Wright. Die Konditionen: Schulden in Australien begleichen, Wrights IP in die neu gegründete Firma nCrypt (Tochter von nTrust) transferieren, und Wright als Satoshi "enthüllen". Laut Andrew O'Hagans Bericht kostete das Paket rund $15 Millionen. Der Plan war, das gesamte IP-Portfolio anschließend als "Satoshi's Werk" für über eine Milliarde Dollar zu verkaufen. Matthews war in Kontakt mit Google, Uber und Schweizer Banken.
+Robert MacGregor, Gründer des kanadischen Geldtransferunternehmens nTrust, schloss im Juni 2015 einen Deal mit Wright. Die Konditionen: Schulden in Australien begleichen, Wrights IP in die neu gegründete Firma nCrypt (Tochter von nTrust) transferieren, und Wright als Satoshi "enthüllen". Laut Andrew O'Hagans Bericht kostete das Paket rund $15 Millionen. Der Plan war, das gesamte IP-Portfolio anschliessend als "Satoshi's Werk" für über eine Milliarde Dollar zu verkaufen. Matthews war in Kontakt mit Google, Uber und Schweizer Banken.
 
-nChain Holdings wurde später an einen Fonds mit Sitz auf Malta verkauft. Ayre, der nach US-amerikanischen Geldwäschevorwürfen jahrelang auf der Flucht war (2012–2017) und schließlich auf ein Vergehen plädierte, behielt über verschachtelte Strukturen wirtschaftlichen Einfluss.
+nChain Holdings wurde später an einen Fonds mit Sitz auf Malta verkauft. Ayre, der nach US-amerikanischen Geldwäschevorwürfen jahrelang auf der Flucht war (2012–2017) und schliesslich auf ein Vergehen plädierte, behielt über verschachtelte Strukturen wirtschaftlichen Einfluss.
 
 ### Australisches Steuer-Schema
 
 Vor der öffentlichen Satoshi-Behauptung hatte Wright ein komplexes Steuer-Schema betrieben. Er gründete die Firma Hotwire, injizierte $30 Millionen in Bitcoin als Kapital, von denen $29 Millionen an seinen eigenen Wright Family Trust für "Software-Lizenzen" flossen. Die GST-Komponente des Kaufpreises war erstattungsfähig. Hotwire beantragte im September 2013 eine GST-Rückerstattung von $3,1 Millionen in bar. Das australische Finanzamt (ATO) hielt die Auszahlung zurück.
 
-Eine weitere Wright-Firma, DeMorgan, stellte den bisher größten R&D-Steuerantrag in Australiens Geschichte. Forbes berichtete, dass die angeblichen Supercomputer, die als R&D-Ausgaben geltend gemacht wurden, nicht existierten.
+Eine weitere Wright-Firma, DeMorgan, stellte den bisher grössten R&D-Steuerantrag in Australiens Geschichte. Forbes berichtete, dass die angeblichen Supercomputer, die als R&D-Ausgaben geltend gemacht wurden, nicht existierten.
 
 ### Widerlegungen der Satoshi-Behauptung
 
@@ -49,7 +49,7 @@ Jameson Lopp dokumentierte 2019 systematisch alle Wright-Behauptungen und ihre W
 
 ### Technische Fehler
 
-Lopp dokumentiert eine Reihe technischer Fehler, die bei einem echten Satoshi nicht zu erwarten wären. Wright behauptete, die Block-Größe sei im Block-Header definiert (falsch). Er brachte secp256k1 mit Bilinear-Pairing-Eigenschaften in Verbindung, was sowohl Andrew Poelstra (Blockstream) als auch Vitalik Buterin widerlegten. Er behauptete, Internetbandbreite könne lokale Bus-Geschwindigkeiten übertreffen (physikalisch unmöglich). Er rechnete Modembandbreite als Bytes statt Bits und lag damit um Faktor 8 daneben. Seinen DNA-Datenspeicher-Claim (gesamtes Internet auf einem DNA-Strang speicherbar) bezifferte Lopp als zehn Größenordnungen zu hoch.
+Lopp dokumentiert eine Reihe technischer Fehler, die bei einem echten Satoshi nicht zu erwarten wären. Wright behauptete, die Block-Grösse sei im Block-Header definiert (falsch). Er brachte secp256k1 mit Bilinear-Pairing-Eigenschaften in Verbindung, was sowohl Andrew Poelstra (Blockstream) als auch Vitalik Buterin widerlegten. Er behauptete, Internetbandbreite könne lokale Bus-Geschwindigkeiten übertreffen (physikalisch unmöglich). Er rechnete Modembandbreite als Bytes statt Bits und lag damit um Faktor 8 daneben. Seinen DNA-Datenspeicher-Claim (gesamtes Internet auf einem DNA-Strang speicherbar) bezifferte Lopp als zehn Grössenordnungen zu hoch.
 
 Wright schrieb einen Aufsatz über Selfish Mining, den Peter R. Rizun analysierte und für fehlerhaft befand: "careless notation, multiple errors in his equations, and a fundamental misunderstanding." Paul Sztorc fand in Wrights SegWit-Kritikpapier eine grundlegend umgekehrte Anwendung der Equation of Exchange.
 
@@ -69,7 +69,7 @@ Wright war die treibende Kraft hinter dem Bitcoin Cash-Split vom November 2018. 
 
 Wright drohte öffentlich und explizit, die Bitcoin ABC-Chain mit einem 51%-Angriff anzugreifen, wenn sein Lager die Hashrate-Mehrheit hätte. CoinGeek (Calvin Ayre), SVPool und BMG Pool kontrollierten zu diesem Zeitpunkt bis zu 60–70 Prozent der BCH-Hashrate. Der Fork fand am 15. November 2018 um 18:07 UTC statt, als Bitcoin.com den ersten BCHABC-Block fand, den das BSV-Netzwerk ablehnte.
 
-Die angedrohten 51%-Angriffe materialisierten sich nicht. Bitcoin ABC konterte mit einem kontrovers diskutierten unangekündigten Checkpoint, der 10-Block-tiefe Reorgs blockierte — eine Maßnahme, die nChain als Beweis sah, dass ABC manipulierbar sei. Nach zwei Wochen erklärte Calvin Ayre den Hash War für beendet, gab den Namen "Bitcoin Cash" und das Ticker-Symbol BCH auf, und Bitcoin SV etablierte sich als eigenständige Kryptowährung. BCHABC handelte bei $150–200, BCHSV bei $75–100.
+Die angedrohten 51%-Angriffe materialisierten sich nicht. Bitcoin ABC konterte mit einem kontrovers diskutierten unangekündigten Checkpoint, der 10-Block-tiefe Reorgs blockierte — eine Massnahme, die nChain als Beweis sah, dass ABC manipulierbar sei. Nach zwei Wochen erklärte Calvin Ayre den Hash War für beendet, gab den Namen "Bitcoin Cash" und das Ticker-Symbol BCH auf, und Bitcoin SV etablierte sich als eigenständige Kryptowährung. BCHABC handelte bei $150–200, BCHSV bei $75–100.
 
 Am Tag des Friedensschlusses postete das ansonsten seit Jahren inaktive Satoshi-Konto auf der P2P Foundation das Wort "nour" (arabisch für "Licht") — Wright postete kurz darauf passende arabische Tweets, was manche als Inszenierung deuteten.
 
@@ -85,7 +85,7 @@ Im April 2019 initiierte Wright via Calvin Ayres Anwaltskanzlei den ersten Schri
 
 Die Exchange-Community antwortete. Kraken delistete BSV im April 2019 nach einer Umfrage mit über 70.000 Nutzern. ShapeShift und Binance folgten.
 
-Parallel lief seit 2018 der Kleiman-Prozess in den USA. Ira Kleiman, Bruder von Wrights verstrombtem Geschäftspartner David Kleiman, klagte auf Herausgabe von 1,1 Millionen Bitcoin, die Wright nach ihrer gemeinsamen Arbeit angeblich vereinnahmt hatte. Magistrate Richter Reinhart hatte Wright's Glaubwürdigkeit bereits 2019 scharf kritisiert. Im Dezember 2021 endete der 15-tägige Prozess mit einem Urteil: Wright muss $100 Millionen zahlen (Schadensersatz wegen Konversion), aber das Gericht ließ offen, ob Wright Satoshi ist.
+Parallel lief seit 2018 der Kleiman-Prozess in den USA. Ira Kleiman, Bruder von Wrights verstrombtem Geschäftspartner David Kleiman, klagte auf Herausgabe von 1,1 Millionen Bitcoin, die Wright nach ihrer gemeinsamen Arbeit angeblich vereinnahmt hatte. Magistrate Richter Reinhart hatte Wright's Glaubwürdigkeit bereits 2019 scharf kritisiert. Im Dezember 2021 endete der 15-tägige Prozess mit einem Urteil: Wright muss $100 Millionen zahlen (Schadensersatz wegen Konversion), aber das Gericht liess offen, ob Wright Satoshi ist.
 
 Im Jahr 2021 verlangte Wright, dass bitcoin.org das Whitepaper entfernt, da er als Satoshi das Copyright halte. bitcoin.org entfernte es zunächst tatsächlich. COPA (Crypto Open Patent Alliance, mitgegründet von Jack Dorsey/Square) klagte im April 2021 vor dem UK High Court auf Feststellung, dass Wright kein Copyright am Whitepaper hat. Ein britisches Gericht bestätigte 2023, dass Wright keine Copyright-Ansprüche am Bitcoin-Code geltend machen kann.
 

@@ -59,7 +59,7 @@ Das klingt banal — ist aber der operative Kern. Wer sich erst dann mit Selbstv
 
 ### Was das bedeutet
 
-Bitcoin ist ein Werkzeug, kein Heilmittel. Er liefert die Infrastruktur für finanzielle Souveränität, aber niemand kann diese Souveränität von außen ausüben. Die Wirkung entsteht durch Beteiligung: eigene Schlüssel halten, eigenen Node betreiben, andere aufklären, die Ressourcen kennen.
+Bitcoin ist ein Werkzeug, kein Heilmittel. Er liefert die Infrastruktur für finanzielle Souveränität, aber niemand kann diese Souveränität von aussen ausüben. Die Wirkung entsteht durch Beteiligung: eigene Schlüssel halten, eigenen Node betreiben, andere aufklären, die Ressourcen kennen.
 
 Gigi verweist auf bankaccountfrozen.com — eine Seite, die unmittelbar nach dem kanadischen Truckerprotest als Notfallressource entstand. Ein Zeichen dafür, dass die Szenarien, die Bitcoin-Befürworter für abstrakt hielten, konkret wurden.
 

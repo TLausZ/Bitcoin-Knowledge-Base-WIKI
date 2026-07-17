@@ -13,7 +13,7 @@ Silent Payments (BIP-352) ermöglichen es, eine einzige statische Adresse (Präf
 
 ### Das Problem mit statischen Adressen
 
-Bei normalen Bitcoin-Adressen sollte für jede Transaktion eine neue Adresse verwendet werden — sonst können alle zugehörigen Transaktionen öffentlich eingesehen und verknüpft werden. Das erfordert aber ständige Interaktion: Wer Spenden sammeln oder regelmäßig Zahlungen empfangen möchte, muss für jede neue Zahlung eine neue Adresse kommunizieren.
+Bei normalen Bitcoin-Adressen sollte für jede Transaktion eine neue Adresse verwendet werden — sonst können alle zugehörigen Transaktionen öffentlich eingesehen und verknüpft werden. Das erfordert aber ständige Interaktion: Wer Spenden sammeln oder regelmässig Zahlungen empfangen möchte, muss für jede neue Zahlung eine neue Adresse kommunizieren.
 
 ### Lösung: ECDH-basierte Adressableitung
 

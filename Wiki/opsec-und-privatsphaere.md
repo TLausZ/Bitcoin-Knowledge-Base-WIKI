@@ -7,15 +7,15 @@
 
 ## Summary
 
-Operational Security (OPSEC) bedeutet für Bitcoin-Nutzer: sorgfältig steuern, welche Informationen über den eigenen Bitcoin-Besitz nach außen dringen. Selbst kleine Details — exakte Beträge, Transaktions-IDs, Adressen — können mit anderen Daten kombiniert werden, um Rückschlüsse auf das Gesamtvermögen zu ziehen. Die größten Risiken entstehen durch unüberlegtes Teilen auf Social Media, unnötige Angeberei und das Preisgeben von Wallet-Strategien in öffentlichen Foren.
+Operational Security (OPSEC) bedeutet für Bitcoin-Nutzer: sorgfältig steuern, welche Informationen über den eigenen Bitcoin-Besitz nach aussen dringen. Selbst kleine Details — exakte Beträge, Transaktions-IDs, Adressen — können mit anderen Daten kombiniert werden, um Rückschlüsse auf das Gesamtvermögen zu ziehen. Die grössten Risiken entstehen durch unüberlegtes Teilen auf Social Media, unnötige Angeberei und das Preisgeben von Wallet-Strategien in öffentlichen Foren.
 
 ## Body
 
 ### Privatsphäre ist keine Geheimhaltung
 
-Eric Hughes eröffnete das Cypherpunk's Manifesto (1993) mit der Unterscheidung: „Privatsphäre ist keine Geheimhaltung. Eine private Angelegenheit ist etwas, von dem man nicht will, dass die ganze Welt es weiß, aber eine geheime Angelegenheit ist etwas, von dem man nicht will, dass es irgendjemand weiß." Was man auf der Toilette tut, ist weder illegal noch geheim — aber man schließt die Tür. Dasselbe gilt für Finanzen.
+Eric Hughes eröffnete das Cypherpunk's Manifesto (1993) mit der Unterscheidung: „Privatsphäre ist keine Geheimhaltung. Eine private Angelegenheit ist etwas, von dem man nicht will, dass die ganze Welt es weiss, aber eine geheime Angelegenheit ist etwas, von dem man nicht will, dass es irgendjemand weiss." Was man auf der Toilette tut, ist weder illegal noch geheim — aber man schliesst die Tür. Dasselbe gilt für Finanzen.
 
-Bitcoin ist bestenfalls pseudonym, nicht anonym. Jede in der Blockchain gespeicherte Transaktion bleibt öffentlich einsehbar, solange Bitcoin existiert. Wer jetzt keine Privatsphäre-Maßnahmen ergreift, riskiert künftige Nachteile — da Blockchain-Analyse mit der Zeit besser, nicht schlechter wird. [[aprycot-gigi-privatsphaere-in-bitcoin.md]]
+Bitcoin ist bestenfalls pseudonym, nicht anonym. Jede in der Blockchain gespeicherte Transaktion bleibt öffentlich einsehbar, solange Bitcoin existiert. Wer jetzt keine Privatsphäre-Massnahmen ergreift, riskiert künftige Nachteile — da Blockchain-Analyse mit der Zeit besser, nicht schlechter wird. [[aprycot-gigi-privatsphaere-in-bitcoin.md]]
 
 ### Acht Bewährte Praktiken (Gigi / Matt Odell)
 
@@ -44,17 +44,17 @@ Jedes geteilte Detail hinterlässt einen digitalen Fingerabdruck. Vor dem Teilen
 
 ### Angeberei vermeiden
 
-Bitcoin war in den vergangenen Jahren eine außergewöhnlich gute Investition. Das kann den Wunsch wecken, Familie, Freunden oder Fremden davon zu erzählen. Das Problem: Man kann nie vorhersagen, was jemand mit der Information „Ich habe sechsstellige Beträge in Bitcoin" anfängt. Im schlimmsten Fall führt es zu physischen Angriffen oder gezieltem Betrug.
+Bitcoin war in den vergangenen Jahren eine aussergewöhnlich gute Investition. Das kann den Wunsch wecken, Familie, Freunden oder Fremden davon zu erzählen. Das Problem: Man kann nie vorhersagen, was jemand mit der Information „Ich habe sechsstellige Beträge in Bitcoin" anfängt. Im schlimmsten Fall führt es zu physischen Angriffen oder gezieltem Betrug.
 
 Auch das Teilen mit Bekannten sollte mit Bedacht geschehen — nicht weil man niemandem vertrauen sollte, sondern weil die Entscheidung bewusst getroffen werden sollte.
 
 ### Wallet-Strategien allgemein halten
 
-In Bitcoin-Foren oder auf Social Media sollte man nicht über die eigene konkrete Backup-Strategie sprechen. Statt „Ich bewahre meine Seedphrase im Passwort-Manager auf — ist das sicher?" besser: „Welche Methoden zur Aufbewahrung von Seedphrases werden empfohlen?" Kleine sprachliche Änderungen reduzieren den digitalen Fußabdruck erheblich.
+In Bitcoin-Foren oder auf Social Media sollte man nicht über die eigene konkrete Backup-Strategie sprechen. Statt „Ich bewahre meine Seedphrase im Passwort-Manager auf — ist das sicher?" besser: „Welche Methoden zur Aufbewahrung von Seedphrases werden empfohlen?" Kleine sprachliche Änderungen reduzieren den digitalen Fussabdruck erheblich.
 
 ### OPSEC im Alltag
 
-Grundlegende OPSEC-Maßnahmen, die sich auf Bitcoin übertragen lassen:
+Grundlegende OPSEC-Massnahmen, die sich auf Bitcoin übertragen lassen:
 - Passwort-Manager für alle Konten
 - Zwei-Faktor-Authentifizierung
 - Datenschutzfreundliche Dienste
@@ -64,7 +64,7 @@ Auch die Nutzung einer Hardware-Wallet und das sichere Verwahren des Backups geh
 
 ### Hardware-Wallet anonym kaufen
 
-Wer keine Spur hinterlassen möchte, dass er eine Hardware-Wallet besitzt, kann das Gerät an eine nicht-persönliche Lieferadresse bestellen. In Deutschland ermöglicht das DHL Packstation oder Postfiliale (mit DHL-Registrierung); in der Schweiz MyPost24-Automaten, PickPost oder Postlagernd (mit Post-Registrierung). Die eigene Wohnadresse erscheint dabei nirgends in den Lieferdaten. Das ist eine verhältnismäßig einfache Maßnahme für Nutzer, die den Besitz einer Hardware-Wallet nicht mit ihrer Hausadresse verknüpfen wollen.
+Wer keine Spur hinterlassen möchte, dass er eine Hardware-Wallet besitzt, kann das Gerät an eine nicht-persönliche Lieferadresse bestellen. In Deutschland ermöglicht das DHL Packstation oder Postfiliale (mit DHL-Registrierung); in der Schweiz MyPost24-Automaten, PickPost oder Postlagernd (mit Post-Registrierung). Die eigene Wohnadresse erscheint dabei nirgends in den Lieferdaten. Das ist eine verhältnismässig einfache Massnahme für Nutzer, die den Besitz einer Hardware-Wallet nicht mit ihrer Hausadresse verknüpfen wollen.
 
 ### Datenschutz beim Wallet-Anbieter: Was Shift Crypto sammelt
 
@@ -73,7 +73,7 @@ Selbst ein seriöser Hardware-Wallet-Anbieter sammelt Daten — zum Beispiel die
 - **Electrum-Server:** Shift betreibt eigene Server für die BitBoxApp. Die IP-Adresse der Verbindung ist bekannt, Bitcoin-Adressen werden nicht geloggt. Für vollständige IP-Anonymisierung: eigenen Node oder Tor nutzen (beides direkt in der BitBoxApp konfigurierbar).
 - **Webshop:** Bestelldaten werden 30 Tage nach Lieferung gelöscht. Kreditkartenzahlungen laufen über Stripe — Shift speichert keine Kartendaten.
 - **Kundensupport:** Ticket-Daten werden 23 Tage nach Schliessen gelöscht.
-- **Pakete:** Versand als "Shift Switzerland", Produktbezeichnung "USB Stick" — kein Hinweis auf Bitcoin oder Hardware-Wallet auf der Außenseite.
+- **Pakete:** Versand als "Shift Switzerland", Produktbezeichnung "USB Stick" — kein Hinweis auf Bitcoin oder Hardware-Wallet auf der Aussenseite.
 
 Der praktische Rat: Wer maximale Privatsphäre will, betreibt einen eigenen Electrum Server oder Bitcoin Full Node und schaltet Tor in der BitBoxApp ein.
 
@@ -83,7 +83,7 @@ Eine Passphrase (das «25. Wort») erzeugt aus denselben 24 Seed-Wörtern eine v
 
 **KYC vs. No-KYC:** Bitcoin von regulierten Börsen landen auf einer Passphrase-Wallet, No-KYC-Bitcoin auf einer anderen. Beide teilen denselben Seed, aber ihre On-Chain-Adressen sind vollständig getrennt — solange man nie UTXOs beider Wallets in derselben Transaktion mischt.
 
-**Wrench-Attack-Schutz (5-Dollar-Schraubenschlüssel-Attacke):** Wer unter physischem Druck steht, kann eine Passphrase für einen kleinen Betrag herausgeben. Der Großteil des Vermögens liegt auf einer anderen Passphrase, die dem Angreifer unbekannt ist.
+**Wrench-Attack-Schutz (5-Dollar-Schraubenschlüssel-Attacke):** Wer unter physischem Druck steht, kann eine Passphrase für einen kleinen Betrag herausgeben. Der Grossteil des Vermögens liegt auf einer anderen Passphrase, die dem Angreifer unbekannt ist.
 
 **Vererbung:** Verschiedene Empfänger können dieselben 24 Wörter erhalten, aber jeder bekommt eine individuelle Passphrase — so hat jeder nur Zugriff auf seinen Teil.
 
@@ -91,25 +91,25 @@ Die Passphrase ist kein Passwort für das Gerät. Sie muss jedes Mal eingegeben 
 
 ### Geräte-OPSEC als Voraussetzung für finanzielle Privatsphäre
 
-Bitcoin-Privatsphäre beginnt nicht auf der Blockchain, sondern auf dem Gerät. Ein Windows-PC mit Standard-Browser zeichnet jeden Besuch einer Börsen-Website auf. App Stores protokollieren Wallet-Downloads. Ein kompromittiertes Gerät macht alle On-Chain-Maßnahmen wertlos.
+Bitcoin-Privatsphäre beginnt nicht auf der Blockchain, sondern auf dem Gerät. Ein Windows-PC mit Standard-Browser zeichnet jeden Besuch einer Börsen-Website auf. App Stores protokollieren Wallet-Downloads. Ein kompromittiertes Gerät macht alle On-Chain-Massnahmen wertlos.
 
 Grundlage für ernsthafte Bitcoin-Privatsphäre: Ein Linux-Betriebssystem (Ubuntu oder ähnlich) oder GrapheneOS auf Android, ein Datenschutz-Browser (LibreWolf oder ähnlich), ein Passwortmanager (Bitwarden) und 2FA für alle Konten. Wer Bitcoin kauft oder verwaltet, sollte das auf einem Gerät tun, das er versteht und kontrolliert.
 
 ### Labeling: Jeden UTXO dokumentieren
 
-Jede eingehende Transaktion sollte sofort mit einem Label versehen werden: Herkunft (Börse, Name, P2P-Kauf), Datum, Zweck. Sparrow Wallet hat eine Labeling-Funktion eingebaut. Das ist keine Bürokratie — wer nicht weiß, woher seine UTXOs stammen, kann beim Ausgeben keine fundierten Privatsphäre-Entscheidungen treffen. KYC-UTXOs, die versehentlich mit No-KYC-UTXOs gemischt werden, verlieren ihren Privatsphärevorteil dauerhaft.
+Jede eingehende Transaktion sollte sofort mit einem Label versehen werden: Herkunft (Börse, Name, P2P-Kauf), Datum, Zweck. Sparrow Wallet hat eine Labeling-Funktion eingebaut. Das ist keine Bürokratie — wer nicht weiss, woher seine UTXOs stammen, kann beim Ausgeben keine fundierten Privatsphäre-Entscheidungen treffen. KYC-UTXOs, die versehentlich mit No-KYC-UTXOs gemischt werden, verlieren ihren Privatsphärevorteil dauerhaft.
 
 ### Bitcoin-Steuern in Deutschland (Überblick)
 
-Bitcoin gilt in Deutschland steuerrechtlich als privates Veräußerungsgeschäft. Die wichtigsten Regeln (Stand 2025, kein Steuerberatungsersatz):
+Bitcoin gilt in Deutschland steuerrechtlich als privates Veräusserungsgeschäft. Die wichtigsten Regeln (Stand 2025, kein Steuerberatungsersatz):
 
 Wer Bitcoin länger als ein Jahr hält und dann verkauft, zahlt keine Kapitalertragsteuer — unabhängig vom Gewinn. Wer innerhalb eines Jahres verkauft, versteuert den Gewinn mit dem persönlichen Einkommensteuersatz. Liegt der Gewinn (nicht der Verkaufserlös) unter 600 € pro Kalenderjahr, ist er steuerfrei; wird die Grenze überschritten, muss der gesamte Betrag versteuert werden.
 
-Als Verkauf gilt jede Transaktion, bei der Bitcoin gegen einen Gegenwert getauscht werden — also auch der Kauf eines Produkts mit Bitcoin. Transfers zwischen eigenen Wallets sind keine Veräußerung. Zur Berechnung der Haltefrist wird FIFO angewendet: Die zuerst gekauften Bitcoin gelten als zuerst verkauft.
+Als Verkauf gilt jede Transaktion, bei der Bitcoin gegen einen Gegenwert getauscht werden — also auch der Kauf eines Produkts mit Bitcoin. Transfers zwischen eigenen Wallets sind keine Veräusserung. Zur Berechnung der Haltefrist wird FIFO angewendet: Die zuerst gekauften Bitcoin gelten als zuerst verkauft.
 
 ### Ausnahmen: Wann Transparenz sinnvoll ist
 
-Es gibt Situationen, wo offenes Sprechen über den eigenen Bitcoin-Besitz wichtig ist — vor allem bei der **Vererbungsplanung**. Wenn niemand weiß, dass man Bitcoin besitzt oder wo das Backup liegt, sind die Coins für Erben effektiv verloren.
+Es gibt Situationen, wo offenes Sprechen über den eigenen Bitcoin-Besitz wichtig ist — vor allem bei der **Vererbungsplanung**. Wenn niemand weiss, dass man Bitcoin besitzt oder wo das Backup liegt, sind die Coins für Erben effektiv verloren.
 
 ## Related
 
@@ -123,5 +123,5 @@ Es gibt Situationen, wo offenes Sprechen über den eigenen Bitcoin-Besitz wichti
 
 ## Open Questions
 
-- Wie weit sollte man OPSEC in der Praxis treiben? Wo wird es unverhältnismäßig?
+- Wie weit sollte man OPSEC in der Praxis treiben? Wo wird es unverhältnismässig?
 - Welche Steuer-Tools (Blockpit, Koinly) respektieren ihrerseits die Privatsphäre der Nutzerdaten?

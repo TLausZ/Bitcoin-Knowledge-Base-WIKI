@@ -13,7 +13,7 @@ Moritz Albrecht unterscheidet zwei grundlegend verschiedene Konzepte, die beide 
 
 ### Die begriffliche Weggabelung
 
-Albrecht beginnt mit einer Unterscheidung, die im politischen Diskurs regelmäßig verwischt wird:
+Albrecht beginnt mit einer Unterscheidung, die im politischen Diskurs regelmässig verwischt wird:
 
 **Gleichheit vor dem Recht** bedeutet, dass alle Menschen denselben rechtlichen Status haben. Kein Mensch steht über oder unter dem Gesetz aufgrund seiner Eigenschaften. Das ist das Kernprinzip des Rechtsstaats: Regeln gelten universell, unabhängig von Herkunft, Vermögen oder Status.
 
@@ -47,7 +47,7 @@ Niemand ist dafür moralisch verantwortlich: Es gibt kein handelndes Subjekt, da
 
 ### Die eigentliche Frage
 
-Albrecht schließt nicht mit dem Argument, Armut oder Diskriminierung zu ignorieren. Sein Punkt ist ein anderer: Ergebnisgleichheit als politisches Ziel ist weder erreichbar noch als Maßstab für Gerechtigkeit geeignet, weil sie von Voraussetzungen abhängt, die nicht erfüllt werden können.
+Albrecht schliesst nicht mit dem Argument, Armut oder Diskriminierung zu ignorieren. Sein Punkt ist ein anderer: Ergebnisgleichheit als politisches Ziel ist weder erreichbar noch als Massstab für Gerechtigkeit geeignet, weil sie von Voraussetzungen abhängt, die nicht erfüllt werden können.
 
 Die konstruktive Alternative lautet: Gleichheit vor dem Recht konsequent durchsetzen, Bildung und Mobilität fördern, und akzeptieren, dass unterschiedliche Menschen bei gleichen Regeln unterschiedliche Ergebnisse erzielen werden. Das ist kein Rückzug aus gesellschaftlicher Verantwortung, sondern eine realistischere Definition von dem, was Recht und Politik leisten können.
 

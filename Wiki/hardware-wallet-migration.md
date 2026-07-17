@@ -7,7 +7,7 @@
 
 ## Summary
 
-Der Wechsel zwischen Hardware-Wallets erfordert keine Blockchain-Transaktionen, wenn beide Geräte denselben BIP-39-Standard unterstützen. Die 12 oder 24 Wiederherstellungswörter (Seed) werden einfach auf der neuen Wallet wiederhergestellt — die Coins bewegen sich nicht, nur die kontrollierende Hardware wechselt. Die wichtigste Fußnote: Trezors neuerer SLIP-39-Standard (20 Wörter) ist mit praktisch keiner anderen Wallet kompatibel.
+Der Wechsel zwischen Hardware-Wallets erfordert keine Blockchain-Transaktionen, wenn beide Geräte denselben BIP-39-Standard unterstützen. Die 12 oder 24 Wiederherstellungswörter (Seed) werden einfach auf der neuen Wallet wiederhergestellt — die Coins bewegen sich nicht, nur die kontrollierende Hardware wechselt. Die wichtigste Fussnote: Trezors neuerer SLIP-39-Standard (20 Wörter) ist mit praktisch keiner anderen Wallet kompatibel.
 
 ## Body
 

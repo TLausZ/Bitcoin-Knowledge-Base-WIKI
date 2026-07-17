@@ -13,7 +13,7 @@ Die optionale Passphrase (BIP-39) ist ein zusätzliches Wort oder ein Satz, der 
 
 ### Was die Passphrase leistet
 
-Die Passphrase erweitert die Standard-Seedphrase (12 oder 24 Wörter) um ein weiteres Element. Das Ergebnis ist eine vollständig neue, unabhängige Wallet. Wer nur die Seedphrase hat, sieht nur die Standard-Wallet ohne Passphrase — die eigentliche Wallet bleibt unsichtbar. Dieser Mechanismus heißt Plausible Deniability: Man kann die Existenz der Passphrase-geschützten Wallet glaubhaft leugnen.
+Die Passphrase erweitert die Standard-Seedphrase (12 oder 24 Wörter) um ein weiteres Element. Das Ergebnis ist eine vollständig neue, unabhängige Wallet. Wer nur die Seedphrase hat, sieht nur die Standard-Wallet ohne Passphrase — die eigentliche Wallet bleibt unsichtbar. Dieser Mechanismus heisst Plausible Deniability: Man kann die Existenz der Passphrase-geschützten Wallet glaubhaft leugnen.
 
 ### Warum microSD-Backups nicht verschlüsselt werden
 
@@ -25,7 +25,7 @@ Die BitBox02 löst das Problem anders: Das microSD-Backup bleibt unverschlüssel
 
 Die Passphrase ist das Einfachste der Welt, um sich selbst aus der Wallet auszusperren. Häufige Fehler:
 
-- **Tippfehler:** Groß/Kleinschreibung und Leerzeichen zählen. Eine falsch aufgeschriebene Passphrase ergibt eine andere Wallet mit leerem Saldo, ohne Fehlermeldung.
+- **Tippfehler:** Gross/Kleinschreibung und Leerzeichen zählen. Eine falsch aufgeschriebene Passphrase ergibt eine andere Wallet mit leerem Saldo, ohne Fehlermeldung.
 - **Verlust:** Wenn die Passphrase verloren geht, gibt es keine Wiederherstellung. Sie ist bewusst nirgends gespeichert.
 - **Komplexität ohne Verständnis:** Wer nicht versteht, dass jede Passphrase eine gültige Wallet erzeugt, kann seinen eigenen Fehler nicht erkennen.
 
@@ -44,7 +44,7 @@ Diese Funktion ist nur wirksam, wenn die Duress-Wallet glaubwürdig aussieht (d.
 
 ### Wann sinnvoll, wann nicht
 
-Die Passphrase ist ein Expertenwerkzeug. Eine gut konfigurierte Single-Signature Hardware-Wallet ohne Passphrase bietet bereits ein außergewöhnlich hohes Sicherheitsniveau. Die Passphrase empfiehlt sich in spezifischen Szenarien: wenn die physische Sicherheit des Backups kompromittiert sein könnte, oder wenn Plausible Deniability gewünscht wird (z.B. bei Grenzkontrollen oder Erpressungsszenarien).
+Die Passphrase ist ein Expertenwerkzeug. Eine gut konfigurierte Single-Signature Hardware-Wallet ohne Passphrase bietet bereits ein aussergewöhnlich hohes Sicherheitsniveau. Die Passphrase empfiehlt sich in spezifischen Szenarien: wenn die physische Sicherheit des Backups kompromittiert sein könnte, oder wenn Plausible Deniability gewünscht wird (z.B. bei Grenzkontrollen oder Erpressungsszenarien).
 
 ### UX-Verbesserung: Mehr Kontext bei der Aktivierung
 

@@ -15,7 +15,7 @@ Phoenix ist eine selbstverwahrendes Lightning-Wallet für iOS und Android, entwi
 
 Phoenix ist kein Custodial-Wallet und kein Proxy zu einem Server-seitigen Node. Die Wallet betreibt einen vollständigen Lightning-Node auf dem Smartphone. Das unterscheidet Phoenix von Wallets wie Wallet of Satoshi (rein custodial) oder Zeus (Remote-Control zu einem externen Node).
 
-Phoenix verbindet sich ausschließlich mit dem ACINQ-Node und nutzt dessen Liquidität. Das ist keine technische Einschränkung, sondern eine Designentscheidung: Die Zielgruppe sind technisch weniger erfahrene Nutzer, für die ein Multi-Peer-Setup zu komplex wäre.
+Phoenix verbindet sich ausschliesslich mit dem ACINQ-Node und nutzt dessen Liquidität. Das ist keine technische Einschränkung, sondern eine Designentscheidung: Die Zielgruppe sind technisch weniger erfahrene Nutzer, für die ein Multi-Peer-Setup zu komplex wäre.
 
 Anforderungen: iOS 16+ oder Android 8+. Ein Testnet-Modus existiert nur für Android.
 
@@ -27,7 +27,7 @@ Phoenix ist ehrlich über seine Grenzen:
 - Aktuell bietet Phoenix keinen Datenschutzvorteil gegenüber custodial Wallets
 - Zukünftige Versionen sollen Trampoline Payments mit Blinded Paths implementieren, die ACINQ den Empfänger verbergen
 
-Was Phoenix dagegen nicht ist: ACINQ kann keine Gelder einfrieren oder stehlen. Der Nutzer hält die privaten Schlüssel. Wenn ACINQ verschwindet, schließt Phoenix die Channels on-chain und der Nutzer kann den Seed in jede BIP39-Wallet importieren.
+Was Phoenix dagegen nicht ist: ACINQ kann keine Gelder einfrieren oder stehlen. Der Nutzer hält die privaten Schlüssel. Wenn ACINQ verschwindet, schliesst Phoenix die Channels on-chain und der Nutzer kann den Seed in jede BIP39-Wallet importieren.
 
 Die Channel-Eröffnung bei eingehenden Lightning-Zahlungen erfordert Vertrauen bis zur Bestätigung der Funding-Transaktion. Bei on-chain Deposits ist kein Vertrauen nötig, weil Phoenix die Transaktion direkt finanziert.
 
@@ -51,7 +51,7 @@ Inbound Liquidity ist die Kapazität auf der ACINQ-Seite des Channels, die besti
 
 **Automatisches Management**: Phoenix öffnet oder modifiziert (splicet) Channels automatisch, wenn eingehende Zahlungen die verfügbare Liquidität überschreiten. Dies kostet 1% + Mining-Gebühr.
 
-**Liquiditätsreservierung**: Wenn Phoenix Liquidität schafft, reserviert es diese für ein Jahr — ACINQ beansprucht sie in dieser Zeit nicht zurück. Nach einem Jahr kann ACINQ die ungenutzte Liquidität zurückfordern (ohne den Channel zu schließen oder das Guthaben zu ändern). Aktive Nutzer erleben kein Problem: Bei regelmäßiger Nutzung wird die Reservierung automatisch erneuert. Nutzer können jederzeit manuell zusätzliche Liquidität anfordern.
+**Liquiditätsreservierung**: Wenn Phoenix Liquidität schafft, reserviert es diese für ein Jahr — ACINQ beansprucht sie in dieser Zeit nicht zurück. Nach einem Jahr kann ACINQ die ungenutzte Liquidität zurückfordern (ohne den Channel zu schliessen oder das Guthaben zu ändern). Aktive Nutzer erleben kein Problem: Bei regelmässiger Nutzung wird die Reservierung automatisch erneuert. Nutzer können jederzeit manuell zusätzliche Liquidität anfordern.
 
 ### Swap-in Wallet: On-chain → Lightning
 
@@ -69,7 +69,7 @@ Wiederherstellung erfolgt durch Import des 12-Wort-Seeds in eine neue Phoenix-In
 
 Was nicht wiederhergestellt wird: Zahlungshistorie. Diese ist lokal gespeichert und nicht im Seed enthalten.
 
-Der Seed ist plattformübergreifend kompatibel (Android ↔ iOS). Er ist auch ein Standard-BIP39-Seed und kann in andere Wallets importiert werden — allerdings erfordert der Zugriff auf Lightning-Channel-Guthaben typischerweise das vorherige Schließen der Channels.
+Der Seed ist plattformübergreifend kompatibel (Android ↔ iOS). Er ist auch ein Standard-BIP39-Seed und kann in andere Wallets importiert werden — allerdings erfordert der Zugriff auf Lightning-Channel-Guthaben typischerweise das vorherige Schliessen der Channels.
 
 **Einschränkung**: Denselben Seed in zwei gleichzeitig aktiven Phoenix-Instanzen zu nutzen führt zu Channel-Konflikten und möglichen Force-Closes. Ein Seed, eine Instanz.
 

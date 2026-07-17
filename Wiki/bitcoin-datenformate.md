@@ -13,7 +13,7 @@ Bitcoin-Daten werden konsequent in Hexadezimal (Bytes) dargestellt. Nahezu alle 
 
 ### Hexadezimal
 
-Bitcoin-Daten werden immer als Hex-Strings dargestellt. Hexadezimal (Basis 16) verwendet die Zeichen `0-9` und `A-F` (Groß- oder Kleinschreibung gleichwertig). Ein Byte = 2 Hex-Zeichen = 8 Bits.
+Bitcoin-Daten werden immer als Hex-Strings dargestellt. Hexadezimal (Basis 16) verwendet die Zeichen `0-9` und `A-F` (Gross- oder Kleinschreibung gleichwertig). Ein Byte = 2 Hex-Zeichen = 8 Bits.
 
 Präfixe zur Unterscheidung von Zahlensystemen:
 - `0x` = Hexadezimal (z.B. `0xFF` = 255)
@@ -24,7 +24,7 @@ Bitcoin Private Keys, TXIDs, Block-Hashes — alles wird als Hex-String ausgegeb
 
 ### Bytes
 
-Ein **Byte** = 8 Bits = 2 Hex-Zeichen. Wichtige Größen in Bitcoin:
+Ein **Byte** = 8 Bits = 2 Hex-Zeichen. Wichtige Grössen in Bitcoin:
 
 | Daten | Bytes |
 |-------|-------|

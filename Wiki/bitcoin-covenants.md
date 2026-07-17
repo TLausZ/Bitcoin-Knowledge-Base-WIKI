@@ -7,7 +7,7 @@
 
 ## Summary
 
-Covenants sind Ausgabebedingungen in Bitcoin-Transaktionen, die nicht nur einschränken, *ob* Coins ausgegeben werden dürfen, sondern auch *wohin* sie als nächstes fließen können. Die beiden wichtigsten Vorschläge sind Check Template Verify (CTV) und CheckTXHashVerify. Sie sind noch nicht in Bitcoin aktiviert, würden aber wichtige neue Anwendungen ermöglichen: Vaults, Congestion-Control und Kanal-Fabriken für Lightning.
+Covenants sind Ausgabebedingungen in Bitcoin-Transaktionen, die nicht nur einschränken, *ob* Coins ausgegeben werden dürfen, sondern auch *wohin* sie als nächstes fliessen können. Die beiden wichtigsten Vorschläge sind Check Template Verify (CTV) und CheckTXHashVerify. Sie sind noch nicht in Bitcoin aktiviert, würden aber wichtige neue Anwendungen ermöglichen: Vaults, Congestion-Control und Kanal-Fabriken für Lightning.
 
 ## Body
 
@@ -15,7 +15,7 @@ Covenants sind Ausgabebedingungen in Bitcoin-Transaktionen, die nicht nur einsch
 
 In herkömmlichem Bitcoin-Script legen Ausgabebedingungen fest, wer Coins ausgeben darf (privater Schlüssel, Multisig, Zeitsperre). Sobald die Bedingung erfüllt ist, können die Coins an beliebige Adressen gesendet werden.
 
-Covenants gehen weiter: Sie schränken ein, **wohin** Bitcoin nach der Ausgabe fließen können — ähnlich wie ein physischer Vertrag, der vorschreibt, an wen eine Immobilie weiterverkauft werden darf.
+Covenants gehen weiter: Sie schränken ein, **wohin** Bitcoin nach der Ausgabe fliessen können — ähnlich wie ein physischer Vertrag, der vorschreibt, an wen eine Immobilie weiterverkauft werden darf.
 
 ### Check Template Verify (CTV)
 

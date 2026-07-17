@@ -7,13 +7,13 @@
 
 ## Summary
 
-Der erste und wichtigste praktische Schritt für einen Bitcoin-Einsteiger ist der Umzug der Coins von der Börse in eine eigene Wallet. Michael Wolfs "Bitcoin-Ratgeber" beschreibt diesen Umzug als konkreten Fünf-Schritte-Ablauf und stellt ein Prinzip in den Mittelpunkt: mit einem kleinen Testbetrag anfangen, die Wiederherstellung prüfen, erst dann größere Summen bewegen. Ein Adressfehler ist nicht rückgängig zu machen, deshalb testet man jeden Schritt, bevor Vertrauen entsteht.
+Der erste und wichtigste praktische Schritt für einen Bitcoin-Einsteiger ist der Umzug der Coins von der Börse in eine eigene Wallet. Michael Wolfs "Bitcoin-Ratgeber" beschreibt diesen Umzug als konkreten Fünf-Schritte-Ablauf und stellt ein Prinzip in den Mittelpunkt: mit einem kleinen Testbetrag anfangen, die Wiederherstellung prüfen, erst dann grössere Summen bewegen. Ein Adressfehler ist nicht rückgängig zu machen, deshalb testet man jeden Schritt, bevor Vertrauen entsteht.
 
 ## Body
 
 ### Warum der Umzug zuerst kommt
 
-Wer Bitcoin auf einer Börse hält, besitzt einen Schuldschein, keine Bitcoin. Der Kollaps von FTX 2022 machte das für viele konkret: Die Coins existierten, sie gehörten nur jemand anderem. Das Leitmotiv des Ratgebers, "Don't trust, verify", meint auch das Buch selbst — kleine Beträge testen, bevor man mit größeren Summen handelt. Die technische und wirtschaftliche Begründung steht in [[selbstverwahrung-und-boersenrisiken]].
+Wer Bitcoin auf einer Börse hält, besitzt einen Schuldschein, keine Bitcoin. Der Kollaps von FTX 2022 machte das für viele konkret: Die Coins existierten, sie gehörten nur jemand anderem. Das Leitmotiv des Ratgebers, "Don't trust, verify", meint auch das Buch selbst — kleine Beträge testen, bevor man mit grösseren Summen handelt. Die technische und wirtschaftliche Begründung steht in [[selbstverwahrung-und-boersenrisiken]].
 
 ### Der Fünf-Schritte-Ablauf
 
@@ -25,7 +25,7 @@ Wer Bitcoin auf einer Börse hält, besitzt einen Schuldschein, keine Bitcoin. D
 
 ### Der Testbetrag als Grundregel
 
-Niemals sofort alles senden. Ein Fehler bei der Adresse ist unumkehrbar, es gibt keine Hotline und keine Stornierung. Der Testbetrag kostet nur eine kleine Gebühr und ein paar Minuten Wartezeit, deckt aber jeden Bedienfehler auf, bevor er teuer wird. Dieselbe Logik gilt für die Wiederherstellung: Die Recovery mit einem kleinen Betrag ausprobieren, bevor größere Summen von ihr abhängen.
+Niemals sofort alles senden. Ein Fehler bei der Adresse ist unumkehrbar, es gibt keine Hotline und keine Stornierung. Der Testbetrag kostet nur eine kleine Gebühr und ein paar Minuten Wartezeit, deckt aber jeden Bedienfehler auf, bevor er teuer wird. Dieselbe Logik gilt für die Wiederherstellung: Die Recovery mit einem kleinen Betrag ausprobieren, bevor grössere Summen von ihr abhängen.
 
 ### Custodial oder Non-Custodial
 
@@ -42,7 +42,7 @@ Der Ratgeber fasst das im Bitcoin-Grundsatz "Not your keys, not your coins" zusa
 
 ### Wallet-Wahl für den Einstieg
 
-Software-Wallets ("Hot Wallets") sind mit dem Internet verbunden und für kleinere Alltagsbeträge gedacht: Aqua (einfach, iOS und Android) oder Sparrow (Desktop, Open Source, mehr Kontrolle). Hardware-Wallets sind physische Geräte, deren privater Schlüssel das Gerät nie verlässt; der Ratgeber empfiehlt sie ab einigen hundert Euro Bestand und nennt BitBox02, Trezor Safe 7 und Coldcard Mk4. Hardware-Wallets ausschließlich direkt beim Hersteller kaufen, nie über eBay, Amazon oder secondhand — sonst droht ein manipuliertes Gerät. Details in [[hardware-wallet-einstieg]] und [[hardware-wallet-sicherheitsarchitektur]].
+Software-Wallets ("Hot Wallets") sind mit dem Internet verbunden und für kleinere Alltagsbeträge gedacht: Aqua (einfach, iOS und Android) oder Sparrow (Desktop, Open Source, mehr Kontrolle). Hardware-Wallets sind physische Geräte, deren privater Schlüssel das Gerät nie verlässt; der Ratgeber empfiehlt sie ab einigen hundert Euro Bestand und nennt BitBox02, Trezor Safe 7 und Coldcard Mk4. Hardware-Wallets ausschliesslich direkt beim Hersteller kaufen, nie über eBay, Amazon oder secondhand — sonst droht ein manipuliertes Gerät. Details in [[hardware-wallet-einstieg]] und [[hardware-wallet-sicherheitsarchitektur]].
 
 ### Die ersten Satoshis
 

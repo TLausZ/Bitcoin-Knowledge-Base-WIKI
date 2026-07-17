@@ -82,7 +82,7 @@ Steiner warnt selbst, dass die Sicherheit mit steigender Rechenleistung zu hinte
 
 Stärken des Ansatzes: keine Software, kein Gerät, keine digitale Angriffsfläche. Für Menschen, die keine technische Infrastruktur aufbauen wollen, ist es ein praktikabler Einstieg — solange die 8-Wort-Sicherheitsmarge dem eigenen Risikoprofil entspricht. [[Vorlage für «Poor Man Shamir's Secret Sharing Scheme»]]
 
-Das Schema wird inzwischen auch in der deutschsprachigen Einsteiger-Bildung vermittelt (Nowak, 2025), dort verbunden mit der Empfehlung, (fast) immer 24 statt 12 Wörter zu verwenden — die 8-Wort-Marge des Poor-Man-Schemas existiert nur bei 24 Wörtern. Aus demselben Kontext stammt ein oft übersehener Praxishinweis zur Lagerung: Wer seine Seedphrase in einem externen Bankschließfach deponiert, ist über die Schließfachversicherung in der Regel nur für den Materialwert des Trägers gedeckt (die Stahlplatte, nicht die Coins dahinter). Das Schließfach schützt also physisch, ersetzt aber keine Redundanz — geht der Inhalt verloren, gibt es keinen Ausgleich. [[20251130_heartmoney-schau-hin-der-tiger-greift-an]]
+Das Schema wird inzwischen auch in der deutschsprachigen Einsteiger-Bildung vermittelt (Nowak, 2025), dort verbunden mit der Empfehlung, (fast) immer 24 statt 12 Wörter zu verwenden — die 8-Wort-Marge des Poor-Man-Schemas existiert nur bei 24 Wörtern. Aus demselben Kontext stammt ein oft übersehener Praxishinweis zur Lagerung: Wer seine Seedphrase in einem externen Bankschliessfach deponiert, ist über die Schliessfachversicherung in der Regel nur für den Materialwert des Trägers gedeckt (die Stahlplatte, nicht die Coins dahinter). Das Schliessfach schützt also physisch, ersetzt aber keine Redundanz — geht der Inhalt verloren, gibt es keinen Ausgleich. [[20251130_heartmoney-schau-hin-der-tiger-greift-an]]
 
 ### Unterschied zu Multisig
 
@@ -97,7 +97,7 @@ Bei Multisig werden mehrere unabhängige Schlüssel verwendet — das Geheimnis 
 
 ### Anwendung in Bitcoin: FROST
 
-FROST (*Flexible Round-Optimized Schnorr Threshold*) ist die entscheidende Weiterentwicklung: Es kombiniert SSS mit Schnorr-Signaturen so, dass das Geheimnis **nie** vollständig rekonstruiert werden muss. Stattdessen erzeugt jeder Share-Inhaber einen Teil der Signatur, und die Teile werden aggregiert — das Private Key bleibt verteilt. Das schließt das Rekonstruktions-Sicherheitsleck von klassischem SSS.
+FROST (*Flexible Round-Optimized Schnorr Threshold*) ist die entscheidende Weiterentwicklung: Es kombiniert SSS mit Schnorr-Signaturen so, dass das Geheimnis **nie** vollständig rekonstruiert werden muss. Stattdessen erzeugt jeder Share-Inhaber einen Teil der Signatur, und die Teile werden aggregiert — das Private Key bleibt verteilt. Das schliesst das Rekonstruktions-Sicherheitsleck von klassischem SSS.
 
 SLIP-39 (verwendet von Trezor für Seed-Backup) ist dagegen klassisches SSS: Die Shares müssen zur Rekonstruktion der Seed-Phrase zusammengebracht werden.
 

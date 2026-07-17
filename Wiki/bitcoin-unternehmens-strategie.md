@@ -2,8 +2,8 @@
 
 **Status:** established
 **Themen:** oekonomie, philosophie, adoption, kritik
-**Last updated:** 2026-06-29
-**Sources:** [[The Bitcoin Newsletter #3 - Bitcoin, banks, and treasury management]], [[The Bitcoin Newsletter #4 - Bitcoin stocks]], [[The Bitcoin Newsletter #6 - Venture capital]], [[The Bitcoin Newsletter #7 - Why companies need to integrate Bitcoin into their strategies for long-term success]], [[The Bitcoin Newsletter #8 - How to be successful in Bitcoin]], [[The Bitcoin Newsletter 12 - How Bitcoin could change the financial industry]], [[The Bitcoin Newsletter 14 - How Bitcoin & Nostr foster innovation without institutional credit]], [[The Strategy Playbook_ Lessons for Real Estate Entrepreneurs]], [[From Cypherpunks to Corporations_ What Corporate Adoption Means For Bitcoin]], [[The Metaplanet Story_ From Crisis to a Bitcoin Standard]]
+**Last updated:** 2026-07-17
+**Sources:** [[The Bitcoin Newsletter #3 - Bitcoin, banks, and treasury management]], [[The Bitcoin Newsletter #4 - Bitcoin stocks]], [[The Bitcoin Newsletter #6 - Venture capital]], [[The Bitcoin Newsletter #7 - Why companies need to integrate Bitcoin into their strategies for long-term success]], [[The Bitcoin Newsletter #8 - How to be successful in Bitcoin]], [[The Bitcoin Newsletter 12 - How Bitcoin could change the financial industry]], [[The Bitcoin Newsletter 14 - How Bitcoin & Nostr foster innovation without institutional credit]], [[The Strategy Playbook_ Lessons for Real Estate Entrepreneurs]], [[From Cypherpunks to Corporations_ What Corporate Adoption Means For Bitcoin]], [[The Metaplanet Story_ From Crisis to a Bitcoin Standard]], [[2024-11-14_The Convertible Bond Trader - Microstrategy is making every TradFi pro pay attention to Bi]], [[2025-01-23_Senior Analyst - Bitcoin-linked stock market is growing rapidly]], [[2025-01-13_Will Meta Be the Next Tech Giant to Adopt Bitcoin as a Treasury Asset]], [[2025-04-24_Investment activist Matt Cole - Bitcoin and AI will shape tomorrow’s S&P 500 winners]], [[2026-01-19_From Hype to Value - Opportunities in Digital Asset Treasury Space]], [[2026-07-04_Bitcoin Is Cheap. But Is It Cheap Enough]], [[20260717_bitcointreasuries-top100-public-companies]]
 
 ## Summary
 
@@ -47,7 +47,7 @@ Unternehmen mit Bitcoin-Treasury wie MicroStrategy (MSTR) und Square (SQ) — ih
 Strategy (früher MicroStrategy) unter Michael Saylor hat ein Finanzierungsmodell entwickelt, das Wankum (TBN #29) als "Bitcoin Flywheel" beschreibt. Es funktioniert in drei Schritten:
 
 1. **Equity oder Wandelanleihen emittieren** — Strategy emittierte bis 2025 über $8,21 Milliarden in Wandelanleihen mit einem Durchschnittszins von 0,421%. Das ist billiges Kapital.
-2. **Erlöse in Bitcoin konvertieren** — Das Kapital fließt nicht in operative Expansion, sondern direkt in Bitcoin-Käufe.
+2. **Erlöse in Bitcoin konvertieren** — Das Kapital fliesst nicht in operative Expansion, sondern direkt in Bitcoin-Käufe.
 3. **mNAV-Premium nutzen** — Strategy handelte long über ihrem Net Asset Value (mNAV > 1), weil der Markt die Bitcoin-Strategie mit einem Aufschlag bewertete. Neue Aktienemissionen zu diesem Kurs sind automatisch wertsteigernd für bestehende Aktionäre, solange mNAV > 1.
 
 Kennzahl "BTC Yield": Strategy verfolgt die Bitcoin-Anzahl pro Aktie als primäre Performance-Kennzahl. Wankum bezeichnet das als die relevanteste Metrik für die Bitcoin-Strategie. [[The Strategy Playbook_ Lessons for Real Estate Entrepreneurs]]
@@ -70,7 +70,7 @@ Die Logik: Jede Adoptionsstufe öffnet die nächste. ETF-Zulassung (2024) war de
 
 Wankum schätzt das adressierbare Kapital: Globale Unternehmenstreasuriees halten Billionen in Cash und Cash-Äquivalenten. Selbst eine marginale Rotation in Bitcoin bedeutet massive Nachfrageschübe.
 
-Risiken: Wankum benennt sie direkt. Wenn große Custodians (ETF-Anbieter, Verwahrstellen) einen dominierenden Anteil aller Bitcoin halten, entsteht eine neue Zentralisierungsebene — nicht auf Protokollebene, aber auf Besitzebene. Das steht in Spannung mit Bitcoins Original-Versprechen der selbstsouveränen Verwahrung. [[From Cypherpunks to Corporations_ What Corporate Adoption Means For Bitcoin]]
+Risiken: Wankum benennt sie direkt. Wenn grosse Custodians (ETF-Anbieter, Verwahrstellen) einen dominierenden Anteil aller Bitcoin halten, entsteht eine neue Zentralisierungsebene — nicht auf Protokollebene, aber auf Besitzebene. Das steht in Spannung mit Bitcoins Original-Versprechen der selbstsouveränen Verwahrung. [[From Cypherpunks to Corporations_ What Corporate Adoption Means For Bitcoin]]
 
 ### Bitcoin und Innovation ohne institutionellen Kredit
 
@@ -84,16 +84,32 @@ Pierre Rochard beschreibt den "spekulativen Angriff" auf Fiat-Währungen: Ration
 
 Wankum wendet dieses Modell auf Unternehmensfinanzierung an: Wandelanleihen zu niedrigem Zinssatz aufnehmen, Bitcoin kaufen, von der Bitcoin-Appreziation profitieren. Strategy hat bewiesen, dass das funktioniert. Entscheidend ist der Spread: Anleihen bei 0,4% Zinsen, Bitcoin-CAGR historisch >50% — die Differenz ist der Gewinn.
 
+### Der Treasury-Trade aus TradFi-Sicht (LNMS-Interviews)
+
+Pascal Hüglis Less-Noise-More-Signal-Reihe dokumentiert dieselbe Bewegung aus der Perspektive der Kapitalmarkt-Praktiker, die der MSTR-Trade anzieht. Richard Byworth, aus dem Wandelanleihen-Geschäft kommend, erklärt die Mechanik hinter Strategys BTC-Käufen — Wandelanleihen und ATM-Offerings («At-The-Market») — und wie sie klassische TradFi-Investoren erstmals auf Bitcoin aufmerksam macht. [[2024-11-14_The Convertible Bond Trader - Microstrategy is making every TradFi pro pay attention to Bi]] James Van Straten beschreibt den rasch wachsenden «Bitcoin-linked» Aktienmarkt, den Sonderfall überschuldeter «Zombie»-Unternehmen, die sich über eine Treasury neu erfinden, und die Rolle der FASB-Bilanzregeln (Fair-Value-Bewertung von Bitcoin). [[2025-01-23_Senior Analyst - Bitcoin-linked stock market is growing rapidly]]
+
+Zwei Interviews schärfen die strategische Begründung. Ethan Peck vertritt Shareholder-Aktivismus: Konzerne wie Microsoft, Amazon und Meta sollten aus fiduziarischer Pflicht ihre Cash- und Bond-Bestände zugunsten von Bitcoin überprüfen. [[2025-01-13_Will Meta Be the Next Tech Giant to Adopt Bitcoin as a Treasury Asset]] Matt Cole verbindet den Treasury-Trade mit dem KI-Umbruch: Firmen, deren Kerngeschäft von KI bedroht ist, könnten über eine Bitcoin-Reserve und ein höheres Risikoprofil (Stichwort Hurdle Rate, Fallbeispiel GameStop) in einem kapitalknappen Umfeld bestehen. [[2025-04-24_Investment activist Matt Cole - Bitcoin and AI will shape tomorrow’s S&P 500 winners]], [[2026-01-19_From Hype to Value - Opportunities in Digital Asset Treasury Space]], [[2026-07-04_Bitcoin Is Cheap. But Is It Cheap Enough]] Die Interviews liegen als Podcast-Zusammenfassungen mit Pro-Bitcoin-Bias vor; Gästeüberblick in [[bitcoin-marktkommentar-lnms]].
+
+Ein Marktschnappschuss vom 17. Juli 2026 (bitcointreasuries.net) quantifiziert diesen Druck: Strategys Cost Basis liegt bei $63'690M gegen $54'090M aktuellen BTC-Wert (NgU 0.85x), das mNAV bei 1.017; die Prämie, aus der das Flywheel schöpft, ist damit praktisch aufgebraucht. Kleinere Treasury-Vehikel notieren verbreitet unter NAV (mNAV 0.6–0.9). Volle Tabelle, Haltertypen und Kennzahlen in [[bitcoin-treasury-companies]]. [[20260717_bitcointreasuries-top100-public-companies]]
+
+### Der Treasury-Sektor unter Druck (2026)
+
+Nach dem Bärenmarkt 2025/26 dokumentiert Hügli die Kehrseite des Treasury-Trades. Seine Analyse zum Digital-Asset-Treasury-Space (Januar 2026) beschreibt einen Sektor, der stark derisked hat: viele Equity-Wetten würden nicht mehr zurückkommen, doch einzelne Chancen blieben. Für Strategys verschiedene Preferreds liefert er einen Vergleichsrahmen und fragt, ob MSTR bereits in der Buy-Zone ist. [[2026-01-19_From Hype to Value - Opportunities in Digital Asset Treasury Space]]
+
+Schärfer fällt die Kritik von Charles Edwards aus (Hausanalyse Juli 2026): Der Treasury-Sektor sei überfüllt und gehebelt, und Strategy habe einen Stapel «wobbly» Finanzprodukte auf Bitcoin errichtet. In Verbindung mit dem Quanten-Overhang und der Kapitalkonkurrenz durch KI mache das den laufenden Bärenmarkt schwerer navigierbar — das eigentliche Risiko sei die Dauer, nicht nur der Preis. Das ist das direkte Gegenstück zur mNAV-Flywheel-Logik oben: Solange mNAV > 1 gilt, trägt das Modell; ein überfüllter, gehebelter Sektor testet genau diese Bedingung. [[2026-07-04_Bitcoin Is Cheap. But Is It Cheap Enough]] Gästeüberblick in [[bitcoin-marktkommentar-lnms]].
+
 ## Related
 
 - [[bitcoin-und-immobilien]]
 - [[bitcoin-als-inflationsschutz]]
 - [[bitcoin-als-strategische-reserve]]
+- [[bitcoin-marktkommentar-lnms]]
 - [[bitcoin-volatilitaet-und-preisfindung]]
 - [[kapital-und-bitcoin]]
 - [[oesterreichische-kapital-und-geldtheorie]]
 - [[selbstverwahrung-und-boersenrisiken]]
 - [[bitcoin-monetarisierung]]
+- [[bitcoin-treasury-companies]]
 
 ## Open Questions
 

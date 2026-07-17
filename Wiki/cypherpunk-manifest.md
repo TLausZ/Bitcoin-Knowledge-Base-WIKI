@@ -25,7 +25,7 @@ Das Gegenmodell: Systeme, bei denen Identität nur dann enthüllt wird, wenn der
 
 ### Kryptographie als Werkzeug
 
-Privatsphäre erfordert Kryptographie. Ohne Verschlüsselung ist jede Kommunikation potenziell öffentlich. Die kryptografische Signatur ermöglicht es umgekehrt, Identität auf Wunsch zu beweisen, wenn das System standardmäßig anonym ist.
+Privatsphäre erfordert Kryptographie. Ohne Verschlüsselung ist jede Kommunikation potenziell öffentlich. Die kryptografische Signatur ermöglicht es umgekehrt, Identität auf Wunsch zu beweisen, wenn das System standardmässig anonym ist.
 
 Hughes' Konsequenz: Privatsphäre kann nicht durch gesetzliche Regulierung gesichert werden — Regierungen, Unternehmen und andere Institutionen haben strukturelle Interessen an der Enthüllung von Informationen. Vertrauen auf Institutionen reicht nicht aus.
 
@@ -45,7 +45,7 @@ Bitcoin löst das konkrete Problem, das Hughes beschreibt: digitale Wertübertra
 
 Gigi zieht in einem Essay (Blockzeit 741471) eine strukturelle Analogie zwischen der Entwicklung des Internets und Bitcoin. Das World Wide Web begann 1989 mit HTTP — Klartext, alles offen, für jeden sichtbar. Erst 1994 (SSL durch Netscape) und formal 1999 (RFC 2818 / HTTPS) wurde Verschlüsselung zum Standard. Der Wandel geschah nicht durch politischen Druck, sondern weil ein Protokoll ein besseres ablöste.
 
-Die Konsequenz fehlender Verschlüsselung — PRISM, ECHELON, massenhafte Überwachung — wurde durch Edward Snowdens Enthüllungen sichtbar. HTTPS ist heute so selbstverständlich wie fließendes Wasser. Der Weg dorthin war langsam und schmerzhaft.
+Die Konsequenz fehlender Verschlüsselung — PRISM, ECHELON, massenhafte Überwachung — wurde durch Edward Snowdens Enthüllungen sichtbar. HTTPS ist heute so selbstverständlich wie fliessendes Wasser. Der Weg dorthin war langsam und schmerzhaft.
 
 Gigis These: Das Gleiche passiert jetzt bei Finanzdaten. Finanztransaktionen im Klartext — analysierbar von jedem, gebündelt in Datenbanken, abrufbar von Regierungen — entsprechen dem HTTP-Zeitalter. Bitcoin mit den Datenschutzeigenschaften von Lightning wäre das Äquivalent zu HTTPS: kein Vertrauen in Infrastruktur nötig, kein Angriffspunkt für Massenüberwachung. [[aprycot-gigi-freiheit-privatsphaere]]
 

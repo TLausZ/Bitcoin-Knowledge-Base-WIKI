@@ -19,7 +19,7 @@ Fortschritt erfordert drei Dinge gleichzeitig: Kapitalakkumulation, technologisc
 
 ### Der Ursprung des Geldes
 
-In der gleichmäßig ablaufenden Wirtschaft von Mises gibt es kein Geld — alles ist bekannt, kein Handeln nötig. In der realen Welt ist die Zukunft unbekannt. Menschen erwerben deshalb Güter nicht um ihrer selbst willen, sondern weil sie erwarten, dass andere diese Güter wünschen werden. Aus diesem Prozess entsteht Geld: das am besten verkäufliche Gut, das übrig bleibt, wenn die weniger marktgängigen Tauschmittel nach und nach verdrängt werden.
+In der gleichmässig ablaufenden Wirtschaft von Mises gibt es kein Geld — alles ist bekannt, kein Handeln nötig. In der realen Welt ist die Zukunft unbekannt. Menschen erwerben deshalb Güter nicht um ihrer selbst willen, sondern weil sie erwarten, dass andere diese Güter wünschen werden. Aus diesem Prozess entsteht Geld: das am besten verkäufliche Gut, das übrig bleibt, wenn die weniger marktgängigen Tauschmittel nach und nach verdrängt werden.
 
 Gold setzte sich durch, weil es haltbar, teilbar, fungibel und schwer zu vermehren war. Diese Eigenschaften sind notwendig, aber — wie sich zeigen sollte — nicht hinreichend.
 
@@ -31,13 +31,13 @@ Der Staat zielt deshalb darauf ab, sein Geldmonopol ideologisch zu verankern. �
 
 ### Gold war nicht die Lösung
 
-Gold hat einen entscheidenden Schwachpunkt: Überprüfung ist teuer. Die hochwertigste Methode, den Goldgehalt einer Münze zu prüfen, ist die Feuerprobe — Einschmelzen, Wiegen, Neugießen. Das erfordert Fachleute und Ausrüstung; keine normale Person kann das automatisch durchführen.
+Gold hat einen entscheidenden Schwachpunkt: Überprüfung ist teuer. Die hochwertigste Methode, den Goldgehalt einer Münze zu prüfen, ist die Feuerprobe — Einschmelzen, Wiegen, Neugiessen. Das erfordert Fachleute und Ausrüstung; keine normale Person kann das automatisch durchführen.
 
 Münzprägeanstalten lösten das Vertrauensproblem, schufen aber ein neues: Sie konnten Münzen einziehen, den Goldgehalt senken und die Münzen zum selben Nennwert zurückbringen — stille Enteignung durch Entwertung. Der Goldstandard minimierte Unsicherheit über Qualität, indem er ein zentralisiertes Vertrauenssystem aufbaute — genau das, was der Staat für seine Zwecke nutzen konnte.
 
 Der nächste Schritt: Papiergeld. Hoppe beschreibt den Prozess:
 
-1. Münzprägung monopolisieren — Gold wird psychologisch verstaatlicht; der Übergang von Gewichtsmaß zu staatlichem Label.
+1. Münzprägung monopolisieren — Gold wird psychologisch verstaatlicht; der Übergang von Gewichtsmass zu staatlichem Label.
 2. Geldsubstitute fördern — Papierscheine statt physisches Gold. Fälschungen werden billiger.
 3. Gold bei der Zentralbank konzentrieren — Banken hinterlegen Gold, handeln im Alltag nur noch mit Noten.
 
@@ -49,7 +49,7 @@ Fiat-Währungen ermöglichen Geldimperialismus: Ein dominanter Staat kann seine 
 
 Auf individueller Ebene: Bankkonten werden ohne Begründung gesperrt, Zahlungen an bestimmte Händler oder Länder blockiert. Die Fähigkeit, mit dem eigenen Geld umzugehen, ist von der Zustimmung Dritter abhängig.
 
-Keynes beschrieb die Inflationsdynamik bereits 1919 präzise: „Durch einen fortlaufenden Prozess der Inflation können Regierungen heimlich und unbeobachtet einen großen Teil des Reichtums ihrer Bürger konfiszieren." [[aprycot-keynes-ueber-inflation]] Der Effekt ist nicht nur Verarmung, sondern willkürliche Umverteilung — manche werden durch Inflation reich (Cantillon-Effekt), andere arm. Die sichtbaren Nutznießer werden als "Profiteure" beschimpft, obwohl sie nur früher an das neue Geld kommen. Die eigentliche Ursache — die Inflation selbst — bleibt politisch unangefochten.
+Keynes beschrieb die Inflationsdynamik bereits 1919 präzise: „Durch einen fortlaufenden Prozess der Inflation können Regierungen heimlich und unbeobachtet einen grossen Teil des Reichtums ihrer Bürger konfiszieren." [[aprycot-keynes-ueber-inflation]] Der Effekt ist nicht nur Verarmung, sondern willkürliche Umverteilung — manche werden durch Inflation reich (Cantillon-Effekt), andere arm. Die sichtbaren Nutzniesser werden als "Profiteure" beschimpft, obwohl sie nur früher an das neue Geld kommen. Die eigentliche Ursache — die Inflation selbst — bleibt politisch unangefochten.
 
 ### Bitcoin als technische Lösung
 
@@ -57,7 +57,7 @@ Satoshi Nakamoto kombinierte 2009 existierende Technologien — Hash-Bäume, Pub
 
 **Münzprägungsmonopol:** Bitcoin überprüft die Gültigkeit jeder Einheit automatisch und kryptografisch. Ein Full Node muss keiner Münzprägeanstalt vertrauen; er berechnet selbst, ob jede UTXO gültig ist.
 
-**Geldsubstitute:** Bitcoin hat Lagerungs- und Transportkosten, die Gold um Größenordnungen unterbieten. Ein privater Schlüssel — 256 Bit — kostet genauso viel zu speichern, ob er einen Satoshi oder tausend Bitcoin hält. Die Kosten skalieren nicht mit dem Wert. Das macht Geldsubstitute weniger notwendig: Man kann Bitcoin selbst halten, ohne eine Bank zu brauchen.
+**Geldsubstitute:** Bitcoin hat Lagerungs- und Transportkosten, die Gold um Grössenordnungen unterbieten. Ein privater Schlüssel — 256 Bit — kostet genauso viel zu speichern, ob er einen Satoshi oder tausend Bitcoin hält. Die Kosten skalieren nicht mit dem Wert. Das macht Geldsubstitute weniger notwendig: Man kann Bitcoin selbst halten, ohne eine Bank zu brauchen.
 
 **Zentralbank:** Ein Full Node überprüft alle Konsensregeln unabhängig. Es gibt keine zentrale Instanz, bei der man Gold hinterlegen müsste. Das Netzwerk ist so konzipiert, dass ein Node in einem Bunker mit einer einzigen Internetverbindung funktioniert — ohne einem anderen Node vertrauen zu müssen.
 
@@ -73,7 +73,7 @@ Militärische Eroberungen werden weniger wahrscheinlich, wenn Kriegskosten direk
 
 ### IWF/Weltbank als institutioneller Fiat-Mechanismus (Gladstein)
 
-Alex Gladstein zeigt, dass das Fiat-System keine abstrakte Theorie ist, sondern konkrete Institutionen hat: IWF und Weltbank sind die Transmissionsriemen des Dollar-Imperialismus in Entwicklungsländer. Die Mechanik: USA drucken Dollars → IWF verleiht Dollars → Schuldnerländer müssen Dollar-Schulden bedienen → Länder müssen exportieren, was Dollar einbringt → Ressourcen fließen aus der Peripherie in die Kernländer.
+Alex Gladstein zeigt, dass das Fiat-System keine abstrakte Theorie ist, sondern konkrete Institutionen hat: IWF und Weltbank sind die Transmissionsriemen des Dollar-Imperialismus in Entwicklungsländer. Die Mechanik: USA drucken Dollars → IWF verleiht Dollars → Schuldnerländer müssen Dollar-Schulden bedienen → Länder müssen exportieren, was Dollar einbringt → Ressourcen fliessen aus der Peripherie in die Kernländer.
 
 Saifedean Ammous, zitiert von Gladstein: „Die Entwicklungsländer bestehen aus Ländern, die zu dem Zeitpunkt, als ein inflationäres Weltwährungssystem 1914 an die Stelle eines relativ soliden Systems trat, noch keine modernen industriellen Technologien eingeführt hatten. Dieses dysfunktionale Weltwährungssystem hat die Entwicklung dieser Länder kontinuierlich beeinträchtigt."
 
@@ -87,7 +87,7 @@ Gigi ergänzt den moralischen Aspekt: Fiat-Geld ist nicht nur wirtschaftlich ine
 
 Robert Breedlove zeigt in „Herren und Sklaven des Geldes" (2020), dass Währungsmanipulation kein modernes Phänomen ist. Zwei Fallstudien aus der Geschichte machen das Prinzip greifbar.
 
-**Akori-Perlen im westafrikanischen Sklavenhandel.** Jahrhundertelang dienten Akori-Glasperlen als anerkanntes Geld in Westafrika. Ihre Knappheit war real: afrikanische Glasherstellungstechnologie war primitiv, die Perlen schwer herzustellen. Als europäische Entdecker im 16. Jahrhundert erkannten, dass sie zu Hause identisch aussehende Perlen zu Massenpreisen produzieren konnten, organisierten sie Expeditionen. Schiffe mit gefälschten Perlen im Rumpf tauschten wertlose Glasstücke gegen Lebensvieh, Nahrung, Land — und schließlich gegen Menschen. Akori-Perlen wurden später als „Sklavenperlen" bekannt. Breedloves Kalkulation: Über 365 Jahre wurden 12,5 Millionen Afrikaner versklavt. Bei 40 Lebensjahren und 5.000 Arbeitsstunden pro Jahr entspricht das über 2,5 Billionen gestohlenen Arbeitsstunden. [[aprycot-breedlove-herren-und-sklaven-des-geldes]]
+**Akori-Perlen im westafrikanischen Sklavenhandel.** Jahrhundertelang dienten Akori-Glasperlen als anerkanntes Geld in Westafrika. Ihre Knappheit war real: afrikanische Glasherstellungstechnologie war primitiv, die Perlen schwer herzustellen. Als europäische Entdecker im 16. Jahrhundert erkannten, dass sie zu Hause identisch aussehende Perlen zu Massenpreisen produzieren konnten, organisierten sie Expeditionen. Schiffe mit gefälschten Perlen im Rumpf tauschten wertlose Glasstücke gegen Lebensvieh, Nahrung, Land — und schliesslich gegen Menschen. Akori-Perlen wurden später als „Sklavenperlen" bekannt. Breedloves Kalkulation: Über 365 Jahre wurden 12,5 Millionen Afrikaner versklavt. Bei 40 Lebensjahren und 5.000 Arbeitsstunden pro Jahr entspricht das über 2,5 Billionen gestohlenen Arbeitsstunden. [[aprycot-breedlove-herren-und-sklaven-des-geldes]]
 
 **Panos-Stoffstreifen in Portugiesisch-Westafrika.** Panos — Stoffstreifen aus lokaler Produktion — waren ein weiteres etabliertes Tauschmedium. Die Portugiesen übernahmen die Produktion mit überlegener Technologie, monopolisierten sie durch die staatlich geförderte Grão Pará and Maranhão Company und zwangen Sklaven dazu, genau jene Stoffstreifen herzustellen, mit denen ihre Gefangennahme finanziert worden war. Der schottische Historiker Christopher Fyfe dokumentierte diesen Kreislauf. [[aprycot-breedlove-herren-und-sklaven-des-geldes]]
 

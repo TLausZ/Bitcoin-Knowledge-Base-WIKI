@@ -7,7 +7,7 @@
 
 ## Summary
 
-Die EU-Geldwäscheregulierungen betreffen hauptsächlich Börsen und Finanzdienstleister — nicht Non-Custodial-Wallet-Hersteller oder deren Nutzer. Das EU-Gesetz schließt Anbieter von Hardware und Software selbst gehosteter Wallets ausdrücklich aus. Selbstverwahrung bleibt legal und technisch uneinschränkbar. Die eigentliche Bedrohung für Selbstverwahrer kommt von Börsenseite: Travel Rule und Satoshi-Tests.
+Die EU-Geldwäscheregulierungen betreffen hauptsächlich Börsen und Finanzdienstleister — nicht Non-Custodial-Wallet-Hersteller oder deren Nutzer. Das EU-Gesetz schliesst Anbieter von Hardware und Software selbst gehosteter Wallets ausdrücklich aus. Selbstverwahrung bleibt legal und technisch uneinschränkbar. Die eigentliche Bedrohung für Selbstverwahrer kommt von Börsenseite: Travel Rule und Satoshi-Tests.
 
 ## Body
 
@@ -33,7 +33,7 @@ BitBox erhebt minimale Daten und anonymisiert Bestelldaten nach 30 Tagen. Bestel
 
 Während Selbstverwahrung selbst unreguliert bleibt, schreiben die Travel Rule und die EU-Transferverordnung (ToFR) Börsen vor, beim Abheben in nicht-verwaltete Wallets die Wallet-Inhaberschaft zu verifizieren. Börsen nutzen dafür häufig den sogenannten Satoshi-Test: eine winzige Testabhebung, deren genauen Betrag der Nutzer zurückmelden muss.
 
-Das Problem: Der Satoshi-Test ist auf technischer Ebene nicht schlüssig. Der genaue Betrag einer Transaktion ist öffentlich auf der Blockchain einsehbar — jeder, der die Adresse kennt, kann den Betrag ablesen. Außerdem entstehen bei Wechselgeld-Outputs Abweichungen, die zu falschen Negativergebnissen führen können.
+Das Problem: Der Satoshi-Test ist auf technischer Ebene nicht schlüssig. Der genaue Betrag einer Transaktion ist öffentlich auf der Blockchain einsehbar — jeder, der die Adresse kennt, kann den Betrag ablesen. Ausserdem entstehen bei Wechselgeld-Outputs Abweichungen, die zu falschen Negativergebnissen führen können.
 
 AOPP (Address Ownership Proof Protocol) ist eine sauberere Alternative: Die Wallet signiert eine Nachricht mit dem privaten Schlüssel der Bitcoin-Adresse, was den Eigentümernachweis kryptografisch beweist, ohne Testbeträge zu überweisen. Allerdings haben mehrere Schweizer Hardware-Wallet-Hersteller AOPP nach Nutzerprotesten 2022 wieder entfernt — die Debatte über datenschutzkonforme Adressverifikation ist nicht abgeschlossen.
 

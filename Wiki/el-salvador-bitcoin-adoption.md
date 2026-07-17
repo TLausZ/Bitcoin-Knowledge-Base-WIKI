@@ -44,7 +44,7 @@ El Salvadors BIP hängt zu 23% von Remittances ab — mehr als 2,5× der zentral
 
 ### Bukeles Autoritarismus — Der Widerspruch
 
-Zeitgleich mit dem Bitcoin-Gesetz entließ Bukele über 100 Richter. Der von ihm besetzte Oberste Gerichtshof erlaubte ihm, verfassungswidrig für eine zweite Amtszeit zu kandidieren. Die Human Rights Foundation (Gladsteins Arbeitgeber) kritisierte diese Maßnahmen scharf. Bukele verfolgte ein Muster, das dem venezolanischen unter Chávez ähnelte — nur schneller.
+Zeitgleich mit dem Bitcoin-Gesetz entliess Bukele über 100 Richter. Der von ihm besetzte Oberste Gerichtshof erlaubte ihm, verfassungswidrig für eine zweite Amtszeit zu kandidieren. Die Human Rights Foundation (Gladsteins Arbeitgeber) kritisierte diese Massnahmen scharf. Bukele verfolgte ein Muster, das dem venezolanischen unter Chávez ähnelte — nur schneller.
 
 Der zentrale Widerspruch: Eine Regierung, die alle Teile der Gesellschaft kontrollieren will, schrieb Geld in Gesetz, das sich staatlicher Kontrolle strukturell entzieht. Karla, die Barista aus El Zonte, sagte es so: *„Si no tienes las llaves, no es tu dinero."* Diese Erkenntnis kam nicht von Bukele, sondern aus der Dorfgemeinschaft.
 
@@ -64,5 +64,5 @@ El Salvador war historisch Austragungsort von US-UdSSR-Stellvertreterkonflikten:
 ## Open Questions
 
 - Hat sich Chivo nach dem Initialchaos stabilisiert und wirklich durchgesetzt?
-- Wie viele Salvadorianer nutzen Bitcoin tatsächlich regelmäßig vs. einmalig für die $30?
+- Wie viele Salvadorianer nutzen Bitcoin tatsächlich regelmässig vs. einmalig für die $30?
 - Wie verhält sich Bukeles Autoritarismus langfristig mit dem zensurunfähigen Geld in den Händen der Bevölkerung?

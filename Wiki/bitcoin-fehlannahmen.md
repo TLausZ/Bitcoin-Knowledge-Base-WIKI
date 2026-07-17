@@ -7,7 +7,7 @@
 
 ## Summary
 
-Dreizehn Fehlannahmen über Bitcoin tauchen immer wieder auf. Die meisten entstehen aus dem Kontrast zwischen Bitcoins einfacher Außenwahrnehmung und seiner komplexen Funktionsweise. Einige sind ehrliche Missverständnisse (zu langsam, kein innerer Wert), andere sind interessengeleitet (kein Nutzen, Nullsumme). Alle lassen sich mit Fakten direkt widerlegen.
+Dreizehn Fehlannahmen über Bitcoin tauchen immer wieder auf. Die meisten entstehen aus dem Kontrast zwischen Bitcoins einfacher Aussenwahrnehmung und seiner komplexen Funktionsweise. Einige sind ehrliche Missverständnisse (zu langsam, kein innerer Wert), andere sind interessengeleitet (kein Nutzen, Nullsumme). Alle lassen sich mit Fakten direkt widerlegen.
 
 ## Body
 
@@ -87,7 +87,7 @@ Lyn Alden (Makroökonomin) widerlegt dies systematisch anhand der SEC-Definition
 
 Bitcoin erfüllt keines der Kernmerkmale. Es gibt keinen Betreiber, der Versprechen macht und Gelder kontrolliert. Satoshi Nakamoto hat sich zurückgezogen und seine eigenen Bitcoin bis heute nie bewegt. Es gibt keine garantierten Renditen. Alle Transaktionen sind öffentlich einsehbar und von jedem prüfbar, das Gegenteil der für Ponzi-Schemata typischen Intransparenz. Auszahlungen sind jederzeit möglich.
 
-Alden schließt: Bitcoin passt zur Definition eines aufkommenden Geldes in der Marktfindungsphase, nicht zur Definition eines Betrugsschemas. [[Warum Bitcoin kein Ponzi-Schema ist_ Punkt für Punkt.md]]
+Alden schliesst: Bitcoin passt zur Definition eines aufkommenden Geldes in der Marktfindungsphase, nicht zur Definition eines Betrugsschemas. [[Warum Bitcoin kein Ponzi-Schema ist_ Punkt für Punkt.md]]
 
 Wer die Definition weit genug dehnt, trifft einen zusätzlichen Punkt: Das globale Fraktionalreserve-Bankensystem erfüllt die breite Ponzi-Definition eher als Bitcoin. Banken halten im Schnitt nur 20 % der Einlagen als Reserve. Wenn genug Kunden gleichzeitig abheben wollten, könnte das System nicht zahlen — eines der SEC-Warnzeichen für ein Ponzi-Schema. Physisches Bargeld macht nur 13 % der gesamten Bankeinlagen aus. Das System funktioniert dauerhaft nur, weil die Musik nie aufhört — und wenn sie es tut, druckt die Zentralbank neue Stühle. Bitcoin existiert dagegen ohne Fraktionalreserve und erlaubt Selbstverwahrung, was das Gegenparteirisiko auf null reduziert. [[Bitcoin_ Addressing the Ponzi Scheme Characterization.md]]
 

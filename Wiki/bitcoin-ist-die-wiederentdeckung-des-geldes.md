@@ -30,9 +30,9 @@ Bitcoin ist kein Unternehmen. Es kann nicht bankrottgehen, hat keinen CEO, der v
 
 Der Kern ist ethisch. Geldproduktion ist für Gigi eine moralische Frage, und Gelddrucken ein moralisches Versagen — es stiehlt den Armen und gibt den Reichen. „Krypto" macht die Sache nicht besser, sondern führt das Gegenparteirisiko und das Vertrauen in Dritte wieder ein, die Bitcoin gerade beseitigt hat. Proof-of-Stake bringt das Vertrauen über die Hintertür zurück, zentralisierte Börsen über die Regulierung. Gigi nennt das nicht Fortschritt, sondern eine Reinkarnation genau der Institutionen, die versagt haben. Shitcoins verschwinden aus seiner Sicht zwangsläufig in der Bedeutungslosigkeit, weil Geld ein Spiel der Liquidität und Kaufkraft ist, in dem sich das härteste Gut durchsetzt.
 
-### Wiederentdeckung heißt Eigenverantwortung
+### Wiederentdeckung heisst Eigenverantwortung
 
-Der Essay endet nicht bei Theorie. Damit Bitcoin dein Geld ist, musst du zwei Dinge tun: die eigenen Schlüssel halten und mit dem eigenen Node verifizieren. Ohne eigene Schlüssel besitzt du keine Bitcoin, sondern Schuldscheine. Ohne eigenen Node bist du der Bitcoin-Vorstellung eines anderen ausgeliefert. Genau darin liegt die Wiederentdeckung: nicht im Kauf, sondern in der Selbstverwahrung und Verifikation. Was Bitcoin verlangt, ist ein kleines bisschen Verantwortung — und was den Anstoß gibt, ist entweder Neugier oder Schmerz.
+Der Essay endet nicht bei Theorie. Damit Bitcoin dein Geld ist, musst du zwei Dinge tun: die eigenen Schlüssel halten und mit dem eigenen Node verifizieren. Ohne eigene Schlüssel besitzt du keine Bitcoin, sondern Schuldscheine. Ohne eigenen Node bist du der Bitcoin-Vorstellung eines anderen ausgeliefert. Genau darin liegt die Wiederentdeckung: nicht im Kauf, sondern in der Selbstverwahrung und Verifikation. Was Bitcoin verlangt, ist ein kleines bisschen Verantwortung — und was den Anstoss gibt, ist entweder Neugier oder Schmerz.
 
 ## Related
 

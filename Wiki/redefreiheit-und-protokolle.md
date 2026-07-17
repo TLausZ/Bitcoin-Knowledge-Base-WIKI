@@ -7,7 +7,7 @@
 
 ## Summary
 
-Gigi argumentiert in "Redefreiheit" (2024): Freie Meinungsäußerung auf Plattformen ist strukturell unmöglich. Jede Plattform hat die Macht, Nutzer zu entfernen — und jede Macht wird genutzt. Nur Protokolle können Redefreiheit strukturell garantieren, weil sie keine Nutzer haben, sondern Sprecher. Sprache ist von Natur aus erlaubnisfrei: Deutsch braucht kein Benutzerkonto. Nostr überträgt dieses Prinzip auf digitale Kommunikation; Bitcoin auf Geld.
+Gigi argumentiert in "Redefreiheit" (2024): Freie Meinungsäusserung auf Plattformen ist strukturell unmöglich. Jede Plattform hat die Macht, Nutzer zu entfernen — und jede Macht wird genutzt. Nur Protokolle können Redefreiheit strukturell garantieren, weil sie keine Nutzer haben, sondern Sprecher. Sprache ist von Natur aus erlaubnisfrei: Deutsch braucht kein Benutzerkonto. Nostr überträgt dieses Prinzip auf digitale Kommunikation; Bitcoin auf Geld.
 
 ## Body
 
@@ -15,9 +15,9 @@ Gigi argumentiert in "Redefreiheit" (2024): Freie Meinungsäußerung auf Plattfo
 
 Gigi strukturiert sein Essay in drei Ebenen. Die erste: der Logos — individuelle Meinungsfreiheit.
 
-Freie Meinungsäußerung ist nicht nur ein politisches Recht, sondern eine kognitive Notwendigkeit. Richtiges Denken setzt richtiges Sprechen voraus und umgekehrt. Es muss erlaubt sein, Unsinn zu sagen, weil die Grenze zwischen Wahnsinn und Genie zu Beginn ununterscheidbar ist. Shaw: "Aller Fortschritt hängt vom unvernünftigen Menschen ab" — wer Unvernünftige zum Schweigen bringt, bringt Genies zum Schweigen.
+Freie Meinungsäusserung ist nicht nur ein politisches Recht, sondern eine kognitive Notwendigkeit. Richtiges Denken setzt richtiges Sprechen voraus und umgekehrt. Es muss erlaubt sein, Unsinn zu sagen, weil die Grenze zwischen Wahnsinn und Genie zu Beginn ununterscheidbar ist. Shaw: "Aller Fortschritt hängt vom unvernünftigen Menschen ab" — wer Unvernünftige zum Schweigen bringt, bringt Genies zum Schweigen.
 
-Wer nie Angst haben muss, für Gedanken bestraft zu werden, denkt anders als wer sie zensieren muss, bevor er sie äußert. Der Chilling Effect — Selbstzensur aus Angst vor Konsequenzen — ist ein kognitiver Schaden, auch wenn nie explizit geblockt wird.
+Wer nie Angst haben muss, für Gedanken bestraft zu werden, denkt anders als wer sie zensieren muss, bevor er sie äussert. Der Chilling Effect — Selbstzensur aus Angst vor Konsequenzen — ist ein kognitiver Schaden, auch wenn nie explizit geblockt wird.
 
 ### DiaLogos: Warum Dialog strukturell verteilt sein muss
 
@@ -37,7 +37,7 @@ Kardinal Richelieu: "Gebt mir sechs Zeilen von der Hand des ehrlichsten Mannes, 
 
 ### Protokolle statt Plattformen
 
-Gigi's Kernthese: "Es kann keine Plattformen für freie Meinungsäußerung geben. Nur Protokolle für freie Meinungsäußerung können existieren."
+Gigi's Kernthese: "Es kann keine Plattformen für freie Meinungsäusserung geben. Nur Protokolle für freie Meinungsäusserung können existieren."
 
 Der Unterschied: Auf einer Plattform ist man Nutzer. Mit einem Protokoll ist man Sprecher. Wer Deutsch spricht, braucht kein Konto bei der Deutschen Sprache GmbH. Wer HTTP spricht, braucht kein Benutzerkonto. Protokolle haben keine Administratoren, die Zugang entziehen könnten.
 
@@ -49,9 +49,9 @@ Sprache ist die älteste Form eines erlaubnisfreien Protokolls. Bitcoin und Nost
 
 ### Die Verbindung von Geld und Sprache
 
-Gigi verbindet beide Ebenen: "Wenn man an beidem [Geld und Sprache] herumbastelt, bricht die Gesellschaft zusammen." Gesundes Geld und freie Meinungsäußerung sind keine separaten Güter — sie sind Bedingungen für funktionierende verteilte Kognition auf gesellschaftlicher Ebene. Ein System, das Geld kontrolliert, kontrolliert Anreize. Ein System, das Sprache kontrolliert, kontrolliert Aufmerksamkeit. Beides zusammen ist totale Kontrolle.
+Gigi verbindet beide Ebenen: "Wenn man an beidem [Geld und Sprache] herumbastelt, bricht die Gesellschaft zusammen." Gesundes Geld und freie Meinungsäusserung sind keine separaten Güter — sie sind Bedingungen für funktionierende verteilte Kognition auf gesellschaftlicher Ebene. Ein System, das Geld kontrolliert, kontrolliert Anreize. Ein System, das Sprache kontrolliert, kontrolliert Aufmerksamkeit. Beides zusammen ist totale Kontrolle.
 
-Die Hoffnung, die Gigi formuliert: Bitcoin + Nostr als Infrastruktur für "gesundes Geld und freie Meinungsäußerung" — nicht als politische Bewegung, sondern als Protokolle, die strukturell die Macht entziehen, beides zu zentralisieren. [[aprycot-gigi-redefreiheit]]
+Die Hoffnung, die Gigi formuliert: Bitcoin + Nostr als Infrastruktur für "gesundes Geld und freie Meinungsäusserung" — nicht als politische Bewegung, sondern als Protokolle, die strukturell die Macht entziehen, beides zu zentralisieren. [[aprycot-gigi-redefreiheit]]
 
 ## Related
 

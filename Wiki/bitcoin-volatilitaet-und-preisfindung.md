@@ -7,7 +7,7 @@
 
 ## Summary
 
-Bitcoin-Volatilität ist kein Designfehler, sondern die unvermeidliche Konsequenz eines festen Angebots, das auf eine variable, schnell wachsende Nachfrage trifft. Parker Lewis dreht das übliche Argument um: Nicht Volatilität schließt Wertspeicher aus, sondern fehlendes Volatilitätspotenzial kann Wertspeicher verhindern. Der Dollar ist das Gegenbeispiel — derzeit wenig volatil, aber ein schlechter Wertspeicher auf jeder längeren Zeitskala.
+Bitcoin-Volatilität ist kein Designfehler, sondern die unvermeidliche Konsequenz eines festen Angebots, das auf eine variable, schnell wachsende Nachfrage trifft. Parker Lewis dreht das übliche Argument um: Nicht Volatilität schliesst Wertspeicher aus, sondern fehlendes Volatilitätspotenzial kann Wertspeicher verhindern. Der Dollar ist das Gegenbeispiel — derzeit wenig volatil, aber ein schlechter Wertspeicher auf jeder längeren Zeitskala.
 
 ## Body
 
@@ -37,7 +37,7 @@ Vijay Boyapati im Podcast: "Etablierte Ökonomen machen sich über Bitcoins Vola
 
 Der primäre Anwendungsfall von Bitcoin ist heute langfristiges Sparen, keine täglichen Zahlungen. Der relevante Zeithorizont für Bewertungsfragen ist Jahre bis Jahrzehnte, nicht Wochen.
 
-Auf diesem Zeithorizont zeigt die Evidenz: Bitcoin war trotz extremer Volatilität ein außergewöhnlich effektiver Wertspeicher. Gleichzeitig schützt Diversifikation: niemand muss sein gesamtes Vermögen in Bitcoin halten, um von seinen Eigenschaften zu profitieren.
+Auf diesem Zeithorizont zeigt die Evidenz: Bitcoin war trotz extremer Volatilität ein aussergewöhnlich effektiver Wertspeicher. Gleichzeitig schützt Diversifikation: niemand muss sein gesamtes Vermögen in Bitcoin halten, um von seinen Eigenschaften zu profitieren.
 
 Das Bitcoin-Netzwerk war Ende 2019 mit unter 200 Milliarden Dollar bewertet. Facebook allein war 500 Milliarden Dollar wert. Das globale Privatvermögen der US-Haushalte lag bei 125 Billionen Dollar. Ein Asset in frühen Phasen der Monetarisierung — mit einem Netzwerkwert, der vielleicht unter 0,2% des adressierbaren Markts liegt — kann nicht stabil sein. Stabilität ist ein Zeichen von Reife, nicht von Beginn. [[aprycot-parker-lewis-bitcoin-nicht-zu-volatil]]
 
@@ -47,7 +47,7 @@ Leon Wankum (TBN #35, 2026) formuliert eine Gegenthese zu gängigen Marktkomment
 
 Die Analogie: Ein Sportler braucht Erholungsphasen. Ohne Ruhe kollabiert die Leistung. Bitcoin-Zyklen folgen demselben Prinzip: Expansion, dann Bereinigung, dann stärkere Basis. Das Ergebnis nach jedem Zyklus ist ein höheres Niveau: höhere Tiefpunkte, robustere Infrastruktur, widerstandsfähigere Nachfragekurve, höhere Hashrate.
 
-Besonders psychologisch herausfordernd: Phasen, in denen fiat-gebundene Assets besser performen — KI-Aktien, Gold, kreditgetriebene Modelle. Bitcoin erscheint dann schwach. Aus österreichisch-ökonomischer Sicht ist das genau der erwartete Effekt: neu geschöpftes Fiat-Geld fließt zuerst in finanzielle Assets, die im bestehenden System verankert sind. Gold reagiert auf Stress innerhalb des Fiat-Systems; Bitcoin bietet ein Fundament außerhalb davon. [[Bitcoin Cycles_ How Resilience Is Built]]
+Besonders psychologisch herausfordernd: Phasen, in denen fiat-gebundene Assets besser performen — KI-Aktien, Gold, kreditgetriebene Modelle. Bitcoin erscheint dann schwach. Aus österreichisch-ökonomischer Sicht ist das genau der erwartete Effekt: neu geschöpftes Fiat-Geld fliesst zuerst in finanzielle Assets, die im bestehenden System verankert sind. Gold reagiert auf Stress innerhalb des Fiat-Systems; Bitcoin bietet ein Fundament ausserhalb davon. [[Bitcoin Cycles_ How Resilience Is Built]]
 
 Wall Street-Akteure bringen Derivate und Leverage mit — sie verstärken kurzfristige Schwankungen, beschleunigen aber auch Bitcoins Selbstkorrektur. Bitcoin passt sich nicht an Institutionen an. Institutionen müssen sich an Bitcoin anpassen.
 
@@ -65,7 +65,7 @@ Der Zyklus 2024–2026 lieferte einen dokumentierten Gegenfall zu den bisherigen
 
 - **Juli 2025:** Neues Allzeithoch über 118.000 USD — «auffallend leise»: kein Medienrauschen, kein FOMO. Käufer sind ETF-Anbieter, Institutionen und Treasury-Firmen; Privatanleger fehlen, die Google-Suchanfragen nach «Bitcoin» bleiben niedrig.
 - **Oktober 2025:** Allzeithoch ~125.000–126.000 USD, von der Quelle als «das leiseste Allzeithoch aller Zeiten» beschrieben.
-- **Q4 2025:** Die erwarteten Saisonmuster («Uptober», «Moonvember», Jahresend-Rally) bleiben sämtlich aus. Das Jahr 2025 — nach Zyklusschema ein Hype-Jahr — schließt mit −6%. Preisprognosen für 2026 fallen auffallend zurückhaltend aus.
+- **Q4 2025:** Die erwarteten Saisonmuster («Uptober», «Moonvember», Jahresend-Rally) bleiben sämtlich aus. Das Jahr 2025 — nach Zyklusschema ein Hype-Jahr — schliesst mit −6%. Preisprognosen für 2026 fallen auffallend zurückhaltend aus.
 - **Februar 2026:** Kurs knapp 50% unter dem Allzeithoch. Bemerkenswert die Stimmungsdifferenz zu 2022: Der damalige Crash entsprach den Zykluserwartungen und war emotional «eingepreist»; der Bruch 2025/26 traf auf gegenteilige Erwartungen und erzeugte deutlich mehr Frust und Panik — obwohl das Preisniveau weit über dem von 2022 lag. Erwartungen, nicht absolute Preise, treiben die Emotionen.
 - **Mai/Juni 2026:** Erholung über 82.000 USD, Kurs am unteren Power-Law-Band (siehe [[bitcoin-powerlaw-und-preismodelle]]); Google-Trends für «Bitcoin» in Deutschland auf Jahrestief, Retail-Interesse weiterhin abwesend.
 
@@ -95,6 +95,7 @@ Gegen die Community-Konvention, den Preis für nebensächlich zu erklären («ne
 - [[bitcoin-als-inflationsschutz]]
 - [[bitcoin-und-immobilien]]
 - [[bitcoin-unternehmens-strategie]]
+- [[bitcoin-treasury-companies]]
 
 ## Open Questions
 

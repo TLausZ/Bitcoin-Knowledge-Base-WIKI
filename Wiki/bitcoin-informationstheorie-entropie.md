@@ -19,7 +19,7 @@ Fuller konnte 1969 nicht wissen, was er beschrieb. Bitcoin verankert Geld in Ene
 
 ### Geld als Informationstechnologie
 
-In einer freien Marktwirtschaft ist der Preis das größte Informationsnetzwerk. Geld ist die Abstraktion dieses Wertes — das Medium, über das wirtschaftliche Information übertragen wird. Nach Segal ist Geld damit das fundamentalste soziale Informationswerkzeug, das Menschen haben.
+In einer freien Marktwirtschaft ist der Preis das grösste Informationsnetzwerk. Geld ist die Abstraktion dieses Wertes — das Medium, über das wirtschaftliche Information übertragen wird. Nach Segal ist Geld damit das fundamentalste soziale Informationswerkzeug, das Menschen haben.
 
 Claude Shannon formulierte: Information ist aufgelöste Ungewissheit. Das Gegenstück ist Entropie — die Ungewissheit, die noch aufgelöst werden muss. Daraus folgt:
 
@@ -41,14 +41,14 @@ Die erweiterte Gleichung:
 
 ### Fiat erhöht ME, Bitcoin setzt ME = 0
 
-Unter Fiat ist ME immer größer als null. Inflation, willkürliche Angebotsausweitung, Wechselkursvolatilität, Merkantilismus, Subventionen, Zombie-Industrien auf Schuldbasis — all das addiert Entropie ins System.
+Unter Fiat ist ME immer grösser als null. Inflation, willkürliche Angebotsausweitung, Wechselkursvolatilität, Merkantilismus, Subventionen, Zombie-Industrien auf Schuldbasis — all das addiert Entropie ins System.
 
 Wenn Fiatgeld denominiert ist: **ME > 0**
 Wenn Bitcoin denominiert ist: **ME = 0**
 
 Die Konsequenz: Jede technologische Produktivität wird unter Fiat durch monetäre Entropie teilweise aufgezehrt. Bitcoin hebt diese Dämpfung auf.
 
-### Deflation als Messgröße für Wertschöpfung
+### Deflation als Messgrösse für Wertschöpfung
 
 Segal dreht das übliche Bild um: Deflation ist kein Fehler, sondern der natürliche Zustand technologischen Fortschritts. Innovation produziert mehr für weniger. Wenn Geld eine Konstante bleibt, sinken Preise — das ist Information über echte Wertschöpfung.
 

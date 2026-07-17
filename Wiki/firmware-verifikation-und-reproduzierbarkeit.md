@@ -15,7 +15,7 @@ Reproduzierbarkeit ist das Prinzip, dass jeder aus demselben Quellcode dieselbe 
 
 Open-Source-Code allein reicht nicht aus. Ein Hersteller könnte den sauberen Quellcode veröffentlichen, aber eine kompromittierte Binärdatei ausliefern. Ohne reproduzierbare Builds gibt es keine Möglichkeit, das zu erkennen.
 
-Reproduzierbarkeit schließt diese Lücke: Wenn andere unabhängig aus demselben Code dieselbe Binärdatei erstellen und die Hashes übereinstimmen, gibt es keine Manipulation. Diese Eigenschaft ist auch in der Kryptografieforschung fundamental — Vertrauen setzt unabhängige Überprüfbarkeit voraus.
+Reproduzierbarkeit schliesst diese Lücke: Wenn andere unabhängig aus demselben Code dieselbe Binärdatei erstellen und die Hashes übereinstimmen, gibt es keine Manipulation. Diese Eigenschaft ist auch in der Kryptografieforschung fundamental — Vertrauen setzt unabhängige Überprüfbarkeit voraus.
 
 ### Verifikation der BitBox02-Firmware
 

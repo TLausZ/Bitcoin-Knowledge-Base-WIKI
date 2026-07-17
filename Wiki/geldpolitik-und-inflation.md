@@ -27,7 +27,7 @@ Bednareks Pointe: Dieser Umverteilungsmechanismus ist nicht ein Fehler des Syste
 
 Der Verbraucherpreisindex basiert auf einem fiktiven Warenkorb, der den „durchschnittlichen" Konsum abbilden soll. Bednarek hält das für konzeptionell unhaltbar: Präferenzen sind individuell und veränderlich. Kein realer Konsument wird zu 100% durch einen CPI-Warenkorb repräsentiert. Preise enthalten Informationen darüber, wie effizient ein Gut bereitgestellt wird — und diese Information ist lokal und kontextabhängig.
 
-Ein gesamtgesellschaftliches Preisniveau ist damit keine objektive Messgröße, sondern eine Konvention. Geldpolitik, die auf dieser Konvention basiert, operiert auf willkürlichen Parametern. [[aprycot-bednarek-paradigmenwechsel-geldpolitik]]
+Ein gesamtgesellschaftliches Preisniveau ist damit keine objektive Messgrösse, sondern eine Konvention. Geldpolitik, die auf dieser Konvention basiert, operiert auf willkürlichen Parametern. [[aprycot-bednarek-paradigmenwechsel-geldpolitik]]
 
 ### Deflation als nicht-pathologischer Zustand
 
@@ -87,7 +87,7 @@ Parker Lewis wählt Thomas Paines Pamphlet "Common Sense" (1776) als Analogie. P
 
 Das Paradox: Kinder lernen, dass Geld nicht auf Bäumen wächst. Jeder versteht intuitiv, dass beliebig erzeugtes Geld seinen Wert verliert. Und doch akzeptiert dieselbe Gesellschaft eine Zentralbank, die in Krisenzeiten unbegrenzte Mengen erzeugt, als normalen Betrieb. Die kognitive Dissonanz ist real — und Bitcoin macht sie sichtbar, indem es eine Alternative anbietet, die den Grundsatz "Geld wächst nicht auf Bäumen" technisch durchsetzt.
 
-Lewis notiert außerdem einen Muster bei Experten: Finanzprofis, Ökonomen und Zentralbanker, die Bitcoin als Betrug bezeichnen und später schweigen, wenn der Kurs gestiegen ist. Das sei kein Zufall, sondern strukturell: Wessen berufliche Autorität auf der Annahme beruht, dass Zentralbankgeld legitim und alternativlos ist, hat starke Anreize, Bitcoin abzulehnen — und kaum Anreize, einen Fehler öffentlich einzugestehen. [[aprycot-parker-lewis-bitcoin-ist-gesunder-menschenverstand]]
+Lewis notiert ausserdem einen Muster bei Experten: Finanzprofis, Ökonomen und Zentralbanker, die Bitcoin als Betrug bezeichnen und später schweigen, wenn der Kurs gestiegen ist. Das sei kein Zufall, sondern strukturell: Wessen berufliche Autorität auf der Annahme beruht, dass Zentralbankgeld legitim und alternativlos ist, hat starke Anreize, Bitcoin abzulehnen — und kaum Anreize, einen Fehler öffentlich einzugestehen. [[aprycot-parker-lewis-bitcoin-ist-gesunder-menschenverstand]]
 
 ## Open Questions
 

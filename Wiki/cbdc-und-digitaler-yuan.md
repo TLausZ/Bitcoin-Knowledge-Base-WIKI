@@ -7,7 +7,7 @@
 
 ## Summary
 
-Chinas digitaler Yuan ist kein technologischer Fortschritt, sondern ein Kontrollwerkzeug: eine Zentralbankwährung, die das Bargeld ersetzt und der Regierung Echtzeit-Zugriff auf alle Transaktionen gibt. Das Projekt nutzt den Begriff „Blockchain" als Marketingbegriff, funktioniert aber über Proof-of-Authority statt Proof-of-Work — das Gegenteil von Bitcoin. Gladstein nennt es 2019 „Lippenstift für ein panoptisches Schwein". Paradoxerweise könnte das staatliche Blockchain-Bildungsprogramm als trojanisches Pferd wirken: Menschen, die über Blockchain aufgeklärt werden, stoßen irgendwann auf Bitcoin.
+Chinas digitaler Yuan ist kein technologischer Fortschritt, sondern ein Kontrollwerkzeug: eine Zentralbankwährung, die das Bargeld ersetzt und der Regierung Echtzeit-Zugriff auf alle Transaktionen gibt. Das Projekt nutzt den Begriff „Blockchain" als Marketingbegriff, funktioniert aber über Proof-of-Authority statt Proof-of-Work — das Gegenteil von Bitcoin. Gladstein nennt es 2019 „Lippenstift für ein panoptisches Schwein". Paradoxerweise könnte das staatliche Blockchain-Bildungsprogramm als trojanisches Pferd wirken: Menschen, die über Blockchain aufgeklärt werden, stossen irgendwann auf Bitcoin.
 
 ## Body
 
@@ -34,7 +34,7 @@ Heute ist die KPCh gezwungen, von Dritten (Banken, Tencent, Alibaba) Daten anzuf
 
 ### Geopolitische Ausweitung
 
-Das Projekt ist nicht auf China beschränkt. Im Rahmen der Neuen Seidenstraße (Belt and Road Initiative) werden in Entwicklungsländern Telekommunikationsinfrastrukturen und Zahlungssysteme installiert. Der digitale Yuan könnte so das Zahlungsrückgrat für Dutzende Länder werden — eine Art digitaler Kolonialismus mit eingebetteter Überwachung.
+Das Projekt ist nicht auf China beschränkt. Im Rahmen der Neuen Seidenstrasse (Belt and Road Initiative) werden in Entwicklungsländern Telekommunikationsinfrastrukturen und Zahlungssysteme installiert. Der digitale Yuan könnte so das Zahlungsrückgrat für Dutzende Länder werden — eine Art digitaler Kolonialismus mit eingebetteter Überwachung.
 
 ### Das trojanische Pferd
 

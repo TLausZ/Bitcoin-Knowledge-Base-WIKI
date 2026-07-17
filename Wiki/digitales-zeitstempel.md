@@ -13,7 +13,7 @@ Digitale Zeitstempel lösen ein fundamentales Problem: Wie beweist man, dass ein
 
 ### Das Problem: Digitale Dokumente sind beliebig veränderbar
 
-Papier-Dokumente haben forensische Eigenschaften — Tinte altert, Papier reißt, nachträgliche Änderungen hinterlassen Spuren. Digitale Dateien haben das nicht: Ein Bit ändern, Timestamp im Dateisystem anpassen, fertig. Das macht es unmöglich, den Erstellungszeitpunkt oder die Unverändertheit digitaler Dokumente nachzuweisen.
+Papier-Dokumente haben forensische Eigenschaften — Tinte altert, Papier reisst, nachträgliche Änderungen hinterlassen Spuren. Digitale Dateien haben das nicht: Ein Bit ändern, Timestamp im Dateisystem anpassen, fertig. Das macht es unmöglich, den Erstellungszeitpunkt oder die Unverändertheit digitaler Dokumente nachzuweisen.
 
 Das ist besonders relevant für Patentrechte, Verträge, Urheberrecht — überall, wo der Zeitpunkt der Erstellung entscheidend ist.
 
@@ -52,7 +52,7 @@ Das reduziert den Speicherbedarf exponentiell und ermöglicht echte Skalierung �
 
 ### Der Publikations-Trick: Zeitung als Anker
 
-Eine elegante Lösung für die Frage "Aber woher weiß ich, dass der Timestamping-Service den Timestamp nicht nachträglich geändert hat?": Veröffentliche den Root-Hash jede Woche in einer Zeitung. Zeitungen werden archiviert, gedruckt, verteilt — rückwirkende Änderung ist praktisch unmöglich.
+Eine elegante Lösung für die Frage "Aber woher weiss ich, dass der Timestamping-Service den Timestamp nicht nachträglich geändert hat?": Veröffentliche den Root-Hash jede Woche in einer Zeitung. Zeitungen werden archiviert, gedruckt, verteilt — rückwirkende Änderung ist praktisch unmöglich.
 
 Haber und Stornetta's Firma Surety nutzte diesen Mechanismus tatsächlich: Sie veröffentlichten wöchentlich einen Hash in der New York Times. Der älteste kontinuierliche Blockchain-ähnliche Dienst war damit bereits aktiv, bevor Satoshi Bitcoin veröffentlichte.
 

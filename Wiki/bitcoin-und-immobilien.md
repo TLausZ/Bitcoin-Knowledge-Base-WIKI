@@ -7,7 +7,7 @@
 
 ## Summary
 
-Immobilien wurden nach dem Nixon-Schock von 1971 zum dominanten Wertspeicher im Fiat-System — nicht wegen ihres Nutzwerts, sondern weil Anleger keine bessere Alternative hatten. Rund 67% des Weltvermögens steckt in Immobilien (ca. 326–330 Billionen USD, verglichen mit Gold bei ca. 30 Billionen USD). Leon Wankum — Immobilienentwickler und Bitcoiner — argumentiert, dass ein erheblicher Teil davon langfristig zu Bitcoin fließen wird, weil Bitcoin alle relevanten Wertspeichereigenschaften übertrifft: absolut knapp, mobil, nicht beschlagnahmbar, ohne laufende Kosten, 24/7 liquide. Sein Buch "Digital Real Estate" (2026) und 38 Newsletter-Ausgaben entwickeln diesen Denkrahmen aus der Praxis eines Immobilienentwicklers.
+Immobilien wurden nach dem Nixon-Schock von 1971 zum dominanten Wertspeicher im Fiat-System — nicht wegen ihres Nutzwerts, sondern weil Anleger keine bessere Alternative hatten. Rund 67% des Weltvermögens steckt in Immobilien (ca. 326–330 Billionen USD, verglichen mit Gold bei ca. 30 Billionen USD). Leon Wankum — Immobilienentwickler und Bitcoiner — argumentiert, dass ein erheblicher Teil davon langfristig zu Bitcoin fliessen wird, weil Bitcoin alle relevanten Wertspeichereigenschaften übertrifft: absolut knapp, mobil, nicht beschlagnahmbar, ohne laufende Kosten, 24/7 liquide. Sein Buch "Digital Real Estate" (2026) und 38 Newsletter-Ausgaben entwickeln diesen Denkrahmen aus der Praxis eines Immobilienentwicklers.
 
 ## Body
 
@@ -92,9 +92,9 @@ Bitcoin-besicherte Hypotheken werden in diesem Szenario zu einer sinnvollen Alte
 
 Was passiert mit Immobilien, wenn Bitcoin die monetäre Funktion übernimmt? TBN #22 entwickelt die Antwort: Immobilien fallen auf ihren Nutzwert zurück.
 
-Das ist keine Katastrophe. Der Nutzwert von Wohnraum ist real — ein Dach, Schutz, Infrastruktur, Standort. Was entfällt, ist die aufgeblasene monetäre Prämie. Für normale Nutzer heißt das: Wohnraum wird wieder erschwinglich. Für Investoren: Renditen kommen aus Nutzungsüberlassung, nicht aus passiver Preissteigerung.
+Das ist keine Katastrophe. Der Nutzwert von Wohnraum ist real — ein Dach, Schutz, Infrastruktur, Standort. Was entfällt, ist die aufgeblasene monetäre Prämie. Für normale Nutzer heisst das: Wohnraum wird wieder erschwinglich. Für Investoren: Renditen kommen aus Nutzungsüberlassung, nicht aus passiver Preissteigerung.
 
-Wankums These: In einem Bitcoin-Standard werden Immobilien nicht wertlos, aber sie werden wieder zu dem, was sie ursprünglich waren — Produktivvermögen, das durch Nutzung Wert generiert, nicht durch bloßes Halten. [[The Role of Real Estate and Its Utility Value on a Bitcoin Standard]]
+Wankums These: In einem Bitcoin-Standard werden Immobilien nicht wertlos, aber sie werden wieder zu dem, was sie ursprünglich waren — Produktivvermögen, das durch Nutzung Wert generiert, nicht durch blosses Halten. [[The Role of Real Estate and Its Utility Value on a Bitcoin Standard]]
 
 ### Trennung von Geld und Produktion
 

@@ -7,7 +7,7 @@
 
 ## Summary
 
-Allen Farringtons Bitgenstein-Teile I–III legen die philosophisch-ökonomische Grundlage der gesamten Serie. Die zentrale Aussage: Das Scheitern gängiger Bitcoin-Kritik wurzelt in einer fehlerhaften Geldtheorie — einer "semantischen Theorie", die Geld über seine bestehende Nutzung definiert und damit jede neue Geldform begrifflich ausschließt. Farrington stellt dagegen, dass Geld aus wirtschaftlicher Ungewissheit entsteht und dass sein tiefster Maßstab nicht der Preis, sondern die Bewahrung menschlicher Zeit und Energie im Netzwerk ist.
+Allen Farringtons Bitgenstein-Teile I–III legen die philosophisch-ökonomische Grundlage der gesamten Serie. Die zentrale Aussage: Das Scheitern gängiger Bitcoin-Kritik wurzelt in einer fehlerhaften Geldtheorie — einer "semantischen Theorie", die Geld über seine bestehende Nutzung definiert und damit jede neue Geldform begrifflich ausschliesst. Farrington stellt dagegen, dass Geld aus wirtschaftlicher Ungewissheit entsteht und dass sein tiefster Massstab nicht der Preis, sondern die Bewahrung menschlicher Zeit und Energie im Netzwerk ist.
 
 ## Body
 
@@ -23,19 +23,19 @@ Das führt zum Startup-Vergleich: Ein Gründer, der 2010 Bitcoin als "Geld" besc
 
 ### Geld entsteht aus Ungewissheit
 
-Das Gedankenexperiment in Teil II: Stell dir vor, du hättest eine Superkraft. Immer wenn du in einen Laden gehst, weißt du, was du kaufen willst — und es ist da. Alice kauft Äpfel. Bob kauft Zebras. Beide wissen immer genau, was sie brauchen, und es ist immer verfügbar. Brauchst du in dieser Welt Geld? [[aprycot-bitgenstein-aepfel-zebras-wissen]]
+Das Gedankenexperiment in Teil II: Stell dir vor, du hättest eine Superkraft. Immer wenn du in einen Laden gehst, weisst du, was du kaufen willst — und es ist da. Alice kauft Äpfel. Bob kauft Zebras. Beide wissen immer genau, was sie brauchen, und es ist immer verfügbar. Brauchst du in dieser Welt Geld? [[aprycot-bitgenstein-aepfel-zebras-wissen]]
 
-Nein. Geld wird überflüssig, sobald Angebot, Nachfrage und Zeitpunkt vollständig bekannt sind. Geld entsteht genau da, wo diese Gewissheit fehlt. Wer nicht weiß, was er nächste Woche brauchen wird, hält das am besten tauschbare Gut — nicht weil er es braucht, sondern weil er dann kaufen kann, wenn er es braucht. Geld ist die *umgekehrte Nachfrage nach Gewissheit*.
+Nein. Geld wird überflüssig, sobald Angebot, Nachfrage und Zeitpunkt vollständig bekannt sind. Geld entsteht genau da, wo diese Gewissheit fehlt. Wer nicht weiss, was er nächste Woche brauchen wird, hält das am besten tauschbare Gut — nicht weil er es braucht, sondern weil er dann kaufen kann, wenn er es braucht. Geld ist die *umgekehrte Nachfrage nach Gewissheit*.
 
-Das hat Konsequenzen für den Begriff "Kaufkraft". Sie lässt sich nicht in absoluten Einheiten messen. Wenn Widgets teurer werden, weil Ressourcen von Fidget-Produktion abgezogen wurden, ändert sich nicht die Kaufkraft des Geldes — es ändert sich die Welt. Was 100 DM im Jahr 1990 und 100 Euro im Jahr 2000 kaufen konnten, ist ohne Kenntnis des Güterkorbs sinnlos zu vergleichen. Kaufkraft ist ein Verhältnis zu einem bestimmten Korb zu einem bestimmten Zeitpunkt, keine absolute Größe.
+Das hat Konsequenzen für den Begriff "Kaufkraft". Sie lässt sich nicht in absoluten Einheiten messen. Wenn Widgets teurer werden, weil Ressourcen von Fidget-Produktion abgezogen wurden, ändert sich nicht die Kaufkraft des Geldes — es ändert sich die Welt. Was 100 DM im Jahr 1990 und 100 Euro im Jahr 2000 kaufen konnten, ist ohne Kenntnis des Güterkorbs sinnlos zu vergleichen. Kaufkraft ist ein Verhältnis zu einem bestimmten Korb zu einem bestimmten Zeitpunkt, keine absolute Grösse.
 
 ### Zeit und Energie als Fundament der Preiskette
 
-Das Dreiecksspiel: In einer großen Gruppe sucht sich jeder Teilnehmer zwei andere Personen aus, ohne seine Wahl zu verraten. Auf ein Signal versucht jeder, mit seinen zwei Personen ein gleichseitiges Dreieck zu bilden. Das Resultat ist Chaos — jede Bewegung löst unvorhersehbare Ketten­reaktionen im Netzwerk aus. Genau so funktioniert ein Netzwerk des wirtschaftlichen Austauschs. Die Reaktionen verbreiten sich zeitlich ungleichmäßig, und niemand kann die Gesamtdynamik aus seiner lokalen Perspektive erfassen. [[aprycot-bitgenstein-zeit-energie-dreiecksspiel]]
+Das Dreiecksspiel: In einer grossen Gruppe sucht sich jeder Teilnehmer zwei andere Personen aus, ohne seine Wahl zu verraten. Auf ein Signal versucht jeder, mit seinen zwei Personen ein gleichseitiges Dreieck zu bilden. Das Resultat ist Chaos — jede Bewegung löst unvorhersehbare Ketten­reaktionen im Netzwerk aus. Genau so funktioniert ein Netzwerk des wirtschaftlichen Austauschs. Die Reaktionen verbreiten sich zeitlich ungleichmässig, und niemand kann die Gesamtdynamik aus seiner lokalen Perspektive erfassen. [[aprycot-bitgenstein-zeit-energie-dreiecksspiel]]
 
 Was aber alle Teilnehmer teilen, ist die Opportunitätskosten-Grundlage: Zeit und Energie. Jeder Preis in der Kette ist eine Einschätzung des Wertes eigener Zeit und Energie im Verhältnis zu denen anderer. Wer ein Widget kauft statt es selbst herzustellen, bewertet implizit: Die Zeit und Energie, die ich für die Eigenproduktion bräuchte, sind mehr wert als der Preis. Das Widget des Käufers hat Vorleistungen, die selbst Preisketten haben — bis zum Rohstoff, wo nur noch Zeit und Energie benötigt werden.
 
-Das führt zu einer präziseren Definition von Geld als "Wert­speicher": Geld bewahrt einen Beitrag an Zeit und Energie im Verhältnis zum wirtschaftlichen Netzwerk, das diesen Beitrag nutzt. Eine neue Geldform wäre dann nicht wegen ihrer semantischen Funktion als "Tauschmittel" wertvoll, sondern wegen ihrer Fähigkeit, Zeit und Energie verlässlich vor Verwässerung zu schützen. Wenn das Netzwerk wächst und der Anteil erhalten bleibt, ist die Bewahrung wertvoller als jede nominale Preisgröße.
+Das führt zu einer präziseren Definition von Geld als "Wert­speicher": Geld bewahrt einen Beitrag an Zeit und Energie im Verhältnis zum wirtschaftlichen Netzwerk, das diesen Beitrag nutzt. Eine neue Geldform wäre dann nicht wegen ihrer semantischen Funktion als "Tauschmittel" wertvoll, sondern wegen ihrer Fähigkeit, Zeit und Energie verlässlich vor Verwässerung zu schützen. Wenn das Netzwerk wächst und der Anteil erhalten bleibt, ist die Bewahrung wertvoller als jede nominale Preisgrösse.
 
 ### Wie ein neues Geld aussieht
 
@@ -57,4 +57,4 @@ Die semantische Theorie würde das als Beweis für das Scheitern des neuen Gelde
 
 - Wie unterscheidet sich Farringtons "semantische Theorie" von Wittgensteins eigenem Sprachspiel-Begriff, auf den er sich implizit stützt?
 - Gibt es historische Fälle, in denen eine neue Geldform die semantische Barriere nicht überwinden konnte — und was waren die Gründe?
-- Kann die Kaufkraft-Relativität (kein absoluter Maßstab) als Argument für oder gegen Bitcoin als Recheneinheit verwendet werden?
+- Kann die Kaufkraft-Relativität (kein absoluter Massstab) als Argument für oder gegen Bitcoin als Recheneinheit verwendet werden?

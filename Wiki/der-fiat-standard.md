@@ -7,21 +7,21 @@
 
 ## Summary
 
-Saifedean Ammous' Nachfolgeband (2022, Untertitel „Das Schuldknechtschaftssystem als Alternative zur menschlichen Zivilisation") wendet dieselbe Methode wie „Der Bitcoin-Standard" auf das Fiat-Geld an: Er analysiert Fiat als eine Technologie und rekonstruiert, wie sie tatsächlich funktioniert. Das zentrale Ergebnis: Fiat verwandelt Schulden in Geld, Geld wird durch Kreditvergabe „geschürft". Das Buch verfolgt die Folgen dieses Mechanismus bis in Ernährung, Wissenschaft und Familie und schließt mit Bitcoin als „Fiat-Liquidator".
+Saifedean Ammous' Nachfolgeband (2022, Untertitel „Das Schuldknechtschaftssystem als Alternative zur menschlichen Zivilisation") wendet dieselbe Methode wie „Der Bitcoin-Standard" auf das Fiat-Geld an: Er analysiert Fiat als eine Technologie und rekonstruiert, wie sie tatsächlich funktioniert. Das zentrale Ergebnis: Fiat verwandelt Schulden in Geld, Geld wird durch Kreditvergabe „geschürft". Das Buch verfolgt die Folgen dieses Mechanismus bis in Ernährung, Wissenschaft und Familie und schliesst mit Bitcoin als „Fiat-Liquidator".
 
 ## Body
 
 ### Fiat als Technologie
 
-Ammous behandelt Fiat nicht als bloßes Papiergeld, sondern als Netzwerk mit eigener Topologie, entstanden aus einem Provisorium: der Aussetzung der Goldeinlösbarkeit 1914, die nie wirklich zurückgenommen wurde. Er nennt das die „nie enden wollenden Bankferien". Zentralbanken bilden die Wurzelknoten, Geschäftsbanken die nachgeordneten Knoten, und der Zugang zum Netzwerk ist ein Privileg.
+Ammous behandelt Fiat nicht als blosses Papiergeld, sondern als Netzwerk mit eigener Topologie, entstanden aus einem Provisorium: der Aussetzung der Goldeinlösbarkeit 1914, die nie wirklich zurückgenommen wurde. Er nennt das die „nie enden wollenden Bankferien". Zentralbanken bilden die Wurzelknoten, Geschäftsbanken die nachgeordneten Knoten, und der Zugang zum Netzwerk ist ein Privileg.
 
 ### Fiat-Mining: Geld aus Schulden
 
-Der stärkste Begriff des Buches ist „Kreditvergabe als Mining". Der größte Teil der Geldmenge existiert digital und entsteht in dem Moment, in dem eine Bank einen Kredit vergibt. Wer im Fiat-System einen Kredit erhält, „schürft" neues Geld, analog dazu, wie Miner im Bitcoin-System Coins erzeugen, nur ohne physische Kosten und ohne festes Limit. Daraus folgt, dass Fiat strukturell inflationär sein muss: Das System braucht ständig neue Schulden, um zu bestehen.
+Der stärkste Begriff des Buches ist „Kreditvergabe als Mining". Der grösste Teil der Geldmenge existiert digital und entsteht in dem Moment, in dem eine Bank einen Kredit vergibt. Wer im Fiat-System einen Kredit erhält, „schürft" neues Geld, analog dazu, wie Miner im Bitcoin-System Coins erzeugen, nur ohne physische Kosten und ohne festes Limit. Daraus folgt, dass Fiat strukturell inflationär sein muss: Das System braucht ständig neue Schulden, um zu bestehen.
 
 ### Universelle Schuldknechtschaft
 
-Weil Fiat-Guthaben letztlich Schuldversprechen sind, unterscheiden sie sich fundamental von echtem Geld. Ammous zergliedert Fiat-Salden als nicht quantifizierbar (die Gesamtmenge ist unbekannt), nicht abgleichbar, vorläufig und widerruflich (Konten können eingefroren werden) und im Kern negativ, jeder Guthabenposten ist die Schuld eines anderen. Er stellt dem die Bitcoin-Buchführung gegenüber: alle zehn Minuten ein Konsens über den Besitz jedes Satoshi, unwiderruflich, an den Schlüssel gebunden. Der Unterschied ist die Trennung von Geld und Schuld: Geld ist ein gegenwärtiges Gut, das eine Transaktion endgültig abschließt; Kredit ist ein Versprechen künftiger Zahlung. Fiat verwischt beides.
+Weil Fiat-Guthaben letztlich Schuldversprechen sind, unterscheiden sie sich fundamental von echtem Geld. Ammous zergliedert Fiat-Salden als nicht quantifizierbar (die Gesamtmenge ist unbekannt), nicht abgleichbar, vorläufig und widerruflich (Konten können eingefroren werden) und im Kern negativ, jeder Guthabenposten ist die Schuld eines anderen. Er stellt dem die Bitcoin-Buchführung gegenüber: alle zehn Minuten ein Konsens über den Besitz jedes Satoshi, unwiderruflich, an den Schlüssel gebunden. Der Unterschied ist die Trennung von Geld und Schuld: Geld ist ein gegenwärtiges Gut, das eine Transaktion endgültig abschliesst; Kredit ist ein Versprechen künftiger Zahlung. Fiat verwischt beides.
 
 ### Wofür Fiat tatsächlich gut ist
 
@@ -46,5 +46,5 @@ Teil III bringt Bitcoin als Auflösung. Bitcoin trennt Geld wieder von Schuld: e
 ## Open Questions
 
 - „Kreditvergabe als Mining" ist ein starkes Bild, trägt die Analogie ökonomisch, oder verdeckt sie Unterschiede zwischen Geldschöpfung und Proof-of-Work?
-- Wie belastbar ist die Verlängerung der Geldkritik in Ernährung, Wissenschaft und Energie, und wo wird aus Analyse bloße Analogie?
+- Wie belastbar ist die Verlängerung der Geldkritik in Ernährung, Wissenschaft und Energie, und wo wird aus Analyse blosse Analogie?
 - Wenn Fiat ständig neue Schulden braucht: Ist ein geordneter Übergang zu Bitcoin denkbar, oder setzt Ammous' „Liquidator" einen Kollaps voraus?

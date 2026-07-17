@@ -37,7 +37,7 @@ Phishing-E-Mails imitieren offizielle Kommunikation (z.B. von einem Hardware-Wal
 
 Keylogger zeichnen sämtliche Tastatureingaben auf. Fatal: Die Wiederherstellungswörter auf dem Computer eintippen. Damit hätte ein Angreifer mit Keylogger-Zugang vollständige Kontrolle über die Wallet.
 
-**Schutz:** Wiederherstellungswörter niemals irgendwo digital eingeben — ausschließlich direkt auf der Hardware-Wallet.
+**Schutz:** Wiederherstellungswörter niemals irgendwo digital eingeben — ausschliesslich direkt auf der Hardware-Wallet.
 
 ### Phishing nach einem Datenleck
 
@@ -65,7 +65,7 @@ Der Angriff zielt nicht auf Schlüssel, sondern auf Fremdverwahrungs-Bereitschaf
 Alle Angriffsmethoden haben denselben Gegenpol:
 
 1. **Immer** alle Transaktionsdetails und Empfangsadressen auf dem sicheren Display der Hardware-Wallet verifizieren.
-2. Wiederherstellungswörter **niemals** mit jemandem teilen und ausschließlich direkt auf der Hardware-Wallet eingeben.
+2. Wiederherstellungswörter **niemals** mit jemandem teilen und ausschliesslich direkt auf der Hardware-Wallet eingeben.
 
 Wer diese zwei Regeln befolgt, lässt Angreifern kaum Spielraum.
 

@@ -219,7 +219,7 @@ Einmal mit dem Heiz-Argument, das die spätere Standortdiskussion vorwegnimmt:
 
 ([BitcoinTalk, 09.08.2010](https://satoshi.nakamotoinstitute.org/posts/bitcointalk/337/))
 
-Zur Difficulty-Mechanik hielt er fest, dass schnellere Maschinen den Gesamtausstoß nicht erhöhen: «The average total coins generated across the network per day stays the same. Faster machines just get a larger share.» ([12.12.2009](https://satoshi.nakamotoinstitute.org/posts/bitcointalk/20/)) Vertiefung in [[bitcoin-mining-narrativ-und-kritik]] und [[bitcoin-mining-energiequellen]].
+Zur Difficulty-Mechanik hielt er fest, dass schnellere Maschinen den Gesamtausstoss nicht erhöhen: «The average total coins generated across the network per day stays the same. Faster machines just get a larger share.» ([12.12.2009](https://satoshi.nakamotoinstitute.org/posts/bitcointalk/20/)) Vertiefung in [[bitcoin-mining-narrativ-und-kritik]] und [[bitcoin-mining-energiequellen]].
 
 ### GPU-Wettrüsten
 
@@ -263,7 +263,7 @@ Im Vergleich zu bestehenden Systemen sah er das als schnell an: «Paper cheques 
 
 ### Motive: Freiheit und Politik
 
-Nakamoto äußerte sich sparsam zu Motiven, aber deutlich. Auf der Mailing List:
+Nakamoto äusserte sich sparsam zu Motiven, aber deutlich. Auf der Mailing List:
 
 > Yes, but we can win a major battle in the arms race and gain a new territory of freedom for several years.
 
@@ -291,7 +291,7 @@ Zwischen den technischen Antworten scheint gelegentlich der Ton durch. Über die
 
 ### Identität und Abgang
 
-Über die eigene Person gab Nakamoto fast nichts preis. Zur Entstehungszeit verriet er nur: «Since 2007. [...] Much more of the work was designing than coding.» ([18.06.2010](https://satoshi.nakamotoinstitute.org/posts/bitcointalk/127/)) Die letzte im Institut gelistete Äußerung stammt von 2014, nachdem *Newsweek* Dorian Nakamoto als Erfinder benannt hatte:
+Über die eigene Person gab Nakamoto fast nichts preis. Zur Entstehungszeit verriet er nur: «Since 2007. [...] Much more of the work was designing than coding.» ([18.06.2010](https://satoshi.nakamotoinstitute.org/posts/bitcointalk/127/)) Die letzte im Institut gelistete Äusserung stammt von 2014, nachdem *Newsweek* Dorian Nakamoto als Erfinder benannt hatte:
 
 > I am not Dorian Nakamoto.
 

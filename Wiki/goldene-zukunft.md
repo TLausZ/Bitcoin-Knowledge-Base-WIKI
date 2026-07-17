@@ -29,7 +29,7 @@ Ein eigenes Kapitel greift die häufigen Einwände zum Energieverbrauch auf und 
 
 ### Bitcoin und die Wall Street
 
-Aktuell für 2024 ist das Kapitel zur institutionellen Adoption. Bruce-Boye verweist auf BlackRocks Ankündigung eines Bitcoin-ETF im Juni 2023 und die anschließenden Nettoabflüsse aus Gold-ETFs als Zeichen, dass etabliertes Kapital Bitcoin zunehmend als das digitale Gold des Jahrhunderts behandelt. Das Buch schließt mit einem FAQ-Teil, der die typischen Einsteigerfragen bündelt.
+Aktuell für 2024 ist das Kapitel zur institutionellen Adoption. Bruce-Boye verweist auf BlackRocks Ankündigung eines Bitcoin-ETF im Juni 2023 und die anschliessenden Nettoabflüsse aus Gold-ETFs als Zeichen, dass etabliertes Kapital Bitcoin zunehmend als das digitale Gold des Jahrhunderts behandelt. Das Buch schliesst mit einem FAQ-Teil, der die typischen Einsteigerfragen bündelt.
 
 ### Einordnung
 

@@ -7,7 +7,7 @@
 
 ## Summary
 
-Der zweite Band (2017) versammelt Antonopoulos-Vorträge aus der Zeit des ersten großen „Blockchain, not Bitcoin"-Hypes und der beginnenden Skalierungs- und Altcoin-Debatten. Der rote Faden ist die Abgrenzung: Was macht ein offenes, erlaubnisfreies Netzwerk aus, und warum sind die meisten Nachahmungen, geschlossene „Distributed Ledgers", Konzern-Blockchains, das Gegenteil dessen, was Bitcoin wertvoll macht.
+Der zweite Band (2017) versammelt Antonopoulos-Vorträge aus der Zeit des ersten grossen „Blockchain, not Bitcoin"-Hypes und der beginnenden Skalierungs- und Altcoin-Debatten. Der rote Faden ist die Abgrenzung: Was macht ein offenes, erlaubnisfreies Netzwerk aus, und warum sind die meisten Nachahmungen, geschlossene „Distributed Ledgers", Konzern-Blockchains, das Gegenteil dessen, was Bitcoin wertvoll macht.
 
 ## Body
 
@@ -17,11 +17,11 @@ Der bekannteste Vortrag des Bandes greift die damalige Bankenmode an, „die Blo
 
 ### Immutabilität und der Zweck des Minings
 
-Antonopoulos stellt klar, dass der Zweck des Minings Sicherheit ist, nicht Münzproduktion. Proof-of-Work verankert die Kette in einem externen, nicht fälschbaren Gut: Energie. Wer die Vergangenheit umschreiben will, muss diese Energie erneut aufbringen, mit jeder Bestätigung wächst die Immutabilität. Er nennt das „immutability as a service": besser als in Stein gemeißelt, weil das Umschreiben nicht bloß schwierig, sondern ökonomisch absurd wird.
+Antonopoulos stellt klar, dass der Zweck des Minings Sicherheit ist, nicht Münzproduktion. Proof-of-Work verankert die Kette in einem externen, nicht fälschbaren Gut: Energie. Wer die Vergangenheit umschreiben will, muss diese Energie erneut aufbringen, mit jeder Bestätigung wächst die Immutabilität. Er nennt das „immutability as a service": besser als in Stein gemeisselt, weil das Umschreiben nicht bloss schwierig, sondern ökonomisch absurd wird.
 
 ### Hard Promises, Soft Promises
 
-Ein originelles Kapitel unterscheidet weiche und harte Versprechen. Institutionen geben weiche Versprechen: Sie können Regeln nachträglich ändern, Konten einfrieren, Bedingungen anpassen. Programmierbares Geld auf einem offenen Blockchain gibt harte Versprechen, Zusagen, die auch dann halten, wenn niemand sie durchsetzen will oder kann, weil sie außerhalb menschlicher Willkür in Code stehen. Vorhersehbarkeit „outside of human society" ist für Antonopoulos die eigentliche Neuerung, und sie speist Autonomie.
+Ein originelles Kapitel unterscheidet weiche und harte Versprechen. Institutionen geben weiche Versprechen: Sie können Regeln nachträglich ändern, Konten einfrieren, Bedingungen anpassen. Programmierbares Geld auf einem offenen Blockchain gibt harte Versprechen, Zusagen, die auch dann halten, wenn niemand sie durchsetzen will oder kann, weil sie ausserhalb menschlicher Willkür in Code stehen. Vorhersehbarkeit „outside of human society" ist für Antonopoulos die eigentliche Neuerung, und sie speist Autonomie.
 
 ### Die Währungskriege
 
@@ -29,7 +29,7 @@ Vor dem Hintergrund der indischen Demonetisierung von 2016 beschreibt Antonopoul
 
 ### Bubble Boy und die Kanalratte
 
-Ein einprägsames Bild gegen „security by isolation": Der in steriler Blase großgezogene Junge (permissioned Blockchains, abgeschottete Bankensysteme) hat kein trainiertes Immunsystem und stirbt am ersten echten Erreger. Bitcoin ist die Kanalratte, in feindlicher, offener Umgebung gehärtet, seit Jahren permanent angegriffen und gerade dadurch widerstandsfähig. Sicherheit durch Abschottung sei eine Illusion; Sicherheit entsteht durch Exposition.
+Ein einprägsames Bild gegen „security by isolation": Der in steriler Blase grossgezogene Junge (permissioned Blockchains, abgeschottete Bankensysteme) hat kein trainiertes Immunsystem und stirbt am ersten echten Erreger. Bitcoin ist die Kanalratte, in feindlicher, offener Umgebung gehärtet, seit Jahren permanent angegriffen und gerade dadurch widerstandsfähig. Sicherheit durch Abschottung sei eine Illusion; Sicherheit entsteht durch Exposition.
 
 ### Eine neue Spezies Geld und Streaming Money
 

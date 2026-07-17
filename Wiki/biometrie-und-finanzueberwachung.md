@@ -37,7 +37,7 @@ Die Einführung biometrischer Bankdaten in mehreren Ländern gleichzeitig folgt 
 - **China:** Social Credit System verknüpft Finanzdaten mit biometrischen Profilen zu Bürgerbewertungen
 - **Indien:** Aadhaar-Programm — 1,3 Milliarden biometrisch erfasste Bürger, direkt mit Bankkonten verknüpft
 - **EU:** Digital Identity Framework plant biometrische Authentifizierung in digitalen Wallets
-- **USA:** Patriot Act und Bank Secrecy Act verlangen "enhanced security measures", die zunehmend Biometrie einschließen
+- **USA:** Patriot Act und Bank Secrecy Act verlangen "enhanced security measures", die zunehmend Biometrie einschliessen
 
 Der gemeinsame Nenner: Infrastruktur, die staatliche Überwachung unter dem Deckmantel von Sicherheit und Bequemlichkeit ermöglicht.
 
@@ -65,7 +65,7 @@ Gigi formuliert in "Der Aufstieg des souveränen Individuums" drei konkrete Frei
 
 **Freiheit, Zahlungen durchzuführen.** Bitcoin ist erlaubnisfrei — keine Bank, keine Regierung kann Teilnahme verweigern. Grenzenlos — geografisch irrelevant. Zensurresistent — kein Konto einfrierbar, weil kein Konto existiert. Mathematik lässt sich nicht mit Gewalt lösen.
 
-**Freiheit, privat zu bleiben.** Wie HTTPS die gesamte Internetkommunikation standardmäßig verschlüsselte, sollte Privatsphäre im Finanzbereich zur Norm werden. CoinJoin und ähnliche Technologien gehen in diese Richtung. Chinas Beispiel zeigt das Gegenteil: Bußgelder für Falschparken werden per Gesichtserkennung automatisch vom Konto abgezogen — kein Widerspruch möglich.
+**Freiheit, privat zu bleiben.** Wie HTTPS die gesamte Internetkommunikation standardmässig verschlüsselte, sollte Privatsphäre im Finanzbereich zur Norm werden. CoinJoin und ähnliche Technologien gehen in diese Richtung. Chinas Beispiel zeigt das Gegenteil: Bussgelder für Falschparken werden per Gesichtserkennung automatisch vom Konto abgezogen — kein Widerspruch möglich.
 
 **Freiheit, zu sparen.** NIRP (Negativzinspolitik) bestraft Sparer strukturell: Wer nicht ausgibt oder investiert, verliert. Gigi nennt das "puren Wahnsinn" — Kreditnehmer zahlen, Sparer werden enteignet. Bitcoin's 21-Millionen-Limit ist keine Designentscheidung, sondern eine physische Obergrenze, die kein Politiker ändern kann. Matt Odell: "Sats sind meine Fluchtwährung."
 

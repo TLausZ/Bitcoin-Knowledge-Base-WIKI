@@ -7,7 +7,7 @@
 
 ## Summary
 
-Bitcoin auf Kredit kaufen heißt: Geld leihen (klassischer Konsumentenkredit oder Bitcoin-besicherter Kredit) und damit den Kauf vorziehen, um von künftiger Wertsteigerung mit Hebel zu profitieren. Nicole Nowaks Rückrechnung über den Zeitraum 2013–2021 zeigt: Ein kreditfinanzierter Einmalkauf schlug den gleichwertigen Sparplan in den meisten Monaten, verlor aber deutlich, wenn der Einstieg nahe einem Allzeithoch lag. Längere Laufzeiten reduzierten das Timing-Risiko. Das größte Risiko ist nicht finanzieller, sondern psychologischer Natur: Wer Kursrückgänge von 50% und mehr mit laufender Rückzahlungspflicht nicht aushält, sollte die Finger davon lassen. Ein Nischenthema für erfahrene, risikobereite Bitcoiner — kein Einsteigerwerkzeug.
+Bitcoin auf Kredit kaufen heisst: Geld leihen (klassischer Konsumentenkredit oder Bitcoin-besicherter Kredit) und damit den Kauf vorziehen, um von künftiger Wertsteigerung mit Hebel zu profitieren. Nicole Nowaks Rückrechnung über den Zeitraum 2013–2021 zeigt: Ein kreditfinanzierter Einmalkauf schlug den gleichwertigen Sparplan in den meisten Monaten, verlor aber deutlich, wenn der Einstieg nahe einem Allzeithoch lag. Längere Laufzeiten reduzierten das Timing-Risiko. Das grösste Risiko ist nicht finanzieller, sondern psychologischer Natur: Wer Kursrückgänge von 50% und mehr mit laufender Rückzahlungspflicht nicht aushält, sollte die Finger davon lassen. Ein Nischenthema für erfahrene, risikobereite Bitcoiner — kein Einsteigerwerkzeug.
 
 ## Body
 
@@ -28,7 +28,7 @@ Zwei historische Stichproben zeigen die Spannweite:
 
 Für jeden Einstiegsmonat von April 2013 bis Oktober 2021 wurde die Bitcoin-Mehrmenge des Kreditkaufs gegenüber dem Sparplan berechnet. Ergebnis: Die meisten Datenpunkte liegen über der Nulllinie — der Kredit war überwiegend im Vorteil. Die Ausnahmen konzentrieren sich auf die Hochphasen Januar 2014, Januar 2018 und 2021, also Einstiege nahe zyklischer Allzeithochs.
 
-Der Laufzeiteffekt: Dieselbe Rechnung mit 72, 96 und 120 Monaten Laufzeit verschiebt die Kurven insgesamt nach oben. Ein größerer Zeitraum gab dem Kurs mehr Gelegenheit, Rücksetzer aufzuholen; die längere Laufzeit verringerte historisch das Risiko eines ungünstigen Einstiegszeitpunkts. Umgekehrt gilt: Die bei Bitcoin-besicherten Krediten üblichen kurzen Laufzeiten (oft maximal 24 Monate) erhöhen das Timing-Risiko. Die Ergebnisse beruhen ausschließlich auf historischen Daten; ob sich der Effekt wiederholt, ist offen. [[20251026_heartmoney-bitcoin-auf-kredit-lohnt-sich-das]]
+Der Laufzeiteffekt: Dieselbe Rechnung mit 72, 96 und 120 Monaten Laufzeit verschiebt die Kurven insgesamt nach oben. Ein grösserer Zeitraum gab dem Kurs mehr Gelegenheit, Rücksetzer aufzuholen; die längere Laufzeit verringerte historisch das Risiko eines ungünstigen Einstiegszeitpunkts. Umgekehrt gilt: Die bei Bitcoin-besicherten Krediten üblichen kurzen Laufzeiten (oft maximal 24 Monate) erhöhen das Timing-Risiko. Die Ergebnisse beruhen ausschliesslich auf historischen Daten; ob sich der Effekt wiederholt, ist offen. [[20251026_heartmoney-bitcoin-auf-kredit-lohnt-sich-das]]
 
 ### Timing über das Power Law
 
@@ -36,7 +36,7 @@ Als Orientierung für den Einstiegszeitpunkt dient das Power-Law-Preisband (sieh
 
 ### Risiken: Psychologie vor Mathematik
 
-Fremdkapital verstärkt Gewinne wie Verluste. Die Rückzahlungspflicht besteht unabhängig von der Kursentwicklung; Kursrückgänge von 50% und mehr sind bei Bitcoin dokumentierte Normalität. Nowaks Einschätzung: Das größte Risiko ist psychologisch. Wer bei Drawdowns in Panik gerät oder schlaflose Nächte hat, für den wird aus einem rechnerisch vertretbaren Modell eine Belastung.
+Fremdkapital verstärkt Gewinne wie Verluste. Die Rückzahlungspflicht besteht unabhängig von der Kursentwicklung; Kursrückgänge von 50% und mehr sind bei Bitcoin dokumentierte Normalität. Nowaks Einschätzung: Das grösste Risiko ist psychologisch. Wer bei Drawdowns in Panik gerät oder schlaflose Nächte hat, für den wird aus einem rechnerisch vertretbaren Modell eine Belastung.
 
 Ihr eigener Umgang damit war eine Worst-Case-Prüfung vor der Kreditaufnahme: Was, wenn Bitcoin scheitert und auf null fällt? Ihre Antwort — dann weiterarbeiten als Angestellte bis zur Rente, also die Ausgangslage der meisten Menschen — machte die Konsequenzen tragbar und die Entscheidung bewusst.
 
@@ -44,7 +44,7 @@ Eine zweite Lehre aus ihrer Praxis: keine Lebenspläne auf Preisen aufbauen, die
 
 ### Recht, Ethik, Normalisierung
 
-Bitcoin auf Kredit zu kaufen ist legal. Manche Banken schließen Kredite für spekulative Zwecke in ihren Vertragsbedingungen aus; bei Online-Anbietern lässt sich der Verwendungszweck meist als «Sonstiges» angeben. Ethisch argumentiert Nowak mit Chancengleichheit: Vermögende und Unternehmen nutzen Fremdkapital seit Jahrzehnten zum Vermögensaufbau; Treasury-Firmen wie Strategy oder Metaplanet kaufen Bitcoin offen mit Fremdkapital (siehe [[bitcoin-unternehmens-strategie]]). Warum sollte der Durchschnittsbürger dasselbe Werkzeug nicht verantwortungsvoll nutzen dürfen?
+Bitcoin auf Kredit zu kaufen ist legal. Manche Banken schliessen Kredite für spekulative Zwecke in ihren Vertragsbedingungen aus; bei Online-Anbietern lässt sich der Verwendungszweck meist als «Sonstiges» angeben. Ethisch argumentiert Nowak mit Chancengleichheit: Vermögende und Unternehmen nutzen Fremdkapital seit Jahrzehnten zum Vermögensaufbau; Treasury-Firmen wie Strategy oder Metaplanet kaufen Bitcoin offen mit Fremdkapital (siehe [[bitcoin-unternehmens-strategie]]). Warum sollte der Durchschnittsbürger dasselbe Werkzeug nicht verantwortungsvoll nutzen dürfen?
 
 Bemerkenswert ist der Normalisierungsverlauf: 2023 löste das Thema in der Community noch moralische Empörung aus («Öl ins Schuldenfeuer»), 2025 war es Vortrags- und Workshop-Thema auf dem BitcoinForum Ingolstadt — veranstaltet von einer Volksbank. [[20251013_heartmoney-magie-in-ingolstadt]]
 
@@ -60,6 +60,7 @@ Kein Ersatz für DCA: Die meisten Menschen bauen ihren Bestand über Sparpläne 
 - [[bitcoin-kaufen-und-dca]]
 - [[bitcoin-unternehmens-strategie]]
 - [[bitcoin-und-immobilien]]
+- [[bitcoin-treasury-companies]]
 
 ## Open Questions
 

@@ -7,7 +7,7 @@
 
 ## Summary
 
-Bitcoin besitzen bedeutet, einen privaten Schlüssel besitzen. Wer diesen Schlüssel einer Börse überlässt, besitzt keinen Bitcoin — nur eine Forderung. Wer ihn auf einem vernetzten Computer speichert, riskiert Diebstahl durch Malware. Eine Hardware-Wallet schließt diese Lücke: Sie hält den Schlüssel offline und isoliert, lässt aber trotzdem sichere Transaktionen zu. Für regelmäßige Transaktionen und Beträge, die man nicht verlieren möchte, ist eine Hardware-Wallet der pragmatische Standard.
+Bitcoin besitzen bedeutet, einen privaten Schlüssel besitzen. Wer diesen Schlüssel einer Börse überlässt, besitzt keinen Bitcoin — nur eine Forderung. Wer ihn auf einem vernetzten Computer speichert, riskiert Diebstahl durch Malware. Eine Hardware-Wallet schliesst diese Lücke: Sie hält den Schlüssel offline und isoliert, lässt aber trotzdem sichere Transaktionen zu. Für regelmässige Transaktionen und Beträge, die man nicht verlieren möchte, ist eine Hardware-Wallet der pragmatische Standard.
 
 ## Body
 
@@ -33,7 +33,7 @@ Die Wallet-App auf dem Computer hat keine privaten Schlüssel. Sie bereitet Tran
 
 **Option 4: Air-Gap-Setup mit dedizierter Hardware**
 
-Das Glacier Protocol und ähnliche Ansätze nutzen Computer ohne Netzwerkverbindung (Netzwerkkarte entfernt) für maximale Isolation. Für die langfristige Aufbewahrung sehr grosser Summen relevant. Erhebliches Fehlerpotential, komplex, für regelmäßige Nutzung ungeeignet.
+Das Glacier Protocol und ähnliche Ansätze nutzen Computer ohne Netzwerkverbindung (Netzwerkkarte entfernt) für maximale Isolation. Für die langfristige Aufbewahrung sehr grosser Summen relevant. Erhebliches Fehlerpotential, komplex, für regelmässige Nutzung ungeeignet.
 
 ### Was man nicht tun sollte: Paper Wallets
 
@@ -46,7 +46,7 @@ Vorgenerierte Schlüssel auf Metall-Produkten oder "professionellen Krypto-Bankn
 Für die meisten Nutzer ergibt eine Kombination Sinn:
 
 - **Mobiles Wallet** (Lightning oder On-Chain) auf dem Smartphone für kleine Beträge im Alltag.
-- **Hardware-Wallet** für grössere Beträge und regelmäßige Transaktionen.
+- **Hardware-Wallet** für grössere Beträge und regelmässige Transaktionen.
 - **Hardware-Wallet mit Passphrase** für die langfristige Aufbewahrung bedeutender Summen an einem sicheren Ort.
 
 ### Ein Einsteigerpfad aus der DACH-Praxis (Nowak, 2025)

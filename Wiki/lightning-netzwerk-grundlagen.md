@@ -13,21 +13,21 @@ Das Lightning Network ist eine Schicht über Bitcoin, die schnelle und günstige
 
 ### Zahlungskanäle
 
-Ein Kanal öffnet mit einer On-Chain-Transaktion, die Bitcoin in einem 2-of-2-Multisig-Output sperrt. Die **Kanalkapazität** ist die Gesamtmenge der gesperrten Bitcoin — sie ändert sich nur durch Schließen oder Splicing.
+Ein Kanal öffnet mit einer On-Chain-Transaktion, die Bitcoin in einem 2-of-2-Multisig-Output sperrt. Die **Kanalkapazität** ist die Gesamtmenge der gesperrten Bitcoin — sie ändert sich nur durch Schliessen oder Splicing.
 
 Innerhalb des Kanals gibt es jederzeit eine **lokale Balance** (eigene Seite) und eine **Remote Balance** (Gegenseite). Jede Zahlung verschiebt Satoshis von einer Seite zur anderen, ohne eine On-Chain-Transaktion zu erzeugen. Die Kanalkapazität bleibt konstant; nur die Verteilung ändert sich.
 
-Zum Schließen veröffentlichen beide Parteien den aktuellen Zustand on-chain. Kooperatives Schließen (beide einig) braucht eine Transaktion; erzwungenes Schließen (eine Partei nicht erreichbar) ist teurer und langsamer.
+Zum Schliessen veröffentlichen beide Parteien den aktuellen Zustand on-chain. Kooperatives Schliessen (beide einig) braucht eine Transaktion; erzwungenes Schliessen (eine Partei nicht erreichbar) ist teurer und langsamer.
 
 ### Inbound- und Outbound-Kapazität
 
 Der Betrag, den man senden kann, ist durch die lokale Balance begrenzt (**Outbound-Kapazität**). Der Betrag, den man empfangen kann, ist durch die Remote Balance begrenzt (**Inbound-Kapazität**).
 
-Öffnet jemand einen neuen Kanal, fließt die gesamte Kapazität zunächst auf die eigene Seite. Man kann sofort senden, aber nichts empfangen — weil die Remote Balance Null ist. Inbound-Kapazität entsteht durch empfangene Zahlungen oder dadurch, dass Gegenstellen eigene Kanäle mit genug Remote Balance öffnen. Das ist das **Inbound-Kapazitätsproblem** für neue Empfänger im Netzwerk. Lightning Service Provider (LSP) lösen es, indem sie dem Nutzer eingehende Liquidität bereitstellen.
+Öffnet jemand einen neuen Kanal, fliesst die gesamte Kapazität zunächst auf die eigene Seite. Man kann sofort senden, aber nichts empfangen — weil die Remote Balance Null ist. Inbound-Kapazität entsteht durch empfangene Zahlungen oder dadurch, dass Gegenstellen eigene Kanäle mit genug Remote Balance öffnen. Das ist das **Inbound-Kapazitätsproblem** für neue Empfänger im Netzwerk. Lightning Service Provider (LSP) lösen es, indem sie dem Nutzer eingehende Liquidität bereitstellen.
 
 ### Routing und HTLCs
 
-Zwei Nodes müssen keinen direkten Kanal teilen, um sich zu bezahlen. Eine Zahlung kann über mehrere Zwischenknoten geroutet werden. Der Mechanismus dafür heißt **HTLC (Hash Time-Locked Contract)**.
+Zwei Nodes müssen keinen direkten Kanal teilen, um sich zu bezahlen. Eine Zahlung kann über mehrere Zwischenknoten geroutet werden. Der Mechanismus dafür heisst **HTLC (Hash Time-Locked Contract)**.
 
 Funktionsprinzip: Der Empfänger erzeugt ein Geheimnis (`preimage`) und teilt dessen Hash mit dem Sender. Der Sender sperrt Satoshis mit der Bedingung: „Wer das Preimage kennt, bekommt die Coins; nach Timeout gehen sie zurück." Jeder Hop in der Route setzt dasselbe HTLC weiter, mit leicht kürzer werdendem Timeout. Der Empfänger löst das letzte HTLC auf — dadurch deckt er das Geheimnis auf, was kettenartig alle vorherigen HTLCs löst. Kein Zwischenknoten kann das Geld stehlen, weil er das Preimage nicht kennt, bevor der Empfänger es enthüllt.
 
@@ -49,7 +49,7 @@ Submarine Swaps nutzen HTLCs, um zwischen On-Chain-Bitcoin und Lightning zu wech
 
 Gigi formuliert Lightning nicht nur als Zahlungskanal, sondern als Infrastruktur für eine neue Internetökonomie. Das Problem des heutigen Webs ist strukturell: Konventionelle Währungen existieren im Cyberspace nur als Kredit (IOUs), nicht als Bargeld. Das macht Micropayments unwirtschaftlich (Minimum ~$5 mit Kreditkartensystem) und erzwingt Werbemodelle.
 
-Lightning löst das: Es ist das erste digitale Inhaberinstrument — digitales Bargeld mit echtem Peer-to-Peer-Charakter, ohne Gegenparteirisiko. Satoshi-Beträge (Bruchteile eines Cents) können in Echtzeit und nahezu kostenlos fließen.
+Lightning löst das: Es ist das erste digitale Inhaberinstrument — digitales Bargeld mit echtem Peer-to-Peer-Charakter, ohne Gegenparteirisiko. Satoshi-Beträge (Bruchteile eines Cents) können in Echtzeit und nahezu kostenlos fliessen.
 
 **Value-Streaming:** Nutzer können Sats im laufenden Podcast-Konsum streamen — nicht nach Abschluss zahlen, sondern während des Hörens, proportional zur konsumierten Zeit. Das ist mit keinem konventionellen Zahlungssystem realisierbar.
 
@@ -61,7 +61,7 @@ Gigi: „Sobald du deine ersten Streaming-Zahlungen erhalten hast, fühlt es sic
 
 ### Einsteiger-Wallets und das Custodial-Limit
 
-Für den Alltag trennt Michael Wolfs "Bitcoin-Ratgeber" die Spar-Wallet (größere Beträge, on-chain) klar von der Lightning-Wallet (Alltagsbeträge, Sekundenzahlungen). Non-Custodial-Optionen halten den Schlüssel beim Nutzer: Phoenix (automatisches Kanalmanagement, einsteigerfreundlich), Breez (mit integriertem Point-of-Sale), Zeus (fortgeschritten, an eigene Node koppelbar) und Aqua (Hybrid). Custodial-Wallets wie Blink oder Wallet of Satoshi sind einfacher, verwahren aber die Schlüssel für den Nutzer. Die Faustregel: Custodial Lightning nur für Kleingeld; alles über ein paar Euro gehört in eine Non-Custodial-Wallet. Aufgeladen wird eine Lightning-Wallet, indem man on-chain Bitcoin an ihre Empfangsadresse sendet — Lightning-Adressen beginnen mit „ln…", on-chain-Adressen mit „bc1…", „1…" oder „3…".
+Für den Alltag trennt Michael Wolfs "Bitcoin-Ratgeber" die Spar-Wallet (grössere Beträge, on-chain) klar von der Lightning-Wallet (Alltagsbeträge, Sekundenzahlungen). Non-Custodial-Optionen halten den Schlüssel beim Nutzer: Phoenix (automatisches Kanalmanagement, einsteigerfreundlich), Breez (mit integriertem Point-of-Sale), Zeus (fortgeschritten, an eigene Node koppelbar) und Aqua (Hybrid). Custodial-Wallets wie Blink oder Wallet of Satoshi sind einfacher, verwahren aber die Schlüssel für den Nutzer. Die Faustregel: Custodial Lightning nur für Kleingeld; alles über ein paar Euro gehört in eine Non-Custodial-Wallet. Aufgeladen wird eine Lightning-Wallet, indem man on-chain Bitcoin an ihre Empfangsadresse sendet — Lightning-Adressen beginnen mit „ln…", on-chain-Adressen mit „bc1…", „1…" oder „3…".
 
 ## Related
 

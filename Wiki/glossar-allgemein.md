@@ -2,8 +2,8 @@
 
 **Status:** established
 **Themen:** oekonomie, adoption, glossar
-**Last updated:** 2026-07-15
-**Sources:** [[Glossary - HoS]], [[Glossary – aantonop]], [[glossary-bitcoinbook]], [[Glossary-bitcoindesign]]
+**Last updated:** 2026-07-17
+**Sources:** [[Glossary - HoS]], [[Glossary – aantonop]], [[glossary-bitcoinbook]], [[Glossary-bitcoindesign]], [[20260717_bitcointreasuries-top100-public-companies]]
 
 ## Summary
 
@@ -45,7 +45,11 @@ Cold Storage heisst, die privaten Schlüssel offline zu halten (Hardware Wallet,
 
 ### Corporate Treasury
 
-Die Praxis von Unternehmen, Bitcoin als Reserve in der Firmenbilanz zu halten, statt nur Fiat-Liquidität vorzuhalten.
+Die Praxis von Unternehmen, Bitcoin als Reserve in der Firmenbilanz zu halten, statt nur Fiat-Liquidität vorzuhalten. → [[bitcoin-unternehmens-strategie]], [[bitcoin-treasury-companies]]
+
+### Cost Basis (Einstand)
+
+Der Gesamtbetrag, den ein Halter für seine Bitcoin-Position bezahlt hat. Der Vergleich mit dem aktuellen Marktwert zeigt, ob eine Position im Gewinn oder unter Wasser ist — Strategy stand im Juli 2026 mit $63.7 Mrd. Einstand gegen $54.1 Mrd. Marktwert unter Einstand. → [[bitcoin-treasury-companies]]
 
 ### Custodial / Non-Custodial
 
@@ -115,9 +119,21 @@ Gesamtwert aller im Umlauf befindlichen Bitcoin, berechnet als Preis mal Umlaufm
 
 Der Prozess, bei dem spezialisierte Rechner unter Energieeinsatz nach einem gültigen Proof of Work suchen, neue Blöcke erzeugen und dafür Bitcoin erhalten. → [[bitcoin-mining-und-proof-of-work]]
 
+### mNAV (Multiple on Net Asset Value)
+
+Marktkapitalisierung eines Unternehmens geteilt durch den Marktwert seines Bitcoin-Bestands. Über 1 zahlt der Markt eine Prämie auf die Aktie gegenüber dem Bitcoin dahinter, unter 1 einen Abschlag. Die Prämie ist die Grundlage des Strategy-Flywheels (Aktien über NAV ausgeben, mehr BTC pro Aktie kaufen); notiert ein Vehikel dauerhaft unter 1, kehrt sich die Logik um. → [[bitcoin-unternehmens-strategie]], [[bitcoin-treasury-companies]]
+
+### MSTR (Strategy)
+
+Börsenticker von Strategy (bis 2025 MicroStrategy), dem mit Abstand grössten börsennotierten Bitcoin-Halter — 843'775 BTC oder 4% des gesamten Supplys (Stand Juli 2026). Unter Michael Saylor seit 2020 vom Software-Anbieter zum Bitcoin-Treasury-Vehikel umgebaut; die Aktie dient vielen Investoren als Proxy-Exposure auf Bitcoin. → [[bitcoin-unternehmens-strategie]], [[bitcoin-treasury-companies]]
+
 ### Multisig (Multi-Signatur)
 
 Verwahrform, bei der mehrere Schlüssel nötig sind, um Bitcoin auszugeben (etwa 2 von 3). Kein einzelner kompromittierter Schlüssel genügt für einen Diebstahl. → [[multisig-und-kollaborative-verwahrung]]
+
+### NgU (Number go Up)
+
+Ursprünglich ein Meme für die Erwartung steigender Bitcoin-Preise. Bei bitcointreasuries.net zusätzlich eine Kennzahl: der aktuelle Bitcoin-Preis als Vielfaches der Cost Basis eines Halters. NgU 0.85x heisst, die Position steht 15% unter Einstand; 1.91x (Tesla) heisst, der Bestand hat sich gegenüber dem Einstand fast verdoppelt. → [[bitcoin-treasury-companies]]
 
 ### Node (Full Node)
 

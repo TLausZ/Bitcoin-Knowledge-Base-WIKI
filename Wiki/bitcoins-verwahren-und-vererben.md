@@ -20,7 +20,7 @@ Bitcoin macht dich zur eigenen Bank, mit der Kehrseite, dass es keine Helpline g
 Steiner führt schrittweise durch die Wallet-Typen und leitet daraus ab, was sich fürs Erbe eignet:
 
 - **Custodial vs. non-custodial:** Custodial (Börse/Kryptobank hält die Schlüssel) ist bequem, aber Fremdverwahrung, einfrierbar, hackbar, und beim Erbfall problematisch, weil das Einloggen mit dem Namen des Verstorbenen mancherorts strafbar ist. Fürs Erbe klar abgelehnt.
-- **Cold vs. hot storage:** Hot-Wallets (permanent online) nur für Kleinbeträge, „nicht mehr, als du Bargeld in der Brieftasche trägst". Für langfristige Verwahrung und Erbe ausschließlich Cold Storage.
+- **Cold vs. hot storage:** Hot-Wallets (permanent online) nur für Kleinbeträge, „nicht mehr, als du Bargeld in der Brieftasche trägst". Für langfristige Verwahrung und Erbe ausschliesslich Cold Storage.
 - **Fazit des Buches:** non-custodial + cold ist die einzige Basis, auf der ein mehrjähriger Nachlassplan aufsetzt.
 
 ### Werkzeuge für Sicherung und Vererbung
@@ -32,7 +32,7 @@ Das Buch behandelt die gängigen Bausteine und wie sie im Nachlassplan zusammens
 - **Passphrase** als 25. Wort, zusätzlicher Schutz, aber auch zusätzliche Verlustquelle, die im Plan bedacht sein muss.
 - **Shamir Secret Sharing**, Aufteilung des Seeds in mehrere Teile, von denen eine Schwelle zur Wiederherstellung genügt.
 - **Multisig** als kryptografisches Mehr-Augen-Prinzip, bei dem mehrere Schlüssel für eine Ausgabe nötig sind.
-- **Schließfach/Tresor** zur räumlich getrennten Ablage von Teilgeheimnissen.
+- **Schliessfach/Tresor** zur räumlich getrennten Ablage von Teilgeheimnissen.
 
 ### Der Nachlassplan
 

@@ -7,7 +7,7 @@
 
 ## Summary
 
-Saifedean Ammous' „Gesetze der Wirtschaft" (2023, engl. „Principles of Economics") ist sein systematisches Lehrbuch der österreichischen Ökonomik. Nachdem „Der Bitcoin-Standard" und „Der Fiat-Standard" jeweils ein Thema behandelten, baut dieses Buch das ganze Gebäude von Grund auf: von der Handlung des Einzelnen über Kapital und Energie bis zu Geld, monetärer Expansion und Zivilisation. Ammous schrieb es als das Lehrbuch, mit dem er selbst hätte unterrichten wollen, und verließ dafür seine Universitätsstelle.
+Saifedean Ammous' „Gesetze der Wirtschaft" (2023, engl. „Principles of Economics") ist sein systematisches Lehrbuch der österreichischen Ökonomik. Nachdem „Der Bitcoin-Standard" und „Der Fiat-Standard" jeweils ein Thema behandelten, baut dieses Buch das ganze Gebäude von Grund auf: von der Handlung des Einzelnen über Kapital und Energie bis zu Geld, monetärer Expansion und Zivilisation. Ammous schrieb es als das Lehrbuch, mit dem er selbst hätte unterrichten wollen, und verliess dafür seine Universitätsstelle.
 
 ## Body
 
@@ -29,7 +29,7 @@ Der vierte Teil ist die Brücke zu Ammous' Bitcoin-Werk. Zeitpräferenz bestimmt
 
 ### Zivilisation: Gewalt und Verteidigung
 
-Der Schlussteil verlässt die reine Ökonomik und fragt nach den Bedingungen von Zivilisation. Ammous behandelt Gewalt als Gegenmodell zur freiwilligen Kooperation und Verteidigung als das Problem, wie eine friedliche Ordnung sich gegen Zwang behauptet. Damit schließt sich der Bogen: Solides Geld, akkumuliertes Kapital und niedrige Zeitpräferenz sind für Ammous die materielle Grundlage einer Zivilisation, die auf Tausch statt auf Zwang beruht.
+Der Schlussteil verlässt die reine Ökonomik und fragt nach den Bedingungen von Zivilisation. Ammous behandelt Gewalt als Gegenmodell zur freiwilligen Kooperation und Verteidigung als das Problem, wie eine friedliche Ordnung sich gegen Zwang behauptet. Damit schliesst sich der Bogen: Solides Geld, akkumuliertes Kapital und niedrige Zeitpräferenz sind für Ammous die materielle Grundlage einer Zivilisation, die auf Tausch statt auf Zwang beruht.
 
 ### Einordnung
 

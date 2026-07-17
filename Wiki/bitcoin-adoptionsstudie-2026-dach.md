@@ -51,7 +51,7 @@ Core Job: *Hilf mir dabei, mein Haus für die Anlage-Nachfrage meiner Kunden lie
 Adoption gelingt in diesem Segment empirisch nur mit vollständiger **Champion-Triade**:
 - Vorstandsvorsitzender (formales Mandat)
 - Aufsichtsrats-Verbündeter (Rückendeckung gegen Reputationsrisiko)
-- Externer Experte (Wissens-Proxy, Curriculum, fachliche Autorität nach außen)
+- Externer Experte (Wissens-Proxy, Curriculum, fachliche Autorität nach aussen)
 
 Alle vier Pre-Champion-Interviews scheitern am fehlenden Triade-Element. INT-035 ist das einzige Interview mit vollständigem Triumvirat — und das einzige mit P5-Advocacy.
 
@@ -85,7 +85,7 @@ Privat-Investoren mit Inflations- und Souveränitätsmotiv. Bitcoin-only ist hie
 
 **SEG-05 — Vorsorge-suchende Mainstream-Sparer** (n=7, Konfidenz 7,3/10)
 
-Frauen Mitte 40 bis Mitte 60 mit konkret spürbarer Vorsorgelücke. Einer der zwei größten Non-Consumption-Märkte der Studie. Ihre Frage ist nicht „Wie kaufe ich Bitcoin?" — sie ist „Was mache ich mit meinem Geld, damit es im Alter reicht?" Ein Bitcoin-only-Angebot trifft sie strukturell nicht.
+Frauen Mitte 40 bis Mitte 60 mit konkret spürbarer Vorsorgelücke. Einer der zwei grössten Non-Consumption-Märkte der Studie. Ihre Frage ist nicht „Wie kaufe ich Bitcoin?" — sie ist „Was mache ich mit meinem Geld, damit es im Alter reicht?" Ein Bitcoin-only-Angebot trifft sie strukturell nicht.
 
 Kronzeugin: INT-034 — kannte die Bitcoin-Anbieterin persönlich, hatte aktiven Vorsorge-Bedarf, ausreichendes Kapital, Vertrauensbeziehung. Hat trotzdem nicht den Premium-Bitcoin-Workshop gebucht, sondern einen ETF-Sparplan abgeschlossen. Ihr Fall trifft gleichzeitig MM-01, MM-02 und MM-03.
 
@@ -93,9 +93,9 @@ Kronzeugin: INT-034 — kannte die Bitcoin-Anbieterin persönlich, hatte aktiven
 
 **SEG-06 — Empowerment-Einsteigerinnen mit Mentorin** (n=2, Konfidenz 6,2/10)
 
-Selbstständige Frauen, die durch Lebensereignisse (Erwerbspause, Scheidung, finanzielle Abhängigkeit) in eine Situation geraten sind, in der Bitcoin zum Werkzeug für finanzielle Eigenständigkeit wird. Einziges Segment, in dem MM-05 Online-Distanz bereits in P1 (Awareness) wirkt — Erstkontakt findet ausschließlich über Vertrauensbeziehung zur Mentorin statt, nie über Marketing oder Kampagne.
+Selbstständige Frauen, die durch Lebensereignisse (Erwerbspause, Scheidung, finanzielle Abhängigkeit) in eine Situation geraten sind, in der Bitcoin zum Werkzeug für finanzielle Eigenständigkeit wird. Einziges Segment, in dem MM-05 Online-Distanz bereits in P1 (Awareness) wirkt — Erstkontakt findet ausschliesslich über Vertrauensbeziehung zur Mentorin statt, nie über Marketing oder Kampagne.
 
-Der zweite große Non-Consumption-Markt der Studie. Kleines n (2), aber hohe Evidenzqualität; Konfidenz-Vorbehalt bleibt sichtbar.
+Der zweite grosse Non-Consumption-Markt der Studie. Kleines n (2), aber hohe Evidenzqualität; Konfidenz-Vorbehalt bleibt sichtbar.
 
 ---
 
@@ -146,7 +146,7 @@ Finanzprofis und KMU-Entscheider sind privat überzeugt, beruflich durch interne
 
 **MM-05 — Online-Distanz / Scam-Angst**
 
-In SEG-06, SF-01 und Teilen von SEG-05 schließt Online-Funnel den Kauf nicht. Vertrauenslücke ist nicht digital lösbar, weil das Misstrauen gegen den Kanal geht, nicht das Produkt. Konferenz-Stand, lokale Beratung, Mentor-Vermittlung sind Konversions-Infrastruktur — kein Nice-to-have.
+In SEG-06, SF-01 und Teilen von SEG-05 schliesst Online-Funnel den Kauf nicht. Vertrauenslücke ist nicht digital lösbar, weil das Misstrauen gegen den Kanal geht, nicht das Produkt. Konferenz-Stand, lokale Beratung, Mentor-Vermittlung sind Konversions-Infrastruktur — kein Nice-to-have.
 
 ---
 
@@ -173,7 +173,7 @@ Systematische Negativsuche über alle 1.207 Evidence Cards:
 | AB-05 | El Salvador / Legal Tender als Trigger | 2/35 | schwach |
 | AB-01 | Daily-Payment / Coffee-Pay-with-BTC als Big-Hire-Trigger | 5/35 | präsent (mit Reinterpretation: KMU-Akzeptanz, nicht Konsumenten-Pull) |
 | AB-02 | Lightning als Big-Hire-Trigger | 6/35 | präsent (mit Reinterpretation: Infrastrukturdetail innerhalb KMU-Jobs) |
-| AB-03 | Influencer als finaler Kaufanstoß | 7/35 | präsent (mit Reinterpretation: Bildungs-Influencer in P2, kein Marketing-Influencer in P1) |
+| AB-03 | Influencer als finaler Kaufanstoss | 7/35 | präsent (mit Reinterpretation: Bildungs-Influencer in P2, kein Marketing-Influencer in P1) |
 
 Operative Konsequenzen: Massenmedien-Budget trifft keine dokumentierte Adoptionsmechanik. Trading-Renditen als Frame verfehlt alle sechs Hauptsegmente. Bildungs-Influencer (Podcast, langes YouTube-Format, Buch) wirken — Marketing-Influencer (Instagram, TikTok, Sponsored Posts) nicht.
 
@@ -193,7 +193,7 @@ Operative Konsequenzen: Massenmedien-Budget trifft keine dokumentierte Adoptions
 
 ### Methodische Grenzen
 
-- Keine Marktgrößen oder Adoptionsquoten (qualitative Mechanismus-Rekonstruktion, keine Zählung)
+- Keine Marktgrössen oder Adoptionsquoten (qualitative Mechanismus-Rekonstruktion, keine Zählung)
 - Keine Verwaltungsadoption, kein Crowdfunding, keine Versicherungsprodukte mit Bitcoin-Komponente, keine Real-Estate-Tokenisierung, keine Family-Office-Mandate im Vollmandat-Niveau
 - SEG-06 (n=2): beide Fälle kommen von derselben Mentorin — Tonalitäts-These ist Hypothese, nicht Marktbefund
 - Anti-Befunde sind zeitabhängig und DACH-spezifisch; 2028 kann das Bild anders aussehen

@@ -54,6 +54,7 @@ Visser rechnet mit 6–18 Monaten Distributionsdauer (Ende 2025 bereits mehrere 
 - [[bitcoin-monetarisierung]]
 - [[bitcoin-antifragilitaet]]
 - [[bitcoin-powerlaw-und-preismodelle]]
+- [[bitcoin-treasury-companies]]
 
 ## Open Questions
 

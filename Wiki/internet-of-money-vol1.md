@@ -21,7 +21,7 @@ Das stärkste Denkmodell des Buches ist der Gegensatz von „smart" und „dumb"
 
 ### Infrastruktur-Inversion
 
-Neue Technologien laufen zuerst auf der alten Infrastruktur. Die ersten Autos fuhren auf Pferdewegen, mancherorts vorausgegangen von einem Mann mit roter Fahne (der britische „Red Flag Act"). Irgendwann kippt das Verhältnis: Man baut Straßen für Autos, und Pferde werden zur Ausnahme. Elektrizität lief anfangs über Gaslampen-Infrastruktur, Datenverkehr über Telefonleitungen. Antonopoulos prognostiziert dieselbe Inversion für Geld: Bitcoin nutzt heute das Bankensystem als Ein- und Ausgang, bis die Infrastruktur sich umdreht und Fiat zur Randerscheinung wird.
+Neue Technologien laufen zuerst auf der alten Infrastruktur. Die ersten Autos fuhren auf Pferdewegen, mancherorts vorausgegangen von einem Mann mit roter Fahne (der britische „Red Flag Act"). Irgendwann kippt das Verhältnis: Man baut Strassen für Autos, und Pferde werden zur Ausnahme. Elektrizität lief anfangs über Gaslampen-Infrastruktur, Datenverkehr über Telefonleitungen. Antonopoulos prognostiziert dieselbe Inversion für Geld: Bitcoin nutzt heute das Bankensystem als Ein- und Ausgang, bis die Infrastruktur sich umdreht und Fiat zur Randerscheinung wird.
 
 ### Netzneutralität, Zensur und die Unbanked
 
@@ -33,11 +33,11 @@ Zwei Vorträge behandeln Geld als Ausdrucksmittel. Wie Sprache erlaubt Währung 
 
 ### Design: Es gibt keine Coins
 
-Ein Kapitel zu Designprinzipien warnt vor irreführenden Metaphern aus der Bankenwelt. „Wallets aren't wallets", und in Bitcoin gibt es keine „Coins", nur Transaktionsausgaben und Schlüssel. Skeuomorphe Gestaltung (digitale Dinge sehen aus wie ihre physischen Vorbilder) helfe Anfängern, verstelle aber den Blick auf das Neue. Gutes Design für Bitcoin heißt, für eine noch unbekannte Zukunft zu gestalten.
+Ein Kapitel zu Designprinzipien warnt vor irreführenden Metaphern aus der Bankenwelt. „Wallets aren't wallets", und in Bitcoin gibt es keine „Coins", nur Transaktionsausgaben und Schlüssel. Skeuomorphe Gestaltung (digitale Dinge sehen aus wie ihre physischen Vorbilder) helfe Anfängern, verstelle aber den Blick auf das Neue. Gutes Design für Bitcoin heisst, für eine noch unbekannte Zukunft zu gestalten.
 
 ### Skalierung als bewegliches Ziel
 
-Zum damals heißen Skalierungsstreit bringt Antonopoulos eine historische Beruhigung: Immer wieder hieß es, irgendetwas werde „das Internet zerstören", Usenet, E-Mail-Anhänge, das Web, VoIP, Katzenvideos, Netflix. Jedes Mal wuchs die Kapazität mit. Skalierung sei ein bewegliches Ziel, keine feste Mauer.
+Zum damals heissen Skalierungsstreit bringt Antonopoulos eine historische Beruhigung: Immer wieder hiess es, irgendetwas werde „das Internet zerstören", Usenet, E-Mail-Anhänge, das Web, VoIP, Katzenvideos, Netflix. Jedes Mal wuchs die Kapazität mit. Skalierung sei ein bewegliches Ziel, keine feste Mauer.
 
 ## Related
 

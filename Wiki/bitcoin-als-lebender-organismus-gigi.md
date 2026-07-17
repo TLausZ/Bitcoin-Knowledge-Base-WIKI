@@ -30,7 +30,7 @@ Sieben biologische Lebenskriterien, angewendet auf Bitcoin:
 - **Wachstum:** Das Netzwerk, die Nutzerbasis, der Wert und das Ökosystem wachsen kontinuierlich.
 - **Vervielfältigung:** Bitcoin reproduziert sich auf mehreren Ebenen — der Quellcode wird repliziert, das Kassenbuch kopiert sich auf jeden Node, Blöcke verbreiten sich durch Replikation.
 - **Vererbung:** Bitcoin erbt Eigenschaften von Vorgängern: Public-Key-Kryptographie, Peer-to-Peer-Netzwerke, digitale Zeitstempel, fälschungssichere Kostbarkeit.
-- **Homöostase:** Die Konsensregeln sorgen für stabile innere Zustände. Ungültige Blöcke werden gnadenlos abgelehnt, ähnlich wie ein Organismus Fremdkörper abstößt.
+- **Homöostase:** Die Konsensregeln sorgen für stabile innere Zustände. Ungültige Blöcke werden gnadenlos abgelehnt, ähnlich wie ein Organismus Fremdkörper abstösst.
 - **Stoffwechsel:** Mining-Anlagen weltweit wandeln Energie in digitalen Bernstein um und erhalten so das Herz von Bitcoin am Schlagen.
 - **Zellulär:** Das Netzwerk besteht aus Netzwerkknoten als eigenständige funktionale Einheiten; das Kassenbuch selbst besteht aus Blöcken als Zellen.
 - **Reaktionsfähig:** Bitcoin reagiert auf Preisveränderungen, politische Eingriffe, Umweltveränderungen und technologische Durchbrüche — ohne dass eine Person oder Institution das steuert.
@@ -42,7 +42,7 @@ Bitcoin lebt in zwei grundverschiedenen Bereichen gleichzeitig:
 - Der **Körper** existiert im Meatspace — Nodes, Festplatten, Kabel, Mining-Hardware. Alles physisch, alles ersetzbar.
 - Die **Seele** lebt im Cyberspace — Ideen, Code, Konsensregeln. Die Essenz des Organismus, theoretisch in der Lage, einem neuen Wirt Leben einzuhauchen, wenn die aktuelle Inkarnation stirbt.
 
-Was als Teil des Organismus gilt und was abgestoßen wird, bestimmt diese Essenz. Teile, die mit ihr kompatibel sind, werden integriert; inkompatible Änderungen führen zu Abspaltungen (Forks) — so wie ein biologischer Organismus Fremdkörper abstößt.
+Was als Teil des Organismus gilt und was abgestossen wird, bestimmt diese Essenz. Teile, die mit ihr kompatibel sind, werden integriert; inkompatible Änderungen führen zu Abspaltungen (Forks) — so wie ein biologischer Organismus Fremdkörper abstösst.
 
 ### Drei Lebensräume
 
@@ -77,4 +77,4 @@ Brendon Quittem vergleicht Bitcoin mit Myzel — einem unterirdischen Pilznetzwe
 ## Open Questions
 
 - Wie verändert sich der Finspace, wenn Bitcoin als Abrechnungsschicht etabliert ist?
-- Kann der Organismus einen totalen Meatspace-Angriff (koordiniertes Node-Verbot in mehreren Großstaaten gleichzeitig) überleben?
+- Kann der Organismus einen totalen Meatspace-Angriff (koordiniertes Node-Verbot in mehreren Grossstaaten gleichzeitig) überleben?

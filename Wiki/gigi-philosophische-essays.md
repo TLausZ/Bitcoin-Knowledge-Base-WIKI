@@ -23,11 +23,11 @@ Der Text ist inhaltlich schlicht, aber charakteristisch für Gigis Stil: kurz, p
 
 „Erdrückend" (Original: „Crushing") erschien Oktober 2020. Gigi schreibt über die erdrückenden Wellen des Lebens — Herausforderungen, die nicht einzeln kommen, sondern sich häufen.
 
-Zentrales Zitat von Blaise Pascal: „Der Mensch ist nur ein Schilfrohr, das schwächste Ding in der Natur, aber er ist ein denkendes Schilfrohr." Der Mensch kann von einem Wassertropfen getötet werden, weiß aber, dass er stirbt — und das ist seine Würde.
+Zentrales Zitat von Blaise Pascal: „Der Mensch ist nur ein Schilfrohr, das schwächste Ding in der Natur, aber er ist ein denkendes Schilfrohr." Der Mensch kann von einem Wassertropfen getötet werden, weiss aber, dass er stirbt — und das ist seine Würde.
 
 Mooji ergänzt aus spiritueller Perspektive: Wer beginnt, seine wahre Natur zu erkennen, erfährt einen Sturm des Egos, das diese Erfahrung zerstören will. Der Widerstand ist vorhersehbar und kein Zeichen des Scheiterns.
 
-Gigi schließt: „Im Großen und Ganzen sind meine Sorgen nur ein Wassertropfen. Und doch, in meinen schwächsten Momenten fühlt sich dieser Tropfen erdrückend an."
+Gigi schliesst: „Im Grossen und Ganzen sind meine Sorgen nur ein Wassertropfen. Und doch, in meinen schwächsten Momenten fühlt sich dieser Tropfen erdrückend an."
 
 ### Bedeutung für das Bitcoin-Denken
 
@@ -45,7 +45,7 @@ Diese Verschiebung hat praktische Konsequenzen: Grenzbehörden können Bargeld k
 
 Dieser Essay ist Gigis direkteste Auseinandersetzung mit KI. Ausgangspunkt: Kreativität ist per Definition das Neue, das Nicht-Offensichtliche. Maschinen und Menschen benutzen Algorithmen — der Unterschied ist graduell, nicht prinzipiell.
 
-Gigi dreht das Argument mehrfach um: "Beides sind immer noch nur Algorithmen. Der Unterschied ist unbedeutend." Dann wieder: "Aber du hast Recht: Er ist nicht so gut wie ein Autor, wenigstens noch nicht." Der Essay ist selbst ein Experiment — ein Großteil der zweiten Hälfte ist KI-generierter Text (mit Midjourney-Bildern), was erst in den Fußnoten offenbar wird. Die Frage ist: Hat es gestört? Wenn nicht, war die Seele des Textes trotzdem vorhanden?
+Gigi dreht das Argument mehrfach um: "Beides sind immer noch nur Algorithmen. Der Unterschied ist unbedeutend." Dann wieder: "Aber du hast Recht: Er ist nicht so gut wie ein Autor, wenigstens noch nicht." Der Essay ist selbst ein Experiment — ein Grossteil der zweiten Hälfte ist KI-generierter Text (mit Midjourney-Bildern), was erst in den Fussnoten offenbar wird. Die Frage ist: Hat es gestört? Wenn nicht, war die Seele des Textes trotzdem vorhanden?
 
 Der essayistische Schluss — "Wir sind aus Liebe gemacht. Wenn wir Maschinen sind, dann sind wir Maschinen, die lieben" — ist weniger Aussage als Haltung. [[aprycot-kreativitaet-gigi]]
 
@@ -100,7 +100,7 @@ Gigi beschreibt die Adoption von Bitcoin durch Mainstream-Akteure als Dreistadie
 
 3. **Kapitulation:** Repräsentant Patrick McHenry vor dem Ausschuss für Finanzdienstleistungen: „Es gibt keine Möglichkeit, Bitcoin zu vernichten. Selbst die Chinesen mit ihrer Firewall und ihren extremen Eingriffen in ihre Gesellschaft konnten Bitcoin nicht töten." McHenry fügt hinzu: „Regierungen können diese Innovation nicht aufhalten. Und diejenigen, die es versucht haben, sind bereits gescheitert."
 
-Ralph Merkles Analyse schließt den Kreis: Bitcoin ist eine neue Lebensform. Sie kann nicht verändert, nicht manipuliert, nicht korrumpiert, nicht unterbrochen und nicht gestoppt werden. [[aprycot-gigi-bitcoin-die-welt-wacht-auf]]
+Ralph Merkles Analyse schliesst den Kreis: Bitcoin ist eine neue Lebensform. Sie kann nicht verändert, nicht manipuliert, nicht korrumpiert, nicht unterbrochen und nicht gestoppt werden. [[aprycot-gigi-bitcoin-die-welt-wacht-auf]]
 
 ## Open Questions
 

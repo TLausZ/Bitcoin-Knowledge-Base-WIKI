@@ -7,19 +7,19 @@
 
 ## Summary
 
-Splicing ist eine Lightning-Network-Technik, die es erlaubt, die Kapazität eines bestehenden Channels on-chain zu erhöhen (Splice-In) oder zu verringern (Splice-Out), ohne den Channel zu schließen. Im Gegensatz zu Circular Payments und Fee Management — die nur Kapazität umverteilen — kann Splicing die absolute Kapazität des Netzwerks verändern. Es löst das Liquiditätsproblem von Lightning grundlegend: Funds sind nicht mehr "eingesperrt", sondern flexibel nutzbar.
+Splicing ist eine Lightning-Network-Technik, die es erlaubt, die Kapazität eines bestehenden Channels on-chain zu erhöhen (Splice-In) oder zu verringern (Splice-Out), ohne den Channel zu schliessen. Im Gegensatz zu Circular Payments und Fee Management — die nur Kapazität umverteilen — kann Splicing die absolute Kapazität des Netzwerks verändern. Es löst das Liquiditätsproblem von Lightning grundlegend: Funds sind nicht mehr "eingesperrt", sondern flexibel nutzbar.
 
 ## Body
 
 ### Das Liquiditätsproblem vor Splicing
 
-Im klassischen Lightning-Modell gilt: Funds in einem Channel können nicht außerhalb genutzt werden. Will man Funds aus einem Channel abziehen, muss man den Channel schließen — mit on-chain Transaktion, Bestätigungszeit und Gebühren. Das führte zur Wahrnehmung, Lightning "sperre" Geld ein.
+Im klassischen Lightning-Modell gilt: Funds in einem Channel können nicht ausserhalb genutzt werden. Will man Funds aus einem Channel abziehen, muss man den Channel schliessen — mit on-chain Transaktion, Bestätigungszeit und Gebühren. Das führte zur Wahrnehmung, Lightning "sperre" Geld ein.
 
 Splicing ändert das fundamental: Eine Splice-Transaktion modifiziert die Channel-Kapazität on-chain, während der Channel offen bleibt und weiter Payments routen kann.
 
 ### Splice-In und Splice-Out
 
-**Splice-In**: On-Chain Bitcoin wird in einen bestehenden Channel hinzugefügt. Die Channel-Kapazität steigt. Nützlich für: Nachfüllen eines depleted Channels, Empfangen einer großen On-Chain-Zahlung ohne neuen Channel.
+**Splice-In**: On-Chain Bitcoin wird in einen bestehenden Channel hinzugefügt. Die Channel-Kapazität steigt. Nützlich für: Nachfüllen eines depleted Channels, Empfangen einer grossen On-Chain-Zahlung ohne neuen Channel.
 
 **Splice-Out**: Bitcoin wird aus einem bestehenden Channel on-chain ausgezahlt. Die Channel-Kapazität sinkt. Nützlich für: On-Chain-Ausgabe ohne Channel-Close, Rebalancing.
 
@@ -39,7 +39,7 @@ Circular Payments und Fee Management verteilen vorhandene Kapazität um. Splicin
 
 Routing Nodes haben zwei Kostentypen:
 
-**Operational Costs**: Kosten für das Öffnen und Schließen von Channels (on-chain Gebühren). Je häufiger gesplict wird, desto höher die operationalen Kosten. Optimum: Splice so selten wie möglich.
+**Operational Costs**: Kosten für das Öffnen und Schliessen von Channels (on-chain Gebühren). Je häufiger gesplict wird, desto höher die operationalen Kosten. Optimum: Splice so selten wie möglich.
 
 **Financial Costs**: Kosten für das Eingesperrtsein von Kapital in einem Channel (Opportunitätskosten). Je mehr Kapital im Channel, desto höher die Financial Costs. Optimum: Nur so viel Kapital wie nötig im Channel halten.
 

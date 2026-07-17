@@ -7,7 +7,7 @@
 
 ## Summary
 
-Bitcoin direkt in Selbstverwahrung kaufen — ohne Umweg über eine Börse — ist der sicherste Weg, Coins zu akkumulieren. Dollar-Cost-Averaging (DCA) reduziert das Timing-Risiko durch regelmäßige kleine Käufe. Die Integration von Bitcoin-Brokern wie Pocket Bitcoin direkt in die BitBoxApp kombiniert DCA mit sofortiger Hardware-Wallet-Verwahrung: gekaufte Coins landen ohne manuellen Transfer auf dem eigenen Gerät.
+Bitcoin direkt in Selbstverwahrung kaufen — ohne Umweg über eine Börse — ist der sicherste Weg, Coins zu akkumulieren. Dollar-Cost-Averaging (DCA) reduziert das Timing-Risiko durch regelmässige kleine Käufe. Die Integration von Bitcoin-Brokern wie Pocket Bitcoin direkt in die BitBoxApp kombiniert DCA mit sofortiger Hardware-Wallet-Verwahrung: gekaufte Coins landen ohne manuellen Transfer auf dem eigenen Gerät.
 
 ## Body
 
@@ -22,7 +22,7 @@ Nicht alle Kaufwege sind gleich. Die Wahl des Kaufwegs bestimmt, wie viele pers�
 
 **Bitcoin-Automaten (ATMs):** Barzahlung → direkte Übertragung an eigene Adresse. Kein Konto. Wechselkurs meist deutlich schlechter als Börsenkurs. Verfügbarkeit: coinatmradar.com. Je nach Land und Betrag mit Identifikationspflicht.
 
-**OTC-Broker für große Beträge:** Wer mehr als ca. $100.000 kauft, kann die Liquidität einer offenen Börse aufbrauchen und den Preis gegen sich bewegen. Over-the-Counter-Broker (z.B. Relai Private in der EU) handeln direkt zu einem vereinbarten Kurs, ohne den Markt zu bewegen. Relai Private setzt die Mindestbestellmenge bei 100.000 EUR oder CHF an. Der Kauf wird mit einem persönlichen Ansprechpartner abgewickelt, der aus verschiedenen Quellen einkauft, um den besten verfügbaren Kurs zu erzielen. OTC-Aufträge oberhalb regulatorischer Schwellenwerte erfordern immer ein Onboarding-Verfahren mit Kundenidentifikation (KYC).
+**OTC-Broker für grosse Beträge:** Wer mehr als ca. $100.000 kauft, kann die Liquidität einer offenen Börse aufbrauchen und den Preis gegen sich bewegen. Over-the-Counter-Broker (z.B. Relai Private in der EU) handeln direkt zu einem vereinbarten Kurs, ohne den Markt zu bewegen. Relai Private setzt die Mindestbestellmenge bei 100.000 EUR oder CHF an. Der Kauf wird mit einem persönlichen Ansprechpartner abgewickelt, der aus verschiedenen Quellen einkauft, um den besten verfügbaren Kurs zu erzielen. OTC-Aufträge oberhalb regulatorischer Schwellenwerte erfordern immer ein Onboarding-Verfahren mit Kundenidentifikation (KYC).
 
 ### Das Problem mit Börsen
 
@@ -30,7 +30,7 @@ Wer Bitcoin auf einer Börse kauft, hält zunächst ein Versprechen, keinen Bitc
 
 ### DCA als Akkumulierungsstrategie
 
-Dollar-Cost-Averaging bedeutet: regelmäßig einen fixen Betrag kaufen, unabhängig vom Preis. Das eliminiert das Timing-Problem ("kaufe ich heute oder warte ich?") und senkt den durchschnittlichen Einstandspreis über Zeit. Für Privatanleger ohne aktive Marktbeobachtung ist DCA die pragmatische Wahl.
+Dollar-Cost-Averaging bedeutet: regelmässig einen fixen Betrag kaufen, unabhängig vom Preis. Das eliminiert das Timing-Problem ("kaufe ich heute oder warte ich?") und senkt den durchschnittlichen Einstandspreis über Zeit. Für Privatanleger ohne aktive Marktbeobachtung ist DCA die pragmatische Wahl.
 
 ### Spielt das Timing des Sparplans eine Rolle? (River-Backtest)
 
@@ -46,7 +46,7 @@ Pocket Bitcoin (Schweizer Bitcoin-Broker) ist direkt in die BitBoxApp integriert
 
 ### XPub-Support für Privatsphäre
 
-Statt einer einzelnen Empfangsadresse kann der Nutzer seinen Extended Public Key (xpub) teilen. Der Broker zahlt dann bei jedem Kauf an eine neue, unbenutzte Adresse aus. Das verhindert, dass alle Käufe auf einer einzigen Adresse verknüpfbar sind — für Nutzer, die regelmäßig stacken und mehr Privatsphäre gegenüber dem Bitcoin-Netzwerk wollen.
+Statt einer einzelnen Empfangsadresse kann der Nutzer seinen Extended Public Key (xpub) teilen. Der Broker zahlt dann bei jedem Kauf an eine neue, unbenutzte Adresse aus. Das verhindert, dass alle Käufe auf einer einzigen Adresse verknüpfbar sind — für Nutzer, die regelmässig stacken und mehr Privatsphäre gegenüber dem Bitcoin-Netzwerk wollen.
 
 Sharing des xpubs ist eine Privatsphäre-Abwägung: Der Broker kennt den gesamten Saldo und die Transaktionshistorie dieser Wallet. Wer das vermeiden will, muss manuell rotieren.
 
@@ -66,13 +66,13 @@ Nach dem Kauf können Bitcoin direkt an eine BitBox02-Adresse geschickt werden �
 
 ### "Ist es zu spät?" — Die richtige Frage
 
-Die häufigste Einsteigerfrage. Die entscheidende Gegenüberstellung: Man fragt nicht, ob der Kurs schon hoch ist, sondern wo er in 10–20 Jahren stehen könnte. Bitcoin macht heute ~0,13 % des weltweiten Vermögens aus; Gold allein ist zehnmal so groß. Selbst bei mittleren Penetrationsszenarien liegt das Potenzial deutlich über heutigen Preisen.
+Die häufigste Einsteigerfrage. Die entscheidende Gegenüberstellung: Man fragt nicht, ob der Kurs schon hoch ist, sondern wo er in 10–20 Jahren stehen könnte. Bitcoin macht heute ~0,13 % des weltweiten Vermögens aus; Gold allein ist zehnmal so gross. Selbst bei mittleren Penetrationsszenarien liegt das Potenzial deutlich über heutigen Preisen.
 
 Das Timing-Paradox: Den perfekten Einstieg kann man nur im Nachhinein identifizieren. Im Bärenmarkt 2022 (15.000 USD) warteten viele auf 12.000 oder 8.000 — die nie kamen. "Time in the market beats timing the market" gilt für Bitcoin besonders. Jeder, der Bitcoin vier oder mehr Jahre gehalten hat, war bisher im Plus.
 
 ### Häufige Anfängerfehler beim Kauf
 
-Drei Fehler kosten besonders oft Geld: (1) Aus Panik bei Kursrückgängen verkaufen statt zu halten — Volatilität ist eingepreist, DCA gleicht sie aus. (2) Trading und Altcoin-Rotation — Deutschland besteuert kurzfristige Gewinne mit dem persönlichen Einkommensteuersatz (oft höher als KapESt); nach einem Jahr Haltedauer sind Gewinne steuerfrei. (3) Unsichere Verwahrung — Coins auf der Börse lassen, angreifbare Passwörter, kein Backup. Die größten Bitcoin-Verluste entstehen nicht durch Kursverluste, sondern durch Selbstverschulden.
+Drei Fehler kosten besonders oft Geld: (1) Aus Panik bei Kursrückgängen verkaufen statt zu halten — Volatilität ist eingepreist, DCA gleicht sie aus. (2) Trading und Altcoin-Rotation — Deutschland besteuert kurzfristige Gewinne mit dem persönlichen Einkommensteuersatz (oft höher als KapESt); nach einem Jahr Haltedauer sind Gewinne steuerfrei. (3) Unsichere Verwahrung — Coins auf der Börse lassen, angreifbare Passwörter, kein Backup. Die grössten Bitcoin-Verluste entstehen nicht durch Kursverluste, sondern durch Selbstverschulden.
 
 ## Related
 

@@ -57,7 +57,7 @@ Gegen Sybil-Angriffe (ein Angreifer füllt den Markt mit Fake-Makers) schützen 
 
 ### Lightning- und Liquid-Swaps als Alternative zu CoinJoin
 
-Wer die rechtlichen Risiken von CoinJoin vermeiden will, kann stattdessen Swaps zwischen Netzwerken nutzen: On-Chain-Bitcoin werden ins Lightning Network oder das Liquid Network übertragen, dort weiterbewegt und zurückgetauscht. Der Transaktionsfluss ist für Außenstehende damit nicht mehr nachvollziehbar — ohne dass der Vorgang wie ein CoinJoin aussieht.
+Wer die rechtlichen Risiken von CoinJoin vermeiden will, kann stattdessen Swaps zwischen Netzwerken nutzen: On-Chain-Bitcoin werden ins Lightning Network oder das Liquid Network übertragen, dort weiterbewegt und zurückgetauscht. Der Transaktionsfluss ist für Aussenstehende damit nicht mehr nachvollziehbar — ohne dass der Vorgang wie ein CoinJoin aussieht.
 
 **Boltz** ([boltz.exchange](https://boltz.exchange)) — non-kustodialer Dienst für Swaps zwischen Lightning, Liquid und Bitcoin-Mainchain. Unterstützt private, schnelle Atomic Swaps.
 
@@ -65,7 +65,7 @@ Wer die rechtlichen Risiken von CoinJoin vermeiden will, kann stattdessen Swaps 
 
 **Aqua Wallet** (App) — non-custodial Wallet speziell für das Liquid Network, unterstützt Liquid-Bitcoin und Lightning.
 
-Das Lightning Network bietet strukturelle Privatsphäre: Transaktionen werden über mehrere Nodes geroutet (ähnlich Tor — Onion Routing), einzelne Zahlungsbeträge sind für Außenstehende nicht sichtbar, und abgeschlossene Kanäle hinterlassen keine dauerhaften Aufzeichnungen der einzelnen Zahlungen.
+Das Lightning Network bietet strukturelle Privatsphäre: Transaktionen werden über mehrere Nodes geroutet (ähnlich Tor — Onion Routing), einzelne Zahlungsbeträge sind für Aussenstehende nicht sichtbar, und abgeschlossene Kanäle hinterlassen keine dauerhaften Aufzeichnungen der einzelnen Zahlungen.
 
 Liquid bietet zusätzlich *Confidential Transactions* — der Betrag ist verschlüsselt und nur für die beiden Transaktionspartner sichtbar.
 

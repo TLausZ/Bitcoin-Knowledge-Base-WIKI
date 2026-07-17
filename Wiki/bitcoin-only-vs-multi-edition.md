@@ -7,17 +7,17 @@
 
 ## Summary
 
-Die BitBox02 gibt es in zwei Firmware-Editionen: Bitcoin-only (nur Bitcoin) und Multi (Bitcoin + Altcoins + U2F). Gleiche Hardware, unterschiedliche Firmware — und die Entscheidung ist nach dem Kauf unwiderruflich. Die Bitcoin-only Edition hat ~25% weniger Code und damit eine kleinere Angriffsfläche. Wer ausschließlich Bitcoin verwalten will, wählt Bitcoin-only; wer Flexibilität braucht oder noch andere Coins hält, wählt Multi.
+Die BitBox02 gibt es in zwei Firmware-Editionen: Bitcoin-only (nur Bitcoin) und Multi (Bitcoin + Altcoins + U2F). Gleiche Hardware, unterschiedliche Firmware — und die Entscheidung ist nach dem Kauf unwiderruflich. Die Bitcoin-only Edition hat ~25% weniger Code und damit eine kleinere Angriffsfläche. Wer ausschliesslich Bitcoin verwalten will, wählt Bitcoin-only; wer Flexibilität braucht oder noch andere Coins hält, wählt Multi.
 
 ## Body
 
 ### Gleiche Hardware, andere Firmware
 
-Beide Editionen verwenden exakt dieselbe Hardware — gleiche Materialien, gleiche Komponenten, gleicher Preis. Der Unterschied liegt ausschließlich in der Firmware. Das bedeutet: Das Sicherheitsniveau der Hardware ist identisch. Die Firmware-Edition wird vom Bootloader kryptografisch erzwungen und kann nach dem Kauf nicht mehr gewechselt werden.
+Beide Editionen verwenden exakt dieselbe Hardware — gleiche Materialien, gleiche Komponenten, gleicher Preis. Der Unterschied liegt ausschliesslich in der Firmware. Das bedeutet: Das Sicherheitsniveau der Hardware ist identisch. Die Firmware-Edition wird vom Bootloader kryptografisch erzwungen und kann nach dem Kauf nicht mehr gewechselt werden.
 
 ### Sicherheitsargument für Bitcoin-only
 
-Die Bitcoin-only Firmware ist etwa 25% kleiner und enthält über 100.000 Zeilen weniger Code. Weniger Code und weniger Abhängigkeiten bedeuten generell weniger potenzielle Schwachstellen — auch wenn das Gerät für Bitcoin-Zwecke gleich sicher ist. Die Analogie: Je größer ein Gebäude, desto höher das theoretische Brandrisiko. Das Gebäude ist nicht unsicher, aber wer Brandsicherheit optimieren und den Platz ohnehin nicht braucht, wählt das kleinere.
+Die Bitcoin-only Firmware ist etwa 25% kleiner und enthält über 100.000 Zeilen weniger Code. Weniger Code und weniger Abhängigkeiten bedeuten generell weniger potenzielle Schwachstellen — auch wenn das Gerät für Bitcoin-Zwecke gleich sicher ist. Die Analogie: Je grösser ein Gebäude, desto höher das theoretische Brandrisiko. Das Gebäude ist nicht unsicher, aber wer Brandsicherheit optimieren und den Platz ohnehin nicht braucht, wählt das kleinere.
 
 Alle für Bitcoin sicherheitsrelevanten Funktionen sind in beiden Editionen vollständig vorhanden.
 
@@ -31,7 +31,7 @@ Viele Einsteiger verwalten noch Coins über Börsen und wollen beim Wechsel zur 
 
 ### Entscheidungshilfe
 
-- **Bitcoin-only wählen:** Wer ausschließlich Bitcoin verwaltet und keine Altcoins hält.
+- **Bitcoin-only wählen:** Wer ausschliesslich Bitcoin verwaltet und keine Altcoins hält.
 - **Multi wählen:** Wer noch andere Coins hält, die Altcoin-Unterstützung aktuell braucht, oder U2F als zweiten Faktor nutzen möchte.
 
 **Wichtig:** Die Entscheidung ist permanent. Eine Bitcoin-only Edition läuft für immer mit Bitcoin-only Firmware.

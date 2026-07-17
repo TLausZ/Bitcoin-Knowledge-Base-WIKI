@@ -7,7 +7,7 @@
 
 ## Summary
 
-Digitale Signaturen in Bitcoin ermöglichen es, den Besitz eines Private Keys zu beweisen, ohne ihn zu enthüllen. Eine Signatur besteht aus zwei Werten (r, s): r ist die x-Koordinate eines zufälligen Punkts auf der elliptischen Kurve, s kombiniert diesen Punkt mit dem Private Key und dem Transaktions-Hash. Weil jede Signatur an den genauen Transaktions-Hash gebunden ist, kann sie nicht in einer anderen Transaktion wiederverwendet werden. Das Verfahren heißt ECDSA (Elliptic Curve Digital Signature Algorithm).
+Digitale Signaturen in Bitcoin ermöglichen es, den Besitz eines Private Keys zu beweisen, ohne ihn zu enthüllen. Eine Signatur besteht aus zwei Werten (r, s): r ist die x-Koordinate eines zufälligen Punkts auf der elliptischen Kurve, s kombiniert diesen Punkt mit dem Private Key und dem Transaktions-Hash. Weil jede Signatur an den genauen Transaktions-Hash gebunden ist, kann sie nicht in einer anderen Transaktion wiederverwendet werden. Das Verfahren heisst ECDSA (Elliptic Curve Digital Signature Algorithm).
 
 ## Body
 
@@ -22,7 +22,7 @@ Die Lösung: Eine digitale Signatur, die mathematisch beweist, dass man den Priv
 Eine ECDSA-Signatur besteht aus zwei Teilen:
 
 **r (der Zufallsteil):**
-1. Eine große Zufallszahl `k` generieren
+1. Eine grosse Zufallszahl `k` generieren
 2. Den Generator Point G der elliptischen Kurve mit k multiplizieren: `k × G = Punkt P`
 3. Die x-Koordinate dieses Punkts ist `r`
 

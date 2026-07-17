@@ -32,7 +32,7 @@ Satoshi Nakamoto tauchte am 31. Oktober 2008 mit dem Whitepaper auf der Kryptogr
 | 2010-07-17 | Mt. Gox startet |
 | 2010-12-12 | Letzte öffentliche Nachricht Satoshis |
 
-Satoshis Anonymität ist kein Fehler, sondern Feature: Ein führerloses System darf keinen Führer haben. Wie Jimmy Song formulierte: „Eines der großartigsten Dinge, die Satoshi getan hat, war zu verschwinden." Trotz mehreren Outing-Versuchen konnte niemand beweisen, Satoshi zu sein — was per Public-Key-Kryptographie trivial wäre (Signierung einer Nachricht mit Satoshis privatem Schlüssel). [[aprycot-gigi-magisches-internet-geld.md]]
+Satoshis Anonymität ist kein Fehler, sondern Feature: Ein führerloses System darf keinen Führer haben. Wie Jimmy Song formulierte: „Eines der grossartigsten Dinge, die Satoshi getan hat, war zu verschwinden." Trotz mehreren Outing-Versuchen konnte niemand beweisen, Satoshi zu sein — was per Public-Key-Kryptographie trivial wäre (Signierung einer Nachricht mit Satoshis privatem Schlüssel). [[aprycot-gigi-magisches-internet-geld.md]]
 
 ### Das Double-Spend-Problem
 
@@ -44,7 +44,7 @@ Bitcoin eliminiert den Mittelsmann durch einen dezentralen Zeitstempel-Server (P
 
 Satoshi beschrieb Bitcoin in einem Forenbeitrag als „unedles Metall, das so selten ist wie Gold, aber über einen Kommunikationskanal transportiert werden kann." Konkrete magische Eigenschaften:
 
-**Teleportation:** Werte fließen direkt zwischen zwei Parteien ohne Mittler, durch jedes Kommunikationsmedium.
+**Teleportation:** Werte fliessen direkt zwischen zwei Parteien ohne Mittler, durch jedes Kommunikationsmedium.
 
 **Gestaltwandel:** Bitcoin kann als Text, QR-Code, Bild, Sound, Emoji kodiert werden. Das macht es zensurresistent: Transaktionen können in beliebige Datenformate kodiert, über Ende-zu-Ende-verschlüsselte Kanäle gesendet werden.
 
@@ -64,7 +64,7 @@ Die Silk Road verzeichnete geschätzte Einnahmen von 9,5 Mio. BTC über ihre Exi
 
 ### Laszlo Hanyecz: GPU-Mining und die Pizza
 
-Am 10. Mai 2010 — 12 Tage vor der berühmten Pizza-Transaktion — veröffentlichte Laszlo Hanyecz den ersten funktionierenden GPU-Miner für Bitcoin. GPUs (Grafikprozessoren, für parallele Berechnungen optimiert) sind beim Mining um Größenordnungen schneller als CPUs. Bis Dezember 2010 stieg die Netzwerk-Hashrate um rund 130.000 %.
+Am 10. Mai 2010 — 12 Tage vor der berühmten Pizza-Transaktion — veröffentlichte Laszlo Hanyecz den ersten funktionierenden GPU-Miner für Bitcoin. GPUs (Grafikprozessoren, für parallele Berechnungen optimiert) sind beim Mining um Grössenordnungen schneller als CPUs. Bis Dezember 2010 stieg die Netzwerk-Hashrate um rund 130.000 %.
 
 Zwischen April und November 2010 schürfte Laszlo über 81.000 BTC — fast alles mit eigenen Maschinen. Satoshi kontaktierte ihn privat und wies darauf hin, dass GPU-Mining die faire Verteilung von Bitcoin gefährde: Zu viel konzentrierte Rechenleistung widerspricht dem Dezentralisierungsziel. Laszlo stimmte zu und sagte später, er habe sich schuldig gefühlt, das Projekt zu „verschlechtern". Er begann, seine Coins bewusst auszugeben — nicht um Profit zu machen, sondern um alles gegen Nicht-Bitcoin zu tauschen.
 
@@ -82,7 +82,7 @@ Das ursprüngliche Bitcoin-Interface generierte Satoshi mit wxFormBuilder, einem
 
 Die Zeitleiste enthält eine klar abgrenzbare Pre-Launch-Phase: Eine November-2008-Version des Codes unterschied sich in zehn wesentlichen Punkten vom Finale — u.a. abweichende Blockzeit, Blockbelohnung und Schwierigkeitsanpassung. [[waltz-fact-16-bitcoin-november-2008-version]]
 
-Im Quellcode des ersten Clients hinterließ Satoshi sieben bemerkenswerte Kommentare, darunter den lapidaren Satz: „This is why people hate C++". [[waltz-fact-22-satoshi-code-comments]]
+Im Quellcode des ersten Clients hinterliess Satoshi sieben bemerkenswerte Kommentare, darunter den lapidaren Satz: „This is why people hate C++". [[waltz-fact-22-satoshi-code-comments]]
 
 Drei Dinge, die Satoshi plante und die nie fertiggestellt wurden: eine Poker-Variante, einen eBay-ähnlichen Marktplatz und ein Bewertungssystem für Transaktionspartner. Code für alle drei war in v0.1 vorhanden, aber nicht aktiviert. Der Marktplatz hätte über drei Timekeeping-Mechanismen synchronisiert werden sollen — NTP, Peer-Netzzeit und Median-Blockzeit. NTP wurde wegen zu hoher Zentralisierung nie implementiert; die anderen beiden sind bis heute im Einsatz. [[waltz-fact-06-bitcoin-v01-poker-marketplace]], [[waltz-fact-10-satoshi-review-system]], [[waltz-fact-13-nautical-reference-ntp]]
 

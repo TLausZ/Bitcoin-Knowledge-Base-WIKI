@@ -1,6 +1,6 @@
 # Open Questions & Gaps
 
-Offene Fragen, Lücken und Themen, die mehr Quellen benötigen. Stand: 2026-07-05 (Health Check 3)
+Offene Fragen, Lücken und Themen, die mehr Quellen benötigen. Stand: 2026-07-17 (Health Check 4)
 
 ## Gebrochene Backlinks (Health Check 3, 2026-07-05)
 
@@ -109,4 +109,16 @@ Beim späteren Anlegen der Buch-Artikel: eine Datei pro Buch als Quelle wählen 
 
 ## CLAUDE.md-Restrukturierung (2026-07-14)
 
-**Artikel-Sprache Schweizer Hochdeutsch:** Die neue Writing-Rule (CLAUDE.md) legt Schweizer Hochdeutsch für alle Wiki-Artikel fest, auch bei englischen Quellen. Bestehende englischsprachige Artikel sind damit formal nicht mehr konform. Beim nächsten Health-Check: englische Artikel identifizieren und als Umstellungs-Kandidaten flaggen (kein Auto-Fix, Umfang zuerst schätzen).
+**Artikel-Sprache Schweizer Hochdeutsch:** Die neue Writing-Rule (CLAUDE.md) legt Schweizer Hochdeutsch für alle Wiki-Artikel fest, auch bei englischen Quellen. Bestehende englischsprachige Artikel sind damit formal nicht mehr konform. Beim nächsten Health-Check: englische Artikel identifizieren und als Umstellungs-Kandidaten flaggen (kein Auto-Fix, Umfang zuerst schätzen). → Umfang gemessen und entschieden 2026-07-17: 209 Artikel sind überwiegend englisch, davon 208 die BIP-Sammlung (bip-0001…bip-0451) plus zitate. Die BIPs bleiben auf Entscheid des Users bewusst englisch (technische Norm-Referenz, Wortlaut-Treue zur Original-Spec); zitate ist Verbatim. Ausserhalb der BIP-Sammlung keine deutsch gemeinten Artikel in Englisch. Kein weiterer Handlungsbedarf — nicht erneut als Umstellungs-Kandidat flaggen.
+
+**ß-Umfang gemessen (Health-Check 2026-07-17):** 190 von 443 Wiki-Artikeln enthalten mindestens ein ß und verletzen damit die «kein ß»-Regel. Das ist Alt-Bestand (nicht vom LNMS-Import verursacht; meine neuen/eingewobenen Passagen sind ß-frei). Bulk-Umstellung ß→ss ist ein eigener Full-Audit-Job, weil ß teils innerhalb «»-markierter Spannen sitzt (Autor-Paraphrasen vs. Verbatim-Zitate müssen unterschieden werden). Kein Delta-Auto-Fix. → Erledigt 2026-07-17 (Full-ß-Sweep): 708 ß→ss in 189 Artikeln umgewandelt; 6 in Verbatim-Zitaten bewusst behalten (Hayek, eine Psychotherapeutin, ein Gedichtzitat, ein Blockzitat). Nav-Dateien (INDEX, QUESTIONS) per Skill-Regel ausgenommen.
+
+## LNMS-Import Health-Check (2026-07-17)
+
+**Gehaltene Spannung — Bitcoin: Liquiditäts-Asset vs. Safe Haven:** [[globale-liquiditaet-und-finanzplumbing]] rahmt Bitcoin (via LNMS/Hügli) primär als liquiditätsgetriebenes Risiko-Asset, das mit fallender globaler Liquidität mitfällt. Dem stehen die Safe-Haven-/Hedge-Rahmungen in [[bitcoin-antifragilitaet]] und [[bitcoin-als-inflationsschutz]] gegenüber (und der BBR-Befund, dass Bitcoins Schutzwirkung zustandsabhängig ist, [[bitcoin-akademische-forschung-bbr]]). Kein Widerspruch, den man auflösen muss — eher eine Frage des Zeithorizonts und der Marktkapitalisierung (Aldens Frage, ab wann Bitcoin sich von der Liquidität entkoppelt). Als Spannung notiert.
+
+**Gap — LNMS-Prognose-Scorecard:** Die Interview-Reihe enthält datierte, überprüfbare Prognosen (Aldens Defizit-Schwelle, Edwards' Quanten-Zeitfenster 2–10 J., Woos 80%-Drawdown, Cowens «neue Hochs bis August», Zebergs «grösste Blase»). Kandidat für eine spätere Auswertung/Output: Welche trafen ein? Reine Sekundärauswertung, keine neue RAW nötig.
+
+**Gap — Netto-Liquidität als BTC-Prädiktor empirisch:** Der «Liquidity Corner»-Rahmen (Fed − RRP − TGA) wird in [[globale-liquiditaet-und-finanzplumbing]] beschrieben, aber nie gegen die Preisreihe getestet. Backtest-Kandidat (öffentliche Fed-/TGA-Daten).
+
+**Borderline-Scope (nur Vermerk, mit User abgestimmt):** 6 der importierten LNMS-Posts sind thematisch am Rand (Memecoins/Murad, Trumpcoin/Dunleavy, Tokenisierung/Kubli, Coinbase-Fall, Ether-Bewertung). Auf Wunsch des Users aufgenommen und im Hub referiert, nicht tief eingewoben. Kein Handlungsbedarf.

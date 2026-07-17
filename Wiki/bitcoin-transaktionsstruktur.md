@@ -7,7 +7,7 @@
 
 ## Summary
 
-Eine Bitcoin-Transaktion ist ein Datensatz, der bestehende Outputs (UTXOs) entsperrt und neue Outputs mit neuen Locks erzeugt. Sie besteht aus Inputs (Verweise auf UTXOs + Unlocking Code), Outputs (Betrag + Locking Script), Locktime und optional Witness-Daten (SegWit). Die Gebühr ist implizit: Summe(Inputs) − Summe(Outputs). Transaktionsgröße wird in Bytes, Weight Units und Virtual Bytes gemessen.
+Eine Bitcoin-Transaktion ist ein Datensatz, der bestehende Outputs (UTXOs) entsperrt und neue Outputs mit neuen Locks erzeugt. Sie besteht aus Inputs (Verweise auf UTXOs + Unlocking Code), Outputs (Betrag + Locking Script), Locktime und optional Witness-Daten (SegWit). Die Gebühr ist implizit: Summe(Inputs) − Summe(Outputs). Transaktionsgrösse wird in Bytes, Weight Units und Virtual Bytes gemessen.
 
 ## Body
 
@@ -77,13 +77,13 @@ Verhindert, dass eine Transaktion vor einem bestimmten Block oder Zeitpunkt gemi
 
 Locktime wird nur berücksichtigt wenn die Sequence mindestens eines Inputs ≤ 0xFFFFFFFE ist.
 
-### Transaktionsgröße: Bytes, Weight Units, Virtual Bytes
+### Transaktionsgrösse: Bytes, Weight Units, Virtual Bytes
 
-Seit SegWit gibt es drei Maßeinheiten:
+Seit SegWit gibt es drei Masseinheiten:
 
 | Einheit | Bedeutung |
 |---------|-----------|
-| **Bytes (b)** | Physische Größe auf Disk |
+| **Bytes (b)** | Physische Grösse auf Disk |
 | **Weight Units (wu)** | Für Block-Limit-Berechnung; Non-Witness-Daten × 4, Witness-Daten × 1 |
 | **Virtual Bytes (vB)** | wu / 4; für Feerate-Vergleiche (sat/vByte) |
 
@@ -95,13 +95,13 @@ Alle unverbrauchten Outputs bilden das **UTXO-Set** — ein vom Node im RAM geha
 
 ### Witness (SegWit)
 
-Das Witness-Feld enthält den Unlocking Code für SegWit-Inputs (P2WPKH, P2WSH, P2TR). Es ist vom Rest der Transaktionsdaten getrennt, weshalb es nicht in die TXID einfließt, wohl aber in die wTXID.
+Das Witness-Feld enthält den Unlocking Code für SegWit-Inputs (P2WPKH, P2WSH, P2TR). Es ist vom Rest der Transaktionsdaten getrennt, weshalb es nicht in die TXID einfliesst, wohl aber in die wTXID.
 
 **wTXID:** HASH256 aller Transaktionsdaten inklusive Marker, Flag und Witness. Die wTXID wird im Witness-Commitment der Coinbase-Transaktion eines SegWit-Blocks verwendet. → [[segregated-witness-segwit]]
 
 ### SIGHASH-Typen: Was eine Signatur abdeckt
 
-Jede Signatur in einer Transaktion committet nicht notwendigerweise auf die gesamte Transaktion. Der SIGHASH-Typ bestimmt, welche Teile der Transaktion in den signierten Hash einfließen. Das gibt Spielraum für flexible Multi-Party-Protokolle.
+Jede Signatur in einer Transaktion committet nicht notwendigerweise auf die gesamte Transaktion. Der SIGHASH-Typ bestimmt, welche Teile der Transaktion in den signierten Hash einfliessen. Das gibt Spielraum für flexible Multi-Party-Protokolle.
 
 Drei Basis-Typen:
 
@@ -121,7 +121,7 @@ Praktisches Beispiel für NONE|ANYONECANPAY: Eine Crowdfunding-Transaktion, bei 
 
 ### TXID: Warum doppeltes SHA256?
 
-Die TXID einer Transaktion ist HASH256 = SHA256(SHA256(tx_data)). Das doppelte SHA256 schützt gegen sogenannte **Length Extension Attacks**: Ein Angreifer, der SHA256(m) kennt, kann in bestimmten Umständen SHA256(m || extension) für beliebige Anhänge berechnen, ohne die ursprüngliche Nachricht m zu kennen. Das doppelte Hashing verhindert diesen Angriffsvektor, weil der innere Hash nicht in den äußeren weitergeführt werden kann. Satoshi hat dies offenbar als Vorsichtsmaßnahme eingebaut, ohne sich mit Length Extension Attacks im Detail auseinanderzusetzen. [[2018_Grokking-Bitcoin_Rosenbaum]]
+Die TXID einer Transaktion ist HASH256 = SHA256(SHA256(tx_data)). Das doppelte SHA256 schützt gegen sogenannte **Length Extension Attacks**: Ein Angreifer, der SHA256(m) kennt, kann in bestimmten Umständen SHA256(m || extension) für beliebige Anhänge berechnen, ohne die ursprüngliche Nachricht m zu kennen. Das doppelte Hashing verhindert diesen Angriffsvektor, weil der innere Hash nicht in den äusseren weitergeführt werden kann. Satoshi hat dies offenbar als Vorsichtsmassnahme eingebaut, ohne sich mit Length Extension Attacks im Detail auseinanderzusetzen. [[2018_Grokking-Bitcoin_Rosenbaum]]
 
 ### PSBT — Partially Signed Bitcoin Transaction
 

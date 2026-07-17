@@ -53,7 +53,7 @@ Das Finden neuer Blöcke ist chaotisch; ihr Ergebnis — eine geordnete Liste vo
 
 Die aktuelle Mining-Phase ist nur die Bootstrapping-Phase von Bitcoin. Die Block-Reward-Ära dauert 6.930.000 Blöcke — bei ~10 Minuten pro Block ~131 Jahre (bis ca. 2140). Satoshi wusste, dass das ein langfristiges Spiel ist. Heute befinden wir uns erst bei ~13 % dieser Phase.
 
-Nach dem letzten Halving werden Miner ausschließlich über Transaktionsgebühren entlohnt. Der Begriff „Mining" wird sich wahrscheinlich halten, obwohl keine neuen Coins mehr produziert werden. Alle 2.099.999.997.690.000 Satoshis werden geschürft worden sein. [[aprycot-gigi-ewiger-kampf-von-bitcoin.md]]
+Nach dem letzten Halving werden Miner ausschliesslich über Transaktionsgebühren entlohnt. Der Begriff „Mining" wird sich wahrscheinlich halten, obwohl keine neuen Coins mehr produziert werden. Alle 2.099.999.997.690.000 Satoshis werden geschürft worden sein. [[aprycot-gigi-ewiger-kampf-von-bitcoin.md]]
 
 ### Bitcoin als Lebensform
 

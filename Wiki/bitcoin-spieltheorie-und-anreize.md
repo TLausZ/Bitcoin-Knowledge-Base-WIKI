@@ -13,7 +13,7 @@
 
 ### Spieltheorie als Grundlage
 
-Game Theory ist das mathematische Framework zur Analyse strategischer Interaktionen zwischen rationalen Akteuren. Die Grundeinsicht: Jede Entscheidung hängt nicht nur von den eigenen Zielen ab, sondern von den erwarteten Entscheidungen anderer. Das erklärt Kooperation und Konflikt in Evolutionsbiologie, Geopolitik und Märkten gleichermaßen.
+Game Theory ist das mathematische Framework zur Analyse strategischer Interaktionen zwischen rationalen Akteuren. Die Grundeinsicht: Jede Entscheidung hängt nicht nur von den eigenen Zielen ab, sondern von den erwarteten Entscheidungen anderer. Das erklärt Kooperation und Konflikt in Evolutionsbiologie, Geopolitik und Märkten gleichermassen.
 
 Das **Prisoner's Dilemma** ist das bekannteste Grundmodell: Zwei Akteure hätten den höchsten gemeinsamen Nutzen durch Kooperation, aber der individuelle Anreiz zur Defektion führt zu suboptimalen Ergebnissen für beide. Wird das Spiel einmalig gespielt, ist Defektion rational. Wird es wiederholt gespielt, ändert sich die Gleichgewichtsstrategie: Kooperation wird für beide Seiten langfristig vorteilhafter.
 
@@ -103,7 +103,7 @@ Svanholms "Unabhängigkeit neu gedacht" (2020) sammelt im letzten Kapitel die Ge
 
 **Black Swan:** Nassim Nicholas Taleb definiert einen schwarzen Schwan als Ereignis, das überraschend kommt, massive Wirkung hat und im Nachhinein rationalisiert wird. Bitcoins Entstehung war ein solches Ereignis — niemand glaubte, dass absolute digitale Knappheit möglich ist, bis Satoshi es 2009 bewies.
 
-**Das One-Shot-Prinzip:** Absolute mathematische Knappheit durch Konsens in einem dezentralisierten Netzwerk war eine *Entdeckung*, keine *Erfindung*. Das Entdeckte ist gerade die Unmöglichkeit der Wiederholbarkeit: Ein zweiter Versuch startet nicht dezentral, weil große Akteure ihn sofort dominieren würden; und jede Verschiebung der Coins in eine alternative Chain zeigt, dass absolute Knappheit nicht gilt. Hal Finney (Mai 2011): "Jede erfolgreiche Ersetzung der Bitcoin-Blockchain wird die Glaubwürdigkeit eines jeden Nachfolgers für immer untergraben."
+**Das One-Shot-Prinzip:** Absolute mathematische Knappheit durch Konsens in einem dezentralisierten Netzwerk war eine *Entdeckung*, keine *Erfindung*. Das Entdeckte ist gerade die Unmöglichkeit der Wiederholbarkeit: Ein zweiter Versuch startet nicht dezentral, weil grosse Akteure ihn sofort dominieren würden; und jede Verschiebung der Coins in eine alternative Chain zeigt, dass absolute Knappheit nicht gilt. Hal Finney (Mai 2011): "Jede erfolgreiche Ersetzung der Bitcoin-Blockchain wird die Glaubwürdigkeit eines jeden Nachfolgers für immer untergraben."
 
 **Roko's Honeybadger:** Als inverse Version des philosophischen Gedankenexperiments "Roko's Basilisk" (das jene bestraft, die an einer KI nicht mitgeholfen haben) belohnt Bitcoin jene, die früh dabei waren — durch Kaufkraftzugewinn, wenn Hyperbitcoinisierung eintritt. Das ist kein Druckmittel, sondern ein positiver Anreiz.
 

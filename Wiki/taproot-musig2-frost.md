@@ -21,7 +21,7 @@ Taproot kombiniert drei Verbesserungen in einem Upgrade: **Schnorr-Signaturen** 
 
 **MAST:** Ausgabebedingungen (Timelock, Multisig-Backup, etc.) werden als Merkle-Baum kodiert. Beim Ausgeben wird nur der tatsächlich verwendete Pfad offengelegt — nicht alle anderen Bedingungen. Das verbessert sowohl Privatsphäre als auch Effizienz (weniger Daten on-chain).
 
-**Nachteile:** Einfache Taproot-Transaktionen kosten etwas mehr als entsprechende SegWit-Transaktionen, weil das Adressformat mehr Daten enthält. Bei komplexen Transaktionen (Multisig, Lightning) ist Taproot günstiger. Außerdem fehlte zum Zeitpunkt der Einführung Anti-Klepto-Unterstützung für Taproot-Signaturen, da die zugrundeliegende Bibliothek (libsecp256k1) das Protokoll noch nicht implementiert hatte.
+**Nachteile:** Einfache Taproot-Transaktionen kosten etwas mehr als entsprechende SegWit-Transaktionen, weil das Adressformat mehr Daten enthält. Bei komplexen Transaktionen (Multisig, Lightning) ist Taproot günstiger. Ausserdem fehlte zum Zeitpunkt der Einführung Anti-Klepto-Unterstützung für Taproot-Signaturen, da die zugrundeliegende Bibliothek (libsecp256k1) das Protokoll noch nicht implementiert hatte.
 
 **Rollout in Hardware-Wallets:** Die schrittweise Taproot-Implementierung zeigt, wie neue Bitcoin-Protokoll-Features in Hardware-Wallets integriert werden. Bei der BitBox02 erschien das Senden an Taproot-Adressen (bc1p) im Januar 2022 (Maighels-Update); das Empfangen auf Taproot-Adressen folgte im März 2022 (Glärnisch-Update, Firmware v9.10.0). Der Standardadresstyp blieb Native SegWit, da noch viele andere Wallets Taproot nicht unterstützten. Anti-Klepto für Schnorr-Signaturen war zum Zeitpunkt des Glärnisch-Updates noch nicht verfügbar.
 
@@ -64,7 +64,7 @@ Eine FROST Key-Path Ausgabe sieht ebenfalls wie jede andere Taproot-Transaktion 
 | Schwellenwert | Ja | Nein | Ja |
 | Interaktivität | Gering | Mittel (2 Runden) | Hoch (DKG) |
 
-Die Technologien skalieren besonders für größere Organisationen mit komplexeren Anforderungen — sind aber auch für Privatnutzer interessant, die Gebühren sparen und Privatsphäre verbessern wollen.
+Die Technologien skalieren besonders für grössere Organisationen mit komplexeren Anforderungen — sind aber auch für Privatnutzer interessant, die Gebühren sparen und Privatsphäre verbessern wollen.
 
 ## Related
 

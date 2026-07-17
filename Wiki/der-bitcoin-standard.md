@@ -17,7 +17,7 @@ Ammous baut auf der österreichischen Geldtheorie (Menger) auf: Geld ist das ver
 
 ### Härte und das Stock-to-Flow-Verhältnis
 
-Das zentrale Werkzeug des Buches ist das Verhältnis von Bestand (Stock) zu jährlichem Neuzugang (Flow). Ein hohes Stock-to-Flow bedeutet: Selbst ein starker Anstieg der Produktion vergrößert das Gesamtangebot nur wenig, der Wert bleibt stabil. Ein niedriges Verhältnis heißt, dass Produzenten das Angebot schnell aufblähen können, sobald das Gut als Wertspeicher gefragt wird, und damit die Sparer enteignen. Ammous nennt das die Falle des leichten Geldes: Kaum wird ein Gut zu Geld, entsteht der Anreiz, mehr davon zu produzieren, was es als Geld zerstört. Muscheln, Glasperlen und Steine verloren ihren Geldstatus genau so.
+Das zentrale Werkzeug des Buches ist das Verhältnis von Bestand (Stock) zu jährlichem Neuzugang (Flow). Ein hohes Stock-to-Flow bedeutet: Selbst ein starker Anstieg der Produktion vergrössert das Gesamtangebot nur wenig, der Wert bleibt stabil. Ein niedriges Verhältnis heisst, dass Produzenten das Angebot schnell aufblähen können, sobald das Gut als Wertspeicher gefragt wird, und damit die Sparer enteignen. Ammous nennt das die Falle des leichten Geldes: Kaum wird ein Gut zu Geld, entsteht der Anreiz, mehr davon zu produzieren, was es als Geld zerstört. Muscheln, Glasperlen und Steine verloren ihren Geldstatus genau so.
 
 ### Warum Gold gewann
 
@@ -33,7 +33,7 @@ Bitcoin überträgt Goldhärte ins Digitale und übertrifft sie. Die Ausgabe neu
 
 ### Wofür Bitcoin taugt (und wofür nicht)
 
-Ammous positioniert Bitcoin primär als Wertspeicher und als Abwicklungsnetzwerk zwischen großen Teilnehmern, vergleichbar mit der Rolle, die Zentralbanken beim Goldtransfer spielten, nicht zwingend als Alltagszahlungsmittel für Kleinstbeträge on-chain. Er diskutiert Skalierung über zweite Ebenen und benennt offene Risiken (staatliche Angriffe, technische Fehler), hält Bitcoins Wert aber gerade in seiner Unbestechlichkeit für begründet: ein Geld ohne Herausgeber, das niemand aufblähen, einfrieren oder abschaffen kann.
+Ammous positioniert Bitcoin primär als Wertspeicher und als Abwicklungsnetzwerk zwischen grossen Teilnehmern, vergleichbar mit der Rolle, die Zentralbanken beim Goldtransfer spielten, nicht zwingend als Alltagszahlungsmittel für Kleinstbeträge on-chain. Er diskutiert Skalierung über zweite Ebenen und benennt offene Risiken (staatliche Angriffe, technische Fehler), hält Bitcoins Wert aber gerade in seiner Unbestechlichkeit für begründet: ein Geld ohne Herausgeber, das niemand aufblähen, einfrieren oder abschaffen kann.
 
 ## Related
 
@@ -47,4 +47,4 @@ Ammous positioniert Bitcoin primär als Wertspeicher und als Abwicklungsnetzwerk
 
 - Hält die Stock-to-Flow-Logik als Preismodell, oder ist sie (wie Kritiker einwenden) eine nachträglich passend gemachte Korrelation?
 - Ammous' These „hartes Geld = höhere Zivilisation" verbindet Ökonomie mit Kultur, Ernährung und Kunst, wie viel davon ist belegbar, wie viel ist Analogie?
-- Ist Bitcoin als reines Abwicklungsnetz für Große gedacht, und was bedeutet das für das Versprechen finanzieller Souveränität für alle?
+- Ist Bitcoin als reines Abwicklungsnetz für Grosse gedacht, und was bedeutet das für das Versprechen finanzieller Souveränität für alle?

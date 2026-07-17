@@ -7,7 +7,7 @@
 
 ## Summary
 
-Frauen sind in der Bitcoin-Community deutlich unterrepräsentiert — eine Lücke, die Nicole Nowak als Problem für die Gleichberechtigung selbst deutet: Wenn zwischen den Geschlechtern eine große Wissenslücke über eines der wichtigsten Werkzeuge für finanzielle Unabhängigkeit besteht, bleibt Gleichstellung auf dem Papier. Im DACH-Raum adressiert die Initiative Les Femmes Orange (LFO) das mit Meetups, Livestreams und Events von Frauen für Frauen. Der Widerstand dagegen kam anfangs aus der Community selbst; inzwischen ist das Angebot etabliert (Telegram-Gruppe mit über 1.000 Mitgliedern, wachsende Meetup-Zahl) und wirkt als Zubringer zu Konferenzen. Als Erklärungsansatz für die Zurückhaltung dienen weniger Fähigkeiten als Geld-Glaubenssätze und die starke emotionale Besetzung des Themas Geld.
+Frauen sind in der Bitcoin-Community deutlich unterrepräsentiert — eine Lücke, die Nicole Nowak als Problem für die Gleichberechtigung selbst deutet: Wenn zwischen den Geschlechtern eine grosse Wissenslücke über eines der wichtigsten Werkzeuge für finanzielle Unabhängigkeit besteht, bleibt Gleichstellung auf dem Papier. Im DACH-Raum adressiert die Initiative Les Femmes Orange (LFO) das mit Meetups, Livestreams und Events von Frauen für Frauen. Der Widerstand dagegen kam anfangs aus der Community selbst; inzwischen ist das Angebot etabliert (Telegram-Gruppe mit über 1.000 Mitgliedern, wachsende Meetup-Zahl) und wirkt als Zubringer zu Konferenzen. Als Erklärungsansatz für die Zurückhaltung dienen weniger Fähigkeiten als Geld-Glaubenssätze und die starke emotionale Besetzung des Themas Geld.
 
 ## Body
 
@@ -29,7 +29,7 @@ LFO ist die sichtbarste Frauen-Bitcoin-Initiative im DACH-Raum: Meetups von Frau
 
 Flaggschiff ist der LFO-Weltfrauentag: 2026 zum zweiten Mal, im ehemaligen Heizkraftwerk bei MaibornWolff in München, mit rund 70 Teilnehmerinnen plus Workshopleitern und Speakern, Vorträgen, Panels und praktischen Bitcoin-Workshops — trotz Bärenmarktstimmung auch mit Bitcoin-Neulingen. [[20260315_heartmoney-ein-tag-der-alles-verandert]]
 
-Bemerkenswert ist die Herkunftsgeschichte: Als vor einigen Jahren (Initiative um Rachel Geyer) die ersten Bitcoin-Events für Frauen veranstaltet wurden, war der Widerstand innerhalb der Bitcoin-Community groß; das Verständnis, wozu eigene Räume für Frauen nötig sein könnten, gering. Der beobachtete Effekt spricht inzwischen für das Format: Teilnehmerinnen schließen sich zusammen und besuchen anschließend allgemeine Konferenzen und Events — LFO wirkt als Zubringer in die Gesamtcommunity, nicht als Parallelwelt. [[20260315_heartmoney-ein-tag-der-alles-verandert]]
+Bemerkenswert ist die Herkunftsgeschichte: Als vor einigen Jahren (Initiative um Rachel Geyer) die ersten Bitcoin-Events für Frauen veranstaltet wurden, war der Widerstand innerhalb der Bitcoin-Community gross; das Verständnis, wozu eigene Räume für Frauen nötig sein könnten, gering. Der beobachtete Effekt spricht inzwischen für das Format: Teilnehmerinnen schliessen sich zusammen und besuchen anschliessend allgemeine Konferenzen und Events — LFO wirkt als Zubringer in die Gesamtcommunity, nicht als Parallelwelt. [[20260315_heartmoney-ein-tag-der-alles-verandert]]
 
 ### Formate, die Frauen erreichen
 
@@ -50,5 +50,5 @@ Die Quellenlage ist die einer beteiligten Akteurin: Nowak ist LFO-nah, ihre Beob
 ## Open Questions
 
 - Gibt es belastbare Zahlen zum Geschlechterverhältnis bei Bitcoin-Besitz und -Nutzung im DACH-Raum? (HSLU/IFZ-Studien auf Geschlechter-Splits prüfen.)
-- Wie groß ist der LFO-Zubringer-Effekt tatsächlich (Teilnehmerinnen, die später allgemeine Konferenzen besuchen)?
+- Wie gross ist der LFO-Zubringer-Effekt tatsächlich (Teilnehmerinnen, die später allgemeine Konferenzen besuchen)?
 - Trägt die Glaubenssatz-These empirisch, oder dominieren strukturelle Faktoren (Einkommen, Vermögensverteilung, Risikopräferenzen)?

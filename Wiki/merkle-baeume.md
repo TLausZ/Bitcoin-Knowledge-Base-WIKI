@@ -25,7 +25,7 @@ Hash(A) Hash(B) Hash(C) Hash(D)
 
 Jedes Blatt ist der Hash einer Transaktion (oder eines Dokuments). Jeder innere Knoten ist `Hash(linkes_Kind + rechtes_Kind)`. Die Wurzel fasst den gesamten Inhalt zusammen.
 
-**Eigenschaft:** Ändert man eine Transaktion, ändert sich ihr Hash, dann der Hash des Elternknotens, dann des Großelternknotens — bis zur Wurzel. Der Root Hash ändert sich deterministisch. Eine manipulierte Transaktion kann den Root Hash nicht unverändert lassen.
+**Eigenschaft:** Ändert man eine Transaktion, ändert sich ihr Hash, dann der Hash des Elternknotens, dann des Grosselternknotens — bis zur Wurzel. Der Root Hash ändert sich deterministisch. Eine manipulierte Transaktion kann den Root Hash nicht unverändert lassen.
 
 ### Merkles Ursprung: Public-Key-Kryptografie (1980)
 

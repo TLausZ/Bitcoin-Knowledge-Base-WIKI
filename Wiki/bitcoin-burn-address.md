@@ -23,7 +23,7 @@ Wichtig: Adressen existieren nicht auf der Blockchain. Bitcoin-Nodes arbeiten in
 
 Die 1er-Adresse entspricht einem öffentlichen Schlüssel, der aus einer privaten Zahl von 0 abgeleitet wäre — ein mathematisch unmöglicher Ausgangspunkt. Niemand hat den privaten Schlüssel dazu, weil es ihn nicht geben kann. Das ist der Unterschied zur Adresse des Bitcoin-Genesiblocks, wo Satoshi technisch einen privaten Schlüssel haben könnte, aber vermutlich keine Absicht hatte, je auszugeben.
 
-Der Schlüsselgedanke: Der Raum möglicher Bitcoin-Adressen ist so groß (~2¹⁶⁰ für P2PKH), dass das zufällige Finden eines passenden privaten Schlüssels für eine fremde Adresse genauso unwahrscheinlich ist wie für die eigene. Burn Addresses sind keine besonders gesicherten Adressen — es gibt einfach keinen Schlüssel, weil die Adresse nicht aus einem generiert wurde.
+Der Schlüsselgedanke: Der Raum möglicher Bitcoin-Adressen ist so gross (~2¹⁶⁰ für P2PKH), dass das zufällige Finden eines passenden privaten Schlüssels für eine fremde Adresse genauso unwahrscheinlich ist wie für die eigene. Burn Addresses sind keine besonders gesicherten Adressen — es gibt einfach keinen Schlüssel, weil die Adresse nicht aus einem generiert wurde.
 
 ### Was mit den Coins dort passiert
 

@@ -25,7 +25,7 @@ Ein eigener Block behandelt Privatsphäre: was sie bedeutet, warum sie wichtig i
 
 ### Festes Angebot und das Fee-Modell
 
-Das feste Angebot wird als Wert behandelt, nicht als bloße Zahl. Die Autoren erklären den Übergang vom Block-Subsidy hin zu den Transaktionsgebühren als langfristige Sicherheitsfrage: Wenn die neue Ausgabe versiegt, müssen Gebühren die Miner tragen. Das ist eine offene Designspannung, die das Buch benennt, statt sie zu glätten.
+Das feste Angebot wird als Wert behandelt, nicht als blosse Zahl. Die Autoren erklären den Übergang vom Block-Subsidy hin zu den Transaktionsgebühren als langfristige Sicherheitsfrage: Wenn die neue Ausgabe versiegt, müssen Gebühren die Miner tragen. Das ist eine offene Designspannung, die das Buch benennt, statt sie zu glätten.
 
 ### Upgrades und adversariales Denken
 
@@ -33,7 +33,7 @@ Beim Ändern des Protokolls führen die Autoren das Vokabular ein (Soft Fork, Ha
 
 ### Open Source und die Entwicklungskultur
 
-Ein großer Teil widmet sich der Frage, wie an Bitcoin überhaupt gearbeitet wird: Softwarepflege, erlaubnisfreie und pseudonyme Mitarbeit, die zentrale Rolle des Code-Review, die schwierige Finanzierung und der „Culture Shock", den neue Entwickler erleben. Wer ohne Erlaubnis beitragen kann, kann auch angreifen, deshalb ist Review die eigentliche Absicherung.
+Ein grosser Teil widmet sich der Frage, wie an Bitcoin überhaupt gearbeitet wird: Softwarepflege, erlaubnisfreie und pseudonyme Mitarbeit, die zentrale Rolle des Code-Review, die schwierige Finanzierung und der „Culture Shock", den neue Entwickler erleben. Wer ohne Erlaubnis beitragen kann, kann auch angreifen, deshalb ist Review die eigentliche Absicherung.
 
 ### Skalierung und eine geprägte Kultur
 

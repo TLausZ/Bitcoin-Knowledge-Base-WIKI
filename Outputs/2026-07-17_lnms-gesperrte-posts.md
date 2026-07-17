@@ -1,0 +1,110 @@
+# LNMS-Substack: gesperrte Posts (Paywall) — Stand 2026-07-17
+
+Beim Archiv-Import von lessnoisemoresignal.substack.com (Pascal Hügli) waren diese 102 Posts
+hinter der Paywall (Konto tlohbeck+batcoinz@gmail.com = Gratis-Abo, nur Teaser abrufbar).
+Bei einem späteren Paid-Abo/Trial können sie mit demselben Verfahren (Browser-Fetch der
+Substack-API `/api/v1/posts/<slug>`) nachgeholt werden. Grossteils: deutsche Insight-DeFi-
+Ausgaben 2021–2024 sowie neuere englische Paid-Analysen.
+
+- 2021-04-23 — Insight DeFi Newsletter
+- 2021-05-08 — Letzte Infos vor dem Start
+- 2021-05-15 — Bitcoin-Bashing ist Teil jedes Bullenmarktes
+- 2021-05-22 — Willkommen in der Krypto-Welt :)
+- 2021-05-29 — Ein Tauziehen der Kräfte 
+- 2021-06-12 — Staat meets Bitcoin: Weckruf oder Irrsinn?
+- 2021-06-20 — Deine Chance fürs Leben...
+- 2021-06-26 — Krypto: Ein Geduldspiel der sicheren Sorte
+- 2021-07-10 — Zur Schizophrenie des Kryptomarktes
+- 2021-07-24 — Von Tiefständen, Tiefgängen und Tiefpunkten...
+- 2021-08-07 — Spielerischer Ernst oder ernstes Spiel
+- 2021-08-21 — Wenn Märchen wahr werden 
+- 2021-08-28 — Spezialausgabe: Consumer Price Index (CPI) und Inflation
+- 2021-09-04 — Ein Tour d'Horizon zur Krypto-Welt
+- 2021-10-15 — Dynamiken, die man verstehen muss
+- 2021-10-15 — Zum Mond: Alles Gute kommt von oben
+- 2021-10-16 — Wenn nicht jetzt, wann dann?
+- 2021-10-30 — Kompliziert und doch so einfach
+- 2021-11-13 — Auf zu neuen Höhen - Siiiiike
+- 2021-11-27 — Eine Welt, die ihrer Zeit voraus ist
+- 2021-12-12 — Jetzt geht's los! 
+- 2021-12-15 — Special Edition: Das solltest du UNBEDINGT wissen!
+- 2021-12-25 — Stille, Heilige Nacht und Krypto erwacht?
+- 2022-01-08 — Eine Rutschpartie zum Jahresstart
+- 2022-01-15 — Spezialausgabe: Rollups - eine vielversprechende Skalierungsmethode
+- 2022-01-22 — Ist der Traum schon ausgeträumt?
+- 2022-02-05 — Gefangen und doch so frei
+- 2022-02-19 — Trendlos und doch trendig
+- 2022-02-26 — Spezialausgabe: Wo bleibt der Schweizer Stablecoin? 
+- 2022-03-05 — Unaufhaltsam: Die wahre Bestimmung der Kryptos
+- 2022-03-19 — Planet der Affen und Ponzi-Mond
+- 2022-03-26 — Spezialausgabe: Interoperables Blockchain-Game und NFT-Gewinnspiel
+- 2022-04-02 — Über sieben Brücken musst du geh'n
+- 2022-04-16 — Verdienen statt verlieren
+- 2022-04-30 — Der Puls geht hoch, die Preise kommen runter
+- 2022-05-14 — Wir bleiben dran, feiern und beschenken
+- 2022-05-28 — Erlebnisse aus dem Kryptoland
+- 2022-06-04 — Spezialausgabe: Ethereum erfindet sich neu - ein weiteres Mal
+- 2022-06-11 — Der Sturm mag wehen, aber der Weg des Glaubens geht weiter
+- 2022-06-25 — Krypto auf Irrwegen? 
+- 2022-07-09 — Bitcoin: ein Vorbote für Schlimmeres? 
+- 2022-07-23 — Einsteigen nicht vergessen
+- 2022-07-31 — Specialausgabe: Video-Market-Update für Juli
+- 2022-08-06 — Von Hacker-Geschichten und Zukunftsaussichten
+- 2022-08-20 — Der Kampf um die Freiheit ist lanciert
+- 2022-09-03 — Marktzyklen und ein Merge
+- 2022-09-17 — Ein Neustart und ein Niedergang
+- 2022-10-01 — Wer jetzt noch bleibt, dem sei gegönnt der nächste Hype!
+- 2022-10-15 — Highlights von der DevCon, Kuriositäten und eine Buchpremiere
+- 2022-10-29 — Von Airdrops profitieren? Wir erklären konkret wie!
+- 2022-11-04 — Video-Market Update für Oktober
+- 2022-11-12 — Jetzt kommt es faustdick: Wie weiter mit Krypto?
+- 2022-11-26 — Reisst das Unkraut aus! Den Weizen aber bringt in die Scheune.
+- 2022-12-10 — The Show MUST go on
+- 2022-12-24 — Frohe Weihnachten wünscht Insight DeFi
+- 2022-12-31 — Insight DeFi: ein Rück- und ein Ausblick
+- 2023-01-14 — Neues Jahr, neues Glück, neues Format 
+- 2023-01-28 — Parallelwelten: Metaverse und Altcoin-Casino
+- 2023-02-11 — Wir fühlen den Bitcoin-Puls in Afrika 
+- 2023-02-25 — Kommt jetzt der Krypto-Frühling? 
+- 2023-03-11 — Mining und die Nachhaltigkeit unserer Industrie
+- 2023-03-25 — Alle Augen auf die Krypto-Welt?
+- 2023-04-08 — Die Auferstehung ist PERFEKT!
+- 2023-04-22 — Euphorie schadet nicht; ist sie grenzenlos wohl aber schon
+- 2023-05-06 — Qualität kommt selten allein 
+- 2023-05-19 — Warten auf Godot... oder die FED
+- 2023-06-02 — Eine "Empfehlung" und eine Anleitung
+- 2023-06-16 — Applekalypse und das BlackRock-Fieber
+- 2023-06-30 — BlackRock - Let's rock 
+- 2023-07-14 — Und plötzlich sind wir alle im selben Boot
+- 2023-07-29 — Wir kommen wieder, keine Frage
+- 2023-11-25 — We are SO back! 
+- 2023-12-08 — Ho Ho Ho - ein Hoch auf den Kryptomarkt
+- 2023-12-22 — Krypto in 2024: Be-Longing 
+- 2024-01-13 — Der Beginn einer neuen Ära
+- 2024-01-26 — Nach TradFi-Feuertaufe: Bitcoin im Lauermodus
+- 2024-02-23 — Verschnaufpause für Krypto-Enthusiasten
+- 2024-03-09 — Ein BTC-Allzeithoch für die Geschichtsbücher!
+- 2024-03-29 — Tritt Bitcoin an Ort und Stelle, um dann wieder loszurennen?
+- 2024-04-12 — Chancen und Risiken sind die zwei Seiten derselben Medaille
+- 2024-05-03 — Mid-Cycle oder Cycle-Ende?
+- 2024-05-17 — Bitcoin-"Serie": Zweite Episode in Sicht?
+- 2024-05-31 — Der Preis ist flach, aber die News gehen steil
+- 2024-06-14 — Vom Bitcoin Sommer zur Sommerflaute? 
+- 2024-06-28 — Tr(i)ump(hiert) Bitcoin bald? 
+- 2024-07-12 — Ist die Krypto-Branche blind?
+- 2024-07-27 — Gedanken zum gegenwärtigen "Krypto-Setup"
+- 2024-09-06 — Der Bitcoin-Preis hängt am seidenen Faden 
+- 2024-09-27 — Das bullischste Markt-Setup aller Zeiten?
+- 2024-10-18 — Endjahres-Rally in Sicht? 🔭
+- 2025-01-18 — Defining Trends for Bitcoin in 2025
+- 2025-02-22 — Emergency Note! Join our Telegram for more real-time news🙏
+- 2025-03-28 — Are we rolling over or rolling on? 
+- 2025-08-09 — Looking to get YOUR valuable feedback
+- 2025-10-20 — Ending QT won't do much & why almost everyone misreads what's happening in financial plumbing
+- 2025-11-03 — Understanding MSTR: How Strategy Fits Into the United States' Global Financial Endgame
+- 2025-12-05 — Monetary System Overhaul through Stablecoins
+- 2026-03-28 — What is REALLY driving the Bitcoin Price?
+- 2026-03-31 — US, the Crypto Capital? Intentions vs Facts
+- 2026-04-27 — BTC at Decision Time: And what we decided
+- 2026-06-16 — Market Update: Consensus view, market pricing & inflation
+- 2026-07-06 — NEW: No More Information Overload Report!

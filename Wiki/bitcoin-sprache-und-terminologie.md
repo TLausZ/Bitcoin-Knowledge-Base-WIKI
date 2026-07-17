@@ -17,9 +17,9 @@ Bitcoin hat keinen intuitiven Bezugspunkt. „Es gibt nichts, womit man es in Ve
 
 ### Interne Terminologie: wo die Metaphern versagen
 
-**Wallet.** Eine Bitcoin-Wallet enthält keine Bitcoin. Sie verwaltet kryptografische Schlüssel und ermöglicht das Signieren von Transaktionen. Das Guthaben liegt auf der Blockchain, nicht im Gerät. Präzisere Begriffe entstehen bereits: Hardware Wallets werden zunehmend als „Signaturgeräte" bezeichnet; Multi-Sig-Konstrukte heißen „Tresore". Gigi hofft, den Oberbegriff „Wallet" langfristig aufzugeben.
+**Wallet.** Eine Bitcoin-Wallet enthält keine Bitcoin. Sie verwaltet kryptografische Schlüssel und ermöglicht das Signieren von Transaktionen. Das Guthaben liegt auf der Blockchain, nicht im Gerät. Präzisere Begriffe entstehen bereits: Hardware Wallets werden zunehmend als „Signaturgeräte" bezeichnet; Multi-Sig-Konstrukte heissen „Tresore". Gigi hofft, den Oberbegriff „Wallet" langfristig aufzugeben.
 
-**Schlüssel.** In der physischen Welt öffnet ein Schlüssel Schlösser. Ein Bitcoin-Private-Key unterschreibt Nachrichten — er ist eher ein Stift als ein Schlüssel. Er ist reine Information: geheime Daten, die niemand außer dem Eigentümer kennen sollte. Wer diese Information hat, hat die Bitcoin. Die Darstellung als Wortliste (Seed Phrase) macht die Informationsnatur sichtbar: 24 Wörter = Zugang zu allen davon abgeleiteten Schlüsseln und Adressen.
+**Schlüssel.** In der physischen Welt öffnet ein Schlüssel Schlösser. Ein Bitcoin-Private-Key unterschreibt Nachrichten — er ist eher ein Stift als ein Schlüssel. Er ist reine Information: geheime Daten, die niemand ausser dem Eigentümer kennen sollte. Wer diese Information hat, hat die Bitcoin. Die Darstellung als Wortliste (Seed Phrase) macht die Informationsnatur sichtbar: 24 Wörter = Zugang zu allen davon abgeleiteten Schlüsseln und Adressen.
 
 **Adresse.** Luke DasJr hat BIP 179 verfasst, dessen einziger Zweck ist, den Begriff „Adresse" durch „Rechnung" (Invoice) zu ersetzen. Der Grund: Bitcoin-Transaktionen haben keine Absenderadresse. Das Konzept einer „Von-Adresse" ist eine Heuristik, kein Protokollmerkmal. Eine Transaktion enthält nur Skripte — Anforderungen und Lösungen für Anforderungen. Der Invoice-Begriff ist in Lightning bereits Standard und technisch akkurater.
 
@@ -31,13 +31,13 @@ Bitcoin hat keinen intuitiven Bezugspunkt. „Es gibt nichts, womit man es in Ve
 
 **#ChangeTheCode.** Die Kampagne von Greenpeace, Bitcoin auf Proof of Stake umzustellen, wurde von Chris Larsen finanziert — dem Gründer von Ripple (XRP). Bitcoin ist freie Open-Source-Software unter MIT-Lizenz. Jeder kann den Code ändern, ohne um Erlaubnis zu fragen. Niemand ist gezwungen, die Änderung zu übernehmen. Die Kampagne erklärt sich durch das, was sie angreift: Proof-of-Work ist der Grund, warum permissionslose, zentralisierungsresistente Systeme wie Bitcoin überhaupt funktionieren.
 
-**„Proof of Stake."** Gigi listet, was PoS im Vergleich zu PoW fehlt: kein objektiver Wahrheitsmechanismus, keine objektive Zeit, keine zufällige Auswahl, keine faire Ausgabe, keine externen Kosten, keine Betriebskosten — und es zentralisiert sich im Zeitverlauf. PoW hat das Zeitproblem in dezentralen Systemen gelöst, das Problem der fairen Ausgabe und das Problem der unfälschbaren Kostspieligkeit. PoS löst keines davon. Gigi fasst zusammen: PoS heißt im Grunde „vertrau mir einfach, Bruder". [[aprycot-gigi-woerter-in-bitcoin]]
+**„Proof of Stake."** Gigi listet, was PoS im Vergleich zu PoW fehlt: kein objektiver Wahrheitsmechanismus, keine objektive Zeit, keine zufällige Auswahl, keine faire Ausgabe, keine externen Kosten, keine Betriebskosten — und es zentralisiert sich im Zeitverlauf. PoW hat das Zeitproblem in dezentralen Systemen gelöst, das Problem der fairen Ausgabe und das Problem der unfälschbaren Kostspieligkeit. PoS löst keines davon. Gigi fasst zusammen: PoS heisst im Grunde „vertrau mir einfach, Bruder". [[aprycot-gigi-woerter-in-bitcoin]]
 
 ### Warum Terminologie politisch ist
 
 Die Zuweisung folgt der Wahrnehmung, die öffentliche Politik folgt der Wahrnehmung. Wer Bitcoin als „Waffe" oder „Verschwendung" oder „unkontrollierbares Schwarzgeld" bezeichnet, formt die Regulierungsdebatte. Wer Bitcoin als elektronisches Bargeld bezeichnet — permissionsfrei, überprüfbar, eigenverantwortlich — framt es anders.
 
-Gigi schließt: In einer Welt voller Euphemismen ist es an sich rebellisch, Dinge beim richtigen Namen zu nennen. Die beste Antwort auf schlechte Terminologie sind präzise Begriffe und das Verständnis, warum Metaphern versagen.
+Gigi schliesst: In einer Welt voller Euphemismen ist es an sich rebellisch, Dinge beim richtigen Namen zu nennen. Die beste Antwort auf schlechte Terminologie sind präzise Begriffe und das Verständnis, warum Metaphern versagen.
 
 ## Related
 

@@ -7,13 +7,13 @@
 
 ## Summary
 
-Timo Volkovs „Privacy Handbuch" ist ein deutschsprachiger Praxis-Ratgeber für digitale Sicherheit und Privatsphäre aus dem Bitcoin-nahen Umfeld. Es ist weniger Theorie- als Umsetzungsbuch: vom Gefahrenmodell über Betriebssystem und Gerät bis zu konkreten Tool-Empfehlungen und aktiven Gegenmaßnahmen. Der rote Faden ist digitaler Minimalismus, die Angriffsfläche gar nicht erst entstehen zu lassen.
+Timo Volkovs „Privacy Handbuch" ist ein deutschsprachiger Praxis-Ratgeber für digitale Sicherheit und Privatsphäre aus dem Bitcoin-nahen Umfeld. Es ist weniger Theorie- als Umsetzungsbuch: vom Gefahrenmodell über Betriebssystem und Gerät bis zu konkreten Tool-Empfehlungen und aktiven Gegenmassnahmen. Der rote Faden ist digitaler Minimalismus, die Angriffsfläche gar nicht erst entstehen zu lassen.
 
 ## Body
 
 ### Threat Model zuerst
 
-Volkov beginnt nicht mit Tools, sondern mit dem persönlichen „Threat Model": Wovor genau will ich mich schützen, und vor wem? Ein Journalist, der Quellen schützt, hat andere Anforderungen als jemand, der nur der Werbeindustrie entkommen will. Erst das Gefahrenmodell entscheidet, welche der folgenden Maßnahmen sinnvoll sind, Privatsphäre ist kein Alles-oder-nichts, sondern eine Abwägung von Aufwand und Risiko.
+Volkov beginnt nicht mit Tools, sondern mit dem persönlichen „Threat Model": Wovor genau will ich mich schützen, und vor wem? Ein Journalist, der Quellen schützt, hat andere Anforderungen als jemand, der nur der Werbeindustrie entkommen will. Erst das Gefahrenmodell entscheidet, welche der folgenden Massnahmen sinnvoll sind, Privatsphäre ist kein Alles-oder-nichts, sondern eine Abwägung von Aufwand und Risiko.
 
 ### Digitaler Minimalismus
 
@@ -36,7 +36,7 @@ Die Kapitel arbeiten einen Baukasten ab, aus dem man je nach Threat Model wählt
 - **Kommunikation:** E-Mail mit Aliassen, Signal als Messenger, Nostr, PGP; getrennte Telefonnummern/SMS.
 - **Datenminimierung:** private Alternativen für Kalender, Kontakte, Notizen und Office; bewusster Umgang mit Social Media, Musik/Podcasts, KI-Diensten.
 
-### Aktive Gegenmaßnahmen (OSINT-Abwehr)
+### Aktive Gegenmassnahmen (OSINT-Abwehr)
 
 Über die Verteidigung hinaus behandelt Volkov offensive Privatsphäre:
 

@@ -23,7 +23,7 @@ Der Antrieb ist nicht Böswilligkeit, sondern Systemlogik. Wer keine Vermögensw
 
 ### Bitcoin als Ariadnefaden, nicht als Kampftruppe
 
-Der griechische Mythos: Theseus betritt das Labyrinth des Minotaurus und findet heraus — nicht weil er den Minotaurus besiegt (obwohl er das auch tut), sondern weil Ariadne ihm einen Faden mitgibt, an dem er sich nach draußen tasten kann. Der Faden kämpft nicht. Er ist einfach da.
+Der griechische Mythos: Theseus betritt das Labyrinth des Minotaurus und findet heraus — nicht weil er den Minotaurus besiegt (obwohl er das auch tut), sondern weil Ariadne ihm einen Faden mitgibt, an dem er sich nach draussen tasten kann. Der Faden kämpft nicht. Er ist einfach da.
 
 Bitcoin konkurriert mit Fiat nicht dadurch, dass es Fiat angreift. Es kennt keine Gegner, hat kein Bewusstsein von politischen Feinden. Es bietet schlicht eine Alternative: ein System, das auf vertrauensfreier Verifizierbarkeit beruht, statt auf unüberprüfbarem Vertrauen. Ein reiner Vermögenswert statt einer buchstäblich als Verbindlichkeit definierten Schuld. [[aprycot-bitcoin-ist-ariadne]]
 
@@ -35,13 +35,13 @@ William McNeill, "The Pursuit of Power": Die Fähigkeit, Eigentum zu sichern, oh
 
 Marc Andreessen: Software hat die Welt gefressen. Produktives Kapital, dessen Rohstoff kohärente menschliche Gedanken sind, ist per se mobil. Das macht die unabhängige Facharbeiterin zu einer Unternehmerin, deren Kapitalbildung nicht an physische Infrastruktur gebunden ist.
 
-Bitcoin kappt die letzte Verbindung: Auch finanzielles Kapital kann nun vollständig mobil sein — nicht an ein bestimmtes Finanzsystem gebunden. Kotkins Klage, dass Großstädte für die Mittelklasse unbezahlbar geworden sind, löst sich in dieser Logik langsam auf. Wo sich hochqualifizierte, mobile Arbeit konzentriert, funktioniert auch andere Arbeit. Das ist kein elitäres Szenario, sondern ein Realisierungsweg für lokale Gemeinschaften außerhalb der finanziell konzentrierten Metropolen. [[aprycot-bitcoin-ist-ariadne]]
+Bitcoin kappt die letzte Verbindung: Auch finanzielles Kapital kann nun vollständig mobil sein — nicht an ein bestimmtes Finanzsystem gebunden. Kotkins Klage, dass Grossstädte für die Mittelklasse unbezahlbar geworden sind, löst sich in dieser Logik langsam auf. Wo sich hochqualifizierte, mobile Arbeit konzentriert, funktioniert auch andere Arbeit. Das ist kein elitäres Szenario, sondern ein Realisierungsweg für lokale Gemeinschaften ausserhalb der finanziell konzentrierten Metropolen. [[aprycot-bitcoin-ist-ariadne]]
 
 ### Wer wird Bitcoin nutzen?
 
 Farrington: Diejenigen sozialen Einheiten — Einzelpersonen, Familien, Unternehmen, Städte, Länder —, die freiwillig toxische Fiat-Positionen auflösen und in ein globales, solides, programmierbares Geld wechseln, werden langfristig orientiertes Kapital in überproportionalem Verhältnis akkumulieren. Sie werden auf einer gesunden wirtschaftlichen Basis stehen, um soziale und politische Institutionen aufzubauen — so wie das mittelalterliche Venedig auf den Überresten des westlichen Imperiums aufbaute.
 
-Das Argument ist probabilistisch: "Wir werden abwarten und zusehen müssen." Bitcoin könnte auch scheitern. Aber "er ist dumm" oder "ich mag ihn nicht" sind keine ernsthaften Gegenargumente. Um die Gründe für ein mögliches Scheitern zu benennen, muss man ihn erst verstehen. Hanson: Wahrnehmung ist theorielastig. Wessen Theorie die Möglichkeit von solchem Geld ausschließt, wird es nicht sehen — selbst wenn es existiert.
+Das Argument ist probabilistisch: "Wir werden abwarten und zusehen müssen." Bitcoin könnte auch scheitern. Aber "er ist dumm" oder "ich mag ihn nicht" sind keine ernsthaften Gegenargumente. Um die Gründe für ein mögliches Scheitern zu benennen, muss man ihn erst verstehen. Hanson: Wahrnehmung ist theorielastig. Wessen Theorie die Möglichkeit von solchem Geld ausschliesst, wird es nicht sehen — selbst wenn es existiert.
 
 ### Utopische Dystopien: Orwell und Huxley gleichzeitig (Svetski, 2021)
 

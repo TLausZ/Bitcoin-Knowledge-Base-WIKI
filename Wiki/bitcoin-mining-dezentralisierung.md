@@ -13,7 +13,7 @@ Michael Schmid beschreibt in "Bitcoin-Transaktionskriege" ein strukturelles Risi
 
 ### Wie Zensur technisch funktioniert
 
-Ein Miner — und nur ein Miner — entscheidet, welche Transaktionen in einen Block kommen. Spieltheoretisch ist es für einen Miner rational, die Transaktionen mit den höchsten Gebühren zu wählen. Aber nichts hindert ihn daran, bestimmte Transaktionen auszuschließen, auch gebührenreiche.
+Ein Miner — und nur ein Miner — entscheidet, welche Transaktionen in einen Block kommen. Spieltheoretisch ist es für einen Miner rational, die Transaktionen mit den höchsten Gebühren zu wählen. Aber nichts hindert ihn daran, bestimmte Transaktionen auszuschliessen, auch gebührenreiche.
 
 Wenn genug Miner gemeinsam zensieren, entstehen zwei Druckmittel:
 1. Zensierte Transaktionen kommen nur sehr langsam oder gar nicht in die Chain.
@@ -38,7 +38,7 @@ Stratum V1, das Protokoll zwischen Minern und Mining-Pools, lässt die Transakti
 Das Argument für Home-Mining folgt der Logik der anderen Selbstverwahrungsmaximen:
 - "Not your keys, not your coins" → Selbstverwahrung statt Börse
 - "Not your node, not your validation" → eigener Node statt fremder Infrastruktur
-- "Not your miner, not your block" → wenn jeder Block über die eigene Hashrate auch zensierte Transaktionen einschließen kann, ist Zensur nur durchsetzbar, wenn die zensierenden Miner eine Mehrheit bilden
+- "Not your miner, not your block" → wenn jeder Block über die eigene Hashrate auch zensierte Transaktionen einschliessen kann, ist Zensur nur durchsetzbar, wenn die zensierenden Miner eine Mehrheit bilden
 
 Für jeden einzelnen Home-Miner ist die Wahrscheinlichkeit, einen Block zu finden, gering. Die Wirkung ist nicht individuell, sondern systemisch: Jede Hashrate in privaten Händen ist Hashrate, die kein Regulierer kontrollieren kann.
 
@@ -63,6 +63,6 @@ Unternehmen wie FutureBit und Coinmine bieten Plug-and-Play-Miner für Haushalte
 
 ## Open Questions
 
-- Wie weit ist Stratum V2 bis 2026 in großen Pools implementiert?
+- Wie weit ist Stratum V2 bis 2026 in grossen Pools implementiert?
 - Hat die US-Regulierung tatsächlich Mining-Entitäten zur Transaktionszensur verpflichtet?
 - Welche Hashrate-Konzentration gilt als kritische Schwelle für Zensuranfälligkeit?

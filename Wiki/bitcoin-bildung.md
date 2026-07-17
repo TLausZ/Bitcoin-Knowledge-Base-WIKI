@@ -43,7 +43,7 @@ Im November 2025 verkündeten drei Institutionen eine strategische Partnerschaft
 
 **Scholarium AG** (unter Rahim Taghizadegan) ist eine Lehreinrichtung für die Österreichische Schule der Nationalökonomie — dasselbe intellektuelle Fundament, auf dem Aprycot seine Bücher aufbaut. Scholarium übernahm eine Minderheitsbeteiligung.
 
-Die erklärte Stoßrichtung: Bitcoin als Katalysator für "ökonomisches und gesellschaftliches Umdenken" positionieren, mit Bildung als Hauptinstrument. Aprycot-Motto: "Wir drucken Bücher statt Geld!"
+Die erklärte Stossrichtung: Bitcoin als Katalysator für "ökonomisches und gesellschaftliches Umdenken" positionieren, mit Bildung als Hauptinstrument. Aprycot-Motto: "Wir drucken Bücher statt Geld!"
 
 Die Partnerschaft verbindet:
 - Coinfinity: Markt-Zugang und praktische Bitcoin-Dienste
@@ -135,6 +135,6 @@ Das Bitcoin Talents Programm des Frankfurt Blockchain Center (10 Videosessions, 
 
 ## Open Questions
 
-- Wie entwickelt sich Mi Primer Bitcoin außerhalb El Salvadors — gibt es vergleichbare Curriculum-Projekte in anderen Ländern?
+- Wie entwickelt sich Mi Primer Bitcoin ausserhalb El Salvadors — gibt es vergleichbare Curriculum-Projekte in anderen Ländern?
 - Welchen messbaren Effekt hatte der Bitcoin-Diplom-Unterricht auf die Bitcoin-Adoption in El Salvador (Nutzungsrate, Wallet-Durchdringung)?
 - Wie integriert sich das Scholarium-Studienprogramm mit den Aprycot-Inhalten inhaltlich?

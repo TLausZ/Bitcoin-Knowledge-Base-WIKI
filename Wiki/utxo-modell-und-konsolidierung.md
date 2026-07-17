@@ -7,7 +7,7 @@
 
 ## Summary
 
-Bitcoin verwendet das UTXO-Modell (Unspent Transaction Outputs): Jede Transaktion verbraucht bestehende UTXOs als Inputs und erzeugt neue als Outputs. Transaktionsgebühren hängen direkt von der Anzahl der Inputs ab — wer viele kleine UTXOs hat, zahlt mehr. UTXO-Konsolidierung (Zusammenfassen vieler kleiner UTXOs in wenige größere) spart zukünftige Gebühren, wenn in Zeiten niedriger Gebühren durchgeführt.
+Bitcoin verwendet das UTXO-Modell (Unspent Transaction Outputs): Jede Transaktion verbraucht bestehende UTXOs als Inputs und erzeugt neue als Outputs. Transaktionsgebühren hängen direkt von der Anzahl der Inputs ab — wer viele kleine UTXOs hat, zahlt mehr. UTXO-Konsolidierung (Zusammenfassen vieler kleiner UTXOs in wenige grössere) spart zukünftige Gebühren, wenn in Zeiten niedriger Gebühren durchgeführt.
 
 ## Body
 
@@ -23,13 +23,13 @@ Jeder UTXO hat einen festen Wert, ist an eine Bitcoin-Adresse gebunden und wird 
 
 ### Wie Transaktionsgebühren berechnet werden
 
-`Gebühr = Transaktionsgröße × Gebührensatz (sat/vByte)`
+`Gebühr = Transaktionsgrösse × Gebührensatz (sat/vByte)`
 
-Die Transaktionsgröße hängt von der **Anzahl der Inputs** ab. Mehr Inputs = größere Transaktion = höhere Gebühren. Wer monatlich Bitcoin via DCA kauft, sammelt über Zeit viele kleine UTXOs an — alle zukünftigen Ausgaben werden dadurch teurer.
+Die Transaktionsgrösse hängt von der **Anzahl der Inputs** ab. Mehr Inputs = grössere Transaktion = höhere Gebühren. Wer monatlich Bitcoin via DCA kauft, sammelt über Zeit viele kleine UTXOs an — alle zukünftigen Ausgaben werden dadurch teurer.
 
 ### Was ist UTXO-Konsolidierung?
 
-Konsolidierung = viele kleine UTXOs in einer Transaktion an sich selbst zusammenfassen → wenige große UTXOs entstehen.
+Konsolidierung = viele kleine UTXOs in einer Transaktion an sich selbst zusammenfassen → wenige grosse UTXOs entstehen.
 
 **Wann sinnvoll:** In Zeiten niedriger Gebühren (z.B. Wochenenden, Nebensaison) konsolidieren → bei späteren Ausgaben in Hochgebühren-Phasen profitieren, weil weniger Inputs benötigt werden.
 
@@ -37,7 +37,7 @@ Die Konsolidierung selbst kostet Gebühren — aber wenn in einer Phase mit nied
 
 ### Privatsphäre-Kompromiss
 
-Alle Inputs einer Konsolidierungstransaktion werden miteinander verknüpft — ein Beobachter kann schließen, dass alle diese Adressen zum selben Nutzer gehören. Deshalb:
+Alle Inputs einer Konsolidierungstransaktion werden miteinander verknüpft — ein Beobachter kann schliessen, dass alle diese Adressen zum selben Nutzer gehören. Deshalb:
 
 - UTXOs aus verschiedenen Quellen (KYC-Börse vs. KYC-freier Kauf) **separat halten**
 - Verschiedene Konten in der BitBoxApp für verschiedene Quellen verwenden

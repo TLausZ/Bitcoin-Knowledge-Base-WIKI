@@ -14,7 +14,7 @@ Multisig-Wallets erfordern mehrere Signaturen von verschiedenen Schlüsseln, um 
 ### Warum Multisig?
 
 Eine einzelne Hardware-Wallet mit einem Backup ist für die meisten Nutzer ausreichend. Multisig wird sinnvoll, wenn:
-- Große Bitcoin-Bestände mehr Redundanz erfordern
+- Grosse Bitcoin-Bestände mehr Redundanz erfordern
 - Die Abhängigkeit von einem einzelnen Gerät oder Standort reduziert werden soll
 - Vererbungsplanung strukturiert werden soll
 - Ein Setup für Familie oder Unternehmen aufgebaut wird

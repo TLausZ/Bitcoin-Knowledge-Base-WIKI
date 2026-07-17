@@ -13,7 +13,7 @@ Das Bitcoin-Netzwerk ist ein Peer-to-Peer-Netzwerk aus tausenden von Computern (
 
 ### Was ist das Bitcoin-Netzwerk?
 
-Das Bitcoin-Netzwerk besteht aus allen Computern, die gerade das Bitcoin-Programm laufen lassen. Diese Computer heißen Nodes (Knotenpunkte). Sie sind direkt miteinander verbunden — es gibt keine zentrale Instanz, die Transaktionen koordiniert oder genehmigt.
+Das Bitcoin-Netzwerk besteht aus allen Computern, die gerade das Bitcoin-Programm laufen lassen. Diese Computer heissen Nodes (Knotenpunkte). Sie sind direkt miteinander verbunden — es gibt keine zentrale Instanz, die Transaktionen koordiniert oder genehmigt.
 
 Jeder mit einem Computer und Internetanschluss kann dem Netzwerk beitreten, indem er Bitcoin Core (oder ein anderes kompatibles Programm) herunterlädt. Das Netzwerk ist offen und erlaubnisfrei.
 
@@ -99,7 +99,7 @@ SPV-Nodes müssen Peers nach Transaktionen fragen, die für ihre Adressen releva
 
 ### Dezentralisierung als Kernmerkmal
 
-Die Stärke des Netzwerks liegt darin, dass kein zentraler Punkt existiert, den man abschalten könnte. Selbst wenn eine große Anzahl von Nodes gleichzeitig ausfällt, bleibt das Netzwerk funktionsfähig — es gibt immer noch andere Nodes, die die Blockchain halten und Transaktionen weitergeben.
+Die Stärke des Netzwerks liegt darin, dass kein zentraler Punkt existiert, den man abschalten könnte. Selbst wenn eine grosse Anzahl von Nodes gleichzeitig ausfällt, bleibt das Netzwerk funktionsfähig — es gibt immer noch andere Nodes, die die Blockchain halten und Transaktionen weitergeben.
 
 ### Satoshis ursprüngliche Node-Erwartung
 
@@ -143,7 +143,7 @@ Der Herzschlag von Bitcoin verbindet beide Seiten: Alle 10 Minuten ein Block. Ti
 
 ### Full Node als Maschine der Gewissheit
 
-Michael Goldstein formuliert die philosophische Tragweite des Full Nodes präziser als die meisten technischen Beschreibungen: Ein Bitcoin Full Node ist eine Maschine der Gewissheit. Wer einen betreibt, erhält ein Maß an Sicherheit über ein monetäres Netzwerk, das vor Bitcoin kein Mensch hatte. Jede andere monetäre Technologie — Gold, Fiat-Banknoten, PayPal-Guthaben — ist mit Ungewissheiten behaftet, die ein Full Node strukturell beseitigt. [[aprycot-node-weltordnung]]
+Michael Goldstein formuliert die philosophische Tragweite des Full Nodes präziser als die meisten technischen Beschreibungen: Ein Bitcoin Full Node ist eine Maschine der Gewissheit. Wer einen betreibt, erhält ein Mass an Sicherheit über ein monetäres Netzwerk, das vor Bitcoin kein Mensch hatte. Jede andere monetäre Technologie — Gold, Fiat-Banknoten, PayPal-Guthaben — ist mit Ungewissheiten behaftet, die ein Full Node strukturell beseitigt. [[aprycot-node-weltordnung]]
 
 Das Bitcoin-Netz ist so konzipiert, dass ein Full Node in einem Bunker mit einer einzigen Internetverbindung funktioniert. Er kann alle eingehenden Daten selbst beurteilen: Ein Block mit schwereren Proof-of-Work weist dem Node exakt, wie er seine Blockchain-Kopie reorganisieren muss. Ein Eclipse-Angriff, bei dem der Node nur mit feindlichen Peers verbunden ist, bricht zusammen, sobald er einen einzigen gültigen Block-Header empfängt, der eine andere Geschichte erzählt. Nach der Validierung kennt der Node den Zustand des Netzwerks mit absoluter Gewissheit.
 
@@ -151,7 +151,7 @@ Das macht Bitcoin zum ersten Geldsystem, das unabhängige Überprüfung ermögli
 
 ### Full Node ist nicht optional
 
-Goldstein hält fest: Es gibt kein Bitcoin-Netzwerk außerhalb von Bitcoin-Nodes. Wer keinen eigenen Full Node betreibt, nutzt den eines anderen und vertraut dessen Behauptungen über das Netzwerk. Der Besitz von privaten Schlüsseln allein reicht nicht: Nur wer einen Node betreibt, weiß, ob die damit verbundenen Adressen UTXOs erhalten haben — und ob diese UTXOs in dem Netzwerk existieren, das der Nutzer meint. [[aprycot-node-weltordnung]]
+Goldstein hält fest: Es gibt kein Bitcoin-Netzwerk ausserhalb von Bitcoin-Nodes. Wer keinen eigenen Full Node betreibt, nutzt den eines anderen und vertraut dessen Behauptungen über das Netzwerk. Der Besitz von privaten Schlüsseln allein reicht nicht: Nur wer einen Node betreibt, weiss, ob die damit verbundenen Adressen UTXOs erhalten haben — und ob diese UTXOs in dem Netzwerk existieren, das der Nutzer meint. [[aprycot-node-weltordnung]]
 
 Nur der Betrieb von sowohl Bitcoin-Schlüsseln als auch einem Full Node ermöglicht echte Gewissheit über Eigentum, Knappheit und Zensurresistenz. Das gilt für einen Kleinsparer in El Salvador genauso wie für eine Zentralbank.
 
@@ -161,7 +161,7 @@ Das Bitcoin-Netzwerk hat keinen eigenen Willen. Es ist die Summe individueller E
 
 Diese Rückkopplungsschleife ist entscheidend: Je mehr Menschen Nodes mit einem bestimmten Regelwerk betreiben, desto mehr wirtschaftliche Aktivität läuft über dieses Regelwerk, desto mehr Miner richten sich danach aus. "E pluribus unum" — aus vielen Einzelentscheidungen entsteht ein einheitliches Netzwerk. [[aprycot-node-weltordnung]]
 
-StopAndDecrypt nennt das Ergebnis eine "uneinnehmbare Festung der Validierung": Transaktionen und Blöcke, die gegen die Konsensregeln verstoßen, werden von Nodes abgelehnt und nicht weitergeleitet — unabhängig davon, wie viel Hashrate hinter ihnen steht. SegWit2x scheiterte 2017 genau daran: Nodes lehnten den Fork ab, der Miner-Konsens zerfiel.
+StopAndDecrypt nennt das Ergebnis eine "uneinnehmbare Festung der Validierung": Transaktionen und Blöcke, die gegen die Konsensregeln verstossen, werden von Nodes abgelehnt und nicht weitergeleitet — unabhängig davon, wie viel Hashrate hinter ihnen steht. SegWit2x scheiterte 2017 genau daran: Nodes lehnten den Fork ab, der Miner-Konsens zerfiel.
 
 ## Related
 
@@ -180,5 +180,5 @@ StopAndDecrypt nennt das Ergebnis eine "uneinnehmbare Festung der Validierung": 
 ## Open Questions
 
 - Wie viele aktive Full Nodes gibt es aktuell im Bitcoin-Netzwerk?
-- Wie wirkt sich die wachsende Blockchain-Größe auf die Node-Dezentralisierung aus?
+- Wie wirkt sich die wachsende Blockchain-Grösse auf die Node-Dezentralisierung aus?
 - Ab welcher Menge an AUM in Bitcoin-ETFs wird der Preisbildungsmechanismus merklich durch Papier-Bitcoin beeinflusst?

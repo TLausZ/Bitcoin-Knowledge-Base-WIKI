@@ -7,7 +7,7 @@
 
 ## Summary
 
-Robert Breedloves offener Brief an Ray Dalio (2019) liefert eine der präzisesten Formulierungen, warum Bitcoin nicht durch andere Kryptowährungen ersetzt werden kann: Absolute Knappheit — die Entdeckung eines digitalen Guts, das strukturell auf 21 Millionen Einheiten begrenzt ist und diese Grenze nicht aufheben kann — ist selbst die Erfindung. Die Nichtreproduzierbarkeit ist die eigentliche Leistung. Breedlove bewertet Dalios Bitcoin-Analyse mit einer „6" (ungenügend) und führt anhand von Dalios eigenem Bridgewater-Prinzipiensystem (Ideen-Meritokratie, radikale Wahrheit, radikale Transparenz) vor, warum Dalio seinen eigenen Maßstäben nicht gerecht wird.
+Robert Breedloves offener Brief an Ray Dalio (2019) liefert eine der präzisesten Formulierungen, warum Bitcoin nicht durch andere Kryptowährungen ersetzt werden kann: Absolute Knappheit — die Entdeckung eines digitalen Guts, das strukturell auf 21 Millionen Einheiten begrenzt ist und diese Grenze nicht aufheben kann — ist selbst die Erfindung. Die Nichtreproduzierbarkeit ist die eigentliche Leistung. Breedlove bewertet Dalios Bitcoin-Analyse mit einer „6" (ungenügend) und führt anhand von Dalios eigenem Bridgewater-Prinzipiensystem (Ideen-Meritokratie, radikale Wahrheit, radikale Transparenz) vor, warum Dalio seinen eigenen Massstäben nicht gerecht wird.
 
 ## Body
 
@@ -54,13 +54,13 @@ Breedlove wendet Dalios eigenes Principled-Thinking-System auf den Bitcoin-Fall 
 
 **Glaubwürdigkeit und Skin in the Game.** Gold hat eine 5.000-jährige Track-Record. Zentralbanker tragen keine persönlichen Konsequenzen für Fehlentscheidungen. Römer, die Brücken bauten, mussten darunter stehen. Bitcoin-Holder tragen ihr eigenes Risiko — kein Bail-out, kein Lender of Last Resort.
 
-**„Bitcoin = Kauf einer Put-Option auf das Fehlverhalten der Zentralbanker."** QE, TARP, NIRP sind nach Nassim Taleb „iatrogene Kosten" — Schäden, die durch die Heilungsmaßnahmen entstehen, nicht durch die ursprüngliche Erkrankung.
+**„Bitcoin = Kauf einer Put-Option auf das Fehlverhalten der Zentralbanker."** QE, TARP, NIRP sind nach Nassim Taleb „iatrogene Kosten" — Schäden, die durch die Heilungsmassnahmen entstehen, nicht durch die ursprüngliche Erkrankung.
 
 ### Die Null als Vorfahr der absoluten Knappheit (Breedlove)
 
 Breedlove entwickelt in „Die Zahl Null und Bitcoin" (2020) eine historische Parallele: Null und Bitcoin sind beide Erfindungen, die zu Entdeckungen führten, die das sie umgebende System grundlegend neu gestalteten. Bei der Null war das System die Mathematik, bei Bitcoin ist es das Geld. Da Geld und Mathematik die beiden Weltsprachen der Menschheit sind, sind beide Konstrukte konstitutiv für Zivilisation.
 
-Die Null existierte jahrtausendelang nicht als Konzept. Die Babylonier rechneten ohne sie, die Römer ohne sie — mit dem Ergebnis, dass Multiplikation und Division mühsam blieben. Als das hinduistisch-arabische Zahlensystem mit Null im Hochmittelalter Europa erreichte, stieß es auf ideologischen Widerstand. Dennoch setzte es sich durch: nicht weil jemand es per Dekret einführte, sondern weil Händler, die damit rechneten, schneller und fehlerfreier arbeiteten. Energieeffizientere Systeme verdrängen ineffizientere — das ist laut Breedlove dasselbe Prinzip, das Bitcoin in der Geldgeschichte anwendet. [[aprycot-breedlove-die-zahl-null-und-bitcoin]]
+Die Null existierte jahrtausendelang nicht als Konzept. Die Babylonier rechneten ohne sie, die Römer ohne sie — mit dem Ergebnis, dass Multiplikation und Division mühsam blieben. Als das hinduistisch-arabische Zahlensystem mit Null im Hochmittelalter Europa erreichte, stiess es auf ideologischen Widerstand. Dennoch setzte es sich durch: nicht weil jemand es per Dekret einführte, sondern weil Händler, die damit rechneten, schneller und fehlerfreier arbeiteten. Energieeffizientere Systeme verdrängen ineffizientere — das ist laut Breedlove dasselbe Prinzip, das Bitcoin in der Geldgeschichte anwendet. [[aprycot-breedlove-die-zahl-null-und-bitcoin]]
 
 Die Null hat drei Funktionen, die Breedlove direkt den drei Geldfunktionen zuordnet:
 

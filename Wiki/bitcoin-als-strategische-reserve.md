@@ -2,8 +2,8 @@
 
 **Status:** emerging
 **Themen:** protokoll, mining, oekonomie, adoption, wallets
-**Last updated:** 2026-07-05
-**Sources:** [[Strategic_Reserve_Best_Practice_Paper_1-10-25]], [[Counterfactual_Analysis_Bitcoin_Gold_Rainy_Day_Funds]], [[Bitcoin_and_Bitcoin_Mining_Guide]], [[aprycot-roekke-seetee-aktionaersbrief]], [[20260412_heartmoney-bitcoin-proton-iran]]
+**Last updated:** 2026-07-17
+**Sources:** [[Strategic_Reserve_Best_Practice_Paper_1-10-25]], [[Counterfactual_Analysis_Bitcoin_Gold_Rainy_Day_Funds]], [[Bitcoin_and_Bitcoin_Mining_Guide]], [[aprycot-roekke-seetee-aktionaersbrief]], [[20260412_heartmoney-bitcoin-proton-iran]], [[2024-11-21_The Traditional ETF Expert - We are entering the golden age for crypto]], [[2024-11-28_US National Security Expert - A US government established strategic Bitcoin reserve is mor]], [[2025-01-27_Head of Research - Bitcoin has been objectively winning for 16 years]], [[2025-03-20_Monetary Economist - Here's how Trump’s policies are rewiring the global financial system]]
 
 ## Summary
 
@@ -53,11 +53,19 @@ Wichtigste Befunde:
 
 Der "Legislative Resource" Guide für US-Gesetzgeber betont, dass Bitcoin Mining und Bitcoin als Anlage in vielen Gesetzen zusammen auftreten. Wichtig für Gesetzgeber: ~20% der US-Erwachsenen besitzen 2024 Kryptowährungen — die Wählerbasis ist erheblich. Der Leitfaden gibt konkrete Policy-Empfehlungen pro-Bitcoin und pro-Mining, ohne Bundesrahmen (den USA noch fehlt). [[Bitcoin_and_Bitcoin_Mining_Guide]]
 
-### Iran und die Straße von Hormus (April 2026, unbestätigte Einzelmeldung)
+### Iran und die Strasse von Hormus (April 2026, unbestätigte Einzelmeldung)
 
-Ein Fall aus der Sanktionsumgehungs-Ecke statt der Reserve-Ecke: Laut einem Bericht der Financial Times (April 2026, hier nur über Sekundärbezug im Newsletter-Korpus belegt) will der Iran Passagegebühren für die Straße von Hormus in Bitcoin eintreiben — die Meerenge, durch die rund ein Fünftel des seewärtigen Ölhandels läuft. Andere Berichte nannten zusätzlich den chinesischen Yuan; ob und in welchem Umfang das umgesetzt wurde, ist offen.
+Ein Fall aus der Sanktionsumgehungs-Ecke statt der Reserve-Ecke: Laut einem Bericht der Financial Times (April 2026, hier nur über Sekundärbezug im Newsletter-Korpus belegt) will der Iran Passagegebühren für die Strasse von Hormus in Bitcoin eintreiben — die Meerenge, durch die rund ein Fünftel des seewärtigen Ölhandels läuft. Andere Berichte nannten zusätzlich den chinesischen Yuan; ob und in welchem Umfang das umgesetzt wurde, ist offen.
 
 Interessant ist der Fall als Illustration der Spieltheorie staatlicher Adoption: Wo Staaten einander misstrauen und Sanktionen umgehen wollen, werden Zahlungsformen attraktiv, die kein einzelner Staat kontrolliert. Ein Staat, der Bitcoin für Gebühren akzeptiert, akkumuliert es zwangsläufig — die Grenze zwischen Zahlungsnutzung und Reservebildung verwischt. Zugleich liefert der Fall Kritikern das «Bitcoin für Schurkenstaaten»-Argument. Einordnung: unbestätigte Einzelmeldung ohne Primärquelle in RAW; als Datenpunkt notiert, nicht als etablierter Fakt. [[20260412_heartmoney-bitcoin-proton-iran]]
+
+### Der SBR-Diskurs vor der Executive Order (LNMS-Interviews, Ende 2024 – Anfang 2025)
+
+Zwischen der US-Wahl 2024 und der Executive Order 2025 wurde die Strategic Bitcoin Reserve (SBR) in Pascal Hüglis Less-Noise-More-Signal-Reihe intensiv diskutiert — die Interviews dokumentieren, wie die Idee vom Wahlkampfslogan zur konkreten Policy-Erwartung wurde.
+
+Matthew Pines (Bitcoin Policy Institute) argumentiert aus Sicht nationaler Sicherheit: Eine SBR signalisiere US-Werte, positioniere die USA strategisch in einer unsicheren Weltordnung und wirke stabilisierend auf die Staatsbilanz; er hält sie für «wahrscheinlicher als nicht», benennt aber auch Abwärtsrisiken für die USA, Bitcoin und die Welt. [[2024-11-28_US National Security Expert - A US government established strategic Bitcoin reserve is mor]] Matt Hougan (Bitwise) rahmt die SBR als Teil eines «goldenen Zeitalters» nach der Wahl — mit pro-Krypto-Kongress, Stablecoin-Gesetz und wachsendem institutionellen Interesse, aber auch Risiken staatlicher Beteiligung. [[2024-11-21_The Traditional ETF Expert - We are entering the golden age for crypto]] Alex Thorn (Galaxy) ordnet nach Amtsantritt die konkreten Schritte ein: die Exekutivanordnung zu Digital Assets, die Aufhebung der SEC-Regel SAB 121 (die Banken die Krypto-Verwahrung erschwert hatte) und die Idee eines nationalen Digital-Asset-Stockpiles. [[2025-01-27_Head of Research - Bitcoin has been objectively winning for 16 years]] Joshua Hendrickson (Monetary Economist) liefert das theoretische Fundament: Bitcoin als neutrales Reserve-Asset im Kontext von Trumps Handels- und Währungspolitik und der Kosten des Dollar-Reservestatus (Mar-a-Lago-Debatte). [[2025-03-20_Monetary Economist - Here's how Trump’s policies are rewiring the global financial system]]
+
+Die spätere Executive Order 2025 (siehe oben) fiel dann hinter die Maximalerwartung zurück — Reserve aus beschlagnahmtem BTC statt aktiver Käufe. Die Interviews sind zeitgebundener Kommentar mit Pro-Bitcoin-Bias und liegen als Podcast-Zusammenfassungen vor; Gästeüberblick in [[bitcoin-marktkommentar-lnms]].
 
 ### Einschränkungen und Risiken
 
@@ -92,6 +100,8 @@ Der Seetee-Aktionärsbrief vom März 2021 ist eines der frühesten öffentlichen
 - [[bitcoin-als-inflationsschutz]]
 - [[multisig-und-kollaborative-verwahrung]]
 - [[eu-regulierung-selbstverwahrung]]
+- [[bitcoin-marktkommentar-lnms]]
+- [[bitcoin-treasury-companies]]
 
 ## Open Questions
 

@@ -23,7 +23,7 @@ Lösung: Die Wallet prüft, ob der Change-Output zu ihrer eigenen Wallet gehört
 
 ### 2. Passphrase-Eingabe am Hostgerät
 
-BIP-39-Passphrasen sind ein zweiter Faktor. Geräte mit wenigen Tasten (wie frühe Modelle mit zwei Buttons) ließen die Passphrase-Eingabe über das Host-Gerät zu. Das hat zwei Probleme: Das Host-Gerät kennt die Passphrase. Und ein Angreifer kann eine andere Passphrase an die Wallet weiterleiten — die Wallet öffnet eine andere Hidden Wallet, alles scheint normal, bis der Nutzer senden will. Der Angreifer hält das Lösegeld: Gib mir Bitcoin, ich verrate dir die richtige Passphrase.
+BIP-39-Passphrasen sind ein zweiter Faktor. Geräte mit wenigen Tasten (wie frühe Modelle mit zwei Buttons) liessen die Passphrase-Eingabe über das Host-Gerät zu. Das hat zwei Probleme: Das Host-Gerät kennt die Passphrase. Und ein Angreifer kann eine andere Passphrase an die Wallet weiterleiten — die Wallet öffnet eine andere Hidden Wallet, alles scheint normal, bis der Nutzer senden will. Der Angreifer hält das Lösegeld: Gib mir Bitcoin, ich verrate dir die richtige Passphrase.
 
 Lösung: Die BitBox02 hat genug physische Buttons, um die Passphrase direkt am Gerät einzugeben. Das Host-Gerät erfährt die Passphrase nie.
 

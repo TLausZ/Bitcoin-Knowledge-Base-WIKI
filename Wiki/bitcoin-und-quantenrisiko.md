@@ -2,8 +2,8 @@
 
 **Status:** established
 **Themen:** protokoll, self-custody
-**Last updated:** 2026-06-29
-**Sources:** [[Bitcoin and Quantum Risk_ What Actually Matters]], [[core-lightning-26-06]], [[bip-0451]]
+**Last updated:** 2026-07-17
+**Sources:** [[Bitcoin and Quantum Risk_ What Actually Matters]], [[core-lightning-26-06]], [[bip-0451]], [[2025-11-20_Charles Edwards - Bitcoin's Headwinds and the Quantum Threat]], [[2026-07-04_Bitcoin Is Cheap. But Is It Cheap Enough]]
 
 ## Summary
 
@@ -15,7 +15,7 @@ Quantencomputer könnten theoretisch die elliptische Kurven-Kryptographie (ECDSA
 
 Eine theoretische Möglichkeit ist kein praktischer Angriff. Das klingt trivial, wird aber im öffentlichen Diskurs konstant verwechselt.
 
-Auf einem ausreichend großen Quantencomputer kann Shors Algorithmus aus einem öffentlichen Schlüssel den privaten Schlüssel berechnen und damit ECDSA brechen. Die theoretischen Grundlagen dafür sind seit 1994 bekannt. Was sich seither kaum verändert hat: die Hardware.
+Auf einem ausreichend grossen Quantencomputer kann Shors Algorithmus aus einem öffentlichen Schlüssel den privaten Schlüssel berechnen und damit ECDSA brechen. Die theoretischen Grundlagen dafür sind seit 1994 bekannt. Was sich seither kaum verändert hat: die Hardware.
 
 Für einen kryptografisch relevanten Angriff auf ECDSA-256 sind schätzungsweise 2.000 bis 4.000 fehlerkorrigierte logische Qubits nötig. Fehlerkorrektur erfordert je nach Verfahren 10x bis 1.000x mehr physische Qubits. IBMs beste Systeme (2024: 433 physische Qubits) sind davon noch weit entfernt. Konsensschätzungen der Kryptographie-Gemeinschaft sehen einen ernsthaften Angriff frühestens in 10 bis 30 Jahren. Wankum (TBN #37) formuliert es direkt: "As of today, that remains far from practical reality." [[Bitcoin and Quantum Risk_ What Actually Matters]]
 
@@ -51,6 +51,12 @@ Das erfordert gesellschaftliche Koordination und Vorlaufzeit. Genau dafür ist d
 
 Core Lightning 26.06 (Juni 2026) enthielt erste experimentelle Quantum-Resistant Channel-Funktionalität als frühen Schritt in diese Richtung. [[core-lightning-26-06]]
 
+### Eine aggressivere Zeitschätzung (Charles Edwards)
+
+Nicht alle Stimmen teilen den 10-bis-30-Jahre-Konsens. Der Marktanalyst Charles Edwards (Capriole) vertritt in Pascal Hüglis Less-Noise-More-Signal-Podcast eine deutlich kürzere Frist: Quantencomputer könnten die elliptische Kurven-Kryptographie in zwei bis zehn Jahren brechen, mit vier bis fünf Jahren als wahrscheinlichstem Fenster. Er stützt sich dabei auf Einschätzungen aus dem Quanten-Umfeld, verweist auf Jameson Lopp und auf McKinsey-Berichte und zählt die Bedrohung zu den Gegenwinden für Bitcoin. [[2025-11-20_Charles Edwards - Bitcoin's Headwinds and the Quantum Threat]]
+
+Die Schätzung liegt am aggressiven Rand des Spektrums und ist die eines Markt-Analysten, nicht der Kryptographie-Community; sie liegt zudem nur als Podcast-Zusammenfassung vor. Als Datenpunkt ist sie dennoch nützlich: Selbst wenn man das kürzere Fenster ernst nimmt, verschiebt es die Dringlichkeit des Migrationspfads (BIP-361), ohne die Grundlogik zu ändern — entscheidend bleibt, ob Bitcoin rechtzeitig auf quantenresistente Signaturen umstellt. Gästeüberblick in [[bitcoin-marktkommentar-lnms]]. In einer Hausanalyse vom Juli 2026 schärft Hügli mit Edwards den ökonomischen Kern des Arguments: Nicht der Angriff selbst, sondern die ungelöste Unsicherheit ist das Problem. Grosse Kapitalgeber können ein unaufgelöstes Tail-Risiko nicht «underwriten» und reduzieren im Zweifel ihr Engagement — der Quanten-Overhang wirkt so als Kapitalbremse, lange bevor ein realer Angriff möglich wäre. [[2026-07-04_Bitcoin Is Cheap. But Is It Cheap Enough]]
+
 ### Das falsche mentale Modell
 
 Viele Bedenken gegen Bitcoin basieren auf dem Rahmen "Wenn ein Risiko existiert, ist das System ungültig." Das ist die falsche Prüfung.
@@ -65,7 +71,7 @@ Bitcoin besteht diese Prüfung aus einem strukturellen Grund. Es ist open-source
 
 Für jemanden, der heute Bitcoin kauft und verwahrt: Das Risiko ist nicht null, aber für normale Nutzer mit modernen Adressformaten (bc1q, bc1p) und ohne Adressenwiederverwendung heute nicht relevant.
 
-Das Zeitfenster bis zu einem ernsthaften Quantenangriff ist lang genug, dass Bitcoin-Entwickler Gegenmaßnahmen entwickeln und einsetzen können, und das tun sie bereits.
+Das Zeitfenster bis zu einem ernsthaften Quantenangriff ist lang genug, dass Bitcoin-Entwickler Gegenmassnahmen entwickeln und einsetzen können, und das tun sie bereits.
 
 Die eigentliche Frage ist, ob Bitcoin vor einem Quantenangriff upgraden kann. Die Antwort ist ja, aus denselben Gründen, aus denen SegWit und Taproot möglich waren: Der Konsens entsteht, wenn die Notwendigkeit klar genug ist.
 
@@ -79,6 +85,7 @@ Die eigentliche Frage ist, ob Bitcoin vor einem Quantenangriff upgraden kann. Di
 - [[bitcoin-adresstypen]]
 - [[kryptografische-schlussel-und-adressen]]
 - [[starks]]
+- [[bitcoin-marktkommentar-lnms]]
 
 ## Open Questions
 

@@ -21,7 +21,7 @@ Der Bogen beginnt bei der ersten Nachricht auf der Kryptographie-Mailingliste (d
 
 ### Wiederkehrende Themen in Satoshis Worten
 
-Aus den Beiträgen treten mehrere Motive hervor. Zur Geldpolitik verteidigt Satoshi die feste Obergrenze und die „natürliche Deflation" eines wachsenden Netzes mit fixem Angebot. Zur Ökonomik entkräftet er den Einwand, Bitcoin verstoße gegen Mises' Regressionstheorem. Zur Technik diskutiert er Transaktionsgebühren, Bestätigungszeiten, verwaiste Blöcke, SHA-256-Kollisionen, das Skript-System und vereinfachte Clients (SPV). Zur Sicherheit reagiert er auf konkrete Vorfälle: den schwerwiegenden Überlauf-Bug in Version 0.3.6, Flut- und Spam-Angriffe und den Vorschlag eines Alarmsystems.
+Aus den Beiträgen treten mehrere Motive hervor. Zur Geldpolitik verteidigt Satoshi die feste Obergrenze und die „natürliche Deflation" eines wachsenden Netzes mit fixem Angebot. Zur Ökonomik entkräftet er den Einwand, Bitcoin verstosse gegen Mises' Regressionstheorem. Zur Technik diskutiert er Transaktionsgebühren, Bestätigungszeiten, verwaiste Blöcke, SHA-256-Kollisionen, das Skript-System und vereinfachte Clients (SPV). Zur Sicherheit reagiert er auf konkrete Vorfälle: den schwerwiegenden Überlauf-Bug in Version 0.3.6, Flut- und Spam-Angriffe und den Vorschlag eines Alarmsystems.
 
 ### Kultur und Kontroversen der Frühzeit
 
@@ -29,7 +29,7 @@ Die Sammlung bewahrt auch die Randgeschichten: den Streit, ob Bitcoin-Mining the
 
 ### Der Abschied
 
-Die privaten E-Mails an Dustin Trammell und die letzte bekannte Korrespondenz zeigen Satoshi kurz vor dem Rückzug. Hal Finneys „Bitcoin and me" schließt den Band aus der Perspektive des ersten Empfängers einer Bitcoin-Transaktion und verankert die Sammlung menschlich. Als Quelle ist das Buch für die Wiki-Frühgeschichte wertvoll, weil es Satoshis Argumente im Wortlaut und in ihrem zeitlichen Zusammenhang zugänglich macht.
+Die privaten E-Mails an Dustin Trammell und die letzte bekannte Korrespondenz zeigen Satoshi kurz vor dem Rückzug. Hal Finneys „Bitcoin and me" schliesst den Band aus der Perspektive des ersten Empfängers einer Bitcoin-Transaktion und verankert die Sammlung menschlich. Als Quelle ist das Buch für die Wiki-Frühgeschichte wertvoll, weil es Satoshis Argumente im Wortlaut und in ihrem zeitlichen Zusammenhang zugänglich macht.
 
 ## Related
 

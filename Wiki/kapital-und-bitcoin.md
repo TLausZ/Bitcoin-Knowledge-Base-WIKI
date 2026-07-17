@@ -21,13 +21,13 @@ Joseph Schumpeter kritisierte den Gleichgewichtsbegriff der neoklassischen Ökon
 
 ### Kapital = Werkzeuge
 
-Steve Jobs beschrieb den Computer als "Fahrrad für den Geist" — ein Werkzeug, das die menschliche Produktivität vervielfacht wie ein Fahrrad die menschliche Fortbewegungseffizienz. Farrington überträgt das direkt: Kapital ist Werkzeuge. Jedes Kapital vergrößert den Output pro Einheit Zeit und Energie. Ein Fahrrad, ein Computer, eine Fabrik, ein Kanal, eine Softwarebibliothek — alle sind Formen von Kapital, weil alle menschliche Handlungsfähigkeit erweitern. [[aprycot-kapital-im-21-jahrhundert]]
+Steve Jobs beschrieb den Computer als "Fahrrad für den Geist" — ein Werkzeug, das die menschliche Produktivität vervielfacht wie ein Fahrrad die menschliche Fortbewegungseffizienz. Farrington überträgt das direkt: Kapital ist Werkzeuge. Jedes Kapital vergrössert den Output pro Einheit Zeit und Energie. Ein Fahrrad, ein Computer, eine Fabrik, ein Kanal, eine Softwarebibliothek — alle sind Formen von Kapital, weil alle menschliche Handlungsfähigkeit erweitern. [[aprycot-kapital-im-21-jahrhundert]]
 
 Die Konsequenz: "Mehr Dinge, günstigere Dinge, neue Dinge" ist die Richtung, in die Kapitalakkumulation zeigt. Nicht die gelbe Zahl im Quartalsbericht, sondern das Verhältnis von akkumuliertem Kapital zu den Kosten seiner Reproduktion. Wer Kapital aufbaut, erhöht das Potenzial für mehr, günstiger und neues.
 
 ### Bestand und Fluss: der Grundfehler des Fiat-Systems
 
-Farrington führt die Unterscheidung zwischen Bestand (Stock) und Fluss (Flow) aus der Unternehmensanalyse ein. Ein Fluss ist eine Größe pro Zeiteinheit — Umsatz, Gewinn, Wachstumsrate. Ein Bestand ist eine Größe zu einem Zeitpunkt — akkumuliertes Kapital, Produktionskapazität, Infrastruktur.
+Farrington führt die Unterscheidung zwischen Bestand (Stock) und Fluss (Flow) aus der Unternehmensanalyse ein. Ein Fluss ist eine Grösse pro Zeiteinheit — Umsatz, Gewinn, Wachstumsrate. Ein Bestand ist eine Grösse zu einem Zeitpunkt — akkumuliertes Kapital, Produktionskapazität, Infrastruktur.
 
 Die "Erbsünde des Fiat-Finanzwesens", nach Farrington: Wir optimieren Flüsse statt Bestände. Quartalsgewinne statt Produktionskapazität. Wachstumsraten (Fluss-zu-Fluss-Verhältnisse) statt echten Wachstumsraten (Bestandsveränderung pro Zeitraum). Der Anreiz, den ein Fiat-System setzt: Nimm deine Gewinne jetzt, weil zukünftiges Geld weniger wert ist. Das ist rational im Fiat-Kontext — und katastrophal für langfristige Kapitalakkumulation.
 
@@ -49,7 +49,7 @@ Farrington wendet die "mehr, günstiger, neu"-Logik auf die drei Bitcoin-Protoko
 
 **Lightning Network** ist kein Skalierungslösung (obwohl das stimmt), sondern ein Netzwerk heterogener Kapitalallokation. Rendite entsteht durch Routing effizienter Zahlungen. Die Folge: *mehr Zahlungen* (keine Gegenparteirisi­ken, keine juristischen Firewalls), *günstigere Zahlungen* (wettbewerbsfähiges Routing senkt Kosten), *neue Zahlungen* (Payment Streaming, programmierbare Zahlungen, Micropayments).
 
-**Nostr** ist keine Twitter-Alternative (obwohl das der erste Anwendungsfall war), sondern ein Instrument zur Nutzung von Lightning für die Bewertung von Kommunikation. Wer den subjektiven Wert von Informationen direkt über Lightning ausdrücken kann, schafft *mehr Kommunikation* (kein Design durch Plattform-Betreiber), *günstigere Kommunikation* (Wert-Signal fließt direkt zwischen Sender und Empfänger), *neue Kommunikation* (kein zentraler Abschaltpunkt). [[aprycot-kapital-im-21-jahrhundert]]
+**Nostr** ist keine Twitter-Alternative (obwohl das der erste Anwendungsfall war), sondern ein Instrument zur Nutzung von Lightning für die Bewertung von Kommunikation. Wer den subjektiven Wert von Informationen direkt über Lightning ausdrücken kann, schafft *mehr Kommunikation* (kein Design durch Plattform-Betreiber), *günstigere Kommunikation* (Wert-Signal fliesst direkt zwischen Sender und Empfänger), *neue Kommunikation* (kein zentraler Abschaltpunkt). [[aprycot-kapital-im-21-jahrhundert]]
 
 Das gemeinsame Muster: "Bitcoin bringt das in Ordnung" gilt nicht nur für Geld, sondern für jeden Bereich, in dem Kapital nach Bitcoin-Anreizen akkumuliert wird.
 
@@ -65,7 +65,7 @@ Hernando de Soto hat das zugrundeliegende Kapital-Konzept in "The Mystery of Cap
 
 Nick Szabo definiert soziale Skalierbarkeit in "Money, Blockchains, and Social Scalability" als "die Fähigkeit einer Institution zur Überwindung von Schwächen im menschlichen Verstand und in den motivierenden oder einschränkenden Aspekten der besagten Institution, die begrenzen, wer oder wie viele Akteure erfolgreich teilnehmen können." [[aprycot-bitgenstein-geld-kapital-skalierbarkeit]]
 
-Geld ist eine solche Institution. Je größer und diverser das Wirtschaftsnetzwerk, desto unverständlicher die Gesamtdynamik für den einzelnen Teilnehmer — und desto mehr hängt funktionierender Austausch davon ab, dass das Geld selbst vertrauenswürdig ist. Szabo nennt das *Vertrauensminimierung*: Geld reduziert die Anfälligkeit der Teilnehmer gegenüber dem Verhalten der anderen, ohne dass man jedem einzelnen vertrauen muss.
+Geld ist eine solche Institution. Je grösser und diverser das Wirtschaftsnetzwerk, desto unverständlicher die Gesamtdynamik für den einzelnen Teilnehmer — und desto mehr hängt funktionierender Austausch davon ab, dass das Geld selbst vertrauenswürdig ist. Szabo nennt das *Vertrauensminimierung*: Geld reduziert die Anfälligkeit der Teilnehmer gegenüber dem Verhalten der anderen, ohne dass man jedem einzelnen vertrauen muss.
 
 Daraus folgt eine weitere Beurteilungsebene für Geld: nicht nur Kaufkraft oder Tauschfunktion, sondern soziale Skalierbarkeit — wie viele Menschen können erfolgreich an einem Netzwerk teilnehmen, das auf diesem Geld basiert, ohne es vollständig verstehen zu müssen?
 
@@ -90,6 +90,7 @@ Wendell Berry beschreibt in "The Unsettling of America" den Wandel von Versorger
 - [[szabo-geldursprung]]
 
 - [[gesetze-der-wirtschaft|Die Gesetze der Wirtschaft (Saifedean Ammous)]] ← Buch
+- [[bitcoin-treasury-companies]]
 
 ## Open Questions
 

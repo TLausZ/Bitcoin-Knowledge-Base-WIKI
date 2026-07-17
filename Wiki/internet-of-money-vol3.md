@@ -25,7 +25,7 @@ In „Inside Out" analysiert Antonopoulos die vier Funktionen des Geldes und wie
 
 ### KYC/AML: „Worse Than Useless"
 
-Ein scharfes Kapitel gegen die herrschende Geldwäsche-Bekämpfung: Sie fange die Falschen, koste enorm und schade den finanziell Ausgeschlossenen am meisten, eine „license to launder" für die Großen bei gleichzeitiger Ausgrenzung der Armen. Antonopoulos trennt Privatsphäre von Geheimhaltung: Privatsphäre ist der Normalzustand mündiger Menschen, Geheimhaltung das Verbergen von Unrecht. Der „echte Dark Net" sei das intransparente Korrespondenzbanken-System, nicht ein Tor-Marktplatz.
+Ein scharfes Kapitel gegen die herrschende Geldwäsche-Bekämpfung: Sie fange die Falschen, koste enorm und schade den finanziell Ausgeschlossenen am meisten, eine „license to launder" für die Grossen bei gleichzeitiger Ausgrenzung der Armen. Antonopoulos trennt Privatsphäre von Geheimhaltung: Privatsphäre ist der Normalzustand mündiger Menschen, Geheimhaltung das Verbergen von Unrecht. Der „echte Dark Net" sei das intransparente Korrespondenzbanken-System, nicht ein Tor-Marktplatz.
 
 ### Unstoppable Code: Können und Wollen
 
@@ -37,7 +37,7 @@ Gegen den Blockchain-für-alles-Hype stellt er „form follows function": Die me
 
 ### Communities weird halten
 
-Ein kulturelles Kapitel warnt vor der „Gentrifizierung" von Bitcoin durch institutionelle Glättung, so wie coole Viertel und das frühe Web ihren Charakter verloren. Sein Rat „Fork Off": Ein offenes System lässt sich nicht gentrifizieren, weil unzufriedene Nutzer forken und weiterbauen können. Der Band schließt mit dem Bild „Crypto-Winter im Norden, Crypto-Sommer im Süden", während reiche Länder über Kurse jammern, entsteht realer Nutzen dort, wo Währungen zusammenbrechen.
+Ein kulturelles Kapitel warnt vor der „Gentrifizierung" von Bitcoin durch institutionelle Glättung, so wie coole Viertel und das frühe Web ihren Charakter verloren. Sein Rat „Fork Off": Ein offenes System lässt sich nicht gentrifizieren, weil unzufriedene Nutzer forken und weiterbauen können. Der Band schliesst mit dem Bild „Crypto-Winter im Norden, Crypto-Sommer im Süden", während reiche Länder über Kurse jammern, entsteht realer Nutzen dort, wo Währungen zusammenbrechen.
 
 ## Related
 

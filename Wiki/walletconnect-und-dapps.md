@@ -33,7 +33,7 @@ Sobald verbunden, läuft die DApp normal. Wenn eine Transaktion Signierung erfor
 
 WalletConnect in der BitBoxApp unterstützt aktuell nur **Ethereum Mainnet**. Für andere EVM-Netzwerke (Polygon, Arbitrum, BSC usw.) bleibt die Rabby-Browsererweiterung die geeignete Lösung.
 
-Das Feature ist ausschließlich für die **BitBox02 Multi Edition** verfügbar — nicht für die Bitcoin-only Edition. Bitcoin-Transaktionen werden über Lightning oder on-chain abgewickelt, nicht über DApps.
+Das Feature ist ausschliesslich für die **BitBox02 Multi Edition** verfügbar — nicht für die Bitcoin-only Edition. Bitcoin-Transaktionen werden über Lightning oder on-chain abgewickelt, nicht über DApps.
 
 ### Sicherheitshinweis
 

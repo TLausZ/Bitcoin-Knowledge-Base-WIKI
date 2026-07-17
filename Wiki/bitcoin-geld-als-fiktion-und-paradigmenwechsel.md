@@ -21,7 +21,7 @@ Die meisten Menschen versuchen, Bitcoin zu assimilieren: "Das ist wie digitales 
 
 Svanholm unterscheidet drei Arten von Realität: Subjektives (existiert nur in einem Kopf), Objektives (existiert unabhängig von menschlichem Bewusstsein — Bäume, Kühe, Kichererbsen), und Intersubjektives (existiert im kollektiven Bewusstsein einer Gruppe — Nationalstaaten, Religionen, Firmen, Geld).
 
-Geld, Gesetze, Grenzen, Institutionen: Sie existieren nur, weil eine ausreichend große Gruppe von Menschen sich auf ihre Existenz geeinigt hat. Wie Zeus oder Mordor — aber mächtiger, weil mehr Menschen daran glauben. Das macht intersubjektive Ideen real in ihrer Wirkung, ohne dass sie physisch existieren.
+Geld, Gesetze, Grenzen, Institutionen: Sie existieren nur, weil eine ausreichend grosse Gruppe von Menschen sich auf ihre Existenz geeinigt hat. Wie Zeus oder Mordor — aber mächtiger, weil mehr Menschen daran glauben. Das macht intersubjektive Ideen real in ihrer Wirkung, ohne dass sie physisch existieren.
 
 Die fiktive Natur des Geldes wird besonders deutlich beim Fiat-System: Ein Dollar hat keinen inneren Wert. Er hat Wert, weil andere glauben, dass er Wert hat — und weil der Staat Steuern in Dollar verlangt, also seine Nutzung erzwingt. Das Fiat-System beruht auf staatlichem Zwang, nicht auf freiwilliger Akzeptanz.
 

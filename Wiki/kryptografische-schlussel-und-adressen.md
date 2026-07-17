@@ -48,7 +48,7 @@ Das Ergebnis ist ein Punkt (x, y) auf der secp256k1-Kurve. Trapdoor-Funktion: ei
 
 **Compressed** (33 Bytes): `02` (y gerade) oder `03` (y ungerade) + x (32 Bytes). Die y-Koordinate ist aus x und der Parität rekonstruierbar.
 
-Moderne Wallets verwenden ausschließlich Compressed Public Keys. P2WPKH und P2TR verlangen Compressed Keys.
+Moderne Wallets verwenden ausschliesslich Compressed Public Keys. P2WPKH und P2TR verlangen Compressed Keys.
 
 ### Public Key Hash
 
@@ -85,7 +85,7 @@ Modernes Format für SegWit-Adressen. Eingeführt mit SegWit (BIP 173 = Bech32, 
 | P2TR | `bc1p` | 62 Zeichen |
 
 **Vorteile gegenüber Base58:**
-- Nur Kleinbuchstaben → keine Verwechslung von Groß-/Kleinschreibung
+- Nur Kleinbuchstaben → keine Verwechslung von Gross-/Kleinschreibung
 - Bessere Fehlererkennung (BCH-Code statt einfachem Checksum)
 - Kein Checksummen-Berechungsschritt für QR-Codes nötig
 - Kompatibel mit SegWit-Versionsbytes

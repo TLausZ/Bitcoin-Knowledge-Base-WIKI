@@ -70,7 +70,7 @@ Nunchuk löst das mit zwei Protokollen:
 
 **Multisig + Sparrow**:
 1. BSMS-Datei in Sparrow importieren
-2. Alle Hardware-Wallet-Schlüssel anschließen
+2. Alle Hardware-Wallet-Schlüssel anschliessen
 3. Sparrow rekonstruiert die Multisig-Wallet vollständig
 
 Beides funktioniert unabhängig von Nunchuk-Servern.

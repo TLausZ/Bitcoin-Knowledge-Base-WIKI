@@ -36,7 +36,7 @@ Anhang: Bitcoin-Whitepaper, Errata zum Whitepaper, Übersicht der Bitcoin Improv
 
 ### Nutzen
 
-Die dritte Auflage ist der aktuellste Referenzpunkt für die neueren Protokoll-Bausteine (Taproot, Schnorr, Bech32m, Gebühren-Bumping). Für tiefe technische Detailfragen ist sie im Wiki die maßgebliche Buchquelle neben [[grokking-bitcoin]].
+Die dritte Auflage ist der aktuellste Referenzpunkt für die neueren Protokoll-Bausteine (Taproot, Schnorr, Bech32m, Gebühren-Bumping). Für tiefe technische Detailfragen ist sie im Wiki die massgebliche Buchquelle neben [[grokking-bitcoin]].
 
 ## Related
 

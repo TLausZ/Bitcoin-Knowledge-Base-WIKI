@@ -2,8 +2,8 @@
 
 **Status:** emerging
 **Themen:** lightning, oekonomie
-**Last updated:** 2026-07-05
-**Sources:** [[stripe_sessions2026-Opening remarks and product keynote]]
+**Last updated:** 2026-07-17
+**Sources:** [[stripe_sessions2026-Opening remarks and product keynote]], [[2025-05-01_Tether CEO Paolo Ardoino - Banks will blow up in the next years]], [[2025-08-14_Head Strategist at Tether Gabor Gurbacs - We are rebuilding the entire capital market stac]], [[2025-07-24_Michael Howell on GENIUS Act - Stablecoin adoption could mean slower credit growth]]
 
 ## Summary
 
@@ -37,10 +37,18 @@ Die Keynote bestätigt zwei Muster, die in der Knowledge Base wiederkehren. Erst
 
 Interessant ist die Konvergenz der Probleme: Konstantopoulos benennt Privacy als dringendste Baustelle, dieselbe Debatte führt die Bitcoin-Welt seit Jahren ([[coinjoin-und-on-chain-privatsphaere]], [[silent-payments]]). Und Streaming-Micropayments im Subcent-Bereich sind exakt der Anwendungsfall, für den Lightning konzipiert wurde ([[lightning-netzwerk-grundlagen]], [[skalierung-lightning-ark-statechains]]). Die offene Frage ist, ob zensurresistente Rails gegen die Distributionsmacht eines Zahlungsdienstleisters mit Millionen Händlern bestehen, oder ob sie ein Nischenprodukt für die Fälle bleiben, in denen Neutralität zwingend ist.
 
+### Die monetäre Seite: Stablecoins als Kreditfaktor (LNMS-Interviews)
+
+Die Stripe-Keynote zeigt Stablecoins als Zahlungsschicht. Pascal Hüglis Less-Noise-More-Signal-Reihe beleuchtet die monetäre Seite. Tether-CEO Paolo Ardoino rahmt Stablecoins als «bessere Banken» für Schwellenmärkte mit instabilen Währungen; sein Kollege Gabor Gurbacs beschreibt Tethers Ambition, über Tokenisierung den «gesamten Kapitalmarkt-Stack» umzubauen. [[2025-05-01_Tether CEO Paolo Ardoino - Banks will blow up in the next years]], [[2025-08-14_Head Strategist at Tether Gabor Gurbacs - We are rebuilding the entire capital market stac]]
+
+Analytisch am interessantesten ist Michael Howells Punkt zum GENIUS Act: Stablecoins könnten Einlagen aus dem Bankensystem abziehen und damit das Kreditwachstum der Banken bremsen — anders als der Eurodollar-Markt, der selbst Kredit schöpft. Damit werden Stablecoins zu einem Faktor in der US-Schuldenfinanzierung, nicht nur zu einem Zahlungsprodukt. [[2025-07-24_Michael Howell on GENIUS Act - Stablecoin adoption could mean slower credit growth]] Diese Kreditkanal-Wirkung ist in [[globale-liquiditaet-und-finanzplumbing]] eingebettet; Gästeüberblick in [[bitcoin-marktkommentar-lnms]].
+
 ## Related
 
 - [[bitcoin-vs-krypto]]
 - [[cbdc-und-digitaler-yuan]]
+- [[globale-liquiditaet-und-finanzplumbing]]
+- [[bitcoin-marktkommentar-lnms]]
 - [[geld-staat-und-fiat-monopol]]
 - [[lightning-netzwerk-grundlagen]]
 - [[bitcoin-skalierung-und-zahlungen]]

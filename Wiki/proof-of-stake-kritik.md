@@ -7,7 +7,7 @@
 
 ## Summary
 
-Hugo Nguyen analysiert in zwei Artikeln (2018), warum Proof-of-Stake in Worst-Case-Szenarien fundamental schlechter abschneidet als Proof-of-Work. Der Kern: PoS-Protokolle lösen Netzwerkpartitionen und Schlüsselangriffe nicht deterministisch, während PoW einen objektiven Maßstab für Fork-Auflösung bietet. Die entscheidende Erkenntnis: Die eigentliche Kerninnovation von Bitcoin ist nicht Zufall oder Anreizdesign, sondern *fälschungssichere Kostspieligkeit* (unforgeable costliness) — ein Konzept, das PoS-Designer systematisch ignorieren.
+Hugo Nguyen analysiert in zwei Artikeln (2018), warum Proof-of-Stake in Worst-Case-Szenarien fundamental schlechter abschneidet als Proof-of-Work. Der Kern: PoS-Protokolle lösen Netzwerkpartitionen und Schlüsselangriffe nicht deterministisch, während PoW einen objektiven Massstab für Fork-Auflösung bietet. Die entscheidende Erkenntnis: Die eigentliche Kerninnovation von Bitcoin ist nicht Zufall oder Anreizdesign, sondern *fälschungssichere Kostspieligkeit* (unforgeable costliness) — ein Konzept, das PoS-Designer systematisch ignorieren.
 
 ## Body
 
@@ -19,7 +19,7 @@ Nguyen kritisiert, dass PoS-Forscher diese Denkweise nicht anwenden. Sie optimie
 
 ### Worst-Case 1 und 2: Netzwerkpartition
 
-**Szenario: Das Netzwerk fällt aus und startet neu.** In PoW-Systemen löst sich der Konflikt automatisch: Alle Knoten wählen die Chain mit der akkumulierten Arbeit (longest chain). Das Verhalten ist deterministisch, keine menschliche Intervention nötig. In PoS gibt es keinen objektiven Maßstab. Welche der entstehenden Chains ist "richtiger"? Das Protokoll weiß es nicht. Das Ergebnis kann dauerhafter Split sein.
+**Szenario: Das Netzwerk fällt aus und startet neu.** In PoW-Systemen löst sich der Konflikt automatisch: Alle Knoten wählen die Chain mit der akkumulierten Arbeit (longest chain). Das Verhalten ist deterministisch, keine menschliche Intervention nötig. In PoS gibt es keinen objektiven Massstab. Welche der entstehenden Chains ist "richtiger"? Das Protokoll weiss es nicht. Das Ergebnis kann dauerhafter Split sein.
 
 **Szenario: Teile des Netzwerks werden isoliert.** BGP-Hijacking durch staatliche Akteure ist technisch demonstriert (Türkei 2014 gegen Twitter, Chinas Great Firewall). Bei PoW: isolierte Partitionen schürfen weiter, aber nach Reconnect entscheidet die akkumulierte Arbeit. Bei PoS: isolierte Partitionen können keine forks fehlerfrei auflösen, weil kein physisches Gewicht die Auswahl bestimmt.
 

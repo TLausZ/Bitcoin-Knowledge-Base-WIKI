@@ -25,7 +25,7 @@ Bitcoin gewann seinen ersten Kampf gegen die Zentralisierung: den Blocksize War 
 
 Jackson ist Unternehmer, Autor von "Bitcoin and Black America" und halb Afroamerikaner, halb Ureinwohner Amerikas. Für ihn ist der 4. Juli kein tiefer Feiertag — er feiert den 3. Januar (Geburtstag der Bitcoin-Software). Sein Meme: "No keys, no cheese."
 
-Seine Einschätzung des Systems: Banken wurden immer wieder erwischt, weil sie für Schwarze andere Maßstäbe als für Weiße anlegten. Das US-Finanzsystem diskriminiert systematisch — strukturell, nicht nur durch individuelle Rassisten.
+Seine Einschätzung des Systems: Banken wurden immer wieder erwischt, weil sie für Schwarze andere Massstäbe als für Weisse anlegten. Das US-Finanzsystem diskriminiert systematisch — strukturell, nicht nur durch individuelle Rassisten.
 
 Auf Bitcoin:
 
@@ -41,7 +41,7 @@ Jackson sieht auch über Amerika hinaus: "Diese Linien spielen keine Rolle mehr.
 
 AlMutar wurde im Irak geboren, überlebte drei Entführungen, verlor seinen Bruder und Cousin durch sektiererische Gewalt und floh 2012 als Flüchtling in die USA. Sein erster Kontakt mit Amerika war ein amerikanischer Panzer vor seinem Haus.
 
-Er kam zu Amerika über Thomas Paines "Zeitalter der Vernunft" — auf einem Heavy Metal Message Board gefunden, zusammen mit Orwell. Er gründete "Ideas Beyond Borders" und ließ über 100 junge Menschen Werke über Freiheit, Menschenrechte und Philosophie ins Arabische übersetzen.
+Er kam zu Amerika über Thomas Paines "Zeitalter der Vernunft" — auf einem Heavy Metal Message Board gefunden, zusammen mit Orwell. Er gründete "Ideas Beyond Borders" und liess über 100 junge Menschen Werke über Freiheit, Menschenrechte und Philosophie ins Arabische übersetzen.
 
 Sein Lieblingsgründervater: Jefferson. Nicht wegen der Sklaverei — AlMutar sieht die als "ursprüngliche Sünde", die gleichzeitig anerkannt und kontextualisiert werden muss — sondern wegen Jeffersons Kampf für die Trennung von Kirche und Staat.
 
@@ -65,7 +65,7 @@ Jefferson schrieb zum 50. Jahrestag der Unabhängigkeitserklärung 1826:
 
 Gladstein stellt fest: Wir haben immer noch Sättel und Reiter.
 
-Jefferson, der "Alle Menschen sind gleich erschaffen" schrieb, versklavte zu seinen Lebzeiten mehr als 600 Menschen und ließ bis zu seinem Tod keinen frei. Die fortwährende Spannung zwischen der begeisternden Idee und der fehlerhaften Realität — von Langston Hughes in "Let America Be America Again" beschrieben — ist das Thema des gesamten Essays.
+Jefferson, der "Alle Menschen sind gleich erschaffen" schrieb, versklavte zu seinen Lebzeiten mehr als 600 Menschen und liess bis zu seinem Tod keinen frei. Die fortwährende Spannung zwischen der begeisternden Idee und der fehlerhaften Realität — von Langston Hughes in "Let America Be America Again" beschrieben — ist das Thema des gesamten Essays.
 
 Gladstein's Schluss: Bitcoin könnte diese Erklärung sein, die in der amerikanischen Tradition des Antiautoritarismus und der persönlichen Freiheit steht — und dazu beiträgt, von Sätteln und Reitern zu befreien.
 
@@ -75,7 +75,7 @@ Parker Lewis nimmt einen anderen Zugang zu derselben Idee. Er beginnt mit dem Tr
 
 Lewis sieht Bitcoin in derselben Tradition: ein Aufschrei für Freiheit, der über politische Lager und nationale Grenzen hinausgeht. Freiheit sei vielleicht der wichtigste gemeinsame Nenner — nicht Links, nicht Rechts, sondern das grundlegende Interesse, ohne Erlaubnis handeln zu können. Bitcoin gibt diesem Aufschrei eine technische Form: ein Werkzeug, das niemanden um Erlaubnis fragen muss.
 
-Die Parallele zu Travis ist absichtlich dramatisch gewählt. Lewis anerkennt, dass die Wahrscheinlichkeit gegen Alamo sprach. Trotzdem siegte schließlich die Sache. Bitcoin steht seiner Analyse nach in diesem Muster: strukturell unterlegen gegenüber dem etablierten Geldsystem, aber mit einer Kohärenz, die keine politische Partei bieten kann, weil Freiheit keine Parteilinie ist. [[aprycot-parker-lewis-bitcoin-ist-ein-aufschrei]]
+Die Parallele zu Travis ist absichtlich dramatisch gewählt. Lewis anerkennt, dass die Wahrscheinlichkeit gegen Alamo sprach. Trotzdem siegte schliesslich die Sache. Bitcoin steht seiner Analyse nach in diesem Muster: strukturell unterlegen gegenüber dem etablierten Geldsystem, aber mit einer Kohärenz, die keine politische Partei bieten kann, weil Freiheit keine Parteilinie ist. [[aprycot-parker-lewis-bitcoin-ist-ein-aufschrei]]
 
 ## Related
 

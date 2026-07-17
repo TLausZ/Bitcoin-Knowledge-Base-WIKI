@@ -97,19 +97,19 @@ Das Muster: Kritik ohne Alternative. Oil wird 2050 noch 22% des globalen Energie
 
 ### Core Misconceptions: Was de Vries falsch berechnet hat
 
-**Per-Transaktion-Metrik.** De Vries' 2018er Commentary maß Energie, Wasser, Elektroschrott und CO₂ "pro Transaktion". Dieser Ansatz ist strukturell falsch: Bitcoins Energieverbrauch ist an die Hashrate gebunden, nicht an die Transaktionszahl. Cambridge University nannte die per-Transaktion-Metrik 2018 "not a meaningful metric". Vier peer-reviewed Papers (Masanet et al. 2019, Dittmar et al. 2019, Sedlmeir et al. 2020, Sai & Vranken 2023) wiederlegten die Methodik. [[Why the “Per Transaction” way of measuring Bitcoin energy use is objectively wrong, and why it matters]]
+**Per-Transaktion-Metrik.** De Vries' 2018er Commentary mass Energie, Wasser, Elektroschrott und CO₂ "pro Transaktion". Dieser Ansatz ist strukturell falsch: Bitcoins Energieverbrauch ist an die Hashrate gebunden, nicht an die Transaktionszahl. Cambridge University nannte die per-Transaktion-Metrik 2018 "not a meaningful metric". Vier peer-reviewed Papers (Masanet et al. 2019, Dittmar et al. 2019, Sedlmeir et al. 2020, Sai & Vranken 2023) wiederlegten die Methodik. [[Why the “Per Transaction” way of measuring Bitcoin energy use is objectively wrong, and why it matters]]
 
 **Elektroschrott.** Cambridge 2025: De Vries schätzte 30 kT jährlichen eWaste. Tatsächliche Messung: 2,3 kT — eine Überschätzung um 1204%. Bitcoin Mining-Hardware hat zudem hohe Wiederverwertungsraten (Weiterverkauf, Reparatur, industrielle Nutzung älterer Modelle). [[Common Bitcoin Energy Misconceptions]]
 
-**Netzstabilisierung vs. Destabilisierung.** Ein weiterer zäher Mythos: Auf ERCOT (Texas) gibt es einen dokumentierten Fall, bei dem Bitcoin-Mining im April 2024 zur Netzinstabilität beitrug. Dagegen stehen mehrere großskalige Stabilisierungsereignisse, darunter der texanische Hitzesommer 2022. Das Verhältnis ist eindeutig: Stabilisierungsereignisse überwiegen massiv.
+**Netzstabilisierung vs. Destabilisierung.** Ein weiterer zäher Mythos: Auf ERCOT (Texas) gibt es einen dokumentierten Fall, bei dem Bitcoin-Mining im April 2024 zur Netzinstabilität beitrug. Dagegen stehen mehrere grossskalige Stabilisierungsereignisse, darunter der texanische Hitzesommer 2022. Das Verhältnis ist eindeutig: Stabilisierungsereignisse überwiegen massiv.
 
 **Resümee Mythencheck:**
-- "Bitcoin Mining reaktivierte Kohlekraftwerke" — widerlegt: Das Greenidge-Gaskraftwerk (New York) wurde 2017 für den Energiemarkt reaktiviert, nicht für Mining. Marathon Digital verließ seinen Montana-Kohlestandort 2022 vollständig (SEC-Filings).
+- "Bitcoin Mining reaktivierte Kohlekraftwerke" — widerlegt: Das Greenidge-Gaskraftwerk (New York) wurde 2017 für den Energiemarkt reaktiviert, nicht für Mining. Marathon Digital verliess seinen Montana-Kohlestandort 2022 vollständig (SEC-Filings).
 - "Privathaushalte zahlen wegen Mining mehr Strom" — widerlegt: Texas 2021–2024: +7% (inflationsbereinigt), US-Schnitt: +7.7%. Kein statistischer Unterschied. [[Common Claims about Bitcoin and Energy]] [[Common False Claims about Bitcoin and Energy]] [[Common Bitcoin Energy Misconceptions]]
 
 ### Die Skull-Geschichte und der Narrativwechsel
 
-Ben Von Wong schuf 2023 den "Skull of Satoshi" für Greenpeace USA — ein ikonisches Anti-Bitcoin-Mining-Kunstwerk. Troy Cross verbrachte vier Tage im Gespräch mit Von Wong: Daten, Gegenargumente, Klimawirkung. Die entscheidende Wende kam nicht durch Daten, sondern als Cross aufhörte, den Bitcoin-Fall zu machen, und stattdessen sagte: "Lass mich alle Gründe darlegen, warum ich denke, dass du dagegen bist." Von Wong's Reaktion: "Ich habe den Skull in dem Glauben gemacht, Bitcoin Mining sei eine schwarz-weiße Frage. Ich hatte unrecht. Wenige Dinge in der Welt sind schwarz-weiß. Wie dumm von mir." Der Post blieb für drei Jahre sein gepinnter Tweet. Der Skull steht heute im Bitcoin-Museum in Nashville. [[The Skull that Switched Sides]]
+Ben Von Wong schuf 2023 den "Skull of Satoshi" für Greenpeace USA — ein ikonisches Anti-Bitcoin-Mining-Kunstwerk. Troy Cross verbrachte vier Tage im Gespräch mit Von Wong: Daten, Gegenargumente, Klimawirkung. Die entscheidende Wende kam nicht durch Daten, sondern als Cross aufhörte, den Bitcoin-Fall zu machen, und stattdessen sagte: "Lass mich alle Gründe darlegen, warum ich denke, dass du dagegen bist." Von Wong's Reaktion: "Ich habe den Skull in dem Glauben gemacht, Bitcoin Mining sei eine schwarz-weisse Frage. Ich hatte unrecht. Wenige Dinge in der Welt sind schwarz-weiss. Wie dumm von mir." Der Post blieb für drei Jahre sein gepinnter Tweet. Der Skull steht heute im Bitcoin-Museum in Nashville. [[The Skull that Switched Sides]]
 
 ## Related
 

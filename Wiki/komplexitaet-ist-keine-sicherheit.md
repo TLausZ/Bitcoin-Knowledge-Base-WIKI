@@ -7,7 +7,7 @@
 
 ## Summary
 
-Ab einem bestimmten Punkt erhöht mehr Sicherheitskomplexität nicht die Sicherheit — sie erhöht das Risiko, die eigenen Coins zu verlieren. Eine gut konfigurierte Single-Signature Hardware-Wallet bietet bereits ein außergewöhnlich hohes Sicherheitsniveau. Multisig, Passphrasen und andere Expertenfunktionen sind sinnvoll, wenn man sie vollständig versteht — aber gefährlich, wenn nicht.
+Ab einem bestimmten Punkt erhöht mehr Sicherheitskomplexität nicht die Sicherheit — sie erhöht das Risiko, die eigenen Coins zu verlieren. Eine gut konfigurierte Single-Signature Hardware-Wallet bietet bereits ein aussergewöhnlich hohes Sicherheitsniveau. Multisig, Passphrasen und andere Expertenfunktionen sind sinnvoll, wenn man sie vollständig versteht — aber gefährlich, wenn nicht.
 
 ## Body
 
@@ -23,7 +23,7 @@ Konkrete Beispiele:
 
 Hardware-Wallets lösen das klassische Spannungsverhältnis zwischen Sicherheit und Benutzerfreundlichkeit: Der private Schlüssel verlässt das Gerät nie, Transaktionen werden auf einem verifizierbaren Display bestätigt. Eine Single-Signature Hardware-Wallet mit sauberem Backup ist bereits auf einem Sicherheitsniveau, das die meisten Bedrohungsmodelle abdeckt.
 
-Fortgeschrittene Setups (Multisig, Passphrase, Air-Gap) sind dann sinnvoll, wenn das Bedrohungsmodell es erfordert und man die Mechanismen vollständig versteht — einschließlich aller Verlustrisiken.
+Fortgeschrittene Setups (Multisig, Passphrase, Air-Gap) sind dann sinnvoll, wenn das Bedrohungsmodell es erfordert und man die Mechanismen vollständig versteht — einschliesslich aller Verlustrisiken.
 
 ### Komplexität als Eintrittsbarriere
 

@@ -59,17 +59,17 @@ Bei der ursprünglichen Schwierigkeit von 1 wäre ein moderner PC von 2009 in de
 
 ### Hal Finneys tatsächliche Mining-Aktivität
 
-Aus dem Forbes-Artikel von 2014 (Andy Greenberg, mit einem Screenshot von Hals Wallet) geht hervor, dass Hals erste erfolgreich abgebaute Block **Block 78** war (11. Januar 2009, 01:00 UTC). Die Wallet zeigt außerdem die 10-BTC-Transaktion von Satoshi (Block 170) und mehrere spätere selbst geminte Blöcke ab dem 10. Januar.
+Aus dem Forbes-Artikel von 2014 (Andy Greenberg, mit einem Screenshot von Hals Wallet) geht hervor, dass Hals erste erfolgreich abgebaute Block **Block 78** war (11. Januar 2009, 01:00 UTC). Die Wallet zeigt ausserdem die 10-BTC-Transaktion von Satoshi (Block 170) und mehrere spätere selbst geminte Blöcke ab dem 10. Januar.
 
 Hal twitterte um 03:33 UTC am 11. Januar — zu diesem Zeitpunkt lief bei ihm Bitcoin v0.1.1, das Satoshi ihm kurz zuvor geschickt hatte.
 
 ### Dustin Trammell: wahrscheinlich vor Hal im Netzwerk
 
-Dustin Trammell (@druidian) ist ein bekannter früher Bitcoiner. Er lud die Software sofort nach der Ankündigung herunter — behauptete aber, nicht gewusst zu haben, dass Mining standardmäßig deaktiviert war. Deshalb begann er erst vier bis fünf Tage nach dem Launch zu minen.
+Dustin Trammell (@druidian) ist ein bekannter früher Bitcoiner. Er lud die Software sofort nach der Ankündigung herunter — behauptete aber, nicht gewusst zu haben, dass Mining standardmässig deaktiviert war. Deshalb begann er erst vier bis fünf Tage nach dem Launch zu minen.
 
 Sein erster bestätigter Block: **Block 309** (13. Januar 2009, 09:38 UTC). Die kryptografische Eigentumsbeweise für die Adresse `1627A2DbCtVVykWVJmdQz2ERwkw4uiEL22` hat er 2021 öffentlich vorgelegt und in Bitcoin Core verifiziert.
 
-Er berichtet außerdem von vier frühen Blöcken, die er am 11. Januar gemint hatte, die aber nie bestätigt wurden — eine direkte Folge des Bugs in Bitcoin v0.1.0 (fehlender Broadcast wegen blockiertem Kommunikations-Thread, behoben in v0.1.3). Satoshi bestätigte diesen Bug in seiner E-Mail an Dustin.
+Er berichtet ausserdem von vier frühen Blöcken, die er am 11. Januar gemint hatte, die aber nie bestätigt wurden — eine direkte Folge des Bugs in Bitcoin v0.1.0 (fehlender Broadcast wegen blockiertem Kommunikations-Thread, behoben in v0.1.3). Satoshi bestätigte diesen Bug in seiner E-Mail an Dustin.
 
 Dustins eigene Einschätzung: Als er den Client startete, war anfangs nur eine andere Node verbunden (die er für Satoshis Node hielt). Erst nach einigen Stunden kamen weitere Verbindungen. Das deckt sich mit dem Befund, dass die Tor-Node keine eingehenden Verbindungen annehmen konnte.
 
@@ -79,7 +79,7 @@ Block 170 (12. Januar 2009, 03:30 UTC) enthält die erste Nicht-Coinbase-Transak
 
 ### Das Mining-Default-Problem
 
-Satoshi hatte Mining im Client standardmäßig ausgeschaltet. Er wollte vermutlich verhindern, dass Nutzer beim ersten Start eine hohe CPU-Auslastung sehen und die Software sofort wieder schließen. Diese Entscheidung hatte weitreichende Folgen: Viele frühe Interessenten wie Dustin Trammell liefen zwar die Software, trugen aber zunächst keine Blöcke zur Chain bei.
+Satoshi hatte Mining im Client standardmässig ausgeschaltet. Er wollte vermutlich verhindern, dass Nutzer beim ersten Start eine hohe CPU-Auslastung sehen und die Software sofort wieder schliessen. Diese Entscheidung hatte weitreichende Folgen: Viele frühe Interessenten wie Dustin Trammell liefen zwar die Software, trugen aber zunächst keine Blöcke zur Chain bei.
 
 ### Fazit der Untersuchung
 

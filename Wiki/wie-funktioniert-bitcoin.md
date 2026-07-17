@@ -23,7 +23,7 @@ Die traditionelle Lösung ist eine vertrauenswürdige dritte Partei (eine Bank),
 
 ### Die Bitcoin-Lösung: Geteiltes Kassenbuch + Mining
 
-Bitcoin gibt jedem im Netzwerk eine Kopie desselben Kassenbuchs (die Blockchain). Jede Transaktion wird ins Netzwerk gesendet, von den Teilnehmern weiterverbreitet, und schließlich von Minern in Blöcken auf der Blockchain gesichert.
+Bitcoin gibt jedem im Netzwerk eine Kopie desselben Kassenbuchs (die Blockchain). Jede Transaktion wird ins Netzwerk gesendet, von den Teilnehmern weiterverbreitet, und schliesslich von Minern in Blöcken auf der Blockchain gesichert.
 
 Das verhindert Double-Spending durch Zeitstempel: Wer zuerst sendet, gewinnt. Alle anderen Kopien der "Münze" werden abgelehnt.
 

@@ -15,7 +15,7 @@ Alex Gladstein argumentiert, dass Bitcoin zwei untrennbar verbundene Eigenschaft
 
 Bitcoin wirkt auf zwei Ebenen gleichzeitig, die man nicht voneinander lösen kann:
 
-**NGU — Number-Go-Up:** Bitcoin ist der Finanzwert, der sich in den letzten 12 Jahren global am besten entwickelt hat. Das zieht institutionelle Investoren, Unternehmen, Staatsfonds und schließlich auch Regierungen an. Diese Ebene ist sichtbar, verständlich und kalkulierbar.
+**NGU — Number-Go-Up:** Bitcoin ist der Finanzwert, der sich in den letzten 12 Jahren global am besten entwickelt hat. Das zieht institutionelle Investoren, Unternehmen, Staatsfonds und schliesslich auch Regierungen an. Diese Ebene ist sichtbar, verständlich und kalkulierbar.
 
 **FGU — Freedom-Go-Up:** Hinter den atemberaubenden Gewinnen liegt eine Freiheitstechnologie. Bitcoin kann nicht entwertet werden, Transaktionen nicht zensiert, Sonderregeln für Eliten nicht eingeführt, massenhafte Beschlagnahmung nicht durchgeführt. Diese Ebene ist für viele neue Käufer unsichtbar — aber sie ist unausweichlich.
 
@@ -25,7 +25,7 @@ Das entscheidende Argument: Wer Bitcoin kauft oder schürft, treibt das Sicherhe
 
 Bitcoin entstand nicht aus dem amerikanischen Gründungszentrum für Tech-Startups. Sein Ursprung liegt bei den Cypherpunks — Verfechtern bürgerlicher Freiheiten, die in den 1980er und 1990er Jahren beobachteten, wie der elektronische Überwachungsstaat entstand. Ihr Ziel: Geld von Regierungen und Unternehmen trennen, das Wachstum des Überwachungsstaats eindämmen, Menschenrechte ins digitale Zeitalter retten.
 
-Satoshis größter Trick war es, diese Bestrebungen in etwas umzuwandeln, das wie digitales Gold aussieht und funktioniert. Die Freiheitstechnologie versteckte sich im Trojanischen Pferd des Wertspeicherobjekts.
+Satoshis grösster Trick war es, diese Bestrebungen in etwas umzuwandeln, das wie digitales Gold aussieht und funktioniert. Die Freiheitstechnologie versteckte sich im Trojanischen Pferd des Wertspeicherobjekts.
 
 ### Der Blocksize War als Beweis
 

@@ -21,7 +21,7 @@ Timothy C. May formulierte 1988, was erst Jahrzehnte später breite Aufmerksamke
 
 Die Kernthese: Public-Key-Kryptographie erlaubt es Alice und Bob, anonym zu kommunizieren und Geschäfte zu machen, ohne sich jemals zu treffen oder die Identität des anderen zu kennen. Daraus folgt ein System, das May "Crypto Anarchy" nennt — virtuelle Gemeinschaften, die nur den Regeln unterliegen, auf die sie sich selbst geeinigt haben. Der Staat könne den Informationsmarkt nicht kontrollieren.
 
-May erkannte auch die Schattenseiten: Kryptoanarchismus ermöglicht nicht nur Privatsphäre, sondern auch anonyme Märkte für alles — einschließlich illegaler Güter. Er hielt das für unvermeidlich und akzeptabel, weil die Alternative — staatliche Kontrolle aller Kommunikation — schlimmer sei.
+May erkannte auch die Schattenseiten: Kryptoanarchismus ermöglicht nicht nur Privatsphäre, sondern auch anonyme Märkte für alles — einschliesslich illegaler Güter. Er hielt das für unvermeidlich und akzeptabel, weil die Alternative — staatliche Kontrolle aller Kommunikation — schlimmer sei.
 
 ### Libertaria in Cyberspace (1992)
 
@@ -45,7 +45,7 @@ Der erste Krypto-Krieg der 1990er — Clipper-Chip, Exportverbote für Kryptogra
 
 ### Meditations on Cypherpunk Nightmares (2014)
 
-Michael Goldstein betrachtete 2014 die dunklen Seiten von Mays Prophezeiung: WikiLeaks, Snowden, der Fappening-Marktplatz — all das bestätigte Mays These, dass ein anonymer Informationsmarkt existieren werde, ob man ihn wolle oder nicht. Goldsteins Antwort war stoisch, nach Epiktet: Man kontrolliert, was in der eigenen Macht liegt. Bitcoin und dezentrale Kryptowerkzeuge sind das, was Cypherpunks tun können. Das Ergebnis liegt außerhalb ihrer Kontrolle.
+Michael Goldstein betrachtete 2014 die dunklen Seiten von Mays Prophezeiung: WikiLeaks, Snowden, der Fappening-Marktplatz — all das bestätigte Mays These, dass ein anonymer Informationsmarkt existieren werde, ob man ihn wolle oder nicht. Goldsteins Antwort war stoisch, nach Epiktet: Man kontrolliert, was in der eigenen Macht liegt. Bitcoin und dezentrale Kryptowerkzeuge sind das, was Cypherpunks tun können. Das Ergebnis liegt ausserhalb ihrer Kontrolle.
 
 ### Bedeutung für Bitcoin
 
@@ -55,7 +55,7 @@ Bitcoin ist das erste Werkzeug, das die Cypherpunk-Vision für Geld vollständig
 
 Nozomi Hayase betrachtet Bitcoin aus einer ungewöhnlichen Perspektive: als Antwort auf den Zusammenbruch moralischer Strukturen nach dem Ende religiöser Welterklärungen. Nietzsche stellte 1882 fest, dass die Aufklärung Gott getötet hat — und damit eine Leerstelle hinterlassen hat, die Sinn und Wertorientierung geben müsste.
 
-In diesen Raum stoßen heute technokratische Kräfte. Yuval Noah Harari (Berater beim WEF) propagiert eine "Datenreligion", in der Gefühle auf biochemische Algorithmen reduziert werden und externe KI-Systeme den Menschen besser kennen als er sich selbst — weshalb Autorität von Menschen auf Algorithmen übergehen soll. Julian Assange warnte: "Die Zukunft der Menschheit ist der Kampf zwischen Menschen, die Maschinen kontrollieren, und Maschinen, die Menschen kontrollieren."
+In diesen Raum stossen heute technokratische Kräfte. Yuval Noah Harari (Berater beim WEF) propagiert eine "Datenreligion", in der Gefühle auf biochemische Algorithmen reduziert werden und externe KI-Systeme den Menschen besser kennen als er sich selbst — weshalb Autorität von Menschen auf Algorithmen übergehen soll. Julian Assange warnte: "Die Zukunft der Menschheit ist der Kampf zwischen Menschen, die Maschinen kontrollieren, und Maschinen, die Menschen kontrollieren."
 
 Programmierbares Zentralbankgeld (CBDC) ist in diesem Kontext kein neutrales Zahlungsmittel, sondern Steuerungsinfrastruktur. China setzt CBDC für Social-Credit-Scoring ein. Hararis Vision: Menschen "so zu programmieren, dass sie digitale Zentralbankwährungen mögen."
 
@@ -74,4 +74,4 @@ Hayases Gegenargumentation: Satoshi hat nicht versprochen, sondern gezeigt. Der 
 
 - Wie hat sich die Cypherpunk-Bewegung nach Bitcoins Entstehung verändert? Haben Schlüsselfiguren (May, Goldstein) Bitcoin angenommen oder abgelehnt?
 - Inwiefern unterscheidet sich der dritte Krypto-Krieg (KI-Überwachung, CBDC-Debatte) von den ersten beiden?
-- Welche der Cypherpunk-Visionen außer Bitcoin wurden realisiert (anonyme Remailer → Tor; eCash → Monero/Chaumian mints)?
+- Welche der Cypherpunk-Visionen ausser Bitcoin wurden realisiert (anonyme Remailer → Tor; eCash → Monero/Chaumian mints)?

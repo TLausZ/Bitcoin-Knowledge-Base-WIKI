@@ -7,7 +7,7 @@
 
 ## Summary
 
-Zensurresistenz ist laut Parker Lewis die fundamentalste Eigenschaft des Bitcoin-Netzwerks — nicht weil sie Kriminelle schützt, sondern weil ohne sie keine andere Eigenschaft Bestand hat. Das Argument läuft über einen Lackmustest: Wenn Bitcoin für Drogendealer funktioniert, funktioniert er für alle. Wenn er gegenüber Kriminellen zensiert werden könnte, könnte er gegenüber jedem zensiert werden — einschließlich der Knappheitsregel von 21 Millionen.
+Zensurresistenz ist laut Parker Lewis die fundamentalste Eigenschaft des Bitcoin-Netzwerks — nicht weil sie Kriminelle schützt, sondern weil ohne sie keine andere Eigenschaft Bestand hat. Das Argument läuft über einen Lackmustest: Wenn Bitcoin für Drogendealer funktioniert, funktioniert er für alle. Wenn er gegenüber Kriminellen zensiert werden könnte, könnte er gegenüber jedem zensiert werden — einschliesslich der Knappheitsregel von 21 Millionen.
 
 ## Body
 
@@ -23,7 +23,7 @@ Der Dollar ist die bevorzugte Währung des organisierten Verbrechens — erhebli
 
 Das entscheidende Argument ist technischer Natur. Zensurresistenz ist binär. Es gibt kein "ein bisschen zensurresistent" — genauso wenig wie man ein bisschen schwanger sein kann.
 
-Wenn es möglich wäre, eine Transaktion eines Drogenhändlers auf Protokollebene zu blockieren, würde das beweisen, dass das Netzwerk grundsätzlich für Zensur zugänglich ist. Und wenn jede Transaktion zensiert werden kann, können auch die Konsensregeln geändert werden — einschließlich der 21-Millionen-Grenze.
+Wenn es möglich wäre, eine Transaktion eines Drogenhändlers auf Protokollebene zu blockieren, würde das beweisen, dass das Netzwerk grundsätzlich für Zensur zugänglich ist. Und wenn jede Transaktion zensiert werden kann, können auch die Konsensregeln geändert werden — einschliesslich der 21-Millionen-Grenze.
 
 Das OFAC-Beispiel (US-Finanzministerium sanktionierte Bitcoin-Adressen chinesischer Staatsbürger, 2019): Der entscheidende Test ist nicht, ob Unternehmen oder Börsen diese Adressen meiden, sondern ob Bitcoin-Miner und -Nodes die Transaktionen als gültig oder ungültig bewerten. Solange das Netzwerk technisch konsensiert, dass eine Transaktion den Protokollregeln entspricht, ist sie gültig — unabhängig von politischen Sanktionen. [[aprycot-parker-lewis-bitcoin-nicht-nur-fuer-kriminelle]]
 

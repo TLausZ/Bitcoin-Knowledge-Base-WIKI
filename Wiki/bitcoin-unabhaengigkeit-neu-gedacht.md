@@ -13,11 +13,11 @@ Knut Svanholms erstes Bitcoin-Buch (2020, deutsche Fassung von Volker Herminghau
 
 ### Assimilation und Akkommodation
 
-Svanholm rahmt Bitcoin als Idee, die zu groß ist, um in bestehende Denkschubladen zu passen. Er greift auf Jean Piaget zurück: Neue Information wird entweder assimiliert (in vorhandene Kategorien einsortiert) oder erzwingt Akkommodation (das Umformen der Kategorien selbst). Bitcoin verlange Letzteres, den anstrengenden Prozess, Grundüberzeugungen umzubauen. Wer die Idee bloß assimiliere, presse sie in eine unpassende Schublade und verwerfe sie als lächerlich oder gefährlich.
+Svanholm rahmt Bitcoin als Idee, die zu gross ist, um in bestehende Denkschubladen zu passen. Er greift auf Jean Piaget zurück: Neue Information wird entweder assimiliert (in vorhandene Kategorien einsortiert) oder erzwingt Akkommodation (das Umformen der Kategorien selbst). Bitcoin verlange Letzteres, den anstrengenden Prozess, Grundüberzeugungen umzubauen. Wer die Idee bloss assimiliere, presse sie in eine unpassende Schublade und verwerfe sie als lächerlich oder gefährlich.
 
 ### Intersubjektive Fiktionen und Gewalt
 
-Geld, Steuern, Inflation und der Nationalstaat existieren, weil genug Menschen an sie glauben. Das ist für Svanholm kein Vorwurf an sich; Sprache und Gesetz funktionieren ähnlich. Der Punkt ist die Grundlage. Steuern und Inflation fußen nicht auf freiwilliger Kooperation: Damit ein Herrscher sie durchsetzen kann, muss er die Unterworfenen erst durch Zwang unterwerfen, hinter dem die Androhung roher Gewalt steht. Weil beides praktisch überall existiert, wird diese Grundlage leicht vergessen. Andere Wege, große kooperative Vorhaben zu finanzieren, Crowdfunding etwa, seien auf Staatsebene schlicht noch nicht versucht worden.
+Geld, Steuern, Inflation und der Nationalstaat existieren, weil genug Menschen an sie glauben. Das ist für Svanholm kein Vorwurf an sich; Sprache und Gesetz funktionieren ähnlich. Der Punkt ist die Grundlage. Steuern und Inflation fussen nicht auf freiwilliger Kooperation: Damit ein Herrscher sie durchsetzen kann, muss er die Unterworfenen erst durch Zwang unterwerfen, hinter dem die Androhung roher Gewalt steht. Weil beides praktisch überall existiert, wird diese Grundlage leicht vergessen. Andere Wege, grosse kooperative Vorhaben zu finanzieren, Crowdfunding etwa, seien auf Staatsebene schlicht noch nicht versucht worden.
 
 ### Die Demokratie-Kritik
 
@@ -25,7 +25,7 @@ Man kann für diesen oder jenen Politiker stimmen, aber man kann sich nicht aus 
 
 ### Warum Kollektivisten gewinnen
 
-Ein zentrales Kapitel liefert ein strukturelles Argument gegen die Demokratie. Ein individualistischer Wähler kümmert sich weniger darum, was andere von seinen Ansichten halten, und verteilt seine Stimme auf verschiedene, kleinere Parteien. Ein Kollektivist will eher überhaupt einer Gruppe angehören und sorgt sich weniger darum, was die Gruppe konkret will. Daraus folgt: Kollektivisten bilden leichter große Blöcke als Individualisten und gewinnen deshalb systematisch. Svanholm hält jede staatliche Institution langfristig für dazu verdammt, zu korrumpieren, weil die Kräfte, die sie hervorbrachten, sich mehr um Tribalismus als um Individualrechte drehten, ein Umfeld, in dem Psychopathen gedeihen.
+Ein zentrales Kapitel liefert ein strukturelles Argument gegen die Demokratie. Ein individualistischer Wähler kümmert sich weniger darum, was andere von seinen Ansichten halten, und verteilt seine Stimme auf verschiedene, kleinere Parteien. Ein Kollektivist will eher überhaupt einer Gruppe angehören und sorgt sich weniger darum, was die Gruppe konkret will. Daraus folgt: Kollektivisten bilden leichter grosse Blöcke als Individualisten und gewinnen deshalb systematisch. Svanholm hält jede staatliche Institution langfristig für dazu verdammt, zu korrumpieren, weil die Kräfte, die sie hervorbrachten, sich mehr um Tribalismus als um Individualrechte drehten, ein Umfeld, in dem Psychopathen gedeihen.
 
 Daran hängt eine Sprachkritik: Begriffe wie „Klimaleugner" oder „Islamophob" seien Werkzeuge, mit denen der Mainstream unerwünschte Meinungen unterdrückt, indem er Kritik an der medialen Darstellung mit tatsächlicher Wissenschaftsleugnung in einen Topf wirft. Er zitiert Orwell: „Je weiter eine Gesellschaft von der Wahrheit abkommt, desto mehr wird sie jene hassen, die sie aussprechen."
 

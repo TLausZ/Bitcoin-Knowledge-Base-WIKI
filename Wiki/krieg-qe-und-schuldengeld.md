@@ -15,7 +15,7 @@ Alex Gladstein argumentiert in einem langen Essay (ursprünglich Bitcoin Magazin
 
 Sarah Kreps (*Taxing Wars*, Oxford University Press) beschreibt, wie die demokratische Friedenstheorie auf der Annahme beruht, dass Bürger die Kosten des Krieges direkt tragen — in Form von Steuern — und deshalb Druck auf Politiker ausüben, Kriege kurz und günstig zu halten. Ihre Forschung zeigt: Sobald die Kriegskosten unsichtbar werden (finanziert durch Schulden statt Steuern), sinkt die politische Kontrolle der Öffentlichkeit drastisch.
 
-Das Problem wird strukturell: Der „Abschlussbericht" zur Finanzkrise 2007–2008 erwähnt weder Irak noch Afghanistan — als hätten die Kriege keinen Einfluss auf die US-Wirtschaft gehabt. Stephanie Keltons *The Deficit Myth* (MMT) erwähnt diese Kriege ebenfalls nicht. Krieg — die größte diskretionäre Einzelausgabe der US-Regierung — wird systematisch aus dem wirtschaftspolitischen Diskurs ausgeblendet.
+Das Problem wird strukturell: Der „Abschlussbericht" zur Finanzkrise 2007–2008 erwähnt weder Irak noch Afghanistan — als hätten die Kriege keinen Einfluss auf die US-Wirtschaft gehabt. Stephanie Keltons *The Deficit Myth* (MMT) erwähnt diese Kriege ebenfalls nicht. Krieg — die grösste diskretionäre Einzelausgabe der US-Regierung — wird systematisch aus dem wirtschaftspolitischen Diskurs ausgeblendet.
 
 ### Historische Entwicklung der Kriegsfinanzierung
 
@@ -37,13 +37,13 @@ James Crawford (Georgetown University): ZIRP (Nullzinspolitik) war die Vorausset
 
 ### Der Mechanismus: Primärhändler und Fed
 
-Die USA finanzieren Defizite durch Treasuries (Staatsanleihen). Primärhändler (primary dealers) — ein geschlossener Club von ~24 Großbanken — sind vertraglich verpflichtet, jede Treasury-Auktion aufzukaufen. Sie verkaufen die Bonds dann weiter oder verkaufen sie an die Fed. Die Fed kaufte seit 2008 durch QE ~$9 Billionen an Treasuries — sie wurde zum Käufer der letzten Instanz für US-Staatsschulden.
+Die USA finanzieren Defizite durch Treasuries (Staatsanleihen). Primärhändler (primary dealers) — ein geschlossener Club von ~24 Grossbanken — sind vertraglich verpflichtet, jede Treasury-Auktion aufzukaufen. Sie verkaufen die Bonds dann weiter oder verkaufen sie an die Fed. Die Fed kaufte seit 2008 durch QE ~$9 Billionen an Treasuries — sie wurde zum Käufer der letzten Instanz für US-Staatsschulden.
 
-Mohamed El-Erian: Hätte die Fed die enormen QE-Maßnahmen vollständig transparent und verständlich kommuniziert, „würde das eine viel stärkere gesellschaftliche Reaktion auslösen."
+Mohamed El-Erian: Hätte die Fed die enormen QE-Massnahmen vollständig transparent und verständlich kommuniziert, „würde das eine viel stärkere gesellschaftliche Reaktion auslösen."
 
 ### QE, Vermögensinflation und Ungleichheit
 
-Die Transmission von QE: Die Fed kauft Bonds, Banken erhalten Zentralbankgeld, das in Aktien, Immobilien und andere Assets fließt — nicht in die Realwirtschaft. Ergebnis:
+Die Transmission von QE: Die Fed kauft Bonds, Banken erhalten Zentralbankgeld, das in Aktien, Immobilien und andere Assets fliesst — nicht in die Realwirtschaft. Ergebnis:
 
 - Top-10% der Bevölkerung besitzen 88,9% aller Aktien (Gladstein, Daten ca. 2021)
 - Top-1% gingen von 23% auf 32% aller Vermögen seit 1990
@@ -53,7 +53,7 @@ Bichler und Nitzan (*Capital as Power*): Kapitalist*innen nutzen Krisen und Krie
 
 ### Thomas Oatley: Drei Militärs = Drei Krisen
 
-Thomas Oatley (Columbia University) zeigt: Jede große US-Militäraufrüstung der Nachkriegszeit korrespondiert mit einer Finanzkrise:
+Thomas Oatley (Columbia University) zeigt: Jede grosse US-Militäraufrüstung der Nachkriegszeit korrespondiert mit einer Finanzkrise:
 
 1. Vietnam → Dollarabwertung/Ende des Bretton-Woods-Systems (1971)
 2. Anti-Sowjet-Aufrüstung der 1980er → Savings & Loan Crisis + Black Monday (1987)

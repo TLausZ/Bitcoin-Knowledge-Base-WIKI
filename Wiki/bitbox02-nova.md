@@ -28,7 +28,7 @@ Die BitBox02 Nova ist die zweite Generation der BitBox Hardware-Wallet, vorgeste
 
 **Erhöhte Speicherkapazität:** Mehr Raum für zukünftige Firmware-Features.
 
-**Neue Farben:** Mitternacht Schwarz, Polar Weiß (seit Juni 2025) und Bitcoin Orange (seit Mai 2026).
+**Neue Farben:** Mitternacht Schwarz, Polar Weiss (seit Juni 2025) und Bitcoin Orange (seit Mai 2026).
 
 ### Dual-Chip-Architektur
 

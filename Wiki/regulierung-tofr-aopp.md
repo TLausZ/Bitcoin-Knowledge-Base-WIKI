@@ -27,7 +27,7 @@ Der verbreitetste Ansatz ist der **Satoshi-Test**: Der Nutzer schickt eine klein
 
 3. **Doppelte Einzahlungen:** Wenn Börsen Satoshi-Tests auch für Einzahlungen verlangen, kann der zu deponierende UTXO durch die Testtransaktion auf eine Wechseladresse wandern — die verifizierte Einzahlungsadresse ist danach leer. Resultat: drei On-Chain-Transaktionen für eine einzige Einzahlung.
 
-Alle Satoshi-Tests schaden außerdem der Privatsphäre: Da Testtransaktionen Gebühren kosten, werden Nutzer ermutigt, Adressen mehrfach zu verwenden.
+Alle Satoshi-Tests schaden ausserdem der Privatsphäre: Da Testtransaktionen Gebühren kosten, werden Nutzer ermutigt, Adressen mehrfach zu verwenden.
 
 ### AOPP: Die bessere Lösung
 

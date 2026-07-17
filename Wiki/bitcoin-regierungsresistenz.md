@@ -17,7 +17,7 @@ Gladstein listet strukturelle Gründe: Mining, Infrastruktur und Märkte sind ge
 
 ### Netzwerkangriff: SegWit2X 2017
 
-Der bislang schwerste technische Angriff ereignete sich 2017. Das „New York Agreement" versammelte Akteure mit über 83 % der weltweiten Hashrate, mehr als 50 Unternehmen und einen Großteil der Zahlungsinfrastruktur. Das Ziel: Bitcoin durch mehr Transaktionen pro Sekunde skalieren, auf Kosten der Dezentralisierung. Die Koalition vereinte chinesische Miner, Silicon Valley und Wall Street.
+Der bislang schwerste technische Angriff ereignete sich 2017. Das „New York Agreement" versammelte Akteure mit über 83 % der weltweiten Hashrate, mehr als 50 Unternehmen und einen Grossteil der Zahlungsinfrastruktur. Das Ziel: Bitcoin durch mehr Transaktionen pro Sekunde skalieren, auf Kosten der Dezentralisierung. Die Koalition vereinte chinesische Miner, Silicon Valley und Wall Street.
 
 Eine Handvoll Basis-Aktivisten baute dennoch eine Gegenbewegung auf. Im November 2017 war SegWit2X tot. Die Konsequenz: Full-Node-Betreiber — nicht Miner, nicht Konzerne — bestimmen, welche Transaktionen gültig sind und welche Softwareversion gilt. Selbst eine Regierung mit Mehrheit der Hashrate könnte damit nicht die Konsensregeln ändern, neue Bitcoin erschaffen oder Bestände anderer stehlen. [[aprycot-gladstein-koennen-regierungen-bitcoin-aufhalten]]
 
@@ -31,7 +31,7 @@ Der entscheidende Unterschied zu 1933: Gold lagerte bei Banken und konnte dort b
 
 2017 schränkte China die RMB-zu-Bitcoin-Konvertierung ein. Indien folgte. Beide Länder versuchten, Bürgern den Zugang an der offensichtlichsten Stelle zu sperren: den Fiat-Ein- und -Ausgängen über Börsen.
 
-Der indische Oberste Gerichtshof hob die Regel auf. In Pakistan ist Bitcoin de facto verboten, die Adoption wächst trotzdem. Nigeria drohte mit Kontosperrungen für Nutzer, die Bitcoin kauften oder verkauften. Das tatsächliche Ergebnis dieser Maßnahmen: Nutzer wechseln in schwerer kontrollierbare P2P-Märkte.
+Der indische Oberste Gerichtshof hob die Regel auf. In Pakistan ist Bitcoin de facto verboten, die Adoption wächst trotzdem. Nigeria drohte mit Kontosperrungen für Nutzer, die Bitcoin kauften oder verkauften. Das tatsächliche Ergebnis dieser Massnahmen: Nutzer wechseln in schwerer kontrollierbare P2P-Märkte.
 
 Gladstein verallgemeinert: Regierungen, die mit Drogenverboten jahrzehntelang gescheitert sind, dürften es noch schwerer haben, Menschen davon abzuhalten, etwas zu besitzen, das unsichtbar, grenzenlos und teleportierbar ist. [[aprycot-gladstein-koennen-regierungen-bitcoin-aufhalten]]
 
@@ -49,7 +49,7 @@ Das Argument folgt einer bedingten Logik: Wenn Bitcoin als Geld nicht funktionie
 
 Lewis sieht drei strukturelle Hindernisse für ein wirksames Verbot. Erstens ist Bitcoin Information — ein Private Key in Form von 12 Wörtern passt in einen menschlichen Kopf. Information kann man nicht beschlagnahmen wie Gold in einem Tresor. Zweitens ist das Netzwerk global und dezentral — kein einzelner Angriffspunkt, kein Hauptquartier, keine Lieferkette, die man unterbrechen könnte. Drittens sprechen die Präzedenzfälle dagegen: Drogenverbote nach Jahrzehnten gescheitert; Bitcoin ist unsichtbarer, portabler und grenzenloser als jede Substanz.
 
-Das Verbot würde außerdem eine unbeabsichtigte Signalwirkung haben: Es würde demonstrieren, dass der Staat das Geldmonopol für bedroht hält. Das erhöht die Glaubwürdigkeit von Bitcoin als alternative Wertaufbewahrung — genau das Gegenteil der beabsichtigten Wirkung. [[aprycot-parker-lewis-bitcoin-kann-nicht-verboten-werden]]
+Das Verbot würde ausserdem eine unbeabsichtigte Signalwirkung haben: Es würde demonstrieren, dass der Staat das Geldmonopol für bedroht hält. Das erhöht die Glaubwürdigkeit von Bitcoin als alternative Wertaufbewahrung — genau das Gegenteil der beabsichtigten Wirkung. [[aprycot-parker-lewis-bitcoin-kann-nicht-verboten-werden]]
 
 ### Die technische Unbannbarkeit (Gigi)
 
@@ -57,7 +57,7 @@ Gigi geht über das ökonomische Argument hinaus und zeigt, was ein Verbot auf t
 
 Daraus folgt: Wer „anonyme Wallets" verbieten will, muss das Erzeugen von Zufallszahlen verbieten. Wer Transaktionen verbieten will, muss das Senden von Nachrichten verbieten. Wer Mining verbieten will, muss das Lösen von Rechenaufgaben verbieten. Konsequent durchgezogen: Das Denken selbst müsste kriminalisiert werden, denn ein Wallet in Form von 12 Wörtern existiert im Kopf seines Besitzers.
 
-Illegale Zahlen sind kein Gedankenexperiment — sie entstanden in den 1990ern, als Regierungen versuchten, Verschlüsselungsalgorithmen zu kriminalisieren. Bestimmte Zahlenfolgen, die Kopierschutzschlüssel kodierten, wurden temporär als illegal eingestuft. Die Absurdität ist dieselbe. Ein US-Bundesgericht stellte 2000 (*Junger v. Daley*) klar: Computercode ist Sprache und genießt First-Amendment-Schutz. [[bitcoin-als-information]]
+Illegale Zahlen sind kein Gedankenexperiment — sie entstanden in den 1990ern, als Regierungen versuchten, Verschlüsselungsalgorithmen zu kriminalisieren. Bestimmte Zahlenfolgen, die Kopierschutzschlüssel kodierten, wurden temporär als illegal eingestuft. Die Absurdität ist dieselbe. Ein US-Bundesgericht stellte 2000 (*Junger v. Daley*) klar: Computercode ist Sprache und geniesst First-Amendment-Schutz. [[bitcoin-als-information]]
 
 Dieses Argument ergänzt Parker Lewis: Lewis zeigt, dass ein Verbot als Konzept sinnlos ist. Gigi zeigt, wie genau ein Verbot technisch nicht funktionieren kann.
 
@@ -65,7 +65,7 @@ Dieses Argument ergänzt Parker Lewis: Lewis zeigt, dass ein Verbot als Konzept 
 
 Ein verwandtes Argument richtet sich gegen Bitcoin wegen krimineller Nutzung: Drogendealer nutzen Bitcoin, also sollte er verboten werden. Lewis sieht darin ein Selbstwiderlegungsargument. Wenn Bitcoin gut genug für Drogenhandel funktioniert, funktioniert er als Währung. Punkt. Die relevantere Frage: Könnte das Netzwerk kriminelle Transaktionen auf Protokollebene zensieren?
 
-Nein — und das ist die Stärke des Systems. Bitcoin kennt auf Protokollebene keine Identitäten, keine Nationalitäten, keine Legalitätsbewertungen. Das Netzwerk validiert nur: Stimmt die Signatur? Entspricht die Transaktion den Konsensregeln? Eine Transaktion ist gültig oder ungültig. Wenn kriminelle Transaktionen auf Protokollebene zensiert werden könnten, wäre bewiesen, dass jede Transaktion zensiert werden kann — einschließlich der Regel "21 Millionen maximal". Kriminelle Aktivität ist damit der Lackmustest für Zensurresistenz insgesamt. [[aprycot-parker-lewis-bitcoin-nicht-nur-fuer-kriminelle]]
+Nein — und das ist die Stärke des Systems. Bitcoin kennt auf Protokollebene keine Identitäten, keine Nationalitäten, keine Legalitätsbewertungen. Das Netzwerk validiert nur: Stimmt die Signatur? Entspricht die Transaktion den Konsensregeln? Eine Transaktion ist gültig oder ungültig. Wenn kriminelle Transaktionen auf Protokollebene zensiert werden könnten, wäre bewiesen, dass jede Transaktion zensiert werden kann — einschliesslich der Regel "21 Millionen maximal". Kriminelle Aktivität ist damit der Lackmustest für Zensurresistenz insgesamt. [[aprycot-parker-lewis-bitcoin-nicht-nur-fuer-kriminelle]]
 
 ## Related
 
@@ -84,6 +84,6 @@ Nein — und das ist die Stärke des Systems. Bitcoin kennt auf Protokollebene k
 
 ## Open Questions
 
-- Wie verändert sich das Angriffsszenario, wenn staatliche Akteure große Hashrate-Anteile akkumulieren (z. B. durch staatliche Mining-Unternehmen)?
+- Wie verändert sich das Angriffsszenario, wenn staatliche Akteure grosse Hashrate-Anteile akkumulieren (z. B. durch staatliche Mining-Unternehmen)?
 - Bleibt der P2P-Markt als Rückfallposition funktionsfähig, wenn Staaten finanzielle Überwachung auf Mobilfunkebene ausweiten?
 - Würde ein koordinierter Angriff mehrerer G20-Staaten gleichzeitig anders verlaufen als unilaterale Verbote?

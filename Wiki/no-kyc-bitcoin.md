@@ -47,7 +47,7 @@ Bei Überweisungen über Fintech-Banken (Revolut, N26, Wise) sieht der Verkäufe
 
 Wer beides hat — Bitcoin von einer regulierten Börse und No-KYC-Bitcoin — sollte sie nie in derselben On-Chain-Transaktion mischen. Sobald ein KYC-UTXO mit einem No-KYC-UTXO kombiniert wird, verliert Letzterer seinen Privatsphärevorteil. Die Trennung lässt sich durch separate Wallets und eine konsequente Passphrase-Strategie aufrechterhalten: eine Passphrase für die KYC-Coins, eine andere für No-KYC-Coins. Beide teilen dieselben 24 Seed-Wörter, führen aber auf vollständig getrennte Wallets.
 
-Jede empfangene Transaktion sollte sofort mit einem Label versehen werden: Quelle (Börse, P2P, Person), Datum, Zweck. Sparrow Wallet hat dafür eine eigene Labeling-Funktion. Wer weiß, woher seine UTXOs stammen, kann beim Ausgeben bewusste Entscheidungen treffen und vermeidet ungewollte Verknüpfungen.
+Jede empfangene Transaktion sollte sofort mit einem Label versehen werden: Quelle (Börse, P2P, Person), Datum, Zweck. Sparrow Wallet hat dafür eine eigene Labeling-Funktion. Wer weiss, woher seine UTXOs stammen, kann beim Ausgeben bewusste Entscheidungen treffen und vermeidet ungewollte Verknüpfungen.
 
 ### Weitere Einsteiger-Optionen (Bitcoin-Ratgeber)
 

@@ -19,7 +19,7 @@ Das Dokument endet mit dem bekannten Satz: "We explore... and you call us crimin
 
 ### Kernthesen
 
-Die Schule langweilt Intelligente. Das Schulsystem ist auf den Mittelmaß ausgerichtet; wer schneller versteht, bekommt Strafpunkte statt Förderung. Computer sind das erste System, das auf Eingabe mit vorhersehbarem, fairem Output antwortet — kein soziales Spiel, keine Bestrafung für Neugier.
+Die Schule langweilt Intelligente. Das Schulsystem ist auf den Mittelmass ausgerichtet; wer schneller versteht, bekommt Strafpunkte statt Förderung. Computer sind das erste System, das auf Eingabe mit vorhersehbarem, fairem Output antwortet — kein soziales Spiel, keine Bestrafung für Neugier.
 
 Hacker erkunden, zerstören nicht. Der Text unterscheidet zwischen Neugier und Böswilligkeit. Hacker wollen verstehen, wie Systeme funktionieren — nicht, um Schaden anzurichten, sondern weil das Verstehen der Antrieb ist.
 

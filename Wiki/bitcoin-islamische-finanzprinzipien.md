@@ -37,7 +37,7 @@ Maher Hasan und Jemma Dridi kommen in einem IWF-Arbeitspapier zu dem Schluss, da
 
 Der Ausgangspunkt ist verschieden: Der Islam begründet sein Zinsverbot ethisch-religiös; Farrington begründet die strukturelle Verdrängung von Zinsen ökonomisch. Aber beide landen bei derselben Diagnose: Das gegenwärtige Geldsystem überträgt Risiken unehrlich, statt sie zu teilen. Mawdūdīs Beschreibung der Folgen klingt wie eine Zusammenfassung der Bitgenstein-Serie: "*Aufgrund des Fehlens einer vernünftigen und gesunden partizipativen Zusammenarbeit zwischen Kapitalist und Unternehmer leidet die Weltwirtschaft enorm.*"
 
-Farringtons Schluss ist bescheiden: Man muss islamischen Finanzlehren nicht zustimmen, um den allgemeineren Punkt anzuerkennen. Das islamische Finanzwesen ist die einzige systematisierte, zeitgemäße und erfolgreiche Alternative zu westlichen Finanzprinzipien. Westliches Finanzwesen *ist Wasser* — es ist so allgegenwärtig, dass es schwerfällt, überhaupt außerhalb seines Rahmens zu denken. Wer versucht, es in Frage zu stellen, tut genau das, was Mawdūdī, Siddiqi, El Diwany und Nakamoto getan haben.
+Farringtons Schluss ist bescheiden: Man muss islamischen Finanzlehren nicht zustimmen, um den allgemeineren Punkt anzuerkennen. Das islamische Finanzwesen ist die einzige systematisierte, zeitgemässe und erfolgreiche Alternative zu westlichen Finanzprinzipien. Westliches Finanzwesen *ist Wasser* — es ist so allgegenwärtig, dass es schwerfällt, überhaupt ausserhalb seines Rahmens zu denken. Wer versucht, es in Frage zu stellen, tut genau das, was Mawdūdī, Siddiqi, El Diwany und Nakamoto getan haben.
 
 ## Related
 

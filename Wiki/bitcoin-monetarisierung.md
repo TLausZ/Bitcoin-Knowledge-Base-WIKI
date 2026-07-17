@@ -23,11 +23,11 @@ Boyapati destilliert aus der Geldgeschichte vier Phasen:
 
 **1. Sammlerstück.** Ein Gut wird wegen seiner Seltenheit oder symbolischen Bedeutung gehalten — ohne etablierten Tauschwert. Frühe Bitcoiner (2009–2011) kauften Bitcoin aus ideologischem Interesse oder als technisches Experiment.
 
-**2. Wertspeicher.** Das Gut wird als zuverlässige Anlage erkannt. Es fließen Ersparnisse hinein, nicht weil man damit sofort zahlen will, sondern weil es Kaufkraft über Zeit bewahrt. Bitcoin befindet sich seit etwa 2017 in dieser Phase für einen wachsenden Nutzerkreis — aber noch nicht global anerkannt.
+**2. Wertspeicher.** Das Gut wird als zuverlässige Anlage erkannt. Es fliessen Ersparnisse hinein, nicht weil man damit sofort zahlen will, sondern weil es Kaufkraft über Zeit bewahrt. Bitcoin befindet sich seit etwa 2017 in dieser Phase für einen wachsenden Nutzerkreis — aber noch nicht global anerkannt.
 
 **3. Tauschmittel.** Das Gut wird aktiv für Zahlungen genutzt. Das setzt Preisstabilität voraus; ein stark schwankendes Gut hält man lieber als man es ausgibt (Greshams Gesetz: Schlechtes Geld verdrängt gutes aus dem Umlauf). Lightning Network adressiert diesen Übergang technisch, aber die Volatilität bleibt ein Hindernis.
 
-**4. Recheneinheit.** Preise werden primär in diesem Gut ausgedrückt. Das letzte und schwierigste Stadium — es erfordert, dass fast alle wirtschaftlichen Akteure Bitcoin als primäre Bezugsgröße verwenden.
+**4. Recheneinheit.** Preise werden primär in diesem Gut ausgedrückt. Das letzte und schwierigste Stadium — es erfordert, dass fast alle wirtschaftlichen Akteure Bitcoin als primäre Bezugsgrösse verwenden.
 
 ### Bitcoin vs. Gold: Vergleich als Wertspeicher
 
@@ -45,7 +45,7 @@ Golds einziger struktureller Vorteil: 5.000 Jahre Bewährung. Bitcoin hat 17 Jah
 
 Ein früherer Datenpunkt zum Bitcoin-Gold-Verhältnis stammt aus Jan Wüstenfelds Newsletter vom März 2024. Zu Jahresbeginn 2024 verzeichneten Bitcoin-ETPs beträchtliche Zuflüsse, während Gold-ETPs zugleich erhebliche Nettoabflüsse zeigten — eine Divergenz, die André Dragosch dokumentierte und die sogar der Bitcoin-Kritiker Peter Schiff als Umschichtung von Gold zu Bitcoin deutete. Wüstenfeld ordnet ein, dass sich daraus keine kausale Sicherheit ableiten lässt (andere Faktoren möglich), die Gegenläufigkeit aber heraussticht.
 
-Sein Bitcoin-vs-Gold-Vergleich deckt sich mit Boyapatis Kriterien (Transportierbarkeit, Verifizierbarkeit, Teilbarkeit) und ergänzt den damaligen Stock-to-Flow-Stand: 59 für Bitcoin gegenüber 63 für Gold, kurz vor dem Halving 2024, das Bitcoin über Gold heben würde. Golds bleibender Vorteil sei seine jahrtausendelange Geschichte; Wüstenfeld führt zudem an, dass der größte Teil des Goldpreises auf die Wertaufbewahrungsfunktion und nicht auf die industrielle Nutzung zurückgeht. [[20240301_bmi-ist-bitcoin-bessere-alternative-gold-de]]
+Sein Bitcoin-vs-Gold-Vergleich deckt sich mit Boyapatis Kriterien (Transportierbarkeit, Verifizierbarkeit, Teilbarkeit) und ergänzt den damaligen Stock-to-Flow-Stand: 59 für Bitcoin gegenüber 63 für Gold, kurz vor dem Halving 2024, das Bitcoin über Gold heben würde. Golds bleibender Vorteil sei seine jahrtausendelange Geschichte; Wüstenfeld führt zudem an, dass der grösste Teil des Goldpreises auf die Wertaufbewahrungsfunktion und nicht auf die industrielle Nutzung zurückgeht. [[20240301_bmi-ist-bitcoin-bessere-alternative-gold-de]]
 
 ### Die Gold-Rally 2025 als Wegbereiter
 
@@ -69,7 +69,7 @@ Das erklärt auch, warum Bitcoin-Adoption nicht linear, sondern in Wellen verlä
 
 ### Österreichische Konjunkturtheorie und Bitcoin
 
-Die Österreichische Schule erklärt Wirtschaftskrisen durch Kreditausweitung: Wenn Banken Geld verleihen, das nicht durch echte Ersparnisse gedeckt ist, entstehen falsche Preissignale. Investitionen in Sektoren fließen, die ohne künstliche Zinssenkung nicht rentabel wären. Der unvermeidliche Korrektur-Crash ist keine externe Störung, sondern Folge der Kreditexpansion.
+Die Österreichische Schule erklärt Wirtschaftskrisen durch Kreditausweitung: Wenn Banken Geld verleihen, das nicht durch echte Ersparnisse gedeckt ist, entstehen falsche Preissignale. Investitionen in Sektoren fliessen, die ohne künstliche Zinssenkung nicht rentabel wären. Der unvermeidliche Korrektur-Crash ist keine externe Störung, sondern Folge der Kreditexpansion.
 
 Bitcoin macht diese Manipulation strukturell unmöglich: Das Angebot ist fix und unveränderbar. Keine Zentralbank kann Zinsen durch Geldmengenausweitung senken; kein Cantillon-Effekt begünstigt diejenigen, die zuerst an frisch gedrucktes Geld kommen. [[aprycot-das-bullische-argument-fuer-bitcoin]]
 
@@ -79,7 +79,7 @@ Boyapati benennt drei reale Risiken:
 
 **Staatliches Verbot.** Wenn Regierungen Bitcoin besitzen illegal machen, schrumpft die Nachfrage erheblich. Boyapati hält vollständige globale Verbote für unrealistisch — zu viele Jurisdiktionen, zu viele Nutzerinteressen — aber regionale Verbote sind möglich und reduzieren Wert.
 
-**Protokollfehler.** Ein fundamentaler kryptographischer Fehler (z.B. ein Quantencomputer-Angriff auf ECDSA) könnte das Netzwerk destabilisieren. Gegenmaßnahmen sind technisch denkbar (Post-Quantum-Kryptographie), aber erfordern koordinierte Protokolländerungen.
+**Protokollfehler.** Ein fundamentaler kryptographischer Fehler (z.B. ein Quantencomputer-Angriff auf ECDSA) könnte das Netzwerk destabilisieren. Gegenmassnahmen sind technisch denkbar (Post-Quantum-Kryptographie), aber erfordern koordinierte Protokolländerungen.
 
 **Konkurrenz.** Ein anderes Netzwerk könnte Bitcoin überflügeln. Boyapati hält das für unwahrscheinlich: Das One-Shot-Prinzip (absolute Knappheit war einmal entdeckbar; ein Nachfolger kann nicht gleich dezentral starten) und der Netzwerkeffekt machen Bitcoin schwer zu replizieren.
 
@@ -91,15 +91,15 @@ Goldsteins Begriff "Scammer" ist dabei eine Heuristik, kein moralischer Vorwurf.
 
 Greshams Gesetz — schlechtes Geld verdrängt gutes aus dem Umlauf — erklärt, warum in der Monetarisierungsphase die rationale Strategie ist, schlechtes Geld auszugeben und gutes zu hamstern. Wer in Phase zwei (Wertspeicher) ist und trotzdem ausgibt, verhält sich wie der Landwirt, der sein Saatgut isst. Die Handlung ergibt sich nicht aus Irrationalität, sondern aus einer zu kurzen Zeitpräferenz.
 
-Die spieltheoretische Logik dahinter: Wenn Hyperbitcoinisierung eintritt, vervielfacht sich die Kaufkraft jedes gehaltenen Satoshis um Größenordnungen. Selbst ein kleines Bitcoin-Guthaben repräsentiert dann einen unproportional großen Anteil am globalen Kapital. Händler und Investitionsvehikel sind rational — sie wollen von diesem künftigen Wert profitieren, indem sie heute Bitcoin akkumulieren und dir Fiat, Tokens oder Waren geben. Wer ausgibt, überlässt seinen Anteil diesen Gegenparteien.
+Die spieltheoretische Logik dahinter: Wenn Hyperbitcoinisierung eintritt, vervielfacht sich die Kaufkraft jedes gehaltenen Satoshis um Grössenordnungen. Selbst ein kleines Bitcoin-Guthaben repräsentiert dann einen unproportional grossen Anteil am globalen Kapital. Händler und Investitionsvehikel sind rational — sie wollen von diesem künftigen Wert profitieren, indem sie heute Bitcoin akkumulieren und dir Fiat, Tokens oder Waren geben. Wer ausgibt, überlässt seinen Anteil diesen Gegenparteien.
 
-Das schließt Händlerakzeptanz nicht aus. Goldstein argumentiert, dass mehr Händler, die Bitcoin akzeptieren, das Netzwerk stärken — was dem Hamster nützt. Der Punkt ist nicht, dass Händler schlecht sind, sondern dass der Wert der Händlerakzeptanz im *Netzwerkeffekt* liegt, nicht im Ausgeben.
+Das schliesst Händlerakzeptanz nicht aus. Goldstein argumentiert, dass mehr Händler, die Bitcoin akzeptieren, das Netzwerk stärken — was dem Hamster nützt. Der Punkt ist nicht, dass Händler schlecht sind, sondern dass der Wert der Händlerakzeptanz im *Netzwerkeffekt* liegt, nicht im Ausgeben.
 
 ### Die Entdeckungsreise: „Was ist Geld?" (Parker Lewis, GTS-Einleitung)
 
 Parker Lewis beschreibt in der Einleitung zu seiner „Gradually, Then Suddenly"-Serie (2019) den Erkenntnisprozess, den ein Bitcoin-Versteher durchläuft. Der Titel stammt von Hemingways Beschreibung des Bankrottierens — zunächst langsam, dann schlagartig — und gilt für staatlich gestützte Währungen ebenso wie für das persönliche Verständnis von Bitcoin.
 
-Der Einstieg beginnt nicht mit Bitcoin, sondern mit der Frage: Warum ist der Dollar in meiner Tasche Geld? Lewis beschreibt seine eigene Reise: Deutsche Bank-Mitarbeiter in der Finanzkrise 2008, ohne Grundlage für das Verständnis. Erst nach einer Karriere in Restrukturierung und Makro-Hedgefonds begann er zu verstehen, dass das Finanzsystem im Verhältnis 150:1 gehebelt war — und dass die Lösung (QE) die Instabilität nur vergrößerte.
+Der Einstieg beginnt nicht mit Bitcoin, sondern mit der Frage: Warum ist der Dollar in meiner Tasche Geld? Lewis beschreibt seine eigene Reise: Deutsche Bank-Mitarbeiter in der Finanzkrise 2008, ohne Grundlage für das Verständnis. Erst nach einer Karriere in Restrukturierung und Makro-Hedgefonds begann er zu verstehen, dass das Finanzsystem im Verhältnis 150:1 gehebelt war — und dass die Lösung (QE) die Instabilität nur vergrösserte.
 
 Der Weg zu Bitcoin führt über Gold: Was machte Gold zum Geld? Was unterscheidet besseres von schlechterem Geld? Dann der Vergleich mit Bitcoin: Hat Bitcoin dieselben Eigenschaften wie Gold? Ist es besser?
 
@@ -109,7 +109,7 @@ Der entscheidende Schritt ist das Verstehen, warum das Bitcoin-Angebot von 21 Mi
 
 ### Das First-Shot-Prinzip (Parker Lewis)
 
-Parker Lewis liefert ein zusätzliches Argument, warum Bitcoin von keiner anderen Kryptowährung verdrängt werden kann. Er nennt es sinngemäß das First-Shot-Prinzip: Absolute Knappheit lässt sich nur einmal entdecken.
+Parker Lewis liefert ein zusätzliches Argument, warum Bitcoin von keiner anderen Kryptowährung verdrängt werden kann. Er nennt es sinngemäss das First-Shot-Prinzip: Absolute Knappheit lässt sich nur einmal entdecken.
 
 Bitcoin war das erste digitale Gut, dem es gelang, ein glaubwürdig fixes Angebot zu implementieren. Das Limit von 21 Millionen ist nicht Ergebnis eines Unternehmensbeschlusses — es ist in einem dezentralen, wachsenden Netzwerk verankert, das keine Änderung dieser Zahl durchsetzen könnte, ohne sich selbst zu spalten. Kein Nachfolger kann diesen Vertrauensstatus von Null neu aufbauen: Jede neue Kryptowährung startet mit einer Handvoll zentraler Akteure, die die Parameter kontrollieren, und einem Netzwerk ohne bewiesene Belastbarkeit.
 
@@ -142,6 +142,7 @@ Die Parallele zur Internet-S-Kurve trägt, wenn man annimmt, dass Bitcoin als Ge
 
 - [[der-bitcoin-standard|Der Bitcoin-Standard (Saifedean Ammous)]] ← Buch
 - [[origins-of-money|On the Origins of Money (Carl Menger)]] ← Buch
+- [[bitcoin-treasury-companies]]
 
 ## Open Questions
 

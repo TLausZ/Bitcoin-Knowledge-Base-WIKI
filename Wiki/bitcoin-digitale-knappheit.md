@@ -37,7 +37,7 @@ Tomer Strolight nähert sich demselben Gedanken von einer anderen Seite: Was bed
 
 Konventionelle Antworten spekulieren über verlorene Keys, über Satoshis Tod, über strategisches Halten. Strolight bietet eine andere Lesart: Satoshi hat diese Bitcoin absichtlich unberührt gelassen — nicht aus Vergessen, sondern als Beweis. Die unberührte Million demonstriert, dass Bitcoin "reines Geld" ist. Es gibt keine Autorität, die Satoshi zwingen könnte, diese Bitcoin zu bewegen. Es gibt kein Gegenparteirisiko, das ihn dazu bringen könnte, sie zu verkaufen. Das Geld sitzt dort, weil es dort sitzen kann — weil Bitcoin ein System ist, in dem Geld wirklich dir gehört, wenn du die Keys hast.
 
-Das Monument ist nicht symbolisch gemeint: Es ist der grösste bekannte UTXO auf der Bitcoin-Blockchain, sichtbar für jeden, verifizierbar durch jeden, unerreichbar für jeden außer dem Inhaber des Private Keys. Kein Fiat-System kann das nachbilden. [[aprycot-legendaerer-schatz-satoshi-nakamoto]]
+Das Monument ist nicht symbolisch gemeint: Es ist der grösste bekannte UTXO auf der Bitcoin-Blockchain, sichtbar für jeden, verifizierbar durch jeden, unerreichbar für jeden ausser dem Inhaber des Private Keys. Kein Fiat-System kann das nachbilden. [[aprycot-legendaerer-schatz-satoshi-nakamoto]]
 
 ### Reine Geldtheorie
 
@@ -60,5 +60,5 @@ Die spirituelle Dimension, die Strolight beschreibt, folgt aus dieser Reinheit: 
 ## Open Questions
 
 - Hat Satoshi je öffentlich erklärt, warum die frühen Coins nie bewegt wurden?
-- Gibt es andere physisch fundierte digitale Knappheitssysteme außer Bitcoin?
+- Gibt es andere physisch fundierte digitale Knappheitssysteme ausser Bitcoin?
 - Wie verändert Taproot (key-path vs. script-path) die Sichtbarkeit alter Satoshi-UTXOs?

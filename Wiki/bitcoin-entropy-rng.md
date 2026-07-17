@@ -21,7 +21,7 @@ Radioaktiver Zerfall hingegen ist nach aktuellem physikalischem Verständnis int
 
 Alex Waltz extrahierte Americium-241 aus einem Rauchmelder (Halbwertszeit 432,2 Jahre) und verbannte es mit einem Geigerzähler und einem Raspberry Pi. Der Geigerzähler produziert bei jedem detektierten Teilchen einen Piepton; die Zeitabstände zwischen diesen Tönen sind das eigentliche Zufallssignal.
 
-Für ein Bit Entropie werden vier aufeinanderfolgende Partikel gemessen: Ist die Zeit zwischen Partikel 1 und 2 größer als zwischen 3 und 4, ergibt das eine `1` — sonst eine `0`. Sind beide Abstände gleich, wird das Paar verworfen (von-Neumann-Debias). Ein Python-Skript verarbeitet die Daten direkt zu BIP39-Seeds.
+Für ein Bit Entropie werden vier aufeinanderfolgende Partikel gemessen: Ist die Zeit zwischen Partikel 1 und 2 grösser als zwischen 3 und 4, ergibt das eine `1` — sonst eine `0`. Sind beide Abstände gleich, wird das Paar verworfen (von-Neumann-Debias). Ein Python-Skript verarbeitet die Daten direkt zu BIP39-Seeds.
 
 Praktisch: ~6 Partikelzerfälle pro Sekunde → ~2,8 Minuten für einen 24-Wort-BIP39-Seed.
 

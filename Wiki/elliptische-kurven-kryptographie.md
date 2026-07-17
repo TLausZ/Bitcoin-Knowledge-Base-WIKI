@@ -13,7 +13,7 @@ Bitcoin verwendet zwei kryptografische Werkzeuge: Hash-Funktionen (SHA-256, RIPE
 
 ### Hash-Funktionen in Bitcoin
 
-Eine Hash-Funktion erzeugt einen "Fingerabdruck" für beliebige Daten — immer gleich groß, einzigartig pro Eingabe, nicht umkehrbar.
+Eine Hash-Funktion erzeugt einen "Fingerabdruck" für beliebige Daten — immer gleich gross, einzigartig pro Eingabe, nicht umkehrbar.
 
 Bitcoin verwendet:
 - **SHA-256** (2001): Primäre Hash-Funktion. Überall in Bitcoin: TXIDs, Block-Hashes, Mining-Basis.

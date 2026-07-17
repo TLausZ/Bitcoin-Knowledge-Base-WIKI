@@ -13,11 +13,11 @@ Das Argument für Bitcoin als Inflationsschutz beruht auf zwei unterschiedlichen
 
 ### Inflation als willkürliche Enteignung
 
-John Maynard Keynes beschrieb den Mechanismus bereits 1919 klarer als die meisten seiner Nachfolger: „Durch einen fortlaufenden Prozess der Inflation können Regierungen heimlich und unbeobachtet einen großen Teil des Reichtums ihrer Bürger konfiszieren. Mit dieser Methode konfiszieren sie nicht nur, sondern sie konfiszieren willkürlich; und während der Prozess viele verarmt, bereichert er tatsächlich einige wenige." [[aprycot-keynes-ueber-inflation]]
+John Maynard Keynes beschrieb den Mechanismus bereits 1919 klarer als die meisten seiner Nachfolger: „Durch einen fortlaufenden Prozess der Inflation können Regierungen heimlich und unbeobachtet einen grossen Teil des Reichtums ihrer Bürger konfiszieren. Mit dieser Methode konfiszieren sie nicht nur, sondern sie konfiszieren willkürlich; und während der Prozess viele verarmt, bereichert er tatsächlich einige wenige." [[aprycot-keynes-ueber-inflation]]
 
 Das Argument der Willkürlichkeit ist entscheidend. Eine Steuer ist offen — sie kann politisch angefochten werden. Inflation ist versteckt, diffus, ohne klares Subjekt, das man verantwortlich machen könnte. Keynes zitiert Lenin, der diesen Mechanismus als das sicherste Mittel bezeichnete, die kapitalistische Gesellschaftsordnung zu unterminieren. Der Verfall des Geldwerts erschüttert nicht nur Kaufkraft, sondern das Vertrauen in Verträge, Eigentumsrechte und wirtschaftliche Planung.
 
-Keynes beobachtete außerdem: Die sichtbaren "Profiteure" — Händler mit Lagerbeständen, Eigentümer von Sachwerten — sind Folge der Inflation, nicht ihre Ursache. Wer sie als Schuldige benennt, lenkt Volkszorn auf Symptome, während der eigentliche Mechanismus — staatliche Geldschöpfung — politisch unangreifbar bleibt. [[aprycot-keynes-ueber-inflation]]
+Keynes beobachtete ausserdem: Die sichtbaren "Profiteure" — Händler mit Lagerbeständen, Eigentümer von Sachwerten — sind Folge der Inflation, nicht ihre Ursache. Wer sie als Schuldige benennt, lenkt Volkszorn auf Symptome, während der eigentliche Mechanismus — staatliche Geldschöpfung — politisch unangreifbar bleibt. [[aprycot-keynes-ueber-inflation]]
 
 ### Das strukturelle Problem mit Fiat
 
@@ -83,6 +83,7 @@ Weinhold beschreibt Fiat als "Virus" — ein System, das nicht durch Mehrwert, s
 - [[bitcoin-mining-netz-und-oekonomie]]
 
 - [[der-bitcoin-standard|Der Bitcoin-Standard (Saifedean Ammous)]] ← Buch
+- [[bitcoin-treasury-companies]]
 
 ## Open Questions
 

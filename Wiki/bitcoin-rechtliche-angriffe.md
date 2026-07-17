@@ -23,7 +23,7 @@ Patent-Trolle können versuchen, Bitcoins Offenheit einzuschränken. Staaten ode
 
 **Craig Wright** behauptet seit Jahren, er sei Satoshi Nakamoto — die Behauptung wurde vielfach widerlegt, ändert aber nichts an seiner Bereitschaft, zu klagen. Seine Strategie: nicht gewinnen, sondern erschöpfen.
 
-2019 setzte Wright ein Kopfgeld für die Enttarnung der echten Identität des pseudonymen Bitcoiners **@Hodlonaut** aus, der ihn als "Betrüger" bezeichnet hatte. Ein Privatdetektiv machte Hodlonauts Arbeitsplatz ausfindig. Wright klagte anschließend in Großbritannien.
+2019 setzte Wright ein Kopfgeld für die Enttarnung der echten Identität des pseudonymen Bitcoiners **@Hodlonaut** aus, der ihn als "Betrüger" bezeichnet hatte. Ein Privatdetektiv machte Hodlonauts Arbeitsplatz ausfindig. Wright klagte anschliessend in Grossbritannien.
 
 Hodlonaut reagierte offensiv: Er reichte seinerseits in **Norwegen** Klage ein, um gerichtlich feststellen zu lassen, dass seine Tweets von der Wahrheit und der Meinungsfreiheit gedeckt waren. Der Prozess begann am 12. September 2022 in Oslo.
 
@@ -39,7 +39,7 @@ Die Logik dahinter: Wenn die Community Verteidigungskosten kollektiv trägt, sin
 
 ### Das systemische Bild
 
-Rechtsangriffe auf Bitcoin-Beteiligte folgen einem Muster: hohe Schäden für das Ziel, geringe Kosten für den Angreifer — besonders in Rechtssystemen, wo der Verlierer nicht automatisch die gegnerischen Anwaltskosten trägt. Das erklärt, warum Wright in Großbritannien klagte (wo Verleumdungsklagen besonders belastend sind) und warum Hodlonaut sich das Gerichtsstandort-Privileg durch eine offensive Klage in Norwegen zurückeroberte.
+Rechtsangriffe auf Bitcoin-Beteiligte folgen einem Muster: hohe Schäden für das Ziel, geringe Kosten für den Angreifer — besonders in Rechtssystemen, wo der Verlierer nicht automatisch die gegnerischen Anwaltskosten trägt. Das erklärt, warum Wright in Grossbritannien klagte (wo Verleumdungsklagen besonders belastend sind) und warum Hodlonaut sich das Gerichtsstandort-Privileg durch eine offensive Klage in Norwegen zurückeroberte.
 
 ## Related
 

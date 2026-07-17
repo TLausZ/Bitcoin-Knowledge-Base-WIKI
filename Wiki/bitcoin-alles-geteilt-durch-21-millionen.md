@@ -29,7 +29,7 @@ Svanholm erzählt die Geldgeschichte als Abfolge von Lösungen, die neue Problem
 
 ### Das Cantillon-Problem
 
-Richard Cantillon (18. Jahrhundert) beschrieb einen Effekt, der heute seinen Namen trägt: Neues Geld, das in die Wirtschaft gepumpt wird, kommt nicht gleichmäßig bei allen an. Die ersten Empfänger (Banken, Staatsnahe, Großunternehmen) können Güter zu noch alten Preisen kaufen, bevor die Inflation die Preise erhöht. Die letzten Empfänger (Lohnarbeiter, kleine Sparer) bekommen das neue Geld erst, wenn die Preise bereits gestiegen sind. Inflation ist deshalb eine regressive Umverteilung von unten nach oben, keine gleichmäßige Steuer.
+Richard Cantillon (18. Jahrhundert) beschrieb einen Effekt, der heute seinen Namen trägt: Neues Geld, das in die Wirtschaft gepumpt wird, kommt nicht gleichmässig bei allen an. Die ersten Empfänger (Banken, Staatsnahe, Grossunternehmen) können Güter zu noch alten Preisen kaufen, bevor die Inflation die Preise erhöht. Die letzten Empfänger (Lohnarbeiter, kleine Sparer) bekommen das neue Geld erst, wenn die Preise bereits gestiegen sind. Inflation ist deshalb eine regressive Umverteilung von unten nach oben, keine gleichmässige Steuer.
 
 Das erklärt, warum "Geldverdienen" im Fiat-System zur Hauptbeschäftigung wurde: Es geht nicht mehr darum, Wert für andere zu schaffen, sondern darum, den Cantillon-Effekt zu überholen — Vermögenswerte zu kaufen, bevor das neue Geld die Preise erhöht.
 
@@ -76,7 +76,7 @@ Was Bitcoin von anderen Memen unterscheidet: Es ist verifizierbar, kann nicht ko
 
 Betrachtung durch eine libertäre Linse: Wer zu 100% versklavt ist, gibt alle Früchte seiner Arbeit ab. Bei 0% gibt er nichts ab. Wo liegt der Durchschnittsbürger?
 
-Einkommensteuer ist nur der Anfang. Dazu kommen Lohnnebenkosten des Arbeitgebers (die letztlich der Arbeitnehmer trägt), Mehrwertsteuer auf jeden Kauf, Steuern auf alle Güter auf dem Weg der Lieferkette, Erbschafts-, Kapitalertrags- und Vermögenssteuern. Dann Inflation — "die heimtückischste Steuer" — die Kaufkraft entzieht, ohne je in einer Steuererklärung aufzutauchen. Der Löwenanteil neu geschaffener Geldmenge fließt in Luxusgüter (Kunst, Immobilien in Toplagen), bevor er in Löhne sickert. Arme tragen proportional mehr von den Kosten der Inflation als Reiche.
+Einkommensteuer ist nur der Anfang. Dazu kommen Lohnnebenkosten des Arbeitgebers (die letztlich der Arbeitnehmer trägt), Mehrwertsteuer auf jeden Kauf, Steuern auf alle Güter auf dem Weg der Lieferkette, Erbschafts-, Kapitalertrags- und Vermögenssteuern. Dann Inflation — "die heimtückischste Steuer" — die Kaufkraft entzieht, ohne je in einer Steuererklärung aufzutauchen. Der Löwenanteil neu geschaffener Geldmenge fliesst in Luxusgüter (Kunst, Immobilien in Toplagen), bevor er in Löhne sickert. Arme tragen proportional mehr von den Kosten der Inflation als Reiche.
 
 Svanholm: Bitcoin ist der Austritt aus diesem System — nicht als politisches Statement, sondern als individuelle Entscheidung, eigene Zeit wieder als eigene Zeit zu behandeln. [[2022_Bitcoin-Everything-Divided-by-21-Million_Svanholm]]
 

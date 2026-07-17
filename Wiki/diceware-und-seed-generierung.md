@@ -15,7 +15,7 @@ Wer seinem Hardware-Wallet bezüglich Zufallszahlengenerierung nicht blind vertr
 
 Ein gut konzipiertes Hardware-Wallet nutzt mehrere unabhängige Entropiequellen (bei der BitBox02 fünf), sodass eine einzelne kompromittierte Quelle nichts ausmacht. Die Open-Source-Firmware ermöglicht externe Überprüfung. Für die meisten Nutzer ist das ausreichend.
 
-Das Würfeln ist dennoch kein Overkill: Wer selbst würfelt, muss der Hardware-Wallet in Bezug auf Zufälligkeit gar nicht vertrauen. Der Prozess ist außerdem transparent und von jedem nachvollziehbar.
+Das Würfeln ist dennoch kein Overkill: Wer selbst würfelt, muss der Hardware-Wallet in Bezug auf Zufälligkeit gar nicht vertrauen. Der Prozess ist ausserdem transparent und von jedem nachvollziehbar.
 
 Was Diceware nicht ersetzt: ein sicheres Gerät zum Signieren von Transaktionen. Selbst ein perfekter Seed nützt nichts, wenn der private Schlüssel später auf einem unsicheren Computer landet.
 
@@ -40,7 +40,7 @@ Die BitBox02 löst das: Man gibt die ersten 23 Wörter ein, das Gerät zeigt all
 
 ### Sicherheitsvorkehrungen
 
-Vor dem Start: Alle elektronischen Geräte ausschalten, Mobiltelefon weglegen. Wörter nicht laut aussprechen. Nichts auf der Wörtertabelle markieren. Wörter ausschließlich auf die Backup-Karte schreiben — kein digitales Gerät außer der BitBox02 darf je damit in Kontakt kommen.
+Vor dem Start: Alle elektronischen Geräte ausschalten, Mobiltelefon weglegen. Wörter nicht laut aussprechen. Nichts auf der Wörtertabelle markieren. Wörter ausschliesslich auf die Backup-Karte schreiben — kein digitales Gerät ausser der BitBox02 darf je damit in Kontakt kommen.
 
 ### Würfelmethode (Schritt für Schritt)
 
@@ -58,7 +58,7 @@ Falls die BitBox02 bereits eingerichtet ist: Aktuelles Backup verifizieren, dann
 
 ### Backup verifizieren
 
-Nach dem Setup sofort verifizieren: In der BitBoxApp "Gerät verwalten → Recovery-Wörter anzeigen". Das Gerät zeigt alle 24 Wörter und stellt anschließend Auswahl-Quizfragen. Wenn die Backup-Karte korrekt ist, besteht der Test ohne Warnungen.
+Nach dem Setup sofort verifizieren: In der BitBoxApp "Gerät verwalten → Recovery-Wörter anzeigen". Das Gerät zeigt alle 24 Wörter und stellt anschliessend Auswahl-Quizfragen. Wenn die Backup-Karte korrekt ist, besteht der Test ohne Warnungen.
 
 ### Kompatibilität
 

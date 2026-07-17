@@ -7,7 +7,7 @@
 
 ## Summary
 
-Robert Breedlove entwickelt in „Die Philosophie des Maximalismus der Freiheit" (2021) eine apriorische Begründung von Selbsteigentum als axiomatischer Wahrheit: Jeder Mensch gehört sich selbst — nicht weil ein Gesetz es so sagt, sondern weil das Gegenteil sich selbst widerlegt. Daraus leitet er die drei Grundsätze des Naturrechts ab (Leben, Freiheit, Eigentum nach Bastiat und Locke), erklärt, warum Fiat-Inflation diese Grundsätze verletzt, und identifiziert Bitcoin als technische Realisierung von unveräußerlichem Eigentum — das erste Geld, das nicht entwertet oder konfisziert werden kann.
+Robert Breedlove entwickelt in „Die Philosophie des Maximalismus der Freiheit" (2021) eine apriorische Begründung von Selbsteigentum als axiomatischer Wahrheit: Jeder Mensch gehört sich selbst — nicht weil ein Gesetz es so sagt, sondern weil das Gegenteil sich selbst widerlegt. Daraus leitet er die drei Grundsätze des Naturrechts ab (Leben, Freiheit, Eigentum nach Bastiat und Locke), erklärt, warum Fiat-Inflation diese Grundsätze verletzt, und identifiziert Bitcoin als technische Realisierung von unveräusserlichem Eigentum — das erste Geld, das nicht entwertet oder konfisziert werden kann.
 
 ## Body
 
@@ -15,7 +15,7 @@ Robert Breedlove entwickelt in „Die Philosophie des Maximalismus der Freiheit"
 
 „Jeder Mensch gehört sich selbst." Das ist nach Breedlove keine moralische Forderung, sondern eine apriorische Wahrheit — sie ist wahr, bevor man sie empirisch prüft. Die Behauptung, Selbsteigentum existiere nicht, ist bereits ein Ausdruck von Selbsteigentum (jemand macht eine Behauptung) und widerlegt sich damit selbst. Wer seinen linken Arm bewegen will, bewegt ihn — das tut niemand sonst.
 
-Breedlove unterscheidet apriori (rational ableitbar aus Grundsätzen) von empirisch (durch Experimente zu prüfen). Rationalism erklärt *wie wir sehen*, Empirismus *was wir sehen*. Selbsteigentum ist apriori, wie 2+2=4. Das individuelle Selbsteigentum ist unveräußerlich: Man kann seine Arbeitskraft verkaufen, nicht aber seinen Willen. Rothbard in „The Ethics of Liberty": Man kann sich nicht in die Sklaverei verkaufen, weil das zukünftigen Willen vorab aufgäbe. [[aprycot-breedlove-philosophie-maximalismus-freiheit.md]]
+Breedlove unterscheidet apriori (rational ableitbar aus Grundsätzen) von empirisch (durch Experimente zu prüfen). Rationalism erklärt *wie wir sehen*, Empirismus *was wir sehen*. Selbsteigentum ist apriori, wie 2+2=4. Das individuelle Selbsteigentum ist unveräusserlich: Man kann seine Arbeitskraft verkaufen, nicht aber seinen Willen. Rothbard in „The Ethics of Liberty": Man kann sich nicht in die Sklaverei verkaufen, weil das zukünftigen Willen vorab aufgäbe. [[aprycot-breedlove-philosophie-maximalismus-freiheit.md]]
 
 ### Zeitpräferenz und intertemporale Existenz
 
@@ -40,9 +40,9 @@ Die Wahrung von Eigentumsrechten ist die einzige Möglichkeit, Zivilisation vor 
 
 ### Bitcoin als Realisierung von Naturrecht
 
-Breedlove sieht Bitcoin als „höchste Manifestation des Naturrechts": unveräußerliches, nicht entwertbares, nicht konfiszierbares Eigentum, das Satoshi Nakamoto 2009 der Welt geschenkt hat. Wer seinen Schlüssel kennt, kann niemand enteignen — nicht per Inflation, nicht per Gesetz, nicht per Krieg.
+Breedlove sieht Bitcoin als „höchste Manifestation des Naturrechts": unveräusserliches, nicht entwertbares, nicht konfiszierbares Eigentum, das Satoshi Nakamoto 2009 der Welt geschenkt hat. Wer seinen Schlüssel kennt, kann niemand enteignen — nicht per Inflation, nicht per Gesetz, nicht per Krieg.
 
-Damit schließt Bitcoin die Lücke zwischen dem philosophischen Anspruch des Naturrechts (Eigentum ist unveräußerlich) und der praktischen Wirklichkeit (alle bisherigen Formen von Eigentum konnten konfisziert oder entwertet werden). Der Maximalismus der Freiheit — maximale individuelle Freiheit = maximaler gesellschaftlicher Wohlstand — ist ohne unveräußerliches Eigentum nach Breedlove praktisch nicht erreichbar. [[aprycot-breedlove-philosophie-maximalismus-freiheit.md]]
+Damit schliesst Bitcoin die Lücke zwischen dem philosophischen Anspruch des Naturrechts (Eigentum ist unveräusserlich) und der praktischen Wirklichkeit (alle bisherigen Formen von Eigentum konnten konfisziert oder entwertet werden). Der Maximalismus der Freiheit — maximale individuelle Freiheit = maximaler gesellschaftlicher Wohlstand — ist ohne unveräusserliches Eigentum nach Breedlove praktisch nicht erreichbar. [[aprycot-breedlove-philosophie-maximalismus-freiheit.md]]
 
 ## Related
 

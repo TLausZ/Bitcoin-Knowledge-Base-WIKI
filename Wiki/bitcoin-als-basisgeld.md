@@ -33,7 +33,7 @@ Lewis argumentiert, dass das die eigentliche gesellschaftliche Implikation von B
 
 Das Argument hat eine klare Implikation für Prioritäten: Solange das Fundament kaputt ist, nützt Suprastruktur wenig. Programme, die Wohnraum oder Bildung finanzieren, tun gut — aber wenn die Finanzierung durch Inflation erkauft wird, belasten sie dieselben Menschen, die sie entlasten sollen.
 
-Dieser Gedanke verbindet sich mit dem österreichischen Wirtschaftsdenken: Kapitalakkumulation und Wohlstand entstehen nicht durch Umverteilung vorhandener Werte, sondern durch Ersparnisse, die in produktive Investitionen fließen. Kaputtes Geld zerstört den Anreiz zum Sparen und damit den Mechanismus der Kapitalbildung, von dem Wohlstand für alle abhängt. [[aprycot-parker-lewis-bitcoin-ist-einer-fuer-alle]]
+Dieser Gedanke verbindet sich mit dem österreichischen Wirtschaftsdenken: Kapitalakkumulation und Wohlstand entstehen nicht durch Umverteilung vorhandener Werte, sondern durch Ersparnisse, die in produktive Investitionen fliessen. Kaputtes Geld zerstört den Anreiz zum Sparen und damit den Mechanismus der Kapitalbildung, von dem Wohlstand für alle abhängt. [[aprycot-parker-lewis-bitcoin-ist-einer-fuer-alle]]
 
 ### Die Cantillon'sche Oligarchie und die politische Linke (Tom Maxwell)
 

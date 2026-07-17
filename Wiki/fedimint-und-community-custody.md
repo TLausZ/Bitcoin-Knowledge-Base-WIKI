@@ -35,7 +35,7 @@ In der Praxis zahlt eine Nutzerin BTC in ihr Fedimint ein, erhält E-Cash-Token 
 
 Matt Odell beschreibt Fedimint als "Signal für Bitcoin": Signal hat Kompromisse (Telefonnummerpflicht, keine eigenen Server), bietet aber Datenschutz für Dutzende Millionen Nutzer, die sonst auf unverschlüsselte Messenger setzen würden. Fedimint macht denselben Kompromiss: weniger Selbstverwahrung als eine Hardware-Wallet, aber massiv besser als Binance oder Coinbase.
 
-Sirion formuliert den Zielmarkt klar: "Wenn Sie Ihre eigene Hardware-Wallet verwenden und Ihren eigenen Lightning-Knoten betreiben, dann sind Fedimints vielleicht nichts für Sie. Der eigentliche Zielmarkt ist die viel größere Gruppe von Menschen, die vollständig KYC-geprüfte, verwahrte Lösungen verwenden."
+Sirion formuliert den Zielmarkt klar: "Wenn Sie Ihre eigene Hardware-Wallet verwenden und Ihren eigenen Lightning-Knoten betreiben, dann sind Fedimints vielleicht nichts für Sie. Der eigentliche Zielmarkt ist die viel grössere Gruppe von Menschen, die vollständig KYC-geprüfte, verwahrte Lösungen verwenden."
 
 ### Risiken
 
@@ -43,7 +43,7 @@ Sirion benennt die wesentlichen Gefahren offen. Ein unkontrolliert wachsendes Fe
 
 Regulatorisch bleibt offen, ob Fedimint-Hüter in westlichen Rechtssystemen als Geldtransporteure gelten und KYC/AML-Pflichten unterliegen. In autoritären Regimen, wo Bitcoin-Nutzung oft schon verboten ist, stellt das kein zusätzliches Risiko dar.
 
-Kritiker wie Muun-Gründer Dario Sneidermanis sehen in großen Fedimints dieselben Schwachstellen wie bei Börsen: rechtliche Haftung, Sicherheitsrisiken durch konzentrierte Gelder, operative Anforderungen. Ob der Fedimint-Ansatz diese Probleme wirklich löst oder nur verschiebt, wird sich in der Praxis zeigen.
+Kritiker wie Muun-Gründer Dario Sneidermanis sehen in grossen Fedimints dieselben Schwachstellen wie bei Börsen: rechtliche Haftung, Sicherheitsrisiken durch konzentrierte Gelder, operative Anforderungen. Ob der Fedimint-Ansatz diese Probleme wirklich löst oder nur verschiebt, wird sich in der Praxis zeigen.
 
 ### Stand 2022
 
@@ -62,4 +62,4 @@ Nwosu, Sirion und Justin Moon gründeten Fedi, ein Unternehmen für die erste mo
 
 - Wie hat sich Fedimint seit 2022 entwickelt? Gibt es live-Deployments in Schwellenländern?
 - Wie verhält sich Fedimint zu Ark (einem anderen Community-Custody-Ansatz, der 2023 angekündigt wurde)?
-- Löst Fedimint das UTXO-Knappheitsproblem für Milliarden von Nutzern, oder entstehen neue Zentralisierungsrisiken durch große Gateways?
+- Löst Fedimint das UTXO-Knappheitsproblem für Milliarden von Nutzern, oder entstehen neue Zentralisierungsrisiken durch grosse Gateways?

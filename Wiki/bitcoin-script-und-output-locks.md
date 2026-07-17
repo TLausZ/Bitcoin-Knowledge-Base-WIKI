@@ -151,10 +151,10 @@ ScriptPubKey:  OP_1 <32-byte-tweaked-pubkey>  (hex: 5120...)
 
 Adressformat: `bc1p...` (Bech32m, 62 Zeichen).
 
-- **Key Path:** Witness enthält eine einzelne Schnorr-Signatur. Sieht von außen wie jede andere Zahlung aus.
+- **Key Path:** Witness enthält eine einzelne Schnorr-Signatur. Sieht von aussen wie jede andere Zahlung aus.
 - **Script Path:** Witness enthält Script-Inputs + Leaf-Script + Control-Block (Merkle-Proof).
 
-Taproot gibt maximale Privacy: Man sieht von außen nicht, ob und welche Scripts verfügbar wären. → [[taproot-musig2-frost]]
+Taproot gibt maximale Privacy: Man sieht von aussen nicht, ob und welche Scripts verfügbar wären. → [[taproot-musig2-frost]]
 
 ### Verschachtelte SegWit-Typen (Übergangsformat)
 
@@ -167,9 +167,9 @@ Taproot gibt maximale Privacy: Man sieht von außen nicht, ob und welche Scripts
 Nodes relayieren nur Standard-Scripts (oben beschrieben). Custom Scripts können gemint werden, werden aber nicht von Nodes weitergeleitet — man müsste sie direkt an einen Miner übermitteln.
 
 **Limits für Valid Scripts:**
-- Max. Script-Größe: 10.000 Bytes
+- Max. Script-Grösse: 10.000 Bytes
 - Max. Anzahl Opcodes: 201
-- Max. Element-Größe: 520 Bytes
+- Max. Element-Grösse: 520 Bytes
 - Max. Stack-Elemente: 1.000
 
 **Standardness-Limits (Relay):**

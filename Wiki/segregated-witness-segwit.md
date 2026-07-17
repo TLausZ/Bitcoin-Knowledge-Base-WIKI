@@ -17,7 +17,7 @@ Vor SegWit war die Transaction-ID (txid) ein Hash aller Transaktionsdaten inklus
 
 ### Die SegWit-Lösung
 
-SegWit trennt den Witness (Signaturen, Scripts) vom Transaktionskörper. Die txid wird nur aus den nicht-Witness-Daten berechnet — sie ist damit nicht mehr durch Signatur-Änderungen veränderbar. Zusätzlich gibt es eine neue `wtxid` (Witness Transaction ID), die alle Daten einschließt.
+SegWit trennt den Witness (Signaturen, Scripts) vom Transaktionskörper. Die txid wird nur aus den nicht-Witness-Daten berechnet — sie ist damit nicht mehr durch Signatur-Änderungen veränderbar. Zusätzlich gibt es eine neue `wtxid` (Witness Transaction ID), die alle Daten einschliesst.
 
 **Commitment:** Der Witness-Merkle-Root wird in der Coinbase-Transaktion per OP_RETURN verankert — kompatibel als Soft Fork, da alte Nodes diesen Commitment ignorieren.
 
@@ -39,9 +39,9 @@ Witness-Daten werden effektiv mit einem Discount von 75% gewertet (1 Weight Unit
 
 ### Quadratisches Hashing-Problem (O(n²))
 
-SegWit löst neben Malleability ein zweites Problem, das bei großen Transaktionen kritisch wurde (Rosenbaum, Kap. 10):
+SegWit löst neben Malleability ein zweites Problem, das bei grossen Transaktionen kritisch wurde (Rosenbaum, Kap. 10):
 
-Das Legacy-Signaturverfahren hasht für jeden Input die gesamte Transaktion. Bei einer Transaktion mit n Inputs wird die Transaktion also n-mal gehasht — bei Transaktion mit 100 Inputs wird dieselbe Datenmenge 100-mal durchgearbeitet. Die Gesamtarbeit steigt quadratisch: O(n²). Ein Angreifer kann eine große Transaktion mit vielen Inputs erzeugen, die Nodes für die Validierung unverhältnismäßig viel Zeit kostet.
+Das Legacy-Signaturverfahren hasht für jeden Input die gesamte Transaktion. Bei einer Transaktion mit n Inputs wird die Transaktion also n-mal gehasht — bei Transaktion mit 100 Inputs wird dieselbe Datenmenge 100-mal durchgearbeitet. Die Gesamtarbeit steigt quadratisch: O(n²). Ein Angreifer kann eine grosse Transaktion mit vielen Inputs erzeugen, die Nodes für die Validierung unverhältnismässig viel Zeit kostet.
 
 SegWit (BIP143) führt ein neues Signature-Hashing-Verfahren ein, das jede Transaktion nur einmal hasht und die relevanten Teile pro Input effizient extrahiert. Die Validierungsarbeit wird linear: O(n). Das macht SegWit-Transaktionen nicht nur kleiner, sondern auch schneller zu validieren. [[2018_Grokking-Bitcoin_Rosenbaum]]
 

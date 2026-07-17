@@ -13,7 +13,7 @@ Der Chainwork ist die Summe des erwarteten Proof-of-Work für alle Blöcke in de
 
 ### Was Chainwork bedeutet
 
-Die Formulierung „längste Kette gewinnt" aus dem ursprünglichen Whitepaper war ungenau. Bitcoin folgt tatsächlich der Kette mit dem meisten kumulativen Proof-of-Work — nicht der mit den meisten Blöcken. Chainwork ist diese Messgröße: die Summe der erwarteten Hashes über alle Blöcke.
+Die Formulierung „längste Kette gewinnt" aus dem ursprünglichen Whitepaper war ungenau. Bitcoin folgt tatsächlich der Kette mit dem meisten kumulativen Proof-of-Work — nicht der mit den meisten Blöcken. Chainwork ist diese Messgrösse: die Summe der erwarteten Hashes über alle Blöcke.
 
 „Erwartet" deswegen, weil Mining stochastisch ist. Man weiss nicht, wie viele Hashes ein Miner tatsächlich berechnet hat, um einen Block zu finden. Man weiss nur, wie schwer es war (Difficulty × Anzahl Blöcke) — und daraus lässt sich der statistische Erwartungswert berechnen.
 

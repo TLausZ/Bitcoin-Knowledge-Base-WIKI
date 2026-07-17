@@ -1,9 +1,9 @@
 # Makro: Zinskurve, Fed-Pivot und Rezessionssignale
 
-**Status:** emerging
+**Status:** established
 **Themen:** oekonomie
-**Last updated:** 2026-07-07
-**Sources:** [[20221213_bmi-invertierte-zinskurven-de]], [[20230124_bmi-ausgabe-19-preiserholung-fed-pivot-de]], [[20230124_bmi-issue-19-price-recovery-fed-pivot-en]]
+**Last updated:** 2026-07-17
+**Sources:** [[20221213_bmi-invertierte-zinskurven-de]], [[20230124_bmi-ausgabe-19-preiserholung-fed-pivot-de]], [[20230124_bmi-issue-19-price-recovery-fed-pivot-en]], [[2024-10-24_Top-Tier Investment Strategist Lyn Alden - I don't see a liquidity party for 2025]], [[2024-12-19_Financial Liquidity Expert - We are not risk off yet, but there are major headwinds for 20]], [[2025-03-13_Systematic macro researcher - All an investor needs to think about is growth, inflation an]], [[2025-03-31_Chief Crypto Analyst - It’s time to retire the term QE This is what the Fed is going to do]], [[2025-04-07_Upcoming macro analyst - Global M2 money supply is not a measure for global liquidity]], [[2025-04-14_Macro investor - US bond markets are a signaling a crisis in confidence]]
 
 ## Summary
 
@@ -35,6 +35,14 @@ Im Januar 2023 war Bitcoin um fast 40 % gestiegen und hatte die FTX-Verluste aus
 
 Die mögliche Bitcoin-Pointe: Ein Fed-Pivot kurz vor dem Halving April/Mai 2024 wäre ein günstiges Timing gewesen — Wüstenfeld formuliert das als Hypothese, nicht als Prognose.
 
+### Von Zinskurve zu Liquidität: die LNMS-Gäste (2024–2025)
+
+Wüstenfelds Rahmen (Zinskurve als Erwartungsspiegel) ergänzt Pascal Hüglis Less-Noise-More-Signal-Reihe um einen zweiten, liquiditätszentrierten Blick auf denselben Makro-Bitcoin-Zusammenhang. Die wiederkehrende These der Gäste: Nicht der Leitzins allein, sondern die globale Liquidität treibt Risikoassets und Bitcoin.
+
+Lyn Alden ordnet den Übergang von monetärer zu fiskalischer Dominanz ein — in einer Welt hoher Staatsdefizite bestimmt die Finanzpolitik die Liquidität stärker als die Fed — und beschreibt Bitcoin als «globalen Liquiditäts-Barometer»; für 2025 erwartet sie ausdrücklich keine «Liquiditätsparty». [[2024-10-24_Top-Tier Investment Strategist Lyn Alden - I don't see a liquidity party for 2025]] Michael Howell (CrossBorder Capital) verschiebt den Fokus von QE-Schlagzeilen auf Liquiditätszyklen und die «Maturity Wall»: Der Refinanzierungsbedarf auslaufender Schulden zwinge zu fortgesetzter «Stealth QE», unabhängig von der offiziellen Politik. [[2024-12-19_Financial Liquidity Expert - We are not risk off yet, but there are major headwinds for 20]] Jamie Coutts will den Begriff QE ganz «in Rente schicken» und liest die Dollarstärke als dominanten kurzfristigen Treiber. [[2025-03-31_Chief Crypto Analyst - It’s time to retire the term QE This is what the Fed is going to do]]
+
+Die methodisch schärfste Ergänzung liefert Joe Consorti (The Bitcoin Layer): Global M2 sei als Liquiditätsmass irreführend; besser sei ein asset-backed Rahmen, der Kreditbildung und Sicherheitenwerte erfasst. Er verbindet das mit QT und der Fed-Bilanzstrategie. [[2025-04-07_Upcoming macro analyst - Global M2 money supply is not a measure for global liquidity]] Aahan Menon reduziert die Analyse auf drei Grössen — Wachstum, Inflation, Liquidität — und deren Wechselwirkung. [[2025-03-13_Systematic macro researcher - All an investor needs to think about is growth, inflation an]] Spencer Hakimian liest die Kombination aus steigenden Anleiherenditen und fallendem Dollar als Vertrauenskrise, mit dem Extremrisiko einer gescheiterten Staatsanleihen-Auktion — der direkte Gegenwart-Nachhall von Wüstenfelds Zinskurven-Warnung. [[2025-04-14_Macro investor - US bond markets are a signaling a crisis in confidence]] Die Gäste sind pro-Bitcoin positioniert und liegen als Podcast-Zusammenfassungen vor; Details und Gästeüberblick in [[bitcoin-marktkommentar-lnms]].
+
 ### Einordnung
 
 Beide Texte sind zeitgebundene Marktkommentare eines Ökonomen (Wüstenfeld promovierte damals in Volkswirtschaftslehre), keine gesicherten Prognosen; er betont selbst die hohe Unsicherheit für 2023. Der bleibende Wert liegt im methodischen Rahmen: Zinskurve als Erwartungsspiegel, lange Fed-Verzögerung, Pivot ≠ sofort bullisch. Dieser Rahmen verbindet Makro mit Bitcoins Zyklik (siehe [[bitcoin-powerlaw-und-preismodelle]] und [[bitcoin-volatilitaet-und-preisfindung]]).
@@ -46,9 +54,10 @@ Beide Texte sind zeitgebundene Marktkommentare eines Ökonomen (Wüstenfeld prom
 - [[bitcoin-powerlaw-und-preismodelle]]
 - [[bitcoin-volatilitaet-und-preisfindung]]
 - [[onchain-indikatoren-und-anlegerverhalten]]
+- [[bitcoin-marktkommentar-lnms]]
 
 ## Open Questions
 
 - Wie gut hielt Wüstenfelds Basisszenario (später Endzins, langes Halten) im Rückblick auf 2023–2024?
-- Ließ sich der Fed-Pivot tatsächlich zeitlich mit dem Halving 2024 in Deckung bringen, und wenn ja, mit welchem Preiseffekt?
+- Liess sich der Fed-Pivot tatsächlich zeitlich mit dem Halving 2024 in Deckung bringen, und wenn ja, mit welchem Preiseffekt?
 - Taugt der 10-2-Spread als Timing-Werkzeug für Bitcoin-Zyklen, oder ist die Verzögerung zu variabel?

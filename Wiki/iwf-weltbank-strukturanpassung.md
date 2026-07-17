@@ -25,13 +25,13 @@ Ein typisches Strukturanpassungsprogramm beinhaltet:
 - Liberalisierung des Kapitalverkehrs
 - Exportorientierung auf Kosten der lokalen Nahrungsmittelversorgung
 
-Die Programme heißen seit den 1990ern „Armutsbekämpfungsstrategie", aber die Auflagen sind dieselben geblieben.
+Die Programme heissen seit den 1990ern „Armutsbekämpfungsstrategie", aber die Auflagen sind dieselben geblieben.
 
 ### Netto-Kapitalfluss: Von Süd nach Nord
 
-Entgegen dem populären Bild der „Entwicklungshilfe" fließt seit 1982 Netto-Kapital aus armen in reiche Länder — rund 2 Billionen Dollar pro Jahr. Seit 1960 haben Entwicklungsländer netto etwa 62 Billionen Dollar an reiche Länder abgeliefert. Das entspricht 620 Marshallplänen in umgekehrter Richtung.
+Entgegen dem populären Bild der „Entwicklungshilfe" fliesst seit 1982 Netto-Kapital aus armen in reiche Länder — rund 2 Billionen Dollar pro Jahr. Seit 1960 haben Entwicklungsländer netto etwa 62 Billionen Dollar an reiche Länder abgeliefert. Das entspricht 620 Marshallplänen in umgekehrter Richtung.
 
-Bangladesch ist ein Beispiel: 1972 hatte das Land 145 Millionen Dollar Außenschulden. Nach zehn IWF-Strukturanpassungsprogrammen waren es 95,9 Milliarden Dollar. Die Schulden wuchsen trotz — oder wegen — der Anpassungsprogramme.
+Bangladesch ist ein Beispiel: 1972 hatte das Land 145 Millionen Dollar Aussenschulden. Nach zehn IWF-Strukturanpassungsprogrammen waren es 95,9 Milliarden Dollar. Die Schulden wuchsen trotz — oder wegen — der Anpassungsprogramme.
 
 ### Fallbeispiel Bangladesh: Garnelenexport statt Nahrungssicherheit
 
@@ -49,9 +49,9 @@ Die Korrelation zwischen Strukturanpassung und verschlechterter Kindergesundheit
 - In Brasilien stieg die Zahl der Unterernährten von 27 Mio. (1961) auf 86 Mio. (1985) — nach zehn Strukturanpassungsrunden
 - Forscher schätzen bis zu sechs Millionen Kindertodesfälle pro Jahr als Folge von Strukturanpassungen (1982–1994)
 
-### Das doppelte Maß
+### Das doppelte Mass
 
-Der IWF verbietet Mitgliedsländern, ihre Währungen an Gold zu binden — hält selbst aber 2.814 Tonnen Gold (90,5 Mio. Unzen). Als europäische Länder 2008 in die Krise gerieten, senkte der Westen die Zinsen und pumpte Geld ins System. Entwicklungsländer in vergleichbaren Krisen bekamen das Gegenteil verordnet: Sparmaßnahmen und neue Schulden.
+Der IWF verbietet Mitgliedsländern, ihre Währungen an Gold zu binden — hält selbst aber 2.814 Tonnen Gold (90,5 Mio. Unzen). Als europäische Länder 2008 in die Krise gerieten, senkte der Westen die Zinsen und pumpte Geld ins System. Entwicklungsländer in vergleichbaren Krisen bekamen das Gegenteil verordnet: Sparmassnahmen und neue Schulden.
 
 ### Der globale Cantillon-Effekt
 
@@ -75,9 +75,9 @@ Konkrete Argumente für Bitcoin als Ausweg:
 - **Kein IWF-Put**: In einem Bitcoin-Standard gibt es keine Zentralbank, die Diktatoren-Schulden monetarisiert. Uneinbringliche Kredite werden real verloren, was Kreditvergabe an unsolide Schuldner unattraktiv macht.
 - **Mining als Souveränität**: Länder können Wasser-, Solar- und Geothermalkraft direkt in Weltreservewährung umwandeln — ohne Genehmigung ausländischer Institutionen.
 - **Kein Währungsabwertungsrisiko**: Schulden in eigener abwertender Währung aufzunehmen, um sie in Dollar zurückzuzahlen, ist das Grundproblem. Bitcoin-Standard würde diese Asymmetrie beseitigen.
-- **Direkte Zahlungswege**: Kaffeebauern könnten Käufer direkt erreichen, ohne Exportmittler, die einen Großteil der Marge abschöpfen.
+- **Direkte Zahlungswege**: Kaffeebauern könnten Käufer direkt erreichen, ohne Exportmittler, die einen Grossteil der Marge abschöpfen.
 
-Nabourema: „Stell dir vor, dass wir in 10 oder 20 Jahren ein Stadium erreichen, in dem Bitcoin das globale Geld ist... Nur weil sie beschließen, ihre Zinssätze zu erhöhen, wird das nicht automatisch das Leben von Millionen von Menschen in unseren Ländern gefährden."
+Nabourema: „Stell dir vor, dass wir in 10 oder 20 Jahren ein Stadium erreichen, in dem Bitcoin das globale Geld ist... Nur weil sie beschliessen, ihre Zinssätze zu erhöhen, wird das nicht automatisch das Leben von Millionen von Menschen in unseren Ländern gefährden."
 
 ## Related
 

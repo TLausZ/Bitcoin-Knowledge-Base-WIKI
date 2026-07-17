@@ -13,7 +13,7 @@ Alex Gladstein rekonstruiert anhand von Michael Hudsons Buch „Super Imperialis
 
 ### Aufstieg Amerikas zur Gläubigernation
 
-Nach dem Ersten Weltkrieg besaßen die USA durch Waffenexporte und Zollschutz den größten Teil des westlichen Goldes. Bis Ende der 1940er Jahre kontrollierten sie über 70 % aller nicht-sowjetischen Zentralbank-Goldreserven (~700 Mio. Unzen). Auf der Konferenz von Bretton Woods (1944) setzten sie ein Dollar-basiertes Welthandelssystem durch: der Dollar sollte bei 35 Dollar pro Unze Gold konvertierbar bleiben. IWF, Weltbank und GATT wurden als von den USA dominierte Institutionen gegründet. [[aprycot-gladstein-das-ende-des-super-imperialismus.md]]
+Nach dem Ersten Weltkrieg besassen die USA durch Waffenexporte und Zollschutz den grössten Teil des westlichen Goldes. Bis Ende der 1940er Jahre kontrollierten sie über 70 % aller nicht-sowjetischen Zentralbank-Goldreserven (~700 Mio. Unzen). Auf der Konferenz von Bretton Woods (1944) setzten sie ein Dollar-basiertes Welthandelssystem durch: der Dollar sollte bei 35 Dollar pro Unze Gold konvertierbar bleiben. IWF, Weltbank und GATT wurden als von den USA dominierte Institutionen gegründet. [[aprycot-gladstein-das-ende-des-super-imperialismus.md]]
 
 ### Das Scheitern von Bretton Woods
 
@@ -29,7 +29,7 @@ Hudson beschreibt die Mechanik des neuen Systems: Ausländische Zentralbanken er
 
 Hudson nennt diese Schulden „IOU-nothings" (Schuldscheine, die nichts bedeuten): Amerika importierte Waren gegen Papier und musste die Schulden nie real zurückzahlen. Aus „IOUs" wurden bei anhaltendem Schuldenabbau im negativen Realzinsumfeld „IOU-nothings". [[aprycot-gladstein-das-ende-des-super-imperialismus.md]]
 
-### Wie die USA andere Länder ihre Kriege bezahlen ließen
+### Wie die USA andere Länder ihre Kriege bezahlen liessen
 
 Das Mechanismus ist konkret: Deutschland exportierte in den frühen 1970er Jahren Millionen Autos in die USA. Volkswagen tauschte Dollar-Einnahmen bei der Bundesbank in D-Mark. Die Bundesbank konnte diese Dollars nur als US-Staatsanleihen halten. Als der Dollar gegenüber der D-Mark um ~52 % fiel, verlor die Bundesbank ein Drittel des Gegenwerts ihrer Dollarbestände. Deutschland finanzierte so die US-Kriege in Südostasien und die Militärunterstützung für Israel — Engagements, die sie ausdrücklich ablehnten.
 
@@ -47,23 +47,23 @@ Hudson argumentiert, Weltbank und IWF dienten nicht primär der Entwicklungshilf
 
 ### Erosion des Systems seit 2013
 
-Das System zeigt Risse: Seit 2013 kaufen ausländische Zentralbanken netto weniger US-Staatsanleihen. Die Fed selbst ist zum größten Halter geworden. De-Dollarisierungsversuche nehmen zu (China, Russland, Brasilien). Die Hebelwirkung, andere Länder zur Finanzierung amerikanischer Defizite zu zwingen, nimmt ab — teils wegen der Sanktionspolitik, die demonstriert, dass Dollar-Reserven eingefroren werden können. [[aprycot-gladstein-das-ende-des-super-imperialismus.md]]
+Das System zeigt Risse: Seit 2013 kaufen ausländische Zentralbanken netto weniger US-Staatsanleihen. Die Fed selbst ist zum grössten Halter geworden. De-Dollarisierungsversuche nehmen zu (China, Russland, Brasilien). Die Hebelwirkung, andere Länder zur Finanzierung amerikanischer Defizite zu zwingen, nimmt ab — teils wegen der Sanktionspolitik, die demonstriert, dass Dollar-Reserven eingefroren werden können. [[aprycot-gladstein-das-ende-des-super-imperialismus.md]]
 
 ### Bitcoin vs. Super-Imperialismus
 
-Gladstein schließt: Bitcoin ist strukturell das, was Gold hätte sein sollen — aber besser. Gold zentralisierte sich in Tresoren, was es angreifbar für staatlichen Zugriff machte (Executive Order 6102, 1933; britisches Empire verlor seine Goldreserven schrittweise). Bitcoin dagegen lässt sich dezentral verwalten, digital übertragen und nicht konfiszieren, solange der Inhaber seinen Schlüssel kennt.
+Gladstein schliesst: Bitcoin ist strukturell das, was Gold hätte sein sollen — aber besser. Gold zentralisierte sich in Tresoren, was es angreifbar für staatlichen Zugriff machte (Executive Order 6102, 1933; britisches Empire verlor seine Goldreserven schrittweise). Bitcoin dagegen lässt sich dezentral verwalten, digital übertragen und nicht konfiszieren, solange der Inhaber seinen Schlüssel kennt.
 
 Arthur Hayes (zitiert bei Gladstein): Bitcoin ermöglicht einer Nation, Reserven zu halten, ohne auf eine ausländische Regierung oder Institution vertrauen zu müssen. Das ist das Ende des Super-Imperialismus: Wenn jedes Land sein eigenes hartes Geld digital halten kann, ist die Erpressung per Treasury Bill Standard obsolet. [[aprycot-gladstein-das-ende-des-super-imperialismus.md]]
 
 ### Die versteckten Kosten des Petrodollars (Gladstein, 2021)
 
-Nach Nixons Golddollar-Aufkündigung 1971 drohte die Weltreservewährung ihren Anker zu verlieren. Die Lösung: der Petrodollar-Pakt von 1974. US-Außenminister Henry Kissinger einigte sich mit Saudi-Arabien darauf, dass Öl weltweit in US-Dollar abgerechnet wird — und die USA im Gegenzug die Sicherheit des Regimes garantieren. Das restliche OPEC folgte.
+Nach Nixons Golddollar-Aufkündigung 1971 drohte die Weltreservewährung ihren Anker zu verlieren. Die Lösung: der Petrodollar-Pakt von 1974. US-Aussenminister Henry Kissinger einigte sich mit Saudi-Arabien darauf, dass Öl weltweit in US-Dollar abgerechnet wird — und die USA im Gegenzug die Sicherheit des Regimes garantieren. Das restliche OPEC folgte.
 
 **Die Mechanik.** Alle Länder, die Öl kaufen wollen, brauchen Dollar. Das erzeugt konstante Nachfrage nach US-Währung und US-Staatsanleihen. Amerika kann dadurch strukturell mehr importieren als exportieren, ohne Zahlungsbilanz-Strafe zu erleiden. Die Kosten trägt der Rest der Welt in Form von Dollarzins-Tribut.
 
 **Die versteckten Kosten im Einzelnen:**
 
-*Diktaturen gestützt.* Die USA unterhalten enge Militär- und Finanzbeziehungen zu Saudi-Arabien, den Emiraten, Bahrain, Kuwait und Katar — allesamt autokratische Regime, die im Gegenzug für Ölpreisfixierung in Dollar US-Schutz erhalten. Menschenrechtsverstöße werden strategisch toleriert.
+*Diktaturen gestützt.* Die USA unterhalten enge Militär- und Finanzbeziehungen zu Saudi-Arabien, den Emiraten, Bahrain, Kuwait und Katar — allesamt autokratische Regime, die im Gegenzug für Ölpreisfixierung in Dollar US-Schutz erhalten. Menschenrechtsverstösse werden strategisch toleriert.
 
 *Kriege finanziert.* Petrodollar-Recycling (arabische Öleinnahmen → US-Staatsanleihen → US-Militärausgaben) hat den Irak-Krieg, Afghanistan und andere Interventionen mitfinanziert, ohne dass US-Wähler je direkt abgestimmt haben. Öl und Sicherheitsversprechen stützen das Schuldensystem, das Kriegsführung ohne Steuererhöhung ermöglicht.
 
@@ -71,7 +71,7 @@ Nach Nixons Golddollar-Aufkündigung 1971 drohte die Weltreservewährung ihren A
 
 *Klima-Anreizproblem.* Solange Öl in Dollar gehandelt wird und Dollar-Nachfrage an Öl-Konsum gekoppelt ist, hat die US-Regierung strukturelle Anreize, fossile Brennstoffe zu subventionieren oder deren Übergang zu verlangsamen.
 
-**Bitcoin als Ausstieg.** Ein neutrales Basisgeld ohne geopolitische Bindung durchbricht den Nexus. Wenn Öl oder andere Rohstoffe in Bitcoin abgerechnet werden könnten, entfiele der Zwang, US-Dollar zu akkumulieren — und damit der strukturelle Hebel, mit dem Amerika seine Außenpolitik auf Kosten anderer finanziert. Gladstein sieht darin nicht nur eine Finanzinnovation, sondern eine geopolitische Umwälzung: Erstmals gäbe es eine Weltreservewährung ohne Supermacht dahinter. [[aprycot-gladstein-kosten-petrodollar]]
+**Bitcoin als Ausstieg.** Ein neutrales Basisgeld ohne geopolitische Bindung durchbricht den Nexus. Wenn Öl oder andere Rohstoffe in Bitcoin abgerechnet werden könnten, entfiele der Zwang, US-Dollar zu akkumulieren — und damit der strukturelle Hebel, mit dem Amerika seine Aussenpolitik auf Kosten anderer finanziert. Gladstein sieht darin nicht nur eine Finanzinnovation, sondern eine geopolitische Umwälzung: Erstmals gäbe es eine Weltreservewährung ohne Supermacht dahinter. [[aprycot-gladstein-kosten-petrodollar]]
 
 ## Related
 

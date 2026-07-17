@@ -7,7 +7,7 @@
 
 ## Summary
 
-Am 11. Februar 2009 kündigte Satoshi Nakamoto Bitcoin auf der P2P Foundation an — das erste öffentliche Auftreten von Bitcoin außerhalb der Cypherpunk-Mailingliste. In einem kurzen Post beschreibt Satoshi das Kernproblem des bestehenden Geldsystems (Vertrauen in Banken und Zentralbanken), erklärt das Double-Spend-Problem und seine Lösung, und verlinkt auf Bitcoin v0.1. Der Text ist bemerkenswert präzise: In wenigen Absätzen wird die gesamte politische und technische Motivation von Bitcoin skizziert.
+Am 11. Februar 2009 kündigte Satoshi Nakamoto Bitcoin auf der P2P Foundation an — das erste öffentliche Auftreten von Bitcoin ausserhalb der Cypherpunk-Mailingliste. In einem kurzen Post beschreibt Satoshi das Kernproblem des bestehenden Geldsystems (Vertrauen in Banken und Zentralbanken), erklärt das Double-Spend-Problem und seine Lösung, und verlinkt auf Bitcoin v0.1. Der Text ist bemerkenswert präzise: In wenigen Absätzen wird die gesamte politische und technische Motivation von Bitcoin skizziert.
 
 ## Body
 

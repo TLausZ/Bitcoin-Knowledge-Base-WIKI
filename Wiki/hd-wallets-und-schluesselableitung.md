@@ -54,7 +54,7 @@ Da der Pfad keine obere Grenze hat, können praktisch unbegrenzt viele Schlüsse
 
 **3. Privater Schlüssel → öffentlicher Schlüssel → Adresse**
 
-Jeder Ableitungspfad ergibt einen privaten Schlüssel. Aus dem privaten Schlüssel wird der öffentliche Schlüssel berechnet (Einwegfunktion — der Umkehrweg ist rechnerisch unmöglich). Aus dem öffentlichen Schlüssel wird schließlich die Bitcoin-Adresse gehasht.
+Jeder Ableitungspfad ergibt einen privaten Schlüssel. Aus dem privaten Schlüssel wird der öffentliche Schlüssel berechnet (Einwegfunktion — der Umkehrweg ist rechnerisch unmöglich). Aus dem öffentlichen Schlüssel wird schliesslich die Bitcoin-Adresse gehasht.
 
 Die Bitcoin-Adresse enthält ein Pubkey-Skript, das die Ausgabebedingungen festlegt: Wer die Transaktion signiert, muss beweisen, dass er den privaten Schlüssel besitzt.
 
@@ -104,11 +104,11 @@ Das Verfahren: Die Hardware-Wallet leitet über einen anwendungsspezifischen Pfa
 **Praktische Anwendung:** Die BitBoxApp nutzt BIP-85, um den Seed für die eingebettete Lightning-Wallet zu erzeugen. Der Lightning-Seed ist deterministisch aus dem Haupt-Seed abgeleitet, aber gibt diesen nicht preis. Ein einziges Backup der 24 Wörter deckt damit sowohl Cold-Storage-Wallet als auch Lightning-Wallet ab — "einheitliches Backup".
 
 **Wiederherstellung:**
-- Gerät vorhanden: BitBox02 anschließen → Lightning-Wallet wird automatisch abgeleitet
+- Gerät vorhanden: BitBox02 anschliessen → Lightning-Wallet wird automatisch abgeleitet
 - Neues Gerät: Seed wiederherstellen → Lightning-Wallet erneut ableitbar
 - Ohne Hardware-Wallet: Open-Source-Recovery-Tool kann Lightning-Schlüssel direkt aus dem Seed ableiten
 
-Die Schlüsseleigenschaft: Wer die Lightning-Entropie kennt, kann nicht auf den Haupt-Seed schließen. Die Sicherheitseigenschaften der beiden Wallets bleiben unabhängig voneinander.
+Die Schlüsseleigenschaft: Wer die Lightning-Entropie kennt, kann nicht auf den Haupt-Seed schliessen. Die Sicherheitseigenschaften der beiden Wallets bleiben unabhängig voneinander.
 
 ## Related
 

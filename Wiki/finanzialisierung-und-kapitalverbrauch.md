@@ -19,11 +19,11 @@ Wendell Berry beschreibt in "The Unsettling of America" den Wandel der Landwirts
 
 Es gibt drei Wege, den Konsum kurzfristig zu steigern: mehr Zeit und Energie in Konsumgüter investieren, vorhandenes Kapital verbrauchen statt einsetzen, oder — als einzig nachhaltige Option — den Kapitalbestand über seine natürliche Wertminderungsrate hinaus erhöhen. Nur der dritte Weg erhöht den Output dauerhaft, weil er mit derselben Menge Zeit und Energie mehr produziert. Die anderen beiden sind endlich.
 
-Das Schwierige an der Kapitalstockerhöhung: Sie ist von Natur aus unsicher. Kein Algorithmus entscheidet, wo neues Kapital den größten Effekt hat. Genau dafür ist Geld notwendig — es koordiniert den Risikoträger und den Ausführenden, trennt das Tragen von Risiko vom Besitz der dafür nötigen Fähigkeiten.
+Das Schwierige an der Kapitalstockerhöhung: Sie ist von Natur aus unsicher. Kein Algorithmus entscheidet, wo neues Kapital den grössten Effekt hat. Genau dafür ist Geld notwendig — es koordiniert den Risikoträger und den Ausführenden, trennt das Tragen von Risiko vom Besitz der dafür nötigen Fähigkeiten.
 
 ### Buchhalterische Grundlage: Was Finanzialisierung ist
 
-Jede unternehmerische Investition transformiert Gewissheit (Ersparnisse) in Ungewissheit (Experiment). Wer 100 Dollar investiert, kauft Produktionsmittel und Arbeitszeit — sein Kapital verteilt sich auf Vermögenswerte unsicherer künftiger Werthaltigkeit. Diese Transformation ist der Kern jeder Kapitalbildung: Gegenwartswert fließt ab, zukünftiger Wert soll entstehen.
+Jede unternehmerische Investition transformiert Gewissheit (Ersparnisse) in Ungewissheit (Experiment). Wer 100 Dollar investiert, kauft Produktionsmittel und Arbeitszeit — sein Kapital verteilt sich auf Vermögenswerte unsicherer künftiger Werthaltigkeit. Diese Transformation ist der Kern jeder Kapitalbildung: Gegenwartswert fliesst ab, zukünftiger Wert soll entstehen.
 
 Finanzialisierung bedeutet: diesen zukünftigen Wert in die Gegenwart holen, bevor er entstanden ist. Das erzeugt kurzfristig mehr Konsum (Arbeiter und Lieferanten werden mit diesen 100 Dollar bezahlt und geben sie aus), aber die zugrundeliegende Ungewissheit bleibt. Wenn das Experiment scheitert, fällt der erwartete zukünftige Konsum weg — dauerhaft, weil das Kapital vernichtet wurde. [[aprycot-bitgenstein-ueber-zeit-risiko]]
 
@@ -47,13 +47,13 @@ Farrington listet vier Verhaltensänderungen, die eine Fiat-Ökonomie bei Indivi
 
 **2. Hebelzwang.** Wer renditegenerierende Kapitalanlagen hält, aber nicht hebelt, ist gegenüber Konkurrenten benachteiligt, die es tun. Kongō Gumi, über 1400 Jahre von derselben japanischen Familie geführt, erlag 2006 der Überschuldung. Ein Unternehmen, das auf Verschuldung verzichtete, verlor die Kapitalallokationspolitik an Konkurrenten, die bereit waren, mehr Risiko aufzuladen.
 
-**3. Finanzkapital verdrängt Produktivkapital.** Wenn Finanzialisierung ertragreicher ist als produktive Investition, wandern Kapital und Talente in das Geschäft mit dem Finanzieren selbst. Matt Stoller beschreibt, wie portable Toiletten, Gefängnistelefone und Zahnmedizin "finanziert" werden — was niemandem außer den Arrangeurs nützt.
+**3. Finanzkapital verdrängt Produktivkapital.** Wenn Finanzialisierung ertragreicher ist als produktive Investition, wandern Kapital und Talente in das Geschäft mit dem Finanzieren selbst. Matt Stoller beschreibt, wie portable Toiletten, Gefängnistelefone und Zahnmedizin "finanziert" werden — was niemandem ausser den Arrangeurs nützt.
 
 **4. Konzentration im Finanzwesen.** Wendell Berry: "In einem stark zentralisierten Lebensmittelversorgungssystem kann es keine kleineren Katastrophen geben." Dasselbe gilt für das Finanzsystem: Je stärker konzentriert, desto verheerender die unvermeidliche Krise.
 
 ### Die Nullzinsgrenze: Saat essen
 
-Der Marsch zu immer größerer Verschuldung endet an der Nullzinsgrenze. Wenn Kredite negative Zinsen tragen, können Investitionsprojekte Geld verlieren und der Kreditnehmer verdient dennoch. Das finanziert nicht einmal mehr verschwenderisches Kapital — es finanziert direkt seinen Verbrauch. Negativzinsen bedeuten: Wer die Saat isst, statt sie zu pflanzen, wird dafür noch bezahlt. [[aprycot-bitgenstein-verhaltensweisen-anreize]]
+Der Marsch zu immer grösserer Verschuldung endet an der Nullzinsgrenze. Wenn Kredite negative Zinsen tragen, können Investitionsprojekte Geld verlieren und der Kreditnehmer verdient dennoch. Das finanziert nicht einmal mehr verschwenderisches Kapital — es finanziert direkt seinen Verbrauch. Negativzinsen bedeuten: Wer die Saat isst, statt sie zu pflanzen, wird dafür noch bezahlt. [[aprycot-bitgenstein-verhaltensweisen-anreize]]
 
 Wendell Berry über die parallele Logik bei der Plünderung des Bodens: *"Wenn vermeintliche zukünftige Bedürfnisse zur Rechtfertigung von Fehlverhalten in der Gegenwart herangezogen werden, verfälschen wir nicht nur die Gegenwart, sondern schmälern auch die Zukunft."*
 

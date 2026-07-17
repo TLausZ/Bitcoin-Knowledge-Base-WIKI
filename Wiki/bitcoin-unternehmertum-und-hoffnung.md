@@ -29,9 +29,9 @@ Die Zentralbank lebt von einer ignorierten Bevölkerung. Solange die Mechanik un
 
 Breedlove benennt drei Kanäle, durch die Bitcoin Hoffnung zurückbringt:
 
-Erstens: Unveräußerlicher Wertspeicher. Wer Bitcoin hält, hält Vermögen, das nicht durch Inflation konfisziert werden kann. Arbeiter der unteren und mittleren Klasse erhalten ein Sparmedium, das sie nicht zu Risikonahme oder zur Verlängerung ihres Arbeitslebens zwingt, nur um der Entwertung zu entkommen.
+Erstens: Unveräusserlicher Wertspeicher. Wer Bitcoin hält, hält Vermögen, das nicht durch Inflation konfisziert werden kann. Arbeiter der unteren und mittleren Klasse erhalten ein Sparmedium, das sie nicht zu Risikonahme oder zur Verlängerung ihres Arbeitslebens zwingt, nur um der Entwertung zu entkommen.
 
-Zweitens: Jeder Bitcoin-Kauf dekrementiert Fiat. Um Bitcoin zu erwerben, muss man Fiat veräußern. Ein schrumpfender Marktwert für Fiat-Währung ist laut Breedlove ein globales Gut, weil Fiat die heimliche Finanzierungsquelle für staatliche Militarisierung und Inflation ist.
+Zweitens: Jeder Bitcoin-Kauf dekrementiert Fiat. Um Bitcoin zu erwerben, muss man Fiat veräussern. Ein schrumpfender Marktwert für Fiat-Währung ist laut Breedlove ein globales Gut, weil Fiat die heimliche Finanzierungsquelle für staatliche Militarisierung und Inflation ist.
 
 Drittens: Regierungen unter Druck. Wenn Bürger ihr Geld ohne staatliche Vermittlung halten können, müssen Regierungen ihre Präferenzen stärker berücksichtigen. Breedlove: In einer von Bitcoin geprägten Welt würden Bürger eher wie Kunden als wie Untertanen behandelt.
 

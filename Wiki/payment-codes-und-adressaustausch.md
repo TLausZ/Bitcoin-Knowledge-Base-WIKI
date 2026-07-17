@@ -7,7 +7,7 @@
 
 ## Summary
 
-Um Privatsphäre zu wahren, sollte für jede Bitcoin-Transaktion eine neue Adresse verwendet werden — was regelmäßigen manuellen Austausch erfordert. Payment Codes lösen dieses Problem: Eine einzige statische Adresse ermöglicht es, beliebig viele neue, einmalige Empfangsadressen abzuleiten, ohne für jede Zahlung zu interagieren. Die zwei wichtigsten Ansätze sind BIP-47 (mit einmaliger Benachrichtigungs-Transaktion) und Silent Payments (ohne Overhead, aber mit höherem Scanning-Aufwand).
+Um Privatsphäre zu wahren, sollte für jede Bitcoin-Transaktion eine neue Adresse verwendet werden — was regelmässigen manuellen Austausch erfordert. Payment Codes lösen dieses Problem: Eine einzige statische Adresse ermöglicht es, beliebig viele neue, einmalige Empfangsadressen abzuleiten, ohne für jede Zahlung zu interagieren. Die zwei wichtigsten Ansätze sind BIP-47 (mit einmaliger Benachrichtigungs-Transaktion) und Silent Payments (ohne Overhead, aber mit höherem Scanning-Aufwand).
 
 ## Body
 

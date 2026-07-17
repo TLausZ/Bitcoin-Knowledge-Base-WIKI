@@ -29,7 +29,7 @@ BTCRecover ist ein Open-Source-Tool, das Wort-Kombinationen für BIP39-Seeds gen
 
 ### Ergebnis
 
-11 Stunden Cracking: kein Treffer. Ein nochmaliger Blick auf die Bilder — Wort 8 war nicht „park", sondern „hard" (ein Straßenschild). Mit der korrigierten Kandidatenliste: 4 Minuten später gefunden.
+11 Stunden Cracking: kein Treffer. Ein nochmaliger Blick auf die Bilder — Wort 8 war nicht „park", sondern „hard" (ein Strassenschild). Mit der korrigierten Kandidatenliste: 4 Minuten später gefunden.
 
 Einnahmen: 0,1 ETH abzüglich Serverkosten und Tool-Donation ≈ \$50. Zeitaufwand: 10 Tage.
 

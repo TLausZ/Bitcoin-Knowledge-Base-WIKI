@@ -25,7 +25,7 @@ Das Ergebnis: Es gibt immer genug Liquidität, weil ehrliche Maker dafür bezahl
 
 Drei Eigenschaften von Bitcoin-Transaktionen machen trustloses CoinJoin möglich:
 
-Inputs können von verschiedenen Parteien stammen — es gibt keine erzwungene Verknüpfung zwischen Input-Eigentümer und Transaktion. Außerdem sind Bitcoin-Transaktionen atomar: Alle Signaturen müssen gültig sein, sonst ist die TX ungültig. Weil jeder Input die gesamte TX mitunterzeichnet, sind die Outputs damit „eingefroren" — niemand kann sie heimlich ändern. Und da Satoshis auf Protokollebene fungibel sind (UTXOs hingegen nicht), lässt sich durch gleiche Output-Beträge die Zuordnung effektiv verschleiern.
+Inputs können von verschiedenen Parteien stammen — es gibt keine erzwungene Verknüpfung zwischen Input-Eigentümer und Transaktion. Ausserdem sind Bitcoin-Transaktionen atomar: Alle Signaturen müssen gültig sein, sonst ist die TX ungültig. Weil jeder Input die gesamte TX mitunterzeichnet, sind die Outputs damit „eingefroren" — niemand kann sie heimlich ändern. Und da Satoshis auf Protokollebene fungibel sind (UTXOs hingegen nicht), lässt sich durch gleiche Output-Beträge die Zuordnung effektiv verschleiern.
 
 ### Fidelity Bonds: Sybil-Schutz ohne Identität
 
@@ -33,7 +33,7 @@ Das offensichtliche Problem bei einem anonymen, dezentralen System: Ein Angreife
 
 Ein Maker kann Bitcoins zeitgesperrt hinterlegen — nicht an einen Dritten, sondern on-chain via Timelocks. Die Coins bleiben in seinem Besitz, aber sie sind für die Laufzeit unbrauchbar. Da Geld heute mehr wert ist als Geld morgen, ist das eine verifiable Opferung. Ein Angreifer müsste diesen Opfer-Betrag für alle gefakten Maker-Slots multipliziert aufbringen — was exponentiell teurer wird. Taker sehen im Order Book, welche Maker einen Fidelity Bond haben, und bevorzugen sie.
 
-Die Formel berücksichtigt sowohl Betrag als auch Laufzeit, sodass kleine Bonds über lange Zeit und große Bonds kurzer Zeit vergleichbar sind. Bonds verlieren nach Ablauf an Wert, was ehrliche Maker dazu anhält, kontinuierlich neue Bonds zu hinterlegen statt zu splitten.
+Die Formel berücksichtigt sowohl Betrag als auch Laufzeit, sodass kleine Bonds über lange Zeit und grosse Bonds kurzer Zeit vergleichbar sind. Bonds verlieren nach Ablauf an Wert, was ehrliche Maker dazu anhält, kontinuierlich neue Bonds zu hinterlegen statt zu splitten.
 
 ### JAM: Benutzeroberfläche
 

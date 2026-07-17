@@ -7,13 +7,13 @@
 
 ## Summary
 
-Das Bitcoin-Angebot ist auf knapp 21 Millionen Coins begrenzt — nicht durch eine externe Instanz, sondern durch Konsensregeln, die jede Node unabhängig durchsetzt. Neue Bitcoin entstehen ausschließlich durch die Block Subsidy, die sich alle 210.000 Blöcke halbiert (Halving). Das 21-Millionen-Limit ergibt sich mathematisch aus der geometrischen Summe dieser Halbierungen und wird nie exakt erreicht — nur annäherungsweise.
+Das Bitcoin-Angebot ist auf knapp 21 Millionen Coins begrenzt — nicht durch eine externe Instanz, sondern durch Konsensregeln, die jede Node unabhängig durchsetzt. Neue Bitcoin entstehen ausschliesslich durch die Block Subsidy, die sich alle 210.000 Blöcke halbiert (Halving). Das 21-Millionen-Limit ergibt sich mathematisch aus der geometrischen Summe dieser Halbierungen und wird nie exakt erreicht — nur annäherungsweise.
 
 ## Body
 
 ### Wie neue Bitcoin entstehen
 
-Neue Bitcoin werden ausschließlich dann erzeugt, wenn ein Miner einen gültigen Block findet. Jeder neue Block enthält eine feste Belohnung (Block Subsidy) nach folgendem Zeitplan:
+Neue Bitcoin werden ausschliesslich dann erzeugt, wenn ein Miner einen gültigen Block findet. Jeder neue Block enthält eine feste Belohnung (Block Subsidy) nach folgendem Zeitplan:
 
 - 0 Halvings: 50 BTC pro Block → 10.500.000 BTC gesamt
 - 1 Halving: 25 BTC → 5.250.000 BTC
@@ -38,13 +38,13 @@ return nSubsidy;
 
 - `nSubsidyHalvingInterval` ist in `chainparams.cpp` auf **210.000 Blöcke** festgelegt
 - `nSubsidy >>= halvings` bedeutet binäre Rechtsverschiebung = Halbierung
-- `if (halvings >= 64) return 0` verhindert einen Memory-Overflow-Bug, der nach 64 Halvings die Ausgabe auf 0 zurücksetzen würde und die Geldmenge sonst erneut hochlaufen ließe
+- `if (halvings >= 64) return 0` verhindert einen Memory-Overflow-Bug, der nach 64 Halvings die Ausgabe auf 0 zurücksetzen würde und die Geldmenge sonst erneut hochlaufen liesse
 
 In `src/consensus/amount.h` gibt es zusätzlich `MAX_MONEY` als Sicherheitsschranke — kein Single-Point-of-Truth für das Limit, sondern ein Schutz gegen Bugs wie den Value Overflow Bug von 2010, bei dem jemand 184 Milliarden Bitcoin erzeugte.
 
 ### Dezentrale Durchsetzung
 
-Das Limit wird nicht von einer zentralen Instanz kontrolliert, sondern durch **gegenseitige Verifikation** aller Nodes. Wenn ein Miner versucht, mehr Bitcoin auszuschütten als erlaubt, lehnen alle Nodes den Block sofort als ungültig ab. Da kein einziger Administrator existiert, der diese Regel außer Kraft setzen könnte, ist die Geldpolitik durch Konsens gesichert.
+Das Limit wird nicht von einer zentralen Instanz kontrolliert, sondern durch **gegenseitige Verifikation** aller Nodes. Wenn ein Miner versucht, mehr Bitcoin auszuschütten als erlaubt, lehnen alle Nodes den Block sofort als ungültig ab. Da kein einziger Administrator existiert, der diese Regel ausser Kraft setzen könnte, ist die Geldpolitik durch Konsens gesichert.
 
 Jeder kann die Implementierung selbst prüfen: Bitcoin Core ist Open-Source, die Formel ist nachvollziehbar, und wer eine Node betreibt, verifiziert die Ausgabe neuer Coins in Echtzeit.
 
@@ -86,7 +86,7 @@ Zur Teilbarkeit bei künftiger Deflation verwies er auf die acht internen Nachko
 
 Gigi präzisiert: Das 21-Millionen-Limit gilt nur dann für einen Nutzer, wenn er einen eigenen Full Node betreibt. Ein Full Node ist die rechnerische Seite der Medaille — er prüft nicht nur Transaktionen, sondern auch, ob die Geldmenge den Konsensregeln entspricht. Wer keinen eigenen Node betreibt, verlässt sich auf die Ehrlichkeit eines fremden Nodes für die wichtigste Eigenschaft von Bitcoin.
 
-„21 Millionen: nie mehr" ist deshalb keine bloße Aussage über Bitcoins Design — es ist eine Aussage, die jeder Node-Betreiber individuell verifiziert. Das macht das Limit systemisch robust: Kein Miner und keine Firma kann es ändern, solange genug Nodes es ablehnen. [[Die andere Seite der Medaille.md]]
+„21 Millionen: nie mehr" ist deshalb keine blosse Aussage über Bitcoins Design — es ist eine Aussage, die jeder Node-Betreiber individuell verifiziert. Das macht das Limit systemisch robust: Kein Miner und keine Firma kann es ändern, solange genug Nodes es ablehnen. [[Die andere Seite der Medaille.md]]
 
 Gigi: „Die Geldpolitik von Bitcoin ist zeitlich festgelegt, nicht per Dekret. Sie kann nicht geändert werden. Mit ihr kann nicht gestritten werden. Sie ist unabhängig von der Nachfrage, unabhängig vom Energieverbrauch und unabhängig von der Politik." [[Bitcoin ist die Wiederentdeckung des Geldes.md]]
 
@@ -94,17 +94,17 @@ Gigi: „Die Geldpolitik von Bitcoin ist zeitlich festgelegt, nicht per Dekret. 
 
 Pierre Rochard beschreibt Bitcoins Geldpolitik mit dem Begriff AMST — Asymptotic Money Supply Targeting (deutsch: asymptotische Geldmengenvorgabe, AGMV). Die Bezeichnung ist präziser als „21 Millionen Limit": Das Angebot wächst asymptotisch gegen einen Maximalwert, erreicht ihn aber nie exakt. Diese Geldpolitik ist bei der Gründung festgelegt worden und wird durch die dezentrale Natur des Netzwerks unabhängig von jedem Emittenten gehalten. [[aprycot-rochard-perfekte-geldpolitik-bitcoin]]
 
-Rochard formuliert das Bild einer „Bitcoin-Zentralbank" (BZB) — eine Analogie mit Absicht. Die BZB gibt Bitcoin an Miner aus (die Berechnungen als Proof-of-Work leisten), und diese Seigniorage fließt nicht an den Emittenten, sondern subventioniert das Zahlungssystem selbst. Damit unterscheidet sich die Struktur fundamental von einer klassischen Zentralbank, bei der Seigniorage dem Herausgeber zugutekommt: Hier zahlt das Netzwerk diejenigen, die es absichern.
+Rochard formuliert das Bild einer „Bitcoin-Zentralbank" (BZB) — eine Analogie mit Absicht. Die BZB gibt Bitcoin an Miner aus (die Berechnungen als Proof-of-Work leisten), und diese Seigniorage fliesst nicht an den Emittenten, sondern subventioniert das Zahlungssystem selbst. Damit unterscheidet sich die Struktur fundamental von einer klassischen Zentralbank, bei der Seigniorage dem Herausgeber zugutekommt: Hier zahlt das Netzwerk diejenigen, die es absichern.
 
 AMST und PoW-Seigniorage kombiniert erzeugen laut Rochard drei strukturelle Eigenschaften:
 
 Erstens: Rationale Marktteilnehmer halten Bitcoin, auch wenn sie keine in Bitcoin denominierten Schulden haben. Der Wettbewerbsvorteil des Bitcoin-Zahlungssystems gegenüber Alternativen rechtfertigt das Halten allein schon aus Liquiditätserwägungen.
 
-Zweitens: Wechselkurse und Zinssätze werden ausschließlich durch den Markt gesetzt. Die BZB interveniert nicht, um Adoptionswellen oder Hype-Zyklen zu glätten — wäre das der Fall, würde sie das Vertrauen verlieren, das AMST langfristigen Haltern gibt.
+Zweitens: Wechselkurse und Zinssätze werden ausschliesslich durch den Markt gesetzt. Die BZB interveniert nicht, um Adoptionswellen oder Hype-Zyklen zu glätten — wäre das der Fall, würde sie das Vertrauen verlieren, das AMST langfristigen Haltern gibt.
 
 Drittens: Mindestreservesysteme können sich nicht entwickeln. Bitcoin erzwingt strukturell Vollreserve: Es ist nicht möglich, mehr Bitcoin auszugeben als vorhanden, weil jede Node jede Transaktion verifiziert. Das entspricht dem österreichischen 100%-Reserve-Goldstandard oder dem Chicago Plan. In einem Vollreservesystem führt erhöhte Geldhaltung nicht zu Liquiditätsfallen, sondern zu steigenden Realzinsen und sinkenden Konsumentenpreisen — ein sich selbst stabilisierender Kreislauf, weil höhere Zinsen Hortende zu Investitionen anreizen und günstigere Preise den Konsum stützen.
 
-Rochard schließt mit einer Langzeitprognose: „Die Bitcoin-Zentralbank wird dank ihrer antifragilen Geldpolitik die langfristigste Institution ihrer Art werden." [[aprycot-rochard-perfekte-geldpolitik-bitcoin]]
+Rochard schliesst mit einer Langzeitprognose: „Die Bitcoin-Zentralbank wird dank ihrer antifragilen Geldpolitik die langfristigste Institution ihrer Art werden." [[aprycot-rochard-perfekte-geldpolitik-bitcoin]]
 
 ### Die 21 Millionen: ein educated guess — und ein Codebug
 
@@ -126,6 +126,7 @@ Eine Feinheit am Rande: Streng genommen waren zu diesem Zeitpunkt keine vollen 2
 - [[selbstverwahrung-und-boersenrisiken]]
 
 - [[der-bitcoin-standard|Der Bitcoin-Standard (Saifedean Ammous)]] ← Buch
+- [[bitcoin-treasury-companies]]
 
 ## Open Questions
 

@@ -27,9 +27,9 @@ Ostrom identifizierte acht Merkmale stabiler Allmende-Governance. Die Bewertung 
 
 **II — Übereinstimmung mit lokalen Bedingungen:** Für globales Geld weitgehend irrelevant.
 
-**III — Kollektive Entscheidungsfindung:** Bitcoin verlangt nahezu vollständigen Nutzer-Konsens für Regeländerungen — eine Änderung ohne diese Zustimmung spaltet die Chain. Ethereum hat klare Autorität bei wenigen Kernentwicklern und Investoren; mit PoS ist die Entscheidungsgewalt noch konzentrierter bei großen Stakern.
+**III — Kollektive Entscheidungsfindung:** Bitcoin verlangt nahezu vollständigen Nutzer-Konsens für Regeländerungen — eine Änderung ohne diese Zustimmung spaltet die Chain. Ethereum hat klare Autorität bei wenigen Kernentwicklern und Investoren; mit PoS ist die Entscheidungsgewalt noch konzentrierter bei grossen Stakern.
 
-**IV — Rechenschaftspflichtige Monitore:** Bitcoin ist hier wahrscheinlich die am besten konzipierte Allmende der Geschichte. Jeder kann ohne Kosten das Verhalten der "Anreigner" (Miner, potenzielle Inflationierer) überprüfen — ein Full Node reicht. Ethereum: theoretisch möglich, aber die große Datenstruktur und die Abhängigkeit von Drittinfrastruktur machen unabhängige Verifikation praktisch schwierig.
+**IV — Rechenschaftspflichtige Monitore:** Bitcoin ist hier wahrscheinlich die am besten konzipierte Allmende der Geschichte. Jeder kann ohne Kosten das Verhalten der "Anreigner" (Miner, potenzielle Inflationierer) überprüfen — ein Full Node reicht. Ethereum: theoretisch möglich, aber die grosse Datenstruktur und die Abhängigkeit von Drittinfrastruktur machen unabhängige Verifikation praktisch schwierig.
 
 **V — Abgestufte Sanktionen:** Bitcoin: regelwidriges Verhalten (ungültige Blöcke) wird sofort und automatisch abgestraft — kein Komitee, kein Ermessen. Ethereum ähnlich, aber Regeländerungen benötigen weniger Konsens.
 

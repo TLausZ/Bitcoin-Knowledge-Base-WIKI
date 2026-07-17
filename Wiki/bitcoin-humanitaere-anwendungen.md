@@ -19,11 +19,11 @@ Gleb Naumenko, ein Bitcoin-Core-Entwickler, blieb in der Ukraine und sammelte vo
 
 Ukrainisches Digitalministerium (Mykhailo Fedorov) sammelte bis Mai 2022 über 100 Millionen USD in Kryptowährungen für Verteidigung und humanitäre Zwecke. Der Grund für Krypto statt Banktransfers war pragmatisch: Geschwindigkeit, keine Bankgenehmigung nötig, weltweit empfangbar.
 
-Bitcoin erwies sich gegenüber anderen Kryptowährungen als vertrauenswürdiger für größere Beträge — als Wertspeicher, nicht nur als Zahlungskanal. Stablecoins wurden für schnelle Transaktionen genutzt, Bitcoin für Reservehaltung. Das zeigt eine Arbeitsteilung, die auch außerhalb von Kriegssituationen gilt: Bitcoin als Basisgeld, schnellere Layer für tägliche Zahlungen. [[aprycot-waehrung-der-letzten-instanz]]
+Bitcoin erwies sich gegenüber anderen Kryptowährungen als vertrauenswürdiger für grössere Beträge — als Wertspeicher, nicht nur als Zahlungskanal. Stablecoins wurden für schnelle Transaktionen genutzt, Bitcoin für Reservehaltung. Das zeigt eine Arbeitsteilung, die auch ausserhalb von Kriegssituationen gilt: Bitcoin als Basisgeld, schnellere Layer für tägliche Zahlungen. [[aprycot-waehrung-der-letzten-instanz]]
 
 ### Palästina: Wirtschaftliche Souveränität unter Besatzung
 
-Das Paris-Protokoll von 1994 legte fest, dass die Palästinensische Autonomiebehörde keine eigene Währung haben darf. Palästinenser verwenden den israelischen Neuen Schekel — einer Währung, deren Geldpolitik ausschließlich israelische Interessen widerspiegelt. Gaza leidet zusätzlich unter einer Blockade seit 2007: kontrollierte Grenzen, eingeschränkter Warenimport und -export, ein Bankensystem mit minimaler Anbindung an internationale Zahlungsnetze.
+Das Paris-Protokoll von 1994 legte fest, dass die Palästinensische Autonomiebehörde keine eigene Währung haben darf. Palästinenser verwenden den israelischen Neuen Schekel — einer Währung, deren Geldpolitik ausschliesslich israelische Interessen widerspiegelt. Gaza leidet zusätzlich unter einer Blockade seit 2007: kontrollierte Grenzen, eingeschränkter Warenimport und -export, ein Bankensystem mit minimaler Anbindung an internationale Zahlungsnetze.
 
 Der Gazastreifen hat etwa 2 Millionen Einwohner, über 40% Arbeitslosigkeit und eine zerstörte Infrastruktur. Ein 15-Jähriger dort hat bis 2021 vier Kriege erlebt. In diesem Kontext hat digitales Geld praktische Bedeutung, die über den ideologischen Diskurs hinausgeht: Rücküberweisungen aus der Diaspora, Bezahlung für Fernarbeit, Mikro-Freelancing. [[aprycot-bitcoin-palaestinas-waehrung-freiheit]]
 
@@ -57,7 +57,7 @@ Bitcoin wird nicht gewählt, weil es ideologisch attraktiv ist, sondern weil bes
 
 Die Permissionslosigkeit von Bitcoin — kein Konto nötig, keine Identitätsprüfung für den Empfang, keine Sperrung durch eine Drittpartei — ist in stabilen westlichen Demokratien ein theoretisches Argument. In Kriegsgebieten und unter Besatzung ist es eine praktische Notwendigkeit.
 
-Das ändert auch die Risikodiskussion: Für einen Nutzer in der Schweiz ist Bitcoin-Volatilität das primäre Risiko. Für einen Nutzer in Gaza ist das Risiko, von Zahlungsinfrastruktur ausgeschlossen zu sein, größer als das Risiko, Kaufkraft durch Kursschwankung zu verlieren.
+Das ändert auch die Risikodiskussion: Für einen Nutzer in der Schweiz ist Bitcoin-Volatilität das primäre Risiko. Für einen Nutzer in Gaza ist das Risiko, von Zahlungsinfrastruktur ausgeschlossen zu sein, grösser als das Risiko, Kaufkraft durch Kursschwankung zu verlieren.
 
 ### Entwicklungshilfe und Korruption: das strukturelle Problem
 
@@ -77,7 +77,7 @@ Bitcoin adressiert alle drei: P2P-Zahlungen eliminieren Mittelsmänner (Myanmar-
 
 Der Mechanismus: Bitcoin-Miner sind der Käufer letzter Instanz für günstige Energie (2–5 Cent/kWh). Alle anderen Verbraucher zahlen mehr. Sobald lokale Nachfrage steigt, schalten die Miner ab und übergeben die Kapazität an Haushalte und Industrie. Das Mining subventioniert den Aufbau der Infrastruktur, bis lokale Abnehmer da sind.
 
-Für Virunga konkret: Die kongolesische Regierung zahlt dem Park ~100.000 USD/Jahr, aber das Betriebsbudget liegt bei ~1.000.000 USD/Monat. Bitcoin-Mining schließt diese Lücke. Ein weiterer 30-MW-Damm ist in Planung, ebenfalls mit Mining als Überbrückungsfinanzierung.
+Für Virunga konkret: Die kongolesische Regierung zahlt dem Park ~100.000 USD/Jahr, aber das Betriebsbudget liegt bei ~1.000.000 USD/Monat. Bitcoin-Mining schliesst diese Lücke. Ein weiterer 30-MW-Damm ist in Planung, ebenfalls mit Mining als Überbrückungsfinanzierung.
 
 Nur 8,7% der kongolesischen Bevölkerung hatte 2019 Zugang zu Strom. Traditionell fällen Menschen ohne Strom Bäume für Holzkohle — Hauptursache für Innenraumluft-Verschmutzung, 1,6 Millionen Todesfälle/Jahr weltweit. Mining-finanzierte Wasserkraft könnte beides angehen. [[aprycot-gladstein-humanitaere-oekologische-argumente]]
 
@@ -101,7 +101,7 @@ Gladstein sieht in Lightning das potenzielle Endziel: Zahlungen mit den Anonymit
 
 ### Venezuela: Eine Feldreportage
 
-Gigi sprach für einen Artikel (Blockzeit 604834) mit „José", einem gut ausgebildeten Venezolaner. Sein reguläres Gehalt: 7 Dollar pro Monat. Das Fiat-System seines Landes ist nach seiner Einschätzung das schlechteste der Welt — und deshalb versteht er intuitiv, was viele in stabileren Ländern intellektuell erst erschließen müssen: dass Fiat-Geld strukturell kaputt ist.
+Gigi sprach für einen Artikel (Blockzeit 604834) mit „José", einem gut ausgebildeten Venezolaner. Sein reguläres Gehalt: 7 Dollar pro Monat. Das Fiat-System seines Landes ist nach seiner Einschätzung das schlechteste der Welt — und deshalb versteht er intuitiv, was viele in stabileren Ländern intellektuell erst erschliessen müssen: dass Fiat-Geld strukturell kaputt ist.
 
 Bitcoin spielt in Venezuela zwei Rollen: Wertspeicher gegen Hyperinflation und grenzenloses Zahlungssystem. Viele Venezolaner überleben durch Überweisungen aus dem Ausland — Bitcoin umgeht die Kapitalverkehrskontrollen, die verhindern, dass Devisen in Händen der Bürger bleiben. Die offizielle Regel: Auslandseinnahmen müssen in Bolivares konvertiert werden, die innerhalb von Wochen 90% ihrer Kaufkraft verlieren.
 
@@ -115,7 +115,7 @@ Einige Wochen nach dem Gespräch meldet sich José: Er hat einen Online-Job gefu
 
 Gladsteins ursprünglicher Ausgangspunkt vor den ausführlichen Länder-Reportagen: drei komprimierte Porträts, die zeigen, was es bedeutet, ohne Dollar- oder Euro-Anker zu leben.
 
-**Olusegun (Nigeria).** Studiert in Deutschland Informatik, schickt monatlich Geld nach Hause. Western Union, Transferwise, Remitly — alle verlangen für NGN-Überweisungen 8–10%. Außerdem: die Naira verlor zwischen 2015 und 2021 70% ihres Wertes gegenüber dem Dollar. Sein Vater, ein Lehrer, kauft was er kann sofort, weil das Geld morgen weniger wert ist. Bitcoin gibt ihm erstmals einen Wertspeicher außerhalb der staatlichen Geldinflation.
+**Olusegun (Nigeria).** Studiert in Deutschland Informatik, schickt monatlich Geld nach Hause. Western Union, Transferwise, Remitly — alle verlangen für NGN-Überweisungen 8–10%. Ausserdem: die Naira verlor zwischen 2015 und 2021 70% ihres Wertes gegenüber dem Dollar. Sein Vater, ein Lehrer, kauft was er kann sofort, weil das Geld morgen weniger wert ist. Bitcoin gibt ihm erstmals einen Wertspeicher ausserhalb der staatlichen Geldinflation.
 
 **Farida (Afghanistan).** Lehrerin, Familienmutter, Jahrzehnte unter Taliban-Herrschaft gelebt. Als das Taliban-Regime 2021 zurückkehrte, gefror die Bank sofort. Frauen durften zeitweise keine Bankkonten halten. Bitcoin ist das erste Geld, das niemand wegnehmen kann, weil es kein physisches Objekt ist und keiner Institution gehört.
 
@@ -123,7 +123,7 @@ Gladsteins ursprünglicher Ausgangspunkt vor den ausführlichen Länder-Reportag
 
 ### Monetärer Kolonialismus: der CFA-Franc
 
-Die französische CFA-Franc-Zone als Mechanismus fortgesetzter monetärer Kontrolle über 15 afrikanische Staaten — und Bitcoin als Werkzeug, Wert außerhalb dieses Rahmens zu halten — ist gesondert in [[monetaerer-kolonialismus-cfa-franc]] behandelt.
+Die französische CFA-Franc-Zone als Mechanismus fortgesetzter monetärer Kontrolle über 15 afrikanische Staaten — und Bitcoin als Werkzeug, Wert ausserhalb dieses Rahmens zu halten — ist gesondert in [[monetaerer-kolonialismus-cfa-franc]] behandelt.
 
 ### 21 dokumentierte Anwendungsfälle (Batten, 2026)
 
@@ -131,7 +131,7 @@ Daniel Batten's Zusammenstellung mit Quellenbelegen zeigt, warum das "kein Use C
 
 Stand-out-Fälle mit konkreten Zahlen:
 
-- **Humanitäre Kampagnen unter Autocratie** (4,5 Mrd. betroffene Menschen): Bitcoin ermöglicht Finanzierungskanäle außerhalb staatlicher Kontrolle
+- **Humanitäre Kampagnen unter Autocratie** (4,5 Mrd. betroffene Menschen): Bitcoin ermöglicht Finanzierungskanäle ausserhalb staatlicher Kontrolle
 - **Remittances** (Hunderte Millionen): Direktzahlungen an Familien ohne Verzögerungen und Gebühren von 10–15%
 - **Hyperinflationsschutz** (250+ Mio. Betroffene in Ländern wie Argentinien mit 100%+ Jahresinflation)
 - **Guatemala-Wahl 2023** (17,3 Mio. Menschen): Bitcoin-Blockchain zur Dokumentation von Stimmauszählungen gegen Wahlbetrug
@@ -182,7 +182,7 @@ Der Use Case leuchtete also zuerst jemandem ein, der nie Bitcoin besessen hat, w
 
 - Wie wirkt sich staatliche CBDC-Infrastruktur auf humanitäre Bitcoin-Nutzung aus, wenn CBDCs Transaktionsüberwachung ermöglichen?
 - Gibt es systematische Daten darüber, wie viel der globalen Bitcoin-Transaktionen aus Ländern mit eingeschränktem Finanzmarktzugang stammen?
-- Ersetzt Bitcoin in diesen Kontexten Gold, Bargeld oder andere informelle Wertspeicher — oder erschließt es neue wirtschaftliche Handlungsspielräume?
+- Ersetzt Bitcoin in diesen Kontexten Gold, Bargeld oder andere informelle Wertspeicher — oder erschliesst es neue wirtschaftliche Handlungsspielräume?
 - Wie vermeidet Mining-basierte Entwicklungshilfe, die Muster der Rohstoffextraktion zu wiederholen (Gewinne ins Ausland, lokale Bevölkerung profitiert kaum)?
 - Wie verändert sich die Venezuela-Situation, wenn Lightning auf Smartphone-Ebene massentauglich wird?
 - Kuba, Afghanistan, Gaza, Venezuela — alle Fälle sind aus 2021–2022. Wie hat sich die Nutzungssituation seitdem verändert? Sind Lightning-Zahlungen in diesen Regionen inzwischen einfacher zugänglich?

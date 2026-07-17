@@ -19,7 +19,7 @@ Der Kern von Szabos Argument: "Shelling out" — das Herausschälen von Muscheln
 - **40.000 BP** (Kenia, Riftal-Tal): Strausseneier-Schalen-Perlen
 - **28.000 BP** (Sungir, Russland): Mammut-Elfenbein-Perlen; eine einzelne Perle: 1–2 Stunden Herstellungszeit
 
-Diese Objekte tauchen zeitgleich auf mehreren Kontinenten auf. Szabo schließt daraus: Es handelt sich nicht um zufälligen Schmuck, sondern um eine evolutionäre Anpassung, die sich unabhängig entwickelte, weil sie Überlebensvorteile bot.
+Diese Objekte tauchen zeitgleich auf mehreren Kontinenten auf. Szabo schliesst daraus: Es handelt sich nicht um zufälligen Schmuck, sondern um eine evolutionäre Anpassung, die sich unabhängig entwickelte, weil sie Überlebensvorteile bot.
 
 ### Sechs Eigenschaften natürlichen Geldes
 
@@ -32,7 +32,7 @@ Szabo identifiziert sechs Attribute, die alle historischen Geldformen teilen und
 5. **Erkennbar** (Recognizable): Eindeutig identifizierbar — keine Verwechslung mit wertlosen Objekten.
 6. **Haltbar** (Durable): Übersteht Zeit, Wetter, Transport.
 
-Wampum (amerikanische Muscheln), Goldmünzen, Tabak-Kolonialwährung — alle erfüllen diese sechs Eigenschaften in unterschiedlichem Maß. Papier-Fiat erfüllt sie kaum; seine Akzeptanz basiert auf staatlichem Zwang.
+Wampum (amerikanische Muscheln), Goldmünzen, Tabak-Kolonialwährung — alle erfüllen diese sechs Eigenschaften in unterschiedlichem Mass. Papier-Fiat erfüllt sie kaum; seine Akzeptanz basiert auf staatlichem Zwang.
 
 ### Kooperationsprobleme, die Geld löst
 

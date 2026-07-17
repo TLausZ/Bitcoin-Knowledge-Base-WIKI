@@ -13,7 +13,7 @@ bitblik ist eine freie, quelloffene App, die Bitcoin-Halter mit Menschen verbind
 
 ### Was ist BLIK?
 
-BLIK ist das dominierende mobile Zahlungssystem in Polen. Die Banking-App generiert einen 6-stelligen Code, der ~2 Minuten gültig ist. Der Nutzer gibt diesen Code am Kassenterminal, im Online-Checkout oder am Geldautomaten ein und bestätigt die Zahlung anschließend per Popup in der Banking-App. Nahezu jede polnische Bank und jeder Händler unterstützt BLIK.
+BLIK ist das dominierende mobile Zahlungssystem in Polen. Die Banking-App generiert einen 6-stelligen Code, der ~2 Minuten gültig ist. Der Nutzer gibt diesen Code am Kassenterminal, im Online-Checkout oder am Geldautomaten ein und bestätigt die Zahlung anschliessend per Popup in der Banking-App. Nahezu jede polnische Bank und jeder Händler unterstützt BLIK.
 
 ### Das Protokoll: Hold-Invoice als Escrow
 
@@ -36,7 +36,7 @@ bitblik hält zu keinem Zeitpunkt Bitcoin oder Fiat. Es gibt keine Unternehmensi
 
 ### Kein App Store — bewusste Entscheidung
 
-bitblik ist bewusst nicht im Apple App Store oder Google Play verfügbar. Begründung: Beide Plattformen entfernen regelmäßig Bitcoin- und Datenschutz-Apps. Installation:
+bitblik ist bewusst nicht im Apple App Store oder Google Play verfügbar. Begründung: Beide Plattformen entfernen regelmässig Bitcoin- und Datenschutz-Apps. Installation:
 
 - **iOS**: über AltStore PAL (nur EU-registrierte Geräte; basiert auf EU Digital Markets Act)
 - **Android**: über Zapstore (Nostr-nativer App Store) oder direktes APK von GitHub

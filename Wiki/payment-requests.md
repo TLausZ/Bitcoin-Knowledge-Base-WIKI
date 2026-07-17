@@ -13,13 +13,13 @@ Payment Requests (basierend auf SLIP-24) lösen das Problem der Adress-Manipulat
 
 ### Das Problem: Address Spoofing
 
-Beim Senden von Bitcoin an eine Börse zeigt der Browser eine Einzahlungsadresse an — auf einem potenziell kompromittierten Computer. Ein Angreifer könnte diese Adresse durch seine eigene ersetzen. Die Hardware-Wallet hatte bisher keine Möglichkeit, die Authentizität einer solchen „von außen kommenden" Adresse zu prüfen.
+Beim Senden von Bitcoin an eine Börse zeigt der Browser eine Einzahlungsadresse an — auf einem potenziell kompromittierten Computer. Ein Angreifer könnte diese Adresse durch seine eigene ersetzen. Die Hardware-Wallet hatte bisher keine Möglichkeit, die Authentizität einer solchen „von aussen kommenden" Adresse zu prüfen.
 
 Die traditionelle Lösung (Adresse auf einem zweiten Gerät prüfen) hat Schwächen: Sie ist umständlich, wird oft vernachlässigt, und manche Dienste generieren bei jeder Anfrage neue Adressen.
 
 ### Wie Payment Requests funktionieren
 
-1. **Registrierung:** Der öffentliche Schlüssel des Dienstes wird durch die BitBox-Entwickler direkt in der Firmware registriert — außerhalb der Reichweite von Angreifern
+1. **Registrierung:** Der öffentliche Schlüssel des Dienstes wird durch die BitBox-Entwickler direkt in der Firmware registriert — ausserhalb der Reichweite von Angreifern
 2. **Signierung:** Der Dienst signiert seine Einzahlungsadresse (und optional weitere Daten) mit seinem privaten Schlüssel
 3. **Verifikation:** Die Hardware-Wallet prüft die Signatur eigenständig — unabhängig vom verbundenen Gerät
 4. **Alarm bei Manipulation:** Wenn ein Angreifer die Payment Request manipuliert, schlägt die Verifikation fehl

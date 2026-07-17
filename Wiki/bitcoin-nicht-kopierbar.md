@@ -7,7 +7,7 @@
 
 ## Summary
 
-Der Code von Bitcoin ist nicht Bitcoin. Monetäre Eigenschaften entstehen nicht durch Software, sondern durch Dezentralisierung, Zeit und Marktakzeptanz — sie sind emergent. Weil Geldnetzwerke zu einem einzigen Medium konvergieren und weil Bitcoins Eigenschaften mit der Zeit und wachsender Größe stärker werden, ist die rationale Wahl eines anderen Netzwerks schwer zu begründen. Altcoins zeigen durch ihre Existenz, dass ihre Schöpfer das eigentliche Problem nicht verstehen.
+Der Code von Bitcoin ist nicht Bitcoin. Monetäre Eigenschaften entstehen nicht durch Software, sondern durch Dezentralisierung, Zeit und Marktakzeptanz — sie sind emergent. Weil Geldnetzwerke zu einem einzigen Medium konvergieren und weil Bitcoins Eigenschaften mit der Zeit und wachsender Grösse stärker werden, ist die rationale Wahl eines anderen Netzwerks schwer zu begründen. Altcoins zeigen durch ihre Existenz, dass ihre Schöpfer das eigentliche Problem nicht verstehen.
 
 ## Body
 
@@ -21,9 +21,9 @@ Was Bitcoin von seinem Code unterscheidet: Ein Netzwerk aus Akteuren weltweit, d
 
 Die wichtigste strukturelle Eigenschaft von Geld ist Liquidität. Geld ist nicht zum Verbrauch oder zur Produktion da; sein Nutzen liegt im Tausch. Je mehr Menschen dasselbe Gut als Geld verwenden, desto mehr Handelsgegner findet man — und desto wertvoller ist das Netzwerk.
 
-Damit folgt: Bei monetären Gütern ist es irrational, Werte in einem kleineren, weniger liquiden, weniger sicheren Netzwerk zu speichern, wenn ein größeres verfügbar ist. Lewis nutzt ein einfaches Gedankenexperiment: Möchtest du in einer Währung bezahlt werden, die eine Milliarde Menschen oder eine Million Menschen akzeptieren?
+Damit folgt: Bei monetären Gütern ist es irrational, Werte in einem kleineren, weniger liquiden, weniger sicheren Netzwerk zu speichern, wenn ein grösseres verfügbar ist. Lewis nutzt ein einfaches Gedankenexperiment: Möchtest du in einer Währung bezahlt werden, die eine Milliarde Menschen oder eine Million Menschen akzeptieren?
 
-Geldnetzwerke tendieren zu einem einzigen Medium. Das erklärt historisch die Demonetarisierung von Silber, Bronze, Muscheln — jedes Mal setzte sich das Gut mit den überlegenen monetären Eigenschaften durch. Dieser Mechanismus arbeitet auch heute: jede digitale Währung konkurriert um denselben Anwendungsfall wie Bitcoin, ob sie das weiß oder nicht. [[aprycot-parker-lewis-bitcoin-kann-nicht-kopiert-werden]]
+Geldnetzwerke tendieren zu einem einzigen Medium. Das erklärt historisch die Demonetarisierung von Silber, Bronze, Muscheln — jedes Mal setzte sich das Gut mit den überlegenen monetären Eigenschaften durch. Dieser Mechanismus arbeitet auch heute: jede digitale Währung konkurriert um denselben Anwendungsfall wie Bitcoin, ob sie das weiss oder nicht. [[aprycot-parker-lewis-bitcoin-kann-nicht-kopiert-werden]]
 
 ### Der Selbstverstärkungskreislauf
 

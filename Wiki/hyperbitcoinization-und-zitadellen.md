@@ -21,7 +21,7 @@ Die Kernthese: Hyperbitcoinization passiert nicht über Nacht. Sie entsteht durc
 
 **Phase 1 — De-Dollarisierung:** Länder des globalen Südens beginnen, USD-Reserven zu diversifizieren. Der Petrodollar-Pakt (1974) verliert mit dem Wandel der Energiemärkte seine Grundlage. Länder, die unter IWF-Strukturanpassungen gelitten haben, sind frühe Adopter. [[dollar-hegemonie-super-imperialismus]] [[iwf-weltbank-strukturanpassung]]
 
-**Phase 2 — Boomer-Vermögenstransfer:** Die größte Vermögensübertragung in der Geschichte: Baby-Boomer-Vermögen geht an Millennials und Gen Z über. Ein Teil davon landet in Bitcoin — nicht durch politische Überzeugung, sondern weil jüngere Generationen mit Fiat-Institutionen weniger Vertrauen verbinden und Bitcoin-Infrastruktur einfacher zu bedienen ist.
+**Phase 2 — Boomer-Vermögenstransfer:** Die grösste Vermögensübertragung in der Geschichte: Baby-Boomer-Vermögen geht an Millennials und Gen Z über. Ein Teil davon landet in Bitcoin — nicht durch politische Überzeugung, sondern weil jüngere Generationen mit Fiat-Institutionen weniger Vertrauen verbinden und Bitcoin-Infrastruktur einfacher zu bedienen ist.
 
 **Phase 3 — Adoption durch den globalen Süden:** Länder ohne entwickelte Bankinfrastruktur springen direkt auf Bitcoin-basierte Zahlungssysteme. Ähnlich wie Mobile Money das Bankensystem in Kenia übersprungen hat, überspringt Bitcoin die Fiat-Infrastruktur dort, wo diese nie robust war.
 
@@ -33,7 +33,7 @@ Der Begriff „Zitadelle" taucht in Bitcoin-Kreisen seit einem viralen Reddit-Po
 
 **Typ 2 — Territorial:** Gemeinschaften, die geografisch zusammengehen, aber staatliche Strukturen grundsätzlich noch akzeptieren — etwa Sonderwirtschaftszonen, Charter Cities oder Regionen mit Bitcoin-freundlicher Regulierung wie El Salvador. [[el-salvador-bitcoin-adoption]]
 
-**Typ 3 — Souverän:** Vollständig autonome Siedlungen — auf See (Seasteading), in abgelegenen Gebieten, oder in Jurisdiktionen mit schwachem Staatsmonopol. Nicht unbedingt anarchistisch, aber außerhalb traditioneller Nationalstaaten operierend.
+**Typ 3 — Souverän:** Vollständig autonome Siedlungen — auf See (Seasteading), in abgelegenen Gebieten, oder in Jurisdiktionen mit schwachem Staatsmonopol. Nicht unbedingt anarchistisch, aber ausserhalb traditioneller Nationalstaaten operierend.
 
 Warren vermeidet Romantisierung: Zitadellen sind keine Utopien. Sie entstehen, weil staatliche Institutionen versagen — und wo staatliche Institutionen versagen, entstehen Parallelstrukturen zwangsläufig.
 
@@ -60,6 +60,7 @@ Die Parallele zum Zitadellen-Denken ist deutlich: Fischer beruft sich auf histor
 - [[el-salvador-bitcoin-adoption]]
 - [[bitcoin-als-strategische-reserve]]
 - [[neofeudalism-und-bitcoin-exit]]
+- [[bitcoin-treasury-companies]]
 
 ---
 
@@ -70,15 +71,15 @@ Neben individuellen Early Adopters und Unternehmens-Treasuries gibt es eine drit
 - **Sovereign Wealth Funds (SWFs)** und **Public Pension Funds (PPFs):** zusammen $35,7 Billionen AUM — potenziell Bitcoin-investierbar
 - **Zentralbanken:** $16 Billionen AUM — kurzfristig unwahrscheinlich für Bitcoin-Investments
 
-Das Adoptionsproblem ist keine Frage des Interesses. Kevin O'Leary, der regelmäßig mit Sovereign Funds spricht, formulierte es so:
+Das Adoptionsproblem ist keine Frage des Interesses. Kevin O'Leary, der regelmässig mit Sovereign Funds spricht, formulierte es so:
 
 > "Let's say I'm talking to a sovereign fund, they have $500 billion, and they want to deploy into crypto for the first time. The reason they haven't done it yet is not because they're having a debate about whether they want to. They want to. But they have an ESG committee, which determines which assets get to the investment committee first, because every single asset is viewed with that particular sovereign fund by the merits of sustainability."
 
-Mie Holstad, Chief Investment Officer Real Assets von Norwegens Staatsfonds (dem weltgrößten SWF), bestätigte: "Vor jeder Akquisition prüft der Fonds potenzielle Targets auf ESG-Risiken."
+Mie Holstad, Chief Investment Officer Real Assets von Norwegens Staatsfonds (dem weltgrössten SWF), bestätigte: "Vor jeder Akquisition prüft der Fonds potenzielle Targets auf ESG-Risiken."
 
 **Rechenbeispiel:** 1% Allokation der SWFs + PPFs = $350 Mrd. in Bitcoin. Bei einem "Market Cap Gain per Dollar Invested" von $4,54 (historisch) würde das Bitcoin auf ~$148.400 bewerten — allein durch diese Investorenklasse.
 
-**Der ESG-Chasm.** In Anlehnung an Geoffrey Moore's "Crossing the Chasm": Das Tal, das Bitcoin zwischen Early Adopters und Early Majority überqueren muss, heißt "ESG Investment Committee". Das Narrativ rund um Bitcoin-Mining als Umweltproblem war der Hauptgrund, warum Sovereign Funds Bitcoin nicht passieren ließen. Der Narrativwandel (2022–2025) ist damit nicht nur relevant für Bitcoin's öffentliches Bild, sondern direkt für die nächste Adoptionswelle. [[The Path to Hyberbitcoinization]], [[bitcoin-mining-narrativ-und-kritik]]
+**Der ESG-Chasm.** In Anlehnung an Geoffrey Moore's "Crossing the Chasm": Das Tal, das Bitcoin zwischen Early Adopters und Early Majority überqueren muss, heisst "ESG Investment Committee". Das Narrativ rund um Bitcoin-Mining als Umweltproblem war der Hauptgrund, warum Sovereign Funds Bitcoin nicht passieren liessen. Der Narrativwandel (2022–2025) ist damit nicht nur relevant für Bitcoin's öffentliches Bild, sondern direkt für die nächste Adoptionswelle. [[The Path to Hyberbitcoinization]], [[bitcoin-mining-narrativ-und-kritik]]
 
 **Erste Bewegungen.** 2024 legte das Wisconsin Retirement System $100 Mio. über Blackrock's iShares Bitcoin ETF an — erster Pensionsfonds weltweit mit einem öffentlich bestätigten Bitcoin-Investment. Die Dynamik hat begonnen, aber wie bei El Salvador (erster Nationalstaat mit Bitcoin als Legal Tender, 2021) folgten zunächst keine weiteren. Die Frage ist, wann das Muster kippt.
 

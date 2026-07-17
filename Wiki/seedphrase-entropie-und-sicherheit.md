@@ -25,7 +25,7 @@ Eine Bitcoin-Wallet mit 24 Wörtern basiert auf 256 Bit Entropie. 12 Wörter ent
 
 ### Der einzige reale Angriffsfaktor: Schlechte Zufälligkeit
 
-Nicht alle großen Zahlen sind sicher — entscheidend ist echte Zufälligkeit:
+Nicht alle grossen Zahlen sind sicher — entscheidend ist echte Zufälligkeit:
 
 - **Schwache Zufallszahlengeneratoren:** Reproduzierbare oder vorhersehbare Muster (bekanntes Beispiel: Trust Wallet WASM-Vulnerability 2022/2023)
 - **Brain Wallets:** Nutzer verwenden Passwörter oder bekannte Phrasen als Seed — leicht angreifbar
@@ -45,7 +45,7 @@ Selbst wenn eine Quelle kompromittiert wäre, bleiben die anderen als Sicherheit
 
 ### microSD-Backups und Verschlüsselung
 
-microSD-Backups sind unverschlüsselt — vergleichbar mit einem Papier-Backup. Das ist eine bewusste Designentscheidung: Die BitBox01 hatte verschlüsselte Backups, was regelmäßig dazu führte, dass Nutzer das Backup-Passwort vergaßen und den Zugang verloren.
+microSD-Backups sind unverschlüsselt — vergleichbar mit einem Papier-Backup. Das ist eine bewusste Designentscheidung: Die BitBox01 hatte verschlüsselte Backups, was regelmässig dazu führte, dass Nutzer das Backup-Passwort vergassen und den Zugang verloren.
 
 Wer eine zweite Sicherheitsebene möchte, sollte stattdessen die **optionale Passphrase** (BIP-39) verwenden — standardisiert, portabel, kompatibel mit jeder BIP-39-Wallet.
 

@@ -15,7 +15,7 @@ Parker Lewis überträgt Nassim Talebs Konzept der Antifragilität auf Bitcoin: 
 
 Taleb unterscheidet drei Reaktionstypen auf Volatilität: fragil (bricht), robust (bleibt gleich), antifragil (wird besser). Ein Glas ist fragil. Ein Felsen ist robust. Bitcoin ist antifragil — Störungen liefern dem Netzwerk Informationen, aus denen es lernt und sich anpasst.
 
-Der Unterschied zu bloßer Robustheit liegt darin, dass Antifragilität nicht nur Schaden abwehrt, sondern aus ihm profitiert. Ein Immunsystem, das niemals einem Keim begegnet, atrophiert. Bitcoin, das niemals angegriffen wird, hätte keinen Beweis seiner Widerstandsfähigkeit geliefert. [[aprycot-parker-lewis-bitcoin-ist-antifragil]]
+Der Unterschied zu blosser Robustheit liegt darin, dass Antifragilität nicht nur Schaden abwehrt, sondern aus ihm profitiert. Ein Immunsystem, das niemals einem Keim begegnet, atrophiert. Bitcoin, das niemals angegriffen wird, hätte keinen Beweis seiner Widerstandsfähigkeit geliefert. [[aprycot-parker-lewis-bitcoin-ist-antifragil]]
 
 ### Zwölf Jahre als Beweis
 

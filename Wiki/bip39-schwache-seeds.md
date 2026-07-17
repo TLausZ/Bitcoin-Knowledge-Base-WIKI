@@ -31,7 +31,7 @@ Ein weniger diskutiertes Problem von BIP39: Die Wörter allein reichen für eine
 
 ### Electrum-Seeds: Ein überlegenes Design
 
-Electrum hatte dieses Problem früher erkannt. Die originale Electrum-Mnemonic-Implementierung von 2011 (vor BIP39) nutzte ein eigenes 1.626-Wörter-Wörterbuch. Seit Electrum 2.0 (2015) gibt es ein Versioning-System im Seed selbst — die Seed-Phrase kodiert welche Art von Wallet sie öffnet, sodass bei der Recovery keine Mehrdeutigkeit entsteht. Außerdem ist sie unabhängig von einem festen Wörterbuch und kann aktualisiert werden.
+Electrum hatte dieses Problem früher erkannt. Die originale Electrum-Mnemonic-Implementierung von 2011 (vor BIP39) nutzte ein eigenes 1.626-Wörter-Wörterbuch. Seit Electrum 2.0 (2015) gibt es ein Versioning-System im Seed selbst — die Seed-Phrase kodiert welche Art von Wallet sie öffnet, sodass bei der Recovery keine Mehrdeutigkeit entsteht. Ausserdem ist sie unabhängig von einem festen Wörterbuch und kann aktualisiert werden.
 
 BIP39 wurde trotzdem zum De-facto-Standard, da nahezu alle anderen Wallets es adoptiert haben. Das macht BIP39-Seeds interoperabler — aber die fehlenden Derivationspfad-Informationen bleiben ein praktisches Risiko.
 

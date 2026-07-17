@@ -7,7 +7,7 @@
 
 ## Summary
 
-Bitcoin skaliert nicht durch größere Blöcke, sondern durch Second-Layer-Protokolle, die den größten Teil der Aktivität außerhalb der Hauptkette abwickeln. Lightning ist das etablierte Netzwerk für schnelle Peer-to-Peer-Zahlungen, leidet aber am Last-Mile-Problem für technisch weniger erfahrene Nutzer. Ark adressiert dieses Problem mit einem geteilten UTXO-Modell (VTXOs). Statechains gehen einen anderen Weg: Eigentum wird übertragen, ohne Bitcoin zu bewegen.
+Bitcoin skaliert nicht durch grössere Blöcke, sondern durch Second-Layer-Protokolle, die den grössten Teil der Aktivität ausserhalb der Hauptkette abwickeln. Lightning ist das etablierte Netzwerk für schnelle Peer-to-Peer-Zahlungen, leidet aber am Last-Mile-Problem für technisch weniger erfahrene Nutzer. Ark adressiert dieses Problem mit einem geteilten UTXO-Modell (VTXOs). Statechains gehen einen anderen Weg: Eigentum wird übertragen, ohne Bitcoin zu bewegen.
 
 ## Body
 
@@ -25,7 +25,7 @@ Ark (2023 vorgestellt, erste öffentliche Implementierungen 2024/2025) löst das
 - Nutzer senden Bitcoin an eine Ark-kompatible Wallet und erhalten **VTXOs** (Virtual Transaction Outputs) — Guthaben, das noch nicht on-chain verankert ist
 - Alle VTXOs werden in geteilten Containern (shared UTXOs) gehalten, die im Bitcoin-Netzwerk verankert sind
 - Ein **Ark Server (Operator)** koordiniert Transaktionen, hat aber keine Verwahrung über die Gelder
-- In regelmäßigen Abständen veröffentlicht der Server einen neuen „Schnappschuss" aller Guthaben on-chain
+- In regelmässigen Abständen veröffentlicht der Server einen neuen „Schnappschuss" aller Guthaben on-chain
 
 **Vertrauensmodell:** Nutzer müssen dem Operator für Bequemlichkeit vertrauen, nicht für Verwahrung. Jederzeit kann man einseitig aussteigen und Gelder direkt on-chain zurückholen (Exit-Transaktion).
 
@@ -54,7 +54,7 @@ Sicherheitskonzept: Die Lightning-Schlüssel sind eine Hot Wallet (auf dem Smart
 | Vertrauen | LSP-Option | Operator (kein Custody) | Entity (löscht Schlüssel) |
 | Reife | Produktiv | Frühe Phase | Frühe Phase |
 
-Ark und Lightning schließen sich nicht aus — Ark kann als „Onramp" für Lightning dienen.
+Ark und Lightning schliessen sich nicht aus — Ark kann als „Onramp" für Lightning dienen.
 
 ### Die monetäre Skalierungsthese (Svanholm)
 
@@ -80,7 +80,7 @@ Cube ist ein neuer Ansatz in der L2-Landschaft: keine Payment-Channel-Architektu
 
 Das Ergebnis: eine Turing-vollständige Execution-Umgebung mit globalem State und unilateralem Exit — ohne Bridge-Operator, ohne Trusted Committee, ohne Protokolländerung.
 
-**Vergleich zu Lightning/Ark.** Lightning optimiert für Zahlungen: bilateral, Channel-basiert, keine globale State-Abhängigkeit. Ark verbessert das UTXO-Management und ermöglicht Offline-Empfang ohne Liquidity-Problem. Cube adressiert eine andere Schicht: programmierbare Logik, die mehr als Transfers braucht. Die drei Ansätze schließen einander nicht aus — sie lösen unterschiedliche L2-Probleme.
+**Vergleich zu Lightning/Ark.** Lightning optimiert für Zahlungen: bilateral, Channel-basiert, keine globale State-Abhängigkeit. Ark verbessert das UTXO-Management und ermöglicht Offline-Empfang ohne Liquidity-Problem. Cube adressiert eine andere Schicht: programmierbare Logik, die mehr als Transfers braucht. Die drei Ansätze schliessen einander nicht aus — sie lösen unterschiedliche L2-Probleme.
 
 **Einschränkungen (Stand Mai 2026).** Cube ist ein Whitepaper-Stage-Projekt. BitVM selbst ist noch in aktivem Forschungsstatus; die Proof-of-Fraud-Mechanismen sind aufwendig und On-Chain-Kosten im Anfechtungsfall erheblich. Ob Timeout Trees das unilaterale Exit-Versprechen unter allen Netzwerkbedingungen halten, ist empirisch nicht belegt. [[Introducing Cube]]
 

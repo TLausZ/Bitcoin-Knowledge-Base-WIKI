@@ -48,9 +48,9 @@ Bereits 2020 — vor El Salvador, zu einem Zeitpunkt, als Bitcoins Marktkapitali
 
 Gigi nimmt die häufigsten Einwände direkt auseinander: „Bitcoin ist schon zu teuer" — falsch, weil Bitcoin beliebig teilbar ist und schon ein Sat ausreicht. „Die Technologie ist überholt" — falsch, weil Sicherheit durch Stabilität entsteht, nicht durch Neuheit. „Es ist zu komplex" — das war das Internet auch. „Es ist zu riskant" — verglichen womit? Auch Nicht-Handeln in einem inflationären System ist Risiko. „Es wird durch etwas Besseres ersetzt" — unwahrscheinlich, weil Bitcoin-Netzwerkeffekte, Sicherheit und dezentrale Governance nicht leicht zu kopieren sind.
 
-Die Kernempfehlung ist kompromisslos einfach: Fang an. Kauf automatisch und regelmäßig kleine Mengen (Auto-DCA). Kein aktives Trading — wer versucht, den Markt zu timen, verliert fast immer. Und: Nimm deine Coins selbst in Verwahrung. „Not your keys, not your Bitcoin" gilt ohne Ausnahme. Trusted third parties — Börsen, Banken, Custodians — tragen Kontrahentenrisiko, das mit dem Sinn von Bitcoin unvereinbar ist.
+Die Kernempfehlung ist kompromisslos einfach: Fang an. Kauf automatisch und regelmässig kleine Mengen (Auto-DCA). Kein aktives Trading — wer versucht, den Markt zu timen, verliert fast immer. Und: Nimm deine Coins selbst in Verwahrung. „Not your keys, not your Bitcoin" gilt ohne Ausnahme. Trusted third parties — Börsen, Banken, Custodians — tragen Kontrahentenrisiko, das mit dem Sinn von Bitcoin unvereinbar ist.
 
-Gigi fasst zusammen, was Bitcoin monetär leistet: Es ist portabel, knapp, teilbar, direkt verifizierbar, dauerhaft und zensurresistent — jede dieser Eigenschaften besser als jede Alternative. Der Brief schließt mit einem Appell, nicht auf den „richtigen Moment" zu warten. Auf einem schlechten Geldsystem warten ist kein neutrales Verhalten. [[aprycot-gigi-liebe-familie-liebe-freunde]]
+Gigi fasst zusammen, was Bitcoin monetär leistet: Es ist portabel, knapp, teilbar, direkt verifizierbar, dauerhaft und zensurresistent — jede dieser Eigenschaften besser als jede Alternative. Der Brief schliesst mit einem Appell, nicht auf den „richtigen Moment" zu warten. Auf einem schlechten Geldsystem warten ist kein neutrales Verhalten. [[aprycot-gigi-liebe-familie-liebe-freunde]]
 
 ### Ein Fallbeispiel: Vom Banker zur Exit-Strategie (Szabelski, 2026)
 

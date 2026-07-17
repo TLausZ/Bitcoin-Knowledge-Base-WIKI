@@ -13,7 +13,7 @@ Das Wallet-Backup — die 12 oder 24 Wiederherstellungswörter nach BIP-39 — i
 
 ### Bitcoin ist Information
 
-Private Schlüssel sind sehr große Zahlen, bequem als englische Wörter (BIP-39) kodiert. Die Wiederherstellungswörter sind ein Generalschlüssel: Aus ihnen lassen sich alle Konten, Adressen und privaten Schlüssel der Wallet ableiten. Das Backup bleibt immer gleich — man muss es nur einmal sichern.
+Private Schlüssel sind sehr grosse Zahlen, bequem als englische Wörter (BIP-39) kodiert. Die Wiederherstellungswörter sind ein Generalschlüssel: Aus ihnen lassen sich alle Konten, Adressen und privaten Schlüssel der Wallet ableiten. Das Backup bleibt immer gleich — man muss es nur einmal sichern.
 
 ### Backup-Methoden im Vergleich
 
@@ -30,7 +30,7 @@ Für wachsende Bestände. Gravieren oder Stanzen der Wörter in Edelstahl bietet
 
 **Gedächtnis als einzige Methode:** Das menschliche Gedächtnis ist für zufällige 12–24 Wörter ohne Bedeutungskontext ungeeignet. Digitspan-Tests zeigen eine durchschnittliche Kapazität von ~7 Ziffern; 24 Wiederherstellungswörter entsprechen ~80 Ziffern. Zusätzlich besteht immer das Risiko von Unfällen mit Gedächtnisausfall. Als *Ergänzung* zu physischen Backups kann das Auswendiglernen sinnvoll sein (z.B. für Flucht-Szenarien), nie als Hauptstrategie.
 
-**„Don't roll your own crypto":** Selbst ausgedachte Verschlüsselungs- oder Versteckmethoden führen regelmäßig dazu, dass Nutzer sich aus ihrem eigenen Backup aussperren.
+**„Don't roll your own crypto":** Selbst ausgedachte Verschlüsselungs- oder Versteckmethoden führen regelmässig dazu, dass Nutzer sich aus ihrem eigenen Backup aussperren.
 
 ### Warum ein Backup dauerhaft gilt (HD-Wallet-Mechanismus)
 
@@ -42,7 +42,7 @@ Konsequenz: Ein einziges Backup reicht dauerhaft. Man muss es nicht nach jeder T
 
 **Fehler 1: Kein Backup erstellen.** Verlust des Geräts ohne Backup = Verlust der Coins. Kein Hersteller, kein Support kann helfen.
 
-**Fehler 2: Glauben, das Backup müsse regelmäßig aktualisiert werden.** Falsch — einmal reicht dauerhaft.
+**Fehler 2: Glauben, das Backup müsse regelmässig aktualisiert werden.** Falsch — einmal reicht dauerhaft.
 
 **Fehler 3: Backup auf dem Computer eingeben.** Wer die Wiederherstellungswörter in ein digitales Gerät eingibt, riskiert Diebstahl durch Malware. Auch Screenshots, Cloud-Speicher und Fotos sind tabu. Für Wiederherstellung immer die Hardware-Wallet selbst nutzen (Wörter direkt ans Gerät eingeben).
 
@@ -60,11 +60,11 @@ Konsequenz: Ein einziges Backup reicht dauerhaft. Man muss es nicht nach jeder T
 
 **Methode 4: Multisig.** Mehrere Hardware-Wallets für eine Wallet. Theoretisch am sichersten für grosse Beträge. Wichtig: Das Multisig-Backup muss zusätzlich zu den regulären Seeds auch Unterzeichneranzahl, Skripttyp, Ableitungspfad und alle Extended Public Keys (xpubs) aller Geräte enthalten — und diese müssen auf den Geräten selbst verifiziert werden.
 
-**Warum kein verschlüsseltes Backup?** Die BitBox01 hatte verschlüsselte Backups. Ergebnis: Einige Nutzer vergaßen das Backup-Passwort und verloren dauerhaft Zugang zu ihren Coins. Die Kombination aus Gerätepasswort + Backup-Passwort + optionaler Passphrase ist zu komplex für die meisten Nutzer. Wer eine zweite Sicherheitsebene will, sollte die Passphrase verwenden, nicht Backup-Verschlüsselung.
+**Warum kein verschlüsseltes Backup?** Die BitBox01 hatte verschlüsselte Backups. Ergebnis: Einige Nutzer vergassen das Backup-Passwort und verloren dauerhaft Zugang zu ihren Coins. Die Kombination aus Gerätepasswort + Backup-Passwort + optionaler Passphrase ist zu komplex für die meisten Nutzer. Wer eine zweite Sicherheitsebene will, sollte die Passphrase verwenden, nicht Backup-Verschlüsselung.
 
 ### Vererbungsplanung
 
-Wenn niemand weiß, dass man Bitcoin besitzt, oder niemand das Backup findet, sind die Coins effektiv verloren. Ein strukturierter Vererbungsplan löst das.
+Wenn niemand weiss, dass man Bitcoin besitzt, oder niemand das Backup findet, sind die Coins effektiv verloren. Ein strukturierter Vererbungsplan löst das.
 
 **Der "Brief an meine Lieben"** (nach Pamela Morgan, Autorin von "Cryptoasset Inheritance Planning"): Ein Brief, der keine Geheimnisse enthält, aber erläutert, dass Bitcoin-Vermögen existiert und wo Backups zu finden sind. Niemand, der den Brief liest, kann damit direkt Coins stehlen — aber Erben wissen, was zu tun ist.
 

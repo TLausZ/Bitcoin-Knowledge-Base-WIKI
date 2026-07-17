@@ -13,7 +13,7 @@ Rebalancing bezeichnet die strategische Aktion, die ein Lightning-Routing-Node u
 
 ### Warum Channels unbalanciert werden
 
-Ein Payment Channel zwischen Carol und Alice hat eine feste Gesamtkapazität, die sich auf beide Seiten aufteilt. Wenn Carol Zahlungen von Alice zu Bob routet, fließt Kapazität von Carols Alice-Seite zu Carols Bob-Seite. Nach vielen Zahlungen in dieselbe Richtung hat Carol auf der Alice-Seite kaum noch Kapazität — sie kann keine weiteren Zahlungen von Alice zu Bob mehr routen.
+Ein Payment Channel zwischen Carol und Alice hat eine feste Gesamtkapazität, die sich auf beide Seiten aufteilt. Wenn Carol Zahlungen von Alice zu Bob routet, fliesst Kapazität von Carols Alice-Seite zu Carols Bob-Seite. Nach vielen Zahlungen in dieselbe Richtung hat Carol auf der Alice-Seite kaum noch Kapazität — sie kann keine weiteren Zahlungen von Alice zu Bob mehr routen.
 
 Das ist das Rebalancing-Problem: Routing ist ökonomisch sinnvoll (Fee-Einnahmen), aber es zerstört systematisch die Balance, die es ermöglicht.
 

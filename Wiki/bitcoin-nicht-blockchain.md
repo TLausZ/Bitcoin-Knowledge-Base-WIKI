@@ -23,7 +23,7 @@ Eine Blockchain löst genau ein Problem: Sie entfernt die Notwendigkeit eines Dr
 
 Ohne eine native Währung mit glaubwürdigen monetären Eigenschaften gibt es keine wirtschaftlichen Anreize für Miner, das Netzwerk zu sichern. Ohne Sicherheit ist die Blockchain nicht unveränderlich. Ohne Unveränderlichkeit ist sie nicht vertrauenswürdig. Ohne Vertrauen erfüllt sie ihren Zweck nicht.
 
-Eine Blockchain für die Verwaltung von Eigentum, Dokumenten oder Verträgen klingt plausibel — aber außerhalb des Netzwerks kann keine Blockchain etwas durchsetzen. Sie kann nur den Besitz ihrer eigenen nativen Währung registrieren und schützen. Alles andere erfordert eine externe Vertrauensinstanz — und die macht die Blockchain überflüssig. [[aprycot-parker-lewis-bitcoin-nicht-blockchain]]
+Eine Blockchain für die Verwaltung von Eigentum, Dokumenten oder Verträgen klingt plausibel — aber ausserhalb des Netzwerks kann keine Blockchain etwas durchsetzen. Sie kann nur den Besitz ihrer eigenen nativen Währung registrieren und schützen. Alles andere erfordert eine externe Vertrauensinstanz — und die macht die Blockchain überflüssig. [[aprycot-parker-lewis-bitcoin-nicht-blockchain]]
 
 ### Unveränderlichkeit als emergente Eigenschaft
 
@@ -39,7 +39,7 @@ Diese Logik gilt für alle Blockchains. Jede Kryptowährung, die als Sicherheits
 
 ### Was folgt daraus
 
-Wer ein Altcoin-Projekt evaluiert, muss fragen: Wie wird die Sicherheit finanziert, und ist die native Währung als Geld überlebensfähig? Wenn die Antwort auf die zweite Frage "nein" lautet, kollabiert das System früher oder später. Wenn sie "ja" lautet, konkurriert das Projekt mit Bitcoin — auf einem Feld, auf dem Bitcoin zwölf Jahre Vorsprung, maximale Dezentralisierung und den größten Netzwerkeffekt hat.
+Wer ein Altcoin-Projekt evaluiert, muss fragen: Wie wird die Sicherheit finanziert, und ist die native Währung als Geld überlebensfähig? Wenn die Antwort auf die zweite Frage "nein" lautet, kollabiert das System früher oder später. Wenn sie "ja" lautet, konkurriert das Projekt mit Bitcoin — auf einem Feld, auf dem Bitcoin zwölf Jahre Vorsprung, maximale Dezentralisierung und den grössten Netzwerkeffekt hat.
 
 Hayek formulierte das Prinzip abstrakt: Gutes Geld entsteht nicht durch politische Planung, sondern durch freien Wettbewerb. Der Wettbewerb um digitales Geld hat einen klaren Gewinner produziert. [[aprycot-parker-lewis-bitcoin-nicht-blockchain]]
 
@@ -54,5 +54,5 @@ Hayek formulierte das Prinzip abstrakt: Gutes Geld entsteht nicht durch politisc
 
 ## Open Questions
 
-- Gibt es einen Blockchain-Anwendungsfall außerhalb von Geld, der ohne externe Vertrauensinstanz auskommt?
+- Gibt es einen Blockchain-Anwendungsfall ausserhalb von Geld, der ohne externe Vertrauensinstanz auskommt?
 - Wie unterscheidet sich "permissioned blockchain" (Unternehmen) von einer Datenbank mit Zugriffskontrolle — und was wäre der Vorteil?

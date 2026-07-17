@@ -7,7 +7,7 @@
 
 ## Summary
 
-Gigi analysiert die strukturellen Defekte des heutigen Internets — Empörungsmaximierung, „Du bist das Produkt"-Modelle, Micropayment-Unmöglichkeit, KYC-Zwang — und führt sie auf eine gemeinsame Ursache zurück: konventionelle Währungen können im Cyberspace nur als Kredit (IOUs) existieren, nicht als Bargeld. Bitcoin und Lightning ermöglichen erstmals digitales Inhabergeld ohne Gegenparteirisiko, was eine neue Ökonomie des Webs ermöglicht, in der Wert direkt zwischen Produzenten und Konsumenten fließt.
+Gigi analysiert die strukturellen Defekte des heutigen Internets — Empörungsmaximierung, „Du bist das Produkt"-Modelle, Micropayment-Unmöglichkeit, KYC-Zwang — und führt sie auf eine gemeinsame Ursache zurück: konventionelle Währungen können im Cyberspace nur als Kredit (IOUs) existieren, nicht als Bargeld. Bitcoin und Lightning ermöglichen erstmals digitales Inhabergeld ohne Gegenparteirisiko, was eine neue Ökonomie des Webs ermöglicht, in der Wert direkt zwischen Produzenten und Konsumenten fliesst.
 
 ## Body
 
@@ -37,7 +37,7 @@ Gigi: „Indem wir Aufmerksamkeit als De-facto-Währung im Internet verwenden, z
 
 ### Bitcoin als Lösung: Digitales Bargeld
 
-Bitcoin ist das erste Geld, das von Natur aus digital ist — kein IOU, kein Kredit, kein Gegenparteirisiko. Das Lightning Network ermöglicht Zahlungen in der Größenordnung von Satoshis (Bruchteile von Cent) nahezu kostenlos und in Echtzeit.
+Bitcoin ist das erste Geld, das von Natur aus digital ist — kein IOU, kein Kredit, kein Gegenparteirisiko. Das Lightning Network ermöglicht Zahlungen in der Grössenordnung von Satoshis (Bruchteile von Cent) nahezu kostenlos und in Echtzeit.
 
 Die Konsequenzen:
 - **Geringere Reibung**: Kein KYC, keine Zwischenhändler, kein Konto nötig
@@ -69,14 +69,14 @@ Beide Probleme löst Value-for-Value: Kein Paywall, kein DRM, keine Bezahlentsch
 
 ### Plattformen vs. Protokolle
 
-Gigi: „Plattformen für freie Meinungsäußerung können nicht existieren. Es kann nur Protokolle der freien Meinungsäußerung geben." Der Mechanismus: Wer Inhalte hosten oder übermitteln kann, wird unter staatlichem Druck zensieren. Selbst aufrichtige Plattformen werden irgendwann zur Zensur gezwungen — durch Haftungsfragen, Werbeabhängigkeit oder politischen Druck.
+Gigi: „Plattformen für freie Meinungsäusserung können nicht existieren. Es kann nur Protokolle der freien Meinungsäusserung geben." Der Mechanismus: Wer Inhalte hosten oder übermitteln kann, wird unter staatlichem Druck zensieren. Selbst aufrichtige Plattformen werden irgendwann zur Zensur gezwungen — durch Haftungsfragen, Werbeabhängigkeit oder politischen Druck.
 
 Plattformen unterliegen Anreizen, die zur Selbstzensur, Deplatforming und Meinungsmanipulation führen — nicht aus Bosheit, sondern aus Survival-Logik: Wer Empörung maximiert, überleben; wer kontrovers ist, verliert Werbeeinnahmen oder Plattform-Zugang. Das evolutionäre Umfeld selektion für Dopaminmaschinen (Gigi: TikTok als „Heroin gemischt mit Crack für den Verstand"). Protokolle — Bitcoin, Nostr, E-Mail, das Web selbst — unterliegen dieser Logik nicht, weil niemand sie kontrolliert. [[aprycot-gigi-freiheit-der-werte.md]]
 
 ### Vision des wertaktivierenden Webs
 
 Die Vision (kein einzelnes Produkt, sondern ein Ökosystem offener Protokolle):
-- Wert fließt direkt von Konsumenten zu Produzenten, ohne Gatekeeper
+- Wert fliesst direkt von Konsumenten zu Produzenten, ohne Gatekeeper
 - Identität bleibt optional; Reputation entsteht durch kostspielige Signale (Sats statt gefälschte Likes)
 - Antisoziales Verhalten wird teuer, ohne Deplatforming
 - „Fatten the long tail" — nicht nur Top-Creators profitieren, sondern alle Produzenten im Long Tail

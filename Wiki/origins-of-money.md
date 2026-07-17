@@ -21,7 +21,7 @@ Die naheliegende Erklärung, Geld sei durch allgemeine Übereinkunft oder Gesetz
 
 ### Das Problem des Tauschhandels
 
-Der direkte Tausch stößt an harte Grenzen. Selten will genau der, der mein Gut braucht, mir das geben, was ich brauche (das Problem der doppelten Übereinstimmung der Wünsche). Dazu kommen Unteilbarkeit und das zeitliche und mengenmäßige Auseinanderfallen von Angebot und Nachfrage. Diese Schwierigkeiten wären für den Fortschritt des Handels „absolutely insurmountable obstacles" gewesen, hätte nicht die Natur der Sache selbst ein Heilmittel bereitgehalten.
+Der direkte Tausch stösst an harte Grenzen. Selten will genau der, der mein Gut braucht, mir das geben, was ich brauche (das Problem der doppelten Übereinstimmung der Wünsche). Dazu kommen Unteilbarkeit und das zeitliche und mengenmässige Auseinanderfallen von Angebot und Nachfrage. Diese Schwierigkeiten wären für den Fortschritt des Handels „absolutely insurmountable obstacles" gewesen, hätte nicht die Natur der Sache selbst ein Heilmittel bereitgehalten.
 
 ### Absatzfähigkeit als Lösung
 

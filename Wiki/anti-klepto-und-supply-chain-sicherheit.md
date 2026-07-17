@@ -19,7 +19,7 @@ Da alle Signaturen öffentlich in der Blockchain gespeichert werden, kann der An
 
 **Besonders heimtückisch:** Dieser Angriff funktioniert unabhängig davon, ob der Computer des Nutzers kompromittiert ist. Selbst mit Air-Gap und sorgfältiger Transaktionsverifikation bleibt man ohne Schutz verwundbar.
 
-Das Ausmaß ist kleiner als oft angenommen: Das **Dark Skippy**-Paper zeigte, dass nur **zwei Signaturen** genügen, um eine komplette 12-Wörter-Seedphrase zu leaken, und **vier Signaturen** für 24 Wörter. Jede Transaktion, die eine Signatur erzeugt, ist also ein potenzieller Datenpunkt für einen böswilligen Hersteller.
+Das Ausmass ist kleiner als oft angenommen: Das **Dark Skippy**-Paper zeigte, dass nur **zwei Signaturen** genügen, um eine komplette 12-Wörter-Seedphrase zu leaken, und **vier Signaturen** für 24 Wörter. Jede Transaktion, die eine Signatur erzeugt, ist also ein potenzieller Datenpunkt für einen böswilligen Hersteller.
 
 ### Das Anti-Klepto-Protokoll
 
@@ -37,7 +37,7 @@ Wenn die Verifikation fehlschlägt, bricht die Host-Wallet ab. Eine böswillige 
 
 ### Seed-Verschlüsselung im RAM (Defense in Depth)
 
-Als komplementäre Maßnahme (eingeführt im Bellinzona-Update, August 2023) bleibt der Seed im RAM der BitBox02 verschlüsselt, auch wenn das Gerät entsperrt ist:
+Als komplementäre Massnahme (eingeführt im Bellinzona-Update, August 2023) bleibt der Seed im RAM der BitBox02 verschlüsselt, auch wenn das Gerät entsperrt ist:
 
 1. Nach dem Entsperren wird ein temporärer Zufallsschlüssel erzeugt und durch den Secure Chip gestreckt
 2. Der Seed wird mit diesem Schlüssel re-verschlüsselt
@@ -56,7 +56,7 @@ Die BitBox02 löst das durch einen **Challenge-Response-Mechanismus**:
 2. Das Gerät signiert sie mit einem **Attestation-Schlüssel** — einem privaten Schlüssel, der bei der Herstellung in den Chip gebrannt wird und das Gerät nie verlässt.
 3. Die BitBoxApp prüft die Signatur anhand des Root-Zertifikats von Shift Crypto.
 
-Nur ein echtes Gerät kann die Signatur korrekt erzeugen. Schlägt die Prüfung fehl, zeigt die BitBoxApp eine große rote Warnung.
+Nur ein echtes Gerät kann die Signatur korrekt erzeugen. Schlägt die Prüfung fehl, zeigt die BitBoxApp eine grosse rote Warnung.
 
 **Einschränkung:** Attestation beweist, dass das Gerät ursprünglich von Shift Crypto hergestellt wurde — nicht, dass es danach nicht manipuliert wurde. Ein Evil-Maid-Angriff, der nur die Host-Software (nicht das Gerät) kompromittiert, wird davon nicht abgedeckt.
 

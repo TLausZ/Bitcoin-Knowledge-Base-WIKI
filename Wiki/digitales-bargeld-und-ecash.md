@@ -35,7 +35,7 @@ Peter Van Valkenburgh (Coin Center) formulierte 2017 das politische Kernargument
 
 Bargeld ist strukturell zensurresistent: Niemand kann eine Transaktion verhindern, bevor sie stattfindet. Man kann eine vergangene Transaktion nachträglich als illegal klassifizieren und strafrechtlich verfolgen — aber man kann nicht jede mögliche Transaktion präventiv blockieren.
 
-Mit der Digitalisierung des Zahlungssystems verschwand diese physikalisch garantierte Eigenschaft. Alle elektronischen Zahlungssysteme (außer Bitcoin) laufen über eine Trusted Third Party: Bank, Kreditkartenunternehmen, Zahlungsdienstleister. Diese können Transaktionen jederzeit blockieren. Die Fähigkeit zur präventiven Zensur ist in das System eingebaut.
+Mit der Digitalisierung des Zahlungssystems verschwand diese physikalisch garantierte Eigenschaft. Alle elektronischen Zahlungssysteme (ausser Bitcoin) laufen über eine Trusted Third Party: Bank, Kreditkartenunternehmen, Zahlungsdienstleister. Diese können Transaktionen jederzeit blockieren. Die Fähigkeit zur präventiven Zensur ist in das System eingebaut.
 
 Van Valkenburghs Argument: Dieser Wechsel ist kein rein technischer Fortschritt. Er ist ein stiller Verlust einer Freiheit, die niemand bewusst aufgegeben hat, weil sie so selbstverständlich war, dass niemand darüber nachdachte. Die Diskussion über diese Abwägung wurde nie wirklich geführt.
 

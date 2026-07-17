@@ -19,7 +19,7 @@ Neue xpay-Funktionen:
 
 - **`xkeysend`**: Nachfolger von `keysend` mit modernem Routing-Support
 - **`sendamount`**: Neuer JSON-RPC-Befehl — gibt den Betrag an, den der Sender zahlen will (nicht den empfangenen Betrag); nützlich für präzises Liquiditäts- und Fee-Management
-- **Shadow CLTV additions**: `xpay` maskiert das finale Zahlungsziel per Shadow-CLTV-Ergänzungen gemäß BOLT 7 — besserer Schutz gegen Netzwerkbeobachtung
+- **Shadow CLTV additions**: `xpay` maskiert das finale Zahlungsziel per Shadow-CLTV-Ergänzungen gemäss BOLT 7 — besserer Schutz gegen Netzwerkbeobachtung
 - **Smarter Retries**: Bei `channel_update`-Fehlern aktualisiert `xpay` dynamisch die Route für den laufenden Zahlungsversuch
 
 ### Quantum-Resistente Channels
@@ -52,7 +52,7 @@ Neuer `graceful` JSON-RPC-Befehl für sauberes Node-Herunterfahren ohne Unterbre
 
 Das wichtigste technische Fundament des Releases ist `bwatch` (experimentell) — eine fundamentale Neuarchitektur der Blockchain-Überwachung:
 
-**Bisher**: `lightningd` pollte alle 30 Sekunden das `bcli`-Plugin, holte Roh-Block-Daten von `bitcoind` und parste jeden Block manuell nach relevanten Script Pubkeys und Outpoints. Für große Nodes rechenintensiv.
+**Bisher**: `lightningd` pollte alle 30 Sekunden das `bcli`-Plugin, holte Roh-Block-Daten von `bitcoind` und parste jeden Block manuell nach relevanten Script Pubkeys und Outpoints. Für grosse Nodes rechenintensiv.
 
 **Mit bwatch**:
 ```
@@ -80,5 +80,5 @@ bwatch öffnet die Möglichkeit, dass eine einzige Block-Watch-Engine mehrere un
 ## Open Questions
 
 - Wann wird der Quantum-Resistant Channel-Mechanismus in den BOLT-Standard aufgenommen?
-- Wie verhält sich bwatch bei sehr großen Nodes mit tausenden Channels und hohem Block-Volumen?
+- Wie verhält sich bwatch bei sehr grossen Nodes mit tausenden Channels und hohem Block-Volumen?
 - Wann wird `bwatch` den experimentellen Status verlassen?

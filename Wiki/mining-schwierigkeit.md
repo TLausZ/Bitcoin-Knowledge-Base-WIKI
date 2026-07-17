@@ -7,7 +7,7 @@
 
 ## Summary
 
-Die Mining-Schwierigkeit steuert, wie schwer es ist, einen gültigen Block zu finden. Sie passt sich alle 2016 Blöcke (~2 Wochen) automatisch an, um die durchschnittliche Blockzeit bei 10 Minuten zu halten. Wenn mehr Miner einsteigen und Blöcke schneller gefunden werden, steigt die Schwierigkeit; wenn Miner das Netzwerk verlassen, sinkt sie. Der Anpassungsfaktor ist auf ×4 (nach oben wie unten) pro Periode begrenzt. Seit dem Genesis-Block wurde die Schwierigkeit über 370 Mal angepasst; der größte Anstieg betrug 302 %, der größte Rückgang 27 %.
+Die Mining-Schwierigkeit steuert, wie schwer es ist, einen gültigen Block zu finden. Sie passt sich alle 2016 Blöcke (~2 Wochen) automatisch an, um die durchschnittliche Blockzeit bei 10 Minuten zu halten. Wenn mehr Miner einsteigen und Blöcke schneller gefunden werden, steigt die Schwierigkeit; wenn Miner das Netzwerk verlassen, sinkt sie. Der Anpassungsfaktor ist auf ×4 (nach oben wie unten) pro Periode begrenzt. Seit dem Genesis-Block wurde die Schwierigkeit über 370 Mal angepasst; der grösste Anstieg betrug 302 %, der grösste Rückgang 27 %.
 
 ## Body
 
@@ -19,7 +19,7 @@ Die Schwierigkeit ist eine Zahl, die ausdrückt, wie viele Hashes ein Miner im D
 Target = Max_Target / Difficulty
 ```
 
-Der Max_Target ist die größtmögliche Zielzahl (Difficulty = 1 = leichteste Stufe). Er wurde von Satoshi im Genesis-Block hardcodiert. Jeder SHA-256-Hash eines Block-Headers wird mit dem aktuellen Target verglichen: liegt der Hash darunter, ist der Block gültig.
+Der Max_Target ist die grösstmögliche Zielzahl (Difficulty = 1 = leichteste Stufe). Er wurde von Satoshi im Genesis-Block hardcodiert. Jeder SHA-256-Hash eines Block-Headers wird mit dem aktuellen Target verglichen: liegt der Hash darunter, ist der Block gültig.
 
 Der Target selbst wird im Block-Header im Feld `Bits` in komprimierter Form gespeichert. Weil der Target Teil der Blockdaten ist, die gehasht werden, lässt er sich nachträglich nicht fälschen — Difficulty-Manipulation ist protokollintern unmöglich.
 
@@ -45,7 +45,7 @@ Der Bug ermöglicht theoretisch einen **Time Warp Attack**: Ein Angreifer mit Mi
 
 Miner fügen bei jedem Block einen Zeitstempel hinzu. Wenn dieser zu weit in der Vergangenheit liegt (weniger Blöcke scheinbar schneller) oder zu weit in der Zukunft (mehr Zeit vorgespiegelt), verändert das die Difficulty-Berechnung. Bitcoin schützt dagegen mit drei Regeln:
 
-- Block-Zeitstempel muss größer sein als der Median der letzten 11 Blöcke (Konsensregel)
+- Block-Zeitstempel muss grösser sein als der Median der letzten 11 Blöcke (Konsensregel)
 - Block-Zeitstempel darf nicht mehr als 2 Stunden in der Zukunft liegen (Policy-Regel)
 - Lokale Systemuhr darf maximal 90 Minuten vom Peer-Median abweichen (Client-Regel)
 

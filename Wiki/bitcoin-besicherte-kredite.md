@@ -2,12 +2,12 @@
 
 **Status:** established
 **Themen:** oekonomie
-**Last updated:** 2026-07-04
-**Sources:** [[20260421_heartmoney-von-bitcoin-leben-geht-das-wirklich]], [[20251026_heartmoney-bitcoin-auf-kredit-lohnt-sich-das]], [[20260412_heartmoney-bitcoin-proton-iran]], [[20260510_heartmoney-ein-barenmarkt-fur-ameisen]], [[20260630_heartmoney-bitcoin-angst-und-magie]]
+**Last updated:** 2026-07-17
+**Sources:** [[20260421_heartmoney-von-bitcoin-leben-geht-das-wirklich]], [[20251026_heartmoney-bitcoin-auf-kredit-lohnt-sich-das]], [[20260412_heartmoney-bitcoin-proton-iran]], [[20260510_heartmoney-ein-barenmarkt-fur-ameisen]], [[20260630_heartmoney-bitcoin-angst-und-magie]], [[2024-12-05_The Fintech Founder - Inevitably, you will be better off borrowing against your Bitcoin th]], [[2024-12-12_The Structured Finance Expert - Credit investors have a fiat problem, and Bitcoin is the s]], [[2025-01-09_Silicon Valley Insider - the average retail banker is going away, because]], [[2025-02-13_Blockchain programmer and CTO - Bitcoin has way better ‘smart contracts’ than Ethereum]]
 
 ## Summary
 
-Bei Bitcoin-besicherten Krediten wird Bitcoin als Pfand hinterlegt, um Fiat-Liquidität zu erhalten, ohne zu verkaufen. Die zentrale Steuerungsgröße ist der Beleihungsgrad (LTV): Fällt der Kurs, steigt der LTV, es drohen Margin Calls und ab einer Schwelle die Zwangsliquidierung der hinterlegten Bitcoin. Die Strategie «Buy, Borrow, Die» — vom Bestand leben, ohne je zu verkaufen — funktioniert rechnerisch, aber nur mit großem Bestand, niedrigem LTV, hohen Liquiditätsreserven und Disziplin. Nowaks Kernbefund: Selbst ein konservatives Setup garantiert keinen gleichmäßigen Cashflow. Nach einem starken Kursrückgang kann der Entnahmespielraum jahrelang verschwinden. Nicht liquidiert zu werden und davon leben zu können sind zwei verschiedene Dinge.
+Bei Bitcoin-besicherten Krediten wird Bitcoin als Pfand hinterlegt, um Fiat-Liquidität zu erhalten, ohne zu verkaufen. Die zentrale Steuerungsgrösse ist der Beleihungsgrad (LTV): Fällt der Kurs, steigt der LTV, es drohen Margin Calls und ab einer Schwelle die Zwangsliquidierung der hinterlegten Bitcoin. Die Strategie «Buy, Borrow, Die» — vom Bestand leben, ohne je zu verkaufen — funktioniert rechnerisch, aber nur mit grossem Bestand, niedrigem LTV, hohen Liquiditätsreserven und Disziplin. Nowaks Kernbefund: Selbst ein konservatives Setup garantiert keinen gleichmässigen Cashflow. Nach einem starken Kursrückgang kann der Entnahmespielraum jahrelang verschwinden. Nicht liquidiert zu werden und davon leben zu können sind zwei verschiedene Dinge.
 
 ## Body
 
@@ -24,7 +24,7 @@ Daneben existieren KYC-freie Nischenangebote (Lendasat). Die Laufzeiten sind oft
 
 Der Loan-to-Value setzt Kreditbetrag und aktuellen Wert der Sicherheit ins Verhältnis. Beispiel: 120.000 € Bitcoin hinterlegt, 60.000 € Kredit aufgenommen → 50% LTV. Steigt der Kurs, sinkt der LTV und der Puffer wächst; fällt der Kurs, steigt der LTV. Fällt der Bitcoin-Preis im Beispiel von 60.000 € auf 45.000 €, springt der LTV von 50% auf 67%.
 
-Die Firefish-Mechanik (Stand der Quelle, April 2026): Margin-Call-Stufen bei 73%, 79% und 86% LTV — der Kreditnehmer muss Bitcoin nachschießen oder zurückzahlen. Bei 95% LTV erfolgt die Liquidierung; im Beispiel wäre das bei einem Kurs von knapp 31.600 € der Fall. Nicht der Kreditbetrag allein bestimmt das Risiko, sondern das Verhältnis zum schwankenden Wert der Sicherheit. [[20260421_heartmoney-von-bitcoin-leben-geht-das-wirklich]]
+Die Firefish-Mechanik (Stand der Quelle, April 2026): Margin-Call-Stufen bei 73%, 79% und 86% LTV — der Kreditnehmer muss Bitcoin nachschiessen oder zurückzahlen. Bei 95% LTV erfolgt die Liquidierung; im Beispiel wäre das bei einem Kurs von knapp 31.600 € der Fall. Nicht der Kreditbetrag allein bestimmt das Risiko, sondern das Verhältnis zum schwankenden Wert der Sicherheit. [[20260421_heartmoney-von-bitcoin-leben-geht-das-wirklich]]
 
 ### Buy, Borrow, Die
 
@@ -38,13 +38,13 @@ Parameter: 2 BTC als Sicherheit (120.000 € bei Kurs 60.000 €), 50% Start-LTV
 
 Der häufigste Denkfehler liegt hier: Nicht der kumulierte Spielraum ist entnehmbar, sondern nur sein jährlicher Zuwachs — im Modell 9.000 € im ersten, ~27.800 € im fünften, ~97.600 € im zehnten Jahr. Wer den Vorjahresspielraum bereits genutzt hat, kann nur den Neuzuwachs entnehmen.
 
-Zwei Realitätschecks: 50% LTV ist eher aggressiv; für bullische Phasen nennt die Quelle 5–15%, sonst etwa 20% als konservativ. Und die Größenordnung: Wer schon im ersten Jahr 50.000 € bei 20% LTV entnehmen will, braucht über 1,6 Millionen Euro Collateral. Buy-Borrow-Die ist kein Trick für kleine Bestände, sondern ein Modell für die Phase nach erfolgreichem Vermögensaufbau. [[20260421_heartmoney-von-bitcoin-leben-geht-das-wirklich]], [[20260412_heartmoney-bitcoin-proton-iran]]
+Zwei Realitätschecks: 50% LTV ist eher aggressiv; für bullische Phasen nennt die Quelle 5–15%, sonst etwa 20% als konservativ. Und die Grössenordnung: Wer schon im ersten Jahr 50.000 € bei 20% LTV entnehmen will, braucht über 1,6 Millionen Euro Collateral. Buy-Borrow-Die ist kein Trick für kleine Bestände, sondern ein Modell für die Phase nach erfolgreichem Vermögensaufbau. [[20260421_heartmoney-von-bitcoin-leben-geht-das-wirklich]], [[20260412_heartmoney-bitcoin-proton-iran]]
 
 ### Rechenbeispiel 2: volatiler Verlauf
 
 Konservativer Start: 120.000 € Collateral, 20% LTV, 24.000 € Kredit. Fiktiver Kurspfad: +100% im ersten Jahr, +150% im zweiten — der LTV fällt auf 4,8%, die neu entnehmbare Liquidität steigt auf über 69.000 €. Dann −75% im dritten Jahr: Der LTV springt auf 21,3%. Keine Liquidierungsgefahr, aber der Ziel-LTV von 20% ist überschritten — der zusätzliche Kreditspielraum wird negativ, in diesem Jahr ist keine Entnahme möglich, ohne das Risikoprofil aufzugeben.
 
-Daraus folgt die zentrale Unterscheidung: Ein niedriger LTV schützt vor der Liquidierung, garantiert aber keinen gleichmäßigen Cashflow. «Überleben» und «davon leben» sind verschiedene Aussagen. Die öffentliche Debatte dreht sich fast ausschließlich um das Liquidierungsrisiko und übersieht das Entnahmerisiko.
+Daraus folgt die zentrale Unterscheidung: Ein niedriger LTV schützt vor der Liquidierung, garantiert aber keinen gleichmässigen Cashflow. «Überleben» und «davon leben» sind verschiedene Aussagen. Die öffentliche Debatte dreht sich fast ausschliesslich um das Liquidierungsrisiko und übersieht das Entnahmerisiko.
 
 ### Fünf Risiken
 
@@ -60,11 +60,18 @@ Ein dokumentierter Praxisfall zur Fallhöhe: Auf der BTC Prague im Juni 2026 —
 
 Wer sich noch im Vermögensaufbau befindet, für den ist das Modell nicht gedacht — dort gilt kaufen, halten, Geduld. Als grobe Orientierung zitiert die Quelle den US-YouTuber Brad Long: Unter etwa 1 Million USD Nettovermögen ist man in der Aufbauphase; erst darüber werden Entnahmestrategien wie Buy-Borrow-Die realistisch. Ein blinder Fleck der Community-Debatte: Viele diskutieren Entnahmestrategien, obwohl sie mitten in der Akkumulation stehen. Anwendungsfälle jenseits der Entnahme existieren — etwa Alltagsleben auf dem Bitcoin-Standard mit Krediten als Fiat-Brücke (Fallbeispiel Markus Turm) —, bleiben aber Nische. [[20260510_heartmoney-ein-barenmarkt-fur-ameisen]]
 
+### Anbieter- und Institutionensicht (LNMS-Interviews)
+
+Die heartmoney/Nowak-Quellen oben nehmen die Retail-DACH-Perspektive ein; Pascal Hüglis Less-Noise-More-Signal-Reihe ergänzt die Anbieter- und Institutionenseite. Mauricio di Bartolomeo (Ledn) rahmt Bitcoin-besicherte Konsumkredite als Weg, ohne Verkauf liquide zu bleiben, mit Fokus auf LTV-Management und Aufklärung der Kreditnehmer; er kommt aus dem hyperinflationären Venezuela und sieht das Borgen gegen Bitcoin langfristig günstiger als gegen Immobilien. [[2024-12-05_The Fintech Founder - Inevitably, you will be better off borrowing against your Bitcoin th]] Andrew Hohns (Battery Finance) hebt die Perspektive auf strukturiertes Asset-Backed-Lending: Bitcoin als langfristige Sicherheit für flexible Kreditstrukturen, die Kreditgebern wie -nehmern nutzen. [[2024-12-12_The Structured Finance Expert - Credit investors have a fiat problem, and Bitcoin is the s]]
+
+Auf der Technik-Seite zeigt Shehzan Maredia (Lava) ein non-custodial Modell, das über Discreet Log Contracts (DLCs) und Preis-Orakel das Liquidationsrisiko ohne Verwahrung durch Dritte steuert — der Kontrast zum Custody-Modell etwa von Coinbase-Loans. [[2025-02-13_Blockchain programmer and CTO - Bitcoin has way better ‘smart contracts’ than Ethereum]] Bill Barhydt (Abra) ordnet das Ganze in den breiteren Banking-Wandel ein: Bitcoin als Kreditsicherheit, Remittances und Kreditsysteme in Schwellenmärkten, verbunden mit dem Rat zur Selbstverwahrung statt Börsenlagerung. [[2025-01-09_Silicon Valley Insider - the average retail banker is going away, because]] Die Interviews liegen als Podcast-Zusammenfassungen mit Pro-Bitcoin-Bias vor; Gästeüberblick in [[bitcoin-marktkommentar-lnms]].
+
 ## Related
 
 - [[bitcoin-auf-kredit]]
 - [[bitcoin-und-immobilien]]
 - [[bitcoin-unternehmens-strategie]]
+- [[bitcoin-marktkommentar-lnms]]
 - [[bitcoin-volatilitaet-und-preisfindung]]
 - [[selbstverwahrung-und-boersenrisiken]]
 - [[bitcoin-entfinanzialisierung]]

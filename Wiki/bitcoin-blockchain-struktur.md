@@ -7,7 +7,7 @@
 
 ## Summary
 
-Die Blockchain ist eine Datei auf jedem Node, die alle Bitcoin-Transaktionen seit dem Genesis-Block enthält. Blöcke sind durch kryptografische Hashes verkettet — wer einen alten Block ändert, bricht alle nachfolgenden Blöcke. Der "längste Chain" ist nicht der mit den meisten Blöcken, sondern der mit der meisten kumulierten Arbeit (Chainwork). Nodes wechseln bei Bedarf automatisch auf die längste Chain (Chain Reorganization). Die aktuell ~852 GB große Blockchain wird als `blk*.dat`-Dateien gespeichert.
+Die Blockchain ist eine Datei auf jedem Node, die alle Bitcoin-Transaktionen seit dem Genesis-Block enthält. Blöcke sind durch kryptografische Hashes verkettet — wer einen alten Block ändert, bricht alle nachfolgenden Blöcke. Der "längste Chain" ist nicht der mit den meisten Blöcken, sondern der mit der meisten kumulierten Arbeit (Chainwork). Nodes wechseln bei Bedarf automatisch auf die längste Chain (Chain Reorganization). Die aktuell ~852 GB grosse Blockchain wird als `blk*.dat`-Dateien gespeichert.
 
 ## Body
 
@@ -35,7 +35,7 @@ Ein Block ist ein Bündel von Transaktionen, das durch Mining dauerhaft auf die 
 
 Der Block-Header hat sechs Felder:
 
-| Feld | Größe | Bedeutung |
+| Feld | Grösse | Bedeutung |
 |------|-------|-----------|
 | Version | 4 Bytes | Protokollversion des Miners |
 | Previous Block | 32 Bytes | Hash des vorherigen Blocks — erzeugt die Kette |
@@ -79,7 +79,7 @@ Bei diesem Wechsel (Chain Reorganization):
 2. Werden die neuen Blöcke verbunden.
 3. Kommen Transaktionen aus den abgekoppelten Blöcken zurück in den Mempool.
 
-Ersetzte Blöcke heißen **Stale Blocks** (manchmal fälschlicherweise "Orphan Blocks"). Sie werden gespeichert, gehören aber nicht mehr zur aktiven Chain. Reorgs sind fast immer 1 Block tief — tiefere Reorgs werden exponentiell unwahrscheinlicher. Seit März 2021 gab es laut blockchain-Explorern 42 Reorgs im Bitcoin-Netzwerk.
+Ersetzte Blöcke heissen **Stale Blocks** (manchmal fälschlicherweise "Orphan Blocks"). Sie werden gespeichert, gehören aber nicht mehr zur aktiven Chain. Reorgs sind fast immer 1 Block tief — tiefere Reorgs werden exponentiell unwahrscheinlicher. Seit März 2021 gab es laut blockchain-Explorern 42 Reorgs im Bitcoin-Netzwerk.
 
 ### Merkle Root: Transaktionen komprimiert
 
@@ -100,5 +100,5 @@ Die Merkle Root ist ein einzelner Hash, der alle Transaktionen im Block repräse
 
 ## Open Questions
 
-- Wie wird die Blockchain-Größe langfristig gehandhabt (Pruning, Archive Nodes)?
+- Wie wird die Blockchain-Grösse langfristig gehandhabt (Pruning, Archive Nodes)?
 - Welcher Mechanismus bestimmt die initiale Chainwork eines Nodes beim IBD?

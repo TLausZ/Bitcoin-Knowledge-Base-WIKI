@@ -7,7 +7,7 @@
 
 ## Summary
 
-Philip Zimmermanns PGP (1991) war die erste breite Implementierung starker Ende-zu-Ende-Verschlüsselung für Privatpersonen — erschienen als direkte Antwort auf einen US-Gesetzentwurf, der Backdoors in Kommunikationssoftware vorgeschrieben hätte. Die Geschichte der Krypto-Kriege zeigt, wie Regierungen wiederholt versucht haben, Verschlüsselung zu kontrollieren, und warum sie bisher gescheitert sind. Bitcoins Zensurresistenz fußt auf denselben kryptographischen Grundlagen, die Zimmermann und die Cypherpunks in den 1990ern erkämpften.
+Philip Zimmermanns PGP (1991) war die erste breite Implementierung starker Ende-zu-Ende-Verschlüsselung für Privatpersonen — erschienen als direkte Antwort auf einen US-Gesetzentwurf, der Backdoors in Kommunikationssoftware vorgeschrieben hätte. Die Geschichte der Krypto-Kriege zeigt, wie Regierungen wiederholt versucht haben, Verschlüsselung zu kontrollieren, und warum sie bisher gescheitert sind. Bitcoins Zensurresistenz fusst auf denselben kryptographischen Grundlagen, die Zimmermann und die Cypherpunks in den 1990ern erkämpften.
 
 ## Body
 
@@ -21,7 +21,7 @@ Die Analogie: Wenn alle Briefe auf Postkarten verschickt würden und man plötzl
 
 ### Die FBI-Ermittlung gegen Zimmermann
 
-Nach der Veröffentlichung von PGP als Freeware wurde Zimmermann drei Jahre lang vom FBI untersucht — wegen möglichen Verstoßes gegen US-Exportkontrollgesetze für Kryptographie. Software mit starker Verschlüsselung galt damals als Rüstungsgut, das nicht ohne Genehmigung exportiert werden durfte. Die Ermittlung wurde 1996 eingestellt.
+Nach der Veröffentlichung von PGP als Freeware wurde Zimmermann drei Jahre lang vom FBI untersucht — wegen möglichen Verstosses gegen US-Exportkontrollgesetze für Kryptographie. Software mit starker Verschlüsselung galt damals als Rüstungsgut, das nicht ohne Genehmigung exportiert werden durfte. Die Ermittlung wurde 1996 eingestellt.
 
 Das Paradox: Zimmermann hatte PGP im eigenen Land veröffentlicht — andere hatten es ins Ausland hochgeladen. Aber die Ermittlung zeigte, wie ernst die US-Regierung die Kontrolle über Verschlüsselungstechnologie nahm.
 
@@ -39,7 +39,7 @@ Die Cypherpunk-Community leistete massiven Widerstand. Matt Blaze fand 1994 eine
 
 ### Zweiter Krypto-Krieg: Post-Snowden (2013–2017)
 
-Nach Snowdens Enthüllungen (2013) begannen Apple und Google, ihre Geräte standardmäßig vollständig zu verschlüsseln. FBI-Direktor James Comey reagierte mit der Forderung nach "Going Dark"-Gesetzgebung: Ende-zu-Ende-Verschlüsselung mache Strafverfolgung unmöglich.
+Nach Snowdens Enthüllungen (2013) begannen Apple und Google, ihre Geräte standardmässig vollständig zu verschlüsseln. FBI-Direktor James Comey reagierte mit der Forderung nach "Going Dark"-Gesetzgebung: Ende-zu-Ende-Verschlüsselung mache Strafverfolgung unmöglich.
 
 Jonathan 'smuggler' Logan analysierte 2017 den wesentlichen Unterschied zum ersten Krypto-Krieg: Regierungen verlangen heute keine technische Backdoor-Spezifikation mehr. Sie formulieren das Ziel ("Terroristen dürfen keine sicheren Kommunikationsräume haben") und überlassen die Lösung dem Markt und der Industrie. Dieser vagere politische Druck ist schwerer zu bekämpfen, weil es keinen Clipper-Chip gibt, dessen kryptographische Schwäche man demonstrieren könnte.
 

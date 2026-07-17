@@ -21,7 +21,7 @@ Herausgeber ist Boerse Stuttgart Digital, der Digital-Asset-Arm der Boerse Stutt
 
 Beim Vertrauen dominiert die Hausbank. Anleger vertrauen ihr für Krypto-Investments mehr als doppelt so häufig wie spezialisierten Krypto-Plattformen. Zugleich ist dieser Vorsprung nicht sicher: 35 % würden ihre Bank wechseln, wenn ein anderes Institut bessere Krypto-Angebote böte. Rund die Hälfte gibt an, dass die EU-Regulierung ihr Vertrauen erhöht; MiCAR wird als Schritt zu mehr Transparenz und rechtlicher Klarheit wahrgenommen.
 
-Die größten Hürden für ein Krypto-Investment (Zustimmung):
+Die grössten Hürden für ein Krypto-Investment (Zustimmung):
 
 - Angst vor Betrug oder Datenverlust: 76,8 %
 - zu wenig reguliert und daher riskant: 75,8 %
@@ -40,7 +40,7 @@ Der eigentliche Wert der Studie liegt in den nationalen Unterschieden. Sie wider
 
 **Deutschland** verbindet hohe Finanzkompetenz mit vorsichtiger Adaption. In der Finanzbildung liegt Deutschland mit 67,9 % auf Platz 1 vor Spanien (66,7 %), Italien (63,1 %) und Frankreich (56,6 %). 25,0 % haben investiert, 29,1 % planen es in den nächsten fünf Jahren. Bemerkenswert für die Bankenstrategie: Fast jeder dritte Deutsche (35,3 %) wäre bereit, für bessere Krypto-Angebote die Bank zu wechseln.
 
-**Frankreich** bietet laut Studie das größte Potenzial für traditionelle Banken. Das Vertrauen in die eigene Bank für Krypto-Investments liegt mit 45,9 % über dem EU-Schnitt (40 %), und 66,6 % würden ihre Bank auch für bessere Krypto-Angebote nicht wechseln (EU-Schnitt 65,4 %) — die Bankbindung ist also besonders stabil. Auffällig ist die praktische Nutzung: Online-Einkäufe mit Krypto (36,8 %) und Privat-Transaktionen (25,0 %) liegen deutlich über dem EU-Schnitt (27,2 % bzw. 19,4 %). Die Finanzbildung ist mit 56,6 % (EU-Schnitt 65 %) am niedrigsten.
+**Frankreich** bietet laut Studie das grösste Potenzial für traditionelle Banken. Das Vertrauen in die eigene Bank für Krypto-Investments liegt mit 45,9 % über dem EU-Schnitt (40 %), und 66,6 % würden ihre Bank auch für bessere Krypto-Angebote nicht wechseln (EU-Schnitt 65,4 %) — die Bankbindung ist also besonders stabil. Auffällig ist die praktische Nutzung: Online-Einkäufe mit Krypto (36,8 %) und Privat-Transaktionen (25,0 %) liegen deutlich über dem EU-Schnitt (27,2 % bzw. 19,4 %). Die Finanzbildung ist mit 56,6 % (EU-Schnitt 65 %) am niedrigsten.
 
 **Italien** ist ein wachsender Markt mit starker Wissensnachfrage. 40,0 % nutzen Kryptowährungen zur Portfolio-Diversifikation. Regulierung und Transparenz sind zentrale Auswahlkriterien: 79,0 % wählen ihren Anbieter danach, 76,9 % wünschen sich zuverlässigen Kundenservice. Sicherheit ist der wichtigste Treiber.
 

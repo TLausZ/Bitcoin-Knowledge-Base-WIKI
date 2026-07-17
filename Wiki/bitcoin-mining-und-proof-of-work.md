@@ -35,7 +35,7 @@ Bitcoin-Mining ist kein "Lösen komplexer mathematischer Rätsel". Es ist ein W�
 
 **SHA-256** hat vier Eigenschaften, die es dafür ideal machen:
 - **Deterministisch:** Gleicher Input → immer gleicher Output; jeder kann prüfen
-- **Nicht umkehrbar:** Aus dem Hash kann man nicht auf den Input schließen
+- **Nicht umkehrbar:** Aus dem Hash kann man nicht auf den Input schliessen
 - **Chaotisch-sensitiv:** Jede minimale Input-Änderung ändert den Output vollständig
 - **Riesiger Wertebereich:** 2^256 mögliche Ergebnisse — mehr als Atome im Universum
 
@@ -51,7 +51,7 @@ Ein Miner baut den nächsten Block:
 3. Nonce variieren → SHA-256-Hash berechnen → Zielwert unterschritten? → Block gefunden
 4. Block ans Netzwerk senden → alle Nodes prüfen den Hash (trivial schnell) und akzeptieren bei Gültigkeit
 
-Moderne ASIC-Hardware schafft mehrere **Hundert Terahash pro Sekunde** (10^14 Hashes/s). Das gesamte Bitcoin-Netzwerk erreicht mehrere Hundert Exahash (10^20 Hashes/s) — ein Ausmaß an physischer Rechenarbeit ohne Vergleich in der Geschichte.
+Moderne ASIC-Hardware schafft mehrere **Hundert Terahash pro Sekunde** (10^14 Hashes/s). Das gesamte Bitcoin-Netzwerk erreicht mehrere Hundert Exahash (10^20 Hashes/s) — ein Ausmass an physischer Rechenarbeit ohne Vergleich in der Geschichte.
 
 ### Schwierigkeitsanpassung
 
@@ -112,15 +112,15 @@ Auf der Mailing List brachte er 2008 den Sicherheitsanker auf einen Satz: «The 
 
 **FPGA-Mining (2011–2012):** Field Programmable Gate Arrays — konfigurierbare Chips, ~10× effizienter als GPUs. Kurze Übergangsphase.
 
-**ASIC-Mining (2013–heute):** Application-Specific Integrated Circuits — Chips, die ausschließlich SHA-256 berechnen können, nichts sonst. Milliarden-fach effizienter als CPUs. Der erste Bitcoin-ASIC war der Avalon1, ausgeliefert ab dem 30. Januar 2013. Preis: $1.299 für 60 GH/s. Zum Vergleich: Ein Bitaxe (moderner DIY-Miner) ist ~20× schneller, ein Antminer S21 XP Hydro rund 7.883× schneller. Jeff Garzik war unter den ersten Empfängern. Ein moderner ASIC (Bitmain Antminer S21, 2024) schafft ~200 Terahash/s bei ~17 Joule/Terahash. ASICs machen Mining irreversibel industriell: nur noch große Operatoren mit günstiger Energie und neuester Hardware sind langfristig profitabel. [[waltz-fact-08-avalon1-first-asic-miner]]
+**ASIC-Mining (2013–heute):** Application-Specific Integrated Circuits — Chips, die ausschliesslich SHA-256 berechnen können, nichts sonst. Milliarden-fach effizienter als CPUs. Der erste Bitcoin-ASIC war der Avalon1, ausgeliefert ab dem 30. Januar 2013. Preis: $1.299 für 60 GH/s. Zum Vergleich: Ein Bitaxe (moderner DIY-Miner) ist ~20× schneller, ein Antminer S21 XP Hydro rund 7.883× schneller. Jeff Garzik war unter den ersten Empfängern. Ein moderner ASIC (Bitmain Antminer S21, 2024) schafft ~200 Terahash/s bei ~17 Joule/Terahash. ASICs machen Mining irreversibel industriell: nur noch grosse Operatoren mit günstiger Energie und neuester Hardware sind langfristig profitabel. [[waltz-fact-08-avalon1-first-asic-miner]]
 
-Die ASIC-Ära hat zwei Konsequenzen: Das Netzwerk ist sicherer (mehr Kapitalinvestition pro Hashrate), aber Mining ist zentralisierter (weniger Akteure, größere Anlagen).
+Die ASIC-Ära hat zwei Konsequenzen: Das Netzwerk ist sicherer (mehr Kapitalinvestition pro Hashrate), aber Mining ist zentralisierter (weniger Akteure, grössere Anlagen).
 
 ### Mining Pools
 
 Einzelne Miner mit wenig Hashrate würden statistisch Monate oder Jahre auf einen Block warten. Mining Pools aggregieren viele Miner: Jeder liefert proportionalen Hashrate-Beitrag und erhält proportionalen Anteil der Block-Rewards — häufige kleine Auszahlungen statt seltener Volltreffer.
 
-Größte Pools (2025): Foundry USA, AntPool, F2Pool, ViaBTC — zusammen über 60% der globalen Hashrate. Pool-Zentralisierung ist ein diskutiertes Risiko, da ein Pool theoretisch Transaktionen zensieren könnte. Die wirtschaftlichen Anreize sprechen dagegen: Wer zensiert, verliert Miner sofort an konkurrierende Pools.
+Grösste Pools (2025): Foundry USA, AntPool, F2Pool, ViaBTC — zusammen über 60% der globalen Hashrate. Pool-Zentralisierung ist ein diskutiertes Risiko, da ein Pool theoretisch Transaktionen zensieren könnte. Die wirtschaftlichen Anreize sprechen dagegen: Wer zensiert, verliert Miner sofort an konkurrierende Pools.
 
 ### Mining-Ökonomie: Block-Subsidy und Halving
 
@@ -158,9 +158,9 @@ Heute (2025): USA dominiert mit ~35–40% (Texas als Zentrum), gefolgt von Nordi
 
 Hugo Nguyen argumentiert, dass PoW aus drei Komponenten besteht: Zufall, fälschungssichere Kostspieligkeit (unforgeable costliness) und Anreize. PoS-Designer fokussieren auf (1) und (3), lassen aber (2) weg — und dieser Fehler ist nicht trivial.
 
-Ein digitaler Block besteht aus Nullen und Einsen. Wenn seine Erzeugung nichts kostet, kann er gefälscht und reproduziert werden. Das "Gewicht" eines PoW-Blocks kommt ausschließlich aus der direkten, prüfbaren Verbindung zwischen dem Block-Hash und der aufgewandten Energie. PoS-Blöcke haben kein solches physisches Gewicht; ihr "Gewicht" ist subjektiv und damit manipulierbar.
+Ein digitaler Block besteht aus Nullen und Einsen. Wenn seine Erzeugung nichts kostet, kann er gefälscht und reproduziert werden. Das "Gewicht" eines PoW-Blocks kommt ausschliesslich aus der direkten, prüfbaren Verbindung zwischen dem Block-Hash und der aufgewandten Energie. PoS-Blöcke haben kein solches physisches Gewicht; ihr "Gewicht" ist subjektiv und damit manipulierbar.
 
-Das erklärt, warum PoW Netzwerkpartitionen deterministisch löst: Wenn zwei Chains kollidieren, entscheidet die akkumulierte Arbeit, ohne menschliche Intervention. PoS hat keinen äquivalenten objektiven Maßstab. Wenn zwei PoS-Chains kollidieren, muss das Protokoll auf externe Koordination ausweichen — was Zentralisierung einführt, auch wenn sie als "Notfallmechanismus" verpackt ist.
+Das erklärt, warum PoW Netzwerkpartitionen deterministisch löst: Wenn zwei Chains kollidieren, entscheidet die akkumulierte Arbeit, ohne menschliche Intervention. PoS hat keinen äquivalenten objektiven Massstab. Wenn zwei PoS-Chains kollidieren, muss das Protokoll auf externe Koordination ausweichen — was Zentralisierung einführt, auch wenn sie als "Notfallmechanismus" verpackt ist.
 
 Fälschungssichere Kostspieligkeit passt in keine einzelne akademische Disziplin — sie verbindet Physik, Ökonomie und Evolutionspsychologie (Nick Szabos Forschung über den Ursprung des Geldes als Sammlerstück). Genau deshalb wird sie von PoS-Forschern, die aus der Informatik oder Spieltheorie kommen, übersehen. → [[proof-of-stake-kritik]] für vollständige Analyse. [[aprycot-nguyen-pos-falsche-denkweise]], [[aprycot-nguyen-pos-private-schluessel-faelschungssicher]]
 

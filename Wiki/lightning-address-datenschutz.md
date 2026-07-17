@@ -52,7 +52,7 @@ Spark nutzt diesen Mechanismus, aber die eingebettete Information — die Spark-
 
 Phoenix (ACINQ) weist selbst darauf hin, dass die aktuelle Version keinen Datenschutzvorteil gegenüber custodial Wallets bietet — ACINQ kennt Zahlungsempfänger und -beträge. Zukünftige Versionen sollen Trampoline Payments mit Blinded Paths implementieren.
 
-### Gegenmaßnahmen
+### Gegenmassnahmen
 
 - **Keine Lightning Address verwenden, wenn Datenschutz wichtig**: Stattdessen direkte BOLT11-Invoices oder BOLT12 Offers nutzen
 - **Self-hosted Lightning Address**: Eigener LNbits- oder BTCPay-Server minimiert Server-Sichtbarkeit
@@ -72,5 +72,5 @@ Phoenix (ACINQ) weist selbst darauf hin, dass die aktuelle Version keinen Datens
 
 - Haben neuere Wallet-of-Satoshi-Versionen das Spark-Routing-Hint-Problem behoben?
 - Wann implementiert Phoenix Blinded Paths, um Empfänger-Datenschutz zu verbessern?
-- Gibt es andere Lightning-Wallets außer Spark-basierten, die ähnliche permanente Kennungen in Routing Hints einbetten?
+- Gibt es andere Lightning-Wallets ausser Spark-basierten, die ähnliche permanente Kennungen in Routing Hints einbetten?
 - Wie schützt BOLT12 Offers die Privatsphäre im Vergleich zu LNURL-basierten Lightning Addresses?

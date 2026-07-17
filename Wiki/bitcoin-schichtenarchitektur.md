@@ -19,7 +19,7 @@ Ethereum und andere Kryptowährungen ignorierten diesen Grundsatz. Sie versuchte
 
 ### Die Schichten
 
-**Lightning:** Zahlungskanäle auf der Bitcoin-Timechain. Zwei Parteien hinterlegen Bitcoin in einem Smart Contract und tauschen Off-Chain-Quittungen aus. Jede Partei kann den Kanal jederzeit "schließen", indem sie die neueste Quittung on-chain einreicht. Das Clever an der Weiterleitung: Quittungen können über mehrere Kanäle geroutet werden — Alice zahlt Bob, der Carol kennt, ohne dass Alice Carol einen Kanal öffnen muss.
+**Lightning:** Zahlungskanäle auf der Bitcoin-Timechain. Zwei Parteien hinterlegen Bitcoin in einem Smart Contract und tauschen Off-Chain-Quittungen aus. Jede Partei kann den Kanal jederzeit "schliessen", indem sie die neueste Quittung on-chain einreicht. Das Clever an der Weiterleitung: Quittungen können über mehrere Kanäle geroutet werden — Alice zahlt Bob, der Carol kennt, ohne dass Alice Carol einen Kanal öffnen muss.
 
 Aus einer anderen Perspektive ist Lightning noch interessanter: Zahlungen sind Daten, die verschlüsselt über Onion-Routing weitergeleitet werden. Oder: Daten sind Zahlungen — Onion-Routing wird direkt monetarisiert (Sphinx Chat). Das löst ein klassisches Problem verteilter Systeme: Wer hat Anreiz, Infrastruktur für Datenschutz zu betreiben? Lightning bezahlt Routing-Nodes dafür automatisch. [[aprycot-nur-die-staerksten-5-schichtenarchitektur]]
 
@@ -35,7 +35,7 @@ Aus einer anderen Perspektive ist Lightning noch interessanter: Zahlungen sind D
 
 Das Gegenargument — "Das sind nur Umgehungen der Bitcoin-Limitierungen" — verwechselt Feature und Bug. TCP/IP, das für Videostreaming konfiguriert worden wäre, hätte nie funktioniert. Das Internet skalierte, weil jede Schicht genau eine Aufgabe macht und die anderen Schichten respektiert. Thibaud Maréchal: "Diese klare Spezialisierung stellt die Leistung, Zuverlässigkeit und Skalierbarkeit des Internets sicher." Dasselbe gilt für Bitcoin.
 
-Alle Schichten in die Mainchain zu packen ist nicht nur technisch wahrscheinlich unmöglich — es wäre auch strukturell falsch. Unbekannte Angriffsvektoren entstehen durch unbeabsichtigte Interaktionen zwischen Teilsystemen. Deshalb ist "Nothing is systemically important" der richtige Maßstab: Wenn Lightning ausfällt, bleibt die Timechain intakt. Wenn ein DLC-Orakel versagt, betrifft das nur die Parteien des Vertrags. Das System als Ganzes kann nicht durch einen Schwachpunkt kollabieren.
+Alle Schichten in die Mainchain zu packen ist nicht nur technisch wahrscheinlich unmöglich — es wäre auch strukturell falsch. Unbekannte Angriffsvektoren entstehen durch unbeabsichtigte Interaktionen zwischen Teilsystemen. Deshalb ist "Nothing is systemically important" der richtige Massstab: Wenn Lightning ausfällt, bleibt die Timechain intakt. Wenn ein DLC-Orakel versagt, betrifft das nur die Parteien des Vertrags. Das System als Ganzes kann nicht durch einen Schwachpunkt kollabieren.
 
 ### Das historische Vorbild
 

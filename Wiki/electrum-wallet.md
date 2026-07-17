@@ -15,7 +15,7 @@ Electrum ist die bevorzugte Bitcoin-Wallet für Power-User: voller Funktionsumfa
 
 Electrum ist eine freie, quelloffene Bitcoin-Software für Windows, Mac und Linux. Sie verbindet sich mit einem Electrum-Server, der die Blockchain indexiert und relevante Daten liefert (Adressen, Salden, Gebührenschätzungen). Electrum kann als reine Software-Wallet (private Schlüssel auf dem PC) oder als Begleit-App für Hardware-Wallets laufen.
 
-**Installation:** Ausschließlich von [electrum.org](https://www.electrum.org) herunterladen. Die Domain genau prüfen — Fake-Domains verbreiten Malware. Die PGP-Signatur der heruntergeladenen Datei lässt sich auf der offiziellen Website verifizieren.
+**Installation:** Ausschliesslich von [electrum.org](https://www.electrum.org) herunterladen. Die Domain genau prüfen — Fake-Domains verbreiten Malware. Die PGP-Signatur der heruntergeladenen Datei lässt sich auf der offiziellen Website verifizieren.
 
 ### Server-Wahl ist eine Datenschutzentscheidung
 
@@ -57,7 +57,7 @@ Electrum übergibt eine unsignierte Transaktion an die BitBox02. Das Gerät zeig
 
 ### Erweiterte Funktionen
 
-**Replace-by-Fee (RBF):** Macht eine Transaktion nachträglich austauschbar. Nützlich wenn der Mempool sich füllt und eine Transaktion mit zu niedriger Gebühr steckt. Die BitBoxApp kennzeichnet Transaktionen standardmäßig mit RBF, damit sie später in Electrum erhöht werden können. Einstellungen → Transaktionen → "Replace-by-fee aktivieren".
+**Replace-by-Fee (RBF):** Macht eine Transaktion nachträglich austauschbar. Nützlich wenn der Mempool sich füllt und eine Transaktion mit zu niedriger Gebühr steckt. Die BitBoxApp kennzeichnet Transaktionen standardmässig mit RBF, damit sie später in Electrum erhöht werden können. Einstellungen → Transaktionen → "Replace-by-fee aktivieren".
 
 **Pay-to-many:** "Werkzeuge → Zahle an mehrere" — mehrere Empfängeradressen und Beträge in Zeilen oder CSV-Import. Spart Blockplatz und Gebühren gegenüber mehreren Einzeltransaktionen.
 
@@ -73,7 +73,7 @@ Electrum übergibt eine unsignierte Transaktion an die BitBox02. Das Gerät zeig
 
 Wer Sparrow oder Electrum an einen eigenen privaten Server anbinden will, hat drei relevante Implementierungen (Benchmark auf Raspberry Pi 4, 8 GB RAM, 1 TB USB-SSD, Stand Feb 2022): [[sparrowwallet-Server Performance]]
 
-| Implementierung | Index-Aufbau (Pi 4) | DB-Größe | txindex nötig? | Stärke |
+| Implementierung | Index-Aufbau (Pi 4) | DB-Grösse | txindex nötig? | Stärke |
 |---|---|---|---|---|
 | **Fulcrum** | 2–3 Tage | ~102 GB | Ja | Schnellste Query-Performance; C++; Binaries verfügbar |
 | **Electrs** | 12–24 Stunden | ~32 GB | Nein | Kleinster Footprint; auf Fertigknoten (Umbrel, MyNode) verbreitet |

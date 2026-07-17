@@ -13,7 +13,7 @@ Wankum (TBN #34, Dezember 2025) stellt eine These auf, die selten formuliert wir
 
 ### Das Argument
 
-Die Pyramiden von Gizeh und die gotischen Kathedralen entstanden in Epochen mit stabilen Wertmaßstäben. Der Goldene Schnitt als Proportion ist kein ästhetischer Zufall. Er entsteht, wenn Bauherren und Architekten über Generationen planen — weil das Geld sie dazu zwingt, keine Zeit zu verschwenden.
+Die Pyramiden von Gizeh und die gotischen Kathedralen entstanden in Epochen mit stabilen Wertmassstäben. Der Goldene Schnitt als Proportion ist kein ästhetischer Zufall. Er entsteht, wenn Bauherren und Architekten über Generationen planen — weil das Geld sie dazu zwingt, keine Zeit zu verschwenden.
 
 Fiat-Geld dreht diesen Anreiz um. Wenn Kaufkraft konstant erodiert, rentiert sich langfristiges Investment in Qualität weniger als schneller Ressourcenumsatz. Ein Gebäude, das 300 Jahre hält, bringt dem Entwickler nichts, wenn er in 10 Jahren verkauft. Der Markt belohnt Tempo und günstige Herstellung — Dauerhaftigkeit ist ein Kostenfaktor, kein Vorteil. [[The Connection Between Money and Building Culture]]
 
@@ -27,7 +27,7 @@ Die Mona Lisa wurde über viele Jahre gemalt. Die Pyramiden entstanden über Gen
 
 Wankum spekuliert — und kennzeichnet es als Spekulation — dass ein Bitcoin-Standard die Zeitpräferenz strukturell senkt. Wer Kaufkraft ohne Inflationsverlust halten kann, plant länger. Wer länger plant, baut besser.
 
-Das ist keine deterministische These. Hartes Geld garantiert keine gute Architektur; Fiat erzwingt keine schlechte. Es verschiebt Anreize. In welchem Ausmaß das die gebaute Umwelt verändert, lässt sich historisch plausibilisieren, aber nicht beweisen.
+Das ist keine deterministische These. Hartes Geld garantiert keine gute Architektur; Fiat erzwingt keine schlechte. Es verschiebt Anreize. In welchem Ausmass das die gebaute Umwelt verändert, lässt sich historisch plausibilisieren, aber nicht beweisen.
 
 Die Verbindung zur österreichischen Ökonomik ist direkt: Zeitpräferenz (Mises, Böhm-Bawerk) ist der Kern. Geld mit niedrigem Wertverlust senkt die Zeitpräferenz — Menschen warten lieber, wenn Warten sich lohnt. Das gilt für Kapitalinvestitionen, aber auch für Architektur. [[The Connection Between Money and Building Culture]]
 
@@ -43,4 +43,4 @@ Die Verbindung zur österreichischen Ökonomik ist direkt: Zeitpräferenz (Mises
 
 - Gibt es historische Daten, die Architekturqualität mit Geldstabilität korrelieren — z.B. Bausubstanz-Lebensdauer pro Epoche?
 - Gilt das Argument auch für andere Kulturgüter (Musik, Literatur, Film)?
-- Wie verhält sich die These zur Tatsache, dass viele große Fiat-Ära-Bauten auch dauerhaft sind (Burj Khalifa, Empire State Building)?
+- Wie verhält sich die These zur Tatsache, dass viele grosse Fiat-Ära-Bauten auch dauerhaft sind (Burj Khalifa, Empire State Building)?

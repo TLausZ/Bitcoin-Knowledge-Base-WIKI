@@ -65,7 +65,7 @@ Ein einzelner Hash, der alle Transaktionen im Block repräsentiert. Wird durch p
 ### 4. Time (4 Bytes, Unix-Timestamp)
 
 Der ungefähre Zeitpunkt, zu dem der Miner den Kandidaten-Block gebaut hat. Kein exakter Wert — Timestamps müssen nur:
-- Größer sein als der **Median der letzten 11 Blöcke** (Median Time Past)
+- Grösser sein als der **Median der letzten 11 Blöcke** (Median Time Past)
 - Nicht mehr als **2 Stunden in der Zukunft** liegen
 
 Blöcke können deshalb "aus der Reihe" sein: Block 156.113 hat z.B. einen Timestamp der 2 Stunden nach Block 156.114 liegt. Das ist erlaubt. Der Timestamp beeinflusst nicht die Reihenfolge der Blöcke.

@@ -7,13 +7,13 @@
 
 ## Summary
 
-Bitcoin kennt vier Adresstypen, die historisch nacheinander eingeführt wurden. Alle sind interoperabel — du kannst Bitcoin von jedem Typ an jeden anderen senden. Der Standard hat sich von Legacy (teuer, alt) über P2SH zu Native SegWit (günstigster Standardtyp) und schließlich Taproot (beste Privatsphäre bei komplexen Transaktionen) entwickelt. Ein einziger Seed erzeugt alle Typen.
+Bitcoin kennt vier Adresstypen, die historisch nacheinander eingeführt wurden. Alle sind interoperabel — du kannst Bitcoin von jedem Typ an jeden anderen senden. Der Standard hat sich von Legacy (teuer, alt) über P2SH zu Native SegWit (günstigster Standardtyp) und schliesslich Taproot (beste Privatsphäre bei komplexen Transaktionen) entwickelt. Ein einziger Seed erzeugt alle Typen.
 
 ## Body
 
 ### Warum es mehrere Adresstypen gibt
 
-Bitcoin begann 2009 mit einem einfachen Adressformat. Mit wachsender Nutzung entstanden neue Typen, die Transaktionsgrößen — und damit Gebühren — reduzierten und neue Funktionen wie komplexe Ausgabebedingungen und bessere Privatsphäre ermöglichten.
+Bitcoin begann 2009 mit einem einfachen Adressformat. Mit wachsender Nutzung entstanden neue Typen, die Transaktionsgrössen — und damit Gebühren — reduzierten und neue Funktionen wie komplexe Ausgabebedingungen und bessere Privatsphäre ermöglichten.
 
 Wichtig: Alle Adressen in einer Wallet werden vom selben Seed abgeleitet. Kein neuer Seed nötig für neue Adresstypen. Wallets wie die BitBox02 speichern alle Typen in einem einzigen "Unified Account".
 
@@ -43,7 +43,7 @@ Native SegWit trennt Signatur und Script vom Transaktionskörper (Witness) — w
 **Erkennungszeichen:** beginnen mit `bc1p`  
 **Beispiel:** `bc1pmzfrwwndsqmk5yh69yjr5lfgfg4ev8c0tsc06e`
 
-Taproot wurde im November 2021 als Soft Fork aktiviert (Block 709.632). Es kombiniert Schnorr-Signaturen, MAST und Tapscript. Einfache Taproot-Transaktionen sind geringfügig größer als Native SegWit (gebunden an öffentliche Schlüssel statt Public-Key-Hashes), aber bei komplexen Transaktionen (Multisig, Lightning, Vaults) deutlich günstiger und privater: alle Ausgabewege sehen on-chain gleich aus.
+Taproot wurde im November 2021 als Soft Fork aktiviert (Block 709.632). Es kombiniert Schnorr-Signaturen, MAST und Tapscript. Einfache Taproot-Transaktionen sind geringfügig grösser als Native SegWit (gebunden an öffentliche Schlüssel statt Public-Key-Hashes), aber bei komplexen Transaktionen (Multisig, Lightning, Vaults) deutlich günstiger und privater: alle Ausgabewege sehen on-chain gleich aus.
 
 Hardware-Wallet-Rollout am Beispiel BitBox02: Senden an bc1p-Adressen ab Januar 2022 (Maighels-Update), Empfangen auf bc1p-Adressen ab März 2022 (Glärnisch-Update, Firmware v9.10.0). Native SegWit blieb der Standard, da viele Wallets Taproot noch nicht unterstützten.
 

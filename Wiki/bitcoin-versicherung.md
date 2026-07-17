@@ -15,7 +15,7 @@ Bitsurance ist die erste Versicherung speziell für selbst verwahrte Bitcoin. Si
 
 Eine Hardware-Wallet schützt gegen digitale Angriffe: Malware, Phishing, Remote-Zugriff, kompromittierte Netzwerke. Gegen physische Bedrohungen bietet sie keinen Schutz. Ein Räuber, der die Hardware-Wallet und das Backup kennt, lässt sich nicht durch Kryptographie abhalten. Fortgeschrittene Lösungen (geografisch verteilte Backups, Multisig mit Notaren) sind wirksam, aber komplex — sie erhöhen die Anforderungen an den Nutzer erheblich.
 
-Eine Versicherung schließt diese Lücke ohne zusätzliche technische Komplexität.
+Eine Versicherung schliesst diese Lücke ohne zusätzliche technische Komplexität.
 
 ### Was Bitsurance versichert
 
@@ -38,7 +38,7 @@ Erstmals verfügbar für Deutschland, danach Schweiz, Österreich, weiteres Euro
 
 ### Einordnung
 
-Bitsurance ist kein Ersatz für gute Sicherheitspraktiken (sichere Backups, geografische Verteilung, OpSec). Es ist eine zusätzliche Ebene für Nutzer, für die physische Risiken ein relevantes Bedrohungsmodell darstellen. Besonders relevant bei höheren Beständen, wenn das Risiko physischer Zwangsmaßnahmen realistischer wird.
+Bitsurance ist kein Ersatz für gute Sicherheitspraktiken (sichere Backups, geografische Verteilung, OpSec). Es ist eine zusätzliche Ebene für Nutzer, für die physische Risiken ein relevantes Bedrohungsmodell darstellen. Besonders relevant bei höheren Beständen, wenn das Risiko physischer Zwangsmassnahmen realistischer wird.
 
 ## Related
 

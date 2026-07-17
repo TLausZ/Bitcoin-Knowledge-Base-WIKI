@@ -13,9 +13,9 @@ Auf dem praxeologischen Fundament (siehe [[praxeologie-methode-und-werttheorie]]
 
 ### Der Cantillon-Effekt
 
-Richard Cantillon (1680–1734) beschrieb, dass Geldschöpfung nicht neutral ist: Neues Geld kommt nicht gleichzeitig und gleichmäßig bei allen an. Die ersten Empfänger — Banken, Staat, staatsnahe Unternehmen — können zu noch alten Preisen kaufen. Die letzten Empfänger (einfache Lohnempfänger) bekommen das Geld erst, wenn Preise bereits gestiegen sind.
+Richard Cantillon (1680–1734) beschrieb, dass Geldschöpfung nicht neutral ist: Neues Geld kommt nicht gleichzeitig und gleichmässig bei allen an. Die ersten Empfänger — Banken, Staat, staatsnahe Unternehmen — können zu noch alten Preisen kaufen. Die letzten Empfänger (einfache Lohnempfänger) bekommen das Geld erst, wenn Preise bereits gestiegen sind.
 
-Das Fiat-System ist systematisch so konstruiert, dass der Cantillon-Effekt privilegierte Gruppen begünstigt. "Geldverdienen" im Fiat-System bedeutet oft: nicht Wert schaffen, sondern schneller als die Inflation sein. Asset-Inflation (Aktien, Immobilien) ist der Cantillon-Effekt in Aktion: Geld fließt zuerst in Assets, bevor es in Löhne und Konsumgüter sickert.
+Das Fiat-System ist systematisch so konstruiert, dass der Cantillon-Effekt privilegierte Gruppen begünstigt. "Geldverdienen" im Fiat-System bedeutet oft: nicht Wert schaffen, sondern schneller als die Inflation sein. Asset-Inflation (Aktien, Immobilien) ist der Cantillon-Effekt in Aktion: Geld fliesst zuerst in Assets, bevor es in Löhne und Konsumgüter sickert.
 
 ### Kapitaltheorie: Die Spar-Kaskade
 
@@ -57,9 +57,9 @@ Der Fiat-Fehlanreiz: Ein inflationäres System bestraft Bestands-Denken (Kapital
 
 Michael Goldstein (Bitstein) arbeitet heraus, dass Mises' Geldtheorie zwingend zu Bitcoin-Maximalismus führt. In „Theorie des Geldes und Umlaufmittel" (1912) zeigte Mises, dass Märkte natürlich zu einem einzigen Geldgut konvergieren — das Regressions-Theorem macht frühere Kaufkraft zur Voraussetzung für Geldverwendung, was neue Konkurrenten systematisch benachteiligt. Die logische Konsequenz: Für ein globales Netzwerk gibt es keinen zweiten Platz.
 
-In „Die Mitte des Weges führt zum Sozialismus" (1950) argumentiert Mises, dass jeder staatliche Eingriff in die Wirtschaft zu weiteren Eingriffen zwingt, bis man beim vollständigen Sozialismus ankommt. Goldstein überträgt das auf Bitcoin: Dezentralisierung ist binär. Jede Kompromittierung eines Netzwerkparameters (größere Blöcke, Proof-of-Stake, veränderte Geldmenge) schafft Präzedenzfälle, die das System in Richtung zentraler Kontrolle kippen — langsam, aber unumkehrbar.
+In „Die Mitte des Weges führt zum Sozialismus" (1950) argumentiert Mises, dass jeder staatliche Eingriff in die Wirtschaft zu weiteren Eingriffen zwingt, bis man beim vollständigen Sozialismus ankommt. Goldstein überträgt das auf Bitcoin: Dezentralisierung ist binär. Jede Kompromittierung eines Netzwerkparameters (grössere Blöcke, Proof-of-Stake, veränderte Geldmenge) schafft Präzedenzfälle, die das System in Richtung zentraler Kontrolle kippen — langsam, aber unumkehrbar.
 
-Der Blocksize War als Fallstudie: Die Forderung nach größeren Blöcken schien technisch trivial. Bitcoiner lehnten ab, weil höhere Full-Node-Betriebskosten die Node-Dezentralisierung gefährdet hätten — was wiederum Präzedenz für politisch motivierte Regeländerungen gesetzt hätte. Kapazität stieg trotzdem (SegWit Soft Fork), aber ohne den Dezentralisierungseingriff eines Hard Forks.
+Der Blocksize War als Fallstudie: Die Forderung nach grösseren Blöcken schien technisch trivial. Bitcoiner lehnten ab, weil höhere Full-Node-Betriebskosten die Node-Dezentralisierung gefährdet hätten — was wiederum Präzedenz für politisch motivierte Regeländerungen gesetzt hätte. Kapazität stieg trotzdem (SegWit Soft Fork), aber ohne den Dezentralisierungseingriff eines Hard Forks.
 
 Mises auf dem ersten Mont-Pèlerin-Treffen 1947: Er nannte seine Kollegen — prominente Libertäre — „einen Haufen Sozialisten", weil sie progressive Einkommensteuern nicht kategorisch ablehnten. Goldstein sieht das als Modell: Bitcoin-Maximalisten sagen Shitcoinern dasselbe, weil partielle Kompromisse mit Dezentralisierung zu deren Erosion führen.
 

@@ -7,21 +7,21 @@
 
 ## Summary
 
-Bitcoin-Transaktionsgebühren entstehen, weil jeder Block nur begrenzt Platz hat und Miner entscheiden, welche Transaktionen sie aufnehmen. Wer höher zahlt, kommt früher dran. Der Mempool — die Warteschlange unbestätigter Transaktionen — zeigt die aktuelle Gebührenlage in Echtzeit. Transaktionsgröße in vBytes hängt von Adresstyp und Anzahl der UTXOs ab; wer Gebühren sparen will, konsolidiert UTXOs in ruhigen Phasen.
+Bitcoin-Transaktionsgebühren entstehen, weil jeder Block nur begrenzt Platz hat und Miner entscheiden, welche Transaktionen sie aufnehmen. Wer höher zahlt, kommt früher dran. Der Mempool — die Warteschlange unbestätigter Transaktionen — zeigt die aktuelle Gebührenlage in Echtzeit. Transaktionsgrösse in vBytes hängt von Adresstyp und Anzahl der UTXOs ab; wer Gebühren sparen will, konsolidiert UTXOs in ruhigen Phasen.
 
 ## Body
 
 ### Warum gibt es Transaktionsgebühren?
 
-Im Bitcoin-Netzwerk wird alle ~10 Minuten ein Block erzeugt. Jeder Block ist in seiner Größe begrenzt (1 MB Basisgröße, bis zu ~4 MB mit SegWit-Witness). Das ist bewusst so: unbegrenzte Blöcke würden die Blockchain in einen Zustand wachsen lassen, der nur noch mit sehr leistungsstarken Computern betreibbar wäre — und damit die Dezentralisierung gefährden.
+Im Bitcoin-Netzwerk wird alle ~10 Minuten ein Block erzeugt. Jeder Block ist in seiner Grösse begrenzt (1 MB Basisgrösse, bis zu ~4 MB mit SegWit-Witness). Das ist bewusst so: unbegrenzte Blöcke würden die Blockchain in einen Zustand wachsen lassen, der nur noch mit sehr leistungsstarken Computern betreibbar wäre — und damit die Dezentralisierung gefährden.
 
 Wenn mehr als ~3.000 Transaktionen auf ihre Bestätigung warten, muss der Miner entscheiden, welche er im nächsten Block aufnimmt. Miner sind ökonomisch motiviert: Sie wählen die Transaktionen mit den höchsten Gebühren.
 
 ### Wie Gebühren funktionieren
 
-Eine Transaktionsgebühr wird in Satoshi pro virtuellem Byte (sat/vByte) angegeben — nicht als absoluter Betrag. Je größer eine Transaktion (mehr UTXOs als Inputs, mehr Outputs), desto mehr Platz im Block und desto höhere absolute Gebühr bei gleichem sat/vByte-Satz.
+Eine Transaktionsgebühr wird in Satoshi pro virtuellem Byte (sat/vByte) angegeben — nicht als absoluter Betrag. Je grösser eine Transaktion (mehr UTXOs als Inputs, mehr Outputs), desto mehr Platz im Block und desto höhere absolute Gebühr bei gleichem sat/vByte-Satz.
 
-Daraus folgt eine direkte Verbindung zur UTXO-Verwaltung: Viele kleine UTXOs = große Transaktionen = höhere Gebühren. Konsolidierung in Niedriggebühren-Phasen ist eine sinnvolle Strategie.
+Daraus folgt eine direkte Verbindung zur UTXO-Verwaltung: Viele kleine UTXOs = grosse Transaktionen = höhere Gebühren. Konsolidierung in Niedriggebühren-Phasen ist eine sinnvolle Strategie.
 
 ### Der Mempool
 
@@ -45,7 +45,7 @@ Moderne Wallets wie die BitBoxApp automatisieren diese Entscheidung: Im Sendefor
 
 ### Zusammenhang mit UTXOs
 
-Jede UTXO, die als Input in einer Transaktion verwendet wird, vergrößert diese — und erhöht damit die absolute Gebühr. Viele kleine UTXOs (z.B. durch viele DCA-Käufe) können dazu führen, dass eine spätere Transaktion teuer wird. UTXO-Konsolidierung (mehrere kleine UTXOs zu einer größeren zusammenfassen) in Phasen niedriger Gebühren ist eine gängige Optimierungsstrategie.
+Jede UTXO, die als Input in einer Transaktion verwendet wird, vergrössert diese — und erhöht damit die absolute Gebühr. Viele kleine UTXOs (z.B. durch viele DCA-Käufe) können dazu führen, dass eine spätere Transaktion teuer wird. UTXO-Konsolidierung (mehrere kleine UTXOs zu einer grösseren zusammenfassen) in Phasen niedriger Gebühren ist eine gängige Optimierungsstrategie.
 
 ## Related
 
