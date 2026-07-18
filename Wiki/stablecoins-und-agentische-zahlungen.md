@@ -2,8 +2,8 @@
 
 **Status:** emerging
 **Themen:** lightning, oekonomie
-**Last updated:** 2026-07-17
-**Sources:** [[stripe_sessions2026-Opening remarks and product keynote]], [[2025-05-01_Tether CEO Paolo Ardoino - Banks will blow up in the next years]], [[2025-08-14_Head Strategist at Tether Gabor Gurbacs - We are rebuilding the entire capital market stac]], [[2025-07-24_Michael Howell on GENIUS Act - Stablecoin adoption could mean slower credit growth]]
+**Last updated:** 2026-07-18
+**Sources:** [[stripe_sessions2026-Opening remarks and product keynote]], [[2025-05-01_Tether CEO Paolo Ardoino - Banks will blow up in the next years]], [[2025-08-14_Head Strategist at Tether Gabor Gurbacs - We are rebuilding the entire capital market stac]], [[2025-07-24_Michael Howell on GENIUS Act - Stablecoin adoption could mean slower credit growth]], [[2026_Q2_Bitcoin Finance Report]]
 
 ## Summary
 
@@ -42,6 +42,12 @@ Interessant ist die Konvergenz der Probleme: Konstantopoulos benennt Privacy als
 Die Stripe-Keynote zeigt Stablecoins als Zahlungsschicht. Pascal Hüglis Less-Noise-More-Signal-Reihe beleuchtet die monetäre Seite. Tether-CEO Paolo Ardoino rahmt Stablecoins als «bessere Banken» für Schwellenmärkte mit instabilen Währungen; sein Kollege Gabor Gurbacs beschreibt Tethers Ambition, über Tokenisierung den «gesamten Kapitalmarkt-Stack» umzubauen. [[2025-05-01_Tether CEO Paolo Ardoino - Banks will blow up in the next years]], [[2025-08-14_Head Strategist at Tether Gabor Gurbacs - We are rebuilding the entire capital market stac]]
 
 Analytisch am interessantesten ist Michael Howells Punkt zum GENIUS Act: Stablecoins könnten Einlagen aus dem Bankensystem abziehen und damit das Kreditwachstum der Banken bremsen — anders als der Eurodollar-Markt, der selbst Kredit schöpft. Damit werden Stablecoins zu einem Faktor in der US-Schuldenfinanzierung, nicht nur zu einem Zahlungsprodukt. [[2025-07-24_Michael Howell on GENIUS Act - Stablecoin adoption could mean slower credit growth]] Diese Kreditkanal-Wirkung ist in [[globale-liquiditaet-und-finanzplumbing]] eingebettet; Gästeüberblick in [[bitcoin-marktkommentar-lnms]].
+
+### Konsortien und Euro-Stablecoins (Q2/2026)
+
+Der Bitcoin Finance Report Q2/2026 dokumentiert die nächste Stufe der Infrastrukturbildung. Stripe, Visa und Mastercard stehen laut mit den Plänen vertrauten Personen kurz vor dem Start einer gemeinsamen Stablecoin-Plattform für B2B-Abwicklung, grenzüberschreitenden Zahlungsverkehr und automatisiertes Liquiditätsmanagement; Coinbase prüft eine Beteiligung. Die Konstellation erinnert strukturell an Facebooks Libra (2019), diesmal aber in geklärtem regulatorischem Kontext — und mit gekaufter Infrastruktur: Mastercard übernahm im März 2026 den Stablecoin-Anbieter BVNK für bis zu 1,8 Mrd. US-Dollar, Stripe hatte sich 2024 Bridge für 1,1 Mrd. gesichert. Für Circle, dessen USDC den Grossteil regulierter Stablecoin-Aktivität in Nordamerika und Europa stellt, wäre die Plattform ein direkter Angriff; die Aktien von Circle und Coinbase fielen nach den ersten Berichten. Die Deutsche Bundesbank hatte zuvor gewarnt, eine solche Plattform könne die Dollar-Dominanz im Stablecoin-Markt weiter zementieren.
+
+Auf der europäischen Seite wächst das MiCAR-konforme Angebot: AllUnity (BaFin-reguliertes E-Money-Institut, Joint Venture von DWS, Flow Traders und Galaxy) brachte nach dem EURAU (2025) im Q2/2026 mit dem CHFAU den ersten vollreservierten MiCAR-konformen Schweizer-Franken-Stablecoin für institutionelle Kunden heraus; parallel gehören dem Bankenprojekt Qivalis inzwischen 37 europäische Häuser an. [[2026_Q2_Bitcoin Finance Report]]
 
 ## Related
 

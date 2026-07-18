@@ -2,8 +2,8 @@
 
 **Status:** established
 **Themen:** self-custody, oekonomie, adoption
-**Last updated:** 2026-07-17
-**Sources:** [[aprycot-vertrau-mir-bruder]], [[2024-01-20_Ein Blick in die Glaskugel - Praktische Tipps zum Bitcoin-Kauf]]
+**Last updated:** 2026-07-18
+**Sources:** [[aprycot-vertrau-mir-bruder]], [[2024-01-20_Ein Blick in die Glaskugel - Praktische Tipps zum Bitcoin-Kauf]], [[2026_Q2_Bitcoin Finance Report]]
 
 ## Summary
 
@@ -63,6 +63,14 @@ Farrington nennt vier Ansätze, die diese Lücke angehen könnten:
 
 **AnchorWatch:** Versicherung und Überwachung für Multisig-Setups, die institutionelle Anforderungen an Audit-Trails und Versicherungsschutz erfüllt. [[aprycot-vertrau-mir-bruder]]
 
+### Europa: ETPs und die Frage «Wallet oder Depot?» (2026)
+
+Was in den USA der Spot-ETF ist, sind in Europa Bitcoin-ETPs: börsengehandelte Produkte von Anbietern wie 21Shares, Bitwise oder VanEck. Rechtlich sind sie keine Fonds, sondern fast immer besicherte Schuldverschreibungen (ETNs oder ETCs), abgesichert durch physisch hinterlegte Bitcoin. Der Investor hält damit kein natives Bitcoin-Asset, sondern einen wertpapierbasierten Anspruch gegen den Emittenten — auch bei physischer Besicherung. Unterschiede zwischen Produkten bestehen bei Besicherungsstruktur, Verwahrung der hinterlegten Bitcoin, Emittentenrisiken und der rechtlichen Ausgestaltung im Insolvenzfall.
+
+Der Bitcoin Finance Report Q2/2026 stellt die beiden Zugangswege systematisch gegenüber: Direkter Besitz bedeutet Verwahrung in der eigenen Wallet, direkte Verfügungsgewalt, 24/7-Übertragbarkeit und native Nutzung des Netzwerks; das ETP bedeutet Depotverwahrung, Anspruch gegen die Produktstruktur, Abhängigkeit von Börsenhandelszeiten und höhere Intermediationsabhängigkeit. Für CFOs und Treasury-Verantwortliche ist das ETP dennoch oft der gangbare Weg, weil es in bestehende Depot-, Reporting- und Compliance-Prozesse passt, ohne eigene Schlüsselverwaltung, Zugriffstrennungen und Notfallkonzepte aufbauen zu müssen — genau das Farrington-Problem der institutionellen Verwahrung (oben) aus der Praxisperspektive.
+
+Der Report nennt diese Entwicklung Re-Intermediation: Bitcoin wurde als nativ digitales Eigentumsasset ohne zentrale Intermediäre konzipiert; ETPs übertragen es zurück in Emittentenstrukturen, Depotbanken und Verwahrketten. Für Institutionen ist das vermutlich der dominante Adoptionspfad, es trennt aber Bitcoin als monetäres Asset von Bitcoin als Eigentumsmodell. Ein sichtbares Signal der institutionellen Vertiefung im selben Quartal: Morgan Stanley lancierte einen eigenen Spot-Bitcoin-ETF. Nebenbefund zur MiCAR-Abgrenzung: Wer zum ETP berät, bleibt im MiFID-II-Regime; wer zu Bitcoin direkt berät, braucht eine MiCAR-Lizenz ([[bitcoin-beratung-und-micar]]). [[2026_Q2_Bitcoin Finance Report]]
+
 ### "Vertraue, aber überprüfe"
 
 Farrington schliesst mit dem Hinweis, dass die eigentliche Frage nicht "Soll man dem ETF vertrauen?" ist, sondern "Wie baut man Systeme, die Vertrauen überprüfbar machen?" Bitcoin selbst ist die Antwort auf diese Frage für Einzelpersonen. Für Institutionen fehlt die Infrastruktur noch. Bis sie existiert, tragen institutionelle ETF-Nutzer Risiken, die Bitcoin-Nutzer mit Selbstverwahrung nicht haben.
@@ -81,6 +89,7 @@ Das Goldparadox ist lehrreich: Gold war dezentral, aber seine physischen Eigensc
 - [[miniscript-und-liana]]
 - [[bitcoin-marktkommentar-lnms]]
 - [[bitcoin-treasury-companies]]
+- [[bitcoin-beratung-und-micar]]
 
 ## Open Questions
 

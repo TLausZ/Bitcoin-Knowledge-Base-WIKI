@@ -2,8 +2,8 @@
 
 **Status:** established
 **Themen:** protokoll, geschichte, buecher
-**Last updated:** 2026-07-13
-**Sources:** [[blocksizewar]], [[20181114_bitcoinmagazine-when-fork-forks-bitcoin-cash-goes-war]], [[20181116_bitcoinmagazine-one-day-after-bch-hard-fork]], [[20181123_bitcoinmagazine-one-week-later-bitcoin-cash-split]], [[20181201_bitcoinmagazine-bch-hash-war-came-and-went]], [[20181209_bitcoinmagazine-bitcoin-abc-bitmain-ver-suit-bch-split]], [[Mises_ Der ursprüngliche toxische Maximalist.md]], [[BIP-110 and The Blocksize War..md]]
+**Last updated:** 2026-07-18
+**Sources:** [[blocksizewar]], [[20181114_bitcoinmagazine-when-fork-forks-bitcoin-cash-goes-war]], [[20181116_bitcoinmagazine-one-day-after-bch-hard-fork]], [[20181123_bitcoinmagazine-one-week-later-bitcoin-cash-split]], [[20181201_bitcoinmagazine-bch-hash-war-came-and-went]], [[20181209_bitcoinmagazine-bitcoin-abc-bitmain-ver-suit-bch-split]], [[Mises_ Der ursprüngliche toxische Maximalist.md]], [[BIP-110 and The Blocksize War..md]], [[2026_Q2_Bitcoin Finance Report]]
 
 ## Summary
 
@@ -108,6 +108,10 @@ Drittens lässt sich Spam auf Bitcoin prinzipiell nicht verhindern. Es gibt kein
 BIP-110-Befürworter geben selbst zu, dass der BIP Spam nicht stoppt. Ihr erklärtes Ziel ist es, "eine Botschaft zu senden" und Bitcoin als Geld zu "repriorisieren". Das ist laut Golliher das falsche Modell: Bitcoin ist kein Hausbesitzerverein. Es ist ein freies Marktsystem mit Anarchie und ökonomischen Anreizen — der freie Markt bestimmt, wie Menschen Bitcoin nutzen, nicht ein Konsens-Beschluss.
 
 Die strukturelle Lektion aus beiden Konflikten ist identisch: Konsensparameter, die einmal gesetzt sind und gut genug funktionieren, sollten nicht wieder geöffnet werden. Jedes Öffnen schafft einen Präzedenzfall für weiteres Öffnen. [[BIP-110 and The Blocksize War..md]]
+
+### Kehrt die Blockgrössen-Debatte zurück? (2026)
+
+Der Bitcoin Finance Report Q2/2026 erzählt den Konflikt für ein Banken-Publikum nach und ergänzt eine Gegenwartsdiagnose: Das Skalierungsproblem ist ungelöst, Lightning hat trotz jahrelanger Entwicklung keine Massenadoption erreicht, und erste, noch leise Stimmen diskutieren wieder eine Erhöhung der Blockgrösse. Das technische Argument wiegt heute schwerer als 2017 — Speicher ist um ein Vielfaches günstiger, Bandbreiten und Rechenleistung sind gestiegen, die vollständige Blockchain umfasst über 600 Gigabyte. Die eigentliche Frage bleibt aber dieselbe: Wer entscheidet, und zu welchem Preis? Eine Neuauflage der Debatte träfe auf deutlich grössere wirtschaftliche Interessen als damals: institutionelle Investoren, börsennotierte Mining-Konzerne und ETF-Anbieter mit eigener Lobbymacht. Der Report zieht daraus dieselbe Schlussfolgerung wie die Small-Blocker-Tradition: Die Lösung liegt im Ausbau der Second-Layer-Infrastruktur, nicht im Wiederöffnen eines Konsensparameters — Bitcoins grösste Stärke sei seine Berechenbarkeit, nicht seine Geschwindigkeit. [[2026_Q2_Bitcoin Finance Report]]
 
 ## Related
 

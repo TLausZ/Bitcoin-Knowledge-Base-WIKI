@@ -117,6 +117,10 @@ OVERRIDES = {
     "bitcoin-treasury-companies": ["oekonomie", "adoption"],
     # Bewertungsmetrik: nicht "privacy"/"adoption" (Trigger: UTXO bzw. ETF)
     "mvrv-und-realized-cap": ["oekonomie", "protokoll"],
+    # Steuer-/Politikartikel: nicht "protokoll"/"kritik" (Trigger: § 23-Beschreibung ab Pass 94)
+    "bitcoin-haltefrist-und-steuern": ["oekonomie", "geschichte"],
+    # MiCAR-Beratungslücke: Regulierung/Marktstruktur, "adoption" allein zu dünn
+    "bitcoin-beratung-und-micar": ["adoption", "oekonomie"],
 }
 
 

@@ -2,8 +2,8 @@
 
 **Status:** emerging
 **Themen:** protokoll, mining, oekonomie, adoption, wallets
-**Last updated:** 2026-07-17
-**Sources:** [[Strategic_Reserve_Best_Practice_Paper_1-10-25]], [[Counterfactual_Analysis_Bitcoin_Gold_Rainy_Day_Funds]], [[Bitcoin_and_Bitcoin_Mining_Guide]], [[aprycot-roekke-seetee-aktionaersbrief]], [[20260412_heartmoney-bitcoin-proton-iran]], [[2024-11-21_The Traditional ETF Expert - We are entering the golden age for crypto]], [[2024-11-28_US National Security Expert - A US government established strategic Bitcoin reserve is mor]], [[2025-01-27_Head of Research - Bitcoin has been objectively winning for 16 years]], [[2025-03-20_Monetary Economist - Here's how Trump’s policies are rewiring the global financial system]]
+**Last updated:** 2026-07-18
+**Sources:** [[Strategic_Reserve_Best_Practice_Paper_1-10-25]], [[Counterfactual_Analysis_Bitcoin_Gold_Rainy_Day_Funds]], [[Bitcoin_and_Bitcoin_Mining_Guide]], [[aprycot-roekke-seetee-aktionaersbrief]], [[20260412_heartmoney-bitcoin-proton-iran]], [[2026_Q2_Bitcoin Finance Report]], [[2024-11-21_The Traditional ETF Expert - We are entering the golden age for crypto]], [[2024-11-28_US National Security Expert - A US government established strategic Bitcoin reserve is mor]], [[2025-01-27_Head of Research - Bitcoin has been objectively winning for 16 years]], [[2025-03-20_Monetary Economist - Here's how Trump’s policies are rewiring the global financial system]]
 
 ## Summary
 
@@ -53,11 +53,11 @@ Wichtigste Befunde:
 
 Der "Legislative Resource" Guide für US-Gesetzgeber betont, dass Bitcoin Mining und Bitcoin als Anlage in vielen Gesetzen zusammen auftreten. Wichtig für Gesetzgeber: ~20% der US-Erwachsenen besitzen 2024 Kryptowährungen — die Wählerbasis ist erheblich. Der Leitfaden gibt konkrete Policy-Empfehlungen pro-Bitcoin und pro-Mining, ohne Bundesrahmen (den USA noch fehlt). [[Bitcoin_and_Bitcoin_Mining_Guide]]
 
-### Iran und die Strasse von Hormus (April 2026, unbestätigte Einzelmeldung)
+### Iran und die Strasse von Hormus (2026, zwei Sekundärquellen)
 
-Ein Fall aus der Sanktionsumgehungs-Ecke statt der Reserve-Ecke: Laut einem Bericht der Financial Times (April 2026, hier nur über Sekundärbezug im Newsletter-Korpus belegt) will der Iran Passagegebühren für die Strasse von Hormus in Bitcoin eintreiben — die Meerenge, durch die rund ein Fünftel des seewärtigen Ölhandels läuft. Andere Berichte nannten zusätzlich den chinesischen Yuan; ob und in welchem Umfang das umgesetzt wurde, ist offen.
+Ein Fall aus der Sanktionsumgehungs-Ecke statt der Reserve-Ecke: Laut einem Bericht der Financial Times (April 2026, hier nur über Sekundärbezug im Newsletter-Korpus belegt) will der Iran Passagegebühren für die Strasse von Hormus in Bitcoin eintreiben — die Meerenge, durch die rund ein Fünftel des seewärtigen Ölhandels läuft. Andere Berichte nannten zusätzlich den chinesischen Yuan. Der Bitcoin Finance Report Q2/2026 beschreibt dasselbe System als «auf Bitcoin basierende Zahlungs- und Absicherungsmechanismen für die Passage» und wertet es als ersten konkreten Fall, in dem Bitcoin als Werkzeug geopolitischer Zahlungsinfrastruktur statt als Anlageobjekt auftritt — hält aber ausdrücklich fest, dass der tatsächliche Nutzungsumfang offen ist. [[20260412_heartmoney-bitcoin-proton-iran]], [[2026_Q2_Bitcoin Finance Report]]
 
-Interessant ist der Fall als Illustration der Spieltheorie staatlicher Adoption: Wo Staaten einander misstrauen und Sanktionen umgehen wollen, werden Zahlungsformen attraktiv, die kein einzelner Staat kontrolliert. Ein Staat, der Bitcoin für Gebühren akzeptiert, akkumuliert es zwangsläufig — die Grenze zwischen Zahlungsnutzung und Reservebildung verwischt. Zugleich liefert der Fall Kritikern das «Bitcoin für Schurkenstaaten»-Argument. Einordnung: unbestätigte Einzelmeldung ohne Primärquelle in RAW; als Datenpunkt notiert, nicht als etablierter Fakt. [[20260412_heartmoney-bitcoin-proton-iran]]
+Interessant ist der Fall als Illustration der Spieltheorie staatlicher Adoption: Wo Staaten einander misstrauen und Sanktionen umgehen wollen, werden Zahlungsformen attraktiv, die kein einzelner Staat kontrolliert. Ein Staat, der Bitcoin für Gebühren akzeptiert, akkumuliert es zwangsläufig — die Grenze zwischen Zahlungsnutzung und Reservebildung verwischt. Zugleich liefert der Fall Kritikern das «Bitcoin für Schurkenstaaten»-Argument. Einordnung: zwei unabhängige Sekundärbezüge, weiterhin keine Primärquelle in RAW und kein Beleg über den Nutzungsumfang; als Datenpunkt notiert, nicht als etablierter Fakt.
 
 ### Der SBR-Diskurs vor der Executive Order (LNMS-Interviews, Ende 2024 – Anfang 2025)
 

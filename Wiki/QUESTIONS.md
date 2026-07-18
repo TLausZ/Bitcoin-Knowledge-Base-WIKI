@@ -56,7 +56,9 @@ Beim späteren Anlegen der Buch-Artikel: eine Datei pro Buch als Quelle wählen 
 
 **FROST-Implementierungen:** Wann werden MuSig2/FROST in gängigen Hardware-Wallet-Softwares breit verfügbar? `taproot-musig2-frost.md` und `multisig-und-kollaborative-verwahrung.md` erwähnen FROST als emerging — kein Update seit 2024.
 
-**EU-Regulierung (MiCA/AML):** Stand nach März 2024? `eu-regulierung-selbstverwahrung.md` und `regulierung-tofr-aopp.md` enden dort. Neue Entwicklungen ausstehend.
+**EU-Regulierung (MiCA/AML):** Teilweise beantwortet (2026-07-18, Compile-Pass 94): MiCAR-Stichtag, CASP-Zahlen und Beratungsregime jetzt in `bitcoin-beratung-und-micar.md` (Quelle: Bitcoin Finance Report Q2/2026). Offen bleibt der AML-Paket-Stand für Selbstverwahrung — `eu-regulierung-selbstverwahrung.md` und `regulierung-tofr-aopp.md` enden weiter bei März 2024.
+
+**Kevin Warsh als Fed-Chef (Q2/2026):** Der Bitcoin Finance Report Q2/2026 nennt Warsh als neuen Fed-Vorsitzenden (Ende der klaren Forward Guidance, gedämpfte Zinssenkungshoffnung) und den SpaceX-IPO vom 12.06.2026 als Kapitalkonkurrenz für Bitcoin. `makro-zinskurve-fed-und-rezession.md` bei nächster Makro-Quelle darauf prüfen; Einzelquelle, noch nicht eingewoben.
 
 **Ark-Reifegrad:** `skalierung-lightning-ark-statechains.md` hat Stand Dez. 2025. Aktuelle Implementierungsfortschritte unklar.
 
