@@ -982,7 +982,7 @@ admSync();
     idleT=setTimeout(()=>{
       if(matchMedia('(max-width:640px)').matches) return arm();
       if(modal.classList.contains('open')) return arm();
-      location.href='screensaver.html';
+      location.href='../screensaver.html';
     }, IDLE); };
   for(const ev of ['mousemove','mousedown','keydown','wheel','touchstart','scroll'])
     addEventListener(ev, arm, {passive:true});

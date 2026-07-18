@@ -35,7 +35,7 @@ let yaw=0.6, pitch=1.08, zoom=1.25, camX=0, camY=0,  // camX/camY: Blickziel in 
     roll=0,                                          // Banking im Flugmodus (Canvas-Rotation)
     anchorY=0.55;                                    // Bildhöhe des Blickziels (Flug: tiefer, mehr Gelände voraus)
 const scale0=0.2;
-let segsByLevel=[], loopsByLevel=[], field=[], peaks=[], ENV=null, DATA=null;
+let loopsByLevel=[], field=[], peaks=[], ENV=null, DATA=null;
 const g2w=i=>(i/(N-1)*2-1)*DOM;
 
 // --- Gelände-Pipeline (identisch zu index.html) -----------------------------
@@ -165,11 +165,9 @@ function chainLoops(segs){
 function build(){
   buildEnvelope();
   const f = field = computeField();
-  segsByLevel=[]; loopsByLevel=[];
+  loopsByLevel=[];
   for(let l=1;l<L;l++){
-    const segs=contour(f,l/L);
-    segsByLevel.push({z:l/L*ZMAX, segs});
-    loopsByLevel.push({z:l/L*ZMAX, loops:chainLoops(segs)});
+    loopsByLevel.push({z:l/L*ZMAX, loops:chainLoops(contour(f,l/L))});
   }
   peaks = PEAKS.map(p=>{
     const x=p.x*SPREAD, y=p.y*SPREAD;
@@ -264,17 +262,11 @@ function draw(){
   ctx.save();
   if(roll){ctx.translate(W/2,H/2); ctx.rotate(roll); ctx.translate(-W/2,-H/2);}
 
-  // Schatten-Ebene unter der schwebenden Insel
   const cutZ=BASECUT*ZMAX, zoff=-cutZ+LIFT*0.35;
-  ctx.strokeStyle='rgba(110,92,64,0.07)'; ctx.lineWidth=1*dpr; ctx.beginPath();
-  for(const lv of segsByLevel){
-    if(lv.z<cutZ) continue;
-    for(const s of lv.segs){
-      const p=project(g2w(s[0].x), g2w(s[0].y), -0.35, cx,cy,sc);
-      const q=project(g2w(s[1].x), g2w(s[1].y), -0.35, cx,cy,sc);
-      ctx.moveTo(p[0],p[1]); ctx.lineTo(q[0],q[1]);
-    }
-  } ctx.stroke();
+  // Wasser-Hintergrund: Blauverlauf mit sanftem Pitch-Parallax
+  // (paintWater). Nur Palette 1; die Blende in animate nutzt denselben
+  // Hintergrund.
+  if(PAL_N==='1') paintWater(W,H);
 
   // Gelände als fester Körper
   ctx.strokeStyle='rgba(74,58,40,0.68)'; ctx.lineWidth=0.85*dpr; ctx.fillStyle='#ece2cd';
@@ -310,7 +302,7 @@ function draw(){
     // Label-Budget: Rampe hoch 6, Untergrenze 21, Obergrenze 42 —
     // die Top 21 immer, nie mehr als 42. Verworfen: linear (zu viele),
     // quadratisch (21*(zoom/1.25)^2), hoch 4 bis 439 (Schluss zu voll).
-    .slice(0, Math.min(42, Math.max(LABEL_TOP,
+    .slice(0, LBASE===0?0:Math.min(42, Math.max(LABEL_TOP,
       Math.round(Math.pow((zoom-1.10)/2.30,6)*(peaks.length-1)+1))))
     .map(o=>({...o,w:ctx.measureText(o.pk.name).width+2*pad})).sort((a,b)=>a.y-b.y);
   const clampX=(x,w)=>Math.max(w/2+2*dpr, Math.min(W-w/2-2*dpr, x));
@@ -322,10 +314,10 @@ function draw(){
       for(const b of placed)
         if(Math.abs(tx-b.x)<(it.w+b.w)/2 && Math.abs(ty-b.ty)<lh){ty=b.ty-lh;hit=true;}
       if(!hit) break;}
-    // Stapel-Bremse: mehr als 6 Zeilen über dem Gipfel ergäbe Label-Türme mit
-    // langen Leitlinien (dichte Cluster in mittlerer Distanz) — dann lieber
+    // Stapel-Bremse: mehr als 3 Zeilen über dem Gipfel ergäbe Label-Türme mit
+    // langen Leitlinien (dichte Cluster wie die BIPs) — dann lieber
     // weglassen; im Close-up ist Platz und das Label kommt wieder.
-    if(it.y-ty > 34*dpr+6*lh) continue;
+    if(it.y-ty > 34*dpr+3*lh) continue;
     placed.push({x:tx, ty, w:it.w});
     entries.push({i:it.i, name:it.pk.name, x:it.x, y:it.y, tx, ty, w:it.w, lh,
                   fs:11*dpr, hi:it.i===tourIdx});
@@ -341,279 +333,42 @@ function draw(){
 // statt Orbit (Tiefflug entlang eines Pfads, Blick voraus, Horizont waagrecht).
 const Q=new URLSearchParams(location.search);
 const SPEED=parseFloat(Q.get('speed'))||1, MODE=Q.get('mode')||'';  // ''=Wechsel Orbit/Flug
-// ?labels=N: Basis fürs Label-Budget. Orbit skaliert N quadratisch mit dem
-// Zoom (Default 21), im Flug ist N das fixe Maximum (Default 28).
-const LBASE=parseInt(Q.get('labels'))||0;
+// ?labels=0 schaltet Labels aus; andere Werte ohne Wirkung (überall Zoom-Rampe,
+// seit der Überflug denselben Renderer nutzt).
+const LBASE=Q.has('labels')?(parseInt(Q.get('labels'))||0):-1;   // -1 = kein Parameter
 // ?zoom=N (Test): friert den Orbit-Zoom auf N ein (keine Atmung) —
 // z.B. zum Grössenvergleich mit ?render=flug.
 const ZFIX=parseFloat(Q.get('zoom'))||0;
+const PFIX=parseFloat(Q.get('pitch'))||0;   // feste Kameraneigung zum Testen (rad, ~1.57 = Seitenansicht)
 
 // ============================================================================
-// FLUGMODUS: echte Ego-Perspektive wie im Flugsimulator. Eigener Renderer:
-// das Höhenfeld wird in Tiefenscheiben (far → near) als Profillinien gemalt,
-// jede Scheibe deckend gefüllt — nahe Berge verdecken ferne (Painter).
-// Horizont oben (waagrecht, kein Banking), Gelände rauscht unten durch.
+// ÜBERFLUG: Kamerafahrt über die Wiki-Karte mit dem orthografischen Renderer
+// draw() — «rendern wie index.html und drüberfliegen». Der frühere
+// Ego-Perspektive-Renderer (drawFlight, flightCam, sampleH, peakVisibleP,
+// Tiefenscheiben, Silhouette) wurde am 18. Juli 2026 komplett entfernt;
+// letzte Fassung siehe git. Route wie damals: quadratische Bezierkurve von
+// Küste zu Küste übers Inselinnere, fi wählt sie deterministisch
+// pseudozufällig, s läuft 0..1.
 // ============================================================================
-function sampleH(x,y){                       // Geländehöhe in Weltkoordinaten, bilinear
-  const gx=(x/DOM+1)/2*(N-1), gy=(y/DOM+1)/2*(N-1);
-  const i=Math.floor(gx), j=Math.floor(gy);
-  if(i<0||j<0||i>=N-1||j>=N-1) return 0;
-  const fx=gx-i, fy=gy-j;
-  return (field[j][i]*(1-fx)*(1-fy)+field[j][i+1]*fx*(1-fy)
-         +field[j+1][i]*(1-fx)*fy+field[j+1][i+1]*fx*fy)*ZMAX;
-}
-
-const fc={x:0, y:0, z:0.6, hx:0, hy:1, horizon:0.30};   // Kamerazustand Flugmodus
-// Ein Flug-Segment = eine Überquerung: Start weit draussen über dem Meer,
-// quadratische Bezierkurve übers Inselinnere, Abflug auf der Gegenseite.
-// fi wählt die Route (deterministisch pseudozufällig), s läuft 0..1.
-function flightCam(fi, s, t){
+function flyoverCam(fi, s){
   const rnd=mulberry32(((fi+1)*2654435761)^0x1b873593);
-  // Anflug von weit draussen (R0), Abflug kurz hinter der Küste (R1) —
-  // so endet der Überflug ohne langes Starren aufs leere Meer
-  const th=rnd()*2*Math.PI, dth=Math.PI+(rnd()*1.6-0.8), R0=4.3, R1=2.4;
+  const th=rnd()*2*Math.PI, dth=Math.PI+(rnd()*1.6-0.8), R0=1.8, R1=1.8;
   const p0x=R0*Math.cos(th),     p0y=R0*Math.sin(th);
   const p2x=R1*Math.cos(th+dth), p2y=R1*Math.sin(th+dth);
   const mx=rnd()*1.2-0.6, my=rnd()*1.2-0.6;      // Wegpunkt nahe Inselmitte
   const cxp=2*mx-(p0x+p2x)/2,   cyp=2*my-(p0y+p2y)/2;
   const u=1-s;
-  const px=u*u*p0x+2*u*s*cxp+s*s*p2x, py=u*u*p0y+2*u*s*cyp+s*s*p2y;
-  const vx=2*u*(cxp-p0x)+2*s*(p2x-cxp), vy=2*u*(cyp-p0y)+2*s*(p2y-cyp);
-  const sp=Math.hypot(vx,vy)||1e-9, ux=vx/sp, uy=vy/sp;
-  fc.x=px; fc.y=py;
-  // Startzentrierung: am Segmentanfang Blick auf die Inselmitte (Ursprung),
-  // bis s=0.25 weich (smoothstep) in die Flugrichtung übergeblendet — die
-  // Bezier-Tangente allein liess die Insel anfangs seitlich im Bild stehen.
-  let w=Math.min(1,s/0.25); w=w*w*(3-2*w);
-  const dl=Math.hypot(px,py)||1e-9;
-  const bx=ux*w-px/dl*(1-w), by=uy*w-py/dl*(1-w);
-  const bl=Math.hypot(bx,by)||1e-9;
-  fc.hx=bx/bl; fc.hy=by/bl;                      // danach Blick geradeaus
-  // Flughöhe: sicher über dem Gelände, sanft nachgeführt; am Segmentstart hart setzen
-  const ground=field.length?sampleH(px,py):0;
-  const zTarget=Math.max(0.46, ground+0.15)+0.03*Math.sin(t*2*Math.PI/568);
-  fc.z += (s<0.005) ? (zTarget-fc.z) : (zTarget-fc.z)*0.03;
-  fc.horizon=0.30+0.015*Math.sin(t*2*Math.PI/72); // leichtes Wogen wie Eigenbewegung
-  roll=0;   // kein Banking: Horizont bleibt waagrecht (User-Wunsch, 17. Juli 2026)
-}
-
-// Sichtstrahl Gipfel → Kamera in 3D abschreiten; Gelände darüber = verdeckt
-function peakVisibleP(pk){
-  const dx=fc.x-pk.x, dy=fc.y-pk.y, dist=Math.hypot(dx,dy);
-  const steps=Math.max(2, Math.ceil(dist/(2*DOM/(N-1))));
-  for(let k=1;k<steps;k++){
-    const f=k/steps;
-    if(sampleH(pk.x+dx*f, pk.y+dy*f) > pk.z+(fc.z-pk.z)*f+0.02) return false;
-  }
-  return true;
-}
-
-// Flug-Gradients: Offset über die Höhe (0=ZMAX, 1=Meer), pro Ring-Band zwei
-// gleiche Stops = harte Kante wie im Orbit. Die Gradient-Länge pro Scheibe
-// (fl*(ZMAX-seaZ)/zc) ist über die Zeit konstant — darum werden alle
-// SLICES Gradients EINMAL vorberechnet und pro Frame nur vertikal verschoben
-// (translate). Neu bauen pro Frame kostete ~14 ms, Fills unter scale() noch
-// mehr (beides gemessen, 17. Juli 2026).
-let PAL_GRADS=null;   // {fl, grads:[]} — ungültig bei Resize (fl hängt an H)
-let FBUF=null;        // Frame-Puffer des Flug-Renderers (je Auflösung einmal allokiert)
-function buildGrads(fl,SLICES,zNear,ratio){
-  const lw=ZMAX/L, l0=Math.ceil(BASECUT*L), seaZ=BASECUT*ZMAX;
-  const off=h=>Math.min(1,Math.max(0,(ZMAX-h)/(ZMAX-seaZ)));
-  const grads=[];
-  for(let k=0;k<SLICES;k++){
-    const zc=zNear*Math.pow(ratio,k/(SLICES-1));
-    const g=ctx.createLinearGradient(0,0,0,fl*(ZMAX-seaZ)/zc);
-    for(let l=L-1;l>=l0;l--){
-      g.addColorStop(off(Math.min((l+1)*lw,ZMAX)),ringColor(l));
-      g.addColorStop(off(l*lw),ringColor(l));
-    }
-    // Küstenband + Meer; mit SKY pro Scheibe tiefengestaffelt (fern = dunkler)
-    const sc=SKY?seaMix(k/(SLICES-1)):SEA;
-    g.addColorStop(off(l0*lw),sc); g.addColorStop(1,sc);
-    grads.push(g);
-  }
-  return {fl,grads};
-}
-
-function drawFlight(){
-  const W=cv.width, H=cv.height, dpr=window.devicePixelRatio||1;
-  const fl=H*1.15;                             // Brennweite (vert. FOV ~47°)
-  const horizonY=H*fc.horizon;
-  const rx=fc.hy, ry=-fc.hx;                   // rechts der Blickrichtung
-  const seaZ=BASECUT*ZMAX;                     // Boden-Schnitt = Meeresspiegel
-  ctx.clearRect(0,0,W,H); ctx.lineCap='round'; ctx.lineJoin='round';
-  ctx.save();
-  if(roll){ctx.translate(W/2,H/2); ctx.rotate(roll); ctx.translate(-W/2,-H/2);}
-  const SLICES=190, COLS=Math.max(160, Math.round(W/(6*dpr))),
-        zNear=0.18, zFar=7.0, ratio=zFar/zNear, margin=40*dpr;
-  if(SKY){ // Himmel über dem Horizont, Meer darunter (Rand m deckt Roll ab)
-    const m=Math.max(W,H);
-    const g=ctx.createLinearGradient(0,0,0,horizonY);
-    SKY.forEach((c,i)=>g.addColorStop(i/(SKY.length-1),c));
-    ctx.fillStyle=g;   ctx.fillRect(-m,-m,W+2*m,horizonY+m);
-    // Meer-Hintergrund: flach im dunkelsten Ton. Die Scheiben übermalen ab
-    // ihrer Meerlinie mit derselben Farbe (fernste = seaMix(1)) — jede
-    // Verlaufsvariante erzeugte an der Naht einen sichtbaren Balken
-    // (linear und log-perspektivisch probiert, 17. Juli 2026).
-    ctx.fillStyle=seaMix(1); ctx.fillRect(-m,horizonY,W+2*m,H-horizonY+m);
-  }
-  ctx.fillStyle=SEA;
-  if(PAL_STOPS && (!PAL_GRADS || PAL_GRADS.fl!==fl))
-    PAL_GRADS=buildGrads(fl,SLICES,zNear,ratio);
-  const skyY=new Float64Array(COLS+1).fill(Infinity);   // oberste Landkante pro Spalte
-  const lw=ZMAX/L;                             // Höhenstufen wie im Orbit-Renderer
-  // Pass 1: nah → fern sampeln. YS/HS = Profil je Scheibe, EV = unterer
-  // Fill-Rand je Scheibe (min-y aller näheren Scheiben). Damit füllt Pass 2
-  // nur noch das sichtbare Band statt bis zum Bildrand — der Overdraw
-  // (~100× Bildfläche) war der Löwenanteil der Frame-Zeit, mit Gradient
-  // doppelt bezahlt (gemessen 17. Juli 2026: 33 → 16.6 ms/Frame, stabile
-  // 60 fps; Details in SCREENSAVER.md).
-  const stride=COLS+1;
-  if(!FBUF || FBUF.stride!==stride || FBUF.slices!==SLICES)
-    FBUF={stride, slices:SLICES,
-          ys:new Float64Array(SLICES*stride), hs:new Float64Array(SLICES*stride),
-          ev:new Float64Array(SLICES*stride), run:new Float64Array(stride)};
-  const YS=FBUF.ys, HS=FBUF.hs, EV=FBUF.ev, run=FBUF.run;
-  run.fill(Infinity);
-  for(let k=0;k<SLICES;k++){
-    const zc=zNear*Math.pow(ratio, k/(SLICES-1));
-    const sHalf=(W/2+margin)/fl*zc;            // halbe Scheibenbreite in Weltkoordinaten
-    const bx=fc.x+fc.hx*zc, by=fc.y+fc.hy*zc;  // Scheibenmitte
-    const base=k*stride;
-    for(let c=0;c<=COLS;c++){
-      const s=(c/COLS-0.5)*2*sHalf;
-      const h=Math.max(sampleH(bx+rx*s, by+ry*s), seaZ);
-      const y=horizonY-fl*(h-fc.z)/zc;
-      HS[base+c]=h; YS[base+c]=y; EV[base+c]=run[c];
-      if(y<run[c]) run[c]=y;
-      if(h>seaZ+0.004 && y<skyY[c]) skyY[c]=y;   // Silhouette mitführen
-    }
-  }
-  // Pass 2: fern → nah malen (Painter wie gehabt)
-  const fpad=10*dpr;                           // Fill-Überlappung: muss auch an steilen
-  // Zacken-Segmenten die AA-Kanten der Nachbarscheibe satt überdecken — bei
-  // 2px schien dort pro Frame Papier durch (helles Flimmern, 17. Juli 2026)
-  for(let k=SLICES-1;k>=0;k--){
-    const zc=zNear*Math.pow(ratio, k/(SLICES-1));
-    const base=k*stride;
-    // Deckfläche: Profil oben, unten nur bis knapp unter die Oberkante der
-    // näheren Scheiben (EV+pad; nächste Scheibe: Bildrand).
-    // Mit Palette: der vorberechnete Stufen-Gradient dieser Scheibe wird nur
-    // vertikal an den Höhen-Nullpunkt (y von ZMAX) geschoben — y ist pro
-    // Scheibe linear in h, die Gradient-Länge zeitlich konstant. Unterhalb
-    // des Meeresspiegels läuft der letzte Stop (Papier) weiter.
-    const yTop=horizonY-fl*(ZMAX-fc.z)/zc;
-    if(PAL_GRADS){ctx.save(); ctx.translate(0,yTop); ctx.fillStyle=PAL_GRADS.grads[k];}
-    const dy=PAL_GRADS?yTop:0;
-    ctx.beginPath();
-    for(let c=0;c<=COLS;c++){
-      const x=(c/COLS)*W;
-      c?ctx.lineTo(x,YS[base+c]-dy):ctx.moveTo(x,YS[base+c]-dy);
-    }
-    for(let c=COLS;c>=0;c--){
-      const x=(c/COLS)*W;
-      // Nachbar-Maximum statt nur EV[c]: kreuzen sich die Kanten zweier
-      // näherer Scheiben steil zwischen zwei Spalten, deckt EV[c]+Pad den
-      // Keil nicht ab (Streifen-Artefakte, 17. Juli 2026)
-      const e=Math.max(EV[base+c], EV[base+Math.max(0,c-1)], EV[base+Math.min(COLS,c+1)]);
-      const bot=Math.max(YS[base+c], Math.min(e+fpad, H+8));
-      ctx.lineTo(x,bot-dy);
-    }
-    ctx.closePath(); ctx.fill();
-    if(PAL_GRADS) ctx.restore();
-    const alpha=Math.max(0.16, Math.min(0.68, 0.68*(1.15-zc/zFar)));
-    // Scheiben-Profillinien testweise entfernt — nur noch Höhenlinien.
-    // (Bei Bedarf: Profil über Land mit rgba(74,58,40,alpha*0.3) nachziehen.)
-    ctx.lineWidth=0.85*dpr;
-    // Höhenlinien im Band zur ferneren Nachbarscheibe (k+1): Marching Squares
-    // pro Zelle, Schnittpunkte in Bildkoordinaten interpoliert. Nähere Fills
-    // übermalen später verdeckte Segmente — Painter regelt die Verdeckung.
-    if(k<SLICES-1){
-      const pb=base+stride;                    // fernere Scheibe k+1
-      ctx.strokeStyle=`rgba(74,58,40,${alpha.toFixed(3)})`;
-      ctx.beginPath();
-      for(let c=0;c<COLS;c++){
-        const h00=HS[pb+c], h10=HS[pb+c+1], h11=HS[base+c+1], h01=HS[base+c];
-        const mn=Math.min(h00,h10,h11,h01), mx=Math.max(h00,h10,h11,h01);
-        if(mx<=seaZ+0.002) continue;           // Zelle ganz im Meer
-        const l0=Math.ceil(mn/lw), l1=Math.floor(mx/lw);
-        if(l1<l0) continue;
-        const x0=(c/COLS)*W, x1=((c+1)/COLS)*W;
-        const y00=YS[pb+c], y10=YS[pb+c+1], y11=YS[base+c+1], y01=YS[base+c];
-        for(let li=l0; li<=l1; li++){
-          const lev=li*lw;
-          if(lev<=seaZ) continue;
-          const pts=[];
-          const edge=(a,b,ax,ay,bx2,by2)=>{
-            if((a>lev)!==(b>lev)){const f=(lev-a)/(b-a);
-              pts.push(ax+(bx2-ax)*f, ay+(by2-ay)*f);}
-          };
-          edge(h00,h10, x0,y00, x1,y10);       // ferne Kante
-          edge(h10,h11, x1,y10, x1,y11);       // rechte Kante
-          edge(h01,h11, x0,y01, x1,y11);       // nahe Kante
-          edge(h00,h01, x0,y00, x0,y01);       // linke Kante
-          if(pts.length>=4){ctx.moveTo(pts[0],pts[1]); ctx.lineTo(pts[2],pts[3]);}
-          if(pts.length===8){ctx.moveTo(pts[4],pts[5]); ctx.lineTo(pts[6],pts[7]);}
-        }
-      }
-      ctx.stroke();
-    }
-  }
-
-  // Sichtbare Land-Spalten zählen: Grundlage für das vorgezogene Flug-Ende
-  // (Insel unter dem Bildrand verschwunden → Sprung zum Fade-out in animate)
-  landCols=0; for(let c=0;c<=COLS;c++) if(skyY[c]<H) landCols++;
-
-  // Silhouettenkante: oberste Landkante pro Spalte (Kuppen gegen den Himmel),
-  // damit Gipfel ohne dichte Konturen nicht im Papier verschwinden.
-  ctx.strokeStyle='rgba(74,58,40,0.68)'; ctx.lineWidth=0.85*dpr;
-  ctx.beginPath();
-  let sky=false;
-  for(let c=0;c<=COLS;c++){
-    if(skyY[c]<Infinity){
-      const x=(c/COLS)*W;
-      sky?ctx.lineTo(x,skyY[c]):ctx.moveTo(x,skyY[c]); sky=true;
-    } else sky=false;
-  }
-  ctx.stroke();
-
-  // Labels: sichtbare Gipfel in Blickrichtung, nah = grössere Schrift
-  const lh0=14, pad=4*dpr, placed=[];
-  const items=peaks.map((pk,i)=>{
-    const dx=pk.x-fc.x, dy=pk.y-fc.y;
-    const zc=dx*fc.hx+dy*fc.hy;
-    if(zc<0.3||zc>3.6) return null;
-    const s=dx*rx+dy*ry;
-    const x=W/2+fl*s/zc, y=horizonY-fl*(pk.z-fc.z)/zc;
-    if(x<-margin||x>W+margin||y<-margin||y>H+margin) return null;
-    return {pk, i, x, y, zc};
-  }).filter(o=>o&&peakVisibleP(o.pk))
-    .slice(0, LBASE||84)
-    .sort((a,b)=>a.y-b.y);
-  const clampX=(x,w)=>Math.max(w/2+2*dpr, Math.min(W-w/2-2*dpr, x));
-  const entries=[];
-  for(const it of items){
-    const fs=11*dpr, lh=lh0*dpr;   // fixe Schriftgrösse wie im Orbit-Modus
-    ctx.font=`${fs}px ui-sans-serif,system-ui,sans-serif`;
-    const wpx=ctx.measureText(it.pk.name).width+2*pad;
-    const tx=clampX(it.x,wpx);
-    let ty=it.y-30*dpr;
-    for(let n=0;n<50;n++){let hit=false;
-      for(const b of placed)
-        if(Math.abs(tx-b.x)<(wpx+b.w)/2 && Math.abs(ty-b.ty)<Math.max(lh,b.lh)){ty=b.ty-b.lh;hit=true;}
-      if(!hit) break;}
-    if(it.y-ty > 30*dpr+6*lh) continue;   // Stapel-Bremse wie im Orbit-Modus
-    placed.push({x:tx, ty, w:wpx, lh});
-    entries.push({i:it.i, name:it.pk.name, x:it.x, y:it.y, tx, ty, w:wpx, lh,
-                  fs, hi:it.i===tourIdx});
-  }
-  drawLabels(entries, dpr);
-  ctx.restore();
+  camX=u*u*p0x+2*u*s*cxp+s*s*p2x;
+  camY=u*u*p0y+2*u*s*cyp+s*s*p2y;
+  yaw  = rnd()*2*Math.PI + s*0.5;                // fixer Winkel je Route plus langsame Drehung
+  pitch= PFIX || 1.12 + 0.04*Math.sin(s*2*Math.PI);   // leichtes Atmen wie im Orbit
+  zoom = ZFIX || 1.8+1.4*s;   // Ken-Burns-Zoom: langsam 1.8 → 3.2 über die Route
+  anchorY=0.5; roll=0;
 }
 
 function orbitCam(t){
   yaw   = 0.6 + t*2*Math.PI/400;   // 1.2x schneller als die 480er-Fassung
-  pitch = 1.08 + 0.16*Math.sin(t*2*Math.PI/194);
+  pitch = PFIX || 1.08 + 0.16*Math.sin(t*2*Math.PI/194);
   zoom  = ZFIX || 2.25 + 1.15*Math.sin(t*2*Math.PI/302);   // 1.10 .. 3.40
   camX = 0; camY = 0;                              // Inselmitte bleibt fixiert
   roll = 0;
@@ -627,22 +382,11 @@ function orbitCam(t){
 // Ablauf ohne mode-Parameter: Orbit (100 s) → 3 Überflüge (je 40 s) → Orbit …
 // Jeder Szenenwechsel (auch zwischen zwei Überflügen) über- und ausblenden,
 // nie hart schneiden. ?mode=flug / ?mode=orbit fixiert einen Modus.
-const ORBIT_DUR=84, CROSS=213, NCROSS=1, CYCLE=ORBIT_DUR+NCROSS*CROSS;  // 213 = 320/1.5: Flug 1.5x schneller
-const FADE=1.5, FADEOUT=2.5;   // Ausblenden früher: deckt den Abflug übers Meer ab
-const TRIM=(CROSS-28)/CROSS;   // Route endet vorzeitig (gleicher Endpunkt wie die bestätigten 42 s bei CROSS=320)
+const ORBIT_DUR=106, CROSS=213, NCROSS=1, CYCLE=ORBIT_DUR+NCROSS*CROSS;   // Orbit ≈ halber Flug (1:2)
+const FADE=1.5, FADEOUT=2.5;
+const TRIM=1;   // Route läuft ganz durch — Start/Ende liegen jetzt knapp vor der Küste (R0=R1=1.8)
 let t0=null;                   // Zeit des ersten gezeichneten Frames (für das Start-Fade-in)
-// Vorgezogenes Flug-Ende: Die Insel verschwindet je nach Route zwischen ~160
-// und ~210 s unter dem Bildrand (gemessen über 14 Routen) — danach würde nur
-// noch leeres Meer gerendert. Sobald 2 s lang kein Land mehr im Bild war
-// (Hysterese gegen kurze Aussetzer), springt tOff direkt an den Fade-out-
-// Punkt. Der Sprung ist unsichtbar: fade ist dort noch 1, im Bild nur Papier.
-let tOff=0, landCols=0, lfFi=-1, lastLandLt=0;
-function flightPhase(fi, lt){
-  if(fi!==lfFi){lfFi=fi; lastLandLt=0;}
-  if(landCols>0) lastLandLt=lt;
-  else if(lastLandLt>30 && lt-lastLandLt>2 && lt<CROSS-FADEOUT)
-    tOff+=CROSS-FADEOUT-lt;
-}
+let tOff=0;                    // Zeitgutschrift für die Build-Pause beim Kartenwechsel
 function animate(now){
   const t=now/1000*SPEED+tOff;
   tourIdx = Math.floor(t/30) % Math.min(LABEL_TOP, peaks.length);  // Tour: alle 30 s der nächste Top-Artikel
@@ -651,25 +395,37 @@ function animate(now){
   if(MODE==='orbit'){ orbitCam(t); draw(); }
   else if(MODE==='flug'){
     const lt=t%CROSS;
-    flightCam(Math.floor(t/CROSS), lt/CROSS*TRIM, t); drawFlight();
-    flightPhase(Math.floor(t/CROSS), lt);
+    flyoverCam(Math.floor(t/CROSS), lt/CROSS*TRIM); draw();
     fade=Math.min(1, lt/FADE, (CROSS-lt)/FADEOUT);
   } else {
+    // Kartenwechsel exakt an der Zyklusgrenze: Dort ist die Szene voll von
+    // der Blende gedeckt. build() friert das Bild 2–4 s auf dem Cover ein;
+    // die verlorene Zeit wird über tOff zurückgegeben, damit der neue
+    // Zyklus bei u≈0 mit dem Fade-in beginnt. Frame überspringen — der
+    // nächste rechnet mit korrigiertem t.
+    const want=Math.floor(t/CYCLE)%MAPDATA.length;
+    if(want!==mapIdx){
+      const tb=performance.now();
+      applyMap(want);
+      tOff-=(performance.now()-tb)/1000*SPEED;
+      return requestAnimationFrame(animate);
+    }
     const u=t%CYCLE;
     if(u<ORBIT_DUR){
       orbitCam(t); draw();
       fade=Math.min(1, u/FADE, (ORBIT_DUR-u)/FADE);
     } else {
       const v=u-ORBIT_DUR, ci=Math.floor(v/CROSS), lt=v%CROSS;
-      flightCam(Math.floor(t/CYCLE)*NCROSS+ci, lt/CROSS*TRIM, t); drawFlight();
-      flightPhase(Math.floor(t/CYCLE)*NCROSS+ci, lt);
+      flyoverCam(Math.floor(t/CYCLE)*NCROSS+ci, lt/CROSS*TRIM); draw();
       fade=Math.min(1, lt/FADE, (CROSS-lt)/FADEOUT);
     }
   }
   fade=Math.min(fade, (t-t0)/FADE);   // Start des Screensavers: immer einblenden
-  if(fade<1){  // Blende: Meer-/Papierfarbe über die Szene legen
-    ctx.fillStyle=`rgba(${SEA_RGB},${(1-Math.max(0,fade)).toFixed(3)})`;
-    ctx.fillRect(0,0,cv.width,cv.height);
+  if(fade<1){  // Blende: Wasserverlauf (bzw. Meerfarbe) über die Szene legen
+    ctx.globalAlpha=1-Math.max(0,fade);
+    if(PAL_N==='1') paintWater(cv.width,cv.height);
+    else { ctx.fillStyle=SEA; ctx.fillRect(0,0,cv.width,cv.height); }
+    ctx.globalAlpha=1;
   }
   requestAnimationFrame(animate);
 }
@@ -678,7 +434,11 @@ function animate(now){
 let moved=0, lastX=null, lastY=null;
 // ?noexit=1: zum Testen Maus/Tastatur-Exit abschalten (Q wird oben geparst,
 // Script läuft top-down, daher hier schon verfügbar)
-const exitSaver=()=>{ if(!Q.has('noexit')) location.replace('index.html'); };
+const exitSaver=()=>{ if(Q.has('noexit')) return;
+  // zurück zur Ursprungsseite (Gesamt- oder Themenkarte); ohne Referrer zur Gesamtkarte
+  const back=document.referrer;
+  location.replace(back && new URL(back).origin===location.origin ? back : 'index.html');
+};
 addEventListener('mousemove', e=>{
   if(lastX!==null) moved+=Math.hypot(e.clientX-lastX, e.clientY-lastY);
   lastX=e.clientX; lastY=e.clientY;
@@ -701,7 +461,7 @@ addEventListener('resize', resize);
 // schaltet zum Vergleich um und zeigt die Leiste rechts (Arbeitswerkzeug).
 // Stützpunkte über t=l/L, linear interpoliert.
 const PALETTES={
-  1:[ // Meer (Standard): Atlas-Klassiker-Landfarben + Navy-Meer/Himmel (SEA/SKY)
+  1:[ // Meer (Standard): Atlas-Klassiker-Landfarben + Navy-Meer (SEA); nur noch Orbit
     [0.12,[130,177,135]],[0.24,[182,204,155]],[0.36,[237,231,191]],[0.46,[224,187,142]],
     [0.56,[206,147,111]],[0.66,[176,121,104]],[0.76,[142,109,102]],[0.84,[163,156,150]],
     [0.92,[215,211,206]],[1.00,[250,248,245]]],
@@ -724,17 +484,24 @@ const PAL_STOPS=PALETTES[PAL_N];
 // sichtbar im Meer (Hintergrund, Flug-Gradient, Blende) — sonst Papier.
 const SEA_RGB=PAL_N==='1'?[143,161,199]:[236,226,205];
 const SEA=`rgb(${SEA_RGB})`;
+// Wasserverlauf (nur Palette 1), oben → unten: dunkles Navy → tiefes
+// Dunkelblau, bewusst geringer Kontrast.
+const WATER_STOPS=[
+  [0.00,'rgb(52,68,112)'],
+  [0.50,'rgb(32,46,90)'],
+  [1.00,'rgb(14,26,66)'],
+];
+// Der Verlauf wird 15% überhöht gezeichnet und per Pitch vertikal
+// verschoben (sanfter Parallax): flache Kamera zeigt das warme Licht oben,
+// Draufsicht rutscht ins tiefe Blau.
+function paintWater(w,h){
+  const t=Math.min(1,Math.max(0,(pitch-0.92)/0.36));   // 0 steil .. 1 flach
+  const hi=h*1.15, yi=-(hi-h)*(1-t);
+  const g=ctx.createLinearGradient(0,yi,0,yi+hi);
+  for(const [p,c] of WATER_STOPS) g.addColorStop(p,c);
+  ctx.fillStyle=g; ctx.fillRect(0,0,w,h);
+}
 document.body.style.background=SEA;
-// Flugmodus, nur Palette 1: Hintergrund zweigeteilt — Himmel-Verlauf
-// (oben → Horizont, Stops gleichmässig verteilt) über dem Horizont, Meer
-// darunter. null = Papier-Look, Hintergrund bleibt einfarbig (body-Background).
-// Verlauf nach Vintage-Himmel-Vorlage: tiefes Blau → Teal → Creme.
-const SKY=PAL_N==='1'
-  ?['rgb(25,85,142)','rgb(88,152,182)','rgb(233,219,186)']:null;
-// Meer-Tiefenstaffelung (nur mit SKY): nah SEA_RGB, am Horizont SEA_FAR_RGB
-// (dunkles Navy aus der Bildvorlage). t=0 nah, t=1 Horizont.
-const SEA_FAR_RGB=[21,81,126];
-const seaMix=t=>`rgb(${SEA_RGB.map((v,i)=>Math.round(v+(SEA_FAR_RGB[i]-v)*t))})`;
 function ringColor(l){
   const t=l/L, s=PAL_STOPS;
   let a=s[0], b=s[s.length-1];
@@ -760,19 +527,52 @@ function buildPalette(){
   }
 }
 
-// --- Start: PEAKS + Relief-Parameter live aus index.html lesen ---------------
+// --- Karten-Rotation: Gesamtkarte + alle Themenkarten -------------------------
+// Pro Orbit+Flug-Zyklus eine Insel; nach der letzten wieder von vorne.
+// PEAKS und Relief-Parameter werden beim Start aus allen Karten geparst.
+const MAPS=['index.html','themen/adoption.html','themen/bips.html','themen/buecher.html',
+  'themen/geschichte.html','themen/glossar.html','themen/grundlagen.html','themen/kritik.html',
+  'themen/lightning.html','themen/mining.html','themen/oekonomie.html','themen/philosophie.html',
+  'themen/privacy.html','themen/protokoll.html','themen/satoshi.html','themen/self-custody.html',
+  'themen/studien.html','themen/wallets.html','themen/zitate.html'];
+const PARAM_NAMES=['SEED','BETA','L','ZMAX','BASE','TERW','RIDGE','DBIAS','SPREAD',
+                   'IRAD','COASTW','BASECUT','LIFT'];
+const MAPDATA=[];   // {peaks, params} je Karte, Reihenfolge wie MAPS (fehlende übersprungen)
+function parseMap(src){
+  // Gesamtkarte: `const PEAKS = [...];`. Themenkarten: volles Array mit
+  // Themen-Tags plus `.filter(p => (p.t||[]).includes(THEME))` — der Filter
+  // wird hier nachgebaut.
+  const arr=JSON.parse(src.match(/const PEAKS = (\[.*?\])(?:;|\.filter)/s)[1]);
+  const tm=src.match(/const THEME\s*=\s*["']([\w-]+)["']/);
+  const peaks=tm?arr.filter(p=>(p.t||[]).includes(tm[1])):arr;
+  // Parameter-Bereich: Defaults-Block bis vor die Kamera-Variablen. In den
+  // Themenkarten ersetzt eine Override-Zeile (SEED=6; BETA=…;) den
+  // /*__THEME_CFG__*/-Marker — darum zählt je Name die LETZTE Zuweisung.
+  const block=src.slice(src.indexOf('let SEED'), src.indexOf('let yaw'));
+  const params={};
+  for(const n of PARAM_NAMES){
+    const m=[...block.matchAll(new RegExp('\\b'+n+'\\s*=\\s*(-?[\\d.]+)','g'))];
+    if(m.length) params[n]=parseFloat(m[m.length-1][1]);
+  }
+  return {peaks, params};
+}
+let mapIdx=0;
+function applyMap(i){
+  mapIdx=i;
+  const d=MAPDATA[i];
+  PEAKS=d.peaks;
+  for(const n in d.params) eval(n+'='+d.params[n]);
+  labState.clear(); labGhosts.length=0;   // keine Label-Geister über den Kartenwechsel
+  build();
+}
+
+// --- Start ---------------------------------------------------------------------
 (async ()=>{
   try{
-    const src=await (await fetch('index.html')).text();
-    PEAKS=JSON.parse(src.match(/const PEAKS = (\[.*?\]);/s)[1]);
-    const block=src.slice(src.indexOf('let SEED'), src.indexOf('/*__THEME_CFG__*/'));
-    const num=n=>{const m=block.match(new RegExp('\\b'+n+'\\s*=\\s*(-?[\\d.]+)'));
-      return m?parseFloat(m[1]):null;};
-    for(const n of ['SEED','BETA','L','ZMAX','BASE','TERW','RIDGE','DBIAS','SPREAD',
-                    'IRAD','COASTW','BASECUT','LIFT']){
-      const v=num(n); if(v!==null) eval(n+'='+v);
-    }
-    resize(); build();
+    const res=await Promise.allSettled(MAPS.map(u=>fetch(u).then(r=>r.text())));
+    for(const r of res) if(r.status==='fulfilled') MAPDATA.push(parseMap(r.value));
+    if(!MAPDATA.length) throw new Error('keine Karte ladbar');
+    resize(); applyMap(0);
     // buildPalette();   // Palette-Leiste (?pal=N) deaktiviert — bei Farbarbeit wieder einkommentieren
     requestAnimationFrame(animate);
   }catch(e){

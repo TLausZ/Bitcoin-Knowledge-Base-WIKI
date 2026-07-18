@@ -55,7 +55,7 @@ OVERRIDES = {
     "lightning":   {"SEED": 7,  "BETA": 3.85, "L": 32, "BASECUT": 0.2,  "ZMAX": 0.4,  "BASE": 0.35, "TERW": 2,    "RIDGE": 0.2,  "DBIAS": 1,   "SPREAD": 0.85, "IRAD": 2.5,  "COASTW": 0.55, "LIFT": -0.36},
     "oekonomie":   {"SEED": 8,  "BETA": 3.9,  "L": 32, "BASECUT": 0.3,  "ZMAX": 0.4,  "BASE": 0.43, "TERW": 2,    "RIDGE": 0.2,  "DBIAS": 1,   "SPREAD": 0.85, "IRAD": 2.5,  "COASTW": 1.1,  "LIFT": -0.36},
     "adoption":    {"SEED": 10, "BETA": 6,    "L": 32, "BASECUT": 0.1,  "ZMAX": 0.4,  "BASE": 0.21, "TERW": 2,    "RIDGE": 1,    "DBIAS": 0.95,"SPREAD": 0.75, "IRAD": 2.5,  "COASTW": 1.15, "LIFT": -0.36},
-    "kritik":      {"SEED": 11, "BETA": 5,    "L": 32, "BASECUT": 0.1,  "ZMAX": 0.4,  "BASE": 0.11, "TERW": 2,    "RIDGE": 0.15, "DBIAS": 1,   "SPREAD": 0.7,  "IRAD": 2.15, "COASTW": 1.25, "LIFT": -0.36},
+    "kritik":      {"SEED": 15, "BETA": 4.9,  "L": 32, "BASECUT": 0.16, "ZMAX": 0.4,  "BASE": 0.11, "TERW": 2,    "RIDGE": 0.15, "DBIAS": 1,   "SPREAD": 0.7,  "IRAD": 2.15, "COASTW": 1.35, "LIFT": -0.36},
     "geschichte":  {"SEED": 12, "BETA": 6,    "L": 32, "BASECUT": 0.16, "ZMAX": 0.4,  "BASE": 0.21, "TERW": 2,    "RIDGE": 0.65, "DBIAS": 1,   "SPREAD": 0.6,  "IRAD": 2.5,  "COASTW": 0.55, "LIFT": -0.36},
     "zitate":      {"SEED": 14, "BETA": 4,    "L": 32, "BASECUT": 0.12, "ZMAX": 0.4,  "BASE": 0.21, "TERW": 2,    "RIDGE": 1,    "DBIAS": 1,   "SPREAD": 0.4,  "IRAD": 1.55, "COASTW": 1.15, "LIFT": -0.36},
     "studien":     {"SEED": 15, "BETA": 3.5,  "L": 32, "BASECUT": 0.14, "ZMAX": 0.4,  "BASE": 0.21, "TERW": 2,    "RIDGE": 0.3,  "DBIAS": 1,   "SPREAD": 0.55, "IRAD": 2.1,  "COASTW": 1.35, "LIFT": -0.36},
@@ -112,6 +112,9 @@ def main():
         doc = doc.replace(
             "<h1>Bitcoin-Wiki · Gesamtkarte</h1>",
             f"<h1>Bitcoin-Wiki · {name}</h1>", 1)
+        # 4) Screensaver-Redirect: relativ zu themen/ liegt er eine Ebene höher
+        doc = doc.replace("location.href='screensaver.html'",
+                          "location.href='../screensaver.html'", 1)
 
         (OUT / f"{slug}.html").write_text(doc, encoding="utf-8")
         made.append((i, slug, count))

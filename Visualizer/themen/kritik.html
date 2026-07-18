@@ -222,7 +222,7 @@ let SEED = 1,         // FFT-Rauschmuster (Themennummer bei Themenkarten)
     COASTW = 0.05,    // Küstenbreite (smoothstep-Rampe)
     BASECUT = 0.14,   // Boden-Schnitt
     LIFT = -0.3;      // Schwebehöhe
-SEED=11; BETA=5; L=32; BASECUT=0.1; ZMAX=0.4; BASE=0.11; TERW=2; RIDGE=0.15; DBIAS=1; SPREAD=0.7; IRAD=2.15; COASTW=1.25; LIFT=-0.36;
+SEED=15; BETA=4.9; L=32; BASECUT=0.16; ZMAX=0.4; BASE=0.11; TERW=2; RIDGE=0.15; DBIAS=1; SPREAD=0.7; IRAD=2.15; COASTW=1.35; LIFT=-0.36;
 let yaw = 0.6,        // Drehung um die Hochachse (ändert sich beim Ziehen)
     pitch = 1.08,     // Kippwinkel der Kamera (1.55 ≈ fast Draufsicht)
     scale0 = 0.2,     // Grundmaßstab, wird mit zoom multipliziert
@@ -982,7 +982,7 @@ admSync();
     idleT=setTimeout(()=>{
       if(matchMedia('(max-width:640px)').matches) return arm();
       if(modal.classList.contains('open')) return arm();
-      location.href='screensaver.html';
+      location.href='../screensaver.html';
     }, IDLE); };
   for(const ev of ['mousemove','mousedown','keydown','wheel','touchstart','scroll'])
     addEventListener(ev, arm, {passive:true});
