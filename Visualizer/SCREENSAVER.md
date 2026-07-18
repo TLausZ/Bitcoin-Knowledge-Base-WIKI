@@ -22,8 +22,8 @@ Eingabe automatisch zu `screensaver.html` (Idle-Timer am Skriptende von
 index.html; build_theme_cards.py patcht den Pfad in den Themenkarten auf
 `../screensaver.html`). Ausnahmen:
 Mobile-View (max-width 640px) und offenes Lese-Modal — dort wird der Timer
-nur neu gestellt. Kein UI auf der Screensaver-Seite selbst: Kartusche und
-Zoom/Label-HUD wurden auf User-Wunsch entfernt, sichtbar ist nur der Canvas.
+nur neu gestellt. UI auf der Seite: nur die Statusbox oben rechts (siehe
+unten); Kartusche und Zoom/Label-HUD wurden auf User-Wunsch entfernt.
 
 ## Kein eigener Datenbestand
 
@@ -87,8 +87,21 @@ das frühere Kappen galt dem Ego-Renderer mit Meer-Anflug).
 Höhenring-Flächen (loopsByLevel, evenodd, Wände via `wall`), Labels mit
 Kollisions-Schub nach oben und Stapel-Bremse (>3 Zeilen über dem Gipfel →
 Label entfällt; von 6 auf 3 verschärft am 18. Juli 2026, weil die dichten
-BIP-Cluster Label-Türme bauten). Label-Budget: `min(42, max(21, ((zoom-1.10)/2.30)^6 * 439))`
-— bis Zoom ~2.5 die Top 21, ab ~2.65 konstant 42 (21/42 als Bitcoin-Zahlen).
+BIP-Cluster Label-Türme bauten). Label-Budget:
+`2 * min(42, max(21, ((zoom-1.10)/2.30)^6 * 443))` — bis Zoom ~2.4 also 42
+Labels, Rampe zwischen 2.4 und 2.7, ab ~2.7 konstant 84 (Verdoppelung der
+21/42-Rampe am 18. Juli 2026; ein hartes «ab Zoom 3.0 alle» wurde wegen des
+abrupten Übergangs verworfen).
+
+Label-Optik (18. Juli 2026): Leitlinie doppelt — 2px Creme mit Alpha 0.4,
+daneben um 1.5px nach rechts/unten versetzt 1px Braun. Punkt einfach braun,
+Labelbox mit 1px brauner Kante unten und rechts. Highlight-Stil (`hi`):
+braune Leitlinie, grosser Punkt, dunkle Box mit hellem Text.
+
+Höchster Gipfel (`topIdx`, schwerster Artikel der Karte, in `applyMap`
+bestimmt): sein Label wird immer gerendert — es umgeht Budget und
+Stapel-Bremse (nicht aber Sichtbarkeit/Bildausschnitt) — und trägt dauerhaft
+den Highlight-Stil, zusätzlich zur 30-s-Tour.
 
 ### Orbit (`orbitCam`)
 - Kamera kreist automatisch: yaw-Periode 400 s, pitch 1.08±0.16 (194 s),
@@ -149,6 +162,29 @@ bleiben als Alternativen im `PALETTES`-Objekt, umschaltbar per `?pal=N`.
 - Gezeichnete Ringe: `L=32` Stufen, Konturschleife l=1–31, BASECUT=0.14
   kappt 1–4 → sichtbar sind die Stufen 5–31 (27 Ringe).
 
+## Statusbox (18. Juli 2026)
+
+`#cap`, fixiert oben rechts, mono (12px/1.35), Creme auf braunem Grund
+(`rgba(92,74,52,0.7)`), 1px Creme-Rahmen; Trennlinien zwischen den Sektionen
+sind CSS-Borders (unter dem Themennamen 3px «heavy»). Eine frühere Fassung
+malte Rahmen und Trenner als Unicode-Boxzeichen (┌─┤┝━) mit line-height 11px
+gegen die Glyphenlücken — verworfen zugunsten von Pixellinien bei normaler
+line-height.
+
+Sektionen: Themenname (bold) | Artikelzahl, auf Themenkarten als Anteil
+«47 von 444 Artikeln (11%)» | erster/letzter Artikel alphabetisch (de) |
+«Höchster Gipfel:» + schwerster Artikel | «Karte x/y» | Uhr (de-CH,
+HH:MM:SS). Statischer Teil (`capStatic`) wird pro Kartenwechsel in
+`applyMap()` gebaut, der Rest tickt sekündlich in `updateCap(t)` (per
+`innerHTML`, Text escaped wegen «&» in Themennamen).
+
+Unter der Box ein Braille-Fortschrittsbalken im Stil «dotted» von
+ascii.bar (`⣀⣄⣤⣦⣶⣷⣿`): Countdown des 319-s-Zyklus, leert sich von links
+nach rechts; Zellenzahl aus Box-Pixelbreite / gemessener `⣿`-Breite
+(Braille ist breiter als eine Mono-Zelle — als Zeile im Rahmen sprengte er
+ihn deshalb). In den Fixmodi (`?mode=orbit|flug`) entfällt der Balken.
+Verworfen: Balken im Rahmen, Stil `█░`.
+
 ## URL-Parameter
 
 - `?pal=N` — Palette 1–6 umschalten und Palette-Leiste einblenden
@@ -193,7 +229,8 @@ bleiben als Alternativen im `PALETTES`-Objekt, umschaltbar per `?pal=N`.
   drüber») durch die flyoverCam-Kamerafahrt ersetzt.
 - Verworfen: `?render=flug` (Perspektiv-Renderer als Orbit) — getestet und
   vom User abgelehnt, der Orbit blieb immer orthografisch.
-- Label-Rampe: final hoch 6 mit Untergrenze 21 und Obergrenze 42.
+- Label-Rampe: hoch 6 mit Untergrenze 21 und Obergrenze 42, seit
+  18. Juli 2026 verdoppelt (42/84).
 
 ## Offene Ideen
 
