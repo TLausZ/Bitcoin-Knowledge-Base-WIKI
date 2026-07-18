@@ -46,21 +46,22 @@ CATS = [
 # Nur die genannten Keys werden überschrieben; der Rest bleibt Default.
 # Können sich nach jedem Compile ändern (Layout/Daten verschieben sich).
 OVERRIDES = {
-    "grundlagen":  {"SEED": 1,  "BETA": 4.35, "L": 32, "BASECUT": 0.48, "ZMAX": 0.6,  "BASE": 0.13, "TERW": 0.46, "RIDGE": 0.8,  "DBIAS": 0.6, "SPREAD": 0.8,  "IRAD": 2.4,  "COASTW": 0.95, "LIFT": -0.36},
-    "privacy":     {"SEED": 5,  "BETA": 6,    "L": 35, "BASECUT": 0.26, "ZMAX": 0.35, "BASE": 0.23, "TERW": 2,    "RIDGE": 0.25, "DBIAS": 1,   "SPREAD": 0.75, "IRAD": 2.45, "COASTW": 0.7,  "LIFT": -0.36},
-    "mining":      {"SEED": 6,  "BETA": 3.9,  "L": 32, "BASECUT": 0.14, "ZMAX": 0.4,  "BASE": 0.21, "TERW": 2,    "RIDGE": 0.35, "DBIAS": 1,   "SPREAD": 0.55, "IRAD": 2,    "COASTW": 0.55, "LIFT": -0.36},
-    "lightning":   {"SEED": 7,  "BETA": 3.85, "L": 32, "BASECUT": 0.2,  "ZMAX": 0.4,  "BASE": 0.21, "TERW": 2,    "RIDGE": 0.2,  "DBIAS": 1,   "SPREAD": 0.85, "IRAD": 2.5,  "COASTW": 0.55, "LIFT": -0.36},
-    "oekonomie":   {"SEED": 8,  "BETA": 3.9,  "L": 32, "BASECUT": 0.14, "ZMAX": 0.4,  "BASE": 0.21, "TERW": 2,    "RIDGE": 0.2,  "DBIAS": 1,   "SPREAD": 0.85, "IRAD": 2.5,  "COASTW": 0.55, "LIFT": -0.36},
-    "philosophie": {"SEED": 9,  "BETA": 4.4,  "L": 32, "BASECUT": 0.2,  "ZMAX": 0.4,  "BASE": 0.21, "TERW": 2,    "RIDGE": 0.2,  "DBIAS": 1,   "SPREAD": 0.85, "IRAD": 2.5,  "COASTW": 0.55, "LIFT": -0.36},
-    "adoption":    {"SEED": 10, "BETA": 6,    "L": 32, "BASECUT": 0.14, "ZMAX": 0.4,  "BASE": 0.21, "TERW": 2,    "RIDGE": 1,    "DBIAS": 1,   "SPREAD": 0.75, "IRAD": 2.5,  "COASTW": 1,    "LIFT": -0.36},
-    "kritik":      {"SEED": 11, "BETA": 4.15, "L": 32, "BASECUT": 0.14, "ZMAX": 0.4,  "BASE": 0.11, "TERW": 2,    "RIDGE": 0.15, "DBIAS": 1,   "SPREAD": 0.7,  "IRAD": 2.15, "COASTW": 0.7,  "LIFT": -0.36},
-    "geschichte":  {"SEED": 12, "BETA": 6,    "L": 32, "BASECUT": 0.14, "ZMAX": 0.4,  "BASE": 0.21, "TERW": 2,    "RIDGE": 0.2,  "DBIAS": 1,   "SPREAD": 0.6,  "IRAD": 2.5,  "COASTW": 0.55, "LIFT": -0.36},
-    "satoshi":     {"SEED": 13, "BETA": 6,    "L": 32, "BASECUT": 0.14, "ZMAX": 0.4,  "BASE": 0.21, "TERW": 2,    "RIDGE": 0.2,  "DBIAS": 1,   "SPREAD": 0.35, "IRAD": 2.5,  "COASTW": 0.55, "LIFT": -0.36},
-    "zitate":      {"SEED": 14, "BETA": 6,    "L": 32, "BASECUT": 0.12, "ZMAX": 0.4,  "BASE": 0.21, "TERW": 2,    "RIDGE": 0.2,  "DBIAS": 1,   "SPREAD": 0.2,  "IRAD": 1.4,  "COASTW": 0.75, "LIFT": -0.36},
-    "studien":     {"SEED": 15, "BETA": 3.5,  "L": 32, "BASECUT": 0.14, "ZMAX": 0.4,  "BASE": 0.21, "TERW": 2,    "RIDGE": 0.3,  "DBIAS": 1,   "SPREAD": 0.55, "IRAD": 1.75, "COASTW": 0.75, "LIFT": -0.36},
-    "buecher":     {"SEED": 16, "BETA": 3.85, "L": 32, "BASECUT": 0.16, "ZMAX": 0.4,  "BASE": 0.21, "TERW": 2,    "RIDGE": 0.6,  "DBIAS": 1,   "SPREAD": 0.6,  "IRAD": 1.75, "COASTW": 0.25, "LIFT": -0.36},
-    "wallets":     {"SEED": 17, "BETA": 4.5,  "L": 32, "BASECUT": 0.14, "ZMAX": 0.4,  "BASE": 0.21, "TERW": 2,    "RIDGE": 0.25, "DBIAS": 1,   "SPREAD": 0.75, "IRAD": 2.15, "COASTW": 0.75, "LIFT": -0.36},
-    "glossar":     {"SEED": 18, "BETA": 4.65, "L": 32, "BASECUT": 0.68, "ZMAX": 0.55, "BASE": 0.01, "TERW": 0.04, "RIDGE": 0.15, "DBIAS": 0.45,"SPREAD": 0.15, "IRAD": 1.4,  "COASTW": 1.2,  "LIFT": -0.36},
+    "grundlagen":  {"SEED": 1,  "BETA": 4.35, "L": 32, "BASECUT": 0.46, "ZMAX": 0.6,  "BASE": 0.15, "TERW": 0.46, "RIDGE": 0.8,  "DBIAS": 0.6, "SPREAD": 0.8,  "IRAD": 2.4,  "COASTW": 1.1,  "LIFT": -0.36},
+    "protokoll":   {"SEED": 2,  "BETA": 3.5,  "L": 32, "BASECUT": 0.14, "ZMAX": 0.55, "BASE": 0.29, "TERW": 1.92, "RIDGE": 0.95, "DBIAS": 1,   "SPREAD": 0.95, "IRAD": 2.7,  "COASTW": 0.05, "LIFT": -0.3},
+    "bips":        {"SEED": 3,  "BETA": 3.5,  "L": 32, "BASECUT": 0.14, "ZMAX": 0.45, "BASE": 0.27, "TERW": 1.92, "RIDGE": 0.8,  "DBIAS": 1,   "SPREAD": 0.95, "IRAD": 2.7,  "COASTW": 0.55, "LIFT": -0.3},
+    "self-custody":{"SEED": 4,  "BETA": 3.5,  "L": 26, "BASECUT": 0.12, "ZMAX": 0.4,  "BASE": 0.11, "TERW": 1.92, "RIDGE": 0.95, "DBIAS": 1,   "SPREAD": 0.9,  "IRAD": 2.7,  "COASTW": 0.05, "LIFT": -0.3},
+    "privacy":     {"SEED": 5,  "BETA": 6,    "L": 35, "BASECUT": 0.24, "ZMAX": 0.35, "BASE": 0.25, "TERW": 2,    "RIDGE": 0.1,  "DBIAS": 1,   "SPREAD": 0.75, "IRAD": 2.45, "COASTW": 1.3,  "LIFT": -0.36},
+    "mining":      {"SEED": 6,  "BETA": 4.25, "L": 35, "BASECUT": 0.14, "ZMAX": 0.4,  "BASE": 0.21, "TERW": 2,    "RIDGE": 0.35, "DBIAS": 1,   "SPREAD": 0.55, "IRAD": 2,    "COASTW": 0.55, "LIFT": -0.36},
+    "lightning":   {"SEED": 7,  "BETA": 3.85, "L": 32, "BASECUT": 0.2,  "ZMAX": 0.4,  "BASE": 0.35, "TERW": 2,    "RIDGE": 0.2,  "DBIAS": 1,   "SPREAD": 0.85, "IRAD": 2.5,  "COASTW": 0.55, "LIFT": -0.36},
+    "oekonomie":   {"SEED": 8,  "BETA": 3.9,  "L": 32, "BASECUT": 0.3,  "ZMAX": 0.4,  "BASE": 0.43, "TERW": 2,    "RIDGE": 0.2,  "DBIAS": 1,   "SPREAD": 0.85, "IRAD": 2.5,  "COASTW": 1.1,  "LIFT": -0.36},
+    "adoption":    {"SEED": 10, "BETA": 6,    "L": 32, "BASECUT": 0.1,  "ZMAX": 0.4,  "BASE": 0.21, "TERW": 2,    "RIDGE": 1,    "DBIAS": 0.95,"SPREAD": 0.75, "IRAD": 2.5,  "COASTW": 1.15, "LIFT": -0.36},
+    "kritik":      {"SEED": 11, "BETA": 5,    "L": 32, "BASECUT": 0.1,  "ZMAX": 0.4,  "BASE": 0.11, "TERW": 2,    "RIDGE": 0.15, "DBIAS": 1,   "SPREAD": 0.7,  "IRAD": 2.15, "COASTW": 1.25, "LIFT": -0.36},
+    "geschichte":  {"SEED": 12, "BETA": 6,    "L": 32, "BASECUT": 0.16, "ZMAX": 0.4,  "BASE": 0.21, "TERW": 2,    "RIDGE": 0.65, "DBIAS": 1,   "SPREAD": 0.6,  "IRAD": 2.5,  "COASTW": 0.55, "LIFT": -0.36},
+    "zitate":      {"SEED": 14, "BETA": 4,    "L": 32, "BASECUT": 0.12, "ZMAX": 0.4,  "BASE": 0.21, "TERW": 2,    "RIDGE": 1,    "DBIAS": 1,   "SPREAD": 0.4,  "IRAD": 1.55, "COASTW": 1.15, "LIFT": -0.36},
+    "studien":     {"SEED": 15, "BETA": 3.5,  "L": 32, "BASECUT": 0.14, "ZMAX": 0.4,  "BASE": 0.21, "TERW": 2,    "RIDGE": 0.3,  "DBIAS": 1,   "SPREAD": 0.55, "IRAD": 2.1,  "COASTW": 1.35, "LIFT": -0.36},
+    "buecher":     {"SEED": 16, "BETA": 3.85, "L": 32, "BASECUT": 0.22, "ZMAX": 0.4,  "BASE": 0.21, "TERW": 2,    "RIDGE": 0.4,  "DBIAS": 1,   "SPREAD": 0.6,  "IRAD": 1.75, "COASTW": 0.25, "LIFT": -0.36},
+    "wallets":     {"SEED": 17, "BETA": 4.5,  "L": 32, "BASECUT": 0.2,  "ZMAX": 0.4,  "BASE": 0.21, "TERW": 2,    "RIDGE": 0.25, "DBIAS": 1,   "SPREAD": 0.75, "IRAD": 2.15, "COASTW": 0.75, "LIFT": -0.36},
+    "glossar":     {"SEED": 18, "BETA": 4.65, "L": 32, "BASECUT": 0.68, "ZMAX": 0.55, "BASE": 0.03, "TERW": 0.04, "RIDGE": 0.75, "DBIAS": 0.5, "SPREAD": 0,    "IRAD": 1.8,  "COASTW": 1,    "LIFT": -0.36},
 }
 
 def main():
