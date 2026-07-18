@@ -2,8 +2,8 @@
 
 **Status:** emerging
 **Themen:** oekonomie, adoption
-**Last updated:** 2026-07-17
-**Sources:** [[20260717_bitcointreasuries-top100-public-companies]]
+**Last updated:** 2026-07-18
+**Sources:** [[20260717_bitcointreasuries-top100-public-companies]], [[20260718-bitcointreasuriesTop100]]
 
 ## Summary
 
@@ -14,6 +14,10 @@ Snapshot vom 17. Juli 2026 (bitcointreasuries.net, BTC-Preis $64'105): 197 börs
 ### Die Landschaft in Zahlen
 
 Der Sektor zählt 197 Firmen, ist aber faktisch eine Firma plus Anhang: Strategy 843'775 BTC, danach Twenty One Capital (43'514) und Metaplanet (43'000) mit je etwa einem Zwanzigstel davon. 13 Unternehmen halten mehr als 10'000 BTC, bei Rang 51 liegt der Bestand noch bei 819 BTC, bei Rang 100 bei 125 BTC. Über 30 Tage war der Gesamtbestand flach (0.0%), die Anzahl Firmen ging um eine zurück — der Sektor wächst im Bärenmarkt 2026 nicht mehr. [[20260717_bitcointreasuries-top100-public-companies]]
+
+### Zeitreihe (Folge-Snapshots)
+
+Seit dem 18. Juli 2026 liegt der Snapshot zusätzlich als automatisierter Abzug der Datenquelle (`__data.json`) vor, inklusive CSV-Pendant für Auswertungen. Erster Tagesvergleich 17.→18. Juli: BTC-Preis $64'105 → $63'927, Top-100-Bestand unverändert bei 1'260'555 BTC, Zahl der gelisteten Public Companies 197 → 209 — der Zuwachs besteht aus Kleinstpositionen unterhalb der Top 100, am aggregierten Bestand ändert er nichts. [[20260718-bitcointreasuriesTop100]]
 
 ### Kennzahlen: mNAV, Cost Basis, NgU
 
@@ -42,5 +46,5 @@ Public Companies sind mit 1.26M BTC die drittgrösste Halterkategorie hinter ETF
 ## Open Questions
 
 - Wie entwickeln sich die mNAV-Discounts: Konsolidierung, Übernahmen oder Abwicklung der kleinen Treasury-Vehikel?
-- Folge-Snapshots nötig, um die Zeitreihe zu starten (gleiche Quelle, gleiches Spaltenset) — monatlicher Rhythmus?
+- Zeitreihe läuft: Snapshots kommen monatlich per Schedule nach RAW/ (automatisierter __data.json-Abzug als .md + .csv, eingerichtet 18.07.2026; der Ein-Tages-Abstand der ersten beiden Punkte kommt vom manuellen Erst-Abzug am 17.07.). Jeder neue Snapshot wird beim Compile als Zeitreihen-Punkt eingearbeitet. Offen bleibt: ab wann lohnt eine eigene Auswertung (Chart/Tabelle) über die Monatspunkte?
 - Wie gross ist die Überschneidung zwischen Public-Company-Beständen und ETF-Beständen in der Verwahrung (Coinbase Custody als gemeinsamer Single Point of Failure)?

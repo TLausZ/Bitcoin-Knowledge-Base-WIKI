@@ -115,6 +115,8 @@ OVERRIDES = {
     "magic-future-money": ["oekonomie", "philosophie", "buecher"],
     # Datensnapshot Treasury-Companies: Marktdaten, nicht "sonstiges" (kein Keyword-Match)
     "bitcoin-treasury-companies": ["oekonomie", "adoption"],
+    # Bewertungsmetrik: nicht "privacy"/"adoption" (Trigger: UTXO bzw. ETF)
+    "mvrv-und-realized-cap": ["oekonomie", "protokoll"],
 }
 
 

@@ -2,8 +2,8 @@
 
 **Status:** established
 **Themen:** oekonomie
-**Last updated:** 2026-07-07
-**Sources:** [[A Mechanistic Derivation of the Bitcoin Price Power Law_ Network Adoption Dynamics and Generalised Metcalfe Scaling]], [[bitcoin_powerlaw_v4_FINALA]], [[Bitcoin_Supply_Demand_Price_Dynamics]], [[Supply_and_Demand_Framework_Bitcoin_Price_Forecasting]], [[20260125_heartmoney-der-bitcoin-fruhling-beginnt]], [[20260510_heartmoney-ein-barenmarkt-fur-ameisen]], [[20260630_heartmoney-bitcoin-angst-und-magie]], [[20251123_heartmoney-ki-hat-keine-traumata]], [[20230207_bmi-ausgabe-20-halvingzyklen-de]], [[20230207_bmi-issue-20-halving-cycles-en]]
+**Last updated:** 2026-07-18
+**Sources:** [[A Mechanistic Derivation of the Bitcoin Price Power Law_ Network Adoption Dynamics and Generalised Metcalfe Scaling]], [[bitcoin_powerlaw_v4_FINALA]], [[Bitcoin_Supply_Demand_Price_Dynamics]], [[Supply_and_Demand_Framework_Bitcoin_Price_Forecasting]], [[20260125_heartmoney-der-bitcoin-fruhling-beginnt]], [[20260510_heartmoney-ein-barenmarkt-fur-ameisen]], [[20260630_heartmoney-bitcoin-angst-und-magie]], [[20251123_heartmoney-ki-hat-keine-traumata]], [[20230207_bmi-ausgabe-20-halvingzyklen-de]], [[20230207_bmi-issue-20-halving-cycles-en]], [[20260717_wuestenfeld-btc-dashboard]]
 
 ## Summary
 
@@ -68,6 +68,10 @@ In dieselbe Richtung argumentieren Michael Saylor und Lyn Alden: Bitcoin werde i
 
 Praxis-Check aus dem Bärenmarkt 2025/26: Im Juni 2026 notierte der Kurs am unteren Power-Law-Band. Die Quelle formuliert das Falsifikationskriterium der Community-Praxis: Würde die untere Unterstützungslinie über mehrere Wochen signifikant unterschritten, wäre das Power Law mit seinen heutigen Parametern zu begraben. Im Mai 2026 hielt das Band (Erholung über 82.000 USD). [[20260630_heartmoney-bitcoin-angst-und-magie]]
 
+### Operationalisierung: Sigma-Bänder im Wüstenfeld-Dashboard
+
+Jan Wüstenfelds Market Structure Dashboard macht die Power-Law-Abweichung zur laufend gemessenen Kennzahl: Die Distanz des Preises zur Trendkurve wird durch die Variabilität aller bisherigen Abweichungen geteilt (Sigma), was Readings über Zyklen vergleichbar hält, obwohl die Amplitude schrumpft — die Peaks fielen von +2,53 (2013) über +2,20 (2017) auf +1,09 (2021), die Böden lagen bei −1,70 (2015), −0,87 (2018), −1,36 (2022). Daraus leitet das Dashboard Trend-Bänder ab (Deep Value σ ≤ −0,5, Hot σ ≥ +1,0), testet out-of-sample die Wahrscheinlichkeit eines ≥30%-Drawdowns in 90 Tagen je Zone und lässt ein 2-State Hidden Markov Model die Sigma-Serie in Above-Trend- (spekulativ, Top-Indikator) und Below-Trend-Regimes klassifizieren. Die Beobachtung, dass Above-Trend-Episoden seit 2012 schwächer ausfallen, deckt sich mit der Amplituden-Kompression der log-periodischen Sicht oben. Als Bewertungs-Gegenstück nutzt das Dashboard MVRV-z (siehe [[mvrv-und-realized-cap]]). [[20260717_wuestenfeld-btc-dashboard]]
+
 Das Modell ist inzwischen auch Anwendungswissen im DACH-Raum: Es dient als Beruhigungsrahmen in Bärenphasen (Einordnungs-Streams von Les Femmes Orange, Erklärvideos), als Timing-Heuristik für kreditfinanzierte Käufe (siehe [[bitcoin-auf-kredit]]) und als Rechenbasis für Renten-Gedankenexperimente («Wie viel Bitcoin reicht in 20 Jahren?») — Letzteres regelmässig begleitet von Kritik an der Prognosegrundlage. [[20251123_heartmoney-ki-hat-keine-traumata]]
 
 ## Related
@@ -78,6 +82,7 @@ Das Modell ist inzwischen auch Anwendungswissen im DACH-Raum: Es dient als Beruh
 - [[bitcoin-alles-geteilt-durch-21-millionen]]
 - [[bitcoin-auf-kredit]]
 - [[bitcoin-volatilitaet-und-preisfindung]]
+- [[mvrv-und-realized-cap]]
 
 ## Open Questions
 
