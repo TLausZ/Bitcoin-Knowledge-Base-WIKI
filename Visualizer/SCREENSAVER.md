@@ -1,6 +1,6 @@
 # SCREENSAVER.md — Technische Doku zu screensaver.html
 
-Notizen für die Weiterarbeit in neuen Sitzungen. Stand: 18. Juli 2026.
+Notizen für die Weiterarbeit in neuen Sitzungen. Stand: 19. Juli 2026.
 
 ## Was es ist
 
@@ -105,12 +105,15 @@ den Highlight-Stil, zusätzlich zur 30-s-Tour.
 
 ### Orbit (`orbitCam`)
 - Kamera kreist automatisch: yaw-Periode 400 s, pitch 1.08±0.16 (194 s),
-  zoom 2.25±1.15 (302 s, also 1.10–3.40). Inselmitte fixiert (camX=camY=0;
-  die frühere Lissajous-Drift wurde auf User-Wunsch entfernt). Der
+  zoom 2.25±1.15 (302 s, also 1.10–3.40). Zentriert auf den s-gewichteten
+  Peak-Schwerpunkt der Karte (`mapCX/mapCY`, in `applyMap` berechnet; 19. Juli
+  2026). Vorher fix auf den Weltursprung (camX=camY=0) — dabei driftete der
+  off-center Cluster einer Themenkarte beim yaw-Umlauf periodisch aus dem
+  Bild. Die frühere Lissajous-Drift wurde auf User-Wunsch entfernt. Der
   Bildanker `anchorY` hängt am Kippwinkel: 0.55 in der Seitenansicht,
   bis 0.47 bei maximaler Draufsicht.
-- Ringe gefärbt nach Palette (siehe Höhenfärbung), Hintergrund = Meerfarbe
-  (body-Background).
+- Ringe gefärbt nach Palette und nach Sonnenstand schattiert (siehe
+  Höhenfärbung / Hillshading), Hintergrund = Meerfarbe (body-Background).
 
 ### Überflug (`flyoverCam`, seit 18. Juli 2026)
 - Gleicher `draw()`-Aufruf wie im Orbit, inklusive Färbung (18. Juli 2026:
@@ -151,9 +154,33 @@ bleiben als Alternativen im `PALETTES`-Objekt, umschaltbar per `?pal=N`.
   Inselmitte, berechneter Himmel-Horizont (f·tanθ — schnitt in flachen
   Orbit-Momenten durch die Insel), prozedurale Wellen-Ellipsen, ein
   Aquarell-Wasserbild (wasser.png, Parallax zu stark, gelöscht).
-- `ringColor(l)`: Stufe l (1..L) → Farbe, lineare Interpolation über
-  Stützpunkte `[t, [r,g,b]]` mit t=l/L. Im Orbit `fillStyle=ringColor(l)`
-  pro Ring-Ebene (Wände inklusive), Konturlinien bleiben braun.
+- `ringRGB(l)`: Stufe l (1..L) → `[r,g,b]`, lineare Interpolation über
+  Stützpunkte `[t, [r,g,b]]` mit t=l/L. `ringColor(l)` ist der CSS-String
+  drumherum (für die Palette-Leiste). Die Grundfarbe je Ring-Ebene kommt aus
+  `ringRGB`, danach greift das Hillshading; Konturlinien bleiben braun.
+
+## Hillshading (19. Juli 2026)
+
+Die Ringflächen werden zusätzlich zur Höhenfärbung nach Sonnenstand
+schattiert — aus flachen Höhenlinien werden beleuchtete Berge mit Licht- und
+Schattenflanke. Festes, welt-festes Licht (`SUN`-Konstante, oben bei den
+Paletten): `dir` aus Azimut `SUN_AZ`, `color` (leicht warmes Weiss),
+`ambient` (0.55, Schattenseite) und `diffuse` (0.50, Sonnenseite). Weil das
+Licht welt-fest steht, dreht der Orbit im Lauf verschiedene Flanken hinein.
+
+- **Wände per Segment:** In `draw()` wird pro Ring-Loop je Segment die
+  Welt-Normale gebildet (Perpendikulare der Segmentkante, nach aussen gegen
+  den Loop-Schwerpunkt orientiert), mit `SUN.dir` verrechnet (Lambert) und
+  über `shade(baseCol, ambient+diffuse·lam, color)` eingefärbt. Eine
+  Canvas-Füllung pro Segment — O(Segmente/Frame); bei Rucklern Segmente
+  ausdünnen. Die unterste Ebene (`solidBase`) bekommt keine Wände.
+- **Deckflächen:** konstantes Oberlicht `capF = ambient + diffuse·0.6`,
+  über alle Loops als ein `evenodd`-Fill.
+- Ein Tageszeit-Modell (Sonnen-Azimut/-farbe/Meerton nach echter Uhr, plus
+  Mondlicht nachts) war als Prototyp gebaut und auf User-Wunsch wieder ganz
+  entfernt — nur das feste Hillshading blieb.
+- `?shade=0` schaltet das Hillshading ab: Wände fallen auf die frühere
+  Ein-Flächen-Füllung zurück, Färbung flach nach `capF`.
 - Palette-Leiste (Arbeitswerkzeug): mit `?pal=N` erscheinen rechts 32
   Boxen mit der aktiven Palette; abgeblendet, was nie als Ring erscheint
   (Stufe 32 und alles unter BASECUT, aktuell 1–4). Aktuell deaktiviert:
@@ -195,6 +222,7 @@ Verworfen: Balken im Rahmen, Stil `█░`.
 - `?noexit=1` — Exit-Events deaktiviert (Testen mit Mausbewegung).
 - `?labels=0` — Labels aus (beide Modi). Andere Werte ohne Wirkung, seit
   überall die Zoom-Rampe gilt.
+- `?shade=0` — Hillshading aus (flache Färbung wie früher); ohne = an.
 - `?zoom=N` — friert den Zoom auf N ein (Orbit-Atmung aus, Überflug fix),
   zum Tunen.
 - `?pitch=N` — friert die Kameraneigung ein (rad; ~1.55 = Seitenansicht),

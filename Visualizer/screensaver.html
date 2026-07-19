@@ -315,24 +315,53 @@ function draw(){
   // Hintergrund.
   if(PAL_N==='1') paintWater(W,H);
 
-  // Gelände als fester Körper
-  ctx.strokeStyle='rgba(74,58,40,0.68)'; ctx.lineWidth=0.85*dpr; ctx.fillStyle='#ece2cd';
+  // Gelände als fester Körper — Wände per Segment nach Sonnenstand schattiert
+  // (Hillshading), Deckflächen mit konstantem Oberlicht getönt.
+  ctx.strokeStyle='rgba(74,58,40,0.68)'; ctx.lineWidth=0.85*dpr;
   const wall=(ZMAX/L)*Math.sin(pitch)*sc;
+  const capF=SUN.ambient+SUN.diffuse*0.6;   // Deckfläche: mittleres, gleichmässiges Licht
   let baseDrawn=false;
   for(const lv of loopsByLevel){
     if(lv.z<cutZ) continue;
-    if(PAL_STOPS) ctx.fillStyle=ringColor(Math.round(lv.z/ZMAX*L));
+    const baseCol = PAL_STOPS ? ringRGB(Math.round(lv.z/ZMAX*L)) : [236,226,205];
     const solidBase=!baseDrawn; baseDrawn=true;
-    const rings=lv.loops.map(loop=>loop.map(p=>project(g2w(p.x),g2w(p.y),lv.z+zoff,cx,cy,sc)));
-    if(!solidBase) for(const pts of rings){
-      ctx.beginPath();
-      pts.forEach(([qx,qy],k)=>k?ctx.lineTo(qx,qy):ctx.moveTo(qx,qy));
-      for(let k=pts.length-1;k>=0;k--) ctx.lineTo(pts[k][0], pts[k][1]+wall);
-      ctx.closePath(); ctx.fill();
+    // je Loop: Weltkoordinaten (für Segment-Normalen), Bildkoordinaten, Welt-Schwerpunkt
+    const loops=lv.loops.map(loop=>{
+      const wc=loop.map(p=>[g2w(p.x),g2w(p.y)]);
+      const scr=wc.map(([wx,wy])=>project(wx,wy,lv.z+zoff,cx,cy,sc));
+      let mx=0,my=0; for(const w of wc){mx+=w[0];my+=w[1];} mx/=wc.length; my/=wc.length;
+      return {wc,scr,mx,my};
+    });
+    // ponytail: eine Wand-Füllung pro Segment (O(Segmente/Frame)) — reicht bei
+    // diesen vereinfachten Konturen; bei Rucklern Segmente ausdünnen.
+    if(!solidBase) for(const {wc,scr,mx,my} of loops){
+      const n=scr.length;
+      if(SHADE_ON) for(let k=0;k<n;k++){
+        const j=(k+1)%n;
+        let nx=wc[j][1]-wc[k][1], ny=-(wc[j][0]-wc[k][0]);   // Segment-Normale (Welt)
+        const ox=(wc[k][0]+wc[j][0])/2-mx, oy=(wc[k][1]+wc[j][1])/2-my;
+        if(nx*ox+ny*oy<0){nx=-nx;ny=-ny;}                    // nach aussen orientieren
+        const nl=Math.hypot(nx,ny)||1;
+        const lam=Math.max(0,(nx*SUN.dir[0]+ny*SUN.dir[1])/nl);
+        ctx.fillStyle=shade(baseCol, SUN.ambient+SUN.diffuse*lam, SUN.color);
+        const a=scr[k], b=scr[j];
+        ctx.beginPath();
+        ctx.moveTo(a[0],a[1]); ctx.lineTo(b[0],b[1]);
+        ctx.lineTo(b[0],b[1]+wall); ctx.lineTo(a[0],a[1]+wall);
+        ctx.closePath(); ctx.fill();
+      } else {   // Hillshading aus: Skirt wie früher als eine Fläche
+        ctx.fillStyle=shade(baseCol, capF, SUN.color);
+        ctx.beginPath();
+        scr.forEach(([qx,qy],k)=>k?ctx.lineTo(qx,qy):ctx.moveTo(qx,qy));
+        for(let k=scr.length-1;k>=0;k--) ctx.lineTo(scr[k][0], scr[k][1]+wall);
+        ctx.closePath(); ctx.fill();
+      }
     }
+    // Deckfläche (Konturring)
+    ctx.fillStyle=shade(baseCol, capF, SUN.color);
     ctx.beginPath();
-    for(const pts of rings){
-      pts.forEach(([qx,qy],k)=>k?ctx.lineTo(qx,qy):ctx.moveTo(qx,qy));
+    for(const {scr} of loops){
+      scr.forEach(([qx,qy],k)=>k?ctx.lineTo(qx,qy):ctx.moveTo(qx,qy));
       ctx.closePath();
     }
     ctx.fill('evenodd'); ctx.stroke();
@@ -533,6 +562,24 @@ const PALETTES={
 };
 const PAL_N=PALETTES[Q.get('pal')]?Q.get('pal'):'1';   // aktive Palette, Standard: 1 «Meer»
 const PAL_STOPS=PALETTES[PAL_N];
+
+// === Hillshading ===========================================================
+// Festes Licht: die Wände des Geländes werden per Segment nach ihrer
+// Ausrichtung zur Sonne schattiert. Das Licht steht welt-fest, darum dreht
+// der Orbit im Lauf verschiedene Flanken hinein.
+// ?shade=0 schaltet das Hillshading ab (flache Färbung wie früher).
+const SHADE_ON = Q.get('shade')!=='0';
+const cl=x=>Math.min(255,Math.max(0,Math.round(x)));
+const SUN_AZ=Math.PI*0.72;   // Lichtrichtung (Welt-XY), tunbar
+const SUN={
+  dir:[Math.cos(SUN_AZ),Math.sin(SUN_AZ)],
+  color:[1.00,0.98,0.94],    // neutrales, leicht warmes Tageslicht
+  ambient:0.55,              // Grundhelligkeit (Schattenseite)
+  diffuse:0.50,              // Relief-Kontrast (Sonnenseite)
+};
+// baseCol(0..255) × Helligkeit × Lichtfarbe(0..1) → CSS-Farbe
+const shade=(c,f,lc)=>`rgb(${cl(c[0]*f*lc[0])},${cl(c[1]*f*lc[1])},${cl(c[2]*f*lc[2])})`;
+// ===========================================================================
 // Meerfarbe pro Palette: Palette 1 (Standard) helles Navy — die Insel liegt
 // sichtbar im Meer (Hintergrund, Flug-Gradient, Blende) — sonst Papier.
 const SEA_RGB=PAL_N==='1'?[143,161,199]:[236,226,205];
@@ -555,15 +602,15 @@ function paintWater(w,h){
   ctx.fillStyle=g; ctx.fillRect(0,0,w,h);
 }
 document.body.style.background=SEA;
-function ringColor(l){
+function ringRGB(l){   // Höhenstufe l → [r,g,b] (fürs Hillshading als Zahlen gebraucht)
   const t=l/L, s=PAL_STOPS;
   let a=s[0], b=s[s.length-1];
   for(let i=0;i<s.length-1;i++)
     if(t>=s[i][0] && t<=s[i+1][0]){a=s[i]; b=s[i+1]; break;}
   const f=b[0]===a[0]?0:Math.min(1,Math.max(0,(t-a[0])/(b[0]-a[0])));
-  const c=a[1].map((v,i)=>Math.round(v+(b[1][i]-v)*f));
-  return `rgb(${c[0]},${c[1]},${c[2]})`;
+  return a[1].map((v,i)=>Math.round(v+(b[1][i]-v)*f));
 }
+function ringColor(l){ const c=ringRGB(l); return `rgb(${c[0]},${c[1]},${c[2]})`; }
 
 // Palette-Leiste rechts: alle 32 Stufen, oben=32. Abgeblendet, was nie als
 // Ring erscheint: Stufe 32 (Konturschleife läuft bis 31) und alles unter
