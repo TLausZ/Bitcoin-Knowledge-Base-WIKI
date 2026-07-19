@@ -271,6 +271,7 @@ function drawLabels(entries, dpr){
 // Karte x/y, Uhr und Zyklus-Balken ticken sekündlich. Alles mono, Rahmen und
 // Balken aus Unicode-Boxzeichen.
 let capStatic='', capSec=-1, capRatio=0, topIdx=0;   // topIdx: schwerster Artikel der Karte
+let mapCX=0, mapCY=0;   // s-gewichteter Peak-Schwerpunkt der Karte — Orbit-Zentrum (Themenkarten liegen off-origin)
 function updateCap(t){
   const s=Math.floor(t); if(s===capSec) return; capSec=s;
   // Sektionen der Box: Trenner sind CSS-Borders (#capbox-Regeln), Themenname bold
@@ -421,7 +422,7 @@ function orbitCam(t){
   yaw   = 0.6 + t*2*Math.PI/400;   // 1.2x schneller als die 480er-Fassung
   pitch = PFIX || 1.08 + 0.16*Math.sin(t*2*Math.PI/194);
   zoom  = ZFIX || 2.25 + 1.15*Math.sin(t*2*Math.PI/302);   // 1.10 .. 3.40
-  camX = 0; camY = 0;                              // Inselmitte bleibt fixiert
+  camX = mapCX; camY = mapCY;                      // auf Peak-Schwerpunkt der Karte fixiert
   roll = 0;
   // Bildanker an den Kippwinkel gekoppelt: je mehr Draufsicht (pitch gross),
   // desto höher rückt die Insel im Bild (unterer Rand bleibt sichtbar);
@@ -622,6 +623,11 @@ function applyMap(i){
   const cnt=i?`${names.length} von ${total} Artikeln (${Math.round(names.length/total*100)}%)`
              :`${names.length} Artikel`;
   topIdx=d.peaks.reduce((m,p,j,a)=>p.s>a[m].s?j:m,0);
+  // s-gewichteter Schwerpunkt der sichtbaren Peaks — Orbit kreist hier drum
+  // (statt fix um Weltursprung; Themenkarten-Cluster liegen sonst off-frame)
+  let sw=0; mapCX=0; mapCY=0;
+  for(const p of d.peaks){ sw+=p.s; mapCX+=p.x*p.s; mapCY+=p.y*p.s; }
+  if(sw){ mapCX/=sw; mapCY/=sw; } else { mapCX=mapCY=0; }
   const top=d.peaks[topIdx].n.replace(/-/g,' ');
   capStatic=`${d.name}\n${cnt}\n${names[0]}, bis\n${names[names.length-1]}\nHöchster Gipfel:\n${top}`;
   capSec=-1;   // Box sofort neu schreiben
