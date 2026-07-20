@@ -7,7 +7,7 @@
 
 ## Summary
 
-«Softwar» (2023) ist Jason P. Lowerys Masterarbeit am MIT, eingereicht im Systems-Design-and-Management-Programm, unter CC BY 4.0 veröffentlicht. Lowery ist Offizier der US Space Force. Seine These bricht mit der gängigen Lesart: Bitcoin sei im Kern kein Geldsystem, sondern eine Cybersicherheits- und Machtprojektionstechnologie. Proof-of-Work liest er als «Proof-of-Power» — ein physisches Kostenprotokoll, mit dem Menschen einander im, aus und durch den Cyberspace physische Kosten auferlegen können. Der hohe Energieverbrauch ist für Lowery nicht Nebenkosten, sondern die eigentliche Funktion. Das Buch ist eine Grounded-Theory-Arbeit: keine Prüfung einer bestehenden Hypothese, sondern der Entwurf einer neuen Theorie, ausdrücklich als solcher gekennzeichnet.
+«Softwar» (2023) ist Jason P. Lowerys Masterarbeit am MIT, eingereicht im Systems-Design-and-Management-Programm, unter CC BY 4.0 veröffentlicht. Lowery ist Offizier der US Space Force. Seine These bricht mit der gängigen Lesart: Bitcoin sei im Kern kein Geldsystem, sondern eine Cybersicherheits- und Machtprojektionstechnologie. Proof-of-Work liest er als «Proof-of-Power», ein physisches Kostenprotokoll, mit dem Menschen einander im, aus und durch den Cyberspace physische Kosten auferlegen können. Den hohen Energieverbrauch deutet Lowery als die eigentliche Funktion des Systems. Das Buch ist eine Grounded-Theory-Arbeit: Es legt bewusst eine neue Theorie vor, statt eine bestehende Hypothese zu prüfen, und kennzeichnet sich ausdrücklich so.
 
 ## Body
 
@@ -29,7 +29,7 @@ Krieg ist in Lowerys Rahmen kein Verbrechen, sondern der soziale Mechanismus, mi
 
 Kern des Bitcoin-Teils: Bitcoin sei weniger eine neue Software als ein neuer Computer-Typ. Achtzig Jahre Informatik verfolgten ein einziges Ziel — kleinere, schnellere, energieeffizientere Rechner mit möglichst wenig physischer Beschränkung. Bitcoin dreht das um: bewusst «rückwärts optimiertes Rechnen», das die physisch am stärksten beschränkten Bits erzeugt. Das global verteilte Stromnetz wird zur Hauptplatine eines Rechners im Planetenmassstab, über den niemand die volle Kontrolle hat; Watt werden in physisch teure Informationsbits übersetzt. Damit importiere Bitcoin reale physikalische und thermodynamische Zwänge in den Cyberspace — Knappheit, Konsequenz, Objektivität in einer sonst grenzenlos kopierbaren Welt.
 
-Daraus folgt Lowerys Umgang mit der Energiekritik: Wer Bitcoin «ineffizient» oder «umweltschädlich» nennt, bestätige ungewollt, dass das Design genau wie beabsichtigt funktioniert. Physisch teuer zu sein ist der Zweck, nicht der Defekt — das Geweih, das man für seine unpraktische Form tadelt.
+Daraus folgt Lowerys Umgang mit der Energiekritik: Wer Bitcoin «ineffizient» oder «umweltschädlich» nennt, bestätige ungewollt, dass das Design genau wie beabsichtigt funktioniert. Die physische Teuerkeit ist der Zweck des Systems. Lowery vergleicht die Kritik mit dem Vorwurf, ein Geweih habe eine unpraktische Form.
 
 ### «Softwar»: masselose Kriegsführung
 
@@ -41,7 +41,7 @@ Lowery verweist auf Vordenker: Teslas Idee einer weltweiten Energieprojektion, F
 
 ### Einordnung
 
-«Softwar» ist bewusst spekulativ und explizit als Theorie-Entwurf deklariert, nicht als bewiesene Analyse. Die Arbeit ist unter Bitcoinern breit rezipiert, in der akademischen und sicherheitspolitischen Fachwelt aber umstritten; Lowerys eigene Karriere bei der Space Force geriet nach der Veröffentlichung in Konflikt. Der Wert des Buches liegt weniger in Prognosen als im Perspektivwechsel — es fragt, was Bitcoin ist, wenn man den monetären Rahmen weglässt.
+«Softwar» ist bewusst spekulativ und als Theorie-Entwurf deklariert. Unter Bitcoinern ist die Arbeit breit rezipiert, in der akademischen und sicherheitspolitischen Fachwelt umstritten; Lowerys eigene Karriere bei der Space Force geriet nach der Veröffentlichung in Konflikt. Lesenswert ist das Buch als Perspektivwechsel: Es fragt, was Bitcoin ist, wenn man den monetären Rahmen weglässt.
 
 ## Related
 

@@ -25,7 +25,7 @@ Context: response to the question "What is the actual value of a bitcoin?"
 
 > "Bitcoin is worth ~$64k, but it costs ~1 GW. Understanding that difference is everything."
 
-Context: Lowery ist Autor von «Softwar» und liest Bitcoin als physische Machtprojektion (Proof-of-Power). Das Zitat stellt Marktpreis und Energieaufwand gegenüber — für ihn ist der Energieeinsatz nicht Nebenkosten, sondern die eigentliche Substanz.
+Context: Lowery ist Autor von «Softwar» und liest Bitcoin als physische Machtprojektion (Proof-of-Power). Das Zitat stellt Marktpreis und Energieaufwand gegenüber; für ihn ist der Energieeinsatz die eigentliche Substanz von Bitcoin.
 
 ---
 
