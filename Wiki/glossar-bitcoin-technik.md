@@ -2,8 +2,8 @@
 
 **Status:** established
 **Themen:** protokoll, privacy, mining, glossar
-**Last updated:** 2026-07-15
-**Sources:** [[glossary-bitcoinbook]], [[Glossary – aantonop]], [[Glossary-bitcoindesign]], [[glossary-lnbook]], [[Glossary — Bitcoindevorg]], [[Glossar - Bitcoinorg]]
+**Last updated:** 2026-07-20
+**Sources:** [[glossary-bitcoinbook]], [[Glossary – aantonop]], [[Glossary-bitcoindesign]], [[glossary-lnbook]], [[Glossary — Bitcoindevorg]], [[Glossar - Bitcoinorg]], [[2024-04_antonopoulos-halving-mythen]]
 
 ## Summary
 
@@ -82,6 +82,10 @@ Die Regeln, nach denen Full Nodes Blöcke und Transaktionen prüfen. Nur Blöcke
 ### CPFP (Child Pays For Parent)
 
 Methode, um eine festhängende unbestätigte Transaktion zu beschleunigen: Man gibt einen ihrer Ausgänge in einer neuen Transaktion mit hoher Gebühr aus. Der Miner muss beide einschliessen, um die hohe Gebühr zu bekommen. Anders als RBF kann das auch der Empfänger tun.
+
+### Death Spiral (Todesspirale)
+
+Wiederkehrender Vor-Halving-Mythos: Nach der Belohnungshalbierung schalteten alle unprofitablen Miner gleichzeitig ab, die Hashrate bräche ein und das Netz käme vor dem nächsten Difficulty-Retarget (2016 Blöcke) zum Stillstand. Tritt nicht ein — Miner produzieren mit unterschiedlicher Effizienz und zu unterschiedlichen Strompreisen, und im Extremfall folgt nach ~4 Wochen langsamerer Blöcke schlicht ein Retarget nach unten. → [[mining-schwierigkeit]], [[bitcoin-fehlannahmen]]
 
 ### Derivation Path (Ableitungspfad)
 

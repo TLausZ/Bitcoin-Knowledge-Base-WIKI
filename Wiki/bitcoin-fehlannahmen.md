@@ -1,13 +1,13 @@
 # Bitcoin-Fehlannahmen
 
 **Status:** established
-**Themen:** protokoll, oekonomie, kritik
-**Last updated:** 2026-07-04
-**Sources:** [[2025-08-30_Blocktrainer-10 Fehlannahmen über Bitcoin und warum sie falsch sind!]], [[2026-06-08_BlocktrainerBitcoin_ 10 Einsteigerfragen]], [[20260607_Blocktrainer-Einstieg in Bitcoin_ Alles was Anfänger wissen müssen!]], [[2025-05-14_Blocktrainer-Bitcoin kaufen 2025_ Lohnt sich der Einstieg noch_]], [[Warum Bitcoin kein Ponzi-Schema ist_ Punkt für Punkt.md]], [[Bitcoin_ Addressing the Ponzi Scheme Characterization.md]], [[aprycot-nur-die-staerksten-6-warum-wir-uns-irren]], [[aprycot-parker-lewis-bitcoin-kein-schneeballsystem]], [[2026-06-29_bitcoin-gespraechsskript-fehlannahmen]], [[20260322_heartmoney-zwischen-bitcoin-und-ego]]
+**Themen:** protokoll, mining, oekonomie, kritik
+**Last updated:** 2026-07-20
+**Sources:** [[2025-08-30_Blocktrainer-10 Fehlannahmen über Bitcoin und warum sie falsch sind!]], [[2026-06-08_BlocktrainerBitcoin_ 10 Einsteigerfragen]], [[20260607_Blocktrainer-Einstieg in Bitcoin_ Alles was Anfänger wissen müssen!]], [[2025-05-14_Blocktrainer-Bitcoin kaufen 2025_ Lohnt sich der Einstieg noch_]], [[Warum Bitcoin kein Ponzi-Schema ist_ Punkt für Punkt.md]], [[Bitcoin_ Addressing the Ponzi Scheme Characterization.md]], [[aprycot-nur-die-staerksten-6-warum-wir-uns-irren]], [[aprycot-parker-lewis-bitcoin-kein-schneeballsystem]], [[2026-06-29_bitcoin-gespraechsskript-fehlannahmen]], [[20260322_heartmoney-zwischen-bitcoin-und-ego]], [[2024-04_antonopoulos-halving-mythen]]
 
 ## Summary
 
-Dreizehn Fehlannahmen über Bitcoin tauchen immer wieder auf. Die meisten entstehen aus dem Kontrast zwischen Bitcoins einfacher Aussenwahrnehmung und seiner komplexen Funktionsweise. Einige sind ehrliche Missverständnisse (zu langsam, kein innerer Wert), andere sind interessengeleitet (kein Nutzen, Nullsumme). Alle lassen sich mit Fakten direkt widerlegen.
+Vierzehn Fehlannahmen über Bitcoin tauchen immer wieder auf. Die meisten entstehen aus dem Kontrast zwischen Bitcoins einfacher Aussenwahrnehmung und seiner komplexen Funktionsweise. Einige sind ehrliche Missverständnisse (zu langsam, kein innerer Wert), andere sind interessengeleitet (kein Nutzen, Nullsumme). Alle lassen sich mit Fakten direkt widerlegen.
 
 ## Body
 
@@ -64,6 +64,16 @@ Bitcoin-Mining verbraucht Energie. Das ist gewollt: Energie wird gegen Sicherhei
 Bitcoin nutzt zunehmend überschüssige und erneuerbare Energie, weil diese am günstigsten ist. Mining macht Überproduktion von Strom (Wasserenergie in Regenzeiten, Windenergie nachts) wirtschaftlich verwertbar. Laut Cambridge Centre for Alternative Finance (2025) laufen 52 % des weltweiten Bitcoin-Betriebs auf erneuerbarer Energie. In Finnland liefert die Abwärme von Bitcoin-Betrieb bereits 2 % der Fernwärmeversorgung. In den USA wird Erdgas, das an Ölfeldern früher abgefackelt wurde, heute für Bitcoin genutzt, was Emissionen aktiv reduziert.
 
 Laut Galaxy Digital (2021) verbraucht das traditionelle Bankensystem mehr als doppelt so viel Energie wie Bitcoin. Die Umweltdebatte vernachlässigt, was Bitcoin ersetzt. Von 16 peer-reviewed Papers zu Bitcoin und Energie bis 2025 kommen 14 zu positiven Ergebnissen. Greenpeace hat seine Anti-Bitcoin-Kampagne eingestellt. Siehe [[bitcoin-mining-narrativ-und-kritik]] für die vollständige Evidenzlage.
+
+### "Nach dem Halving gerät Bitcoin in eine Todesspirale"
+
+Diese Fehlannahme ist ein Sonderfall: Sie ist reine Vorhersage, kein dauerhaftes Missverständnis, und kehrt wie ein Ritual vor jedem Halving wieder. Andreas Antonopoulos beschrieb sie 2024 kurz vor dem vierten Halving als klassische Clickbait-Geschichte — jedes Mal aufs Neue prognostiziert («Warum Bitcoin am 19. April crasht»), jedes Mal nicht eingetreten. Er zog die Parallele zur Sonnenfinsternis-Weltuntergangs-Panik desselben Monats: eine Erzählung, die man allein am Blick auf die vergangenen Male als haltlos abtun könnte, und die trotzdem zuverlässig wiederkommt.
+
+Die Geschichte geht so: Halbiert sich die Block-Belohnung, werden viele Miner unprofitabel und schalten gleichzeitig ab. Die Hashrate bricht ein, Blöcke dauern zu lange, und weil die Schwierigkeit sich erst nach 2016 Blöcken anpasst, geben bis dahin immer mehr Miner auf — bis das Netzwerk stillsteht.
+
+Der Fehler steckt in der Annahme, Miner seien ein Monolith. Sie betreiben höchst unterschiedliche Hardware zu höchst unterschiedlichen Strompreisen an verschiedenen Standorten — Unterschiede, die sogar innerhalb einer einzelnen Farm bestehen. Nur wenn alle exakt gleich effizient produzierten, zum selben Strompreis, und den Halving-Termin verschliefen, würden sie zeitgleich unprofitabel. Real fällt bei einem Teil einzelne Ausrüstung weg, nicht alles auf einmal.
+
+Und selbst der theoretische Extremfall bricht das Netz nicht: Verschwände die halbe Hashrate, kämen Blöcke alle 20 statt 10 Minuten. Über die 2016 Blöcke bis zum nächsten Retarget wären das rund vier Wochen langsamerer Blöcke — dann sinkt die Schwierigkeit um etwa die Hälfte, und die verbliebenen Miner werden schlagartig sehr profitabel. Die Anpassung ist die eingebaute Gegenkraft gegen genau dieses Szenario. Mechanik im Detail: [[mining-schwierigkeit]]. [[2024-04_antonopoulos-halving-mythen]]
 
 ### "Bitcoin wird nur von Kriminellen genutzt"
 

@@ -2,8 +2,8 @@
 
 **Status:** established
 **Themen:** protokoll, mining
-**Last updated:** 2026-06-28
-**Sources:** [[learnmeabitcoin-beginners-guide-difficulty]], [[alex-waltz-difficulty-adjustment]]
+**Last updated:** 2026-07-20
+**Sources:** [[learnmeabitcoin-beginners-guide-difficulty]], [[alex-waltz-difficulty-adjustment]], [[2024-04_antonopoulos-halving-mythen]]
 
 ## Summary
 
@@ -40,6 +40,14 @@ Die Begrenzung auf Faktor 4 pro Periode schützt gegen extreme Sprünge — und 
 Obwohl die Anpassung alle 2016 Blöcke stattfindet, vergleicht der Code nur 2015 Lücken — weil er den Zeitstempel des ersten und des letzten Blocks der Periode vergleicht, nicht die Zeit aller 2016 Abstände. Das führt dazu, dass Blöcke im Schnitt nicht genau 10 Minuten, sondern etwa 10,005 Minuten benötigen. Satoshi kannte diesen Bug; er ist bis heute im Code, weil eine Korrektur einen Hard Fork erfordern würde.
 
 Der Bug ermöglicht theoretisch einen **Time Warp Attack**: Ein Angreifer mit Miner-Mehrheit könnte die Zeitstempel so manipulieren, dass die Schwierigkeit dauerhaft gegen 1 gedrückt wird. In der Praxis wäre das im Chain-Explorer sofort sichtbar und erforderte erhebliche Miner-Koordination. Mehr dazu: [[bitcoin-block-zeitregeln]].
+
+### Die Mining-Todesspirale — warum sie nicht eintritt
+
+Vor jedem Halving kehrt ein Doomsday-Szenario wieder: Sinkt die Block-Belohnung um die Hälfte, würden reihenweise Miner unprofitabel und schalteten gleichzeitig ab. Die Hashrate bräche ein, Blöcke dauerten zu lange, und weil das nächste Difficulty-Retarget erst nach 2016 Blöcken kommt, würden bis dahin immer mehr Miner aufgeben — bis das Netzwerk zum Stillstand kommt.
+
+Der Denkfehler steckt in der Annahme, Miner seien ein Monolith. Tatsächlich laufen sie mit sehr unterschiedlicher Hardware-Effizienz, zu sehr unterschiedlichen Strompreisen und an verschiedenen Standorten — Unterschiede, die sogar innerhalb einer einzelnen Farm bestehen. Nur wenn alle dieselbe Hardware zum selben Strompreis betrieben und den Preisverfall verschliefen, würden sie gleichzeitig unprofitabel. Real fällt bei einem Teil einzelne Ausrüstung an einzelnen Standorten weg, nicht alles auf einmal.
+
+Die eingebaute Gegenkraft ist das Retarget selbst. Angenommen, die halbe Hashrate verschwindet: Dann dauern Blöcke 20 statt 10 Minuten. Über die 2016 Blöcke bis zum nächsten Retarget sind das rund vier Wochen mit 20-Minuten-Blöcken — danach sinkt die Schwierigkeit um etwa die Hälfte, und wer durchgehalten hat, wird schlagartig deutlich profitabler. Genau deshalb ist die Todesspirale zwar ein zuverlässiger Vor-Halving-Clickbait, aber nie eingetreten. [[2024-04_antonopoulos-halving-mythen]]
 
 ### Zeitstempel-Manipulation: Warum Miner lügen würden
 

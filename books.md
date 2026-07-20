@@ -15,15 +15,21 @@ Pro Buch mit dem User abstimmbar:
 
 ## 2. Extraktion
 
-Tool: `tools/extract_epub.py` (ebooklib in Spine-Reihenfolge + BeautifulSoup, Leaf-Block-Logik inkl. `<div>` — sonst geht Prosa verloren, die manche Epubs in `<div>` statt `<p>` legen).
+**epub** — Tool: `tools/extract_epub.py` (ebooklib in Spine-Reihenfolge + BeautifulSoup, Leaf-Block-Logik inkl. `<div>` — sonst geht Prosa verloren, die manche Epubs in `<div>` statt `<p>` legen).
 
 ```
 python3 tools/extract_epub.py "RAW/<datei>.epub" "<scratchpad>/<slug>.md"
 ```
 
-Ziel in den Scratchpad schreiben, nicht nach `/tmp` (Sandbox blockt `/tmp`).
+**PDF** — `pypdf` (seit Pass 96 installiert). Volltext in den Scratchpad extrahieren, dann wie beim epub-Extrakt lesen:
 
-**Format-Vorrang: epub.** Liegt für ein Buch **keine epub** vor (nur PDF/mobi/o. Ä.), **vor** dem Verarbeiten beim User nachfragen, ob er noch eine epub-Version ins RAW legen kann — es gibt keinen PDF-Extraktor. Liegen epub **und** PDF vor: epub extrahieren, die PDF in `_INGESTED` als `DUPLIKAT` markieren (vgl. Steiner, `bitcoins-verwahren-und-vererben`). Reiner PDF-only-Fall bleibt offen, bis eine epub da ist.
+```
+python3 -c "import pypdf,sys; r=pypdf.PdfReader(sys.argv[1]); open(sys.argv[2],'w').write('\n'.join(p.extract_text() or '' for p in r.pages))" "RAW/<datei>.pdf" "<scratchpad>/<slug>.txt"
+```
+
+Ziel in den Scratchpad schreiben, nicht nach `/tmp` (Sandbox blockt `/tmp`). Die Read-Tool-PDF-Anzeige braucht poppler (nicht installiert) — der `pypdf`-Weg umgeht das.
+
+**Format-Vorrang: epub.** epub ist die saubere Quelle und bleibt erste Wahl. Liegt für ein Buch **keine epub** vor (nur PDF/mobi/o. Ä.), **vor** dem Verarbeiten beim User nachfragen, ob er noch eine epub-Version ins RAW legen kann. Will er nicht oder gibt es keine: PDF direkt via `pypdf` verarbeiten (vgl. `softwar`, Pass 96) — dann ist die PDF selbst die verbatim-Quelle in `_INGESTED`, kein separater `.md`-Extrakt nötig. Liegen epub **und** PDF vor: epub extrahieren, die PDF in `_INGESTED` als `DUPLIKAT` markieren (vgl. Steiner, `bitcoins-verwahren-und-vererben`).
 
 ## 3. Pipeline (Schritt für Schritt)
 
@@ -36,6 +42,7 @@ Ziel in den Scratchpad schreiben, nicht nach `/tmp` (Sandbox blockt `/tmp`).
 7. Regen: `classify_topics.py --write` → `rank_articles.py --csv Outputs/ranking.csv` → `layout_map.py`. Tags per Report sanity-checken, Fehltreffer über `OVERRIDES` fixen (nie die `**Themen:**`-Zeile von Hand).
 8. Verifizieren: `check_raw_status.py` = 0/0/0, Slug in `PEAKS` (Visualizer), keine kaputten Backlinks.
 9. CHANGELOG als `## YYYY-MM-DD — Compile pass N`.
+10. Fragen, ob die Themenkarten neu gebaut werden sollen (`python3 tools/build_theme_cards.py`) — nie automatisch (vgl. Compile-Protokoll Schritt 7 in `CLAUDE.md`).
 
 ## 4. Namensregeln
 

@@ -1,9 +1,9 @@
 # Bitcoin-Volatilität und Preisfindung
 
 **Status:** established
-**Themen:** oekonomie, adoption
-**Last updated:** 2026-07-07
-**Sources:** [[aprycot-parker-lewis-bitcoin-nicht-zu-volatil]], [[20251005_heartmoney-das-leiseste-allzeithoch-ever]], [[20251221_heartmoney-kein-uptober-kein-moonvember-und-jetzt]], [[20260111_heartmoney-bitcoin-top-preis-flop]], [[20260208_heartmoney-bitcoin-im-nebel-siehst-du-klar]], [[20260405_heartmoney-die-passion-des-satoshi]], [[20251116_heartmoney-wenn-der-hype-einfach-nicht-kommen-will]], [[20240710_bmi-did-germany-cause-correction-en]]
+**Themen:** mining, oekonomie, adoption
+**Last updated:** 2026-07-20
+**Sources:** [[aprycot-parker-lewis-bitcoin-nicht-zu-volatil]], [[20251005_heartmoney-das-leiseste-allzeithoch-ever]], [[20251221_heartmoney-kein-uptober-kein-moonvember-und-jetzt]], [[20260111_heartmoney-bitcoin-top-preis-flop]], [[20260208_heartmoney-bitcoin-im-nebel-siehst-du-klar]], [[20260405_heartmoney-die-passion-des-satoshi]], [[20251116_heartmoney-wenn-der-hype-einfach-nicht-kommen-will]], [[20240710_bmi-did-germany-cause-correction-en]], [[2024-04_antonopoulos-halving-mythen]]
 
 ## Summary
 
@@ -58,6 +58,14 @@ Langfristig absorbiert Bitcoin neues Fiat-Kapital und erfasst die monetäre Prä
 Die Halbierung der Block-Belohnung alle ~210.000 Blöcke (ca. vier Jahre) erzeugt einen Angebotsschock. Historisch folgte darauf Medienaufmerksamkeit, steigende Nachfrage, höhere Preise — ein sich selbstverstärkender Zyklus. Dieser Mechanismus hat sich nach dem Halving im April 2024 zum vierten Mal wiederholt.
 
 Wankum (TBN #12) warnt davor, naive Preisziele aus vergangenen Zyklen abzuleiten. Das Grundmuster — Seitwärtsbewegung mit steigenden Tiefpunkten vor dem Halving, dann Aufwärtsschub — bleibt erkennbar, aber jeder Zyklus bringt neue Akteure, neue Hebelwirkung und neue Narrative. [[Bitcoin's paradigm shift and ETF prospects]]
+
+### Der «Preis muss sich verdoppeln»-Mythos
+
+Neben dem Doomsday-Narrativ der Todesspirale (siehe [[bitcoin-fehlannahmen]]) kehrt ums Halving ein zweiter, optimistischer Mythos wieder. Andreas Antonopoulos nennt ihn die reine Mikroökonomie-Geschichte: Man behandelt Bitcoin wie eine verbrauchbare Ware auf einer Angebot-Nachfrage-Kurve — bleibt die Nachfrage gleich und halbiert sich das neue Angebot, müsse sich der Gleichgewichtspreis verdoppeln. Diese Erzählung kommt oft von Leuten, die im Halving eine sichere Gewinnchance sehen.
+
+Antonopoulos hält sie für weniger leicht abzutun als die Todesspirale, weil in den drei vorherigen Zyklen tatsächlich mehr oder weniger ein Preisanstieg folgte — aber nicht so, wie die naive Rechnung suggeriert. Die Reaktion kommt verzögert (teils bis zu sechs Monate), nicht linear und nicht vorhersehbar. Der Angebotsschock erzeugt Druck, dämpft aber zunächst oft die Nachfrage, weil Käufer abwarten; dann steigt der Preis allmählich und überschiesst historisch eher, statt sich sauber zu verdoppeln. Ob sich das wiederholt, weiss niemand — «und wer behauptet, er wisse es, lügt».
+
+Beim Halving 2024 waren zwei Dinge neu: Der Start erfolgte auf einem Allzeithoch der Hashrate, und erstmals waren institutionelle Investoren über Spot-ETFs an Bord. Das deckt sich mit dem Befund dieses Artikels — die stille, institutionengetriebene Preisfindung des Zyklus 2024–2026 (siehe die Fallstudie unten) folgte keinem der mechanischen Schemata. [[2024-04_antonopoulos-halving-mythen]]
 
 ### Fallstudie: Der stille Zyklusbruch 2025/26
 

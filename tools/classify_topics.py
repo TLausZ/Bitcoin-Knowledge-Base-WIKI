@@ -76,6 +76,7 @@ BUECHER_SET = {
     "das-kleine-bitcoin-buch", "das-trojanische-pferd-der-freiheit",
     "hidden-repression_how-the-imf-and-world-bank-sell-exploitation-as-development",
     "einfuehrung-in-das-lightning-netzwerk", "magic-future-money",
+    "softwar",
 }
 
 # (tag, regex) — trifft gegen slug + " " + beschreibung (lowercase, ascii-gefaltet)
