@@ -1,9 +1,9 @@
 # Bitcoin: Geld als Fiktion und der Paradigmenwechsel
 
 **Status:** established
-**Themen:** oekonomie, philosophie
-**Last updated:** 2026-06-22
-**Sources:** [[2020_Bitcoin - Unabhängigkeit neu gedacht -- Knut Svanholm; Volker Herminghaus -- Onleihe_ E-Book, Erscheinungsort nicht ermittelbar, 2020 -- Held, Stefan -- isbn13 9783949098000 -- 724f3b63a29697d05775b3355c29172a -- Anna’s Archive]], [[2020_Bitcoin-Unabhaengigkeit-neu-gedacht_Svanholm-Herminghaus]], [[aprycot-legendaerer-schatz-satoshi-nakamoto]]
+**Themen:** protokoll, oekonomie, philosophie
+**Last updated:** 2026-07-22
+**Sources:** [[2020_Bitcoin - Unabhängigkeit neu gedacht -- Knut Svanholm; Volker Herminghaus -- Onleihe_ E-Book, Erscheinungsort nicht ermittelbar, 2020 -- Held, Stefan -- isbn13 9783949098000 -- 724f3b63a29697d05775b3355c29172a -- Anna’s Archive]], [[2020_Bitcoin-Unabhaengigkeit-neu-gedacht_Svanholm-Herminghaus]], [[aprycot-legendaerer-schatz-satoshi-nakamoto]], [[Die Schwingung passt nicht mehr]]
 
 ## Summary
 
@@ -78,6 +78,10 @@ Strolights Antwort: Er entdeckt etwas Fundamentales über Geld, Wert und Freihei
 Der greifbarste Beweis für dieses "reine Geld" ist Satoshis unberührte Million Bitcoin. Keine Behörde kann ihn zur Herausgabe zwingen. Keine Bank kann sein Guthaben einfrieren. Keine Inflation kann seinen Bestand entwerten. Dass Satoshi die Million nie bewegt hat — und das möglicherweise als Statement — ist das Monument dieser Idee: Geld, das wirklich dir gehört, ohne Vermittler, ohne Gegenparteirisiko, ohne Verfallsdatum.
 
 Diese Entdeckung ist nach Strolight keine intellektuelle Übung; sie verändert, wie man über alle anderen Institutionen nachdenkt. Der wahre Schatz ist nicht die Million Bitcoin — er ist das Verständnis, was Bitcoin möglich macht. [[aprycot-legendaerer-schatz-satoshi-nakamoto]]
+
+### Die Sprachanalogie (Nowak)
+
+Nicole Nowak zieht eine Parallele, die bei Svanholm nur implizit steckt: Bitcoin habe mehr mit Sprache gemeinsam als mit Aktien. Ein Wort trägt keine natürliche Verbindung zu seiner Bedeutung — dass «Baum» einen Baum meint, ist reine Konvention einer Sprachgemeinschaft. Ebenso hat Bitcoin keine Substanz, die seinen Wert von aussen stützt: Der Wert entsteht allein daraus, dass genügend Menschen ihn gemeinsam anerkennen. Beide Systeme sind zudem dezentral organisiert — Sprache entwickelt sich durch Nutzung und stillen Konsens vieler Sprecher, ohne zentrale Autorität, die neue Wörter verordnet; Bitcoin hat keinen Emittenten, keine Zentralbank, keine Drittpartei. Und in beiden Fällen erzeugt erst der Netzwerkeffekt den Wert: Eine Sprache wird nützlicher, je mehr Menschen sie sprechen: Bitcoin wird wertvoller, je mehr Menschen es als Tauschmittel akzeptieren. Nowaks Zuspitzung: «Bitcoin ist nicht materiell. Bitcoin ist Konsens.» [[Die Schwingung passt nicht mehr]]
 
 ## Related
 

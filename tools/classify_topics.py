@@ -76,7 +76,7 @@ BUECHER_SET = {
     "das-kleine-bitcoin-buch", "das-trojanische-pferd-der-freiheit",
     "hidden-repression_how-the-imf-and-world-bank-sell-exploitation-as-development",
     "einfuehrung-in-das-lightning-netzwerk", "magic-future-money",
-    "softwar",
+    "softwar", "21-lektionen-bitcoin-kaninchenbau",
 }
 
 # (tag, regex) — trifft gegen slug + " " + beschreibung (lowercase, ascii-gefaltet)
@@ -122,6 +122,8 @@ OVERRIDES = {
     "bitcoin-haltefrist-und-steuern": ["oekonomie", "geschichte"],
     # MiCAR-Beratungslücke: Regulierung/Marktstruktur, "adoption" allein zu dünn
     "bitcoin-beratung-und-micar": ["adoption", "oekonomie"],
+    # Angriffsmethoden/Security: nicht "philosophie" (Trigger: "Frauen-Initiative" im Telegram-Scam-Abschnitt)
+    "phishing-und-angriffsmethoden": ["self-custody", "mining", "kritik"],
 }
 
 

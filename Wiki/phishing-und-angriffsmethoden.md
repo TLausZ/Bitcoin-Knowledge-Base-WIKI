@@ -2,8 +2,8 @@
 
 **Status:** established
 **Themen:** self-custody, mining, kritik
-**Last updated:** 2026-07-05
-**Sources:** [[20230906_online-sicherheit-betrügerische-e-mails-erkennen]], [[20250911_wie-man-bitcoin-von-anderen-stiehlt]], [[20240627_wie-unser-kundensupport-bitbox-produkte-prägt]], [[20220721_datenleck-activecampaign-de]], [[20250921_heartmoney-von-spatsommer-zu-selbstermachtigung]], [[20250928_heartmoney-menschheit-geduld-bitcoin-in-dieser-reihenfolge]], [[bitcoin-ratgeber_kapitel-05-sicherheit]]
+**Last updated:** 2026-07-22
+**Sources:** [[20230906_online-sicherheit-betrügerische-e-mails-erkennen]], [[20250911_wie-man-bitcoin-von-anderen-stiehlt]], [[20240627_wie-unser-kundensupport-bitbox-produkte-prägt]], [[20220721_datenleck-activecampaign-de]], [[20250921_heartmoney-von-spatsommer-zu-selbstermachtigung]], [[20250928_heartmoney-menschheit-geduld-bitcoin-in-dieser-reihenfolge]], [[bitcoin-ratgeber_kapitel-05-sicherheit]], [[Die Schwingung passt nicht mehr]]
 
 ## Summary
 
@@ -59,6 +59,12 @@ Alle drei Muster folgen dem gleichen Prinzip: Dringlichkeit erzeugen, den Nutzer
 Neben den technischen Angriffen oben existiert eine zweite Kategorie, die keinen Code braucht: Anlagebetrug im Bitcoin-Gewand. Das 2025 dokumentierte Muster läuft über Instagram-Direktnachrichten und Mail und verspricht Rendite durch «Bitcoin-Mining» oder Handelsprogramme. Der Ablauf ist immer gleich: hohe Renditen als Köder, der Kunde investiert, sieht (scheinbare) Gewinne, investiert mehr — dann sind Auszahlung und Guthaben eingefroren, das Geld ist weg. Auffällig ist die soziale Verteidigung der Betreiber: Kritiker werden zu «Informations-Calls» eingeladen («man müsse sich doch erst über die Renditechancen informieren»), Warnungen mit Empörung beantwortet.
 
 Der Angriff zielt nicht auf Schlüssel, sondern auf Fremdverwahrungs-Bereitschaft; die Gegenregel ist entsprechend nicht technisch, sondern kategorisch: Wer Bitcoin gegen Renditeversprechen abgibt, hat sie im Betrugsfall verloren («Not your keys, not your coins», [[selbstverwahrung-und-boersenrisiken]]). Historische Referenz für das Muster ist der österreichische Fall Optioment (2017/18, aufgearbeitet von Bitcoin Austria): dieselbe Dramaturgie, damals über Vertriebsstrukturen statt Instagram. Dass sich nur der Kanal ändert und nicht das Schema, macht die Fälle als Lehrmaterial brauchbar. [[20250921_heartmoney-von-spatsommer-zu-selbstermachtigung]], [[20250928_heartmoney-menschheit-geduld-bitcoin-in-dieser-reihenfolge]]
+
+### Identitätsdiebstahl auf Telegram
+
+Eine dritte Betrugskategorie kopiert nicht Wallet-Software, sondern Personen und Gruppen: gefälschte Telegram-Profile und -Gruppen, die bekannte Bitcoin-Stimmen oder Community-Initiativen imitieren — teilweise mit einem Handle, das dem echten Account täuschend ähnlich sieht. Die Fake-Accounts kontaktieren Mitglieder der echten Gruppe im Namen der kopierten Person und bewerben Trading-Kurse oder Investitionsprogramme, die es nie gab. Dokumentiert ist das Muster bei der Frauen-Initiative Les Femmes Orange ([[frauen-und-bitcoin]]) und ihrer Gründerfigur Nicole Nowak: Zahlreiche gefälschte Profile kommunizierten unter ihrem Namen mit echten Gruppenmitgliedern.
+
+**Schutz:** Auf Telegram grundsätzlich nichts kaufen und keinen Investitions- oder Trading-Aufforderungen folgen — seriöse Bitcoin-Persönlichkeiten und -Initiativen verkaufen keine Trading-Kurse über Direktnachrichten. Die echte Gruppe über die offizielle Website verifizieren, gefälschte Profile über die Telegram-Meldefunktion anzeigen. [[Die Schwingung passt nicht mehr]]
 
 ### Die zwei unverzichtbaren Grundregeln
 

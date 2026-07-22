@@ -2,8 +2,8 @@
 
 **Status:** established
 **Themen:** oekonomie, geschichte
-**Last updated:** 2026-07-18
-**Sources:** [[20260609_heartmoney-bitcoin-precht-und-prag]], [[20260421_heartmoney-von-bitcoin-leben-geht-das-wirklich]], [[20260519_heartmoney-wenn-die-wahrheit-zu-fruh-kommt]], [[2026_Q2_Bitcoin Finance Report]]
+**Last updated:** 2026-07-22
+**Sources:** [[20260609_heartmoney-bitcoin-precht-und-prag]], [[20260421_heartmoney-von-bitcoin-leben-geht-das-wirklich]], [[20260519_heartmoney-wenn-die-wahrheit-zu-fruh-kommt]], [[2026_Q2_Bitcoin Finance Report]], [[Die Schwingung passt nicht mehr]]
 
 ## Summary
 
@@ -38,6 +38,8 @@ Die fiskalischen Erwartungen stützen sich massgeblich auf Hochrechnungen von Kr
 ### Die Bundestagspetition
 
 Als Gegenreaktion reichten neun Petenten — unter ihnen Nicole Nowak — eine Petition beim Bundestag ein, mit der Forderung, dass Gewinne aus privaten Veräusserungsgeschäften mit Kryptowerten auch künftig nach einem Jahr steuerfrei bleiben (prohaltefrist.de). Bemerkenswert am Verfahren: Mitzeichnen dürfen auch im Ausland lebende Deutsche und nichtdeutsche Staatsbürger, was der global vernetzten Bitcoin-Community entgegenkommt. [[20260609_heartmoney-bitcoin-precht-und-prag]] Getragen wird die Initiative «Haltefrist erhalten — Sparer schützen» vom Bitcoin Bundesverband, unterstützt von Unternehmen, Medien und Verbänden; Kernforderungen sind keine Sonderbehandlung von Bitcoin gegenüber anderen privaten Wirtschaftsgütern, Bestandsschutz für existierende Holdings und Rechtssicherheit. [[2026_Q2_Bitcoin Finance Report]]
+
+Eingereicht wurde die Petition Ende Mai 2026. Erforderlich sind mindestens 30'000 Unterschriften, damit sich der Petitionsausschuss in einer öffentlichen Anhörung mit dem Anliegen befasst. Auf telefonische Nachfrage beim Petitionsreferat des Bundestags Ende Juli 2026 hiess es, vor Anfang oder Mitte August 2026 sei nicht mit einer Entscheidung über die Veröffentlichung zu rechnen — es gibt weder einen Rechtsanspruch auf Veröffentlichung noch einen verbindlichen Entscheidungs-Zeitrahmen. Nowak kündigt für den Fall, dass weder die Petition noch eine sachähnliche Version veröffentlicht wird, öffentlichkeitswirksame Aktionen an, notfalls vor Ort in Berlin. [[Die Schwingung passt nicht mehr]]
 
 ### Das Framing-Argument: Wer ist hier privilegiert?
 

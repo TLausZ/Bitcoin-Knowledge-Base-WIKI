@@ -70,6 +70,8 @@ Alle Inhalte erscheinen unter Creative Commons Attribution 4.0: frei nachdruckba
 
 Im Juli 2021 produzierte Aprycot in Absprache mit Gigi ein kostenloses deutschsprachiges Hörbuch zu seinem Werk „21 Lektionen: Meine Reise in den Bitcoin Kaninchenbau". Sprecher ist Florian Clyde, bekannt als Synchronstimme des jungen Han Solo in *Solo: A Star Wars Story*. Das Buch ist unter Creative Commons Attribution-ShareAlike 4.0 lizenziert. Es steht gratis als MP3-Download zur Verfügung, ist aber auch auf Audible und Apple Books erhältlich. Der Hintergrund: Aprycot stellte fest, dass Menschen, die Büchern gegenüber zurückhaltend sind, auf der Tonspur — Podcast, Hörbuch — leichter zu erreichen sind. [[aprycot-fab-gigis-21-lektionen-hoerbuch]]
 
+- [[21-lektionen-bitcoin-kaninchenbau|21 Lektionen: Meine Reise in den Bitcoin-Kaninchenbau (Gigi)]] ← Buch
+
 ### Kuratierte Einstiegslektüre
 
 Fab veröffentlichte 2021 einen Wegweiser für Einsteiger mit einer kommentierten Linkliste, gegliedert in drei Themenfelder:

@@ -46,6 +46,7 @@ Die Quellenlage ist die einer beteiligten Akteurin: Nowak ist LFO-nah, ihre Beob
 - [[bitcoin-bildung]]
 - [[bitcoin-adoption-reise]]
 - [[kryptoanlagen-schweiz-hslu-2026]]
+- [[phishing-und-angriffsmethoden]] — gefälschte Telegram-Profile im LFO-Namen
 
 ## Open Questions
 
