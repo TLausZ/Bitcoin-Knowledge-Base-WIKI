@@ -752,8 +752,9 @@ const tCount=t=>PEAKS.filter(p=>(p.t||[]).includes(t)).length;
 const onCard=(typeof THEME!=='undefined');
 // Zahl je Option: Gesamtkarte hat volles PEAKS → tCount stimmt; Themenkarte hat
 // gefiltertes PEAKS, deshalb bringt der Generator die Zahlen in THEME_CARDS mit.
-const cards=(typeof THEME_CARDS!=='undefined')?THEME_CARDS
-  :TOPICS.filter(([tok])=>tCount(tok)>0).map(([tok,label])=>[tok,label,tCount(tok)]);
+const cards=((typeof THEME_CARDS!=='undefined')?THEME_CARDS
+  :TOPICS.filter(([tok])=>tCount(tok)>0).map(([tok,label])=>[tok,label,tCount(tok)]))
+  .slice().sort((a,b)=>a[1].localeCompare(b[1],'de'));  // alphabetisch, ä/ö/ü korrekt
 const total=(typeof TOTAL!=='undefined')?TOTAL:PEAKS.length;
 topicEl.append(new Option(`Gesamtkarte (${total})`,'__all'));
 for(const [tok,label,c] of cards) topicEl.append(new Option(`${label} (${c})`,tok));
