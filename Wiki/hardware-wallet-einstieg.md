@@ -67,6 +67,11 @@ Hardware-Wallets unterscheiden sich in Sicherheitsniveau und Trade-offs. Relevan
 - [[optionale-passphrase]]
 - [[bitcoin-kaufen-und-dca]]
 - [[komplexitaet-ist-keine-sicherheit]]
+- [[bitcoin-einsteiger-onboarding]]
+- [[bitcoin-netzwerk-und-nodes]]
+- [[mt-gox]]
+- [[phoenix-wallet-lightning]]
+- [[sparrow-wallet]]
 
 - [[bitcoins-verwahren-und-vererben|Bitcoins verwahren und vererben (Marc Steiner)]] ← Buch
 

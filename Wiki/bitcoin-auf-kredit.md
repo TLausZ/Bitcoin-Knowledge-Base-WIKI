@@ -61,6 +61,8 @@ Kein Ersatz für DCA: Die meisten Menschen bauen ihren Bestand über Sparpläne 
 - [[bitcoin-unternehmens-strategie]]
 - [[bitcoin-und-immobilien]]
 - [[bitcoin-treasury-companies]]
+- [[bitcoin-adoption-reise]]
+- [[bitcoin-haltefrist-und-steuern]]
 
 ## Open Questions
 

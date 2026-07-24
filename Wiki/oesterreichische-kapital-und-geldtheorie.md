@@ -93,6 +93,8 @@ Zum KYC-Vergleich: Bargeld erfordert keine Identitätsverifizierung — Bitcoin 
 - [[ideal-money-und-bitcoin]]
 - [[bitcoin-und-immobilien]]
 - [[finanzialisierung-und-kapitalverbrauch]]
+- [[bitcoin-absolute-knappheit]]
+- [[bitcoin-als-basisgeld]]
 
 - [[gesetze-der-wirtschaft|Die Gesetze der Wirtschaft (Saifedean Ammous)]] ← Buch
 - [[origins-of-money|On the Origins of Money (Carl Menger)]] ← Buch

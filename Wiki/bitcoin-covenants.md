@@ -46,6 +46,7 @@ Covenants sind zum Zeitpunkt dieses Artikels Vorschläge ohne konkreten Aktivier
 - [[skalierung-lightning-ark-statechains]]
 - [[bitcoin-whitepaper-errata]] ← warum Encumbrances Signatur-Abdeckung brauchen (P2SH-Vorgeschichte)
 - [[miniscript-und-liana]]
+- [[bitcoin-schichtenarchitektur]]
 
 ## Open Questions
 

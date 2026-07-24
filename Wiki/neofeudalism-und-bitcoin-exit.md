@@ -62,6 +62,7 @@ Aldous Huxley schrieb 1961 in einem Brief: «Die perfekte Diktatur hätte den An
 - [[geld-staat-und-fiat-monopol]]
 - [[iwf-weltbank-strukturanpassung]]
 - [[ergebnisgleichheit-und-freiheit]]
+- [[hyperbitcoinization-und-zitadellen]]
 
 ## Open Questions
 

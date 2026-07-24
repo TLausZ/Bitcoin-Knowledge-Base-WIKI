@@ -44,6 +44,10 @@ Antifragilität auf Protokollebene bedeutet nicht, dass individuelle Investments
 - [[bitcoin-netzwerk-und-nodes]]
 - [[bitcoin-entropie-und-ordnung]]
 - [[bitcoin-nicht-blockchain]]
+- [[bitcoin-silent-ipo]]
+- [[bitcoin-und-quantenrisiko]]
+- [[bitcoin-unternehmertum-und-hoffnung]]
+- [[bitcoin-volatilitaet-und-preisfindung]]
 
 ## Open Questions
 

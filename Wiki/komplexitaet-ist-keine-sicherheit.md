@@ -46,6 +46,8 @@ Die intuitive Schlussfolgerung ist umgekehrt: Einfachheit ist Sicherheit. Ein Se
 - [[wallet-backup-strategien]]
 - [[hardware-wallet-sicherheitsarchitektur]]
 - [[airgap-und-kommunikationskanaele]]
+- [[bitcoin-versicherung]]
+- [[hardware-wallet-einstieg]]
 
 ## Open Questions
 

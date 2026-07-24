@@ -120,6 +120,8 @@ Dass die Verbindung zwischen Geldsystem und Staatsform kein Nischenthema mehr is
 - [[bitcoin-geld-als-fiktion-und-paradigmenwechsel]]
 - [[szabo-geldursprung]]
 - [[iwf-weltbank-strukturanpassung]]
+- [[bitcoin-absolute-knappheit]]
+- [[bitcoin-als-basisgeld]]
 
 - [[der-fiat-standard|Der Fiat-Standard (Saifedean Ammous)]] ← Buch
 

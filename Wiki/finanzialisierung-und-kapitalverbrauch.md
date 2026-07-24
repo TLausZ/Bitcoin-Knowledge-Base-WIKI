@@ -73,6 +73,8 @@ Zusammengefasst: Preise reagieren kurzfristig auf die Geschwindigkeit der Finanz
 - [[bitcoin-spieltheorie-und-anreize]]
 - [[bitcoin-als-inflationsschutz]]
 - [[spekulation-unsicherheit-und-geld]]
+- [[bitcoin-entfinanzialisierung]]
+- [[bitcoin-islamische-finanzprinzipien]]
 
 - [[der-fiat-standard|Der Fiat-Standard (Saifedean Ammous)]] ← Buch
 - [[gesetze-der-wirtschaft|Die Gesetze der Wirtschaft (Saifedean Ammous)]] ← Buch

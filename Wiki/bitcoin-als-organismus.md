@@ -84,6 +84,11 @@ Aus der Community-Beobachtung (Nowak, 2026) stammt eine Ergänzung auf der sozia
 - [[kryptoanarchismus-und-cypherpunks]]
 - [[bitcoin-als-inflationsschutz]]
 - [[bitcoin-mining-narrativ-und-kritik]]
+- [[bitcoin-als-lebender-organismus-gigi]]
+- [[bitcoin-entropie-und-ordnung]]
+- [[bitcoin-mining-dezentralisierung]]
+- [[bitcoin-und-psychologie]]
+- [[bitcoin-und-spiritualitaet]]
 
 ## Open Questions
 

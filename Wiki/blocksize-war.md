@@ -123,6 +123,10 @@ Der Bitcoin Finance Report Q2/2026 erzählt den Konflikt für ein Banken-Publiku
 - [[kryptoanarchismus-und-cypherpunks]]
 - [[craig-wright-faketoshi]]
 - [[bitcoin-whitepaper-errata]] ← «one-CPU-one-vote» ist keine Regel-Abstimmung; Nodes definieren Gültigkeit
+- [[bip-0100]]
+- [[bip-0101]]
+- [[bip-0102]]
+- [[bip-0103]]
 
 ## Open Questions
 

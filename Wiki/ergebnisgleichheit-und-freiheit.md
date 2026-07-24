@@ -58,6 +58,7 @@ Die konstruktive Alternative lautet: Gleichheit vor dem Recht konsequent durchse
 - [[bitcoin-spieltheorie-und-anreize]]
 - [[bitcoin-geld-als-fiktion-und-paradigmenwechsel]]
 - [[selbsteigentum-und-naturrecht]]
+- [[neofeudalism-und-bitcoin-exit]]
 
 ## Open Questions
 

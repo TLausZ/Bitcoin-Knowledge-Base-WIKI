@@ -112,6 +112,8 @@ Ein Detail zur Narrativ-Sensitivität liefert das Q2/2026: Strategy setzte die A
 - [[selbstverwahrung-und-boersenrisiken]]
 - [[bitcoin-monetarisierung]]
 - [[bitcoin-treasury-companies]]
+- [[bitcoin-adoption-report-river-2026]]
+- [[bitcoin-akademische-forschung-bbr]]
 
 ## Open Questions
 

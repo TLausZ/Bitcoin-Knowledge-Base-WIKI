@@ -140,6 +140,8 @@ Eine Übergangs-Lösung für Einsteiger: Custodial-Wallet mit automatischer Übe
 - [[bitcoin-unabhaengigkeit-neu-gedacht|Bitcoin – Unabhängigkeit neu gedacht (Knut Svanholm)]] ← Buch
 - [[bitcoins-verwahren-und-vererben|Bitcoins verwahren und vererben (Marc Steiner)]] ← Buch
 - [[bitcoin-treasury-companies]]
+- [[biometrie-und-finanzueberwachung]]
+- [[bip-0127]]
 
 ## Open Questions
 

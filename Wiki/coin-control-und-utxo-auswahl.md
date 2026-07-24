@@ -50,6 +50,7 @@ CoinJoin verbessert Privatsphäre durch Vermischung mehrerer Nutzer in einer Tra
 - [[opsec-und-privatsphaere]]
 - [[bitbox02-features]]
 - [[joinmarket]]
+- [[no-kyc-bitcoin]]
 
 - [[das-privacy-handbuch|Das Privacy Handbuch (Timo Volkov)]] ← Buch
 

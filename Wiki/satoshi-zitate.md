@@ -311,6 +311,7 @@ Zur Person, zum Abgang und zu späteren Identitätsbehauptungen siehe [[bitcoin-
 - [[bitcoin-mining-energiequellen]]
 - [[bitcoin-regierungsresistenz]]
 - [[zitate]]
+- [[bitcoin-whitepaper-errata]]
 
 - [[das-buch-satoshis|Das Buch Satoshis (Phil Champagne)]] ← Buch
 

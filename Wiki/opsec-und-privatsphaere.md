@@ -118,6 +118,11 @@ Es gibt Situationen, wo offenes Sprechen über den eigenen Bitcoin-Besitz wichti
 - [[regulierung-tofr-aopp]]
 - [[no-kyc-bitcoin]]
 - [[coinjoin-und-on-chain-privatsphaere]]
+- [[biometrie-und-finanzueberwachung]]
+- [[bitblik]]
+- [[bitcoin-kaufen-und-dca]]
+- [[bitcoin-rechtliche-angriffe]]
+- [[bitcoin-versicherung]]
 
 - [[das-privacy-handbuch|Das Privacy Handbuch (Timo Volkov)]] ← Buch
 - [[das-kleine-bitcoin-buch|Das kleine Bitcoin-Buch]] ← Buch

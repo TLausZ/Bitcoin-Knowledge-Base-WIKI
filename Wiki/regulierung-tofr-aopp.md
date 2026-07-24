@@ -51,6 +51,9 @@ Aus technischer Sicht kann keine Verifizierungsmethode eindeutig beweisen, *wer*
 - [[hardware-wallet-sicherheitsarchitektur]]
 - [[bitcoin-beratung-und-micar]]
 - [[bitcoin-etf-und-institutionelle-verwahrung]]
+- [[eu-regulierung-selbstverwahrung]]
+- [[payment-requests]]
+- [[us-marktstruktur-clarity-act]]
 
 ## Open Questions
 

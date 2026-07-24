@@ -66,6 +66,8 @@ Lyn Alden liefert in ihrer Analyse eine systematische Klassifikation der Netzwer
 - [[bitcoin-powerlaw-und-preismodelle]]
 - [[bitcoin-whitepaper]]
 - [[digitales-bargeld-und-ecash]]
+- [[bitgenstein-geldtheorie-grundlagen]]
+- [[zitate]]
 
 - [[internet-of-money-vol1|The Internet of Money Vol. 1 (Andreas Antonopoulos)]] ← Buch
 

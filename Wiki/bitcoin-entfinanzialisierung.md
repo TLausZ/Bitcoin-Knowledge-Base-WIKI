@@ -44,6 +44,8 @@ Auch die Entfinanzialisierung ist kein binäres Ereignis. Selbst in einer Bitcoi
 - [[oesterreichische-kapital-und-geldtheorie]]
 - [[bitcoin-adoption-reise]]
 - [[bitcoin-als-basisgeld]]
+- [[bitcoin-besicherte-kredite]]
+- [[geld-und-baukultur]]
 
 ## Open Questions
 

@@ -73,6 +73,7 @@ Muun ist zwischen einfachen Wallets (Wallet of Satoshi) und professionellen Setu
 - [[hd-wallets-und-schluesselableitung]]
 - [[taproot-musig2-frost]]
 - [[selbstverwahrung-und-boersenrisiken]]
+- [[lightning-rebalancing]]
 
 ## Open Questions
 

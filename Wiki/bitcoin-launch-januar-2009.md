@@ -100,6 +100,8 @@ Waltz betont, dass diese Befunde Hals Bedeutung für Bitcoin nicht schmälern. O
 - [[bitcoin-mining-und-proof-of-work]]
 - [[kryptoanarchismus-und-cypherpunks]]
 - [[digitales-zeitstempel]]
+- [[bitcoin-core-client-history]]
+- [[bitcoin-vorgeschichte]]
 
 ## Open Questions
 

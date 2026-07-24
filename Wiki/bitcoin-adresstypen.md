@@ -65,6 +65,12 @@ Hardware-Wallet-Rollout am Beispiel BitBox02: Senden an bc1p-Adressen ab Januar 
 - [[hd-wallets-und-schluesselableitung]]
 - [[utxo-modell-und-konsolidierung]]
 - [[bitcoin-und-quantenrisiko]]
+- [[bip-0122]]
+- [[bitcoin-ip-transaktionen]]
+- [[bitcoin-script-und-output-locks]]
+- [[bitcoin-sprache-und-terminologie]]
+- [[glossar-bitcoin-technik]]
+- [[kryptografische-schlussel-und-adressen]]
 
 - [[mastering-bitcoin|Mastering Bitcoin (Antonopoulos/Harding)]] ← Buch
 

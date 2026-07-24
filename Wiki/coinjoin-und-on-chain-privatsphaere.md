@@ -82,6 +82,10 @@ Nach einem CoinJoin sollte man die Coin Selection (welche UTXOs für eine Transa
 - [[bitcoin-whitepaper-errata]] ← CoinJoin widerlegt die Multi-Input-Annahme aus Kapitel 10 des Whitepapers
 - [[biometrie-und-finanzueberwachung]]
 - [[cypherpunk-manifest]]
+- [[bip-0156]]
+- [[bitblik]]
+- [[digitales-bargeld-und-ecash]]
+- [[electrum-wallet]]
 
 - [[das-privacy-handbuch|Das Privacy Handbuch (Timo Volkov)]] ← Buch
 

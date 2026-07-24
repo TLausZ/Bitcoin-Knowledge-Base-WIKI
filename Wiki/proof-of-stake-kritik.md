@@ -65,6 +65,8 @@ Das Argument in einem Satz: Ohne fälschungssichere Kostspieligkeit hat ein digi
 - [[bitcoin-vs-krypto]]
 - [[bitcoin-digitale-knappheit]]
 - [[hashcash]]
+- [[bitcoin-nicht-blockchain]]
+- [[bitcoin-sprache-und-terminologie]]
 
 ## Open Questions
 

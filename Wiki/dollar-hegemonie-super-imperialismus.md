@@ -82,6 +82,10 @@ Nach Nixons Golddollar-Aufkündigung 1971 drohte die Weltreservewährung ihren A
 - [[bitcoin-regierungsresistenz]]
 - [[bitcoin-als-strategische-reserve]]
 - [[energiestandard-und-proof-of-work]]
+- [[bitcoin-als-basisgeld]]
+- [[globale-liquiditaet-und-finanzplumbing]]
+- [[hyperbitcoinization-und-zitadellen]]
+- [[monetaerer-kolonialismus-cfa-franc]]
 
 ## Open Questions
 

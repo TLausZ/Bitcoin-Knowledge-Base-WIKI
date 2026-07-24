@@ -102,6 +102,12 @@ Wenn Hardware-Wallets drahtlos kommunizieren (z.B. Bluetooth für iPhone-Unterst
 - [[opsec-und-privatsphaere]]
 - [[diceware-und-seed-generierung]]
 - [[hardware-wallet-einstieg]]
+- [[airgap-und-kommunikationskanaele]]
+- [[anti-klepto-und-supply-chain-sicherheit]]
+- [[bitbox02-features]]
+- [[bitcoin-entropy-rng]]
+- [[bitcoin-kaufen-und-dca]]
+- [[bitcoin-only-vs-multi-edition]]
 
 - [[bitcoins-verwahren-und-vererben|Bitcoins verwahren und vererben (Marc Steiner)]] ← Buch
 

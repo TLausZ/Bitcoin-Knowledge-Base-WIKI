@@ -82,6 +82,10 @@ Die drei Schritte, die Gigi skizziert: eigene Schlüssel halten, eigenen Node be
 - [[gigi-philosophische-essays]]
 - [[bitcoin-recht-sprache-geld]]
 - [[bitcoin-adoption-reise]]
+- [[bitcoin-ist-die-wiederentdeckung-des-geldes]]
+- [[bitcoin-und-amerikanische-idee]]
+- [[hyperbitcoinization-und-zitadellen]]
+- [[selbsteigentum-und-naturrecht]]
 
 ## Open Questions
 

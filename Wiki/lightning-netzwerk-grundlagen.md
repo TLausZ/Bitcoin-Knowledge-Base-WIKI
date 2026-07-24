@@ -71,6 +71,10 @@ Für den Alltag trennt Michael Wolfs "Bitcoin-Ratgeber" die Spar-Wallet (grösse
 - [[lightning-rebalancing]]
 - [[lightning-address-datenschutz]]
 - [[bitcoin-transaktionsstruktur]]
+- [[bitcoin-adoption-report-river-2026]]
+- [[bitcoin-einsteiger-onboarding]]
+- [[bitcoin-humanitaere-anwendungen]]
+- [[bitcoin-netzwerkeffekte-und-design]]
 
 - [[einfuehrung-in-das-lightning-netzwerk|Einführung in das Lightning-Netzwerk (Antonopoulos/Osuntokun/Pickhardt)]] ← Buch
 - [[internet-of-money-vol2|The Internet of Money Vol. 2 (Andreas Antonopoulos)]] ← Buch

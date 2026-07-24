@@ -75,6 +75,7 @@ Auf der Technik-Seite zeigt Shehzan Maredia (Lava) ein non-custodial Modell, das
 - [[bitcoin-volatilitaet-und-preisfindung]]
 - [[selbstverwahrung-und-boersenrisiken]]
 - [[bitcoin-entfinanzialisierung]]
+- [[bitcoin-haltefrist-und-steuern]]
 
 ## Open Questions
 

@@ -65,6 +65,11 @@ Feedbackschleife: Je mehr Menschen Bitcoin halten, desto mehr Kaufkraft steht da
 - [[value4value-und-wertaktivierendes-web]]
 - [[kryptografische-schlussel-und-adressen]]
 - [[redefreiheit-und-protokolle]]
+- [[bitcoin-als-trojanisches-pferd]]
+- [[bitcoin-bildung]]
+- [[bitcoin-recht-sprache-geld]]
+- [[bitcoin-und-selbstverantwortung]]
+- [[bitcoin-und-spiritualitaet]]
 
 ### Tyrannei (2022, Original: 2021)
 

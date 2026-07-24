@@ -122,6 +122,8 @@ Selbst eine Verlagerung von 1–5% der monetären Immobilien-Prämie zu Bitcoin 
 - [[selbstverwahrung-und-boersenrisiken]]
 - [[kapital-und-bitcoin]]
 - [[bitcoin-volatilitaet-und-preisfindung]]
+- [[bitcoin-auf-kredit]]
+- [[bitcoin-besicherte-kredite]]
 
 - [[der-bitcoin-standard|Der Bitcoin-Standard (Saifedean Ammous)]] ← Buch
 - [[goldene-zukunft|Goldene Zukunft (Florian Bruce-Boye)]] ← Buch

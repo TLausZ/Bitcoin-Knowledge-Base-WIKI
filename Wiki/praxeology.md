@@ -54,6 +54,10 @@ Die Verbindung zu Bitcoin liegt in der Ableitbarkeit: Praxeologisches Denken zei
 - [[bitcoin-inverse-of-clown-world]]
 - [[geldpolitik-und-inflation]]
 - [[kapital-und-bitcoin]]
+- [[das-buch-satoshis]]
+- [[der-fiat-standard]]
+- [[gesetze-der-wirtschaft]]
+- [[origins-of-money]]
 
 - [[bitcoin-unabhaengigkeit-neu-gedacht|Bitcoin: Unabhängigkeit neu gedacht]] ← Buch
 - [[der-bitcoin-standard|Der Bitcoin-Standard (Saifedean Ammous)]] ← Buch

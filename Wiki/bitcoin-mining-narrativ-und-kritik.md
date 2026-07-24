@@ -120,6 +120,9 @@ Ben Von Wong schuf 2023 den "Skull of Satoshi" für Greenpeace USA — ein ikoni
 - [[bitcoin-mining-und-proof-of-work]]
 - [[bitcoin-fehlannahmen]]
 - [[bitcoin-kommunikation-und-orange-pilling]]
+- [[bitcoin-akademische-forschung-bbr]]
+- [[bitcoin-als-lebender-organismus-gigi]]
+- [[bitcoin-als-organismus]]
 - [[softwar|Softwar (Jason P. Lowery)]] ← Buch
 
 ## Open Questions

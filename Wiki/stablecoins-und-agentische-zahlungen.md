@@ -59,6 +59,7 @@ Auf der europäischen Seite wächst das MiCAR-konforme Angebot: AllUnity (BaFin-
 - [[lightning-netzwerk-grundlagen]]
 - [[bitcoin-skalierung-und-zahlungen]]
 - [[bitcoin-und-ki]]
+- [[us-marktstruktur-clarity-act]]
 
 ## Open Questions
 

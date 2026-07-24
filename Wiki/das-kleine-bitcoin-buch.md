@@ -31,6 +31,7 @@ Der Ton bleibt durchgehend zugänglich und ist erklärtermassen für Menschen ge
 - [[opsec-und-privatsphaere]]
 - [[skalierung-lightning-ark-statechains]]
 - [[bitcoin-bildung]]
+- [[bitcoin-kaufen-und-dca]]
 
 ## Open Questions
 

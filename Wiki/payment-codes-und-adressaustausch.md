@@ -57,6 +57,11 @@ Dasselbe Prinzip, aber **ohne Benachrichtigungs-Transaktion**. Jeder kann sofort
 - [[coinjoin-und-on-chain-privatsphaere]]
 - [[opsec-und-privatsphaere]]
 - [[lightning-address-datenschutz]]
+- [[bip-0175]]
+- [[bip-0179]]
+- [[bitcoin-ip-transaktionen]]
+- [[digitales-bargeld-und-ecash]]
+- [[wallet-of-satoshi]]
 
 ## Open Questions
 

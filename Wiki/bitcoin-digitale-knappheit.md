@@ -53,6 +53,10 @@ Die spirituelle Dimension, die Strolight beschreibt, folgt aus dieser Reinheit: 
 - [[bitcoin-geld-als-fiktion-und-paradigmenwechsel]]
 - [[bitcoin-vs-krypto]]
 - [[hashcash]]
+- [[21-lektionen-bitcoin-kaninchenbau]]
+- [[bitcoin-absolute-knappheit]]
+- [[bitcoin-als-information]]
+- [[bitcoin-monetaere-deckung-und-sicherheit]]
 
 - [[der-bitcoin-standard|Der Bitcoin-Standard (Saifedean Ammous)]] ← Buch
 - [[bitcoin-alles-geteilt-durch-21-millionen|Bitcoin – Alles geteilt durch 21 Millionen (Knut Svanholm)]] ← Buch

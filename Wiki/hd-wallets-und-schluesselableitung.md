@@ -118,6 +118,11 @@ Die Schlüsseleigenschaft: Wer die Lightning-Entropie kennt, kann nicht auf den 
 - [[hardware-wallet-sicherheitsarchitektur]]
 - [[opsec-und-privatsphaere]]
 - [[skalierung-lightning-ark-statechains]]
+- [[bip39-schwache-seeds]]
+- [[bitcoin-adresstypen]]
+- [[bitcoin-sprache-und-terminologie]]
+- [[diceware-und-seed-generierung]]
+- [[electrum-wallet]]
 
 - [[mastering-bitcoin|Mastering Bitcoin (Antonopoulos/Harding)]] ← Buch
 

@@ -83,6 +83,10 @@ Das Modell ist inzwischen auch Anwendungswissen im DACH-Raum: Es dient als Beruh
 - [[bitcoin-auf-kredit]]
 - [[bitcoin-volatilitaet-und-preisfindung]]
 - [[mvrv-und-realized-cap]]
+- [[bitcoin-akademische-forschung-bbr]]
+- [[bitcoin-als-inflationsschutz]]
+- [[bitcoin-als-strategische-reserve]]
+- [[bitcoin-geld-als-fiktion-und-paradigmenwechsel]]
 
 - [[the-bitcoin-handbook|The Bitcoin Handbook (Anil Patel)]] ← Buch
 

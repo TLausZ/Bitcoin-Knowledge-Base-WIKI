@@ -100,6 +100,7 @@ Katalog der Funktionen von BitBox02 und BitBoxApp, wie sie der Hersteller (Shift
 - [[bitcoin-only-vs-multi-edition]] — Bitcoin-only- vs. Multi-Edition (U2F, Altcoins)
 - [[firmware-verifikation-und-reproduzierbarkeit]], [[anti-klepto-und-supply-chain-sicherheit]] — Sicherheitsdetails
 - [[coin-control-und-utxo-auswahl]], [[silent-payments]] — Datenschutz-Features im Detail
+- [[silent-payments]]
 
 ## Open Questions
 

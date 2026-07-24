@@ -88,6 +88,9 @@ Der entscheidende Bitcoin-Beitrag: die Dezentralisierung durch Proof-of-Work. Be
 - [[hashcash]]
 - [[digitales-bargeld-und-ecash]]
 - [[bitcoin-mining-und-proof-of-work]]
+- [[bitcoin-launch-januar-2009]]
+- [[satoshi-ankuendigung-2009]]
+- [[bitcoin-vorgeschichte]]
 
 ## Open Questions
 

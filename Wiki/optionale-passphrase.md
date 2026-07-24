@@ -62,6 +62,10 @@ Da die Passphrase getrennt von der Seedphrase existiert, muss sie getrennt gesic
 - [[komplexitaet-ist-keine-sicherheit]]
 - [[hardware-wallet-einstieg]]
 - [[bitcoin-vererbung]]
+- [[hardware-wallet-angriffsvektoren]]
+- [[hardware-wallet-migration]]
+- [[hd-wallets-und-schluesselableitung]]
+- [[shamir-secret-sharing]]
 
 - [[bitcoins-verwahren-und-vererben|Bitcoins verwahren und vererben (Marc Steiner)]] ← Buch
 

@@ -102,6 +102,10 @@ Der Seetee-Aktionärsbrief vom März 2021 ist eines der frühesten öffentlichen
 - [[eu-regulierung-selbstverwahrung]]
 - [[bitcoin-marktkommentar-lnms]]
 - [[bitcoin-treasury-companies]]
+- [[bitcoin-adoption-report-river-2026]]
+- [[bitcoin-akademische-forschung-bbr]]
+- [[bitcoin-bildung]]
+- [[bitcoin-monetarisierung]]
 
 - [[softwar|Softwar (Jason P. Lowery)]] ← Buch
 

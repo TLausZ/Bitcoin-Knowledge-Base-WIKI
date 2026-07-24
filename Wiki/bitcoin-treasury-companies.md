@@ -42,6 +42,9 @@ Public Companies sind mit 1.26M BTC die drittgrösste Halterkategorie hinter ETF
 - [[bitcoin-volatilitaet-und-preisfindung]]
 - [[bitcoin-geldpolitik-und-21-millionen-limit]]
 - [[selbstverwahrung-und-boersenrisiken]]
+- [[bitcoin-als-inflationsschutz]]
+- [[bitcoin-auf-kredit]]
+- [[hyperbitcoinization-und-zitadellen]]
 
 ## Open Questions
 

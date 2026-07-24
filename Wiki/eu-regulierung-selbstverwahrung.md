@@ -46,6 +46,10 @@ AOPP (Address Ownership Proof Protocol) ist eine sauberere Alternative: Die Wall
 - [[us-marktstruktur-clarity-act]]
 - [[bitcoin-als-strategische-reserve]]
 - [[bitcoin-beratung-und-micar]]
+- [[biometrie-und-finanzueberwachung]]
+- [[bitcoin-haltefrist-und-steuern]]
+- [[bitcoin-rechtliche-angriffe]]
+- [[crypto-adaption-europa-bsd-2026]]
 
 - [[bitcoin-unabhaengigkeit-neu-gedacht|Bitcoin – Unabhängigkeit neu gedacht (Knut Svanholm)]] ← Buch
 

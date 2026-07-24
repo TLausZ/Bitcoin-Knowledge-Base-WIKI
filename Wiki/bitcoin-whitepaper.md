@@ -82,6 +82,8 @@ Die Identität ist bis heute unbekannt. Bekannte Fakten: Nakamoto schrieb fehler
 - [[segregated-witness-segwit]]
 - [[bitcoin-fehlannahmen]]
 - [[bitcoin-whitepaper-errata]] ← bekannte Fehler des Papers, Terminologie-Drift, Implementierungs-Abweichungen
+- [[bitcoin-core-client-history]]
+- [[bitcoin-fruehgeschichte]]
 
 - [[das-buch-satoshis|Das Buch Satoshis (Phil Champagne)]] ← Buch
 

@@ -51,6 +51,11 @@ Betrachtet man Weltmächte seit etwa 1450, war der lange Schuldenzyklus jeweils 
 Szabelski schreibt als Ex-Banker und Bitcoiner, der Dalios Buch für ein breites Publikum aufbereitet; das Modell selbst stammt von Dalio, einem Investor ohne Bitcoin-Agenda. Im Rückblick auf seine eigene Lernreise nennt Szabelski die Schuldenzyklen einen der Schlüssel, um zu verstehen, «was mit der Welt los ist»: exorbitante Schulden, Gelddrucken bei jeder Krise, ein System mit Ablaufdatum ([[Reflections after 4 years (one Bitcoin cycle) rabbit hole journey]]). Das Framing «letzte Phase des Geldes» ist eine Interpretation, keine Prognose mit Datum. Ein angekündigter zweiter Teil (Schuldenabbau-Optionen der USA) lag beim Ingest noch nicht vor.
 
 ## Related
+- [[bitcoin-adoption-reise]]
+- [[bitcoin-marktkommentar-lnms]]
+- [[globale-liquiditaet-und-finanzplumbing]]
+- [[krieg-qe-und-schuldengeld]]
+- [[makro-zinskurve-fed-und-rezession]]
 
 [[krieg-qe-und-schuldengeld]] · [[geldpolitik-und-inflation]] · [[geld-staat-und-fiat-monopol]] · [[bitcoin-als-inflationsschutz]] · [[dollar-hegemonie-super-imperialismus]] · [[oesterreichische-kapital-und-geldtheorie]] · [[bitcoin-adoption-reise]]
 

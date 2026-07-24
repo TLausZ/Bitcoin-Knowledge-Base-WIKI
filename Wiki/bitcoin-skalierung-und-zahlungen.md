@@ -53,6 +53,9 @@ Bitcoin konkurriert auf der Basisschicht mit Gold und dem Dollar als Wertspeiche
 - [[lightning-netzwerk-grundlagen]]
 - [[stablecoins-und-agentische-zahlungen]]
 - [[bitcoin-und-ki]]
+- [[mt-gox]]
+- [[starks]]
+- [[value4value-und-wertaktivierendes-web]]
 
 ## Open Questions
 

@@ -46,6 +46,11 @@ Die dritte Auflage ist der aktuellste Referenzpunkt für die neueren Protokoll-B
 - [[segregated-witness-segwit]]
 - [[lightning-netzwerk-grundlagen]]
 - [[bitcoin-mining-und-proof-of-work]]
+- [[bitcoin-adresstypen]]
+- [[bitcoin-block-header]]
+- [[bitcoin-blockchain-struktur]]
+- [[bitcoin-netzwerk-und-nodes]]
+- [[bitcoin-transaktionsstruktur]]
 
 - [[einfuehrung-in-das-lightning-netzwerk|Einführung in das Lightning-Netzwerk (Antonopoulos, Osuntokun & Pickhardt)]] ← Buch
 

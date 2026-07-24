@@ -50,6 +50,10 @@ Bitcoin hat einen effektiven langfristigen Schutzmechanismus gegen Daten-Spam: d
 
 - [[konsensregeln-und-mempool-richtlinien]]
 - [[bitcoin-geldpolitik-und-21-millionen-limit]]
+- [[bip-0110]]
+- [[bitcoin-core-relay-statement]]
+- [[bitcoin-script-und-output-locks]]
+- [[onchain-indikatoren-und-anlegerverhalten]]
 
 ## Open Questions
 

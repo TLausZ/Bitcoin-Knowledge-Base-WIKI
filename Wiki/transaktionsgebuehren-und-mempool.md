@@ -53,6 +53,13 @@ Jede UTXO, die als Input in einer Transaktion verwendet wird, vergrössert diese
 - [[bitcoin-adresstypen]]
 - [[konsensregeln-und-mempool-richtlinien]]
 - [[electrum-wallet]]
+- [[bip-0110]]
+- [[bip-0125]]
+- [[bip-0133]]
+- [[bip-0331]]
+- [[bip-0337]]
+- [[bip-0451]]
+- [[bitcoin-core-relay-statement]]
 
 - [[mastering-bitcoin|Mastering Bitcoin (Antonopoulos/Harding)]] ← Buch
 

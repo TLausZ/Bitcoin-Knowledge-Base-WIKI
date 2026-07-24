@@ -56,6 +56,11 @@ Das Buch versteht sich ausdrücklich als Inspirationsquelle und Nachschlagewerk,
 - [[fortego-backup-sicherheit]]
 - [[miniscript-und-liana]]
 - [[diceware-und-seed-generierung]]
+- [[anti-klepto-und-supply-chain-sicherheit]]
+- [[das-privacy-handbuch]]
+- [[hardware-wallet-migration]]
+- [[hardware-wallet-sicherheitsarchitektur]]
+- [[optionale-passphrase]]
 
 ## Open Questions
 

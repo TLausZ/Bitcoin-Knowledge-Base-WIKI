@@ -37,6 +37,8 @@ Die privaten E-Mails an Dustin Trammell und die letzte bekannte Korrespondenz ze
 - [[bitcoin-whitepaper-errata]]
 - [[praxeology]]
 - [[origins-of-money]]
+- [[bitcoin-whitepaper]]
+- [[craig-wright-faketoshi]]
 
 ## Open Questions
 

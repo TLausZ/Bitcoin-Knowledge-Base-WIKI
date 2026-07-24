@@ -76,6 +76,10 @@ Der Kontrast dient ihm als praktisches Argument für das Bednarek-Thema: vorhers
 - [[bitcoin-alles-geteilt-durch-21-millionen]]
 - [[finanzialisierung-und-kapitalverbrauch]]
 - [[ideal-money-und-bitcoin]]
+- [[bitcoin-absolute-knappheit]]
+- [[bitcoin-als-basisgeld]]
+- [[bitcoin-bildung]]
+- [[bitcoin-entfinanzialisierung]]
 
 - [[der-fiat-standard|Der Fiat-Standard (Saifedean Ammous)]] ← Buch
 

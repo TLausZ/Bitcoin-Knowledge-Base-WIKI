@@ -46,6 +46,8 @@ Rechtsangriffe auf Bitcoin-Beteiligte folgen einem Muster: hohe Schäden für da
 - [[selbstverwahrung-und-boersenrisiken]]
 - [[eu-regulierung-selbstverwahrung]]
 - [[opsec-und-privatsphaere]]
+- [[bitcoin-blockchain-struktur]]
+- [[craig-wright-faketoshi]]
 
 ## Open Questions
 

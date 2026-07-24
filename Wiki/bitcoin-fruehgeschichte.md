@@ -140,6 +140,8 @@ Vollständige Aufschlüsselung zum Naming und Client-Aufbau: [[bitcoin-core-clie
 - [[kryptoanarchismus-und-cypherpunks]]
 - [[bitcoin-mining-und-proof-of-work]]
 - [[mt-gox]]
+- [[bitcoin-core-client-history]]
+- [[bitcoin-vorgeschichte]]
 
 ## Open Questions
 

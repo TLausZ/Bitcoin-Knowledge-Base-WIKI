@@ -59,6 +59,7 @@ Das Pferd steht bereits in der Stadt.
 - [[bitcoin-als-lebender-organismus-gigi]]
 - [[gigi-philosophische-essays]]
 - [[biometrie-und-finanzueberwachung]]
+- [[bitcoin-recht-sprache-geld]]
 
 - [[hidden-repression_how-the-imf-and-world-bank-sell-exploitation-as-development|Hidden Repression]] ← Buch
 

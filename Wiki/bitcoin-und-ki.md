@@ -51,6 +51,7 @@ KI-Entwicklung konzentriert sich heute auf wenige Unternehmen (OpenAI, Google, M
 - [[geldpolitik-und-inflation]]
 - [[bitcoin-und-psychologie]]
 - [[bitcoin-und-quantenrisiko]]
+- [[stablecoins-und-agentische-zahlungen]]
 
 ## Open Questions
 

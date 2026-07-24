@@ -55,6 +55,9 @@ Der Post wurde von Wei Dai (Autor von b-money) kommentiert, der Satoshi mit der 
 - [[digitales-zeitstempel]]
 - [[hashcash]]
 - [[bitcoin-fruehgeschichte]]
+- [[biometrie-und-finanzueberwachung]]
+- [[bitcoin-launch-januar-2009]]
+- [[satoshi-zitate]]
 
 ## Open Questions
 

@@ -89,6 +89,10 @@ Nabourema: „Stell dir vor, dass wir in 10 oder 20 Jahren ein Stadium erreichen
 - [[bitcoin-mining-und-proof-of-work]]
 - [[bitcoin-als-basisgeld]]
 - [[bitcoin-menschenrechte]]
+- [[dollar-hegemonie-super-imperialismus]]
+- [[el-salvador-bitcoin-adoption]]
+- [[hyperbitcoinization-und-zitadellen]]
+- [[krieg-qe-und-schuldengeld]]
 
 ## Open Questions
 

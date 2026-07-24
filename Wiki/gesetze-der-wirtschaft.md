@@ -44,6 +44,7 @@ Inhaltlich überschneidet sich das Buch mit Svanholms „Praxeology", ist aber b
 - [[kapital-und-bitcoin]]
 - [[finanzialisierung-und-kapitalverbrauch]]
 - [[oesterreichische-kapital-und-geldtheorie]]
+- [[praxeologie-methode-und-werttheorie]]
 
 ## Open Questions
 

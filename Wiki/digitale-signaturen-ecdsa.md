@@ -70,6 +70,7 @@ Bitcoin verwendete seit Anfang ECDSA. Mit dem Taproot-Upgrade (2021) wurde **Sch
 - [[segregated-witness-segwit]]
 - [[taproot-musig2-frost]]
 - [[anti-klepto-und-supply-chain-sicherheit]]
+- [[elliptische-kurven-kryptographie]]
 
 - [[mastering-bitcoin|Mastering Bitcoin (Antonopoulos & Harding)]] ← Buch
 

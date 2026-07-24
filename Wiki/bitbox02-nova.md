@@ -53,6 +53,8 @@ Einfach möglich: Die bestehenden Wiederherstellungswörter oder das microSD-Bac
 
 - [[hardware-wallet-sicherheitsarchitektur]]
 - [[wallet-backup-strategien]]
+- [[bitbox02-features]]
+- [[bitcoin-only-vs-multi-edition]]
 
 ## Open Questions
 

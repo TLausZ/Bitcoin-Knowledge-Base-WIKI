@@ -149,6 +149,10 @@ Ein Electrum Server speichert — anders als Bitcoin Core mit Wallet — keine n
 - [[airgap-und-kommunikationskanaele]]
 - [[hardware-wallet-einstieg]]
 - [[bitcoin-netzwerk-und-nodes]]
+- [[bip-0329]]
+- [[coin-control-und-utxo-auswahl]]
+- [[no-kyc-bitcoin]]
+- [[nunchuk-wallet]]
 
 ## Open Questions
 

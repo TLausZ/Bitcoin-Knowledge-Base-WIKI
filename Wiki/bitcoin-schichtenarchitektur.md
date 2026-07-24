@@ -55,6 +55,7 @@ Für die meisten Krypto-Projekte gilt: Die Ideen sind nicht notwendigerweise sch
 - [[segregated-witness-segwit]]
 - [[bitcoin-covenants]]
 - [[kapital-und-bitcoin]]
+- [[bitcoin-mining-dezentralisierung]]
 
 ## Open Questions
 

@@ -82,6 +82,11 @@ Wenn niemand weiss, dass man Bitcoin besitzt, oder niemand das Backup findet, si
 - [[diceware-und-seed-generierung]]
 - [[optionale-passphrase]]
 - [[multisig-und-kollaborative-verwahrung]]
+- [[bitbox02-nova]]
+- [[bitcoin-einsteiger-onboarding]]
+- [[bitcoin-kaufen-und-dca]]
+- [[bitcoin-only-vs-multi-edition]]
+- [[bitcoin-seed-cracking]]
 - [[bitcoins-verwahren-und-vererben|Bitcoins verwahren und vererben (Marc Steiner)]] ← Buch
 
 ## Open Questions

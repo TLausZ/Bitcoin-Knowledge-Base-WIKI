@@ -72,6 +72,11 @@ Back war auch aktiv in der Entwicklung von Bitcoin involviert und korrespondiert
 - [[kryptoanarchismus-und-cypherpunks]]
 - [[digitales-zeitstempel]]
 - [[bitcoin-digitale-knappheit]]
+- [[merkle-baeume]]
+- [[proof-of-stake-kritik]]
+- [[satoshi-ankuendigung-2009]]
+- [[szabo-geldursprung]]
+- [[bitcoin-vorgeschichte]]
 
 ## Open Questions
 

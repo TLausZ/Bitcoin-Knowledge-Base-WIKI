@@ -54,6 +54,8 @@ Das On-Chain-Update ist zeitgebundener Marktkommentar; die Metriken (Adressen, S
 - [[op-return-und-datenspeicherung]]
 - [[bitcoin-marktkommentar-lnms]]
 - [[mvrv-und-realized-cap]]
+- [[bitcoin-adoption-report-river-2026]]
+- [[bitcoin-akademische-forschung-bbr]]
 
 ## Open Questions
 

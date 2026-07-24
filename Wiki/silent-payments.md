@@ -60,6 +60,10 @@ Nur bestimmte Input-Typen sind erlaubt: P2TR (keypath), P2WPKH, P2WPKH-P2SH, P2P
 - [[bitbox02-features]]
 - [[cypherpunk-manifest]]
 - [[lightning-address-datenschutz]]
+- [[bip-0179]]
+- [[bitcoin-ip-transaktionen]]
+- [[bitcoin-kaufen-und-dca]]
+- [[digitales-bargeld-und-ecash]]
 
 ## Open Questions
 

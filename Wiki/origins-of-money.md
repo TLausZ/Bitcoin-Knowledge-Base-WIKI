@@ -42,6 +42,9 @@ Mengers Absatzfähigkeit erklärt, wie Bitcoin ohne staatliche Anordnung monetä
 - [[geldpolitik-und-inflation]]
 - [[bitcoin-monetarisierung]]
 - [[szabo-geldursprung]]
+- [[das-buch-satoshis]]
+- [[gesetze-der-wirtschaft]]
+- [[oesterreichische-kapital-und-geldtheorie]]
 
 - [[der-bitcoin-standard|Der Bitcoin-Standard (Saifedean Ammous)]] ← Buch
 - [[magic-future-money|Magic Future Money (Hg. Friedemann Brenneis)]] ← Buch

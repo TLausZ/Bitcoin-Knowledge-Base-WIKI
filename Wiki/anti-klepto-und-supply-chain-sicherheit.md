@@ -72,6 +72,10 @@ Beide Mechanismen sind Beispiele für **Defense in Depth**: Kein einzelner Angri
 - [[payment-requests]]
 - [[phishing-und-angriffsmethoden]]
 - [[hardware-wallet-angriffsvektoren]]
+- [[airgap-und-kommunikationskanaele]]
+- [[digitale-signaturen-ecdsa]]
+- [[firmware-verifikation-und-reproduzierbarkeit]]
+- [[pgp-und-verschluesselungspolitik]]
 
 - [[bitcoins-verwahren-und-vererben|Bitcoins verwahren und vererben (Marc Steiner)]] ← Buch
 

@@ -85,6 +85,9 @@ Die Beiträge sind zeitgebundene Marktkommentare mit deklariertem Pro-Bitcoin-Bi
 - [[bitcoin-unternehmens-strategie]]
 - [[bitcoin-akademische-forschung-bbr]]
 - [[bitcoin-treasury-companies]]
+- [[bitcoin-als-strategische-reserve]]
+- [[bitcoin-besicherte-kredite]]
+- [[bitcoin-und-quantenrisiko]]
 
 ## Open Questions
 

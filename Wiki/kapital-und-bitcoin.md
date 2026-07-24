@@ -79,7 +79,6 @@ Wendell Berry beschreibt in "The Unsettling of America" den Wandel von Versorger
 
 - [[finanzialisierung-und-kapitalverbrauch]]
 - [[bitgenstein-geldtheorie-grundlagen]]
-- [[finanzialisierung-und-kapitalverbrauch]]
 - [[neofeudalism-und-bitcoin-exit]]
 - [[bitcoin-netzwerkeffekte-und-design]]
 - [[oesterreichische-kapital-und-geldtheorie]]

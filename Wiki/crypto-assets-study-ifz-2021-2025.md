@@ -50,6 +50,8 @@ Die zitierten Besitzquoten schwanken je nach Quelle erheblich: Statista 21 Proze
 Die Serie blickt aus der Perspektive der Finanzindustrie auf Kryptoanlagen: Massstab sind Produkte, verwahrte Vermögen und Bankenintegration. Selbstverwahrung kommt nur am Rand vor, etwa als Wallet-Angebot von Dienstleistern (vgl. [[selbstverwahrung-und-boersenrisiken]]). Bitcoin wird als Teil einer Asset-Klasse «Krypto» behandelt, was der Unterscheidung in [[bitcoin-vs-krypto]] zuwiderläuft, auch wenn die AuM-Zahlen von 2025 (zwei Drittel Bitcoin) die faktische Dominanz belegen. Als Datenreihe zur Institutionalisierung des Schweizer Marktes ist die Serie dennoch die beste verfügbare Quelle.
 
 ## Related
+- [[bitcoin-monetarisierung]]
+- [[crypto-adaption-europa-bsd-2026]]
 
 [[kryptoanlagen-schweiz-hslu-2026]] · [[bitcoin-etf-und-institutionelle-verwahrung]] · [[bitcoin-vs-krypto]] · [[bitcoin-volatilitaet-und-preisfindung]] · [[selbstverwahrung-und-boersenrisiken]] · [[bitcoin-adoptionsstudie-2026-dach]] · [[bitcoin-kaufen-und-dca]]
 

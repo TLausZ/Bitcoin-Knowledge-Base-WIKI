@@ -94,6 +94,7 @@ Nicole Nowak zieht eine Parallele, die bei Svanholm nur implizit steckt: Bitcoin
 - [[kryptoanarchismus-und-cypherpunks]]
 - [[praxeologie-methode-und-werttheorie]]
 - [[bitcoin-powerlaw-und-preismodelle]]
+- [[bitcoin-alles-geteilt-durch-21-millionen]]
 
 - [[bitcoin-unabhaengigkeit-neu-gedacht|Bitcoin – Unabhängigkeit neu gedacht (Knut Svanholm)]] ← Buch
 - [[21-lektionen-bitcoin-kaninchenbau|21 Lektionen: Meine Reise in den Bitcoin-Kaninchenbau]] ← Buch

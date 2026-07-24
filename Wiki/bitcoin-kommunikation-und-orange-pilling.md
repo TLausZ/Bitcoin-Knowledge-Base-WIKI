@@ -66,6 +66,8 @@ Batten verknüpft Kommunikation mit Marktdynamik: Patient Capital, Nationalstaat
 - [[bitcoin-mining-narrativ-und-kritik]]
 - [[frauen-und-bitcoin]]
 - [[bitcoin-konferenzen-und-community]]
+- [[bitcoin-und-psychologie]]
+- [[bitcoin-und-spiritualitaet]]
 
 ## Open Questions
 

@@ -88,6 +88,7 @@ Der Vorteil dieser Methode: Man muss keinem Gerät in Bezug auf Zufälligkeit ve
 - [[hardware-wallet-sicherheitsarchitektur]]
 - [[bip39-schwache-seeds]]
 - [[bitcoin-entropy-rng]]
+- [[kryptografische-schlussel-und-adressen]]
 
 - [[bitcoins-verwahren-und-vererben|Bitcoins verwahren und vererben (Marc Steiner)]] ← Buch
 

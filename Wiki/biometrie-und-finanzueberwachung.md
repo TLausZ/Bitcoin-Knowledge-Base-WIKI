@@ -89,6 +89,10 @@ Das ist dieselbe Logik, die Satoshi 2009 formulierte: "Crypto proof instead of t
 - [[cbdc-und-digitaler-yuan]]
 - [[kryptoanarchismus-und-cypherpunks]]
 - [[coinjoin-und-on-chain-privatsphaere]]
+- [[bitcoin-als-trojanisches-pferd]]
+- [[bitcoin-recht-sprache-geld]]
+- [[bitcoin-und-amerikanische-idee]]
+- [[bitcoin-und-selbstverantwortung]]
 
 ## Open Questions
 

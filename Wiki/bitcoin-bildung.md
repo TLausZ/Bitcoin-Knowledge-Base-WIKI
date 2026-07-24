@@ -132,6 +132,7 @@ Das Bitcoin Talents Programm des Frankfurt Blockchain Center (10 Videosessions, 
 - [[geldpolitik-und-inflation]]
 - [[bitcoin-konferenzen-und-community]]
 - [[frauen-und-bitcoin]]
+- [[21-lektionen-bitcoin-kaninchenbau]]
 
 - [[das-kleine-bitcoin-buch|Das kleine Bitcoin-Buch (The Bitcoin Collective)]] ← Buch
 

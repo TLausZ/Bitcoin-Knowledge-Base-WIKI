@@ -48,6 +48,7 @@ Gigi schliesst: In einer Welt voller Euphemismen ist es an sich rebellisch, Ding
 - [[bitcoin-adresstypen]]
 - [[bitcoin-regierungsresistenz]]
 - [[redefreiheit-und-protokolle]]
+- [[bitcoin-als-information]]
 
 ## Open Questions
 

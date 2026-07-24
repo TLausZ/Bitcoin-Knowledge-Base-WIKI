@@ -72,6 +72,12 @@ Beim ersten Empfang einer Adresse registriert die BitBox02 das Multisig-Setup: D
 - [[wallet-backup-strategien]]
 - [[miniscript-und-liana]]
 - [[bitcoin-etf-und-institutionelle-verwahrung]]
+- [[airgap-und-kommunikationskanaele]]
+- [[bitcoin-als-strategische-reserve]]
+- [[bitcoin-script-und-output-locks]]
+- [[bitcoin-vererbung]]
+- [[fedimint-und-community-custody]]
+- [[hardware-wallet-angriffsvektoren]]
 
 - [[bitcoins-verwahren-und-vererben|Bitcoins verwahren und vererben (Marc Steiner)]] ← Buch
 

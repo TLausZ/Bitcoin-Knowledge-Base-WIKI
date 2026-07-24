@@ -34,3 +34,6 @@ Context: Lowery ist Autor von «Softwar» und liest Bitcoin als physische Machtp
 - [[bitcoin-netzwerkeffekte-und-design]]
 - [[bitcoin-fehlannahmen]]
 - [[bitcoin-digitale-knappheit]]
+- [[bitcoin-vs-krypto]]
+- [[satoshi-zitate]]
+- [[softwar]]

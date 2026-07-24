@@ -53,6 +53,13 @@ Mempool-Richtlinien schützen auch vor Spam: Eine Mindestgebühr verhindert, das
 - [[bitcoin-geldpolitik-und-21-millionen-limit]]
 - [[bitcoin-mining-und-proof-of-work]]
 - [[op-return-und-datenspeicherung]]
+- [[bip-0053]]
+- [[bip-0100]]
+- [[bip-0102]]
+- [[bip-0110]]
+- [[bip-0115]]
+- [[bip-0125]]
+- [[bip-0131]]
 
 - [[mastering-bitcoin|Mastering Bitcoin (Antonopoulos/Harding)]] ← Buch
 - [[blocksize-war|Der Blocksize-Krieg (2015–2017)]] ← Buch

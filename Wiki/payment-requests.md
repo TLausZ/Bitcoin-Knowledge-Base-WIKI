@@ -39,6 +39,9 @@ Payment Requests können mehr als nur die Adresse absichern. Beim Verkauf von Bi
 - [[hardware-wallet-sicherheitsarchitektur]]
 - [[regulierung-tofr-aopp]]
 - [[multisig-und-kollaborative-verwahrung]]
+- [[anti-klepto-und-supply-chain-sicherheit]]
+- [[bitcoin-kaufen-und-dca]]
+- [[phishing-und-angriffsmethoden]]
 
 ## Open Questions
 

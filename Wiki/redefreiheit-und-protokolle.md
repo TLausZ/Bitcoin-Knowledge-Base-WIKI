@@ -63,6 +63,9 @@ Die Hoffnung, die Gigi formuliert: Bitcoin + Nostr als Infrastruktur für "gesun
 - [[pgp-und-verschluesselungspolitik]]
 - [[bitcoin-netzwerkeffekte-und-design]]
 - [[nostr-protokoll]]
+- [[bitcoin-als-information]]
+- [[bitcoin-sprache-und-terminologie]]
+- [[gigi-philosophische-essays]]
 
 ## Open Questions
 

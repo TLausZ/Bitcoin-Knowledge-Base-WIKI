@@ -120,6 +120,9 @@ Svanholms "Unabhängigkeit neu gedacht" (2020) sammelt im letzten Kapitel die Ge
 - [[bitcoin-fehlannahmen]]
 - [[selbstverwahrung-und-boersenrisiken]]
 - [[praxeologie-methode-und-werttheorie]]
+- [[bitcoin-alles-geteilt-durch-21-millionen]]
+- [[bitcoin-als-inflationsschutz]]
+- [[bitcoin-als-lebender-organismus-gigi]]
 
 - [[bitcoin-inverse-of-clown-world|Bitcoin: Inverse of Clown World (Svanholm/de Wolf)]] ← Buch
 - [[the-bitcoin-handbook|The Bitcoin Handbook (Anil Patel)]] ← Buch

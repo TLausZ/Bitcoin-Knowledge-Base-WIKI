@@ -31,3 +31,4 @@ Die Wahl ist konsensrelevant: Alle Nodes müssen denselben Block-Header-Hash ber
 - [[merkle-baeume]]
 - [[bitcoin-transaktionsstruktur]]
 - [[taproot-musig2-frost]]
+- [[starks]]

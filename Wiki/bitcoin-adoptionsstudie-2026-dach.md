@@ -199,6 +199,9 @@ Operative Konsequenzen: Massenmedien-Budget trifft keine dokumentierte Adoptions
 - Anti-Befunde sind zeitabhängig und DACH-spezifisch; 2028 kann das Bild anders aussehen
 
 ## Related
+- [[bitcoin-kommunikation-und-orange-pilling]]
+- [[bitcoin-und-psychologie]]
+- [[crypto-adaption-europa-bsd-2026]]
 
 [[bitcoin-adoption-reise]] · [[bitcoin-bildung]] · [[bitcoin-vs-krypto]] · [[bitcoin-kaufen-und-dca]] · [[multisig-und-kollaborative-verwahrung]] · [[bitcoin-vererbung]] · [[bitcoin-etf-und-institutionelle-verwahrung]] · [[el-salvador-bitcoin-adoption]]
 

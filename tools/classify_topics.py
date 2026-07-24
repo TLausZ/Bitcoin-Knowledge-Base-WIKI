@@ -116,6 +116,9 @@ OVERRIDES = {
     "magic-future-money": ["oekonomie", "philosophie", "buecher"],
     # Datensnapshot Treasury-Companies: Marktdaten, nicht "sonstiges" (kein Keyword-Match)
     "bitcoin-treasury-companies": ["oekonomie", "adoption"],
+    # Prehistory-Grafik: Ideengeschichte 1974–2008, nicht "mining"/"oekonomie"/"adoption"
+    # (Trigger waren Proof-of-Work-Nennungen und die gescheiterten Digitalwährungen)
+    "bitcoin-vorgeschichte": ["geschichte", "philosophie", "protokoll"],
     # Bewertungsmetrik: nicht "privacy"/"adoption" (Trigger: UTXO bzw. ETF)
     "mvrv-und-realized-cap": ["oekonomie", "protokoll"],
     # Steuer-/Politikartikel: nicht "protokoll"/"kritik" (Trigger: § 23-Beschreibung ab Pass 94)

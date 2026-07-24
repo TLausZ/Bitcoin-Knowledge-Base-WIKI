@@ -90,6 +90,7 @@ Gibt die aktuelle Schwierigkeit als Dezimalzahl zurück.
 - [[bitcoin-blockchain-struktur]]
 - [[konsensregeln-und-mempool-richtlinien]]
 - [[bitcoin-whitepaper-errata]] ← Paper beschreibt Moving Average, implementiert ist der 2016-Blöcke-Vergleich
+- [[bitcoin-block-header]]
 
 ## Open Questions
 

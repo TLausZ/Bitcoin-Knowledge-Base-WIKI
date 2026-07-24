@@ -67,6 +67,7 @@ Phoenix (ACINQ) weist selbst darauf hin, dass die aktuelle Version keinen Datens
 - [[payment-codes-und-adressaustausch]]
 - [[silent-payments]]
 - [[coinjoin-und-on-chain-privatsphaere]]
+- [[lightning-netzwerk-grundlagen]]
 
 - [[einfuehrung-in-das-lightning-netzwerk|Einführung in das Lightning-Netzwerk (Antonopoulos, Osuntokun & Pickhardt)]] ← Buch
 

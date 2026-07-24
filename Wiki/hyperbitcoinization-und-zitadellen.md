@@ -3,7 +3,7 @@
 **Status:** emerging
 **Themen:** oekonomie, adoption
 **Last updated:** 2026-07-07
-**Sources:** [[aprycot-warren-zeitreisender-zukunft]], [[The Path to Hyberbitcoinization]], [[The Path to Hyperbitcoinization]], [[20240722_bmi-bitcoin-nation-sound-money-democracy-en]]
+**Sources:** [[aprycot-warren-zeitreisender-zukunft]], [[The Path to Hyperbitcoinization]], [[The Path to Hyperbitcoinization]], [[20240722_bmi-bitcoin-nation-sound-money-democracy-en]]
 
 ## Summary
 
@@ -61,6 +61,7 @@ Die Parallele zum Zitadellen-Denken ist deutlich: Fischer beruft sich auf histor
 - [[bitcoin-als-strategische-reserve]]
 - [[neofeudalism-und-bitcoin-exit]]
 - [[bitcoin-treasury-companies]]
+- [[bitcoin-monetarisierung]]
 
 ---
 
@@ -79,7 +80,7 @@ Mie Holstad, Chief Investment Officer Real Assets von Norwegens Staatsfonds (dem
 
 **Rechenbeispiel:** 1% Allokation der SWFs + PPFs = $350 Mrd. in Bitcoin. Bei einem "Market Cap Gain per Dollar Invested" von $4,54 (historisch) würde das Bitcoin auf ~$148.400 bewerten — allein durch diese Investorenklasse.
 
-**Der ESG-Chasm.** In Anlehnung an Geoffrey Moore's "Crossing the Chasm": Das Tal, das Bitcoin zwischen Early Adopters und Early Majority überqueren muss, heisst "ESG Investment Committee". Das Narrativ rund um Bitcoin-Mining als Umweltproblem war der Hauptgrund, warum Sovereign Funds Bitcoin nicht passieren liessen. Der Narrativwandel (2022–2025) ist damit nicht nur relevant für Bitcoin's öffentliches Bild, sondern direkt für die nächste Adoptionswelle. [[The Path to Hyberbitcoinization]], [[bitcoin-mining-narrativ-und-kritik]]
+**Der ESG-Chasm.** In Anlehnung an Geoffrey Moore's "Crossing the Chasm": Das Tal, das Bitcoin zwischen Early Adopters und Early Majority überqueren muss, heisst "ESG Investment Committee". Das Narrativ rund um Bitcoin-Mining als Umweltproblem war der Hauptgrund, warum Sovereign Funds Bitcoin nicht passieren liessen. Der Narrativwandel (2022–2025) ist damit nicht nur relevant für Bitcoin's öffentliches Bild, sondern direkt für die nächste Adoptionswelle. [[The Path to Hyperbitcoinization]], [[bitcoin-mining-narrativ-und-kritik]]
 
 **Erste Bewegungen.** 2024 legte das Wisconsin Retirement System $100 Mio. über Blackrock's iShares Bitcoin ETF an — erster Pensionsfonds weltweit mit einem öffentlich bestätigten Bitcoin-Investment. Die Dynamik hat begonnen, aber wie bei El Salvador (erster Nationalstaat mit Bitcoin als Legal Tender, 2021) folgten zunächst keine weiteren. Die Frage ist, wann das Muster kippt.
 

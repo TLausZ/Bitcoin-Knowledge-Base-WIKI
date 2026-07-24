@@ -69,6 +69,12 @@ Chainsplits passieren alle paar Wochen natürlich, wenn zwei Miner gleichzeitig 
 
 - [[konsensregeln-und-mempool-richtlinien]]
 - [[bitcoin-geldpolitik-und-21-millionen-limit]]
+- [[bip-0110]]
+- [[bitcoin-block-header]]
+- [[bitcoin-blockchain-struktur]]
+- [[bitcoin-covenants]]
+- [[craig-wright-faketoshi]]
+- [[segregated-witness-segwit]]
 
 - [[bitcoin-development-philosophy|Bitcoin Development Philosophy (Kalle & Linnea Rosenbaum)]] ← Buch
 - [[blocksize-war|The Blocksize War (Jonathan Bier)]] ← Buch

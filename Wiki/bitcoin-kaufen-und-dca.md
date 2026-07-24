@@ -83,6 +83,9 @@ Drei Fehler kosten besonders oft Geld: (1) Aus Panik bei Kursrückgängen verkau
 - [[silent-payments]]
 - [[bitcoin-fehlannahmen]]
 - [[selbstverwahrung-und-boersenrisiken]]
+- [[bitcoin-auf-kredit]]
+- [[bitcoin-beratung-und-micar]]
+- [[bitcoin-bildung]]
 
 - [[das-kleine-bitcoin-buch|Das kleine Bitcoin-Buch (The Bitcoin Collective)]] ← Buch
 - [[bitcoin-alles-geteilt-durch-21-millionen|Bitcoin: Alles geteilt durch 21 Millionen]] ← Buch

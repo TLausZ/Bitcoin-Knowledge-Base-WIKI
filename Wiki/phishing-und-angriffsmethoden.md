@@ -82,6 +82,7 @@ Wer diese zwei Regeln befolgt, lässt Angreifern kaum Spielraum.
 - [[payment-requests]]
 - [[anti-klepto-und-supply-chain-sicherheit]]
 - [[hardware-wallet-angriffsvektoren]]
+- [[frauen-und-bitcoin]]
 
 ## Open Questions
 

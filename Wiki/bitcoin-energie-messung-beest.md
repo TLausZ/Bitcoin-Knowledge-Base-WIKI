@@ -77,6 +77,7 @@ Dass sich diese Datenlage durchsetzt, zeigt sich am Verhältnis positiver zu neg
 - [[bitcoin-kommunikation-und-orange-pilling]]
 - [[bitcoin-humanitaere-anwendungen]]
 - [[bitcoin-etf-und-institutionelle-verwahrung]]
+- [[bitcoin-mining-netz-und-oekonomie]]
 
 - [[softwar|Softwar (Jason P. Lowery)]] ← Buch
 

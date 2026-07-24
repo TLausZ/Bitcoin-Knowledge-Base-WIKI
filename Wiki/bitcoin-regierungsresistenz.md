@@ -78,6 +78,7 @@ Nein — und das ist die Stärke des Systems. Bitcoin kennt auf Protokollebene k
 - [[kryptografische-schlussel-und-adressen]]
 - [[bitcoin-fehlannahmen]]
 - [[bitcoin-als-information]]
+- [[bitcoin-antifragilitaet]]
 
 - [[bitcoin-unabhaengigkeit-neu-gedacht|Bitcoin – Unabhängigkeit neu gedacht (Knut Svanholm)]] ← Buch
 - [[das-trojanische-pferd-der-freiheit|Das trojanische Pferd der Freiheit (Alex Gladstein)]] ← Buch

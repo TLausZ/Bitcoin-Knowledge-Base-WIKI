@@ -79,6 +79,10 @@ In dem ergänzenden Essay (2003) beschreibt Szabo die technischen Fortschritte i
 - [[bitcoin-geldpolitik-und-21-millionen-limit]]
 - [[oesterreichische-kapital-und-geldtheorie]]
 - [[ideal-money-und-bitcoin]]
+- [[bitcoin-bildung]]
+- [[bitcoin-monetarisierung]]
+- [[bitgenstein-geldtheorie-grundlagen]]
+- [[geld-staat-und-fiat-monopol]]
 
 - [[origins-of-money|On the Origins of Money (Carl Menger)]] ← Buch
 - [[der-bitcoin-standard|Der Bitcoin-Standard (Saifedean Ammous)]] ← Buch

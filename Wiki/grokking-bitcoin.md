@@ -41,6 +41,7 @@ Wer die verlinkten Konzeptartikel vertiefen will, findet im Buch die ausführlic
 - [[utxo-modell-und-konsolidierung]]
 - [[segregated-witness-segwit]]
 - [[bitcoin-mining-und-proof-of-work]]
+- [[bitcoin-development-philosophy]]
 
 ## Open Questions
 

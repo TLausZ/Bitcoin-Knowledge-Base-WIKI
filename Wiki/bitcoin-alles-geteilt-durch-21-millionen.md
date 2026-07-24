@@ -111,6 +111,11 @@ Technologie ist von Natur aus deflationär: Wir werden besser darin, Dinge herzu
 - [[bitcoin-spieltheorie-und-anreize]]
 - [[selbstverwahrung-und-boersenrisiken]]
 - [[bitcoin-kaufen-und-dca]]
+- [[bitcoin-als-inflationsschutz]]
+- [[bitcoin-digitale-knappheit]]
+- [[bitcoin-informationstheorie-entropie]]
+- [[bitcoin-powerlaw-und-preismodelle]]
+- [[bitcoin-unabhaengigkeit-neu-gedacht]]
 
 ## Open Questions
 

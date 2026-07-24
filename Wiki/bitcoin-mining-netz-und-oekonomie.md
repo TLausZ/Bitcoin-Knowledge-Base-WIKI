@@ -147,6 +147,9 @@ Der älteste und konzeptionell grundlegendste Artikel in diesem Corpus stammt au
 - [[bitcoin-energie-messung-beest]]
 - [[bitcoin-als-inflationsschutz]]
 - [[bitcoin-monetaere-deckung-und-sicherheit]]
+- [[bip-0310]]
+- [[bitcoin-mining-dezentralisierung]]
+- [[kapital-und-bitcoin]]
 
 ## Open Questions
 

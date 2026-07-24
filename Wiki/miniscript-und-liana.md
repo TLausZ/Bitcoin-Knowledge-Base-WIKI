@@ -61,6 +61,8 @@ Liana wird inzwischen auf deutschsprachigen Community-Events in Workshops vermit
 - [[wallet-backup-strategien]]
 - [[bitcoin-etf-und-institutionelle-verwahrung]]
 - [[nunchuk-wallet]]
+- [[bitcoin-script-und-output-locks]]
+- [[bitcoin-vererbung]]
 
 - [[bitcoins-verwahren-und-vererben|Bitcoins verwahren und vererben (Marc Steiner)]] ← Buch
 

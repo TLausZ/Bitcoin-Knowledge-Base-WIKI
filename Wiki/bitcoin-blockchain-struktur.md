@@ -95,6 +95,9 @@ Die Merkle Root ist ein einzelner Hash, der alle Transaktionen im Block repräse
 - [[utxo-modell-und-konsolidierung]]
 - [[soft-fork-und-hard-fork]]
 - [[bitcoin-rechtliche-angriffe]]
+- [[bitcoin-block-header]]
+- [[bitcoin-chainwork]]
+- [[bitcoin-datenformate]]
 
 - [[mastering-bitcoin|Mastering Bitcoin (Antonopoulos/Harding)]] ← Buch
 

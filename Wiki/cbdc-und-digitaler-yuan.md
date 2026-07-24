@@ -59,6 +59,7 @@ Gladsteins Kernthese: Das massive Blockchain-Bildungsprogramm der KPCh ist strat
 - [[bitcoin-humanitaere-anwendungen]]
 - [[el-salvador-bitcoin-adoption]]
 - [[stablecoins-und-agentische-zahlungen]]
+- [[bitcoin-adoption-report-river-2026]]
 
 ## Open Questions
 

@@ -121,6 +121,9 @@ s × G =? R + e × PublicKey
 - [[taproot-musig2-frost]]
 - [[bitcoin-mining-und-proof-of-work]]
 - [[hd-wallets-und-schluesselableitung]]
+- [[bitcoin-digitale-knappheit]]
+- [[bitcoin-entropie-und-ordnung]]
+- [[bitcoin-und-quantenrisiko]]
 
 - [[mastering-bitcoin|Mastering Bitcoin (Antonopoulos/Harding)]] ← Buch
 

@@ -140,6 +140,10 @@ Die erste Transaktion in jedem Block hat keine Inputs. Der Miner erstellt sie se
 - [[digitale-signaturen-ecdsa]]
 - [[segregated-witness-segwit]]
 - [[bitcoin-datenformate]]
+- [[bitcoin-burn-address]]
+- [[coinbase-duplikat-transaktionen]]
+- [[double-sha256]]
+- [[glossar-bitcoin-technik]]
 
 - [[mastering-bitcoin|Mastering Bitcoin (Antonopoulos/Harding)]] ← Buch
 

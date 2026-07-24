@@ -62,6 +62,10 @@ Wer dem Gerät bezüglich Zufallsgenerierung nicht blind vertrauen will, kann se
 - [[bip39-schwache-seeds]]
 - [[bitcoin-entropie-und-ordnung]]
 - [[bitcoin-entropy-rng]]
+- [[hardware-wallet-migration]]
+- [[hd-wallets-und-schluesselableitung]]
+- [[kryptografische-schlussel-und-adressen]]
+- [[optionale-passphrase]]
 
 - [[bitcoins-verwahren-und-vererben|Bitcoins verwahren und vererben (Marc Steiner)]] ← Buch
 

@@ -170,6 +170,8 @@ Der Vorwurf bleibt prominent: Im März 2026 nannte Ex-Premier Boris Johnson Bitc
 - [[bitcoin-volatilitaet-und-preisfindung]]
 - [[bitcoin-regierungsresistenz]]
 - [[bitcoin-whitepaper-errata]] ← interne, eingestandene Fehler des Whitepapers selbst
+- [[bitcoin-absolute-knappheit]]
+- [[bitcoin-antifragilitaet]]
 
 - [[der-bitcoin-standard|Der Bitcoin-Standard (Saifedean Ammous)]] ← Buch
 

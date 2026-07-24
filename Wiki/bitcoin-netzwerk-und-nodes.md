@@ -174,6 +174,8 @@ StopAndDecrypt nennt das Ergebnis eine "uneinnehmbare Festung der Validierung": 
 - [[selbstverwahrung-und-boersenrisiken]]
 - [[satoshi-zitate]]
 - [[bitcoin-whitepaper-errata]] ← Terminologie-Drift «nodes» vs. Miner seit dem Whitepaper
+- [[bip-0014]]
+- [[bip-0031]]
 
 - [[mastering-bitcoin|Mastering Bitcoin (Antonopoulos/Harding)]] ← Buch
 

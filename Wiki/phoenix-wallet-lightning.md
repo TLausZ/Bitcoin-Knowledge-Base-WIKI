@@ -91,6 +91,11 @@ Der Zahlungsvorweis (Payment Preimage) dient als Zahlungsnachweis: Wenn der Stat
 - [[transaktionsgebuehren-und-mempool]]
 - [[hd-wallets-und-schluesselableitung]]
 - [[opsec-und-privatsphaere]]
+- [[bitblik]]
+- [[lightning-address-datenschutz]]
+- [[lightning-netzwerk-grundlagen]]
+- [[lightning-rebalancing]]
+- [[lightning-splicing]]
 
 - [[einfuehrung-in-das-lightning-netzwerk|Einführung in das Lightning-Netzwerk (Antonopoulos, Osuntokun & Pickhardt)]] ← Buch
 

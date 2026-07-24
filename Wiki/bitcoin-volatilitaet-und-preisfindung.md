@@ -104,6 +104,7 @@ Gegen die Community-Konvention, den Preis für nebensächlich zu erklären («ne
 - [[bitcoin-und-immobilien]]
 - [[bitcoin-unternehmens-strategie]]
 - [[bitcoin-treasury-companies]]
+- [[bip-0171]]
 
 ## Open Questions
 

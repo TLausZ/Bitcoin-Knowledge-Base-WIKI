@@ -187,6 +187,7 @@ Nodes relayieren nur Standard-Scripts (oben beschrieben). Custom Scripts können
 - [[segregated-witness-segwit]]
 - [[taproot-musig2-frost]]
 - [[skalierung-lightning-ark-statechains]]
+- [[bip-0115]]
 
 - [[mastering-bitcoin|Mastering Bitcoin (Antonopoulos/Harding)]] ← Buch
 

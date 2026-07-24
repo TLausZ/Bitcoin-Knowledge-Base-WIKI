@@ -60,6 +60,8 @@ Unternehmen wie FutureBit und Coinmine bieten Plug-and-Play-Miner für Haushalte
 - [[bitcoin-mining-netz-und-oekonomie]]
 - [[konsensregeln-und-mempool-richtlinien]]
 - [[bitcoin-als-organismus]]
+- [[bip-0110]]
+- [[bitcoin-adoption-report-river-2026]]
 
 ## Open Questions
 

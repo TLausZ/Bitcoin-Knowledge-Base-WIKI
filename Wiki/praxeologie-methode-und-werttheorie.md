@@ -131,6 +131,8 @@ Zwei Randnotizen aus derselben Quelle: Mattes vermeidet das belastete Etikett «
 - [[bitcoin-geld-als-fiktion-und-paradigmenwechsel]]
 - [[bitcoin-spieltheorie-und-anreize]]
 - [[bitcoin-fehlannahmen]]
+- [[bitcoin-bildung]]
+- [[bitcoin-informationstheorie-entropie]]
 
 - [[praxeology|Praxeology (Knut Svanholm)]] ← Buch
 - [[gesetze-der-wirtschaft|Die Gesetze der Wirtschaft (Saifedean Ammous)]] ← Buch

@@ -58,6 +58,11 @@ Zwei Ökosystem-Beobachtungen aus dem Rückblick: Bitvocation vermittelt Arbeits
 Beide Texte sind Erfahrungsberichte eines aktiven Community-Mitglieds, keine neutrale Vermessung; die Teilnehmerzahlen sind Beobachtungen bzw. Veranstalterangaben. Szabelski legt zudem Partnercodes (BTC Prague, 21Bitcoin) offen, hat also ein kommerzielles Interesse an Konferenzbesuchen. Sein Kernpunkt bleibt davon unberührt: Je mehr aktiv Beitragende, desto gesünder die Community, und der Weg vom Konsumenten zum Beitragenden ist gangbar und beschreibbar.
 
 ## Related
+- [[bitcoin-adoption-reise]]
+- [[bitcoin-bildung]]
+- [[bitcoin-kommunikation-und-orange-pilling]]
+- [[bitcoin-und-spiritualitaet]]
+- [[frauen-und-bitcoin]]
 
 [[bitcoin-bildung]] · [[bitcoin-adoption-reise]] · [[bitcoin-kommunikation-und-orange-pilling]] · [[value4value-und-wertaktivierendes-web]] · [[bitcoin-und-selbstverantwortung]] · [[frauen-und-bitcoin]] · [[bitcoin-volatilitaet-und-preisfindung]]
 

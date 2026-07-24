@@ -115,6 +115,8 @@ Kein Backdoor, kein Passwort-Reset: Wer den Private Key verliert, verliert die B
 - [[wallet-backup-strategien]]
 - [[hardware-wallet-sicherheitsarchitektur]]
 - [[taproot-musig2-frost]]
+- [[bitcoin-als-information]]
+- [[bitcoin-burn-address]]
 
 - [[mastering-bitcoin|Mastering Bitcoin (Antonopoulos/Harding)]] ← Buch
 

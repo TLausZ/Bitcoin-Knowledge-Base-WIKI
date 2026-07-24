@@ -69,6 +69,8 @@ BBR ist eine kuratierte Sekundärquelle mit deklariertem Pro-Bitcoin-Bias, keine
 - [[bitcoin-powerlaw-und-preismodelle]]
 - [[onchain-indikatoren-und-anlegerverhalten]]
 - [[bitcoin-bildung]]
+- [[bitcoin-adoption-report-river-2026]]
+- [[bitcoin-marktkommentar-lnms]]
 
 ## Open Questions
 

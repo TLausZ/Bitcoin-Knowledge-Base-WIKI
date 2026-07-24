@@ -54,6 +54,10 @@ Alle Inputs einer Konsolidierungstransaktion werden miteinander verknüpft — e
 - [[konsensregeln-und-mempool-richtlinien]]
 - [[bitcoin-whitepaper]]
 - [[electrum-wallet]]
+- [[bip-0131]]
+- [[bip-0337]]
+- [[bip-0451]]
+- [[bitcoin-adresstypen]]
 
 - [[mastering-bitcoin|Mastering Bitcoin (Antonopoulos/Harding)]] ← Buch
 - [[grokking-bitcoin|Grokking Bitcoin / Bitcoin begreifen (Kalle Rosenbaum)]] ← Buch

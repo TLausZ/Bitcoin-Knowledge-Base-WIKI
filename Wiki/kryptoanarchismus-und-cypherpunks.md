@@ -69,6 +69,10 @@ Hayases Gegenargumentation: Satoshi hat nicht versprochen, sondern gezeigt. Der 
 - [[digitales-bargeld-und-ecash]]
 - [[bitcoin-whitepaper]]
 - [[opsec-und-privatsphaere]]
+- [[biometrie-und-finanzueberwachung]]
+- [[bitcoin-als-organismus]]
+- [[bitcoin-fruehgeschichte]]
+- [[bitcoin-geld-als-fiktion-und-paradigmenwechsel]]
 
 - [[das-trojanische-pferd-der-freiheit|Das Trojanische Pferd der Freiheit]] ← Buch
 - [[blocksize-war|Der Blocksize-Krieg (2015–2017)]] ← Buch

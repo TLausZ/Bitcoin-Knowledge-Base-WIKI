@@ -86,6 +86,9 @@ Breedlove nutzt ein Marktanalogiebeispiel: Larry produziert Zitronen; sein Preis
 - [[oesterreichische-kapital-und-geldtheorie]]
 - [[geld-staat-und-fiat-monopol]]
 - [[ideal-money-und-bitcoin]]
+- [[bip-0042]]
+- [[bitcoin-informationstheorie-entropie]]
+- [[selbsteigentum-und-naturrecht]]
 
 ## Open Questions
 

@@ -48,6 +48,7 @@ Svanholm bezweifelt, dass Nationen, Banken oder institutionelle Investoren Bitco
 - [[bitcoin-geld-als-fiktion-und-paradigmenwechsel]]
 - [[bitcoin-regierungsresistenz]]
 - [[eu-regulierung-selbstverwahrung]]
+- [[selbstverwahrung-und-boersenrisiken]]
 
 ## Open Questions
 

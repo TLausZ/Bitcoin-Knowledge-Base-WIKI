@@ -90,6 +90,7 @@ Das Goldparadox ist lehrreich: Gold war dezentral, aber seine physischen Eigensc
 - [[bitcoin-marktkommentar-lnms]]
 - [[bitcoin-treasury-companies]]
 - [[bitcoin-beratung-und-micar]]
+- [[bip-0127]]
 
 ## Open Questions
 

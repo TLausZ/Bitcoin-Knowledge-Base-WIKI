@@ -95,6 +95,7 @@ Gigi: „Es ist Tag 2 für das Internet, und es ist an der Zeit, es zu repariere
 - [[bitcoin-mining-und-proof-of-work]]
 - [[bitcoin-adoption-reise]]
 - [[nostr-protokoll]]
+- [[gigi-philosophische-essays]]
 
 ## Open Questions
 

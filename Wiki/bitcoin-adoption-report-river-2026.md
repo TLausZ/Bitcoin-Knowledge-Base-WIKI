@@ -2,8 +2,8 @@
 
 **Status:** emerging
 **Themen:** lightning, oekonomie, adoption, studien
-**Last updated:** 2026-07-13
-**Sources:** [[river-bitcoin-adoption-report-2026.pdf]]
+**Last updated:** 2026-07-24
+**Sources:** [[river-bitcoin-adoption-report-2026.pdf]], [[2026-Q1_river-bitcoin-ownership-change.md]], [[2026-Q2_river-bitcoin-ownership-change.md]]
 
 ## Summary
 
@@ -22,6 +22,21 @@ Rivers Schätzung der Verteilung per 31.12.2025: Individuen 14,01M BTC (66,7%), 
 2025 war das zweite Jahr mit deutlichen Abflüssen bei Individuen (−696K BTC), gespiegelt von Zuflüssen bei Businesses (+489K), ETFs und Regierungen. Der individuelle Besitz erreichte 2024 seinen Höhepunkt. Ein Teil der Abflüsse ist derselbe wirtschaftliche Eigentümer, der aus Steuer- oder Sicherheitsgründen in ETFs und Aktien umschichtet. Schreibt man den 2025er-Trend fort, hält der institutionelle Block (Businesses 6,34M, Funds 3,55M, Regierungen 1,78M) bis 2036 die Mehrheit, Individuen fallen auf 6,54M BTC.
 
 Der Verkaufsdruck 2025 kam laut Report von Langzeithaltern: Über 1 Million BTC wanderten von Adressen mit über zwei Jahren Haltedauer zu neuen Adressen. River deutet das als Folge verbesserter Liquidität — frühe Halter können erstmals in grossem Stil Gewinne realisieren, ohne den Markt zu bewegen.
+
+### Fortschreibung 2026: Quartalszahlen
+
+River veröffentlicht die Nettoveränderung je Halterkategorie inzwischen quartalsweise (Datenbasis River und BitcoinTreasuries). Die ersten beiden Quartale 2026 bestätigen den Trend und verschärfen ihn:
+
+| Kategorie | Q1 2026 | Q2 2026 | Summe H1 |
+|---|---|---|---|
+| Businesses | +69K | +115K | +184K |
+| Funds & ETFs | +3K | +11K | +14K |
+| Governments | +25K | −2K | +23K |
+| Individuals | −62K | −78K | −140K |
+
+Zwei Beobachtungen. Erstens läuft der Abfluss bei Individuen mit −140K BTC im ersten Halbjahr auf einen Jahreswert zu, der den 2025er-Wert von −696K nicht erreicht, aber deutlich über dem Tempo liegt, das Rivers 2036-Projektion unterstellt. Zweitens hat sich die Aufnahmeseite verschoben: 2025 waren Businesses (+489K) und ETFs die Gegenpole, 2026 tragen Businesses fast die gesamte Aufnahme allein, während Funds und ETFs mit +14K im Halbjahr kaum ins Gewicht fallen. Die Regierungen kippten in Q2 erstmals ins Minus (−2K), was mit dem Abverkauf beschlagnahmter Bestände zusammenhängen kann; der Report selbst nennt keinen Grund. [[2026-Q1_river-bitcoin-ownership-change.md]], [[2026-Q2_river-bitcoin-ownership-change.md]]
+
+Die Charts nennen weder absolute Bestände noch Methodik. Sie sind als Trendbestätigung zu lesen, nicht als eigenständige Datenquelle; die Kategoriegrenzen und die Behandlung von Umschichtungen desselben wirtschaftlichen Eigentümers gelten wie im Jahresreport.
 
 ### Wall Street
 

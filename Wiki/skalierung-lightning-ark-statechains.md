@@ -93,6 +93,9 @@ Das Ergebnis: eine Turing-vollständige Execution-Umgebung mit globalem State un
 - [[bitcoin-monetarisierung]]
 - [[praxeologie-methode-und-werttheorie]]
 - [[starks]]
+- [[bitblik]]
+- [[bitcoin-covenants]]
+- [[bitcoin-fehlannahmen]]
 
 - [[einfuehrung-in-das-lightning-netzwerk|Einführung in das Lightning-Netzwerk (Antonopoulos/Osuntokun/Pickhardt)]] ← Buch
 - [[internet-of-money-vol2|The Internet of Money Vol. 2 (Andreas Antonopoulos)]] ← Buch

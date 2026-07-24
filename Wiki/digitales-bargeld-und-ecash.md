@@ -81,6 +81,10 @@ Lösungsversuche für Bitcoin-Privatsphäre (CoinJoin, Silent Payments, Lightnin
 - [[payment-codes-und-adressaustausch]]
 - [[bitcoin-netzwerkeffekte-und-design]]
 - [[ideal-money-und-bitcoin]]
+- [[digitales-zeitstempel]]
+- [[fedimint-und-community-custody]]
+- [[hashcash]]
+- [[satoshi-ankuendigung-2009]]
 
 ## Open Questions
 

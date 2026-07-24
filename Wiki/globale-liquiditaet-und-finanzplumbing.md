@@ -64,6 +64,7 @@ Der Rahmen ist analytisch nützlich, aber parteiisch: Die Gäste sind überwiege
 - [[dollar-hegemonie-super-imperialismus]]
 - [[stablecoins-und-agentische-zahlungen]]
 - [[bitcoin-volatilitaet-und-preisfindung]]
+- [[us-marktstruktur-clarity-act]]
 
 ## Open Questions
 

@@ -45,6 +45,8 @@ Die vier Bausteine haben sehr unterschiedliche Evidenzqualität: ein populäres,
 - [[bitcoin-volatilitaet-und-preisfindung]]
 - [[bitcoin-fehlannahmen]]
 - [[bitcoin-adoptionsstudie-2026-dach]]
+- [[bitcoin-und-ki]]
+- [[onchain-indikatoren-und-anlegerverhalten]]
 
 ## Open Questions
 

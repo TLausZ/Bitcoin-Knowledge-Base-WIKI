@@ -50,6 +50,11 @@ Das Ziel ist nicht, Kriminellen zu helfen. Das Ziel ist, das Fundament des Gelds
 - [[bitcoin-geldpolitik-und-21-millionen-limit]]
 - [[bitcoin-netzwerk-und-nodes]]
 - [[bitcoin-digitale-knappheit]]
+- [[bitcoin-fruehgeschichte]]
+- [[bitcoin-monetaere-deckung-und-sicherheit]]
+- [[bitcoin-nicht-kopierbar]]
+- [[bitcoin-skalierung-und-zahlungen]]
+- [[internet-of-money-vol3]]
 
 - [[internet-of-money-vol1|The Internet of Money, Vol. 1]] ← Buch
 - [[bitcoin-development-philosophy|Bitcoin Development Philosophy (Kalle & Linnea Rosenbaum)]] ← Buch

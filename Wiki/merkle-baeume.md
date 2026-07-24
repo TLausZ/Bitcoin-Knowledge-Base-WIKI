@@ -74,6 +74,9 @@ Merkle Proof für TxC:
 - [[hashcash]]
 - [[starks]]
 - [[bitcoin-whitepaper-errata]] ← Merkle-Pruning aus Kapitel 7 funktioniert nicht universell
+- [[bitcoin-block-header]]
+- [[bitcoin-blockchain-struktur]]
+- [[double-sha256]]
 
 ## Open Questions
 
