@@ -869,6 +869,7 @@ async function openDoc(name, back=false){
   const seq=++docSeq;                       // auch der Cache-Pfad entwertet noch laufende Fetches
   if(!back && curDoc && curDoc!==name) hist.push(curDoc);
   curDoc=name; updateNav();
+  history.replaceState(null,'','#'+encodeURIComponent(name));   // teilbarer Deep-Link, ohne hashchange/History-Eintrag
   mgh.href=WIKI_URL+encodeURIComponent(name)+'.md';   // Original auf GitHub (auch bei Ladefehler nutzbar)
   modal.classList.add('open');
   // Kartenauswahl mitziehen, damit sie nach dem Schliessen zum gelesenen Artikel passt
@@ -986,4 +987,13 @@ admSync();
   arm();
 }
 resize(); build(); renderList();
+
+// Deep-Link: #slug öffnet den Artikel direkt im Lese-Modal (setzt auch sel/Liste).
+// Slug = Dateiname eines Artikels, z.B. index.html#bip-0110. Unbekannter Slug: no-op.
+function selectFromHash(){
+  const slug=decodeURIComponent(location.hash.slice(1)); if(!slug) return;
+  if(NAMES.has(slug) && curDoc!==slug) openDoc(slug);
+}
+addEventListener('hashchange',selectFromHash);
+selectFromHash();
 </script>

@@ -85,6 +85,17 @@ erscheint oben im Kartenbereich Name und GitHub-URL des Artikels; die URL
 öffnet die Wiki-Seite in einem neuen Fenster. Die Basis-URL steckt als
 Konstante `WIKI_URL` im HTML und als `url`-Spalte in `Outputs/ranking.csv`.
 
+### Deep-Links auf einzelne Artikel
+
+Ein `#slug` an der URL öffnet den Artikel beim Laden direkt im Lese-Modal
+und markiert ihn auf Karte und Liste. Der Slug ist der Dateiname des
+Wiki-Artikels, z. B.
+[…/index.html#bip-0110](https://tlausz.github.io/Bitcoin-Knowledge-Base-WIKI/#bip-0110).
+Beim Öffnen eines Artikels schreibt die Karte den Hash selbst in die
+Adresszeile — anklicken, URL kopieren, weitergeben. Ein unbekannter Slug
+wird ignoriert; auf Themenkarten (`themen/*.html`) greift der Link nur, wenn
+der Artikel dort vorkommt.
+
 ## Determinismus
 
 Beide Wiki-Karten sind deterministisch: Terrain-Rauschen und Layout laufen
