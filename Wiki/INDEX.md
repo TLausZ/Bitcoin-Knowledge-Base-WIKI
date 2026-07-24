@@ -339,7 +339,7 @@ Alle Artikel alphabetisch. Stand: 2026-07-22 (Compile-Pass 102: 1 neues File (Je
 | [[bip-0106]] | Dynamically Controlled Bitcoin Block Size Max Cap | Closed | Specification | Consensus (hard fork) |
 | [[bip-0107]] | Dynamic limit on the block size | Closed | Specification | Consensus (hard fork) |
 | [[bip-0109]] | Two million byte size limit with sigop and sighash limits | Closed | Specification | Consensus (hard fork) |
-| [[bip-0110]] | Reduced Data Temporary Softfork | Draft | Specification | Consensus (soft fork) |
+| [[bip-0110]] | Reduced Data Temporary Softfork | Complete (25.06.2026, nicht aktiviert) | Specification | Consensus (soft fork) |
 | [[bip-0111]] | NODE_BLOOM service bit | Deployed | Specification | Peer Services |
 | [[bip-0112]] | CHECKSEQUENCEVERIFY | Deployed | Specification | Consensus (soft fork) |
 | [[bip-0113]] | Median time-past as endpoint for lock-time calculations | Deployed | Specification | Consensus (soft fork) |
