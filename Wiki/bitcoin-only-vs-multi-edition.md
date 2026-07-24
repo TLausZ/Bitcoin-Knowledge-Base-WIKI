@@ -41,6 +41,8 @@ Viele Einsteiger verwalten noch Coins über Börsen und wollen beim Wechsel zur 
 - [[hardware-wallet-sicherheitsarchitektur]]
 - [[bitbox02-nova]]
 - [[wallet-backup-strategien]]
+- [[firmware-verifikation-und-reproduzierbarkeit]]
+- [[bitbox02-features]]
 
 ## Open Questions
 

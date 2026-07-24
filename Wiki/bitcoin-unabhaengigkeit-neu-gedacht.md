@@ -45,6 +45,9 @@ Svanholm bezweifelt, dass Nationen, Banken oder institutionelle Investoren Bitco
 - [[praxeology]]
 - [[bitcoin-inverse-of-clown-world]]
 - [[geldpolitik-und-inflation]]
+- [[bitcoin-geld-als-fiktion-und-paradigmenwechsel]]
+- [[bitcoin-regierungsresistenz]]
+- [[eu-regulierung-selbstverwahrung]]
 
 ## Open Questions
 

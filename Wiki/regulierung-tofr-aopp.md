@@ -49,6 +49,8 @@ Aus technischer Sicht kann keine Verifizierungsmethode eindeutig beweisen, *wer*
 
 - [[opsec-und-privatsphaere]]
 - [[hardware-wallet-sicherheitsarchitektur]]
+- [[bitcoin-beratung-und-micar]]
+- [[bitcoin-etf-und-institutionelle-verwahrung]]
 
 ## Open Questions
 

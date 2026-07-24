@@ -78,6 +78,8 @@ Dass sich diese Datenlage durchsetzt, zeigt sich am Verhältnis positiver zu neg
 - [[bitcoin-humanitaere-anwendungen]]
 - [[bitcoin-etf-und-institutionelle-verwahrung]]
 
+- [[softwar|Softwar (Jason P. Lowery)]] ← Buch
+
 ## Open Questions
 
 - BEEST ist ein bottom-up gepflegtes Modell einer Einzelperson. Wer übernimmt die Pflege und Validierung, falls Batten aussteigt, und gibt es eine unabhängige Reproduktion der Ergebnisse?

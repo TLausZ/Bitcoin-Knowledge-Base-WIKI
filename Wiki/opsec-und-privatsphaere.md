@@ -120,6 +120,7 @@ Es gibt Situationen, wo offenes Sprechen über den eigenen Bitcoin-Besitz wichti
 - [[coinjoin-und-on-chain-privatsphaere]]
 
 - [[das-privacy-handbuch|Das Privacy Handbuch (Timo Volkov)]] ← Buch
+- [[das-kleine-bitcoin-buch|Das kleine Bitcoin-Buch]] ← Buch
 
 ## Open Questions
 

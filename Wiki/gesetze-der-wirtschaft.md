@@ -42,6 +42,8 @@ Inhaltlich überschneidet sich das Buch mit Svanholms „Praxeology", ist aber b
 - [[der-fiat-standard]]
 - [[origins-of-money]]
 - [[kapital-und-bitcoin]]
+- [[finanzialisierung-und-kapitalverbrauch]]
+- [[oesterreichische-kapital-und-geldtheorie]]
 
 ## Open Questions
 

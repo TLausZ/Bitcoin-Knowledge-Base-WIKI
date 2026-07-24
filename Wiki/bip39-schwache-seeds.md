@@ -42,6 +42,8 @@ BIP39 wurde trotzdem zum De-facto-Standard, da nahezu alle anderen Wallets es ad
 - [[diceware-und-seed-generierung]]
 - [[electrum-wallet]]
 - [[hd-wallets-und-schluesselableitung]]
+- [[bitcoin-seed-cracking]]
+- [[bitcoin-entropy-rng]]
 
 ## Open Questions
 

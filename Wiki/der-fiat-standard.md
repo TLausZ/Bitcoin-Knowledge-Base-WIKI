@@ -42,6 +42,9 @@ Teil III bringt Bitcoin als Auflösung. Bitcoin trennt Geld wieder von Schuld: e
 - [[geldpolitik-und-inflation]]
 - [[praxeology]]
 - [[bitcoin-alles-geteilt-durch-21-millionen]]
+- [[finanzialisierung-und-kapitalverbrauch]]
+
+- [[gesetze-der-wirtschaft|Gesetze der Wirtschaft: Menschliches Handeln (Saifedean Ammous)]] ← Buch
 
 ## Open Questions
 

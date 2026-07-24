@@ -64,6 +64,7 @@ Hardware-Wallet-Rollout am Beispiel BitBox02: Senden an bc1p-Adressen ab Januar 
 - [[segregated-witness-segwit]]
 - [[hd-wallets-und-schluesselableitung]]
 - [[utxo-modell-und-konsolidierung]]
+- [[bitcoin-und-quantenrisiko]]
 
 - [[mastering-bitcoin|Mastering Bitcoin (Antonopoulos/Harding)]] ← Buch
 

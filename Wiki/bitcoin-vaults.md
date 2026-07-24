@@ -47,6 +47,7 @@ Covenant-Vorschläge für Bitcoin (z.B. CTV, CheckTXHashVerify) sind zum Zeitpun
 - [[skalierung-lightning-ark-statechains]]
 - [[taproot-musig2-frost]]
 - [[multisig-und-kollaborative-verwahrung]]
+- [[bitcoin-covenants]]
 
 ## Open Questions
 

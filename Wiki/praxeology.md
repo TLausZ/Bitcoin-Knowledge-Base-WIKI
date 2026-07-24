@@ -55,6 +55,9 @@ Die Verbindung zu Bitcoin liegt in der Ableitbarkeit: Praxeologisches Denken zei
 - [[geldpolitik-und-inflation]]
 - [[kapital-und-bitcoin]]
 
+- [[bitcoin-unabhaengigkeit-neu-gedacht|Bitcoin: Unabhängigkeit neu gedacht]] ← Buch
+- [[der-bitcoin-standard|Der Bitcoin-Standard (Saifedean Ammous)]] ← Buch
+
 ## Open Questions
 
 - Hält die Analogie „Praxeologie verhält sich zum Subjektiven wie Mathematik zum Objektiven" einer strengen Prüfung stand, oder verdeckt sie, dass die Axiome selbst umstritten sind?

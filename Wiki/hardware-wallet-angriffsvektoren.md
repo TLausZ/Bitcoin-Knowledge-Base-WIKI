@@ -57,6 +57,8 @@ Obwohl alle fünf Angriffe dokumentiert sind, gibt es keine öffentlichen Berich
 - [[multisig-und-kollaborative-verwahrung]]
 - [[optionale-passphrase]]
 - [[utxo-modell-und-konsolidierung]]
+- [[bitcoin-seed-cracking]]
+- [[specter-diy]]
 
 ## Open Questions
 

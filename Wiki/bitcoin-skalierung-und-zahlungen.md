@@ -51,6 +51,8 @@ Bitcoin konkurriert auf der Basisschicht mit Gold und dem Dollar als Wertspeiche
 - [[bitcoin-geldpolitik-und-21-millionen-limit]]
 - [[bitcoin-netzwerk-und-nodes]]
 - [[lightning-netzwerk-grundlagen]]
+- [[stablecoins-und-agentische-zahlungen]]
+- [[bitcoin-und-ki]]
 
 ## Open Questions
 

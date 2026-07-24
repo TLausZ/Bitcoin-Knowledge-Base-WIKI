@@ -68,6 +68,8 @@ Hardware-Wallets unterscheiden sich in Sicherheitsniveau und Trade-offs. Relevan
 - [[bitcoin-kaufen-und-dca]]
 - [[komplexitaet-ist-keine-sicherheit]]
 
+- [[bitcoins-verwahren-und-vererben|Bitcoins verwahren und vererben (Marc Steiner)]] ← Buch
+
 ## Open Questions
 
 - Ab welchem Betrag rechtfertigt sich der Aufwand einer Hardware-Wallet?

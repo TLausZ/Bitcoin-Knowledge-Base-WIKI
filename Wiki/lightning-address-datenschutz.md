@@ -68,6 +68,8 @@ Phoenix (ACINQ) weist selbst darauf hin, dass die aktuelle Version keinen Datens
 - [[silent-payments]]
 - [[coinjoin-und-on-chain-privatsphaere]]
 
+- [[einfuehrung-in-das-lightning-netzwerk|Einführung in das Lightning-Netzwerk (Antonopoulos, Osuntokun & Pickhardt)]] ← Buch
+
 ## Open Questions
 
 - Haben neuere Wallet-of-Satoshi-Versionen das Spark-Routing-Hint-Problem behoben?

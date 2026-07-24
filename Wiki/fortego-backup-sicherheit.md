@@ -90,6 +90,9 @@ Das dahinterliegende Prinzip ist dasselbe wie beim Double Responsibility Problem
 - [[shamir-secret-sharing]]
 - [[opsec-und-privatsphaere]]
 - [[biometrie-und-finanzueberwachung]]
+- [[bitcoin-vererbung]]
+
+- [[bitcoins-verwahren-und-vererben|Bitcoins verwahren und vererben (Marc Steiner)]] ← Buch
 
 ## Open Questions
 

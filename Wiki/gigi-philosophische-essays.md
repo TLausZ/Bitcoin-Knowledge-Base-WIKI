@@ -102,6 +102,8 @@ Gigi beschreibt die Adoption von Bitcoin durch Mainstream-Akteure als Dreistadie
 
 Ralph Merkles Analyse schliesst den Kreis: Bitcoin ist eine neue Lebensform. Sie kann nicht verändert, nicht manipuliert, nicht korrumpiert, nicht unterbrochen und nicht gestoppt werden. [[aprycot-gigi-bitcoin-die-welt-wacht-auf]]
 
+- [[21-lektionen-bitcoin-kaninchenbau|21 Lektionen: Meine Reise in den Bitcoin-Kaninchenbau]] ← Buch
+
 ## Open Questions
 
 - Hat Gigi weitere philosophische Essays ohne direkten Bitcoin-Bezug veröffentlicht?

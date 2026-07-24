@@ -71,6 +71,8 @@ Bitcoin verwendete seit Anfang ECDSA. Mit dem Taproot-Upgrade (2021) wurde **Sch
 - [[taproot-musig2-frost]]
 - [[anti-klepto-und-supply-chain-sicherheit]]
 
+- [[mastering-bitcoin|Mastering Bitcoin (Antonopoulos & Harding)]] ← Buch
+
 ## Open Questions
 
 - Wie unterscheidet sich Schnorr mathematisch von ECDSA und warum ist es sicherer gegen bestimmte Angriffe?

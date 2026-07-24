@@ -70,6 +70,9 @@ Hayases Gegenargumentation: Satoshi hat nicht versprochen, sondern gezeigt. Der 
 - [[bitcoin-whitepaper]]
 - [[opsec-und-privatsphaere]]
 
+- [[das-trojanische-pferd-der-freiheit|Das Trojanische Pferd der Freiheit]] ← Buch
+- [[blocksize-war|Der Blocksize-Krieg (2015–2017)]] ← Buch
+
 ## Open Questions
 
 - Wie hat sich die Cypherpunk-Bewegung nach Bitcoins Entstehung verändert? Haben Schlüsselfiguren (May, Goldstein) Bitcoin angenommen oder abgelehnt?

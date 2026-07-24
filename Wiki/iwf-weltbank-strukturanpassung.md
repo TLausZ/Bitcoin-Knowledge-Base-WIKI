@@ -87,6 +87,8 @@ Nabourema: „Stell dir vor, dass wir in 10 oder 20 Jahren ein Stadium erreichen
 - [[geldpolitik-und-inflation]]
 - [[selbstverwahrung-und-boersenrisiken]]
 - [[bitcoin-mining-und-proof-of-work]]
+- [[bitcoin-als-basisgeld]]
+- [[bitcoin-menschenrechte]]
 
 ## Open Questions
 

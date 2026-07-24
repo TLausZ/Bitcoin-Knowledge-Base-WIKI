@@ -52,8 +52,11 @@ Alle Inputs einer Konsolidierungstransaktion werden miteinander verknüpft — e
 - [[coin-control-und-utxo-auswahl]]
 - [[opsec-und-privatsphaere]]
 - [[konsensregeln-und-mempool-richtlinien]]
+- [[bitcoin-whitepaper]]
+- [[electrum-wallet]]
 
 - [[mastering-bitcoin|Mastering Bitcoin (Antonopoulos/Harding)]] ← Buch
+- [[grokking-bitcoin|Grokking Bitcoin / Bitcoin begreifen (Kalle Rosenbaum)]] ← Buch
 
 ## Open Questions
 

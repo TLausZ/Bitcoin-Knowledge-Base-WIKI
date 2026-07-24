@@ -60,6 +60,8 @@ Das Pferd steht bereits in der Stadt.
 - [[gigi-philosophische-essays]]
 - [[biometrie-und-finanzueberwachung]]
 
+- [[hidden-repression_how-the-imf-and-world-bank-sell-exploitation-as-development|Hidden Repression]] ← Buch
+
 ## Open Questions
 
 - Wie entwickelt sich die FGU-Seite, wenn NGU vorübergehend schwächelt (Bärenmarkt)?

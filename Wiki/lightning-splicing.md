@@ -62,6 +62,8 @@ Splicing benötigt SegWit (Segregated Witness), weil es Transaction Malleability
 - [[taproot-musig2-frost]]
 - [[transaktionsgebuehren-und-mempool]]
 
+- [[einfuehrung-in-das-lightning-netzwerk|Einführung in das Lightning-Netzwerk (Antonopoulos, Osuntokun & Pickhardt)]] ← Buch
+
 ## Open Questions
 
 - Wann wird Splicing im gesamten Lightning-Netzwerk zum Standard — welche Implementierungen unterstützen es schon?

@@ -46,6 +46,7 @@ Das Skalierungskapitel erzählt die Geschichte, die Ansätze und den Ernstfall (
 - [[soft-fork-und-hard-fork]]
 - [[konsensregeln-und-mempool-richtlinien]]
 - [[bitcoin-zensurresistenz]]
+- [[firmware-verifikation-und-reproduzierbarkeit]]
 
 ## Open Questions
 

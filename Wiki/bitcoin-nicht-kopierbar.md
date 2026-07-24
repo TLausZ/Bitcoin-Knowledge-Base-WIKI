@@ -50,6 +50,7 @@ Lewis räumt ein: Wenn der Markt kollektiv entscheiden würde, eine andere Währ
 - [[bitcoin-zensurresistenz]]
 - [[bitcoin-digitale-knappheit]]
 - [[bitcoin-monetarisierung]]
+- [[bitcoin-skalierung-und-zahlungen]]
 
 ## Open Questions
 

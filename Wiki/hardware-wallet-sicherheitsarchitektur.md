@@ -100,6 +100,8 @@ Wenn Hardware-Wallets drahtlos kommunizieren (z.B. Bluetooth für iPhone-Unterst
 - [[wallet-backup-strategien]]
 - [[bitbox02-nova]]
 - [[opsec-und-privatsphaere]]
+- [[diceware-und-seed-generierung]]
+- [[hardware-wallet-einstieg]]
 
 - [[bitcoins-verwahren-und-vererben|Bitcoins verwahren und vererben (Marc Steiner)]] ← Buch
 

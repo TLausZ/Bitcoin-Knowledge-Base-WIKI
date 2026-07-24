@@ -71,6 +71,7 @@ Back war auch aktiv in der Entwicklung von Bitcoin involviert und korrespondiert
 - [[digitales-bargeld-und-ecash]]
 - [[kryptoanarchismus-und-cypherpunks]]
 - [[digitales-zeitstempel]]
+- [[bitcoin-digitale-knappheit]]
 
 ## Open Questions
 

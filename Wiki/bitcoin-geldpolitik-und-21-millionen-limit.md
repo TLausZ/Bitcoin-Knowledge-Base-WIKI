@@ -127,6 +127,7 @@ Eine Feinheit am Rande: Streng genommen waren zu diesem Zeitpunkt keine vollen 2
 
 - [[der-bitcoin-standard|Der Bitcoin-Standard (Saifedean Ammous)]] ← Buch
 - [[bitcoin-treasury-companies]]
+- [[bitcoin-alles-geteilt-durch-21-millionen|Bitcoin: Alles geteilt durch 21 Millionen]] ← Buch
 
 ## Open Questions
 

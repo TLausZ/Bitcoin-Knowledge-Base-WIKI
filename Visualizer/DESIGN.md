@@ -52,9 +52,10 @@ radius:
   pill:   3px        # Link-Anzeige im Kartenbereich
 
 space:
-  page:   16px       # Aussenabstand Titelleiste, Link
-  panel:  12px       # Innenabstand Panel und Buttons
-  row:    3px        # vertikales Padding Listenzeilen
+  page:    16px      # Aussenabstand Titelleiste, Link
+  panel:   12px      # Innenabstand Panel und Buttons
+  control: 8px       # Abstand zwischen benachbarten Steuer-Knöpfen (Lese-Navigation)
+  row:     3px       # vertikales Padding Listenzeilen
 
 layout:
   topbar-height: 61px
@@ -99,6 +100,12 @@ mit Leerzeichen statt Bindestrichen (Slug-Schreibweise aufgelöst).
 - **Buttons** (Sortierung): 1px-Rahmen `border-strong`, Text `ink`,
   transparenter Grund. Aktiver Zustand invertiert: Grund `ink`, Text
   `paper-bright`. Kein Hover-Effekt auf inaktiven Buttons.
+- **Lese-Navigation** (Modal-Kopf, «‹ Zurück» / «Weiter ›»): solide Pills,
+  Grund `ink`, Text `paper-bright`, voll gerundet (38px hoch). Beide gleich
+  breit (`min-width` 96px, zentriert), damit sie beim Ein- und Ausblenden
+  nicht springen; `space.control` dazwischen. «Weiter» erscheint nur, wenn
+  ein zurückgelassener Artikel voraus liegt. Eigener Stil, nicht der der
+  Sortier-Buttons.
 - **Listenzeilen**: Gewicht als linksbündiger Hintergrundbalken (`bar`),
   Score als kleinere, abgeschwächte Zahl. Hover und Auswahl invertieren
   die Zeile wie den aktiven Button.

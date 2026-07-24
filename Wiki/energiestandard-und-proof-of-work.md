@@ -72,6 +72,7 @@ Das Seetee-Modell ist ein Unternehmensbeispiel für das, was Ford 1921 konzeptue
 - [[bitcoin-recht-sprache-geld]]
 - [[der-bitcoin-standard]]
 - [[bitcoin-adoption-reise]]
+- [[dollar-hegemonie-super-imperialismus]]
 
 ## Open Questions
 

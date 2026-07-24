@@ -82,6 +82,9 @@ Gigis vierter Schritt (Bitcoin ausgeben) ist im deutschsprachigen Raum 2026 punk
 - [[schuldenzyklen]]
 - [[bitcoin-bildung]]
 
+- [[21-lektionen-bitcoin-kaninchenbau|21 Lektionen: Meine Reise in den Bitcoin-Kaninchenbau]] ← Buch
+- [[goldene-zukunft|Goldene Zukunft (Florian Bruce-Boye)]] ← Buch
+
 ## Open Questions
 
 - An welchem Punkt befindet sich die Mehrheit der Bitcoin-Nutzer weltweit gerade — Schritt 2 oder 3?

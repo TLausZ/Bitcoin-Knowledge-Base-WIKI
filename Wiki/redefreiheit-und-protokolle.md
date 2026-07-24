@@ -61,6 +61,8 @@ Die Hoffnung, die Gigi formuliert: Bitcoin + Nostr als Infrastruktur für "gesun
 - [[lightning-netzwerk-grundlagen]]
 - [[kapital-und-bitcoin]]
 - [[pgp-und-verschluesselungspolitik]]
+- [[bitcoin-netzwerkeffekte-und-design]]
+- [[nostr-protokoll]]
 
 ## Open Questions
 

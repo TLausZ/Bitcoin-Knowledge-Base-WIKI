@@ -129,6 +129,7 @@ Informationen nur im Kopf: "Ich erkläre es meiner Familie, wenn die Zeit kommt"
 - [[miniscript-und-liana]]
 - [[optionale-passphrase]]
 - [[selbstverwahrung-und-boersenrisiken]]
+- [[nunchuk-wallet]]
 
 ## Open Questions
 

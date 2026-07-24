@@ -69,6 +69,8 @@ Die Analogie zur DNA ist aufschlussreich: Bitcoin ist eine Kette (statt Doppelhe
 - [[bitcoin-antifragilitaet]]
 - [[elliptische-kurven-kryptographie]]
 - [[seedphrase-entropie-und-sicherheit]]
+- [[bitcoin-informationstheorie-entropie]]
+- [[bitcoin-unternehmertum-und-hoffnung]]
 
 ## Open Questions
 

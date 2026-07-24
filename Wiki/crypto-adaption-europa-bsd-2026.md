@@ -64,6 +64,7 @@ Der Befund passt zu anderen europäischen Erhebungen: Die HSLU-Studie für die S
 - [[bitcoin-etf-und-institutionelle-verwahrung]]
 - [[eu-regulierung-selbstverwahrung]]
 - [[bitcoin-bildung]]
+- [[bitcoin-beratung-und-micar]]
 
 ## Open Questions
 

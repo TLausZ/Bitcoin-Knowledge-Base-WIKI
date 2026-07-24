@@ -93,6 +93,8 @@ Fiat-Währungen scheiden schon strukturell aus: Eingebaute Inflation bedeutet, d
 - [[bitcoin-spieltheorie-und-anreize]]
 - [[szabo-geldursprung]]
 - [[ideal-money-und-bitcoin]]
+- [[bitcoin-islamische-finanzprinzipien]]
+- [[bitgenstein-geldtheorie-grundlagen]]
 
 ## Open Questions
 

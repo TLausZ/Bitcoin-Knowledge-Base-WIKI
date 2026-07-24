@@ -30,6 +30,7 @@ Der Ton bleibt durchgehend zugänglich und ist erklärtermassen für Menschen ge
 - [[bitcoin-geldpolitik-und-21-millionen-limit]]
 - [[opsec-und-privatsphaere]]
 - [[skalierung-lightning-ark-statechains]]
+- [[bitcoin-bildung]]
 
 ## Open Questions
 

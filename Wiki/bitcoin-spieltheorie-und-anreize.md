@@ -122,6 +122,7 @@ Svanholms "Unabhängigkeit neu gedacht" (2020) sammelt im letzten Kapitel die Ge
 - [[praxeologie-methode-und-werttheorie]]
 
 - [[bitcoin-inverse-of-clown-world|Bitcoin: Inverse of Clown World (Svanholm/de Wolf)]] ← Buch
+- [[the-bitcoin-handbook|The Bitcoin Handbook (Anil Patel)]] ← Buch
 
 ## Open Questions
 

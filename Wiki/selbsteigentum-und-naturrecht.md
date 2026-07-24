@@ -52,6 +52,7 @@ Damit schliesst Bitcoin die Lücke zwischen dem philosophischen Anspruch des Nat
 - [[bitcoin-recht-sprache-geld]]
 - [[bitcoin-absolute-knappheit]]
 - [[bitcoin-und-selbstverantwortung]]
+- [[bitcoin-menschenrechte]]
 
 ## Open Questions
 

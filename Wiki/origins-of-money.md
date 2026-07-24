@@ -40,6 +40,11 @@ Mengers Absatzfähigkeit erklärt, wie Bitcoin ohne staatliche Anordnung monetä
 - [[praxeology]]
 - [[bitcoin-alles-geteilt-durch-21-millionen]]
 - [[geldpolitik-und-inflation]]
+- [[bitcoin-monetarisierung]]
+- [[szabo-geldursprung]]
+
+- [[der-bitcoin-standard|Der Bitcoin-Standard (Saifedean Ammous)]] ← Buch
+- [[magic-future-money|Magic Future Money (Hg. Friedemann Brenneis)]] ← Buch
 
 ## Open Questions
 

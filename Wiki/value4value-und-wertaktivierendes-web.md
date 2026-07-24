@@ -93,6 +93,8 @@ Gigi: „Es ist Tag 2 für das Internet, und es ist an der Zeit, es zu repariere
 - [[selbstverwahrung-und-boersenrisiken]]
 - [[bitcoin-als-strategische-reserve]]
 - [[bitcoin-mining-und-proof-of-work]]
+- [[bitcoin-adoption-reise]]
+- [[nostr-protokoll]]
 
 ## Open Questions
 

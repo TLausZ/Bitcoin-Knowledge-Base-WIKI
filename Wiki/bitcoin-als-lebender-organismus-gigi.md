@@ -73,6 +73,9 @@ Brendon Quittem vergleicht Bitcoin mit Myzel — einem unterirdischen Pilznetzwe
 - [[bitcoin-spieltheorie-und-anreize]]
 - [[bitcoin-und-selbstverantwortung]]
 - [[bitcoin-mining-narrativ-und-kritik]]
+- [[bitcoin-ist-die-wiederentdeckung-des-geldes]]
+
+- [[21-lektionen-bitcoin-kaninchenbau|21 Lektionen: Meine Reise in den Bitcoin-Kaninchenbau]] ← Buch
 
 ## Open Questions
 

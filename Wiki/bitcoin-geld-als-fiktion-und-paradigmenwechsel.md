@@ -96,6 +96,7 @@ Nicole Nowak zieht eine Parallele, die bei Svanholm nur implizit steckt: Bitcoin
 - [[bitcoin-powerlaw-und-preismodelle]]
 
 - [[bitcoin-unabhaengigkeit-neu-gedacht|Bitcoin – Unabhängigkeit neu gedacht (Knut Svanholm)]] ← Buch
+- [[21-lektionen-bitcoin-kaninchenbau|21 Lektionen: Meine Reise in den Bitcoin-Kaninchenbau]] ← Buch
 
 ## Open Questions
 

@@ -145,6 +145,8 @@ Der älteste und konzeptionell grundlegendste Artikel in diesem Corpus stammt au
 - [[bitcoin-mining-und-proof-of-work]]
 - [[bitcoin-humanitaere-anwendungen]]
 - [[bitcoin-energie-messung-beest]]
+- [[bitcoin-als-inflationsschutz]]
+- [[bitcoin-monetaere-deckung-und-sicherheit]]
 
 ## Open Questions
 

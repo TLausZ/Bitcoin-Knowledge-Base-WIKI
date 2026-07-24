@@ -55,6 +55,8 @@ Ein eigenes Kapitel überträgt die Prinzipien auf Bitcoin. „Not your keys, no
 - [[no-kyc-bitcoin]]
 - [[selbstverwahrung-und-boersenrisiken]]
 - [[bitcoins-verwahren-und-vererben]]
+- [[coin-control-und-utxo-auswahl]]
+- [[coinjoin-und-on-chain-privatsphaere]]
 
 ## Open Questions
 

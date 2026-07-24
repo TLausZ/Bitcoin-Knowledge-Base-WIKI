@@ -55,6 +55,7 @@ Beide Texte sind zeitgebundene Marktkommentare eines Ökonomen (Wüstenfeld prom
 - [[bitcoin-volatilitaet-und-preisfindung]]
 - [[onchain-indikatoren-und-anlegerverhalten]]
 - [[bitcoin-marktkommentar-lnms]]
+- [[globale-liquiditaet-und-finanzplumbing]]
 
 ## Open Questions
 

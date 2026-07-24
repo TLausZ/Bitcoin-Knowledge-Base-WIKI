@@ -52,6 +52,7 @@ Jede UTXO, die als Input in einer Transaktion verwendet wird, vergrössert diese
 - [[utxo-modell-und-konsolidierung]]
 - [[bitcoin-adresstypen]]
 - [[konsensregeln-und-mempool-richtlinien]]
+- [[electrum-wallet]]
 
 - [[mastering-bitcoin|Mastering Bitcoin (Antonopoulos/Harding)]] ← Buch
 

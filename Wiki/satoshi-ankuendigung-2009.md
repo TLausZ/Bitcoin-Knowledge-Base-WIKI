@@ -54,6 +54,7 @@ Der Post wurde von Wei Dai (Autor von b-money) kommentiert, der Satoshi mit der 
 - [[kryptoanarchismus-und-cypherpunks]]
 - [[digitales-zeitstempel]]
 - [[hashcash]]
+- [[bitcoin-fruehgeschichte]]
 
 ## Open Questions
 

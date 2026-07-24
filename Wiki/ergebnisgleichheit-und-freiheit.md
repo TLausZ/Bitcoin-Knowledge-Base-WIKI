@@ -57,6 +57,7 @@ Die konstruktive Alternative lautet: Gleichheit vor dem Recht konsequent durchse
 - [[geld-staat-und-fiat-monopol]]
 - [[bitcoin-spieltheorie-und-anreize]]
 - [[bitcoin-geld-als-fiktion-und-paradigmenwechsel]]
+- [[selbsteigentum-und-naturrecht]]
 
 ## Open Questions
 

@@ -96,6 +96,11 @@ Adresszeile — anklicken, URL kopieren, weitergeben. Ein unbekannter Slug
 wird ignoriert; auf Themenkarten (`themen/*.html`) greift der Link nur, wenn
 der Artikel dort vorkommt.
 
+Jeder geöffnete Artikel ist ein eigener Browser-History-Eintrag
+(`pushState`), also blättern die Vor/Zurück-Buttons des Browsers durch die
+gelesenen Artikel. Der «‹»-Button im Modal ruft dasselbe (`history.back()`)
+und erscheint nur, wenn es einen früheren Artikel gibt.
+
 ## Determinismus
 
 Beide Wiki-Karten sind deterministisch: Terrain-Rauschen und Layout laufen

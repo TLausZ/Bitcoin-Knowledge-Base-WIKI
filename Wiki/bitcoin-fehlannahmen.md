@@ -3,7 +3,7 @@
 **Status:** established
 **Themen:** protokoll, mining, oekonomie, kritik
 **Last updated:** 2026-07-20
-**Sources:** [[2025-08-30_Blocktrainer-10 Fehlannahmen über Bitcoin und warum sie falsch sind!]], [[2026-06-08_BlocktrainerBitcoin_ 10 Einsteigerfragen]], [[20260607_Blocktrainer-Einstieg in Bitcoin_ Alles was Anfänger wissen müssen!]], [[2025-05-14_Blocktrainer-Bitcoin kaufen 2025_ Lohnt sich der Einstieg noch_]], [[Warum Bitcoin kein Ponzi-Schema ist_ Punkt für Punkt.md]], [[Bitcoin_ Addressing the Ponzi Scheme Characterization.md]], [[aprycot-nur-die-staerksten-6-warum-wir-uns-irren]], [[aprycot-parker-lewis-bitcoin-kein-schneeballsystem]], [[2026-06-29_bitcoin-gespraechsskript-fehlannahmen]], [[20260322_heartmoney-zwischen-bitcoin-und-ego]], [[2024-04_antonopoulos-halving-mythen]]
+**Sources:** [[2025-08-30_Blocktrainer-10 Fehlannahmen über Bitcoin und warum sie falsch sind!]], [[2026-06-08_BlocktrainerBitcoin_ 10 Einsteigerfragen]], [[20260607_Blocktrainer-Einstieg in Bitcoin_ Alles was Anfänger wissen müssen!]], [[2025-05-14_Blocktrainer-Bitcoin kaufen 2025_ Lohnt sich der Einstieg noch_]], [[Warum Bitcoin kein Ponzi-Schema ist_ Punkt für Punkt.md]], [[Bitcoin_ Addressing the Ponzi Scheme Characterization.md]], [[aprycot-nur-die-staerksten-6-warum-wir-uns-irren]], [[aprycot-parker-lewis-bitcoin-kein-schneeballsystem]], [[20260322_heartmoney-zwischen-bitcoin-und-ego]], [[2024-04_antonopoulos-halving-mythen]]
 
 ## Summary
 

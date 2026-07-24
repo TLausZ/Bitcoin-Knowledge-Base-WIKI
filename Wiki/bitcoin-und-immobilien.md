@@ -124,6 +124,7 @@ Selbst eine Verlagerung von 1–5% der monetären Immobilien-Prämie zu Bitcoin 
 - [[bitcoin-volatilitaet-und-preisfindung]]
 
 - [[der-bitcoin-standard|Der Bitcoin-Standard (Saifedean Ammous)]] ← Buch
+- [[goldene-zukunft|Goldene Zukunft (Florian Bruce-Boye)]] ← Buch
 
 ## Open Questions
 

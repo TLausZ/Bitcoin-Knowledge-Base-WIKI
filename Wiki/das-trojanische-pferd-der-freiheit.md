@@ -28,6 +28,8 @@ Gladsteins Stärke ist die Erdung eines abstrakten Freiheitsarguments in gelebte
 - [[das-kleine-bitcoin-buch]]
 - [[kryptoanarchismus-und-cypherpunks]]
 - [[bitcoin-und-amerikanische-idee]]
+- [[bitcoin-humanitaere-anwendungen]]
+- [[bitcoin-regierungsresistenz]]
 
 ## Open Questions
 

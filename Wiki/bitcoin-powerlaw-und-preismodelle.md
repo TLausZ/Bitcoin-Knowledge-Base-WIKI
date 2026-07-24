@@ -84,6 +84,8 @@ Das Modell ist inzwischen auch Anwendungswissen im DACH-Raum: Es dient als Beruh
 - [[bitcoin-volatilitaet-und-preisfindung]]
 - [[mvrv-und-realized-cap]]
 
+- [[the-bitcoin-handbook|The Bitcoin Handbook (Anil Patel)]] ← Buch
+
 ## Open Questions
 
 - Wie verhält sich Perrenods log-periodisches Zyklusmodell formal zur mechanistischen Power-Law-Herleitung (Santostasi & Perrenod)? Die Newsletter-Quelle referiert es nur aus zweiter Hand (Interview/Video) — Primärquelle für RAW gesucht.

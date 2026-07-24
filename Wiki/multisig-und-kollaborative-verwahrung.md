@@ -70,6 +70,8 @@ Beim ersten Empfang einer Adresse registriert die BitBox02 das Multisig-Setup: D
 - [[taproot-musig2-frost]]
 - [[bitcoin-vaults]]
 - [[wallet-backup-strategien]]
+- [[miniscript-und-liana]]
+- [[bitcoin-etf-und-institutionelle-verwahrung]]
 
 - [[bitcoins-verwahren-und-vererben|Bitcoins verwahren und vererben (Marc Steiner)]] ← Buch
 

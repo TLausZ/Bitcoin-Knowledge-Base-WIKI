@@ -57,6 +57,9 @@ Nur bestimmte Input-Typen sind erlaubt: P2TR (keypath), P2WPKH, P2WPKH-P2SH, P2P
 - [[payment-codes-und-adressaustausch]]
 - [[coinjoin-und-on-chain-privatsphaere]]
 - [[taproot-musig2-frost]]
+- [[bitbox02-features]]
+- [[cypherpunk-manifest]]
+- [[lightning-address-datenschutz]]
 
 ## Open Questions
 

@@ -54,6 +54,8 @@ Das Buch versteht sich ausdrücklich als Inspirationsquelle und Nachschlagewerk,
 - [[wallet-backup-strategien]]
 - [[multisig-und-kollaborative-verwahrung]]
 - [[fortego-backup-sicherheit]]
+- [[miniscript-und-liana]]
+- [[diceware-und-seed-generierung]]
 
 ## Open Questions
 

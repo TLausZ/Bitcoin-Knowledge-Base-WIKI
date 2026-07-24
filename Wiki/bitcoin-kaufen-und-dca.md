@@ -85,6 +85,7 @@ Drei Fehler kosten besonders oft Geld: (1) Aus Panik bei Kursrückgängen verkau
 - [[selbstverwahrung-und-boersenrisiken]]
 
 - [[das-kleine-bitcoin-buch|Das kleine Bitcoin-Buch (The Bitcoin Collective)]] ← Buch
+- [[bitcoin-alles-geteilt-durch-21-millionen|Bitcoin: Alles geteilt durch 21 Millionen]] ← Buch
 
 ## Open Questions
 

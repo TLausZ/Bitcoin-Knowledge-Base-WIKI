@@ -42,6 +42,8 @@ Ammous positioniert Bitcoin primär als Wertspeicher und als Abwicklungsnetzwerk
 - [[geldpolitik-und-inflation]]
 - [[praxeology]]
 - [[bitcoin-alles-geteilt-durch-21-millionen]]
+- [[bitcoin-als-inflationsschutz]]
+- [[bitcoin-digitale-knappheit]]
 
 ## Open Questions
 

@@ -47,6 +47,7 @@ Nach einer Backup-Wiederherstellung sollte die neue Wallet als einzige aktive Wa
 - [[optionale-passphrase]]
 - [[hardware-wallet-sicherheitsarchitektur]]
 - [[seedphrase-entropie-und-sicherheit]]
+- [[selbstverwahrung-und-boersenrisiken]]
 
 - [[bitcoins-verwahren-und-vererben|Bitcoins verwahren und vererben (Marc Steiner)]] ← Buch
 

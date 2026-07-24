@@ -58,6 +58,10 @@ Wer dem Gerät bezüglich Zufallsgenerierung nicht blind vertrauen will, kann se
 - [[wallet-backup-strategien]]
 - [[hardware-wallet-sicherheitsarchitektur]]
 - [[diceware-und-seed-generierung]]
+- [[bitcoin-seed-cracking]]
+- [[bip39-schwache-seeds]]
+- [[bitcoin-entropie-und-ordnung]]
+- [[bitcoin-entropy-rng]]
 
 - [[bitcoins-verwahren-und-vererben|Bitcoins verwahren und vererben (Marc Steiner)]] ← Buch
 

@@ -81,6 +81,7 @@ Wer diese zwei Regeln befolgt, lässt Angreifern kaum Spielraum.
 - [[opsec-und-privatsphaere]]
 - [[payment-requests]]
 - [[anti-klepto-und-supply-chain-sicherheit]]
+- [[hardware-wallet-angriffsvektoren]]
 
 ## Open Questions
 

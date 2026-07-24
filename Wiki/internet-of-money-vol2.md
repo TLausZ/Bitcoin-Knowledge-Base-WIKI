@@ -46,6 +46,7 @@ Zur aufkommenden Bitcoin-gegen-Ethereum-Debatte wählt Antonopoulos ein bewusst 
 - [[bitcoin-mining-und-proof-of-work]]
 - [[lightning-netzwerk-grundlagen]]
 - [[bitcoin-vs-krypto]]
+- [[skalierung-lightning-ark-statechains]]
 
 ## Open Questions
 

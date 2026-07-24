@@ -77,6 +77,8 @@ bwatch öffnet die Möglichkeit, dass eine einzige Block-Watch-Engine mehrere un
 - [[taproot-musig2-frost]]
 - [[transaktionsgebuehren-und-mempool]]
 
+- [[einfuehrung-in-das-lightning-netzwerk|Einführung in das Lightning-Netzwerk (Antonopoulos, Osuntokun & Pickhardt)]] ← Buch
+
 ## Open Questions
 
 - Wann wird der Quantum-Resistant Channel-Mechanismus in den BOLT-Standard aufgenommen?

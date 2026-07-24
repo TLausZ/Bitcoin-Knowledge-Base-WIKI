@@ -60,6 +60,7 @@ Das Fazit der Analyse: Die Wahl des Kommunikationskanals ist primär eine Entsch
 - [[komplexitaet-ist-keine-sicherheit]]
 - [[anti-klepto-und-supply-chain-sicherheit]]
 - [[multisig-und-kollaborative-verwahrung]]
+- [[sparrow-wallet]]
 
 ## Open Questions
 

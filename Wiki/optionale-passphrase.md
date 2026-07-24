@@ -60,6 +60,8 @@ Da die Passphrase getrennt von der Seedphrase existiert, muss sie getrennt gesic
 - [[seedphrase-entropie-und-sicherheit]]
 - [[hardware-wallet-sicherheitsarchitektur]]
 - [[komplexitaet-ist-keine-sicherheit]]
+- [[hardware-wallet-einstieg]]
+- [[bitcoin-vererbung]]
 
 - [[bitcoins-verwahren-und-vererben|Bitcoins verwahren und vererben (Marc Steiner)]] ← Buch
 

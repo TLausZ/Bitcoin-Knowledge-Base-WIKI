@@ -103,6 +103,8 @@ Der Seetee-Aktionärsbrief vom März 2021 ist eines der frühesten öffentlichen
 - [[bitcoin-marktkommentar-lnms]]
 - [[bitcoin-treasury-companies]]
 
+- [[softwar|Softwar (Jason P. Lowery)]] ← Buch
+
 ## Open Questions
 
 - Wann werden andere G7-Staaten dem El-Salvador-Präzedenz folgen — oder wird die US Executive Order der Auslöser?

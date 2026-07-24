@@ -64,6 +64,9 @@ Rebalancing ist primär ein Problem für **Intermediate Nodes** (Routing Nodes),
 - [[phoenix-wallet-lightning]]
 - [[transaktionsgebuehren-und-mempool]]
 - [[muun-wallet]]
+- [[lightning-netzwerk-grundlagen]]
+
+- [[einfuehrung-in-das-lightning-netzwerk|Einführung in das Lightning-Netzwerk (Antonopoulos, Osuntokun & Pickhardt)]] ← Buch
 
 ## Open Questions
 

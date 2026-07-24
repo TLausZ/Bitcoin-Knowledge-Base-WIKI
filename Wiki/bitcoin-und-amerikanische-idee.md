@@ -85,6 +85,9 @@ Die Parallele zu Travis ist absichtlich dramatisch gewählt. Lewis anerkennt, da
 - [[bitcoin-und-selbstverantwortung]]
 - [[selbstverwahrung-und-boersenrisiken]]
 
+- [[das-trojanische-pferd-der-freiheit|Das Trojanische Pferd der Freiheit]] ← Buch
+- [[hidden-repression_how-the-imf-and-world-bank-sell-exploitation-as-development|Hidden Repression]] ← Buch
+
 ## Open Questions
 
 - Wie verändert sich die "amerikanische Idee" von Bitcoin, wenn die USA Bitcoin stärker regulieren?

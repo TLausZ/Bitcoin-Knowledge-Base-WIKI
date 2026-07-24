@@ -87,6 +87,8 @@ Satoshi wusste, dass er nicht um Erlaubnis bitten konnte, ein konkurrierendes Ge
 - [[bitcoin-und-selbstverantwortung]]
 - [[energiestandard-und-proof-of-work]]
 - [[biometrie-und-finanzueberwachung]]
+- [[bitcoin-und-amerikanische-idee]]
+- [[selbsteigentum-und-naturrecht]]
 
 ## Open Questions
 

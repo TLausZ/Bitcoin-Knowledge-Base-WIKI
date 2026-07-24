@@ -79,6 +79,8 @@ Lösungsversuche für Bitcoin-Privatsphäre (CoinJoin, Silent Payments, Lightnin
 - [[coinjoin-und-on-chain-privatsphaere]]
 - [[silent-payments]]
 - [[payment-codes-und-adressaustausch]]
+- [[bitcoin-netzwerkeffekte-und-design]]
+- [[ideal-money-und-bitcoin]]
 
 ## Open Questions
 

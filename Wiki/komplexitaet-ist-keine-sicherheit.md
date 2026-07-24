@@ -45,6 +45,7 @@ Die intuitive Schlussfolgerung ist umgekehrt: Einfachheit ist Sicherheit. Ein Se
 - [[multisig-und-kollaborative-verwahrung]]
 - [[wallet-backup-strategien]]
 - [[hardware-wallet-sicherheitsarchitektur]]
+- [[airgap-und-kommunikationskanaele]]
 
 ## Open Questions
 

@@ -78,9 +78,11 @@
   #mclose{width:38px;height:38px;border-radius:50%;border:none;cursor:pointer;padding:0;
     background:#5c4a34;color:#f2ead6;font-size:18px;line-height:38px}   /* X aussen rechts; margin-left:auto sitzt auf #mgh */
   #mclose:hover{background:#6e5a40}
-  #mback{border:none;cursor:pointer;height:38px;padding:0 15px;border-radius:19px;
+  #mback,#mfwd{border:none;cursor:pointer;height:38px;padding:0 15px;border-radius:19px;
+    min-width:96px;text-align:center;                       /* beide Knöpfe gleich breit, unabhängig vom Text */
     background:#5c4a34;color:#f2ead6;font:inherit;font-size:13px}
-  #mback:hover{background:#6e5a40}
+  #mfwd{margin-left:8px}                                    /* kleiner Abstand zum Zurück-Knopf */
+  #mback:hover,#mfwd:hover{background:#6e5a40}
   #mgh{margin-left:auto;                                    /* GitHub-Link + X bilden die rechte Gruppe */
     display:inline-flex;align-items:center;height:38px;padding:0 14px;margin-right:8px;
     border:1px solid rgba(110,92,64,.5);border-radius:19px;
@@ -156,6 +158,7 @@
 <div id="modal"><div id="mcard">
   <div id="mhead">
     <button id="mback" title="Zurück">‹ Zurück</button>
+    <button id="mfwd" title="Weiter">Weiter ›</button>
     <a id="mgh" target="_blank" rel="noopener" title="Originaldatei auf GitHub">GitHub ↗</a>
     <button id="mclose" title="Schliessen (Esc)">✕</button>
   </div>
@@ -807,20 +810,52 @@ saBtn.onclick=()=>{if(mode==='a') dirA=-dirA; mode='a'; renderList();};
 
 // ============================================================================
 // LESE-MODAL
-// Holt die gerendere HTML-Fassung der Wiki-MD von der GitHub-Contents-API
-// (Accept: vnd.github.html) und zeigt sie über allem. GitHub sanitisiert das
-// Markup (keine Skripte/Handler), Quelle ist das eigene Repo — innerHTML ok.
-// ponytail: 60 Anfragen/h unauth. reicht fürs Lesen; bei Bedarf Token oder
-//           raw.githubusercontent + Client-Renderer.
+// Holt die rohe Wiki-MD von raw.githubusercontent (kein 60/h-API-Limit, CORS
+// offen) und rendert sie clientseitig mit mdToHtml. Quelle ist das eigene
+// Repo; mdToHtml escapt < > & vor dem Einsetzen der Tags — innerHTML ok.
 // ============================================================================
-const API_BASE='https://api.github.com/repos/TLausZ/Bitcoin-Knowledge-Base-WIKI/contents/Wiki/';
+const RAW_BASE='https://raw.githubusercontent.com/TLausZ/Bitcoin-Knowledge-Base-WIKI/main/Wiki/';
+
+// Mini-Markdown-Renderer: deckt die Wiki-Artikelstruktur ab (Überschriften,
+// **fett**, `code`, [text](url), -/*/1.-Listen, >-Blockquotes, ---/***-HR).
+// [[backlinks]] bleiben absichtlich unangetastet — linkifyBacklinks (läuft in
+// renderDoc danach) macht sie klickbar. Der Metadaten-Block (Status/Themen/…
+// ohne Leerzeile dazwischen) wird zu EINEM <p> mit <br>, damit collapseStatus
+// ihn findet.
+function mdToHtml(md){
+  const esc=s=>s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+  const inline=s=>esc(s)
+    .replace(/`([^`]+)`/g,(_,c)=>'<code>'+c+'</code>')
+    .replace(/\*\*([^*]+)\*\*/g,'<strong>$1</strong>')
+    .replace(/\[([^\]]+)\]\(([^)\s]+)\)/g,'<a href="$2">$1</a>');
+  const out=[]; let para=[], list=null, quote=[];
+  const flushP=()=>{ if(para.length){out.push('<p>'+para.join('<br>')+'</p>'); para=[];} };
+  const flushL=()=>{ if(list){out.push('<'+list.tag+'>'+list.items.map(i=>'<li>'+i+'</li>').join('')+'</'+list.tag+'>'); list=null;} };
+  const flushQ=()=>{ if(quote.length){out.push('<blockquote>'+quote.map(inline).join('<br>')+'</blockquote>'); quote=[];} };
+  const flush=()=>{flushP();flushL();flushQ();};
+  for(const raw of md.replace(/\r\n?/g,'\n').split('\n')){
+    const line=raw.replace(/\s+$/,'');
+    if(!line.trim()){flush(); continue;}
+    if(/^(---+|\*\*\*+)$/.test(line.trim())){flush(); out.push('<hr>'); continue;}
+    const h=line.match(/^(#{1,6})\s+(.*)/);
+    if(h){flush(); const n=h[1].length; out.push('<h'+n+'>'+inline(h[2])+'</h'+n+'>'); continue;}
+    const ul=line.match(/^[-*]\s+(.*)/), ol=line.match(/^\d+\.\s+(.*)/), bq=line.match(/^>\s?(.*)/);
+    if(ul){flushP();flushQ(); if(!list||list.tag!=='ul'){flushL(); list={tag:'ul',items:[]};} list.items.push(inline(ul[1])); continue;}
+    if(ol){flushP();flushQ(); if(!list||list.tag!=='ol'){flushL(); list={tag:'ol',items:[]};} list.items.push(inline(ol[1])); continue;}
+    if(bq){flushP();flushL(); quote.push(bq[1]); continue;}
+    flushL();flushQ(); para.push(inline(line));
+  }
+  flush();
+  return out.join('\n');
+}
 const modal=document.getElementById('modal'), mcard=document.getElementById('mcard'),
       mbody=document.getElementById('mbody'), mclose=document.getElementById('mclose'),
-      mback=document.getElementById('mback'), mgh=document.getElementById('mgh');
+      mback=document.getElementById('mback'), mfwd=document.getElementById('mfwd'),
+      mgh=document.getElementById('mgh');
 const NAMES=new Set(PEAKS.map(p=>p.n));   // gültige Artikel-Slugs — nur diese werden verlinkt
 const cache=new Map();   // slug -> gerendertes HTML: Rück-/Wiederbesuch ohne neuen API-Call
-const hist=[];           // Slug-Stapel für die Zurück-Navigation
 let curDoc=null, docSeq=0;   // docSeq: Race-Schutz, nur die letzte Anforderung zählt
+let maxDepth=0;   // höchste erreichte Lese-Tiefe im aktuellen Ast; depth<maxDepth = Weiter möglich
 
 // [[slug]] im gerenderten Text in klickbare Links wandeln, aber nur wenn slug ein
 // echter Wiki-Artikel ist — RAW-Quellenverweise ([[20210317_...]]) bleiben Text.
@@ -866,11 +901,14 @@ function collapseStatus(root){
   sum.textContent='Status & Metadaten';
   p.replaceWith(det); det.append(sum, p);   // ohne open-Attribut = default eingeklappt
 }
-function updateNav(){mback.style.display=hist.length?'':'none';}
+function updateNav(){const d=(history.state&&history.state.depth)||0;
+  mback.style.display=d>1?'':'none';       // «‹» ab dem zweiten gelesenen Artikel
+  mfwd.style.display=d<maxDepth?'':'none';} // «›» nur wenn ein zurückgelassener Artikel voraus liegt
 
-async function openDoc(name, back=false){
+// Artikel anzeigen und laden — fasst die Browser-History NICHT an. Aufrufer:
+// openDoc (neuer Eintrag), popstate (Vor/Zurück), Deep-Link beim Start.
+async function showDoc(name){
   const seq=++docSeq;                       // auch der Cache-Pfad entwertet noch laufende Fetches
-  if(!back && curDoc && curDoc!==name) hist.push(curDoc);
   curDoc=name; updateNav();
   mgh.href=WIKI_URL+encodeURIComponent(name)+'.md';   // Original auf GitHub (auch bei Ladefehler nutzbar)
   modal.classList.add('open');
@@ -880,14 +918,12 @@ async function openDoc(name, back=false){
   if(cache.has(name)){renderDoc(cache.get(name)); return;}   // aus Cache: kein API-Call
   mbody.className='markdown-body loading'; mbody.textContent='Lädt …'; mcard.scrollTop=0;
   try{
-    const r=await fetch(API_BASE+encodeURIComponent(name)+'.md',
-      {headers:{Accept:'application/vnd.github.html'}});
+    const r=await fetch(RAW_BASE+encodeURIComponent(name)+'.md');
     if(seq!==docSeq) return;                 // inzwischen ein anderes Dokument geöffnet
-    if(!r.ok) throw new Error(r.status===403
-      ? 'GitHub-Limit erreicht (60 Abrufe/Stunde). Etwas später erneut versuchen.'
-      : 'HTTP '+r.status);
-    const html=await r.text();
+    if(!r.ok) throw new Error(r.status===404 ? 'Artikel nicht gefunden.' : 'HTTP '+r.status);
+    const md=await r.text();
     if(seq!==docSeq) return;
+    const html=mdToHtml(md);                 // rohes Markdown clientseitig rendern
     cache.set(name, html);                   // gerendertes HTML merken
     renderDoc(html);
   }catch(err){
@@ -901,8 +937,26 @@ async function openDoc(name, back=false){
     mbody.append(p,a);
   }
 }
-function closeDoc(){modal.classList.remove('open'); hist.length=0; curDoc=null; updateNav();}
-mback.onclick=()=>{if(hist.length) openDoc(hist.pop(), true);};
+// Benutzer öffnet einen Artikel (Klick auf Karte/Liste/Backlink): neuer
+// History-Eintrag mit #slug, damit die Browser-Vor/Zurück-Buttons durch die
+// gelesenen Artikel navigieren. depth zählt die Lese-Tiefe für den «‹»-Button.
+function openDoc(name){
+  if(curDoc===name) return;
+  const depth=((history.state&&history.state.depth)||0)+1;
+  history.pushState({slug:name,depth},'','#'+encodeURIComponent(name));
+  maxDepth=depth;   // neuer Artikel = frischer Ast, der Browser verwirft den Vorwärts-Stack
+  showDoc(name);
+}
+// Vor/Zurück im Browser: Ziel-Artikel aus dem Hash anzeigen, leerer Hash schliesst.
+addEventListener('popstate',()=>{
+  const slug=decodeURIComponent(location.hash.slice(1));
+  if(slug && NAMES.has(slug)) showDoc(slug); else closeDoc();
+});
+function closeDoc(){modal.classList.remove('open'); curDoc=null;
+  if(location.hash) history.replaceState(null,'',location.pathname+location.search);   // #slug entfernen, ohne zu navigieren
+  updateNav();}
+mback.onclick=()=>history.back();      // «‹» = ein Artikel zurück (= Browser-Zurück)
+mfwd.onclick=()=>history.forward();    // «›» = ein Artikel vor (= Browser-Vorwärts)
 mclose.onclick=closeDoc;
 modal.onclick=e=>{if(e.target===modal) closeDoc();};   // Klick auf den Hintergrund schliesst
 addEventListener('keydown',e=>{if(e.key==='Escape'&&modal.classList.contains('open')){closeDoc();e.stopPropagation();}});
@@ -989,4 +1043,16 @@ admSync();
   arm();
 }
 resize(); build(); renderList();
+
+// Deep-Link beim Laden: #slug öffnet den Artikel direkt im Lese-Modal (setzt
+// auch sel/Liste). Als initialer History-Eintrag (replaceState statt push),
+// sonst läge ein doppelter #slug-Eintrag im Verlauf. Slug = Wiki-Dateiname,
+// z.B. index.html#bip-0110. Unbekannter Slug: no-op.
+{ const slug=decodeURIComponent(location.hash.slice(1));
+  if(slug && NAMES.has(slug)){
+    history.replaceState({slug,depth:1},'','#'+encodeURIComponent(slug));
+    maxDepth=1;
+    showDoc(slug);
+  }
+}
 </script>

@@ -51,6 +51,9 @@ Das Ziel ist nicht, Kriminellen zu helfen. Das Ziel ist, das Fundament des Gelds
 - [[bitcoin-netzwerk-und-nodes]]
 - [[bitcoin-digitale-knappheit]]
 
+- [[internet-of-money-vol1|The Internet of Money, Vol. 1]] ← Buch
+- [[bitcoin-development-philosophy|Bitcoin Development Philosophy (Kalle & Linnea Rosenbaum)]] ← Buch
+
 ## Open Questions
 
 - Wie hoch ist die reale Schwelle, ab der Miner koordiniert gültige Transaktionen ablehnen würden — und durch welchen politischen Druck?

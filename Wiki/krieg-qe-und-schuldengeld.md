@@ -75,6 +75,8 @@ Gladsteins Schlussthese: Unter einem Bitcoin-Standard — wo keine Zentralbank G
 - [[bitcoin-humanitaere-anwendungen]]
 - [[iwf-weltbank-strukturanpassung]]
 - [[bitcoin-als-inflationsschutz]]
+- [[dollar-hegemonie-super-imperialismus]]
+- [[schuldenzyklen]]
 
 ## Open Questions
 

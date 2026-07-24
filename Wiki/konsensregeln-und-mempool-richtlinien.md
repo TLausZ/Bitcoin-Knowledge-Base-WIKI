@@ -55,6 +55,7 @@ Mempool-Richtlinien schützen auch vor Spam: Eine Mindestgebühr verhindert, das
 - [[op-return-und-datenspeicherung]]
 
 - [[mastering-bitcoin|Mastering Bitcoin (Antonopoulos/Harding)]] ← Buch
+- [[blocksize-war|Der Blocksize-Krieg (2015–2017)]] ← Buch
 
 ## Open Questions
 

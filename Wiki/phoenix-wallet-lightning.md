@@ -92,6 +92,8 @@ Der Zahlungsvorweis (Payment Preimage) dient als Zahlungsnachweis: Wenn der Stat
 - [[hd-wallets-und-schluesselableitung]]
 - [[opsec-und-privatsphaere]]
 
+- [[einfuehrung-in-das-lightning-netzwerk|Einführung in das Lightning-Netzwerk (Antonopoulos, Osuntokun & Pickhardt)]] ← Buch
+
 ## Open Questions
 
 - Wann werden Trampoline Payments mit Blinded Paths in Phoenix implementiert, um Zahlungsdatenschutz zu verbessern?

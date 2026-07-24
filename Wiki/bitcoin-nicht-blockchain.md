@@ -51,6 +51,8 @@ Hayek formulierte das Prinzip abstrakt: Gutes Geld entsteht nicht durch politisc
 - [[bitcoin-netzwerk-und-nodes]]
 - [[bitcoin-antifragilitaet]]
 - [[proof-of-stake-kritik]]
+- [[bitcoin-nicht-kopierbar]]
+- [[bitcoin-zensurresistenz]]
 
 ## Open Questions
 

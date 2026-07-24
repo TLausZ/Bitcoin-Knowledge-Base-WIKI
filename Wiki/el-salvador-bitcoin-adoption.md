@@ -60,6 +60,7 @@ El Salvador war historisch Austragungsort von US-UdSSR-Stellvertreterkonflikten:
 - [[lightning-netzwerk-grundlagen]]
 - [[iwf-weltbank-strukturanpassung]]
 - [[bitcoin-regierungsresistenz]]
+- [[bitcoin-adoption-reise]]
 
 ## Open Questions
 

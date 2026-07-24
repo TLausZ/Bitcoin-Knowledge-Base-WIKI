@@ -48,6 +48,8 @@ CoinJoin verbessert Privatsphäre durch Vermischung mehrerer Nutzer in einer Tra
 - [[sparrow-wallet]]
 - [[bip-0329]]
 - [[opsec-und-privatsphaere]]
+- [[bitbox02-features]]
+- [[joinmarket]]
 
 - [[das-privacy-handbuch|Das Privacy Handbuch (Timo Volkov)]] ← Buch
 

@@ -45,6 +45,9 @@ Zum damals heissen Skalierungsstreit bringt Antonopoulos eine historische Beruhi
 - [[internet-of-money-vol3]]
 - [[bitcoin-zensurresistenz]]
 - [[lightning-netzwerk-grundlagen]]
+- [[bitcoin-netzwerkeffekte-und-design]]
+
+- [[magic-future-money|Magic Future Money (Hg. Friedemann Brenneis)]] ← Buch
 
 ## Open Questions
 

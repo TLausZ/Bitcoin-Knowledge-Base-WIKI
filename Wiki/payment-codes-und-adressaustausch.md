@@ -56,6 +56,7 @@ Dasselbe Prinzip, aber **ohne Benachrichtigungs-Transaktion**. Jeder kann sofort
 - [[silent-payments]]
 - [[coinjoin-und-on-chain-privatsphaere]]
 - [[opsec-und-privatsphaere]]
+- [[lightning-address-datenschutz]]
 
 ## Open Questions
 

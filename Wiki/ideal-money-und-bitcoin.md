@@ -44,6 +44,8 @@ Bitcoin aus dieser Perspektive: Finanzielle Privatsphäre ist nicht ein Merkmal 
 - [[kryptoanarchismus-und-cypherpunks]]
 - [[digitales-bargeld-und-ecash]]
 - [[coinjoin-und-on-chain-privatsphaere]]
+- [[bitcoin-absolute-knappheit]]
+- [[bitcoin-als-inflationsschutz]]
 
 - [[der-bitcoin-standard|Der Bitcoin-Standard (Saifedean Ammous)]] ← Buch
 

@@ -55,6 +55,9 @@ Der Fluchtpunkt des Buches ist eine These über Identität: „We are becoming o
 - [[geldpolitik-und-inflation]]
 - [[bitcoin-als-inflationsschutz]]
 
+- [[bitcoin-unabhaengigkeit-neu-gedacht|Bitcoin: Unabhängigkeit neu gedacht]] ← Buch
+- [[praxeology|Praxeology: The Invisible Hand That Feeds You]] ← Buch
+
 ## Open Questions
 
 - Trägt die Inversions-Metapher analytisch, oder ist sie primär ein rhetorisches Framing für ohnehin libertäre Positionen?

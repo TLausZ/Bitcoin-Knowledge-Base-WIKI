@@ -52,6 +52,8 @@ Der entscheidende Unterschied: Im custodial Modus ist WoS eine Kontonummer beim 
 - [[selbstverwahrung-und-boersenrisiken]]
 - [[payment-codes-und-adressaustausch]]
 - [[hardware-wallet-einstieg]]
+- [[muun-wallet]]
+- [[lightning-address-datenschutz]]
 
 ## Open Questions
 

@@ -116,6 +116,7 @@ Die interessantere Frage ist die umgekehrte: Kann Mining Wasserknappheit lindern
 - [[bitcoin-mining-und-proof-of-work]]
 - [[energiestandard-und-proof-of-work]]
 - [[satoshi-zitate]]
+- [[bitcoin-akademische-forschung-bbr]]
 
 ## Open Questions
 

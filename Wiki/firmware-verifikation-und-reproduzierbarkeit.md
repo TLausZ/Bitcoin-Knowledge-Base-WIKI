@@ -46,6 +46,8 @@ Die BitBox02-Firmware kombiniert Reproduzierbarkeit mit Open-Source-Code und ext
 - [[anti-klepto-und-supply-chain-sicherheit]]
 - [[hardware-wallet-sicherheitsarchitektur]]
 - [[bitcoin-only-vs-multi-edition]]
+- [[specter-diy]]
+- [[bitbox02-features]]
 
 - [[bitcoin-development-philosophy|Bitcoin Development Philosophy (Kalle & Linnea Rosenbaum)]] ← Buch
 
