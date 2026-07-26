@@ -3,7 +3,7 @@
 **Status:** emerging
 **Themen:** oekonomie, adoption
 **Last updated:** 2026-07-07
-**Sources:** [[aprycot-warren-zeitreisender-zukunft]], [[The Path to Hyperbitcoinization]], [[The Path to Hyperbitcoinization]], [[20240722_bmi-bitcoin-nation-sound-money-democracy-en]]
+**Sources:** [[aprycot-warren-zeitreisender-zukunft]], [[The Path to Hyperbitcoinization]], [[20240722_bmi-bitcoin-nation-sound-money-democracy-en]]
 
 ## Summary
 
@@ -51,20 +51,6 @@ Michael Anton Fischers Buch «Bitcoin Nations: The Future of Governance in the D
 
 Die Parallele zum Zitadellen-Denken ist deutlich: Fischer beruft sich auf historische Präzedenzfälle nicht-territorialer Ordnung (etwa die jüdische Diaspora) und skizziert digitale Staatsbürgerschaft — inklusive digital übertragbarer Eigentums- und Bürgerrechte —, die geopolitische Spannungen entschärfen soll. In seinem Fluchtpunkt (Jahr 2140) wäre die «Bitcoin Nation» kein Superstaat, sondern ein dezentraler Anbieter von Grundrechten und diplomatischen Diensten. Das ergänzt Warrens Typologie um ein konkretes Modell für Zitadellen des Typs «souverän» und teilt dieselbe Grundannahme: Wenn staatliche Institutionen an Anpassungsfähigkeit verlieren, entstehen wählbare Parallelstrukturen. Wie bei Warren gilt der Vorbehalt — es ist ein Zukunftsentwurf, kein Befund. [[20240722_bmi-bitcoin-nation-sound-money-democracy-en]]
 
-## Related
-
-- [[bitcoin-geld-als-fiktion-und-paradigmenwechsel]]
-- [[bitcoin-und-selbstverantwortung]]
-- [[dollar-hegemonie-super-imperialismus]]
-- [[iwf-weltbank-strukturanpassung]]
-- [[el-salvador-bitcoin-adoption]]
-- [[bitcoin-als-strategische-reserve]]
-- [[neofeudalism-und-bitcoin-exit]]
-- [[bitcoin-treasury-companies]]
-- [[bitcoin-monetarisierung]]
-
----
-
 ### Die ESG-Barriere für Sovereign Funds (Batten, 2024)
 
 Neben individuellen Early Adopters und Unternehmens-Treasuries gibt es eine dritte Adoptionswelle, die für Hyperbitcoinization entscheidend ist: Sovereign Investment Funds (SIF). Diese verwalten $51,5 Billionen AUM und teilen sich in drei Typen:
@@ -83,6 +69,19 @@ Mie Holstad, Chief Investment Officer Real Assets von Norwegens Staatsfonds (dem
 **Der ESG-Chasm.** In Anlehnung an Geoffrey Moore's "Crossing the Chasm": Das Tal, das Bitcoin zwischen Early Adopters und Early Majority überqueren muss, heisst "ESG Investment Committee". Das Narrativ rund um Bitcoin-Mining als Umweltproblem war der Hauptgrund, warum Sovereign Funds Bitcoin nicht passieren liessen. Der Narrativwandel (2022–2025) ist damit nicht nur relevant für Bitcoin's öffentliches Bild, sondern direkt für die nächste Adoptionswelle. [[The Path to Hyperbitcoinization]], [[bitcoin-mining-narrativ-und-kritik]]
 
 **Erste Bewegungen.** 2024 legte das Wisconsin Retirement System $100 Mio. über Blackrock's iShares Bitcoin ETF an — erster Pensionsfonds weltweit mit einem öffentlich bestätigten Bitcoin-Investment. Die Dynamik hat begonnen, aber wie bei El Salvador (erster Nationalstaat mit Bitcoin als Legal Tender, 2021) folgten zunächst keine weiteren. Die Frage ist, wann das Muster kippt.
+
+## Related
+
+- [[bitcoin-geld-als-fiktion-und-paradigmenwechsel]]
+- [[bitcoin-und-selbstverantwortung]]
+- [[dollar-hegemonie-super-imperialismus]]
+- [[iwf-weltbank-strukturanpassung]]
+- [[el-salvador-bitcoin-adoption]]
+- [[bitcoin-als-strategische-reserve]]
+- [[neofeudalism-und-bitcoin-exit]]
+- [[bitcoin-treasury-companies]]
+- [[bitcoin-monetarisierung]]
+- [[bitcoin-mining-narrativ-und-kritik]]
 
 ## Open Questions
 

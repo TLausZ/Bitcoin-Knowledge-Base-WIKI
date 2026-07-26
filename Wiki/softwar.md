@@ -3,7 +3,7 @@
 **Status:** established
 **Themen:** mining, oekonomie, adoption, buecher
 **Last updated:** 2026-07-20
-**Sources:** [[Softwar_ Eine neuartige Theorie zur Machtprojektion und zur -- Jason P_ Lowery -- 2023 -- 57b0a7eda539c41ea64e37b8bdf41737 -- Anna’s Archive]]
+**Sources:** [[2023_Softwar_Lowery.pdf]]
 
 ## Summary
 

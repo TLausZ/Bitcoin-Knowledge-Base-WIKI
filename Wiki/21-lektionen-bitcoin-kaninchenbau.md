@@ -3,7 +3,7 @@
 **Status:** established
 **Themen:** privacy, mining, oekonomie, philosophie, adoption, buecher
 **Last updated:** 2026-07-22
-**Sources:** [[21-lektionen-bitcoin-kaninchenbau]], [[21 Lektionen_ Meine Reise in den Bitcoin Kaninchenbau -- Gigi -- Erste edition, Erscheinungsort nicht ermittelbar, 2020 -- Independently published -- isbn13 9788618800557 -- de766ecf623a18cd056bc6fb0ae52322 -- Anna's Archive]], [[2019_Gigi_21-lessons.pdf]]
+**Sources:** [[21-lektionen-bitcoin-kaninchenbau]], [[2020_21-Lektionen-Bitcoin-Kaninchenbau_Gigi.epub]], [[2019_Gigi_21-lessons.pdf]]
 
 ## Summary
 

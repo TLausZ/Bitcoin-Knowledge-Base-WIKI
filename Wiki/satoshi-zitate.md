@@ -301,7 +301,6 @@ Zur Person, zum Abgang und zu späteren Identitätsbehauptungen siehe [[bitcoin-
 
 ## Related
 
-- [[the-quotable-satoshi]]
 - [[bitcoin-whitepaper]]
 - [[satoshi-ankuendigung-2009]]
 - [[bitcoin-mining-und-proof-of-work]]
