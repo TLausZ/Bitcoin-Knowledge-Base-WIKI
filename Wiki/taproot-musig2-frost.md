@@ -2,8 +2,8 @@
 
 **Status:** established
 **Themen:** protokoll
-**Last updated:** 2026-06-06
-**Sources:** [[20250206_musig2-und-frost-multisignaturverfahren-auf-taproot-erklärt]], [[20220818_taproot-keim-bitcoin-anwendungen-de]], [[20220118_bitbox-01-2022-maighels-update-de]], [[20220331_bitbox-03-2022-glaernisch-update-de]], [[learnmeabitcoin-technical-upgrades-taproot]]
+**Last updated:** 2026-07-26
+**Sources:** [[20250206_musig2-und-frost-multisignaturverfahren-auf-taproot-erklärt]], [[20220818_taproot-keim-bitcoin-anwendungen-de]], [[20220118_bitbox-01-2022-maighels-update-de]], [[20220331_bitbox-03-2022-glaernisch-update-de]], [[learnmeabitcoin-technical-upgrades-taproot]], [[Bitcoin Optech Newsletter #415]]
 
 ## Summary
 
@@ -55,6 +55,10 @@ Dafür braucht es eine besondere Schlüsselerzeugung:
 
 Eine FROST Key-Path Ausgabe sieht ebenfalls wie jede andere Taproot-Transaktion aus — niemand kann erkennen, welche Kombination der Unterzeichner die Coins ausgegeben hat.
 
+### Volle Aggregation: der Unterschied zu MuSig2 (2026)
+
+MuSig2 aggregiert Schlüssel: mehrere Parteien signieren gemeinsam *eine* Nachricht unter *einem* aggregierten Schlüssel. Die im Juli 2026 als Draft-BIP vorgeschlagene volle Aggregation (DahLIAS, vorläufig BIP459) geht einen anderen Weg — die Signierer behalten getrennte Schlüssel und können getrennte Nachrichten signieren, nur die Signaturen werden zu einer einzigen 64-Byte-Signatur verschmolzen. Auch dieses Verfahren ist interaktiv und läuft in zwei Runden über einen nicht vertrauenswürdigen Koordinator. Anwendungsziel ist Cross-Input Signature Aggregation, die eine Konsensänderung voraussetzen würde. Details in [[bip-0459]]. [[Bitcoin Optech Newsletter #415]]
+
 ### Zusammenfassung: Was es bringt
 
 | | Herkömmliches Multisig | MuSig2 (n-von-n) | FROST (k-von-n) |
@@ -77,6 +81,7 @@ Die Technologien skalieren besonders für grössere Organisationen mit komplexer
 - [[bitcoin-und-quantenrisiko]]
 - [[core-lightning-26-06]]
 - [[digitale-signaturen-ecdsa]]
+- [[bip-0459]]
 - [[double-sha256]]
 - [[elliptische-kurven-kryptographie]]
 

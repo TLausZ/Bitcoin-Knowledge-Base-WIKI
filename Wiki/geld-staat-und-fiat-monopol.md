@@ -124,6 +124,7 @@ Dass die Verbindung zwischen Geldsystem und Staatsform kein Nischenthema mehr is
 - [[bitcoin-als-basisgeld]]
 
 - [[der-fiat-standard|Der Fiat-Standard (Saifedean Ammous)]] ← Buch
+- [[the-bitcoin-enlightenment|The Bitcoin Enlightenment (Salinas/Hügli/Jungen)]] ← Buch
 
 ## Open Questions
 

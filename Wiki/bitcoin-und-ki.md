@@ -44,6 +44,7 @@ KI-Entwicklung konzentriert sich heute auf wenige Unternehmen (OpenAI, Google, M
 ## Related
 
 - [[bitcoin-unternehmens-strategie]]
+- [[bitcoin-mining-und-ki-rechenzentren]]
 - [[bitcoin-digitale-knappheit]]
 - [[kapital-und-bitcoin]]
 - [[bitcoin-skalierung-und-zahlungen]]

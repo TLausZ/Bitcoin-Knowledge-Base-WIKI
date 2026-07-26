@@ -38,6 +38,7 @@ Die Studie misst «Kryptoanlagen» insgesamt, nicht Bitcoin spezifisch; die Blog
 ## Related
 - [[crypto-adaption-europa-bsd-2026]]
 - [[frauen-und-bitcoin]]
+- [[bitcoin-verstaendlich-erklaert|Bitcoin verständlich erklärt (Hügli/Lanni)]] ← Buch
 
 [[crypto-assets-study-ifz-2021-2025]] · [[bitcoin-adoptionsstudie-2026-dach]] · [[bitcoin-adoption-reise]] · [[bitcoin-bildung]] · [[bitcoin-kaufen-und-dca]] · [[bitcoin-etf-und-institutionelle-verwahrung]] · [[selbstverwahrung-und-boersenrisiken]] · [[bitcoin-volatilitaet-und-preisfindung]] · [[bitcoin-vs-krypto]]
 

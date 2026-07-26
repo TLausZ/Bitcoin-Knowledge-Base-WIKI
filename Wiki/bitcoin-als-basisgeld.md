@@ -56,6 +56,7 @@ Maxwell argumentiert, dass die politische Linke strukturell falsch liegt, wenn s
 - [[dollar-hegemonie-super-imperialismus]]
 - [[bitcoin-adoption-reise]]
 - [[bitcoin-menschenrechte]]
+- [[bitcoin-verstaendlich-erklaert|Bitcoin verständlich erklärt (Hügli/Lanni)]] ← Buch
 
 ## Open Questions
 

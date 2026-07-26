@@ -140,6 +140,7 @@ Der älteste und konzeptionell grundlegendste Artikel in diesem Corpus stammt au
 
 ## Related
 
+- [[bitcoin-mining-und-ki-rechenzentren]] ← was passiert, wenn flexible Mining-Last in feste KI-Last umgewandelt wird
 - [[bitcoin-mining-energiequellen]]
 - [[bitcoin-mining-narrativ-und-kritik]]
 - [[bitcoin-mining-und-proof-of-work]]

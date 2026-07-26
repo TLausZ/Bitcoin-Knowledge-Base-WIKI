@@ -114,6 +114,7 @@ Die Lernkurve ist steil — das Gerät richtet sich explizit an fortgeschrittene
 ## Related
 
 - [[hardware-wallet-sicherheitsarchitektur]]
+- [[specter-desktop]]
 - [[multisig-und-kollaborative-verwahrung]]
 - [[sparrow-wallet]]
 - [[wallet-backup-strategien]]

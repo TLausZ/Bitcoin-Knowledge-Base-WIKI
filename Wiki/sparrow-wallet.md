@@ -153,6 +153,7 @@ Ein Electrum Server speichert — anders als Bitcoin Core mit Wallet — keine n
 - [[coin-control-und-utxo-auswahl]]
 - [[no-kyc-bitcoin]]
 - [[nunchuk-wallet]]
+- [[specter-desktop]]
 
 ## Open Questions
 

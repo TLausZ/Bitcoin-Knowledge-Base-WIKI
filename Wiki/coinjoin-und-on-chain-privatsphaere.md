@@ -2,8 +2,8 @@
 
 **Status:** established
 **Themen:** protokoll, privacy
-**Last updated:** 2026-06-25 (Pass 53: CoinJoin-Rechtslage + Lightning/Liquid-Swaps)
-**Sources:** [[20240508_was-ist-eigentlich-ein-coinjoin]], [[20240606_payment-codes-bitcoin-adressen-privat-austauschen]], [[sparrowwallet-Spending Privately]], [[Das Privacy Handbuch_ Ein Ratgeber für digitale Sicherheit und Privatsphäre]], [[alex-waltz-joinmarket]]
+**Last updated:** 2026-07-26
+**Sources:** [[20240508_was-ist-eigentlich-ein-coinjoin]], [[20240606_payment-codes-bitcoin-adressen-privat-austauschen]], [[sparrowwallet-Spending Privately]], [[Das Privacy Handbuch_ Ein Ratgeber für digitale Sicherheit und Privatsphäre]], [[alex-waltz-joinmarket]], [[Bitcoin Optech Newsletter #415]]
 
 ## Summary
 
@@ -68,6 +68,12 @@ Wer die rechtlichen Risiken von CoinJoin vermeiden will, kann stattdessen Swaps 
 Das Lightning Network bietet strukturelle Privatsphäre: Transaktionen werden über mehrere Nodes geroutet (ähnlich Tor — Onion Routing), einzelne Zahlungsbeträge sind für Aussenstehende nicht sichtbar, und abgeschlossene Kanäle hinterlassen keine dauerhaften Aufzeichnungen der einzelnen Zahlungen.
 
 Liquid bietet zusätzlich *Confidential Transactions* — der Betrag ist verschlüsselt und nur für die beiden Transaktionspartner sichtbar.
+
+### Stand Juli 2026: Wasabi ohne Backend, Coinswap-Fortschritt
+
+Der Wasabi-Client wird nach dem Ende des zkSNACKs-Koordinators weiterentwickelt. Version 2.8.0 lädt Compact Block Filters direkt aus dem P2P-Netz und braucht den bisher zwingenden zentralen Backend-Server nicht mehr. Damit entfällt genau die Komponente, an der die Verfahren gegen zentrale Koordinatoren ansetzten. Dazu kommen Zahlungen direkt an Empfänger innerhalb eines CoinJoins, Unterstützung für Gebührenraten unter 1 sat/vByte und Payment Batching.
+
+Parallel entwickelt sich Coinswap als Alternative ohne gemeinsame Transaktion: Version 0.2.2 ergänzt Swaps über mehrere Transaktionen, Deniability-Beweise und Verbesserungen am Marktplatz. Bei einem Coinswap tauschen zwei Parteien Coins über getrennte, atomar verknüpfte Transaktionen — auf der Chain sieht das nach zwei gewöhnlichen Zahlungen aus, nicht nach einem Mischvorgang. Die Freigabe enthält Korrekturen aus einem Sicherheitsaudit mit Loupe, dem Open-Source-Scanner von Spiral. [[Bitcoin Optech Newsletter #415]]
 
 ### Privatsphäre nach einem CoinJoin
 

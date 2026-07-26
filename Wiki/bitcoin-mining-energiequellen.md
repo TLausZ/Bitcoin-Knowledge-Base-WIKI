@@ -111,6 +111,7 @@ Die interessantere Frage ist die umgekehrte: Kann Mining Wasserknappheit lindern
 ## Related
 
 - [[bitcoin-mining-netz-und-oekonomie]]
+- [[bitcoin-mining-und-ki-rechenzentren]]
 - [[bitcoin-mining-narrativ-und-kritik]]
 - [[bitcoin-energie-messung-beest]]
 - [[bitcoin-mining-und-proof-of-work]]

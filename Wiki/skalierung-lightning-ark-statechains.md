@@ -2,8 +2,8 @@
 
 **Status:** emerging
 **Themen:** lightning
-**Last updated:** 2026-06-24
-**Sources:** [[20251218_die-skalierung-von-bitcoin-lightning-und-der-weg-zu-ark]], [[20260212_bitcoin-senden-ohne-sie-zu-bewegen-statechains-erklärt]], [[20231018_lightning-in-der-bitboxapp]], [[20240314_wie-die-bitbox02-den-seed-für-die-lightning-wallet-sicher-ableitet]], [[aprycot-svanholm-wahre-skalierungsloesung]], [[Introducing Cube]]
+**Last updated:** 2026-07-26
+**Sources:** [[20251218_die-skalierung-von-bitcoin-lightning-und-der-weg-zu-ark]], [[20260212_bitcoin-senden-ohne-sie-zu-bewegen-statechains-erklärt]], [[20231018_lightning-in-der-bitboxapp]], [[20240314_wie-die-bitbox02-den-seed-für-die-lightning-wallet-sicher-ableitet]], [[aprycot-svanholm-wahre-skalierungsloesung]], [[Introducing Cube]], [[Bitcoin Optech Newsletter #415]]
 
 ## Summary
 
@@ -28,6 +28,8 @@ Ark (2023 vorgestellt, erste öffentliche Implementierungen 2024/2025) löst das
 - In regelmässigen Abständen veröffentlicht der Server einen neuen „Schnappschuss" aller Guthaben on-chain
 
 **Vertrauensmodell:** Nutzer müssen dem Operator für Bequemlichkeit vertrauen, nicht für Verwahrung. Jederzeit kann man einseitig aussteigen und Gelder direkt on-chain zurückholen (Exit-Transaktion).
+
+**Wavelength (Lightning Labs, Juli 2026).** Lightning Labs veröffentlichte eine Alpha-Version von Wavelength, einem Baukasten für selbstverwahrte Zahlungen in Anwendungen. Er bezahlt und empfängt BOLT11-Rechnungen und bündelt Off-Chain-Transfers über eine Ark-ähnliche Settlement-Schicht, ohne dass Nutzer eigene Kanäle verwalten müssen. Verfügbar ist die Alpha auf Signet und Testnet. Damit setzt der Entwickler von LND Ark-Mechanik als Ergänzung zum Kanalmodell ein, statt sie als Konkurrenz zu behandeln. [[Bitcoin Optech Newsletter #415]]
 
 ### Statechains
 

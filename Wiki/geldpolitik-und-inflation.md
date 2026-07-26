@@ -2,8 +2,8 @@
 
 **Status:** established
 **Themen:** oekonomie
-**Last updated:** 2026-07-07
-**Sources:** [[aprycot-bednarek-paradigmenwechsel-geldpolitik]], [[aprycot-parker-lewis-bitcoin-ist-gesunder-menschenverstand]], [[aprycot-parker-lewis-bitcoin-bringt-das-in-ordnung]], [[aprycot-parker-lewis-enders-game-das-grosse-spiel]], [[aprycot-time-to-challenge-pladoyer-vernunft.md]], [[20221129_bmi-marktupdate-geldmenge-euro-vs-btc-de]]
+**Last updated:** 2026-07-26
+**Sources:** [[aprycot-bednarek-paradigmenwechsel-geldpolitik]], [[aprycot-parker-lewis-bitcoin-ist-gesunder-menschenverstand]], [[aprycot-parker-lewis-bitcoin-bringt-das-in-ordnung]], [[aprycot-parker-lewis-enders-game-das-grosse-spiel]], [[aprycot-time-to-challenge-pladoyer-vernunft.md]], [[20221129_bmi-marktupdate-geldmenge-euro-vs-btc-de]], [[Inflation and the Illusion of Wealth Part I]]
 
 ## Summary
 
@@ -22,6 +22,12 @@ Das neu geschaffene Geld gelangt nicht dorthin, wo die Produktivitätsgewinne en
 Das frische Geld sickert von oben nach unten durch die Volkswirtschaft. Die ersten Empfänger — Banken, Staatsanleihenkäufer, Kapitalmärkte — profitieren, bevor die Preiserhöhung ihren Vorteil aufzehrt. Wer das Geld als Letzter erhält, ist Netto-Verlierer: Die Preiserhöhung ist bereits eingetreten, der eigene Zugewinn noch nicht. Dieser Mechanismus ist bekannt als Cantillon-Effekt (nach dem Ökonomen Richard Cantillon, 18. Jahrhundert).
 
 Bednareks Pointe: Dieser Umverteilungsmechanismus ist nicht ein Fehler des Systems, sondern seine Konsequenz. Er ist nur möglich, weil Deflationsdruck durch Innovation besteht. Ohne Produktivitätswachstum gäbe es keine „Begründung" für Geldmengenerweiterung. [[aprycot-bednarek-paradigmenwechsel-geldpolitik]]
+
+Leon Wankum zeigt, wie sich der Effekt über den Kreditzugang selbst verstärkt: Wer stabile Einkommen, gute Bonität und beleihbare Vermögenswerte hat, kommt leichter an frisches Geld und kauft damit weitere Vermögenswerte. Steigende Nominalpreise erhöhen die Beleihungsbasis, sinkende reale Schuldenlast erhöht den Spielraum, und der Vorsprung verzinst sich. Seine Rechnung zur Grössenordnung: Schon die «moderate» Zielinflation von 2 % halbiert die Kaufkraft in gut 35 Jahren. Was in einem einzelnen Jahr wie Stabilität aussieht, ist über ein Erwerbsleben hinweg eine Enteignung, die weder ein Gesetz noch eine Abstimmung braucht. [[Inflation and the Illusion of Wealth Part I]]
+
+### Wie Inflation Preissignale zerstört
+
+Preise transportieren in einem funktionierenden Markt Information über Knappheit, Nachfrage und Opportunitätskosten. Steigen sie, weil mehr Geld ins System fliesst, lässt sich echtes Wachstum nicht mehr von monetärer Verzerrung unterscheiden. Wankum nennt drei Folgen: Fehlinvestition in Projekte, die nur wegen billigen Kredits rentabel wirken; Vermögenspreisinflation, weil überschüssiges Geld einen Wertspeicher sucht; und verkürzte Zeithorizonte, weil Konsum und Spekulation gegenüber Geduld belohnt werden. Immobilien absorbieren dabei überproportional viel, weil sie knapp, greifbar, ertragbringend und leicht finanzierbar sind, ihr Angebot aber langsamer wächst als Geld und Kredit — vertieft in [[bitcoin-und-immobilien]]. [[Inflation and the Illusion of Wealth Part I]]
 
 ### Der Warenkorb-Einwand
 
@@ -66,6 +72,14 @@ Fazit: „Das Problem ist unser ungedecktes Papiergeldsystem. Fiat pecunia — e
 Jan Wüstenfeld lieferte im November 2022 einen konkreten Vergleich der Geldmengenentwicklung. Der Oktober 2022 war der erste Monat, in dem das Geldmengenwachstum der Eurozone im Monatsvergleich negativ wurde (M2 −0,47 %, M3 −0,45 %), während es beim US-Dollar bereits seit Jahresbeginn schrumpfte. Im Jahresvergleich stand der Euro dennoch schlechter da: M2 +5,2 % und M3 +5,3 % gegenüber M2 +1,3 % beim Dollar — für den Euro mehr als doppelt so hoch. Wüstenfeld stellt dem Bitcoins damalige Emissionsrate von unter 2 % gegenüber, die durch die Halbierung der Blockbelohnung alle 210.000 Blöcke garantiert weiter sinkt (die Neuausgabe pro Block fiel im Frühjahr 2024 von 6,25 auf 3,125 BTC).
 
 Der Kontrast dient ihm als praktisches Argument für das Bednarek-Thema: vorhersehbares, über die Zeit fallendes Geldmengenwachstum gegen ein Fiat-System, dessen Wert von Notenbank-Entscheidungen abhängt. [[20221129_bmi-marktupdate-geldmenge-euro-vs-btc-de]]
+
+### Historische Muster der Geldverschlechterung (Wankum)
+
+Wankum ordnet die heutige Mechanik in eine lange Reihe ein: Wo Geld von Knappheit gelöst und zentral kontrolliert wurde, folgte dasselbe Muster aus Ausweitung, Umverteilung zugunsten der Emissionsnähe, wachsender Ungleichheit und schliesslich Vertrauensverlust. Aristoteles kritisierte die Münzverschlechterung als Machtmissbrauch; das altindische *Arthashastra* warnte Herrscher davor, den Metallgehalt zu senken, weil es Handel und Steueraufkommen beschädige. Frühe chinesische Papiergeldversuche kollabierten, sobald die Emission die Reserven überstieg. Nikolaus Kopernikus formulierte im 16. Jahrhundert die Quantitätstheorie, wonach übermässige Ausgabe die Währung zwangsläufig entwertet.
+
+An Fallbeispielen nennt er das Römische Reich (fortgesetzte Verschlechterung des Denars, später des Solidus), Byzanz sowie Schweden im 17. Jahrhundert: Johan Palmstruchs Stockholms Banco gab mehr Banknoten aus als gedeckt und ging unter — der Staat schaffte die Praxis danach nicht ab, sondern übernahm sie und gründete am 17. September 1668 die Sveriges Riksbank, womit das Teilreservesystem institutionalisiert wurde.
+
+Der Goldstandard des 19. Jahrhunderts stellte die Disziplin vorübergehend her, wurde aber politisch unbequem: Kriege, Krisen, Sozialausgaben und wachsende Verwaltungen verlangten Ausgaben jenseits von Steuern und echten Ersparnissen. Geldausweitung war der unauffälligere Weg — sie zieht Ausgaben vor, verteilt einen Teil der Kosten auf die Währungshalter und senkt die reale Last festverzinslicher Staatsschulden. Die Einlöseverpflichtungen wurden deshalb wiederholt ausgesetzt, aufgeweicht und zuletzt ganz aufgegeben. [[Inflation and the Illusion of Wealth Part I]]
 
 ## Related
 

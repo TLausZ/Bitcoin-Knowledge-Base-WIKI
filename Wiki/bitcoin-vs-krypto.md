@@ -132,6 +132,7 @@ Lyn Alden schrieb 2021 eine der präzisesten Investor-Analysen zu Ethereum aus e
 - [[bitcoin-antifragilitaet]]
 
 - [[internet-of-money-vol2|The Internet of Money Vol. 2 (Andreas Antonopoulos)]] ← Buch
+- [[ignorieren-auf-eigene-gefahr|Ignorieren auf eigene Gefahr (Hügli/Dettling/Lee)]] ← Buch
 
 ## Open Questions
 

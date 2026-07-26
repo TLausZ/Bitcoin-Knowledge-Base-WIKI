@@ -78,6 +78,7 @@ Beim ersten Empfang einer Adresse registriert die BitBox02 das Multisig-Setup: D
 - [[bitcoin-vererbung]]
 - [[fedimint-und-community-custody]]
 - [[hardware-wallet-angriffsvektoren]]
+- [[specter-desktop]]
 
 - [[bitcoins-verwahren-und-vererben|Bitcoins verwahren und vererben (Marc Steiner)]] ← Buch
 

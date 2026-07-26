@@ -1,6 +1,10 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Bitcoin-Wiki · Screensaver</title>
+<!-- vorgebackene Karten (tools/build_screensaver_maps.py) — nötig für file://,
+     wo fetch() der HTML-Karten am CORS-Origin null scheitert. Fehlt die Datei,
+     läuft unten der fetch-Pfad (nur über http:// nutzbar). -->
+<script src="screensaver-maps.js"></script>
 <style>
   html,body{margin:0;height:100%;background:#ece2cd;overflow:hidden;cursor:none;
     font:13px/1.4 ui-sans-serif,system-ui,sans-serif;color:#8a7a5e}
@@ -27,7 +31,8 @@
 <div id="cap"></div>
 <div id="pal"></div>
 <div id="err"><div>Karte konnte nicht geladen werden.<br>
-  Bitte über http öffnen, z.&nbsp;B. <b>python3 -m http.server</b> im Visualizer-Ordner.</div></div>
+  Für <b>file://</b> fehlt <b>screensaver-maps.js</b> — <b>python3 tools/build_screensaver_maps.py</b> laufen lassen.<br>
+  Alternativ über http öffnen, z.&nbsp;B. <b>python3 -m http.server</b> im Visualizer-Ordner.</div></div>
 <script>
 'use strict';
 // ============================================================================
@@ -684,8 +689,11 @@ function applyMap(i){
 // --- Start ---------------------------------------------------------------------
 (async ()=>{
   try{
-    const res=await Promise.allSettled(MAPS.map(u=>fetch(u).then(r=>r.text())));
-    for(const r of res) if(r.status==='fulfilled') MAPDATA.push(parseMap(r.value));
+    if(window.MAPDATA_EMBED) MAPDATA.push(...MAPDATA_EMBED);
+    else{
+      const res=await Promise.allSettled(MAPS.map(u=>fetch(u).then(r=>r.text())));
+      for(const r of res) if(r.status==='fulfilled') MAPDATA.push(parseMap(r.value));
+    }
     if(!MAPDATA.length) throw new Error('keine Karte ladbar');
     resize(); applyMap(0);
     // buildPalette();   // Palette-Leiste (?pal=N) deaktiviert — bei Farbarbeit wieder einkommentieren

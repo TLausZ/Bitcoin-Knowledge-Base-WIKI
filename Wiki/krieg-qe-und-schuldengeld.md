@@ -77,6 +77,7 @@ Gladsteins Schlussthese: Unter einem Bitcoin-Standard — wo keine Zentralbank G
 - [[bitcoin-als-inflationsschutz]]
 - [[dollar-hegemonie-super-imperialismus]]
 - [[schuldenzyklen]]
+- [[the-bitcoin-enlightenment|The Bitcoin Enlightenment (Salinas/Hügli/Jungen)]] ← Buch
 
 ## Open Questions
 

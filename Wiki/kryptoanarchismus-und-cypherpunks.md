@@ -76,6 +76,7 @@ Hayases Gegenargumentation: Satoshi hat nicht versprochen, sondern gezeigt. Der 
 
 - [[das-trojanische-pferd-der-freiheit|Das Trojanische Pferd der Freiheit]] ← Buch
 - [[blocksize-war|Der Blocksize-Krieg (2015–2017)]] ← Buch
+- [[ignorieren-auf-eigene-gefahr|Ignorieren auf eigene Gefahr (Hügli/Dettling/Lee)]] ← Buch
 
 ## Open Questions
 

@@ -2,8 +2,8 @@
 
 **Status:** emerging
 **Themen:** protokoll, self-custody, privacy
-**Last updated:** 2026-06-04
-**Sources:** [[20240905_silent-payments-erklärt-teil-1]], [[20241017_silent-payments-erklärt-teil-2]], [[20241023_bitbox-10-2024-lugano-update]]
+**Last updated:** 2026-07-26
+**Sources:** [[20240905_silent-payments-erklärt-teil-1]], [[20241017_silent-payments-erklärt-teil-2]], [[20241023_bitbox-10-2024-lugano-update]], [[Bitcoin Optech Newsletter #415]]
 
 ## Summary
 
@@ -51,6 +51,10 @@ Selbst eine kompromittierte Hardware-Wallet kann die Transaktion nicht manipulie
 ### Einschränkungen
 
 Nur bestimmte Input-Typen sind erlaubt: P2TR (keypath), P2WPKH, P2WPKH-P2SH, P2PKH — also Single-Signature-Typen. Native Multisig ohne Aggregation ist nicht kompatibel.
+
+### Referenzimplementierung in libsecp256k1 (Juli 2026)
+
+libsecp256k1 #1765 nimmt ein optionales `silentpayments`-Modul auf, das die elliptischen Kurvenoperationen von BIP-352 bereitstellt — bis dahin musste jede Wallet die Ableitungslogik selbst implementieren. Auf der Senderseite kombiniert eine Funktion die privaten Input-Schlüssel, den niedrigsten Outpoint der Transaktion sowie Scan- und Spend-Public-Key des Empfängers zu den Output-Schlüsseln. Auf der Empfängerseite erkennt das Full-Node-Scanning, welche Outputs zum Empfänger gehören, und liefert die zum Ausgeben nötigen Tweaks; dafür genügen der geheime Scan-Schlüssel und der öffentliche Spend-Schlüssel, sodass der private Spend-Schlüssel offline bleiben kann. Separate Funktionen verwalten Labels, mit denen Empfänger unterscheidbare Varianten ihrer Adresse ableiten und eigenes Wechselgeld markieren. Scanning-Unterstützung für Light Clients wurde auf einen späteren PR verschoben — der in dieser Wiki unter «Scanning-Aufwand» beschriebene Engpass bleibt damit offen. [[Bitcoin Optech Newsletter #415]]
 
 ## Related
 

@@ -77,6 +77,8 @@ BUECHER_SET = {
     "hidden-repression_how-the-imf-and-world-bank-sell-exploitation-as-development",
     "einfuehrung-in-das-lightning-netzwerk", "magic-future-money",
     "softwar", "21-lektionen-bitcoin-kaninchenbau",
+    "bitcoin-verstaendlich-erklaert", "ignorieren-auf-eigene-gefahr",
+    "the-bitcoin-enlightenment",
 }
 
 # (tag, regex) — trifft gegen slug + " " + beschreibung (lowercase, ascii-gefaltet)
@@ -105,6 +107,8 @@ BIP_SECOND = [
 
 OVERRIDES = {
     # gezielte Korrekturen nach Report-Review, slug -> Themenliste
+    # Miner-KI-Deals: Netzflexibilitaet + Unternehmensbewertung, "mining" allein zu duenn
+    "bitcoin-mining-und-ki-rechenzentren": ["mining", "oekonomie", "adoption"],
     "bitcoin-versicherung": ["oekonomie", "self-custody"],
     "zitate": ["zitate", "philosophie"],
     "mt-gox": ["geschichte", "kritik", "self-custody"],

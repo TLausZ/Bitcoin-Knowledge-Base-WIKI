@@ -43,8 +43,27 @@ je Karte in `parseMap`:
 Nicht ladbare Karten werden übersprungen (Promise.allSettled). Dadurch ist
 der Screensaver automatisch aktuell, wenn `tools/layout_map.py` oder
 `build_theme_cards.py` neu bauen. Bricht, falls sich der PEAKS-Zeilenaufbau
-ändert. Ohne HTTP (file://) schlägt fetch fehl → Fehlerhinweis im DOM
-(#err), Karte über `python3 -m http.server` öffnen.
+ändert.
+
+Unter `file://` scheitert fetch am CORS-Origin `null`. Dafür gibt es
+`screensaver-maps.js` (`window.MAPDATA_EMBED`), erzeugt von
+`tools/build_screensaver_maps.py` — ein Python-Port von `parseMap`, per
+`<script src>` geladen und damit CORS-frei. Ist die Variable da, wird sie
+benutzt und gar nicht erst gefetcht; fehlt die Datei, läuft der fetch-Pfad
+(nur über http) und sonst der Fehlerhinweis im DOM (#err).
+
+**Preis:** die Datei ist ein Abzug, kein Live-Parse. Nach jedem
+`layout_map.py` oder `build_theme_cards.py` `python3
+tools/build_screensaver_maps.py` nachziehen, sonst zeigt der Screensaver
+alte Karten. Ändert sich `parseMap`, muss der Python-Port mit. Gleichstand
+prüfen (vergleicht beide Parser über alle 19 Karten, erwartet `true`):
+
+```
+node -e "const fs=require('fs'),h=fs.readFileSync('screensaver.html','utf8'),
+g=eval(h.slice(h.indexOf('const MAPS='),h.indexOf('let mapIdx'))+';[MAPS,parseMap]');
+eval(fs.readFileSync('screensaver-maps.js','utf8').replace('window.','globalThis.'));
+console.log(JSON.stringify(g[0].map(u=>g[1](fs.readFileSync(u,'utf8'))))===JSON.stringify(MAPDATA_EMBED))"
+```
 
 Die Gelände-Pipeline (mulberry32, fft1d/fft2d, buildEnvelope, computeField,
 contour, chainLoops, build, project, peakVisible) ist 1:1 aus index.html
