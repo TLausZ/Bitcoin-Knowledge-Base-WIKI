@@ -28,8 +28,8 @@ Daraus folgt eine direkte Verbindung zur UTXO-Verwaltung: Viele kleine UTXOs = g
 Der Mempool (Memory Pool) ist die Warteschlange aller noch nicht bestätigten Transaktionen im Netzwerk. Er spiegelt die aktuelle Nachfrage nach Blockplatz wider und erlaubt eine Einschätzung der angemessenen Gebühr.
 
 Nützliche Mempool-Explorer:
-- **mempool.space** — visuelle Darstellung nach Gebührenstufen, Blockvorhersagen
-- **jochen-hoenicke.de** — zeitliche Entwicklung des Mempool-Volumens
+- **mempool.space:** visuelle Darstellung nach Gebührenstufen, Blockvorhersagen
+- **jochen-hoenicke.de:** zeitliche Entwicklung des Mempool-Volumens
 
 Das Grundmuster: Alle ~10 Minuten wird ein Block gefunden, die höchstbietenden Transaktionen werden herausgenommen. Im Diagramm ist das als periodischer Einschnitt von oben sichtbar. In Hochlastphasen (starke Preisvolatilität, viele neue Nutzer) füllt sich der Mempool schnell und Gebühren steigen deutlich.
 

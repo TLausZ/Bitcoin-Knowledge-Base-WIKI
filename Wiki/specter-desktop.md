@@ -29,10 +29,10 @@ Es gibt sechs Wege, gestaffelt nach technischem Anspruch:
 
 - **OS-Binary** von der [GitHub-Release-Seite](https://github.com/cryptoadvance/specter-desktop/releases) — installiert sich wie eine normale Desktop-App, erkennt Core automatisch, Updates aber manuell.
 - **pip** (`pip3 install cryptoadvance.specter`) — für Python-Nutzer, verlangt Python 3.9–3.10.
-- **Docker** — isolierte, reproduzierbare Umgebung, setzt Docker-Kenntnisse voraus.
+- **Docker:** isolierte, reproduzierbare Umgebung, setzt Docker-Kenntnisse voraus.
 - **Paketmanager** (Homebrew) — automatische Updates, nur macOS/Linux, hinkt der neuesten Version teils hinterher.
-- **Node-in-a-Box** — als fertige App in Raspiblitz, Umbrel, Citadel, Start9 und myNode (Premium).
-- **Aus dem Quellcode** — volle Kontrolle für Beitragende, aufwendig.
+- **Node-in-a-Box:** als fertige App in Raspiblitz, Umbrel, Citadel, Start9 und myNode (Premium).
+- **Aus dem Quellcode:** volle Kontrolle für Beitragende, aufwendig.
 
 Das Binary lässt sich über SHA256SUMS und die GPG-signierte `SHA256SUMS.asc` verifizieren. Wer über Raspiblitz, Umbrel und Co. geht, bekommt Specter meist direkt aus dem jeweiligen App-Menü.
 

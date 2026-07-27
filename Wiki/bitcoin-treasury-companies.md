@@ -13,7 +13,7 @@ Snapshot vom 17. Juli 2026 (bitcointreasuries.net, BTC-Preis $64'105): 197 börs
 
 ### Die Landschaft in Zahlen
 
-Der Sektor zählt 197 Firmen, ist aber faktisch eine Firma plus Anhang: Strategy 843'775 BTC, danach Twenty One Capital (43'514) und Metaplanet (43'000) mit je etwa einem Zwanzigstel davon. 13 Unternehmen halten mehr als 10'000 BTC, bei Rang 51 liegt der Bestand noch bei 819 BTC, bei Rang 100 bei 125 BTC. Über 30 Tage war der Gesamtbestand flach (0.0%), die Anzahl Firmen ging um eine zurück — der Sektor wächst im Bärenmarkt 2026 nicht mehr. [[20260717_bitcointreasuries-top100-public-companies]]
+Der Sektor zählt 197 Firmen, ist aber faktisch eine Firma plus Anhang: Strategy 843'775 BTC, danach Twenty One Capital (43'514) und Metaplanet (43'000) mit je etwa einem Zwanzigstel davon. 13 Unternehmen halten mehr als 10'000 BTC, bei Rang 51 liegt der Bestand noch bei 819 BTC, bei Rang 100 bei 125 BTC. Über 30 Tage war der Gesamtbestand flach (0.0%), die Anzahl Firmen ging um eine zurück: Der Sektor wächst im Bärenmarkt 2026 nicht mehr. [[20260717_bitcointreasuries-top100-public-companies]]
 
 ### Zeitreihe (Folge-Snapshots)
 
@@ -21,7 +21,7 @@ Seit dem 18. Juli 2026 liegt der Snapshot zusätzlich als automatisierter Abzug 
 
 ### Kennzahlen: mNAV, Cost Basis, NgU
 
-Die Seite rechnet pro Firma mNAV (Market Cap geteilt durch BTC-Bestand zu Marktpreisen), Cost Basis und NgU (aktueller Preis als Vielfaches des Einstands). Der Snapshot zeigt einen Sektor unter Wasser: Strategys Cost Basis liegt bei $63'690M gegen $54'090M aktuellen BTC-Wert (NgU 0.85x), das mNAV bei 1.017 — die frühere Prämie, auf der das Flywheel aufbaute, ist praktisch weg. Viele kleinere Treasury-Firmen notieren deutlich unter NAV (mNAV 0.6–0.9, Extremfall USBC mit 0.093), und wer 2025 nahe der Höchststände kaufte, steht bei NgU um 0.55. Das ist die empirische Unterfütterung von Charles Edwards' Diagnose eines überfüllten, gehebelten Treasury-Sektors in [[bitcoin-unternehmens-strategie]].
+Die Seite rechnet pro Firma mNAV (Market Cap geteilt durch BTC-Bestand zu Marktpreisen), Cost Basis und NgU (aktueller Preis als Vielfaches des Einstands). Der Snapshot zeigt einen Sektor unter Wasser: Strategys Cost Basis liegt bei $63'690M gegen $54'090M aktuellen BTC-Wert (NgU 0.85x), das mNAV bei 1.017: Die frühere Prämie, auf der das Flywheel aufbaute, ist praktisch weg. Viele kleinere Treasury-Firmen notieren deutlich unter NAV (mNAV 0.6–0.9, Extremfall USBC mit 0.093), und wer 2025 nahe der Höchststände kaufte, steht bei NgU um 0.55. Das ist die empirische Unterfütterung von Charles Edwards' Diagnose eines überfüllten, gehebelten Treasury-Sektors in [[bitcoin-unternehmens-strategie]].
 
 ### Wer hält: vier Typen
 

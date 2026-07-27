@@ -17,7 +17,9 @@ Gigi zieht die Trennlinie explizit: Bitcoin, nicht Blockchain. Bitcoin, nicht Kr
 
 „Krypto" ist die Entdeckung der Gelddruckerei durch Nerds — scheinbar kostenlose Mittagessen, gestützt durch Perpetuum Mobile, die mit Technogelaber laufen. Bitcoin und Krypto haben dasselbe Verhältnis wie Feuer und Feuerzeug: dieselbe Oberfläche, grundlegend verschiedene Wirkungen.
 
-### Die fünf revolutionären Eigenschaften von Bitcoin
+### Die fünf «revolutionären» Eigenschaften von Bitcoin
+
+Die Rahmung stammt von Gigi selbst — er nennt im Brief fünf Eigenschaften, die er je einzeln als revolutionär einstuft:
 
 1. **Absolut knapp** — Bitcoin ist das erste liquide Asset in der Geschichte mit absoluter Knappheit
 2. **Zeitlich festgelegter Ausgabeplan** — die Geldpolitik folgt keinem Dekret, sondern einem unveränderlichen Zeitplan
@@ -25,7 +27,7 @@ Gigi zieht die Trennlinie explizit: Bitcoin, nicht Blockchain. Bitcoin, nicht Kr
 4. **Mit Lichtgeschwindigkeit übertragbar** — kein anderes Geld kann in Echtzeit global übertragen werden, ohne Kreditbeziehung
 5. **Von jedem günstig verifizierbar** — jeder kann selbst prüfen; kein Vertrauen in Experten nötig
 
-Jede dieser Eigenschaften allein wäre revolutionär. Zusammen machen sie Bitcoin einzigartig — und erklären, warum kein Shitcoin diese Kombination reproduzieren kann.
+Zusammen, so Gigis Argument, machten diese Eigenschaften Bitcoin zu einer eigenen Kategorie und erklärten, warum kein Shitcoin die Kombination reproduzieren kann.
 
 ### Bitcoin als Naturgewalt
 

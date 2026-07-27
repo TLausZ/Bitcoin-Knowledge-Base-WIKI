@@ -16,7 +16,7 @@ El Salvadors Weg zu Bitcoin als gesetzlichem Zahlungsmittel begann nicht in eine
 El Zonte ist ein Surferdorf an der Pazifikküste, eine Autostunde westlich von San Salvador. Die meisten Bewohner hatten 2019 kein Bankkonto. Drei Personen sind zentral für den Ursprung der Bitcoin-Adoption:
 
 - **Jorge Valenzuela** und **Ramon Martinez** (lokale Jugendarbeiter) — bauten die Community-Struktur auf
-- **Mama Rosa** — lokale Händlerin, eine der ersten Bitcoin-Nutzerinnen
+- **Mama Rosa:** lokale Händlerin, eine der ersten Bitcoin-Nutzerinnen
 - **Michael Peterson** (amerikanischer Philanthrop) und ein **anonymer Spender** — finanzierten das Projekt mit dem ausdrücklichen Wunsch, dass das Geld in Bitcoin ausgezahlt und im Dorf gehalten wird
 
 Das Ergebnis war eine Bottom-up-Adoption: Händler, Baristas, Surflehrer lernten Lightning-Wallets zu nutzen, ohne dass eine Regierung oder ein Unternehmen es von oben vorgab. Als Gladstein El Zonte besuchte, bezahlte er einen Kaffee per Lightning — weniger als zwei Sekunden, keine Gebühren, keine KYC.

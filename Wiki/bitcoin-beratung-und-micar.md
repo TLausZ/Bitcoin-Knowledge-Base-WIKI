@@ -37,7 +37,7 @@ Strukturell ähnelt das MiCAR-Beratungsregime MiFID II: personalisierte Empfehlu
 
 Eine Eigenheit ohne MiFID-Entsprechung: Bereits das Anbieten oder Bewerben personalisierter Empfehlungen gilt als Beratungstätigkeit. Wer ohne Lizenz mit individueller Bitcoin-Beratung wirbt, handelt ordnungswidrig, unabhängig davon, ob je eine Empfehlung abgegeben wurde.
 
-Für Kreditinstitute steht ein abgekürzter Weg offen: das Notifikationsverfahren nach Art. 60 MiCAR, ohne vollständigen CASP-Antrag und ohne neues Eigenkapitalregime. Was Banken laut Kranzler fehlt, ist nicht die Compliance-Infrastruktur, sondern Beratungspersonal mit nachgewiesener Krypto-Fachkompetenz — eine Personalfrage, keine Systemfrage. [[2026_Q2_Bitcoin Finance Report]]
+Für Kreditinstitute steht ein abgekürzter Weg offen: das Notifikationsverfahren nach Art. 60 MiCAR, ohne vollständigen CASP-Antrag und ohne neues Eigenkapitalregime. Was Banken laut Kranzler fehlt, ist nicht die Compliance-Infrastruktur, sondern Beratungspersonal mit nachgewiesener Krypto-Fachkompetenz. Das ist eine Personalfrage, keine Systemfrage. [[2026_Q2_Bitcoin Finance Report]]
 
 ### Praxisfall Volksbanken: White-Label statt Eigenbau
 

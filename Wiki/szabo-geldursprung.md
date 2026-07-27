@@ -52,7 +52,7 @@ Diese Funktionen erklären, warum Menschen in allen Kulturen spontan Geld erfand
 
 Aus Szabos Rahmen betrachtet ist Bitcoin bemerkenswert: Es ist das erste Objekt, das alle sechs Eigenschaften natürlichen Geldes ohne physische Substanz erfüllt.
 
-- **Unfälschbar**: Private Keys können nicht gefälscht werden (ECDSA)
+- **Unfälschbar**: Gültige Signaturen lassen sich ohne den privaten Schlüssel nicht erzeugen (ECDSA)
 - **Aufwendig herzustellen**: Proof-of-Work verankert echte Rechenarbeit
 - **Tragbar**: 12 Wörter in jedem Kopf der Welt
 - **Teilbar**: 100 Millionen Satoshi pro Bitcoin

@@ -25,7 +25,7 @@ Das Statement steht im Kontext der seit 2023 laufenden Auseinandersetzung um nic
 
 Die Erklärung nennt drei Zwecke, an denen sich Relay-Regeln messen lassen sollen:
 
-- **Vorhersagen, was gemined wird** — Grundlage für Gebührenschätzung, Fee-Bumping und viele DoS-Schutzstrategien in der Node-Software.
+- **Vorhersagen, was gemined wird:** Grundlage für Gebührenschätzung, Fee-Bumping und viele DoS-Schutzstrategien in der Node-Software.
 - **Blockpropagation beschleunigen** für Transaktionen, die voraussichtlich in den nächsten Block kommen. Geringere Latenz verhindert, dass grosse Miner unfaire Vorteile gewinnen.
 - **Miner über gebührenzahlende Transaktionen informieren**, damit sie nicht auf Out-of-band-Einreichungswege angewiesen sind, die die Mining-Dezentralisierung untergraben.
 

@@ -25,10 +25,12 @@ import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from rank_articles import WIKI, NAV_FILES, norm, parse_article
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent.parent / "_tools"))
+from rank_articles import NAV_FILES, norm, parse_article
 from classify_topics import KEEP_PRIORITY
 
 ROOT = Path(__file__).resolve().parent.parent
+WIKI = ROOT / "Wiki"  # lag früher in tools/rank_articles.py; das geteilte Skript in _tools/ hat keine WIKI-Konstante mehr
 HTML = ROOT / "Visualizer" / "index.html"
 CSV = ROOT / "Outputs" / "ranking.csv"
 R = 2.3          # Zielradius der Karte (DOM=2.7 im HTML, mit Rand)

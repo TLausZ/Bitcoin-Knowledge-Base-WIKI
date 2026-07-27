@@ -130,6 +130,8 @@ Informationen nur im Kopf: "Ich erkläre es meiner Familie, wenn die Zeit kommt"
 - [[optionale-passphrase]]
 - [[selbstverwahrung-und-boersenrisiken]]
 - [[nunchuk-wallet]]
+- [[bitcoin-versicherung]]
+- [[bitcoins-verwahren-und-vererben|Bitcoins verwahren und vererben (Marc Steiner)]] ← Buch
 
 ## Open Questions
 

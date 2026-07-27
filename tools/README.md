@@ -1,55 +1,70 @@
 # tools/
 
-Python-Hilfsskripte für die Pflege des Bitcoin-Wikis. Alle Skripte laufen mit
-der Standardbibliothek (Python 3.9+), keine Abhängigkeiten nötig. Aufruf
-immer aus dem Wurzelverzeichnis der Knowledge Base.
+KB-specific Python scripts for bitcoin_kb: topic tagging and visualizer layout.
+All run on the standard library (Python 3.9+).
 
-## check_raw_status.py
+**Every command in this file is run from the KB root** (`bitcoin_kb/`), not from
+this folder. Read the paths accordingly: `tools/x.py` lives here, `../_tools/x.py`
+one level above the KB root.
 
-Vergleicht den Inhalt von `RAW/` mit dem Register `RAW/_INGESTED.md` und
-meldet, welche Dateien noch nicht kompiliert wurden. Der Vergleich ist
-Unicode-normalisiert (NFC), damit kuriose Dateinamen mit typografischen
-Anführungszeichen oder geschützten Leerzeichen keine falschen Treffer
-erzeugen. Der Compile-Schritt des Librarians stützt sich ausschliesslich auf
-dieses Skript.
+The shared scripts live in `KNOWLEDGE/_tools/` and serve every knowledge base:
 
-```
-python3 tools/check_raw_status.py
-```
+| Script | Call from the KB root | Purpose |
+|---|---|---|
+| check_raw_status.py | `python3 ../_tools/check_raw_status.py` | Reconciles `RAW/` against `RAW/_INGESTED.md`, the only valid source of "new" |
+| rank_articles.py | `python3 ../_tools/rank_articles.py` | Weights wiki articles, produces `Outputs/ranking.csv` |
+| extract_epub.py | `python3 ../_tools/extract_epub.py` | epub full-text extraction for book ingestion |
 
-## rank_articles.py
+Details in the README next to those scripts (`KNOWLEDGE/_tools/README.md`).
 
-Gewichtet alle Wiki-Artikel. Der Score setzt sich zusammen aus
-0.7 × PageRank über den `[[Backlink]]`-Graphen (normalisiert) und
-0.3 × Zahl der RAW-Quellen (log-normalisiert). Artikel unter 150 Wörtern
-werden als Stub markiert. Die `url`-Spalte enthält den Link zum jeweiligen
-Artikel im veröffentlichten GitHub-Wiki (Basis-URL: Konstante `WIKI_URL`
-im Skript).
+## classify_topics.py
+
+Assigns one to six visualizer topics to each wiki article (signal: slug plus
+INDEX description) and writes a `**Themen:**` line directly below `**Status:**`.
+Without `--write` it only reports.
 
 ```
-python3 tools/rank_articles.py                      # Top 30 im Terminal
-python3 tools/rank_articles.py --top 100
-python3 tools/rank_articles.py --csv Outputs/ranking.csv
+python3 tools/classify_topics.py            # report
+python3 tools/classify_topics.py --write    # writes the topic lines
 ```
+
+Corrections belong in the `OVERRIDES` map at the top of the script, never in the
+`**Themen:**` line inside an article — the next `--write` overwrites it.
+`satoshi`, `zitate` and `buecher` are curated allowlists (`SATOSHI_SET`,
+`ZITATE_SET`, `BUECHER_SET`); a slug joins one only by being entered there.
 
 ## layout_map.py
 
-Berechnet das Layout für die topografische Karte
-`Visualizer/index.html`. Liest den Linkgraphen aus `Wiki/` und die
-Scores aus `Outputs/ranking.csv`, rechnet ein Fruchterman-Reingold-Layout
-(verlinkte Artikel ziehen sich an, fester Seed → reproduzierbar) und
-ersetzt die eingebettete `PEAKS`-Konstante direkt im HTML.
+Computes the layout for the topographic map `Visualizer/index.html`. Reads the
+link graph from `Wiki/` and the scores from `Outputs/ranking.csv`, runs a
+Fruchterman-Reingold layout (linked articles attract each other, fixed seed, so
+it's reproducible) and replaces the embedded `PEAKS` constant in the HTML.
+
+## build_theme_cards.py
+
+Rebuilds the theme cards `Visualizer/themen/*.html`. Never runs automatically —
+after a compile pass, ask whether the cards should be updated.
+
+## build_screensaver_maps.py
+
+Rewrites `Visualizer/screensaver-maps.js`. Under `file://` the screensaver reads
+that file and would otherwise show the old cards. Always run it together with
+`build_theme_cards.py`.
+
+## Typical sequence after a compile pass
 
 ```
-python3 tools/rank_articles.py --csv Outputs/ranking.csv   # zuerst Scores
+python3 tools/classify_topics.py --write
+python3 ../_tools/rank_articles.py \
+  --wiki-url "https://github.com/TLausZ/Bitcoin-Knowledge-Base-WIKI/blob/main/Wiki/" \
+  --csv Outputs/ranking.csv
 python3 tools/layout_map.py
 ```
 
-## Typischer Ablauf nach einem Compile-Pass
+After that the main map reflects the current state. To bring the theme cards and
+the screensaver along:
 
 ```
-python3 tools/rank_articles.py --csv Outputs/ranking.csv
-python3 tools/layout_map.py
+python3 tools/build_theme_cards.py
+python3 tools/build_screensaver_maps.py
 ```
-
-Danach zeigt die Karte den aktuellen Stand des Wikis.

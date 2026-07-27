@@ -4,6 +4,8 @@ Offene Fragen, Lücken und Themen, die mehr Quellen benötigen. Stand: 2026-07-1
 
 ## Gebrochene Backlinks (Health Check 3, 2026-07-05)
 
+→ Erledigt (Health Check 2026-07-27): Alle acht Zielartikel existieren inzwischen (durch die Compile-Pässe 92–107 bzw. Article-Drafting entstanden), der Link-Scan meldet 0 gebrochene Wiki-Links. Die beiden Stale-Source-Zitate unten bleiben offen (Urteilsfall).
+
 Related-Links auf Artikel, die nie erstellt wurden. Pro Link: erstellen, auf bestehenden Artikel umbiegen oder entfernen?
 
 - `[[bitcoin-als-strategische-reserve]]` ← iwf-weltbank-strukturanpassung, value4value-und-wertaktivierendes-web (Kandidaten: bitcoin-als-strategische-reserve, bitcoin-etf-und-institutionelle-verwahrung)
@@ -17,8 +19,7 @@ Related-Links auf Artikel, die nie erstellt wurden. Pro Link: erstellen, auf bes
 
 Stale Source-Zitate (Ziel-Datei existiert nicht mehr in RAW):
 
-- `[[2026-06-09_nunchuk-faq]]` und `[[Recover a Nunchuk Wallet with Sparrow (2026)]]` ← nunchuk-wallet.md. Erstere laut Registry ersetzt durch die zwei zitierten FAQ-Dateien, letztere Datei wurde entfernt. Zitate löschen?
-- `[[2026-06-29_bitcoin-gespraechsskript-fehlannahmen]]` ← bitcoin-fehlannahmen.md zeigt auf eine Datei in Outputs/ statt RAW. Als Eigenproduktion kennzeichnen oder Zitat entfernen?
+→ Erledigt (verifiziert Health Check 2026-07-27): Beide Artikel zitieren die stalen Ziele nicht mehr. nunchuk-wallet.md führt in Sources die Ersatz-FAQ-Dateien («Nunchuk wallet FAQ inheritence/subscription», «nunchuckFAQ-general», «nunchuck FAQ Wallet») plus zwei gültige Guides; bitcoin-fehlannahmen.md zitiert das Gesprächsskript aus Outputs/ nicht mehr (Datei existiert dort weiterhin, unproblematisch). Die Registry-Einträge der entfernten/ersetzten Dateien tragen den «[Datei …]»-Marker und erzeugen keine VERWAIST-Meldungen. Kein Handlungsbedarf.
 
 ## Fehlende Wiki-Artikel
 
@@ -59,6 +60,8 @@ Beim späteren Anlegen der Buch-Artikel: eine Datei pro Buch als Quelle wählen 
 **EU-Regulierung (MiCA/AML):** Teilweise beantwortet (2026-07-18, Compile-Pass 94): MiCAR-Stichtag, CASP-Zahlen und Beratungsregime jetzt in `bitcoin-beratung-und-micar.md` (Quelle: Bitcoin Finance Report Q2/2026). Offen bleibt der AML-Paket-Stand für Selbstverwahrung — `eu-regulierung-selbstverwahrung.md` und `regulierung-tofr-aopp.md` enden weiter bei März 2024.
 
 **Kevin Warsh als Fed-Chef (Q2/2026):** Der Bitcoin Finance Report Q2/2026 nennt Warsh als neuen Fed-Vorsitzenden (Ende der klaren Forward Guidance, gedämpfte Zinssenkungshoffnung) und den SpaceX-IPO vom 12.06.2026 als Kapitalkonkurrenz für Bitcoin. `makro-zinskurve-fed-und-rezession.md` bei nächster Makro-Quelle darauf prüfen; Einzelquelle, noch nicht eingewoben.
+
+**KI-Rechenzentren-Zahlen (Batten):** `bitcoin-mining-und-ki-rechenzentren.md` stützt alle Kernzahlen (CleanSpark-Lease 6,6 Mrd., TeraWulf 19 Mrd./401 MW, ERCOT-Warteschlange +300 %) auf Battens Newsletter — eine interessengeleitete Einzelquelle, Konflikt im Artikel benannt. Zweitquelle suchen: ERCOT-Primärdaten (Interconnection Queue) oder die Unternehmensmeldungen von CleanSpark/TeraWulf. Bis dahin bleibt der Artikel emerging. (Health Check 2026-07-27)
 
 **Ark-Reifegrad:** `skalierung-lightning-ark-statechains.md` hat Stand Dez. 2025. Aktuelle Implementierungsfortschritte unklar.
 

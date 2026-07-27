@@ -2,8 +2,8 @@
 
 **Status:** established
 **Themen:** grundlagen, oekonomie, philosophie
-**Last updated:** 2026-07-04
-**Sources:** [[aprycot-bitcoin-diplom-gratis]], [[aprycot-bitcoin-diplom-finanzielle-bildung]], [[aprycot-bildungsoffensive-coinfinity-scholarium]], [[aprycot-marlas-bitcoin-abenteuer]], [[aprycot-grundlagen-oekonomie-ankuendigung]], [[aprycot-fab-gigis-21-lektionen-hoerbuch]], [[aprycot-fab-bitcoin-besser-verstehen]], [[aprycot-fab-bitcoin-lesestunde]], [[aprycot-du-brauchst-keinen-bitcoin-job]], [[I Spent 40 Years Financially Blind. Here's What Nobody Taught Me — And Why That Was No Accident.]], [[Bitcoin events Summary of 2025 - It was extraordinary!]], [[20260118_heartmoney-bitcoin-trifft-bildung]], [[20250622_heartmoney-pommes-preise-bitcoin-ein-gefuhl-kehrt-zuruck]], [[20260308_heartmoney-nur-noch-1-million-bitcoin]], [[20251228_heartmoney-bitcoin-reicht-nicht-was-mir-2025]]
+**Last updated:** 2026-07-27
+**Sources:** [[aprycot-bitcoin-diplom-gratis]], [[aprycot-bitcoin-diplom-finanzielle-bildung]], [[aprycot-bildungsoffensive-coinfinity-scholarium]], [[aprycot-marlas-bitcoin-abenteuer]], [[aprycot-grundlagen-oekonomie-ankuendigung]], [[aprycot-fab-gigis-21-lektionen-hoerbuch]], [[aprycot-fab-bitcoin-besser-verstehen]], [[aprycot-fab-bitcoin-lesestunde]], [[aprycot-du-brauchst-keinen-bitcoin-job]], [[I Spent 40 Years Financially Blind. Here's What Nobody Taught Me — And Why That Was No Accident.]], [[Bitcoin events Summary of 2025 - It was extraordinary!]], [[20260118_heartmoney-bitcoin-trifft-bildung]], [[20250622_heartmoney-pommes-preise-bitcoin-ein-gefuhl-kehrt-zuruck]], [[20260308_heartmoney-nur-noch-1-million-bitcoin]], [[20251228_heartmoney-bitcoin-reicht-nicht-was-mir-2025]], [[Why Knowledge Workers Should Care About Bitcoin (And What the Attention Economy Has to Do With It)]]
 
 ## Summary
 
@@ -115,6 +115,10 @@ Was das Bitcoin-Diplom für El Salvador dokumentiert, existiert in Deutschland b
 ### Zielgruppen jenseits der Schule: Senioren und VHS
 
 Zwei weitere deutschsprachige Bildungskanäle aus der Praxis: Der Verein «Wege aus der Einsamkeit» (Dagmar Hirche) organisiert Zoom-Bitcoin-Schulungen für Menschen 65+ — die sich selbst augenzwinkernd «Versilberer» nennen —, mit engagierten, kritischen und offenen Teilnehmern. Und an einzelnen Volkshochschulen bieten Ehrenamtliche Bitcoin-Kurse an; die VHS erreicht damit ein Publikum, das weder Podcasts noch Konferenzen konsumiert. Dazu kommen Einsteiger-Podcasts als Massenformat: «Bitcoin kurz erklärt» (Nowak) überschritt im März 2026 die Marke von 64.000 Streams und resoniert auffällig stark bei Frauen (siehe [[frauen-und-bitcoin]]). [[20250622_heartmoney-pommes-preise-bitcoin-ein-gefuhl-kehrt-zuruck]], [[20251228_heartmoney-bitcoin-reicht-nicht-was-mir-2025]], [[20260308_heartmoney-nur-noch-1-million-bitcoin]]
+
+### Warum Vortrag allein nicht reicht: Selbstbestimmungstheorie
+
+Lisa Tscherry liefert das lernpsychologische Argument für den Ansatz, der sich durch alle obigen Projekte zieht. Nach der Selbstbestimmungstheorie von Deci und Ryan braucht autonome Motivation — die Art, die echtes Verständnis statt blosser Zustimmung erzeugt — drei Bedingungen: Kompetenzerleben, Autonomie und soziale Eingebundenheit. Auf Bitcoin-Bildung übertragen: Menschen lernen am besten, wenn sie sich dem Stoff gewachsen fühlen, ihre Schlüsse frei ziehen dürfen und mit anderen Lernenden verbunden sind. Frontale Informationsvermittlung untergräbt in einem emotional aufgeladenen Feld wie Geld tendenziell alle drei. Strukturierte Bildung beantwortet die Fragen deshalb nicht stellvertretend für die Lernenden, sondern baut die Fähigkeit auf, sie selbst zu beantworten — dieselbe Stossrichtung wie Szabelskis Selbststudium-Programm oben und Battens Zuhören-vor-Argumentieren in [[bitcoin-kommunikation-und-orange-pilling]]. [[Why Knowledge Workers Should Care About Bitcoin (And What the Attention Economy Has to Do With It)]]
 
 ### Zertifizierte Bitcoin-Ausbildung bleibt rar
 

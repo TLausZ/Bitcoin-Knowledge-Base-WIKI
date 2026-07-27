@@ -36,7 +36,7 @@ Gleichzeitig benennt er Einwände: Staatlicher Auftrag (kein freiwilliger Opt-in
 
 ### Stufe 0: Bitcoin allgegenwärtig
 
-Schritt 6 — Fiat fallen lassen — ist der Punkt, an dem Konflikte mit dem alten System unvermeidlich werden. Gigi nennt das Endziel „Stufe 0: Bitcoin ist allgegenwärtig" (Omnipräsenz): eine Kreislaufwirtschaft von 2,1 Billiarden Sats, die gegen Waren und Dienstleistungen getauscht werden — nahtlos, grenzenlos, endgültig, sofort. [[aprycot-gigi-weg-zum-bitcoin-standard.md]]
+Schritt 6 — Fiat fallen lassen — ist der Punkt, an dem Konflikte mit dem alten System unvermeidlich werden. Gigi nennt das Endziel „Stufe 0: Bitcoin ist allgegenwärtig" (Omnipräsenz): eine Kreislaufwirtschaft von 2,1 Billiarden Sats, die gegen Waren und Dienstleistungen getauscht werden — reibungslos, grenzenlos, endgültig, sofort. [[aprycot-gigi-weg-zum-bitcoin-standard.md]]
 
 ### Unterschied zu Boyapati / Monetarisierungsphasen
 

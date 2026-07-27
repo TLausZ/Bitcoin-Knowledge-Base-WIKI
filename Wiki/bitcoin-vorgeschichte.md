@@ -44,12 +44,12 @@ Gladstein zieht daraus die Lektion, die Adam Back und andere aus Digicash mitnah
 
 ### Strang 4: die dezentralen Entwürfe (1997–2004)
 
-- **1996, NSA, «How To Make a Mint: The Cryptography of Anonymous Electronic Cash»** — eine Behörde beschreibt die Bauteile anonymen Digitalgelds, bevor jemand sie zusammensetzt.
-- **1997, Adam Back, Hashcash** — Proof-of-Work als Anti-Spam-Massnahme. Backs eigene Schwachstelle: In einer Währung könnten schnellere Rechner Hyperinflation erzeugen. Genau diese Lücke schliesst Satoshi mit der Schwierigkeitsanpassung. [[hashcash]]
-- **1997, Nick Szabo, «Formalizing and Securing Relationships on Public Networks»** — Smart Contracts als Vertragslogik ohne Vollstrecker.
-- **1998, Wei Dai, B-money** — anonymes verteiltes Geldsystem, in dem nicht rückverfolgbare Pseudonyme Verträge untereinander durchsetzen. Referenz 1 im Whitepaper.
+- **1996, NSA, «How To Make a Mint: The Cryptography of Anonymous Electronic Cash»:** eine Behörde beschreibt die Bauteile anonymen Digitalgelds, bevor jemand sie zusammensetzt.
+- **1997, Adam Back, Hashcash:** Proof-of-Work als Anti-Spam-Massnahme. Backs eigene Schwachstelle: In einer Währung könnten schnellere Rechner Hyperinflation erzeugen. Genau diese Lücke schliesst Satoshi mit der Schwierigkeitsanpassung. [[hashcash]]
+- **1997, Nick Szabo, «Formalizing and Securing Relationships on Public Networks»:** Smart Contracts als Vertragslogik ohne Vollstrecker.
+- **1998, Wei Dai, B-money:** anonymes verteiltes Geldsystem, in dem nicht rückverfolgbare Pseudonyme Verträge untereinander durchsetzen. Referenz 1 im Whitepaper.
 - **1998, Nick Szabo, «Secure Property Titles with Owner Authority»** und **Bit Gold** — Eigentumsregister ohne zentrale Autorität, plus die Idee, die nachweisbare Kostspieligkeit von Gold digital nachzubilden. Bit Gold wurde nie implementiert.
-- **2004, Hal Finney, Reusable Proof-of-Work (RPOW)** — Bit-Gold-Token, die weitergereicht werden können. Finney betrieb den Verifikationsserver selbst und wollte ihn später dezentralisieren, kam aber nicht dazu. [[aprycot-gladstein-die-suche-nach-digitalem-bargeld.md]]
+- **2004, Hal Finney, Reusable Proof-of-Work (RPOW):** Bit-Gold-Token, die weitergereicht werden können. Finney betrieb den Verifikationsserver selbst und wollte ihn später dezentralisieren, kam aber nicht dazu. [[aprycot-gladstein-die-suche-nach-digitalem-bargeld.md]]
 
 ### Strang 5: P2P-Infrastruktur (2001)
 

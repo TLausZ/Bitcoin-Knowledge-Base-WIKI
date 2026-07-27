@@ -32,10 +32,10 @@ Fortegos Antwort: Das Backup und der Zugangsschlüssel (CodeBook) werden getrenn
 Kein legitimer Dienst braucht die Seed Phrase — nicht Hardware-Wallet-Hersteller, nicht Exchanges, nicht Support, nicht Recovery-Services. Die Regel hat keine Ausnahmen.
 
 **Typische Angriffsmuster:**
-- **Fake-Wallet-Seiten** — sieht aus wie offizielle Download-Seite; enthält Eingabefeld für Recovery Phrase
-- **Support-Impersonation** — angeblicher Hersteller-Support kontaktiert Nutzer; bittet um Wörter zur "Verifizierung"
-- **Recovery-Scams** — verspricht, verloren gegangene Bitcoin zurückzuholen; verlangt Seed als "Beweis"
-- **Browser-Erweiterungen** — legitimate aussehende Wallet-Extension; exfiltriert Seed beim Eingeben
+- **Fake-Wallet-Seiten:** sieht aus wie offizielle Download-Seite; enthält Eingabefeld für Recovery Phrase
+- **Support-Impersonation:** angeblicher Hersteller-Support kontaktiert Nutzer; bittet um Wörter zur "Verifizierung"
+- **Recovery-Scams:** verspricht, verloren gegangene Bitcoin zurückzuholen; verlangt Seed als "Beweis"
+- **Browser-Erweiterungen:** legitim aussehende Wallet-Extension; exfiltriert Seed beim Eingeben
 
 **Was tun wenn kompromittiert:** Sofort alle Bitcoin auf eine neue Wallet (frische Seed Phrase) verschieben, bevor der Angreifer es tut.
 

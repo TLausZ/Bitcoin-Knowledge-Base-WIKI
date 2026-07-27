@@ -46,6 +46,7 @@ Bitsurance ist kein Ersatz für gute Sicherheitspraktiken (sichere Backups, geog
 - [[opsec-und-privatsphaere]]
 - [[wallet-backup-strategien]]
 - [[komplexitaet-ist-keine-sicherheit]]
+- [[bitcoin-vererbung]]
 
 ## Open Questions
 

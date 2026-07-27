@@ -2,8 +2,8 @@
 
 **Status:** established
 **Themen:** philosophie, adoption, kritik
-**Last updated:** 2026-07-04
-**Sources:** [[OrangePilling The Early Majority]], [[Bitcoin’s Most Important Fork_ The Influence Upgrade]], [[20250629_heartmoney-rechthaben-oder-bitcoin-verstehen]], [[20260519_heartmoney-wenn-die-wahrheit-zu-fruh-kommt]], [[20250622_heartmoney-pommes-preise-bitcoin-ein-gefuhl-kehrt-zuruck]], [[20251214_heartmoney-ich-mochte-die-welt-verandern]], [[20260329_heartmoney-mude-wutend-wach]], [[20250921_heartmoney-von-spatsommer-zu-selbstermachtigung]]
+**Last updated:** 2026-07-27
+**Sources:** [[OrangePilling The Early Majority]], [[Bitcoin’s Most Important Fork_ The Influence Upgrade]], [[20250629_heartmoney-rechthaben-oder-bitcoin-verstehen]], [[20260519_heartmoney-wenn-die-wahrheit-zu-fruh-kommt]], [[20250622_heartmoney-pommes-preise-bitcoin-ein-gefuhl-kehrt-zuruck]], [[20251214_heartmoney-ich-mochte-die-welt-verandern]], [[20260329_heartmoney-mude-wutend-wach]], [[20250921_heartmoney-von-spatsommer-zu-selbstermachtigung]], [[Why Knowledge Workers Should Care About Bitcoin (And What the Attention Economy Has to Do With It)]]
 
 ## Summary
 
@@ -56,6 +56,12 @@ Battens Prinzipien decken sich auffällig mit den Alltagsbeobachtungen einer deu
 ### E — Der Bezug zum Preis
 
 Batten verknüpft Kommunikation mit Marktdynamik: Patient Capital, Nationalstaaten und Konzerne sind tendenziell Long-Term Holder, und deren Akkumulation ist laut Glassnode-Daten der grösste Treiber von Bullenmärkten. Verliert ein Bullrun an Schwung, liegt es entweder am Verkauf bestehender oder am Ausbleiben neuer Long-Term Holder. Damit wird die Frage, welche Botschafter welche Gegen-Erzählungen tragen, direkt preisrelevant. [[Bitcoin’s Most Important Fork_ The Influence Upgrade]]
+
+### F — Die Aufmerksamkeitsökonomie als struktureller Gegner
+
+Lisa Tscherry ergänzt Battens Botschafter-Diagnose um eine strukturelle: Das Medienumfeld hat finanzielle Anreize, über Bitcoin Lärm statt Klarheit zu produzieren. Die Aufmerksamkeitsökonomie belohnt Engagement, und Engagement entsteht am zuverlässigsten durch Extreme — Bitcoin als Zukunft des Geldes oder Spekulationsblase, Revolution oder Betrug. Die nuancierte Mitte, in der die ehrliche Analyse sitzt, erzeugt weniger Klicks. Wer sich ein überlegtes Urteil bilden will, navigiert also durch eine Informationsumgebung, die genau das strukturell verhindert. [[Why Knowledge Workers Should Care About Bitcoin (And What the Attention Economy Has to Do With It)]]
+
+Ihre Zielgruppe sind Wissensarbeiter, deren Berufswert an der Qualität ihrer Aufmerksamkeit hängt. Für sie sei die Hürde nicht die technische Komplexität — mit komplexen Systemen arbeiten sie täglich —, sondern Bitcoins Lage am Schnittpunkt von Geldtheorie, Informatik und politischer Philosophie in genau diesem verzerrten Umfeld. Die produktive Frage laute darum nicht, ob Bitcoin Aufmerksamkeit verdient, sondern wie man sie gut verteilt: welche Denkrahmen, welche Quellen, und wie sich Analyse von Advocacy unterscheiden lässt. Das verbindet sich mit Battens drittem Prinzip (quantifizieren statt vage bleiben): Beide Antworten auf das Lärmproblem setzen auf überprüfbare Substanz statt Reichweite. [[Why Knowledge Workers Should Care About Bitcoin (And What the Attention Economy Has to Do With It)]]
 
 ## Related
 

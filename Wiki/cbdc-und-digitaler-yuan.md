@@ -26,7 +26,7 @@ Laut öffentlichen Aussagen der PBOC-Führung:
 3. US-Sanktionen umgehen
 4. SWIFT und das bestehende globale Zahlungsnetz untergraben
 5. Interesse an Bitcoin und anderen Kryptowährungen dämpfen
-6. Das Geflecht aus Banken und Fintech-Plattformen in einem einzigen Kassenbuch bündeln
+6. Das Netz aus Banken und Fintech-Plattformen in einem einzigen Kassenbuch bündeln
 
 ### Überwachungsarchitektur
 
