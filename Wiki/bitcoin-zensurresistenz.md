@@ -1,9 +1,9 @@
 # Bitcoin und Zensurresistenz
 
 **Status:** established
-**Themen:** privacy, oekonomie
-**Last updated:** 2026-06-23
-**Sources:** [[aprycot-parker-lewis-bitcoin-nicht-nur-fuer-kriminelle]]
+**Themen:** privacy, mining, oekonomie
+**Last updated:** 2026-07-30
+**Sources:** [[aprycot-parker-lewis-bitcoin-nicht-nur-fuer-kriminelle]], [[Martins Blog_ ARD_ Putins Krypto War]]
 
 ## Summary
 
@@ -43,8 +43,15 @@ Bitcoin ist Währungsemittent und Abrechnungsschicht zugleich. Jede erfolgreiche
 
 Das Ziel ist nicht, Kriminellen zu helfen. Das Ziel ist, das Fundament des Geldsystems zu schützen. Lewis zitiert John Adams: Es ist wichtiger, die Unschuldigen zu schützen, als die Schuldigen zu bestrafen — weil Unschuld im schlimmsten Fall kein Schutz wäre, wenn das System manipulierbar ist. [[aprycot-parker-lewis-bitcoin-nicht-nur-fuer-kriminelle]]
 
+### Dieselbe Logik auf der Mining-Seite
+
+Lewis' Lackmustest betrifft Transaktionen. Martin Baur überträgt ihn im Juli 2026 auf die Produktionsseite, ausgelöst von der ARD-Sendung «Kryptokrieg — Wie Putin uns mit Bitcoins bekämpft» ([SWR, ARD-Mediathek](https://www.ardmediathek.de/video/kryptokrieg-wie-putin-uns-mit-bitcoins-bekaempft/wie-putin-uns-mit-bitcoins-bekaempft/swr/Y3JpZDovL3N3ci5kZS9hZXgvbzIzMzc3OTM)) zur These, Russland finanziere den Krieg mit Mining auf billigem Gas (die Sendung liegt dem Korpus nicht vor, hier steht nur Baurs Wiedergabe). Seine Position: Dass Bitcoin von Heiligen wie von Schurken geschürft werden kann, ist kein Betriebsunfall, sondern dieselbe Eigenschaft in anderer Form. Eine Instanz, die entscheiden könnte, welche Hashrate zählt, wäre eine Zensurinstanz. Er nennt Bitcoin deshalb Geld für Feinde und akzeptiert die unbequeme Hälfte davon ausdrücklich. Was ihn am russischen Fall ärgert, sind die ökologischen Folgen, dazu [[bitcoin-mining-narrativ-und-kritik]]. [[Martins Blog_ ARD_ Putins Krypto War]]
+
+Zwei Anschlüsse zieht er daraus. Erstens die Verschiebung der Kontrolle: Wo der Staat keinen Zugriff hat, übernehmen Chain-Analyse-Firmen die Rolle. Baur bewertet das als besser, weil diesen Privaten das gesellschaftlich sanktionierte Gewaltmonopol fehlt, sieht aber ausdrücklich keinen Zugewinn an Freiheit darin. Zweitens die Forderung nach schärferer Krypto-Kontrolle, mit der die Sendung schliesst: Sie gehe am Problem vorbei, weil kein Geldsystem menschliches Verhalten ändert. Sein Bild dafür ist das Messer, das Brot schneidet oder Menschen ersticht, und der Schluss lautet, dass bei einem Wechsel des Geldes nur Täter, Opfer und Kontrolleure wechseln. Das führt zurück auf Lewis' Punkt: Der Massstab für ein Geldsystem ist, wem es Zensurmacht gibt, nicht wer es benutzt.
+
 ## Related
 
+- [[bitcoin-mining-narrativ-und-kritik]]
 - [[bitcoin-regierungsresistenz]]
 - [[bitcoin-nicht-blockchain]]
 - [[bitcoin-geldpolitik-und-21-millionen-limit]]

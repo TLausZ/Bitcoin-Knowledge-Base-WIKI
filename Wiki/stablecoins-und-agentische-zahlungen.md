@@ -2,8 +2,8 @@
 
 **Status:** emerging
 **Themen:** lightning, oekonomie
-**Last updated:** 2026-07-18
-**Sources:** [[stripe_sessions2026-Opening remarks and product keynote]], [[2025-05-01_Tether CEO Paolo Ardoino - Banks will blow up in the next years]], [[2025-08-14_Head Strategist at Tether Gabor Gurbacs - We are rebuilding the entire capital market stac]], [[2025-07-24_Michael Howell on GENIUS Act - Stablecoin adoption could mean slower credit growth]], [[2026_Q2_Bitcoin Finance Report]]
+**Last updated:** 2026-07-30
+**Sources:** [[stripe_sessions2026-Opening remarks and product keynote]], [[2025-05-01_Tether CEO Paolo Ardoino - Banks will blow up in the next years]], [[2025-08-14_Head Strategist at Tether Gabor Gurbacs - We are rebuilding the entire capital market stac]], [[2025-07-24_Michael Howell on GENIUS Act - Stablecoin adoption could mean slower credit growth]], [[2026_Q2_Bitcoin Finance Report]], [[matthiasreder-ard_doku_bitcoin_putin]]
 
 ## Summary
 
@@ -48,6 +48,10 @@ Analytisch am interessantesten ist Michael Howells Punkt zum GENIUS Act: Stablec
 Der Bitcoin Finance Report Q2/2026 dokumentiert die nächste Stufe der Infrastrukturbildung. Stripe, Visa und Mastercard stehen laut mit den Plänen vertrauten Personen kurz vor dem Start einer gemeinsamen Stablecoin-Plattform für B2B-Abwicklung, grenzüberschreitenden Zahlungsverkehr und automatisiertes Liquiditätsmanagement; Coinbase prüft eine Beteiligung. Die Konstellation erinnert strukturell an Facebooks Libra (2019), diesmal aber in geklärtem regulatorischem Kontext — und mit gekaufter Infrastruktur: Mastercard übernahm im März 2026 den Stablecoin-Anbieter BVNK für bis zu 1,8 Mrd. US-Dollar, Stripe hatte sich 2024 Bridge für 1,1 Mrd. gesichert. Für Circle, dessen USDC den Grossteil regulierter Stablecoin-Aktivität in Nordamerika und Europa stellt, wäre die Plattform ein direkter Angriff; die Aktien von Circle und Coinbase fielen nach den ersten Berichten. Die Deutsche Bundesbank hatte zuvor gewarnt, eine solche Plattform könne die Dollar-Dominanz im Stablecoin-Markt weiter zementieren.
 
 Auf der europäischen Seite wächst das MiCAR-konforme Angebot: AllUnity (BaFin-reguliertes E-Money-Institut, Joint Venture von DWS, Flow Traders und Galaxy) brachte nach dem EURAU (2025) im Q2/2026 mit dem CHFAU den ersten vollreservierten MiCAR-konformen Schweizer-Franken-Stablecoin für institutionelle Kunden heraus; parallel gehören dem Bankenprojekt Qivalis inzwischen 37 europäische Häuser an. [[2026_Q2_Bitcoin Finance Report]]
+
+### Staatsnahe Stablecoins: A7A5 (Stand Juli 2026)
+
+Neben den westlichen Dollar- und Euro-Konstruktionen tauchen Stablecoins auf, die an eine sanktionierte Währung gebunden sind. A7A5 ist nach Angaben des Projekts 1:1 an den russischen Rubel gekoppelt, wird zentral von einem Emittenten ausgegeben, und neue Einheiten entstehen durch Emission. Matthias Reder führt diese Merkmale als Abgrenzung gegen Bitcoin an, weil die ARD-Sendung «Kryptokrieg» ([SWR, ARD-Mediathek](https://www.ardmediathek.de/video/kryptokrieg-wie-putin-uns-mit-bitcoins-bekaempft/wie-putin-uns-mit-bitcoins-bekaempft/swr/Y3JpZDovL3N3ci5kZS9hZXgvbzIzMzc3OTM)) im Juli 2026 A7A5, USDT, Sanktionsumgehung und Bitcoin-Mining nebeneinanderstellte, ohne die Unterschiede zu erklären. Zum Volumen, zur Reservendeckung und zum tatsächlichen Einsatz in Sanktionsumgehung liegen dem Korpus keine Quellen vor; die Angaben stammen aus Reders Beitrag, nicht aus einer Primärquelle zum Emittenten. [[matthiasreder-ard_doku_bitcoin_putin]] Zur Abgrenzung ausführlich in [[bitcoin-vs-krypto]].
 
 ## Related
 

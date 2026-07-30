@@ -2,8 +2,8 @@
 
 **Status:** established
 **Themen:** grundlagen, philosophie
-**Last updated:** 2026-06-29
-**Sources:** [[Liebe Krypto- und Fiat-Bros.md]], [[aprycot-nur-die-staerksten-einleitung]], [[aprycot-nur-die-staerksten-1-innovation-grundprinzipien]], [[aprycot-nur-die-staerksten-2-krypto-nicht-dezentralisiert]], [[aprycot-nur-die-staerksten-3-krypto-kein-finanzwesen]], [[aprycot-nur-die-staerksten-4-investitions-grundprinzip]], [[aprycot-nur-die-staerksten-5-schichtenarchitektur]], [[aprycot-nur-die-staerksten-6-warum-wir-uns-irren]], [[aprycot-nur-die-staerksten-7-fazit-anhaenge]], [[An Economic Analysis of Ethereum.md]]
+**Last updated:** 2026-07-30
+**Sources:** [[Liebe Krypto- und Fiat-Bros.md]], [[aprycot-nur-die-staerksten-einleitung]], [[aprycot-nur-die-staerksten-1-innovation-grundprinzipien]], [[aprycot-nur-die-staerksten-2-krypto-nicht-dezentralisiert]], [[aprycot-nur-die-staerksten-3-krypto-kein-finanzwesen]], [[aprycot-nur-die-staerksten-4-investitions-grundprinzip]], [[aprycot-nur-die-staerksten-5-schichtenarchitektur]], [[aprycot-nur-die-staerksten-6-warum-wir-uns-irren]], [[aprycot-nur-die-staerksten-7-fazit-anhaenge]], [[An Economic Analysis of Ethereum.md]], [[matthiasreder-ard_doku_bitcoin_putin]]
 
 ## Summary
 
@@ -48,6 +48,12 @@ Bitcoin wurde als Antwort auf dieses Muster geschaffen. Satoshi, zitiert im Arti
 Wer fragt „Aber woher kommt der Ertrag?" — und keine befriedigende Antwort bekommt — hat das Problem verstanden. Krypto-Projekte versprechen Renditen auf Geld. Geld hat keine Rendite; nur Kredite und Investments haben Renditen. Wer Rendite auf „Geld" verspricht, leiht es aus — mit Gegenparteirisiko.
 
 Kryptowährungen führen Seigniorage wieder ein (Vormine, Staking-Rendite, Token-Emission). Bitcoin beseitigt Seigniorage. Kryptowährungen führen den Cantillon-Effekt wieder ein (Insider profitieren von Neuemission). Bitcoin beseitigt ihn. Kryptowährungen führen Vertrauen wieder ein (in Teams, Stiftungen, Multi-Sigs). Bitcoin eliminiert es.
+
+### Fallstudie: Wenn Berichterstattung die Unterscheidung verwischt
+
+Wozu die Unterscheidung praktisch taugt, zeigt eine ARD-Sendung vom Juli 2026 mit dem Titel «Kryptokrieg — Wie Putin uns mit Bitcoins bekämpft» ([SWR, ARD-Mediathek](https://www.ardmediathek.de/video/kryptokrieg-wie-putin-uns-mit-bitcoins-bekaempft/wie-putin-uns-mit-bitcoins-bekaempft/swr/Y3JpZDovL3N3ci5kZS9hZXgvbzIzMzc3OTM), Abruf abhängig von der Verweildauer). Matthias Reder rekonstruiert auf LinkedIn, worum es in den 45 Minuten tatsächlich ging: Sanktionsumgehung, die rubelgekoppelte A7A5, der Stablecoin USDT, Geldtransfers und Einflussoperationen. Bitcoin habe darin eine Nebenrolle, stehe aber im Titel. Sein zentraler Einwand: Was A7A5 ist, erkläre die Sendung fast gar nicht, obwohl der Unterschied den ganzen Fall trägt. A7A5 wird von einem Emittenten zentral ausgegeben, ist an den Rubel gebunden, und neue Einheiten entstehen per Emission statt durch Mining. Der Bericht über Bitcoin-Mining in Georgien stehe unvermittelt daneben, sodass beim Publikum ohne Vorwissen ein technischer Zusammenhang zwischen Mining und A7A5 entstehe, den es nicht gibt. Dazu hält Reder fest, dass Mining weder in Georgien noch in Russland noch in der EU grundsätzlich verboten ist. Die Sendung selbst liegt dem Korpus nicht vor; alles hier Referierte stammt aus Reders Wiedergabe. [[matthiasreder-ard_doku_bitcoin_putin]]
+
+Seine Gegenstruktur ist zugleich eine Lehrreihenfolge und deckt sich mit der Logik dieses Artikels: erst Bitcoin, dann Mining, dann Stablecoins allgemein, dann A7A5, dann die Unterschiede zwischen den dreien, und erst danach die Frage, welche Rolle diese Systeme bei grenzüberschreitenden Zahlungen und Sanktionsumgehung überhaupt spielen können. Wer diese Reihenfolge überspringt, verhandelt unter dem Namen Bitcoin einen Gegenstand, der zentral emittiert und an eine Staatswährung gebunden ist. Zur Technik der Stablecoins siehe [[stablecoins-und-agentische-zahlungen]], zur ökologischen Seite derselben Sendung siehe [[bitcoin-mining-narrativ-und-kritik]].
 
 ### Volatilität und tiefe Stabilität
 

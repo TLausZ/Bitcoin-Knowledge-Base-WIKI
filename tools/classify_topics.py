@@ -110,6 +110,11 @@ OVERRIDES = {
     # Miner-KI-Deals: Netzflexibilitaet + Unternehmensbewertung, "mining" allein zu duenn
     "bitcoin-mining-und-ki-rechenzentren": ["mining", "oekonomie", "adoption"],
     "bitcoin-versicherung": ["oekonomie", "self-custody"],
+    # Makro/Fed: rein oekonomisch, nicht "mining" (Trigger war "Energie"-Inflation/Oelschocks)
+    "makro-zinskurve-fed-und-rezession": ["oekonomie"],
+    # Bitcoin vs. Krypto: Abgrenzungsartikel. Die ARD-Doku-Fallstudie (Mining in
+    # Georgien, A7A5) loeste "mining"/"adoption" aus, beides nicht das Thema.
+    "bitcoin-vs-krypto": ["grundlagen", "philosophie"],
     "zitate": ["zitate", "philosophie"],
     "mt-gox": ["geschichte", "kritik", "self-custody"],
     # Gigi-Essay: Geld-Ethik + Selbstverwahrung, nicht "protokoll"/"adoption" (Trigger: node)

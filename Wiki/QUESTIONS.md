@@ -127,3 +127,17 @@ Beim späteren Anlegen der Buch-Artikel: eine Datei pro Buch als Quelle wählen 
 **Gap — Netto-Liquidität als BTC-Prädiktor empirisch:** Der «Liquidity Corner»-Rahmen (Fed − RRP − TGA) wird in [[globale-liquiditaet-und-finanzplumbing]] beschrieben, aber nie gegen die Preisreihe getestet. Backtest-Kandidat (öffentliche Fed-/TGA-Daten).
 
 **Borderline-Scope (nur Vermerk, mit User abgestimmt):** 6 der importierten LNMS-Posts sind thematisch am Rand (Memecoins/Murad, Trumpcoin/Dunleavy, Tokenisierung/Kubli, Coinbase-Fall, Ether-Bewertung). Auf Wunsch des Users aufgenommen und im Hub referiert, nicht tief eingewoben. Kein Handlungsbedarf.
+
+## Compile-Pass 109 (2026-07-29)
+
+**Gap — Narrativ-Erschöpfung im Altcoin-Sektor:** Alden bestätigt im Podcast Walkers These, dass Prognosemärkte (Robinhood, Coinbase, Gemini, alle etwa zeitgleich eingeführt) und der KI-Trade den letzten Wind aus dem Krypto-Sektor genommen haben: Nach ICOs, DeFi, NFTs und Memecoins sei die Reihe der Narrative durch, und was bleibe, sei ein Player-versus-Player-Eiswürfel ausserhalb von Bitcoin und Stablecoins. Der KB hat keinen Artikel, der die Altcoin-Narrativ-Sequenz oder Prognosemärkte behandelt; die Kernaussage ist in [[bitcoin-unternehmens-strategie]] nur als Nebensatz zur Treasury-Konsolidierung untergebracht. Kandidat für einen eigenen Artikel, wenn eine zweite Quelle dazukommt — vorerst nicht mit einer Podcast-Aussage allein zu tragen. [[lyn-alden-1lDBcjSD854-transkript-fliesstext]]
+
+**Offen — Sendedatum der Folge:** Das YouTube-Auto-Transkript enthält kein Publikationsdatum, in dieser Session gab es keinen Netzzugriff zur Prüfung. `date_published` steht in beiden RAW-Dateien auf `unknown`. Inhaltliche Anker (Warsh im ersten Amtsjahr, 58k-Tief, Hormus-Sperrung) legen Juli 2026 nahe; die Zeitangaben in den vier Artikeln sind entsprechend als «Juli 2026» ausgewiesen und sollten korrigiert werden, falls das echte Datum abweicht.
+
+## Compile-Pass 111 (2026-07-30)
+
+**Offen — Podcast-Referenz bei Baur:** Baur verweist auf einen Podcast, in dem «Roman gegen Robin» antrat: Roman vertrete, der Schwarm beziehungsweise der Markt entscheide über Bitcoins weiteren Weg, Robin halte dagegen, Bitcoin verliere seine Hallmarks. Ohne Nachnamen liess sich weder die Folge noch die Position zuordnen; nicht eingearbeitet. Falls sich das auflösen lässt (Vermutung, ungeprüft: deutschsprachige Bitcoin-Szene), wäre die Frage nach dem Verlust der Kerneigenschaften ein Anschluss an [[bitcoin-core-relay-statement]] und [[bip-0110]]. [[Martins Blog_ ARD_ Putins Krypto War]]
+
+**Offen — ARD-Sendung «Kryptokrieg» nur aus zweiter Hand:** Zwei Kommentare zur selben Sendung sind im Korpus, die Sendung nicht. Sämtliche Aussagen über ihren Inhalt (Schwerpunkt Sanktionsumgehung, A7A5/USDT, Georgien-Mining, Kontroll-Schlusssatz) stammen von Baur und Reder. Beide beschreiben sie widerspruchsfrei, aber keiner ist neutral. Falls die Sendung selbst oder ein Transkript in RAW landet, sind die vier Fundstellen ([[bitcoin-mining-narrativ-und-kritik]], [[bitcoin-zensurresistenz]], [[bitcoin-vs-krypto]], [[stablecoins-und-agentische-zahlungen]]) gegenzuprüfen.
+
+**Gap — A7A5 ohne Primärquelle:** Zu Emittent, Volumen, Reservendeckung und tatsächlichem Einsatz in Sanktionsumgehung liegt nichts vor. Der Abschnitt in [[stablecoins-und-agentische-zahlungen]] hält nur Reders Angaben. Kandidat für Article-Drafting mit Websuche, falls das Thema wiederkommt.

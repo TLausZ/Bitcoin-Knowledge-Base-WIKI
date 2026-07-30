@@ -2,8 +2,8 @@
 
 **Status:** emerging
 **Themen:** lightning, oekonomie
-**Last updated:** 2026-07-04
-**Sources:** [[Bitcoin and AI]], [[20260222_heartmoney-bitcoin-zum-festhalten]], [[20260215_heartmoney-so-schnell-geht-das-nicht]], [[20251123_heartmoney-ki-hat-keine-traumata]]
+**Last updated:** 2026-07-29
+**Sources:** [[Bitcoin and AI]], [[20260222_heartmoney-bitcoin-zum-festhalten]], [[20260215_heartmoney-so-schnell-geht-das-nicht]], [[20251123_heartmoney-ki-hat-keine-traumata]], [[lyn-alden-1lDBcjSD854-transkript-fliesstext]], [[lyn-alden-1lDBcjSD854-transkript-bereinigt]]
 
 ## Summary
 
@@ -35,6 +35,14 @@ Jordi Visser (Makro-Stratege, Substack «The Fracturing Trust in Capitalism», 2
 
 Die These, KI-Agenten bräuchten Bitcoin als einziges maschinenverwahrbares Geld, bekam 2026 einen Implementierungs-Datenpunkt: Lightning Labs veröffentlichte ein Open-Source-Toolkit, mit dem KI-Agenten direkt über das Lightning Network bezahlen — Transaktionen selbstständig ausführen, ohne menschliche Freigabe pro Schritt, global und in Echtzeit. Der Anwendungsfall wandert damit von der Spekulation in die Werkzeuglage. [[20260222_heartmoney-bitcoin-zum-festhalten]]
 
+### Aldens Einordnung: Deflationsschübe, Buildout-Inflation, offene Gewichte
+
+Die These der zwei deflationären Kräfte bekommt bei Lyn Alden (Juli 2026) eine historische und eine zeitliche Präzisierung. Historisch: Technologie wirkt fast immer deflationär, aber es gibt Phasen kambrischer Explosion, in denen der Effekt weit über dem Durchschnitt liegt — die USA im späten 19. Jahrhundert mit Eisenbahn und Elektrifizierung, das Nachkriegsjapan mit seinem Produktivitätsschub, und heute China, dessen industrielle Überkapazität günstige Güter in die Welt drückt. Ihr Beispiel aus Ägypten, von wo aus sie das Gespräch führte: Ein Volkswagen kostet einen Ägypter heute mehr Arbeitsstunden als vor fünf Jahren, ein qualitativ vergleichbares chinesisches Auto einen Bruchteil davon. Deflation im nützlichen Sinn. [[lyn-alden-1lDBcjSD854-transkript-fliesstext]]
+
+Zeitlich wichtiger ist ihre Reihenfolge-Beobachtung: Der KI-Deflationseffekt ist in den nationalen Makrodaten noch nicht sichtbar, obwohl er anekdotisch überall auftaucht — niedrigere Anwaltsrechnungen, mehr Code pro Angestelltem, langsamere Neueinstellungen. Der Grund sei die Adoptionstiefe. Fast alle haben KI benutzt; nur ein kleiner Teil der Unternehmen hat den eigenen Betrieb damit umgebaut. Vorgelagert ist der Buildout selbst inflationär: Streit um Strom, um Transformatoren, um Halbleiterkomponenten, dazu die Wiederauffüllung von Rüstungsbeständen. Die inflationäre Rechnung kommt also vor der deflationären Dividende — eine Nuance, die in der Erzählung «KI ist deflationär» meist fehlt und die zugleich erklärt, warum eine Notenbank sie als dovishes Argument nutzen kann (siehe [[makro-zinskurve-fed-und-rezession]]).
+
+Zur Konzentrationsfrage im Abschnitt unten setzt Alden einen Gegenpunkt. Der Burggraben der Frontier-Labore liege nicht bei den Modellen: Die Wechselkosten sind niedrig, und wenn die besten geschlossenen Modelle nur wenige Monate vor günstigen Open-Weight-Modellen liegen, ist das ein schmaler Vorsprung. Der eigentliche Graben liege bei Halbleitern und bei Hyperscalern mit langfristigen Energieverträgen. Sie liest Chinas Open-Weight-Strategie ökonomisch: Billige, offen verfügbare KI nützt der gesamten eigenen Volkswirtschaft mehr als ein abgeschottetes Spitzenmodell. Zugleich ordnet sie das Sicherheitsgerede mancher US-Anbieter als Versuch ein, einen regulatorischen Burggraben zu errichten — Angst hochspielen, bis man selbst vorn ist, dann die Leiter hochziehen. Ihr Fazit für Einzelne: Offene Gewichte verschieben Macht zu denen, die die Werkzeuge nutzen können und wollen; die Trennlinie verläuft zwischen Fähigkeit plus Bereitschaft und deren Fehlen, nicht zwischen einer permanenten Ober- und Unterschicht. Dass KI in staatlicher Hand zur Überwachungstechnologie werden kann, hält sie dabei ausdrücklich fest.
+
 ### Risiken: Energieverbrauch und Konzentration
 
 Bitcoin-Mining und KI-Training konkurrieren um günstige Energie und spezialisierte Hardware. Das kann zu Ressourcenkonflikten führen, treibt aber auch Innovation in erneuerbarer Energie und Energieeffizienz.
@@ -53,6 +61,7 @@ KI-Entwicklung konzentriert sich heute auf wenige Unternehmen (OpenAI, Google, M
 - [[bitcoin-und-psychologie]]
 - [[bitcoin-und-quantenrisiko]]
 - [[stablecoins-und-agentische-zahlungen]]
+- [[makro-zinskurve-fed-und-rezession]]
 
 ## Open Questions
 
