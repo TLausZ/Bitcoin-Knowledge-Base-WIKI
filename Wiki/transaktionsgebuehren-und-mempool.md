@@ -2,7 +2,7 @@
 
 **Status:** established
 **Themen:** protokoll, privacy
-**Last updated:** 2026-06-27
+**Last updated:** 2026-07-30
 **Sources:** [[20210714_wieso-muss-ich-eine-transaktionsgebuehr-bezahlen-de]], [[20210804_was-ist-eigentlich-eine-utxo-de]], [[waltz-bitcoin-facts]]
 
 ## Summary
@@ -30,6 +30,7 @@ Der Mempool (Memory Pool) ist die Warteschlange aller noch nicht bestätigten Tr
 Nützliche Mempool-Explorer:
 - **mempool.space:** visuelle Darstellung nach Gebührenstufen, Blockvorhersagen
 - **jochen-hoenicke.de:** zeitliche Entwicklung des Mempool-Volumens
+- **[Das Bitcoin Postamt](https://bitcoin-mempool.netlify.app/):** dieselben Daten als Postamt-Szene — wartende Transaktionen sind Briefe und Pakete, die Gebührenklassen sind Schalterspuren, und alle ~10 Minuten fährt ein Postauto mit der Ladung ab, sobald ein echter Block gefunden wurde. Speist sich aus der mempool.space-API oder wahlweise aus der eigenen Node; fällt die API aus, schaltet die Seite auf einen simulierten Takt um, was für die Ablesbarkeit reale Zahlen ersetzt. Der Warteraum zeigt einen Ausschnitt, nicht alle zehntausende wartenden Zahlungen. Als Einstiegsbild für Leute, die Gebührenmarkt und Blockrhythmus zum ersten Mal sehen, deutlich zugänglicher als ein Gebührendiagramm.
 
 Das Grundmuster: Alle ~10 Minuten wird ein Block gefunden, die höchstbietenden Transaktionen werden herausgenommen. Im Diagramm ist das als periodischer Einschnitt von oben sichtbar. In Hochlastphasen (starke Preisvolatilität, viele neue Nutzer) füllt sich der Mempool schnell und Gebühren steigen deutlich.
 

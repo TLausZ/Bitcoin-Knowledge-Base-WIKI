@@ -2,7 +2,7 @@
 
 **Status:** established
 **Themen:** protokoll
-**Last updated:** 2026-06-04
+**Last updated:** 2026-07-30
 **Sources:** [[20251023_der-unterschied-zwischen-bitcoin-konsensregeln-und-mempool-richtlinien]], [[20250508_daten-speichern-auf-der-blockchain-wie-funktioniert-op-return]]
 
 ## Summary
@@ -33,6 +33,8 @@ Typische Mempool-Richtlinien:
 - Ob nicht-standardisierte Transaktionen weitergeleitet werden
 
 Mempool-Richtlinien sind jederzeit konfigurierbar. Selbst wenn eine Node eine Transaktion ablehnt und aus ihrem Mempool entfernt, kann dieselbe Transaktion im nächsten Block auftauchen — und die Node akzeptiert sie trotzdem als gültig, weil keine Konsensregel verletzt wurde.
+
+Wer sich den Wartestand einmal ansehen will, statt ihn sich vorzustellen: [Das Bitcoin Postamt](https://bitcoin-mempool.netlify.app/) zeichnet den Mempool als Postamt, in dem Transaktionen als Briefe auf die nächste Abholung warten. Die Anzeige hängt an der mempool.space-API und zeigt damit deren Mempool-Sicht, nicht die der eigenen Node — genau der Unterschied, um den es in diesem Artikel geht. Mehr dazu in [[transaktionsgebuehren-und-mempool]].
 
 ### Der entscheidende Unterschied
 

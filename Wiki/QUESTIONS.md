@@ -134,7 +134,7 @@ Beim späteren Anlegen der Buch-Artikel: eine Datei pro Buch als Quelle wählen 
 
 **Offen — Sendedatum der Folge:** Das YouTube-Auto-Transkript enthält kein Publikationsdatum, in dieser Session gab es keinen Netzzugriff zur Prüfung. `date_published` steht in beiden RAW-Dateien auf `unknown`. Inhaltliche Anker (Warsh im ersten Amtsjahr, 58k-Tief, Hormus-Sperrung) legen Juli 2026 nahe; die Zeitangaben in den vier Artikeln sind entsprechend als «Juli 2026» ausgewiesen und sollten korrigiert werden, falls das echte Datum abweicht.
 
-## Compile-Pass 111 (2026-07-30)
+## Compile-Pass 110 (2026-07-30, ARD-Block)
 
 **Offen — Podcast-Referenz bei Baur:** Baur verweist auf einen Podcast, in dem «Roman gegen Robin» antrat: Roman vertrete, der Schwarm beziehungsweise der Markt entscheide über Bitcoins weiteren Weg, Robin halte dagegen, Bitcoin verliere seine Hallmarks. Ohne Nachnamen liess sich weder die Folge noch die Position zuordnen; nicht eingearbeitet. Falls sich das auflösen lässt (Vermutung, ungeprüft: deutschsprachige Bitcoin-Szene), wäre die Frage nach dem Verlust der Kerneigenschaften ein Anschluss an [[bitcoin-core-relay-statement]] und [[bip-0110]]. [[Martins Blog_ ARD_ Putins Krypto War]]
 
