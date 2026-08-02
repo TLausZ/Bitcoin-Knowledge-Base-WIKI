@@ -1,9 +1,9 @@
 # Krieg, QE und Schuldengeld
 
 **Status:** established
-**Themen:** oekonomie
-**Last updated:** 2026-06-22
-**Sources:** [[aprycot-gladstein-unsichtbare-kosten-des-krieges-qe]]
+**Themen:** oekonomie, adoption
+**Last updated:** 2026-08-02
+**Sources:** [[aprycot-gladstein-unsichtbare-kosten-des-krieges-qe]], [[2026-08-02_bitcoinwell_the-war-machine-runs-on-fiat]]
 
 ## Summary
 
@@ -66,6 +66,16 @@ Das ist keine Korrelation: Schuldenfinanzierte Kriege pumpen massive Liquidität
 China reduzierte seine US-Staatsanleihen-Bestände vom $1,3-Billionen-Peak. Der ausländische Anteil an US-Schulden sank von ~60% auf unter 40%. Die Lücke füllt die Fed — durch immer mehr QE. Das System ist selbstreferenziell: QE ermöglicht Kriegsschulden, die Kriegsschulden erfordern QE.
 
 Gladsteins Schlussthese: Unter einem Bitcoin-Standard — wo keine Zentralbank Geld ex nihilo schöpfen kann — wären ewige Kriege nicht finanzierbar. Steuern müssten sichtbar erhöht werden. Die Bürger hätten wieder eine echte Stimme.
+
+### Zahlungsinfrastruktur als Waffe und die Fälle 2025/26 (Addair)
+
+Zachary Addair (Bitcoin Well, Juli 2026) führt dieselbe Linie mit der österreichischen Tradition weiter und aktualisiert sie um jüngere Ereignisse. [[2026-08-02_bitcoinwell_the-war-machine-runs-on-fiat]]
+
+Zur Kriegsbremse des Goldstandards: Unter Gold kann ein Staat Kriege nur über sichtbare Steuern, endliches Borgen realer Ersparnisse oder rasch auffliegende Münzverschlechterung finanzieren. Mises argumentierte, der klassische Goldstandard sei 1914 nicht zufällig kollabiert, sondern absichtlich verlassen worden, weil der Erste Weltkrieg unter ihm nicht finanzierbar gewesen wäre — erst brach das Geld, dann wurde der Krieg gross. Hazlitts Formel dafür: Inflation ist die eine Steuer, über die niemand abstimmen muss. Das ergänzt Kreps' *Taxing Wars*-Befund oben um die monetäre Vorbedingung.
+
+Zur Bewaffnung der Zahlungswege ergänzt Addair zwei dokumentierte Wegmarken: 2012 wurde Iran von SWIFT getrennt; 2022 froren westliche Staaten rund 300 Mrd. USD Reserven der russischen Zentralbank ein. Seine Lesart: Dollarreserven sind keine Eigentumsposition, sondern eine widerrufbare Erlaubnis, und die De-Dollarisierung seither ist Selbstschutz, keine Ideologie. Als Ironie am Rand: Chinas SWIFT-Alternative CIPS unterzeichnete ein Memorandum mit SWIFT und wickelt den Grossteil ihres Verkehrs weiter darüber ab. Die Petrodollar-Mechanik dahinter ist in [[dollar-hegemonie-super-imperialismus]] ausführlich belegt.
+
+Deutlich als eigene Spekulation markiert verbindet Addair dann Libyen 2011 (Gold-Dinar-Pläne, 143 Tonnen Gold aus der Zentralbank), die US-Operation in Venezuela vom Januar 2026 (Festnahme Maduros, offen erklärtes Öl-Interesse) und die Iran-Eskalation 2025/26 (US-Schläge Juni 2025, Hormus-Blockade) zu einer koordinierten Strategie, die Chinas Ölversorgung beidseitig abklemmen und die Fakturierung beim Dollar halten soll. Diese Verknüpfung ist Interpretation eines einzelnen Autors, keine belegte Tatsache; die Einzelereignisse selbst belegt er mit Agentur- und Archivquellen. Sein Schluss deckt sich mit Gladstein: Bitcoin entzieht der Kriegsfinanzierung beide Treibstoffe, weil sich weder das Angebot ausweiten noch selbstverwahrte Bestände einfrieren oder vom Zahlungsnetz trennen lassen.
 
 ## Related
 

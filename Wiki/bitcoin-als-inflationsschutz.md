@@ -1,9 +1,9 @@
 # Bitcoin als Inflationsschutz
 
 **Status:** established
-**Themen:** oekonomie
-**Last updated:** 2026-06-22
-**Sources:** [[2022_Bitcoin-Everything-Divided-by-21-Million_Svanholm]], [[2020_Bitcoin-Unabhaengigkeit-neu-gedacht_Svanholm-Herminghaus]], [[Counterfactual_Analysis_Bitcoin_Gold_Rainy_Day_Funds]], [[2023_Praxeology-Invisible-Hand-Feeds-You_Svanholm]], [[aprycot-die-natur-des-wertes]], [[aprycot-keynes-ueber-inflation]]
+**Themen:** oekonomie, adoption
+**Last updated:** 2026-08-02
+**Sources:** [[2022_Bitcoin-Everything-Divided-by-21-Million_Svanholm]], [[2020_Bitcoin-Unabhaengigkeit-neu-gedacht_Svanholm-Herminghaus]], [[Counterfactual_Analysis_Bitcoin_Gold_Rainy_Day_Funds]], [[2023_Praxeology-Invisible-Hand-Feeds-You_Svanholm]], [[aprycot-die-natur-des-wertes]], [[aprycot-keynes-ueber-inflation]], [[2026-08-02_bitcoinwell_priced-out-of-the-starter-life]]
 
 ## Summary
 
@@ -40,6 +40,12 @@ Bitcoin teilt diese Eigenschaften, ist aber digital portierbar und mathematisch 
 **Langfristig** ist das Bild anders. Gemessen über 4+ Jahre hat Bitcoin in jedem rollierenden Fenster seit 2013 die Kaufkraft gegenüber dem US-Dollar erhalten oder deutlich gesteigert. Svanholm formuliert es direkt: «Denominated in bitcoin, all prices fall, as they should.» Das ist keine Prognose, sondern eine Beschreibung der bisherigen Realität.
 
 **Kontrafaktische Portfolioanalyse (Rudd, Peterson & Porter, 2025):** Eine Studie über US-staatliche Rainy Day Funds 2018–2024 zeigt: Schon eine Allokation von 3% Bitcoin schützte konsistent real gegen Inflation und übertraf die risikofreie Anlage-Baseline. Gold braucht für vergleichbare Wirkung eine höhere Allokation. Die Evidenz gilt für gemischte Portfolios, nicht für 100%-BTC-Haltung. [[Counterfactual_Analysis_Bitcoin_Gold_Rainy_Day_Funds]]
+
+### Fallstudie Generationen-Kaufkraft: Wohneigentum in den USA
+
+Zachary Addair (Bitcoin Well, Juli 2026) illustriert die Cantillon-Mechanik an der US-Wohneigentumsstatistik über 44 Jahre. Die Kernzahlen (Stand: Juli 2026): Das Medianhaus kostete 1980 rund 64'600 USD bei einem Medianhaushaltseinkommen von 17'700 USD; 2024 standen 420'300 USD gegen 83'730 USD. Die Price-to-Income-Ratio erreichte 2024 mit 5.1× den höchsten Wert seit Beginn der Messung vor sechs Jahrzehnten (historische Norm 2.5–3.0×). Hauspreise stiegen seit 1980 um 551%, Einkommen um 373%; real wuchs das Medianeinkommen in 44 Jahren nur um etwa 18%, und dieser Zuwachs braucht heute oft zwei Verdiener. Die Wohneigentumsquote der Unter-35-Jährigen fiel von rund 43% (1980) auf 38%, das Medianalter des Erstkäufers liegt bei 38 Jahren. [[2026-08-02_bitcoinwell_priced-out-of-the-starter-life]]
+
+Addairs Deutung folgt Rothbard und Mises: Ursache ist der Massstab, nicht das Preisschild — seit 1971 wächst M2 ohne Anker (rund +20% allein 2020/21), ein 1971er-Dollar hält noch etwa ein Siebtel seiner Kaufkraft. Wer früh Sachwerte mit billig bedienbaren Schulden kaufte, sass auf der Empfängerseite des Transfers; wer heute in schrumpfendem Geld anspart, auf der Zahlerseite. Die Quelle nennt auch die Gegenargumente selbst: Hypothekarzinsen von rund 13.7% machten 1980 die Monatsraten hart, die nationale Ratio verdeckt grosse lokale Streuung, und das Millennial-Mediannettovermögen hat das der Gen X im gleichen Alter inzwischen eingeholt (getragen allerdings von Immobilien-Equity, die Mieter nicht aufbauen). Als Einzelquelle mit kommerziellem Absender ist die Zahlenbasis unabhängig noch nicht gegengeprüft; die Argumentationslinie deckt sich mit dem Rest dieses Artikels.
 
 ### Zeitpräferenz und die eigentliche Funktion
 

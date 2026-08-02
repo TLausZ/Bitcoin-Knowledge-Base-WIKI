@@ -1,6 +1,10 @@
 # Open Questions & Gaps
 
-Offene Fragen, Lücken und Themen, die mehr Quellen benötigen. Stand: 2026-07-17 (Health Check 4)
+Offene Fragen, Lücken und Themen, die mehr Quellen benötigen. Stand: 2026-08-02 (Compile-Pass 113)
+
+## Coldcard: Suchraum-Angaben Mk4/Q/Mk5 abgleichen (Pass 113)
+
+Die Primärquelle (Block/Coinkite-Aufbereitung) nennt für Mk4/Q/Mk5 einen Suchraum von max. 2^32 (Reseed-Begrenzung). Die Bitcoin-Well-Quelle nennt zusätzlich «~2^72 total once you account for the timing states». Kein Widerspruch (andere Zählweise: Reseed-Anteil vs. Gesamtzustand inkl. Timer), aber der Artikel [[coldcard-rng-schwachstelle]] führt bislang nur die 2^32-Angabe. Bei Gelegenheit gegen den Block-Originalreport abgleichen und die Zählweisen sauber nebeneinanderstellen.
 
 ## Gebrochene Backlinks (Health Check 3, 2026-07-05)
 

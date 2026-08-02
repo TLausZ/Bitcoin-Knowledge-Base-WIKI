@@ -2,8 +2,8 @@
 
 **Status:** established
 **Themen:** grundlagen, protokoll, oekonomie
-**Last updated:** 2026-07-05
-**Sources:** [[20260424_wie-das-21-millionen-limit-von-bitcoin-tatsächlich-durchgesetzt-wird]], [[20220620_warum-ist-bitcoin-wichtig-de]], [[Die andere Seite der Medaille.md]], [[Bitcoin ist die Wiederentdeckung des Geldes.md]], [[aprycot-rochard-perfekte-geldpolitik-bitcoin]], [[waltz-bitcoin-facts]], [[20260308_heartmoney-nur-noch-1-million-bitcoin]]
+**Last updated:** 2026-08-02
+**Sources:** [[20260424_wie-das-21-millionen-limit-von-bitcoin-tatsächlich-durchgesetzt-wird]], [[20220620_warum-ist-bitcoin-wichtig-de]], [[Die andere Seite der Medaille.md]], [[Bitcoin ist die Wiederentdeckung des Geldes.md]], [[aprycot-rochard-perfekte-geldpolitik-bitcoin]], [[waltz-bitcoin-facts]], [[20260308_heartmoney-nur-noch-1-million-bitcoin]], [[2026-08-02_bitcoinwell_why-21-million-doesnt-move]]
 
 ## Summary
 
@@ -111,6 +111,19 @@ Rochard schliesst mit einer Langzeitprognose: „Die Bitcoin-Zentralbank wird da
 Satoshi hat das 21-Millionen-Limit nicht aus einer ökonomischen Theorie abgeleitet, sondern nach eigenen Worten „geraten" — ein *educated guess*. In einer E-Mail an Martti Malmi erklärte er, er wollte eine Zahl wählen, die sowohl für ein Nischen-Experiment als auch für ein globales Währungssystem skalieren würde. Die genaue Zahl war sekundär; die Unveränderlichkeit des Ausgabeplans war der eigentliche Punkt. [[waltz-fact-05-21m-limit-educated-guess]]
 
 Paradoxerweise existierte das harte 21-Millionen-Limit im Code zunächst gar nicht. Aufgrund einer C++-Eigenheit hätte der Halving-Algorithmus nach dem letzten Halving (~Jahr 2214) von vorne begonnen — die Subventionen wären wieder gestiegen. BIP42 (2014) schloss diese Lücke explizit, indem es die Ausgabe nach 64 Halvings auf null setzt (`if (halvings >= 64) return 0`). Technisch gesehen wurde das 21-Millionen-Limit erst 2014 im Code verankert. [[waltz-fact-12-bitcoin-21m-cap-bip42]]
+
+### Praxistest: der Ben-Sasson-Vorschlag (Juli 2026)
+
+Die Frage «Könnten sich die Regeln ändern?» bekam im Juli 2026 einen konkreten Fall. Eli Ben-Sasson, Zcash-Mitgründer und CEO von StarkWare, schlug in mehreren Interviews vor, das 21-Millionen-Limit durch eine permanente jährliche Issuance von 4% zu ersetzen, lose an das Weltbevölkerungswachstum gekoppelt. Seine Begründung: Private Keys gehen unwiederbringlich verloren («As time goes to infinity, all keys will be lost»), ein fixes Angebot sei deshalb real ein schrumpfendes, das dem Netzwerk irgendwann die Coins für Transaktionen und Miner-Bezahlung entziehe. [[2026-08-02_bitcoinwell_why-21-million-doesnt-move]]
+
+Die Entgegnung von Zachary Addair (Bitcoin Well) bündelt die Standardargumente des Korpus:
+
+- **Verlorene Coins sind kein Versorgungsproblem.** Bitcoin ist in 2.1 Billiarden Satoshis teilbar, bei Bedarf weiter. Verlorene Coins verknappen das Angebot zugunsten aller übrigen Halter — dieselbe Logik, die Satoshi 2009/2010 formulierte (Zitate oben: «Think of it as a donation to everyone»). Addair stützt sich zusätzlich auf Mises (*The Theory of Money and Credit*): Geld ist das einzige Gut, von dem jede vorhandene Menge genügt; eine schrumpfende Geldmenge ändert nur die Preisanschrift, nicht die Funktionsfähigkeit.
+- **«Nur 4%» als Präzedenzfall.** Sobald der Cap einmal verschoben werden kann, besitzt jemand den Drehregler, und die Zahl wird verhandelbar — das dokumentierte Muster jeder Fiat-Währung, die als hartes Geld mit einer «massvollen, temporären» Ausnahme begann. Mit Hülsmann (*The Ethics of Money Production*): Issuance schafft kein Vermögen, sie verschiebt es zu den Erstempfängern der neuen Einheiten — der Cantillon-Mechanik oben.
+- **Der Cap ist das Produkt, kein Parameter.** Eine Änderung wäre keine Verbesserung von Bitcoin, sondern dessen Einstellung unter Beibehaltung des Namens.
+- **Durchsetzung über Eigeninteresse, nicht Debattensieg.** Ben-Sasson kann den Code schreiben, aber niemanden zwingen, ihn auszuführen. Eine Cap-Erhöhung bräuchte die freiwillige Übernahme durch Zehntausende Nodes, deren Betreiber Bitcoin gerade wegen der fixen Menge halten. Das deckt sich mit Gigis Node-Argument oben und verschärft es: Wer auf einer Börse hält, stimmt über die Regeln nicht mit ab, sondern übernimmt die seines Verwahrers.
+
+Addair weist auch auf das Timing hin: Der Vorschlag fiel in eine Phase gedrückter Stimmung, in derselben Woche wie Strategys bis dahin grösster Verkauf (rund 3'588 BTC, siehe [[bitcoin-unternehmens-strategie]]). Lyn Aldens Kommentar dazu: «Bitcoin needs no savior.» Die Quelle ist ein einzelner Meinungsbeitrag eines kommerziellen Anbieters; der Ben-Sasson-Vorschlag selbst ist darin nur referiert, nicht im Original im Korpus. [[2026-08-02_bitcoinwell_why-21-million-doesnt-move]]
 
 ### Meilenstein: der 20-millionste Bitcoin (März 2026)
 
