@@ -141,3 +141,7 @@ Beim späteren Anlegen der Buch-Artikel: eine Datei pro Buch als Quelle wählen 
 **Offen — ARD-Sendung «Kryptokrieg» nur aus zweiter Hand:** Zwei Kommentare zur selben Sendung sind im Korpus, die Sendung nicht. Sämtliche Aussagen über ihren Inhalt (Schwerpunkt Sanktionsumgehung, A7A5/USDT, Georgien-Mining, Kontroll-Schlusssatz) stammen von Baur und Reder. Beide beschreiben sie widerspruchsfrei, aber keiner ist neutral. Falls die Sendung selbst oder ein Transkript in RAW landet, sind die vier Fundstellen ([[bitcoin-mining-narrativ-und-kritik]], [[bitcoin-zensurresistenz]], [[bitcoin-vs-krypto]], [[stablecoins-und-agentische-zahlungen]]) gegenzuprüfen.
 
 **Gap — A7A5 ohne Primärquelle:** Zu Emittent, Volumen, Reservendeckung und tatsächlichem Einsatz in Sanktionsumgehung liegt nichts vor. Der Abschnitt in [[stablecoins-und-agentische-zahlungen]] hält nur Reders Angaben. Kandidat für Article-Drafting mit Websuche, falls das Thema wiederkommt.
+
+## Quellen-Backlog
+
+**bitcoinwell.com/blog (notiert 2026-08-01):** Blog von Bitcoin Well als Quelle verarbeiten — Artikel sichten, relevante Beiträge nach RAW/ und kompilieren. Noch nicht angefasst.

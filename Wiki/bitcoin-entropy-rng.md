@@ -44,6 +44,7 @@ Der interessante Aspekt des Projekts liegt weniger in der praktischen Empfehlung
 - [[bip39-schwache-seeds]]
 - [[hardware-wallet-sicherheitsarchitektur]]
 - [[bitcoin-seed-cracking]]
+- [[coldcard-rng-schwachstelle]]
 
 ## Open Questions
 

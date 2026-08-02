@@ -66,6 +66,7 @@ Wer dem Gerät bezüglich Zufallsgenerierung nicht blind vertrauen will, kann se
 - [[hd-wallets-und-schluesselableitung]]
 - [[kryptografische-schlussel-und-adressen]]
 - [[optionale-passphrase]]
+- [[coldcard-rng-schwachstelle]]
 
 - [[bitcoins-verwahren-und-vererben|Bitcoins verwahren und vererben (Marc Steiner)]] ← Buch
 

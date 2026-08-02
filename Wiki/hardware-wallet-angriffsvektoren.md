@@ -59,6 +59,7 @@ Obwohl alle fünf Angriffe dokumentiert sind, gibt es keine öffentlichen Berich
 - [[utxo-modell-und-konsolidierung]]
 - [[bitcoin-seed-cracking]]
 - [[specter-diy]]
+- [[coldcard-rng-schwachstelle]]
 
 ## Open Questions
 

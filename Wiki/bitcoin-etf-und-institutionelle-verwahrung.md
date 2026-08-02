@@ -2,8 +2,8 @@
 
 **Status:** established
 **Themen:** self-custody, oekonomie, adoption
-**Last updated:** 2026-07-18
-**Sources:** [[aprycot-vertrau-mir-bruder]], [[2024-01-20_Ein Blick in die Glaskugel - Praktische Tipps zum Bitcoin-Kauf]], [[2026_Q2_Bitcoin Finance Report]]
+**Last updated:** 2026-07-31
+**Sources:** [[aprycot-vertrau-mir-bruder]], [[2024-01-20_Ein Blick in die Glaskugel - Praktische Tipps zum Bitcoin-Kauf]], [[2026_Q2_Bitcoin Finance Report]], [[2026-07-31_toereki-grasswurzelbewegung-digest]]
 
 ## Summary
 
@@ -76,6 +76,10 @@ Der Report nennt diese Entwicklung Re-Intermediation: Bitcoin wurde als nativ di
 Farrington schliesst mit dem Hinweis, dass die eigentliche Frage nicht "Soll man dem ETF vertrauen?" ist, sondern "Wie baut man Systeme, die Vertrauen überprüfbar machen?" Bitcoin selbst ist die Antwort auf diese Frage für Einzelpersonen. Für Institutionen fehlt die Infrastruktur noch. Bis sie existiert, tragen institutionelle ETF-Nutzer Risiken, die Bitcoin-Nutzer mit Selbstverwahrung nicht haben.
 
 Das Goldparadox ist lehrreich: Gold war dezentral, aber seine physischen Eigenschaften erzwangen Verwahrung durch Dritte, was schliesslich zur Zentralbank führte. Bitcoin hat das physische Verwahrungsproblem gelöst. Das soziale und rechtliche Problem — wie Institutionen Bitcoin halten ohne Kontrolle aufzugeben — ist noch offen.
+
+### Der Einwand gegen die Vereinnahmungs-Klage
+
+Dorothée Töreki dreht die verbreitete Klage über die Institutionalisierung um. Ein offenes Netzwerk lasse sich nicht für alle öffnen und BlackRock zugleich aussperren; der Einstieg von Grosskapital sei die Folge genau der Eigenschaft, die den Wert des Netzwerks ausmacht. Ihre Trennlinie liegt zwischen Preis und Regeln: Über Futures, Optionen und gehebelte Positionen beeinflussen Institutionen die Preisbildung, an den Protokollregeln und der Obergrenze von 21 Millionen ändert die Grösse des eingesetzten Kapitals nichts. Was ETFs kosten, ist die Verfügungsgewalt — gekauft wird ein Anteil an einem Finanzprodukt, nicht der Coin, was auf denselben Unterschied hinausläuft wie im Abschnitt «Der Unterschied, auf den es ankommt». Belegstatus beachten: Der Volltext des Artikels war nicht abrufbar, die Wiedergabe stützt sich auf einen Digest und ist nicht zitierfähig. [[2026-07-31_toereki-grasswurzelbewegung-digest]]
 
 ## Related
 

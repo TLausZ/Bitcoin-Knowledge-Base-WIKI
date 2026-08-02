@@ -78,7 +78,7 @@ BUECHER_SET = {
     "einfuehrung-in-das-lightning-netzwerk", "magic-future-money",
     "softwar", "21-lektionen-bitcoin-kaninchenbau",
     "bitcoin-verstaendlich-erklaert", "ignorieren-auf-eigene-gefahr",
-    "the-bitcoin-enlightenment",
+    "the-bitcoin-enlightenment", "bitcoin-fuer-einsteiger",
 }
 
 # (tag, regex) — trifft gegen slug + " " + beschreibung (lowercase, ascii-gefaltet)
@@ -110,6 +110,14 @@ OVERRIDES = {
     # Miner-KI-Deals: Netzflexibilitaet + Unternehmensbewertung, "mining" allein zu duenn
     "bitcoin-mining-und-ki-rechenzentren": ["mining", "oekonomie", "adoption"],
     "bitcoin-versicherung": ["oekonomie", "self-custody"],
+    # Firmware-Sicherheitsanalyse einer Hardware-Wallet; "oekonomie" war ein
+    # Fehltreffer ueber Guthaben/Kosten im Text.
+    "coldcard-rng-schwachstelle": ["protokoll", "self-custody", "wallets"],
+    # Einsteigerbuch mit drei etwa gleich grossen Teilen. Automatisch kamen
+    # mining/philosophie/adoption, die je an einem Kapitel haengen; der Kern
+    # sind Grundlagen, der Transaktionsablauf und die Verwahrung.
+    "bitcoin-fuer-einsteiger": ["grundlagen", "protokoll", "self-custody",
+                                "oekonomie", "kritik", "buecher"],
     # Makro/Fed: rein oekonomisch, nicht "mining" (Trigger war "Energie"-Inflation/Oelschocks)
     "makro-zinskurve-fed-und-rezession": ["oekonomie"],
     # Bitcoin vs. Krypto: Abgrenzungsartikel. Die ARD-Doku-Fallstudie (Mining in

@@ -57,6 +57,9 @@ Ein Bitcoin besteht aus 100.000.000 Satoshis. Man muss keinen ganzen Bitcoin kau
 - [[wallet-backup-strategien]]
 - [[lightning-netzwerk-grundlagen]]
 
+- [[bitcoin-fuer-einsteiger|Bitcoin für Einsteiger (Marco Bühler)]] ← Buch
+- [[das-kleine-bitcoin-buch|Das kleine Bitcoin-Buch]] ← Buch
+
 ## Open Questions
 
 - Ab welchem Betrag lohnt der Wechsel von Software- auf Hardware-Wallet in der Praxis? (Ratgeber: einige hundert Euro; hardware-wallet-einstieg nennt 500–1.000 €)

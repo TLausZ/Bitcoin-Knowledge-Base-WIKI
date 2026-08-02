@@ -2,8 +2,8 @@
 
 **Status:** established
 **Themen:** oekonomie
-**Last updated:** 2026-07-26
-**Sources:** [[aprycot-bednarek-paradigmenwechsel-geldpolitik]], [[aprycot-parker-lewis-bitcoin-ist-gesunder-menschenverstand]], [[aprycot-parker-lewis-bitcoin-bringt-das-in-ordnung]], [[aprycot-parker-lewis-enders-game-das-grosse-spiel]], [[aprycot-time-to-challenge-pladoyer-vernunft.md]], [[20221129_bmi-marktupdate-geldmenge-euro-vs-btc-de]], [[Inflation and the Illusion of Wealth Part I]]
+**Last updated:** 2026-07-31
+**Sources:** [[aprycot-bednarek-paradigmenwechsel-geldpolitik]], [[aprycot-parker-lewis-bitcoin-ist-gesunder-menschenverstand]], [[aprycot-parker-lewis-bitcoin-bringt-das-in-ordnung]], [[aprycot-parker-lewis-enders-game-das-grosse-spiel]], [[aprycot-time-to-challenge-pladoyer-vernunft.md]], [[20221129_bmi-marktupdate-geldmenge-euro-vs-btc-de]], [[Inflation and the Illusion of Wealth Part I]], [[Bitcoin-fuer-Einsteiger_Buehler]]
 
 ## Summary
 
@@ -34,6 +34,12 @@ Preise transportieren in einem funktionierenden Markt Information über Knapphei
 Der Verbraucherpreisindex basiert auf einem fiktiven Warenkorb, der den „durchschnittlichen" Konsum abbilden soll. Bednarek hält das für konzeptionell unhaltbar: Präferenzen sind individuell und veränderlich. Kein realer Konsument wird zu 100% durch einen CPI-Warenkorb repräsentiert. Preise enthalten Informationen darüber, wie effizient ein Gut bereitgestellt wird — und diese Information ist lokal und kontextabhängig.
 
 Ein gesamtgesellschaftliches Preisniveau ist damit keine objektive Messgrösse, sondern eine Konvention. Geldpolitik, die auf dieser Konvention basiert, operiert auf willkürlichen Parametern. [[aprycot-bednarek-paradigmenwechsel-geldpolitik]]
+
+### Shrinkflation und Skimpflation
+
+Der Warenkorb hat noch eine zweite Schwachstelle: Preissteigerung muss sich nicht im Preis zeigen. Bühler beschreibt zwei Umgehungen, die Unternehmen anwenden, weil sie den Preispunkt für ein Verkaufsargument halten. Bei der Shrinkflation bleibt der Preis gleich und die Menge sinkt — kleinere Packung, weniger Inhalt. Bei der Skimpflation bleiben Preis und Menge gleich, die Qualität sinkt: Zutaten werden gegen billigere getauscht, teures Sonnenblumenöl gegen Palmfett. Beides ist Preisinflation, taucht in der Statistik aber nur auf, soweit die Qualitätsbereinigung sie erfasst.
+
+Bühler ordnet das derselben Ursache zu wie die offene Preissteigerung: einem Geldsystem, das fortwährend steigende Kosten erzeugt. Er verbindet es mit einer kommunikativen Beobachtung — ein Rückgang der Inflationsrate bedeutet langsameren Anstieg, nicht fallende Preise, was in der politischen Darstellung regelmässig verwischt wird. [[Bitcoin-fuer-Einsteiger_Buehler]]
 
 ### Deflation als nicht-pathologischer Zustand
 
