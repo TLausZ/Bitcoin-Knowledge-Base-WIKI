@@ -2,8 +2,8 @@
 
 **Status:** emerging
 **Themen:** oekonomie, adoption
-**Last updated:** 2026-07-18
-**Sources:** [[20260717_bitcointreasuries-top100-public-companies]], [[20260718-bitcointreasuriesTop100]]
+**Last updated:** 2026-08-05
+**Sources:** [[20260717_bitcointreasuries-top100-public-companies]], [[20260718-bitcointreasuriesTop100]], [[20260805-bitcointreasuriesTop100]]
 
 ## Summary
 
@@ -18,6 +18,8 @@ Der Sektor zählt 197 Firmen, ist aber faktisch eine Firma plus Anhang: Strategy
 ### Zeitreihe (Folge-Snapshots)
 
 Seit dem 18. Juli 2026 liegt der Snapshot zusätzlich als automatisierter Abzug der Datenquelle (`__data.json`) vor, inklusive CSV-Pendant für Auswertungen. Erster Tagesvergleich 17.→18. Juli: BTC-Preis $64'105 → $63'927, Top-100-Bestand unverändert bei 1'260'555 BTC, Zahl der gelisteten Public Companies 197 → 209 — der Zuwachs besteht aus Kleinstpositionen unterhalb der Top 100, am aggregierten Bestand ändert er nichts. [[20260718-bitcointreasuriesTop100]]
+
+Monatspunkt 5. August 2026: BTC-Preis $64'242, Top-100-Bestand 1'258'703 BTC (−1'852 seit 18.07.), weiterhin 209 Public Companies. Erstmals zeigt die Zeitreihe einen Rückgang des aggregierten Bestands. Treiber ist Strategy selbst: 842'138 BTC (−1'637 seit 18.07.), passend zu den in [[bitcoin-unternehmens-strategie]] dokumentierten Strategy-Verkäufen im Bärenmarkt 2026. Strategys mNAV liegt bei 1.034, die Bewertungslage des Sektors ist gegenüber Juli praktisch unverändert (viele kleine Vehikel unter NAV, Extremfälle mit negativem Enterprise Value wie Nano Labs und Satsuma). [[20260805-bitcointreasuriesTop100]]
 
 ### Kennzahlen: mNAV, Cost Basis, NgU
 

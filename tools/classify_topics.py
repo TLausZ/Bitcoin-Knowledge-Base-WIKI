@@ -144,8 +144,9 @@ OVERRIDES = {
     "bitcoin-beratung-und-micar": ["adoption", "oekonomie"],
     # Angriffsmethoden/Security: nicht "philosophie" (Trigger: "Frauen-Initiative" im Telegram-Scam-Abschnitt)
     "phishing-und-angriffsmethoden": ["self-custody", "mining", "kritik"],
-    # US-Marktstruktur-Gesetz: Regulierung/Ökosystem; engl. "Regulatory"/"Marktstruktur" triggert adoption-Regex nicht
-    "us-marktstruktur-clarity-act": ["adoption", "self-custody"],
+    # US-Marktstruktur-Gesetz: Regulierung/Ökosystem; engl. "Regulatory"/"Marktstruktur" triggert adoption-Regex nicht.
+    # privacy seit Pass 114: Kutukwa-Kritik macht BSA-Überwachung/KYC zum Kernthema.
+    "us-marktstruktur-clarity-act": ["adoption", "self-custody", "privacy"],
 }
 
 
