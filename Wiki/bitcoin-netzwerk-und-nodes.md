@@ -2,8 +2,8 @@
 
 **Status:** established
 **Themen:** grundlagen, protokoll
-**Last updated:** 2026-06-22
-**Sources:** [[learnmeabitcoin-beginners-guide-network]], [[learnmeabitcoin-beginners-guide-node]], [[learnmeabitcoin-technical-networking-overview]], [[learnmeabitcoin-technical-networking-node]], [[learnmeabitcoin-technical-networking-magic-bytes]], [[2018_Grokking-Bitcoin_Rosenbaum]], [[aprycot-node-weltordnung]], [[Die andere Seite der Medaille.md]]
+**Last updated:** 2026-08-10
+**Sources:** [[learnmeabitcoin-beginners-guide-network]], [[learnmeabitcoin-beginners-guide-node]], [[learnmeabitcoin-technical-networking-overview]], [[learnmeabitcoin-technical-networking-node]], [[learnmeabitcoin-technical-networking-magic-bytes]], [[2018_Grokking-Bitcoin_Rosenbaum]], [[aprycot-node-weltordnung]], [[Die andere Seite der Medaille.md]], [[2026_Defending-Bitcoin_deWolf]]
 
 ## Summary
 
@@ -162,6 +162,10 @@ Das Bitcoin-Netzwerk hat keinen eigenen Willen. Es ist die Summe individueller E
 Diese Rückkopplungsschleife ist entscheidend: Je mehr Menschen Nodes mit einem bestimmten Regelwerk betreiben, desto mehr wirtschaftliche Aktivität läuft über dieses Regelwerk, desto mehr Miner richten sich danach aus. "E pluribus unum" — aus vielen Einzelentscheidungen entsteht ein einheitliches Netzwerk. [[aprycot-node-weltordnung]]
 
 StopAndDecrypt nennt das Ergebnis eine "uneinnehmbare Festung der Validierung": Transaktionen und Blöcke, die gegen die Konsensregeln verstossen, werden von Nodes abgelehnt und nicht weitergeleitet — unabhängig davon, wie viel Hashrate hinter ihnen steht. SegWit2x scheiterte 2017 genau daran: Nodes lehnten den Fork ab, der Miner-Konsens zerfiel.
+
+### Software-Bugs als Node-Risiko
+
+Die Validierung ist nur so verlässlich wie die Software, die sie ausführt. Der schwerste bekannte Fall ist CVE-2018-17144: Ein mit v0.14.0 eingeführter Duplicate-Inputs-Bug hätte einem Miner erlaubt, mit einem präparierten Block neue Bitcoin über den Emissionsplan hinaus zu schöpfen — der 21-Millionen-Cap war einen Block von der Verletzung entfernt. Der Fehler blieb 18 Monate unentdeckt in Produktion, wurde nach der Meldung im September 2018 innert 24 Stunden gepatcht (v0.16.3) und zunächst nur als DoS-Fix kommuniziert; die volle Tragweite legten die Entwickler erst drei Tage später offen. Die koordinierte Offenlegung verlangte Vertrauen in eine Handvoll Entwickler, ausgerechnet in einem System, das solches Vertrauen minimieren soll. Praktische Konsequenz für Node-Betreiber: aktuelle stabile Releases fahren, Security-Announcements abonnieren, bei Major-Upgrades ein bis zwei Wochen warten, Point-Releases sofort einspielen. [[2026_Defending-Bitcoin_deWolf]]
 
 ## Related
 

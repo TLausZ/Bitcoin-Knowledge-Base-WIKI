@@ -87,6 +87,7 @@ Die eigentliche Frage ist, ob Bitcoin vor einem Quantenangriff upgraden kann. Di
 - [[starks]]
 - [[bitcoin-marktkommentar-lnms]]
 - [[bitcoin-und-ki]]
+- [[defending-bitcoin|Defending Bitcoin (Luke de Wolf)]] ← Buch
 
 ## Open Questions
 

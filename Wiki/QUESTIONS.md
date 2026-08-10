@@ -146,6 +146,10 @@ Beim späteren Anlegen der Buch-Artikel: eine Datei pro Buch als Quelle wählen 
 
 **Gap — A7A5 ohne Primärquelle:** Zu Emittent, Volumen, Reservendeckung und tatsächlichem Einsatz in Sanktionsumgehung liegt nichts vor. Der Abschnitt in [[stablecoins-und-agentische-zahlungen]] hält nur Reders Angaben. Kandidat für Article-Drafting mit Websuche, falls das Thema wiederkommt.
 
+## Compile-Pass 115 (2026-08-10)
+
+**Gap — Infrastrukturausfälle als eigenes Thema:** «Defending Bitcoin» Kap. 14 hält Material, das im KB nirgends gehalten wird: Internet-Shutdowns als wachsendes Phänomen (Access Now: 296 Shutdowns in 54 Ländern 2024, 313 in 52 Ländern 2025; Spitzenreiter Myanmar und Indien), ~95% des interkontinentalen Traffics über Unterseekabel mit wenigen Chokepoints (Ostsee-Sabotage seit 2022), Netzwerk-Partition als gefährlicheres Szenario als Stromausfall (Chain-Reorg-Risiko), Tail-Risks Sonnensturm/EMP. Kandidat für einen Artikel «Bitcoin und Infrastrukturausfälle» (Resilienz: Difficulty Adjustment als Stossdämpfer, Tor/Satellit/Mesh als alternative Konnektivität); Quelle [[2026_Defending-Bitcoin_deWolf]] trägt ihn allein als emerging.
+
 ## Quellen-Backlog
 
 **bitcoinwell.com/blog (notiert 2026-08-01):** Blog von Bitcoin Well als Quelle verarbeiten — Artikel sichten, relevante Beiträge nach RAW/ und kompilieren. Noch nicht angefasst.

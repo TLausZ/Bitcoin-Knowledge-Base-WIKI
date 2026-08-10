@@ -79,6 +79,7 @@ BUECHER_SET = {
     "softwar", "21-lektionen-bitcoin-kaninchenbau",
     "bitcoin-verstaendlich-erklaert", "ignorieren-auf-eigene-gefahr",
     "the-bitcoin-enlightenment", "bitcoin-fuer-einsteiger",
+    "defending-bitcoin",
 }
 
 # (tag, regex) — trifft gegen slug + " " + beschreibung (lowercase, ascii-gefaltet)
@@ -107,6 +108,9 @@ BIP_SECOND = [
 
 OVERRIDES = {
     # gezielte Korrekturen nach Report-Review, slug -> Themenliste
+    # ICS-Security-Referenz: Kap. 7 (Private Keys) macht self-custody zum Kernthema;
+    # "philosophie" war ein Fehltreffer ueber die Mythologie-Rahmung.
+    "defending-bitcoin": ["protokoll", "privacy", "mining", "self-custody", "adoption", "buecher"],
     # Miner-KI-Deals: Netzflexibilitaet + Unternehmensbewertung, "mining" allein zu duenn
     "bitcoin-mining-und-ki-rechenzentren": ["mining", "oekonomie", "adoption"],
     "bitcoin-versicherung": ["oekonomie", "self-custody"],

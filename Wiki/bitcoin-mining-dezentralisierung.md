@@ -62,6 +62,7 @@ Unternehmen wie FutureBit und Coinmine bieten Plug-and-Play-Miner für Haushalte
 - [[bitcoin-als-organismus]]
 - [[bip-0110]]
 - [[bitcoin-adoption-report-river-2026]]
+- [[defending-bitcoin|Defending Bitcoin (Luke de Wolf)]] ← Buch
 
 ## Open Questions
 
