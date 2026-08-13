@@ -2,8 +2,8 @@
 
 **Status:** established
 **Themen:** self-custody, kritik, geschichte
-**Last updated:** 2026-07-13
-**Sources:** [[20230103_wir-feiern-proof-of-keys-de]], [[aprycot-seedor-bitcoin-ist-sicher]], [[aprycot-21bitcoin-custody-einfach-erklaert]], [[20230118_die-bitbox01-ist-am-ende-ihrer-reise-de]], [[20220822_warum-bitcoin-eigenes-wallet-halten-de]], [[20220103_proof-of-keys-bitcoin-de]], [[20210622_warum-bitcoin-nicht-auf-boersen-aufbewahren-de]], [[2025-10-03_Blocktrainer-Bitcoin sicher aufbewahren 2025_ Selbstverwahrung, Wallet und Co.]], [[2025-05-14_Blocktrainer-Bitcoin_ 5 Anfängerfehler, die teuer werden können]], [[Bitcoin ist die Wiederentdeckung des Geldes.md]], [[Die andere Seite der Medaille.md]], [[bitcoin-ratgeber_kapitel-02-sei-deine-eigene-bank]], [[20221115_bmi-ftx-bankrott-de]], [[11 Questions You Should Ask Your Bitcoin Exchange.md]]
+**Last updated:** 2026-08-13
+**Sources:** [[2026-08-10_river-bitcoin-supply-by-custody-setup.md]], [[20230103_wir-feiern-proof-of-keys-de]], [[aprycot-seedor-bitcoin-ist-sicher]], [[aprycot-21bitcoin-custody-einfach-erklaert]], [[20230118_die-bitbox01-ist-am-ende-ihrer-reise-de]], [[20220822_warum-bitcoin-eigenes-wallet-halten-de]], [[20220103_proof-of-keys-bitcoin-de]], [[20210622_warum-bitcoin-nicht-auf-boersen-aufbewahren-de]], [[2025-10-03_Blocktrainer-Bitcoin sicher aufbewahren 2025_ Selbstverwahrung, Wallet und Co.]], [[2025-05-14_Blocktrainer-Bitcoin_ 5 Anfängerfehler, die teuer werden können]], [[Bitcoin ist die Wiederentdeckung des Geldes.md]], [[Die andere Seite der Medaille.md]], [[bitcoin-ratgeber_kapitel-02-sei-deine-eigene-bank]], [[20221115_bmi-ftx-bankrott-de]], [[11 Questions You Should Ask Your Bitcoin Exchange.md]]
 
 ## Summary
 
@@ -126,6 +126,12 @@ Custodial-Wallets haben legitime Anwendungsfälle: einfacher Einstieg, Kundendie
 Hardware-Wallets (z.B. Bitbox, Ledger, Trezor) verbinden beides: Sichere, eigenständige Bitcoin-Wallet auf dedizierter Hardware (USB-ähnliche Geräte), kontrolliert über einen Browser oder eine App. Der private Schlüssel verlässt das Gerät nie.
 
 Eine Übergangs-Lösung für Einsteiger: Custodial-Wallet mit automatischer Übertragung auf eigene Hardware-Wallet sobald ein Schwellwert erreicht wird (z.B. 21bitcoins "Auto-Wallet-Transfer"-Feature). Schrittweise Übernahme der Selbstverwahrung statt Alles-oder-Nichts-Entscheidung.
+
+### Wie viel liegt tatsächlich in Selbstverwahrung? (Stand: 10. August 2026)
+
+River schätzt den selbstverwahrten Anteil auf 9,57M BTC oder 45,6% der 21 Millionen. Davon sind 1,62M dauerhaft verloren, die aktive Selbstverwahrung liegt also bei 7,95M oder 37,9%. Bei Börsen und Custodians liegen zusammen 7,57M (36,1%), wobei das Gewicht auf den Custodians liegt: 4,66M gegenüber 2,91M direkt auf Börsen. Weitere 2,93M (13,9%) hält niemand selbst, sondern über Fonds, ETFs, Treasury-Aktien oder Wrapped Bitcoin.
+
+Die Zahl relativiert beide Lager. Selbstverwahrung ist keine Nische, sie ist die grösste Einzelkategorie. Sie ist aber auch nicht die Norm: Mehr als die Hälfte aller ausgegebenen Coins liegt bei einem Dritten oder in einem Papierprodukt. Die Verteilung ist eine Momentaufnahme und Schätzung; Methodik und Kategoriegrenzen in [[bitcoin-adoption-report-river-2026]]. [[2026-08-10_river-bitcoin-supply-by-custody-setup.md]]
 
 ## Related
 

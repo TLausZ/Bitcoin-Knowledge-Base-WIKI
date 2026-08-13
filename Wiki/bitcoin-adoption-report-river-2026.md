@@ -1,9 +1,9 @@
 # River Bitcoin Adoption Report 2026
 
 **Status:** emerging
-**Themen:** lightning, oekonomie, adoption, studien
-**Last updated:** 2026-07-24
-**Sources:** [[river-bitcoin-adoption-report-2026.pdf]], [[2026-Q1_river-bitcoin-ownership-change.md]], [[2026-Q2_river-bitcoin-ownership-change.md]]
+**Themen:** self-custody, lightning, oekonomie, adoption, studien
+**Last updated:** 2026-08-13
+**Sources:** [[river-bitcoin-adoption-report-2026.pdf]], [[2026-Q1_river-bitcoin-ownership-change.md]], [[2026-Q2_river-bitcoin-ownership-change.md]], [[2026-08-10_river-bitcoin-supply-by-custody-setup.md]]
 
 ## Summary
 
@@ -37,6 +37,30 @@ River veröffentlicht die Nettoveränderung je Halterkategorie inzwischen quarta
 Zwei Beobachtungen. Erstens läuft der Abfluss bei Individuen mit −140K BTC im ersten Halbjahr auf einen Jahreswert zu, der den 2025er-Wert von −696K nicht erreicht, aber deutlich über dem Tempo liegt, das Rivers 2036-Projektion unterstellt. Zweitens hat sich die Aufnahmeseite verschoben: 2025 waren Businesses (+489K) und ETFs die Gegenpole, 2026 tragen Businesses fast die gesamte Aufnahme allein, während Funds und ETFs mit +14K im Halbjahr kaum ins Gewicht fallen. Die Regierungen kippten in Q2 erstmals ins Minus (−2K), was mit dem Abverkauf beschlagnahmter Bestände zusammenhängen kann; der Report selbst nennt keinen Grund. [[2026-Q1_river-bitcoin-ownership-change.md]], [[2026-Q2_river-bitcoin-ownership-change.md]]
 
 Die Charts nennen weder absolute Bestände noch Methodik. Sie sind als Trendbestätigung zu lesen, nicht als eigenständige Datenquelle; die Kategoriegrenzen und die Behandlung von Umschichtungen desselben wirtschaftlichen Eigentümers gelten wie im Jahresreport.
+
+### Verwahrform: 45,6% in Selbstverwahrung (Stand: 10. August 2026)
+
+Eine zweite River-Grafik schneidet den Bestand nicht nach Haltern, sondern nach Verwahrform. Bezugsgrösse sind die vollen 21 Millionen Bitcoin, nicht der Umlauf. Datenbasis: River, Arkham Intelligence und CoinGlass.
+
+| Verwahrform | BTC | Anteil |
+|---|---|---|
+| Selbstverwahrung | 9,57M | 45,6% |
+| davon aktiv | 7,95M | 37,9% |
+| davon dauerhaft verloren (geschätzt) | 1,62M | 7,7% |
+| Börsen und Custodians | 7,57M | 36,1% |
+| davon auf Börsen | 2,91M | 13,9% |
+| davon bei Custodians | 4,66M | 22,2% |
+| Indirektes Engagement | 2,93M | 13,9% |
+| davon Fonds und ETFs | 1,51M | 7,2% |
+| davon Treasury-Unternehmen | 1,05M | 5,0% |
+| davon Wrapped Bitcoin | 370K | 1,8% |
+| Noch zu minen | 932K | 4,4% |
+
+Bei der 45,6% ist Vorsicht angebracht: Sie enthält die geschätzten 1,62M dauerhaft verlorenen Coins. Als aktive Selbstverwahrung weist River 37,9% aus. Über 90% der geschätzten Verluste stammen laut Fussnote der Grafik aus 2011 oder früher.
+
+Innerhalb der verwahrten Bestände liegt das Gewicht bei den Custodians, nicht auf den Börsen: 22,2% gegenüber 13,9%. Die verbreitete Kennzahl «Coins auf Börsen» erfasst also nur gut ein Drittel der fremdverwahrten Menge.
+
+Die beiden Schnitte lassen sich nur teilweise gegeneinander rechnen. Konsistent sind die verlorenen Coins (1,61M zum 31.12.2025 gegenüber 1,62M im August 2026) und die noch zu minende Menge, die von 1,04M auf 932K gefallen ist, was der Emission von gut sieben Monaten entspricht. Nicht deckungsgleich sind die Kategorien darunter: «Treasury-Unternehmen» mit 1,05M ist enger gefasst als die 1,45M «Businesses» aus dem Jahresreport, und die 968K Satoshi- und Patoshi-Coins tauchen in der Verwahrsicht nicht als eigene Zeile auf. [[2026-08-10_river-bitcoin-supply-by-custody-setup.md]]
 
 ### Wall Street
 
