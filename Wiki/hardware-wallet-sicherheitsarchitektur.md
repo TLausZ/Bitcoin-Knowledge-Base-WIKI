@@ -1,9 +1,9 @@
 # Hardware-Wallet Sicherheitsarchitektur
 
 **Status:** established
-**Themen:** self-custody
-**Last updated:** 2026-06-06
-**Sources:** [[20250227_worauf-man-beim-kauf-einer-neuen-hardware-wallet-achten-sollte]], [[20260312_warum-vorsichtig-sein-eine-hardware-wallet-nicht-ersetzen-kann-zero-day-schwachstellen-erklärt]], [[20250620_vorstellung-der-bitbox02-nova]], [[20250703_whisper-wie-die-sichere-bluetooth-integration-der-bitbox02-nova-funktioniert]], [[20220419_hardware-wallet-display-pflicht-de]], [[20220118_bitbox-01-2022-maighels-update-de]], [[20210906_was-bedeutet-open-source-de]], [[20210609_secure-chip-open-source-firmware-de]], [[20210317_5-fragen-hardware-wallet-sicherheit-de]], [[20210615_bitboxapp-android-de]]
+**Themen:** protokoll, self-custody
+**Last updated:** 2026-08-18
+**Sources:** [[BitBox 08.2026 Dixence-Update]], [[20250227_worauf-man-beim-kauf-einer-neuen-hardware-wallet-achten-sollte]], [[20260312_warum-vorsichtig-sein-eine-hardware-wallet-nicht-ersetzen-kann-zero-day-schwachstellen-erklärt]], [[20250620_vorstellung-der-bitbox02-nova]], [[20250703_whisper-wie-die-sichere-bluetooth-integration-der-bitbox02-nova-funktioniert]], [[20220419_hardware-wallet-display-pflicht-de]], [[20220118_bitbox-01-2022-maighels-update-de]], [[20210906_was-bedeutet-open-source-de]], [[20210609_secure-chip-open-source-firmware-de]], [[20210317_5-fragen-hardware-wallet-sicherheit-de]], [[20210615_bitboxapp-android-de]]
 
 ## Summary
 
@@ -74,6 +74,18 @@ Die **Dual-Chip-Architektur** der BitBox02 löst den Konflikt: Die Open-Source-F
 Ein spezifischer Angriffsvektor richtet sich nicht gegen die Transaktion, sondern gegen die Initialisierung: Ein Angreifer platziert ein kompromittiertes Backup auf einer microSD-Karte, bevor das Gerät eingerichtet wird. Kombiniert mit einer bösartigen Version der Wallet-App kann das Setup so getarnt werden, dass der Einrichtungsassistent eine neue Wallet zu erstellen scheint — im Hintergrund aber ein vorhandenes Backup wiederherstellt.
 
 Dieser Angriff erfordert physischen Zugang zur microSD vor dem Setup und eine kompromittierte App. Das Display der Hardware-Wallet schützt davor: Ein korrektes Gerät zeigt beim Wiederherstellen eines Backups explizit an, dass es sich um eine Wiederherstellung handelt — nicht um eine Neueinrichtung. Der Nutzer muss das auf dem Gerätedisplay bestätigen. Eine Manipulation durch die App ist damit erkennbar.
+
+### Firmware-Schwachstellen in der Praxis: das Dixence-Update (August 2026)
+
+Wie eine Herstellerreaktion auf gefundene Schwachstellen aussieht, zeigt das BitBox-Update vom 17. August 2026 (Firmware 9.26.5). Bei einer internen Prüfung der gesamten Codebasis, teils unter Einsatz von KI-Modellen, fand das Entwicklerteam drei Sicherheitsprobleme und legte sie offen. Für keines davon gibt es Berichte über eine Ausnutzung oder gestohlene Nutzergelder (Stand: August 2026).
+
+**Bootloader-Schwachstelle**, behoben bereits in Version 9.26.3 (Oeschinen-Update, Juli 2026): Ein Angreifer hätte einen Nutzer dazu bringen können, manipulierte Firmware auf einer echten BitBox02 zu installieren. Voraussetzung wäre ein vorgängig erfolgreicher Phishing-Angriff gewesen, etwa über eine gefälschte BitBoxApp, dazu das Entsperren des Geräts durch den Nutzer. Zuerst intern entdeckt, später unabhängig von einem externen Sicherheitsforscher gemeldet. Die BitBox02 Nova ist wegen des Alters der betroffenen Bootloader-Versionen nicht betroffen; die BitBox02 bis einschliesslich Firmware 9.26.1.
+
+**Speicherverwaltungsfehler der Multi-Edition**, behoben in 9.26.5: Ausnutzbar an einem Gerät, auf dem noch keine Wallet eingerichtet ist und das an einem manipulierten Endgerät hängt. Erfolgreich ausgenutzt hätte er beliebige Codeausführung erlaubt und damit auch das Aufspielen manipulierter Firmware. Die Bitcoin-only Firmware enthält den betroffenen Code nicht. Betroffen: Multi-Edition von BitBox02 und BitBox02 Nova bis einschliesslich 9.26.4.
+
+**Fehler in der Silent-Payments-Implementierung**, behoben in 9.26.5: Ein Angreifer hätte Coins an eine unbeabsichtigte Zahlungsadresse binden können. Direkter Diebstahl war nicht möglich, doch die Wiederherstellung hätte seine Mitwirkung erfordert, was sich für einen Erpressungsversuch eignet. Betroffen: BitBox02 und Nova ab 9.21.0 bis einschliesslich 9.26.4, sofern zusammen mit einem manipulierten Endgerät eine Transaktion an eine Silent-Payment-Adresse erstellt wurde.
+
+Über den Einzelfall hinaus sind zwei Dinge bemerkenswert. Alle drei Angriffe setzen ein manipuliertes Endgerät oder eine gefälschte App voraus; die Hardware-Wallet allein hebelt keiner von ihnen aus. Und BitBox meldet eine Rekordzahl externer Sicherheitsmeldungen, viele davon mit KI-Modellen erzeugt. Firmware aktuell zu halten wird damit zum laufenden Aufwand statt zur einmaligen Einrichtung. [[BitBox 08.2026 Dixence-Update]]
 
 ### BitBoxApp: Plattformübergreifende Architektur
 

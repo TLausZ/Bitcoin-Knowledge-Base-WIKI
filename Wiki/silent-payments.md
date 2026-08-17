@@ -2,8 +2,8 @@
 
 **Status:** emerging
 **Themen:** protokoll, self-custody, privacy
-**Last updated:** 2026-07-26
-**Sources:** [[20240905_silent-payments-erklärt-teil-1]], [[20241017_silent-payments-erklärt-teil-2]], [[20241023_bitbox-10-2024-lugano-update]], [[Bitcoin Optech Newsletter #415]]
+**Last updated:** 2026-08-18
+**Sources:** [[20240905_silent-payments-erklärt-teil-1]], [[20241017_silent-payments-erklärt-teil-2]], [[20241023_bitbox-10-2024-lugano-update]], [[Bitcoin Optech Newsletter #415]], [[BitBox 08.2026 Dixence-Update]]
 
 ## Summary
 
@@ -47,6 +47,8 @@ Bei normalen Transaktionen erstellt die App die Transaktion, die Hardware-Wallet
 3. BitBoxApp rekonstruiert den Output selbst und prüft, ob er mit dem der Hardware-Wallet übereinstimmt
 
 Selbst eine kompromittierte Hardware-Wallet kann die Transaktion nicht manipulieren — die App verifiziert alles eigenständig.
+
+Wie heikel die Umsetzung dennoch ist, zeigte ein interner Audit-Fund von BitBox, veröffentlicht mit dem Dixence-Update im August 2026: In der Silent-Payments-Implementierung der Firmware-Versionen 9.21.0 bis 9.26.4 hätte ein Angreifer zusammen mit einem manipulierten Endgerät Coins an eine unbeabsichtigte Zahlungsadresse binden können. Sie wären nicht gestohlen, aber nur durch Zusammenarbeit mit dem Angreifer wiederherstellbar gewesen, was sich für einen Erpressungsversuch eignet. Behoben in Firmware 9.26.5; Berichte über fehlgeschlagene Silent Payments von Nutzern lagen laut BitBox keine vor. [[BitBox 08.2026 Dixence-Update]]
 
 ### Einschränkungen
 

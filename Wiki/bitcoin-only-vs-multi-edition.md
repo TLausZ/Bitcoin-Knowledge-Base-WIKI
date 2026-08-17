@@ -2,8 +2,8 @@
 
 **Status:** established
 **Themen:** self-custody
-**Last updated:** 2026-06-05
-**Sources:** [[20251002_warum-gibt-es-eine-bitcoin-only-edition-der-bitbox]]
+**Last updated:** 2026-08-18
+**Sources:** [[20251002_warum-gibt-es-eine-bitcoin-only-edition-der-bitbox]], [[BitBox 08.2026 Dixence-Update]]
 
 ## Summary
 
@@ -20,6 +20,8 @@ Beide Editionen verwenden exakt dieselbe Hardware — gleiche Materialien, gleic
 Die Bitcoin-only Firmware ist etwa 25% kleiner und enthält über 100.000 Zeilen weniger Code. Weniger Code und weniger Abhängigkeiten bedeuten generell weniger potenzielle Schwachstellen — auch wenn das Gerät für Bitcoin-Zwecke gleich sicher ist. Die Analogie: Je grösser ein Gebäude, desto höher das theoretische Brandrisiko. Das Gebäude ist nicht unsicher, aber wer Brandsicherheit optimieren und den Platz ohnehin nicht braucht, wählt das kleinere.
 
 Alle für Bitcoin sicherheitsrelevanten Funktionen sind in beiden Editionen vollständig vorhanden.
+
+Das Dixence-Update vom August 2026 liefert einen konkreten Beleg für das Argument: Eine schwere Schwachstelle in der Speicherverwaltung, intern gefunden und mit Firmware 9.26.5 behoben, betraf ausschliesslich die Multi-Edition, weil die Bitcoin-only Firmware den fraglichen Code gar nicht enthält. Ausnutzbar war sie nur an einem noch nicht eingerichteten Gerät an einem manipulierten Endgerät, und Berichte über eine Ausnutzung liegen nicht vor. Die ~25% weniger Code sind damit nicht bloss ein statistisches Argument. Details in [[hardware-wallet-sicherheitsarchitektur]]. [[BitBox 08.2026 Dixence-Update]]
 
 ### Was die Multi Edition bietet
 

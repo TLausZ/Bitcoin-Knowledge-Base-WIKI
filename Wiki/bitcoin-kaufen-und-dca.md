@@ -2,8 +2,8 @@
 
 **Status:** established
 **Themen:** grundlagen, self-custody
-**Last updated:** 2026-07-13
-**Sources:** [[20230308_ankundigung-einer-neuen-partnerschaft-bitbox-pocket-bitcoin]], [[20230308_bitbox-03-2023-trift-update-de]], [[20221101_wie-man-bitcoin-kauft-de]], [[20220809_wie-man-grosse-menge-bitcoin-kauft-de]], [[20210512_bitbox-relai-schweizer-kombo-de]], [[20210623_mit-pocket-bitcoin-auf-bitbox02-stacken-de]], [[2025-05-14_Blocktrainer-Bitcoin kaufen 2025_ Lohnt sich der Einstieg noch_]], [[2025-05-14_Blocktrainer-Bitcoin_ 5 Anfängerfehler, die teuer werden können]], [[2026-06-08_BlocktrainerBitcoin_ 10 Einsteigerfragen]], [[bitcoin-ratgeber_kapitel-03-von-der-boerse-zur-eigenen-wallet]], [[Does timing matter for recurring bitcoin buys_.md]]
+**Last updated:** 2026-08-18
+**Sources:** [[20230308_ankundigung-einer-neuen-partnerschaft-bitbox-pocket-bitcoin]], [[20230308_bitbox-03-2023-trift-update-de]], [[20221101_wie-man-bitcoin-kauft-de]], [[20220809_wie-man-grosse-menge-bitcoin-kauft-de]], [[20210512_bitbox-relai-schweizer-kombo-de]], [[20210623_mit-pocket-bitcoin-auf-bitbox02-stacken-de]], [[2025-05-14_Blocktrainer-Bitcoin kaufen 2025_ Lohnt sich der Einstieg noch_]], [[2025-05-14_Blocktrainer-Bitcoin_ 5 Anfängerfehler, die teuer werden können]], [[2026-06-08_BlocktrainerBitcoin_ 10 Einsteigerfragen]], [[bitcoin-ratgeber_kapitel-03-von-der-boerse-zur-eigenen-wallet]], [[Does timing matter for recurring bitcoin buys_.md]], [[buy-top]]
 
 ## Summary
 
@@ -69,6 +69,8 @@ Nach dem Kauf können Bitcoin direkt an eine BitBox02-Adresse geschickt werden �
 Die häufigste Einsteigerfrage. Die entscheidende Gegenüberstellung: Man fragt nicht, ob der Kurs schon hoch ist, sondern wo er in 10–20 Jahren stehen könnte. Bitcoin macht heute ~0,13 % des weltweiten Vermögens aus; Gold allein ist zehnmal so gross. Selbst bei mittleren Penetrationsszenarien liegt das Potenzial deutlich über heutigen Preisen.
 
 Das Timing-Paradox: Den perfekten Einstieg kann man nur im Nachhinein identifizieren. Im Bärenmarkt 2022 (15.000 USD) warteten viele auf 12.000 oder 8.000 — die nie kamen. "Time in the market beats timing the market" gilt für Bitcoin besonders. Jeder, der Bitcoin vier oder mehr Jahre gehalten hat, war bisher im Plus.
+
+Ein Rechenbeispiel von Billy Boone (LinkedIn) dreht die Frage um und unterstellt das denkbar schlechteste Timing: je 1 BTC an allen vier Zyklushochs, also 1'150 USD 2013, 19'700 USD 2017, 69'000 USD 2021 und 120'000 USD 2025. Einsatz rund 210'000 USD, jedes Mal exakt am Hoch gekauft. Bei einem Kurs von 64'000 USD sind die vier Coins 256'000 USD wert, etwa 22% über dem Einsatz (Stand: August 2026). Die Zahlen sind gerundet, und die Zyklushochs weichen je nach Börse und Datenquelle voneinander ab. Über zwölf Jahre wären 22% eine magere Rendite; die Aussage des Beispiels liegt woanders, nämlich dass selbst die schlechtesten Einstiege der bisherigen Bitcoin-Historie durch Haltedauer wieder ins Plus gelaufen sind. [[buy-top]]
 
 ### Häufige Anfängerfehler beim Kauf
 

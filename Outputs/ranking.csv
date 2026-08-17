@@ -2,14 +2,14 @@ artikel,score,pagerank,eingehend,quellen,woerter,stub,url
 selbstverwahrung-und-boersenrisiken,0.878,1.0,48,15,2122,,https://github.com/TLausZ/Bitcoin-Knowledge-Base-WIKI/blob/main/Wiki/selbstverwahrung-und-boersenrisiken.md
 bitcoin-geldpolitik-und-21-millionen-limit,0.8033,0.9461,35,8,1992,,https://github.com/TLausZ/Bitcoin-Knowledge-Base-WIKI/blob/main/Wiki/bitcoin-geldpolitik-und-21-millionen-limit.md
 bitcoin-netzwerk-und-nodes,0.7891,0.9161,45,9,2049,,https://github.com/TLausZ/Bitcoin-Knowledge-Base-WIKI/blob/main/Wiki/bitcoin-netzwerk-und-nodes.md
-hardware-wallet-sicherheitsarchitektur,0.7433,0.842,34,10,1412,,https://github.com/TLausZ/Bitcoin-Knowledge-Base-WIKI/blob/main/Wiki/hardware-wallet-sicherheitsarchitektur.md
+hardware-wallet-sicherheitsarchitektur,0.7489,0.842,34,11,1716,,https://github.com/TLausZ/Bitcoin-Knowledge-Base-WIKI/blob/main/Wiki/hardware-wallet-sicherheitsarchitektur.md
 bitcoin-mining-und-proof-of-work,0.7191,0.773,40,15,2264,,https://github.com/TLausZ/Bitcoin-Knowledge-Base-WIKI/blob/main/Wiki/bitcoin-mining-und-proof-of-work.md
 wallet-backup-strategien,0.6836,0.775,29,8,1009,,https://github.com/TLausZ/Bitcoin-Knowledge-Base-WIKI/blob/main/Wiki/wallet-backup-strategien.md
 konsensregeln-und-mempool-richtlinien,0.6527,0.8317,25,2,510,,https://github.com/TLausZ/Bitcoin-Knowledge-Base-WIKI/blob/main/Wiki/konsensregeln-und-mempool-richtlinien.md
 bip-0341,0.6446,0.9209,20,0,308,,https://github.com/TLausZ/Bitcoin-Knowledge-Base-WIKI/blob/main/Wiki/bip-0341.md
 opsec-und-privatsphaere,0.6438,0.7412,28,6,1351,,https://github.com/TLausZ/Bitcoin-Knowledge-Base-WIKI/blob/main/Wiki/opsec-und-privatsphaere.md
 bip-0141,0.5721,0.8172,17,0,317,,https://github.com/TLausZ/Bitcoin-Knowledge-Base-WIKI/blob/main/Wiki/bip-0141.md
-bitcoin-kaufen-und-dca,0.5576,0.5687,23,11,1119,,https://github.com/TLausZ/Bitcoin-Knowledge-Base-WIKI/blob/main/Wiki/bitcoin-kaufen-und-dca.md
+bitcoin-kaufen-und-dca,0.5627,0.5687,23,12,1233,,https://github.com/TLausZ/Bitcoin-Knowledge-Base-WIKI/blob/main/Wiki/bitcoin-kaufen-und-dca.md
 bitcoin-als-inflationsschutz,0.538,0.5779,28,7,1330,,https://github.com/TLausZ/Bitcoin-Knowledge-Base-WIKI/blob/main/Wiki/bitcoin-als-inflationsschutz.md
 blocksize-war,0.533,0.5502,21,9,2779,,https://github.com/TLausZ/Bitcoin-Knowledge-Base-WIKI/blob/main/Wiki/blocksize-war.md
 geld-staat-und-fiat-monopol,0.5172,0.5481,32,7,2045,,https://github.com/TLausZ/Bitcoin-Knowledge-Base-WIKI/blob/main/Wiki/geld-staat-und-fiat-monopol.md
@@ -74,13 +74,13 @@ digitales-bargeld-und-ecash,0.2949,0.2569,13,5,1050,,https://github.com/TLausZ/B
 sparrow-wallet,0.2912,0.2048,9,9,1206,,https://github.com/TLausZ/Bitcoin-Knowledge-Base-WIKI/blob/main/Wiki/sparrow-wallet.md
 diceware-und-seed-generierung,0.2904,0.3141,10,2,868,,https://github.com/TLausZ/Bitcoin-Knowledge-Base-WIKI/blob/main/Wiki/diceware-und-seed-generierung.md
 bitcoin-energie-messung-beest,0.2865,0.1741,8,12,1681,,https://github.com/TLausZ/Bitcoin-Knowledge-Base-WIKI/blob/main/Wiki/bitcoin-energie-messung-beest.md
+silent-payments,0.2848,0.2425,10,5,643,,https://github.com/TLausZ/Bitcoin-Knowledge-Base-WIKI/blob/main/Wiki/silent-payments.md
 bip-0009,0.2839,0.4056,8,0,288,,https://github.com/TLausZ/Bitcoin-Knowledge-Base-WIKI/blob/main/Wiki/bip-0009.md
 bip-0068,0.2823,0.4033,8,0,261,,https://github.com/TLausZ/Bitcoin-Knowledge-Base-WIKI/blob/main/Wiki/bip-0068.md
 bitcoin-absolute-knappheit,0.282,0.302,10,2,1251,,https://github.com/TLausZ/Bitcoin-Knowledge-Base-WIKI/blob/main/Wiki/bitcoin-absolute-knappheit.md
 eu-regulierung-selbstverwahrung,0.2762,0.2938,12,2,447,,https://github.com/TLausZ/Bitcoin-Knowledge-Base-WIKI/blob/main/Wiki/eu-regulierung-selbstverwahrung.md
 gigi-philosophische-essays,0.2761,0.1832,11,9,1505,,https://github.com/TLausZ/Bitcoin-Knowledge-Base-WIKI/blob/main/Wiki/gigi-philosophische-essays.md
 bip-0016,0.275,0.3928,7,0,290,,https://github.com/TLausZ/Bitcoin-Knowledge-Base-WIKI/blob/main/Wiki/bip-0016.md
-silent-payments,0.273,0.2425,10,4,563,,https://github.com/TLausZ/Bitcoin-Knowledge-Base-WIKI/blob/main/Wiki/silent-payments.md
 seedphrase-entropie-und-sicherheit,0.2725,0.2885,13,2,464,,https://github.com/TLausZ/Bitcoin-Knowledge-Base-WIKI/blob/main/Wiki/seedphrase-entropie-und-sicherheit.md
 bitcoin-kommunikation-und-orange-pilling,0.2712,0.1762,10,9,1628,,https://github.com/TLausZ/Bitcoin-Knowledge-Base-WIKI/blob/main/Wiki/bitcoin-kommunikation-und-orange-pilling.md
 satoshi-zitate,0.2705,0.3229,9,1,3341,,https://github.com/TLausZ/Bitcoin-Knowledge-Base-WIKI/blob/main/Wiki/satoshi-zitate.md
@@ -120,6 +120,7 @@ bip-0086,0.2246,0.3209,6,0,239,,https://github.com/TLausZ/Bitcoin-Knowledge-Base
 bip-0084,0.2202,0.3146,6,0,231,,https://github.com/TLausZ/Bitcoin-Knowledge-Base-WIKI/blob/main/Wiki/bip-0084.md
 bitcoin-besicherte-kredite,0.2195,0.1024,5,9,1281,,https://github.com/TLausZ/Bitcoin-Knowledge-Base-WIKI/blob/main/Wiki/bitcoin-besicherte-kredite.md
 phishing-und-angriffsmethoden,0.2185,0.1106,6,8,922,,https://github.com/TLausZ/Bitcoin-Knowledge-Base-WIKI/blob/main/Wiki/phishing-und-angriffsmethoden.md
+bitcoin-only-vs-multi-edition,0.2184,0.2113,5,2,461,,https://github.com/TLausZ/Bitcoin-Knowledge-Base-WIKI/blob/main/Wiki/bitcoin-only-vs-multi-edition.md
 onchain-indikatoren-und-anlegerverhalten,0.2184,0.1214,7,7,851,,https://github.com/TLausZ/Bitcoin-Knowledge-Base-WIKI/blob/main/Wiki/onchain-indikatoren-und-anlegerverhalten.md
 specter-desktop,0.217,0.0821,3,11,1241,,https://github.com/TLausZ/Bitcoin-Knowledge-Base-WIKI/blob/main/Wiki/specter-desktop.md
 hardware-wallet-migration,0.2103,0.1734,5,3,470,,https://github.com/TLausZ/Bitcoin-Knowledge-Base-WIKI/blob/main/Wiki/hardware-wallet-migration.md
@@ -144,7 +145,6 @@ bitcoin-und-selbstverantwortung,0.1956,0.1787,10,2,913,,https://github.com/TLaus
 bitcoin-covenants,0.1947,0.1774,6,2,372,,https://github.com/TLausZ/Bitcoin-Knowledge-Base-WIKI/blob/main/Wiki/bitcoin-covenants.md
 greenpeace-vs-bitcoin,0.1943,0.0869,3,7,1168,,https://github.com/TLausZ/Bitcoin-Knowledge-Base-WIKI/blob/main/Wiki/greenpeace-vs-bitcoin.md
 bitcoin-vererbung,0.1926,0.148,7,3,1444,,https://github.com/TLausZ/Bitcoin-Knowledge-Base-WIKI/blob/main/Wiki/bitcoin-vererbung.md
-bitcoin-only-vs-multi-edition,0.1924,0.2113,5,1,383,,https://github.com/TLausZ/Bitcoin-Knowledge-Base-WIKI/blob/main/Wiki/bitcoin-only-vs-multi-edition.md
 bip-0173,0.1921,0.2744,5,0,251,,https://github.com/TLausZ/Bitcoin-Knowledge-Base-WIKI/blob/main/Wiki/bip-0173.md
 regulierung-tofr-aopp,0.1904,0.1712,6,2,500,,https://github.com/TLausZ/Bitcoin-Knowledge-Base-WIKI/blob/main/Wiki/regulierung-tofr-aopp.md
 glossar-bitcoin-technik,0.1893,0.0798,4,7,2262,,https://github.com/TLausZ/Bitcoin-Knowledge-Base-WIKI/blob/main/Wiki/glossar-bitcoin-technik.md

@@ -1,6 +1,6 @@
 # Bitcoin KB — Wiki Index
 
-Alle Artikel alphabetisch. Stand: 2026-08-13 (Compile-Pass 117: River-Grafik «Bitcoin supply by custody setup» (Stand 10.08.2026, als .png plus Transkription in RAW). Kein neuer Artikel; neue Abschnitte in [bitcoin-adoption-report-river-2026] (Verwahrform als zweiter Schnitt neben der Halterstruktur) und [selbstverwahrung-und-boersenrisiken] (45,6% bzw. 37,9% aktiv). Frühere Pässe im CHANGELOG.)
+Alle Artikel alphabetisch. Stand: 2026-08-18 (Compile-Pass 119: BitBox-Dixence-Update 08/2026 (drei offengelegte Firmware-Schwachstellen, Version 9.26.5) und ein LinkedIn-Rechenbeispiel zum schlechtestmöglichen Kauftiming. Kein neuer Artikel; neue Abschnitte in [hardware-wallet-sicherheitsarchitektur], [bitcoin-only-vs-multi-edition], [silent-payments] und [bitcoin-kaufen-und-dca]. Frühere Pässe im CHANGELOG.)
 
 | Artikel | Status | Beschreibung |
 |---------|--------|-------------|
@@ -178,7 +178,7 @@ Alle Artikel alphabetisch. Stand: 2026-08-13 (Compile-Pass 117: River-Grafik «B
 | [[hardware-wallet-angriffsvektoren]] | established | 5 Angriffe via Host-Gerät: Change-Output, Passphrase-Relay, Cosigner-Manipulation, überhöhte Gebühr, Isolations-Bypass |
 | [[hardware-wallet-einstieg]] | established | Warum Hardware-Wallet: 4 Optionen (Börse, Software-Wallet, HW-Wallet, Air-Gap); "not your keys, not your coins"; Paper Wallets unsicher; empfohlene Kombination; 8-Schritte-Einsteigerpfad (DACH-Praxis) |
 | [[hardware-wallet-migration]] | established | Migration Ledger/Trezor→BitBox02; SLIP-39 (20 Wörter) ≠ BIP-39; zwei Migrationswege; Passphrase-Übertragung |
-| [[hardware-wallet-sicherheitsarchitektur]] | established | Display, Open-Source, Secure Chip, BIP-39; Dual-Chip-Architektur; Drei Bedrohungstypen; BitBoxApp-Plattformarchitektur (Go + React) |
+| [[hardware-wallet-sicherheitsarchitektur]] | established | Display, Open-Source, Secure Chip, BIP-39; Dual-Chip-Architektur; Drei Bedrohungstypen; microSD-Hijacking; BitBoxApp-Plattformarchitektur (Go + React); Firmware-Schwachstellen in der Praxis am BitBox-Dixence-Update 08/2026 (Bootloader, Multi-Edition-Speicherfehler, Adressbindung; Firmware 9.26.5) |
 | [[komplexitaet-ist-keine-sicherheit]] | established | Mehr Komplexität ≠ mehr Sicherheit; Sweet Spot: Single-Sig HW-Wallet; Expertentools nur mit vollem Verständnis; Bestätigung aus der Einsteiger-Bildungspraxis |
 | [[konsensregeln-und-mempool-richtlinien]] | established | Konsensregeln (netzwerkweit, unveränderlich) vs. Mempool-Richtlinien (lokal, konfigurierbar) |
 | [[miniscript-und-liana]] | established | Zeitlich gesperrte Wiederherstellungsschlüssel mit Miniscript; Liana Wallet + MiniTapscript; Go-Parser-Typsystem; Vererbungs-Anwendungsfall in der Community-Praxis (2026) |
