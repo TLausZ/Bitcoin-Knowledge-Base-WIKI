@@ -2,8 +2,8 @@
 
 **Status:** established
 **Themen:** protokoll
-**Last updated:** 2026-06-04
-**Sources:** [[20250508_daten-speichern-auf-der-blockchain-wie-funktioniert-op-return]]
+**Last updated:** 2026-08-18
+**Sources:** [[20250508_daten-speichern-auf-der-blockchain-wie-funktioniert-op-return]], [[BIP-110 Post Mortem]]
 
 ## Summary
 
@@ -42,6 +42,14 @@ Das Limit verhindert nicht wirklich das Speichern grösserer Datenmengen: Ein ei
 
 2025 schlug ein Bitcoin Core Entwickler vor, das 80-Byte-Limit abzuschaffen. Das Hauptargument: Das Limit ist ineffektiv und fördert aktiv die Nutzung von Alternativen wie Inscriptions, die das UTXO-Set aufblähen. Gegner sahen darin eine Normalisierung von Nicht-Finanztransaktionen und bemängelten den Prozess.
 
+### Wie es ausging: Core 30 (2025)
+
+Quelle: [[BIP-110 Post Mortem]]. Der Vorschlag setzte sich durch. Bitcoin Core 30 hob den Default für `-datacarriersize` auf 100'000 Bytes und erlaubt mehrere OP_RETURN-Outputs pro Transaktion. Die alte Beschränkung bleibt konfigurierbar, und der Konsens blieb unverändert: Es handelt sich weiterhin um eine Mempool-Richtlinie. Anlass war eine bereits eingetretene Verschiebung der Netzwerkdynamik, nicht der Versuch, eine neue zu erzeugen. Konkret hatten Protokolle wie Citrea das damalige 83-Byte-Limit über schädlichere Wege umgangen, etwa über dauerhaft unausgebbare Outputs, die das UTXO-Set belasten.
+
+Die Warnungen vor der Lockerung («Schleusen öffnen», Nodes liessen sich damit zum Absturz bringen) haben sich nach Lopps Darstellung nicht bestätigt. Die Auseinandersetzung verlagerte sich stattdessen auf die Konsensebene und führte zu [[bip-0110]], das im August 2026 scheiterte. Die Geschichte der Debatte von 2014 bis 2026 steht in [[spam-debatte]].
+
+Die historische Entwicklung des Limits: rund 40 Bytes mit Core 0.9 (2014), 80 Bytes mit Core 0.11 (2015), 100'000 Bytes mit Core 30 (2025).
+
 ### Der natürliche Spam-Schutz: Gebührenmarkt
 
 Bitcoin hat einen effektiven langfristigen Schutzmechanismus gegen Daten-Spam: den Gebührenmarkt. Wenn der Blockspace knapp ist (viele Transaktionen), steigen die Gebühren. Da niemand unendlich viele Bitcoin hat, um dauerhaft Daten zu speichern, reguliert sich das von selbst.
@@ -57,5 +65,5 @@ Bitcoin hat einen effektiven langfristigen Schutzmechanismus gegen Daten-Spam: d
 
 ## Open Questions
 
-- Wird das 80-Byte-OP_RETURN-Limit in Bitcoin Core 29+ abgeschafft?
+- Beantwortet: Das 80-Byte-Limit wurde mit Bitcoin Core 30 auf 100'000 Bytes angehoben (siehe oben).
 - Wie entwickelt sich die Nutzung von Ordinals/Inscriptions bei steigenden Gebühren?

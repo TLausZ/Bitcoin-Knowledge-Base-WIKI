@@ -2,8 +2,8 @@
 
 **Status:** established
 **Themen:** protokoll, geschichte, buecher
-**Last updated:** 2026-07-18
-**Sources:** [[blocksizewar]], [[20181114_bitcoinmagazine-when-fork-forks-bitcoin-cash-goes-war]], [[20181116_bitcoinmagazine-one-day-after-bch-hard-fork]], [[20181123_bitcoinmagazine-one-week-later-bitcoin-cash-split]], [[20181201_bitcoinmagazine-bch-hash-war-came-and-went]], [[20181209_bitcoinmagazine-bitcoin-abc-bitmain-ver-suit-bch-split]], [[Mises_ Der ursprüngliche toxische Maximalist.md]], [[BIP-110 and The Blocksize War..md]], [[2026_Q2_Bitcoin Finance Report]]
+**Last updated:** 2026-08-18
+**Sources:** [[BIP-110 Post Mortem]], [[blocksizewar]], [[20181114_bitcoinmagazine-when-fork-forks-bitcoin-cash-goes-war]], [[20181116_bitcoinmagazine-one-day-after-bch-hard-fork]], [[20181123_bitcoinmagazine-one-week-later-bitcoin-cash-split]], [[20181201_bitcoinmagazine-bch-hash-war-came-and-went]], [[20181209_bitcoinmagazine-bitcoin-abc-bitmain-ver-suit-bch-split]], [[Mises_ Der ursprüngliche toxische Maximalist.md]], [[BIP-110 and The Blocksize War..md]], [[2026_Q2_Bitcoin Finance Report]]
 
 ## Summary
 
@@ -109,6 +109,8 @@ BIP-110-Befürworter geben selbst zu, dass der BIP Spam nicht stoppt. Ihr erklä
 
 Die strukturelle Lektion aus beiden Konflikten ist identisch: Konsensparameter, die einmal gesetzt sind und gut genug funktionieren, sollten nicht wieder geöffnet werden. Jedes Öffnen schafft einen Präzedenzfall für weiteres Öffnen. [[BIP-110 and The Blocksize War..md]]
 
+Der Konflikt endete im August 2026 mit dem Scheitern von BIP-110: Signalisierung bei maximal 2,5 Prozent, vier Blöcke auf der abgespaltenen Kette. Der Ausgang bestätigt die Parallele zum Blocksize-Krieg in einem Punkt, den Jameson Lopp betont: Entscheidend war nicht die Aktivierungsmechanik, sondern das wirtschaftliche Gewicht hinter dem Vorschlag, und das fehlte hier ganz. Umgekehrt zeigt der Vergleich einen Unterschied: 2017 belegten Fork-Futures ein reales ökonomisches Interesse an grösseren Blöcken, 2026 kam der einzige Prediction Market auf 4,6 BTC Volumen. Details in [[spam-debatte]]. [[BIP-110 Post Mortem]]
+
 ### Kehrt die Blockgrössen-Debatte zurück? (2026)
 
 Der Bitcoin Finance Report Q2/2026 erzählt den Konflikt für ein Banken-Publikum nach und ergänzt eine Gegenwartsdiagnose: Das Skalierungsproblem ist ungelöst, Lightning hat trotz jahrelanger Entwicklung keine Massenadoption erreicht, und erste, noch leise Stimmen diskutieren wieder eine Erhöhung der Blockgrösse. Das technische Argument wiegt heute schwerer als 2017 — Speicher ist um ein Vielfaches günstiger, Bandbreiten und Rechenleistung sind gestiegen, die vollständige Blockchain umfasst über 600 Gigabyte. Die eigentliche Frage bleibt aber dieselbe: Wer entscheidet, und zu welchem Preis? Eine Neuauflage der Debatte träfe auf deutlich grössere wirtschaftliche Interessen als damals: institutionelle Investoren, börsennotierte Mining-Konzerne und ETF-Anbieter mit eigener Lobbymacht. Der Report zieht daraus dieselbe Schlussfolgerung wie die Small-Blocker-Tradition: Die Lösung liegt im Ausbau der Second-Layer-Infrastruktur, nicht im Wiederöffnen eines Konsensparameters — Bitcoins grösste Stärke sei seine Berechenbarkeit, nicht seine Geschwindigkeit. [[2026_Q2_Bitcoin Finance Report]]
@@ -132,5 +134,5 @@ Der Bitcoin Finance Report Q2/2026 erzählt den Konflikt für ein Banken-Publiku
 
 - Hätte eine moderate 2-MB-Hard Fork per breitem Konsens 2015–2016 Bitcoin tatsächlich geschadet?
 - Welche Rolle spielte ASICBoost im Vergleich zur ideologischen Überzeugung bei Jihans SegWit-Widerstand?
-- Wie wird sich BIP-110 entwickeln — Konsensänderung, Ablehnung, oder dauerhafter Streit wie beim Blocksize War?
+- Beantwortet: BIP-110 scheiterte im August 2026 an der Signalisierung (siehe [[spam-debatte]]). Offen bleibt, ob der Streit damit erledigt ist oder wie beim Blocksize War in anderer Form wiederkehrt.
 - Hätte der UASF (BIP 148) ohne das NYA als Brücke funktioniert, oder wäre er an Miner-Ablehnung gescheitert?

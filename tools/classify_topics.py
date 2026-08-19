@@ -114,6 +114,9 @@ OVERRIDES = {
     # Miner-KI-Deals: Netzflexibilitaet + Unternehmensbewertung, "mining" allein zu duenn
     "bitcoin-mining-und-ki-rechenzentren": ["mining", "oekonomie", "adoption"],
     "bitcoin-versicherung": ["oekonomie", "self-custody"],
+    # Debattengeschichte 2014-2026 mit Chainsplit-Ausgang; automatisch kam nur
+    # protokoll/philosophie, der Artikel ist aber zur Haelfte Chronologie.
+    "spam-debatte": ["protokoll", "geschichte", "philosophie"],
     # Firmware-Sicherheitsanalyse einer Hardware-Wallet; "oekonomie" war ein
     # Fehltreffer ueber Guthaben/Kosten im Text.
     "coldcard-rng-schwachstelle": ["protokoll", "self-custody", "wallets"],

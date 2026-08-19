@@ -47,6 +47,8 @@ Unterzeichnet ist das Statement von 31 Beitragenden, darunter mehrere langjähri
 
 Das Relay-Statement markiert die eine Seite der Datenspeicher-Debatte 2025/2026. Die Gegenseite formuliert sich in [[bip-0110]], das arbiträre Daten über einen temporären Softfork auf Konsensebene begrenzen will. quietNaN bringt die Lagerbildung auf den Punkt: Das «Core-Lager» halte die Verhinderung von Datennutzung für technisch unmöglich, das «BIP-110-Lager» versuche sie dennoch. Michael Saylors [[bip-0110|«110 Reasons»]] argumentiert in dieselbe Richtung wie das Statement — Relay- und Mining-Policy sowie der Gebührenmarkt statt Konsenszwang. Die Debatte schliesst an die Grundfrage des [[blocksize-war]] an: Wer bestimmt, welche gültigen Transaktionen Bitcoin verarbeitet?
 
+Nachtrag August 2026: BIP-110 erreichte die Aktivierung nicht und spaltete sich mit vier Blöcken auf eine eigene Kette ab. Die Position des Relay-Statements blieb damit unverändert die des Netzwerks. Aufarbeitung in [[spam-debatte]].
+
 ## Related
 
 - [[bip-0110]]

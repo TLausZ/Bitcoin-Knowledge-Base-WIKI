@@ -1,6 +1,6 @@
 # Bitcoin KB — Wiki Index
 
-Alle Artikel alphabetisch. Stand: 2026-08-18 (Compile-Pass 119: BitBox-Dixence-Update 08/2026 (drei offengelegte Firmware-Schwachstellen, Version 9.26.5) und ein LinkedIn-Rechenbeispiel zum schlechtestmöglichen Kauftiming. Kein neuer Artikel; neue Abschnitte in [hardware-wallet-sicherheitsarchitektur], [bitcoin-only-vs-multi-edition], [silent-payments] und [bitcoin-kaufen-und-dca]. Frühere Pässe im CHANGELOG.)
+Alle Artikel alphabetisch. Stand: 2026-08-18 (Compile-Pass 120: Jameson Lopps Post Mortem zum gescheiterten BIP-110-Softfork. Neuer Artikel [spam-debatte] mit der Debattengeschichte 2014–2026 und dem Ausgang vom August 2026; nachgezogen in [bip-0110], [op-return-und-datenspeicherung], [blocksize-war] und [bitcoin-core-relay-statement]. Frühere Pässe im CHANGELOG.)
 
 | Artikel | Status | Beschreibung |
 |---------|--------|-------------|
@@ -203,6 +203,7 @@ Alle Artikel alphabetisch. Stand: 2026-08-18 (Compile-Pass 119: BitBox-Dixence-U
 | [[szabo-geldursprung]] | established | Nick Szabo "Shelling Out" (2002): Evolutionäre Ursprünge des Geldes — Collectibles vor 75.000 Jahren; 6 Geldattribute; Kooperationsprobleme die Geld löst; Bitcoin als digitale Realisierung; "Advances in Distributed Security" (2003): Byzantine Generals, Threshold-Systeme |
 | [[soft-fork-und-hard-fork]] | established | Hard Fork (Regeln entfernen) vs. Soft Fork (Regeln hinzufügen); Kompatibilität und Chainsplits |
 | [[softwar]] | established | Buch (Jason P. Lowery 2023, MIT-Masterarbeit, CC BY 4.0): Bitcoin nicht als Geld, sondern als Cybersicherheits-/Machtprojektionstechnologie; PoW = «Proof-of-Power». Power Projection Theory (BCRA/Primordial Economics, Geweih-Metapher), abstrakte vs. physische Macht, planetarischer Zustandsmechanismus/rückwärts-optimiertes Rechnen (Energie ist der Zweck, nicht Verschwendung), «Softwar» als masselose Kriegsführung, Mutually Assured Preservation, SWIFT/USD-Weaponisierung, El Salvador. Bewusst spekulativer Theorie-Entwurf. |
+| [[spam-debatte]] | emerging | Die Spam-Debatte 2014–2026 und das Scheitern von BIP-110 (Quelle: Jameson Lopps Post Mortem, Gegnerposition). Ausgang August 2026: Signalisierung max. 2,5 % statt 55 %, OCEAN einziger Pool, Chainsplit bei Block 961'632, vier Blöcke der «Roughnecks», danach Aufspaltung Richtung Hard Fork. Zeitachse OP_RETURN 40 → 80 → 100'000 Bytes, Counterparty, Stresstests 2015, Konsens-vs-Policy-Kompromiss, SegWit-/Tapscript-Ökonomie, Inscriptions 2023, Core 30. Befürworter-Argumente in drei Gruppen (Aktivierungsmechanik, Spieltheorie, Externalität/Zweck), ökonomische Erklärung des Scheiterns (kein wirtschaftliches Gewicht, Prediction Market 4,6 BTC), Implementierungsfehler, Peter Todds regelkonform eingebetteter BIP-Text, «tolerant minority» und «sub 1 sat per vbyte summer». |
 | [[sparrow-wallet]] | established | Sparrow Wallet: UTXO-Transparenz, Coin Selection, Pay-to-many, Multisig; "cold-storage sweating"; Server-Wahl (Public/Bitcoin Core/Electrum/BitBox-Server) |
 | [[specter-desktop]] | established | Specter Desktop (CryptoAdvance/Specter Association): Watch-only-Multisig-Koordinator um Bitcoin Core oder Electrum-Backend; signiert nie selbst (PSBT + HWI), alle grossen Hardware-Wallets; sechs Installationswege, 4-Schritte-Multisig (2-von-3) mit Geräte-Registrierung gegen Adress-Substitution, Backup-PDF mit xpubs kritisch; Fernzugriff via HWIBridge/Tor/SSL, Linux-Daemon; Coin Control ja, CoinJoin nein (wartet auf SLIP-0019) |
 | [[specter-diy]] | established | Specter DIY / Shield Lite / Shield Metal: Air-Gap via QR, Smartcard-Secure-Chip, Anti-Phishing-Wörter, temporärer Seed, Specter Association (Swiss Non-Profit), ClavaStack-Shop; drei Varianten (165/190/399 €) |
@@ -348,7 +349,7 @@ Alle Artikel alphabetisch. Stand: 2026-08-18 (Compile-Pass 119: BitBox-Dixence-U
 | [[bip-0106]] | Dynamically Controlled Bitcoin Block Size Max Cap | Closed | Specification | Consensus (hard fork) |
 | [[bip-0107]] | Dynamic limit on the block size | Closed | Specification | Consensus (hard fork) |
 | [[bip-0109]] | Two million byte size limit with sigop and sighash limits | Closed | Specification | Consensus (hard fork) |
-| [[bip-0110]] | Reduced Data Temporary Softfork | Complete (25.06.2026, nicht aktiviert) | Specification | Consensus (soft fork) |
+| [[bip-0110]] | Reduced Data Temporary Softfork | Complete (25.06.2026), Aktivierung im August 2026 gescheitert | Specification | Consensus (soft fork) |
 | [[bip-0111]] | NODE_BLOOM service bit | Deployed | Specification | Peer Services |
 | [[bip-0112]] | CHECKSEQUENCEVERIFY | Deployed | Specification | Consensus (soft fork) |
 | [[bip-0113]] | Median time-past as endpoint for lock-time calculations | Deployed | Specification | Consensus (soft fork) |
