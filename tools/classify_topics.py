@@ -108,6 +108,9 @@ BIP_SECOND = [
 
 OVERRIDES = {
     # gezielte Korrekturen nach Report-Review, slug -> Themenliste
+    # Slang-Glossar: die 53 Eintraege streuen ueber alle Keyword-Felder
+    # (Boersen, NFT, DAO, UTXO), der Artikel ist aber reines Nachschlagewerk.
+    "glossar-krypto-slang": ["glossar", "grundlagen"],
     # ICS-Security-Referenz: Kap. 7 (Private Keys) macht self-custody zum Kernthema;
     # "philosophie" war ein Fehltreffer ueber die Mythologie-Rahmung.
     "defending-bitcoin": ["protokoll", "privacy", "mining", "self-custody", "adoption", "buecher"],

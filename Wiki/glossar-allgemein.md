@@ -211,6 +211,7 @@ Ein Marktteilnehmer mit sehr grossem Bitcoin-Bestand, dessen Transaktionen den P
 - [[glossar-lightning]]
 - [[selbstverwahrung-und-boersenrisiken]]
 - [[bitcoin-kaufen-und-dca]]
+- [[glossar-krypto-slang]]
 
 ## Open Questions
 

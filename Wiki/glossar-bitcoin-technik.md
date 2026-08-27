@@ -283,6 +283,7 @@ Austauschformat für einen einzelnen privaten Schlüssel, mit Prüfsumme und ein
 - [[bitcoin-script-und-output-locks]]
 - [[bitcoin-adresstypen]]
 - [[hd-wallets-und-schluesselableitung]]
+- [[glossar-krypto-slang]]
 
 ## Open Questions
 

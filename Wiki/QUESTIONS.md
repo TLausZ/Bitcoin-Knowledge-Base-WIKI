@@ -150,6 +150,12 @@ Beim späteren Anlegen der Buch-Artikel: eine Datei pro Buch als Quelle wählen 
 
 **Gap — Infrastrukturausfälle als eigenes Thema:** «Defending Bitcoin» Kap. 14 hält Material, das im KB nirgends gehalten wird: Internet-Shutdowns als wachsendes Phänomen (Access Now: 296 Shutdowns in 54 Ländern 2024, 313 in 52 Ländern 2025; Spitzenreiter Myanmar und Indien), ~95% des interkontinentalen Traffics über Unterseekabel mit wenigen Chokepoints (Ostsee-Sabotage seit 2022), Netzwerk-Partition als gefährlicheres Szenario als Stromausfall (Chain-Reorg-Risiko), Tail-Risks Sonnensturm/EMP. Kandidat für einen Artikel «Bitcoin und Infrastrukturausfälle» (Resilienz: Difficulty Adjustment als Stossdämpfer, Tor/Satellit/Mesh als alternative Konnektivität); Quelle [[2026_Defending-Bitcoin_deWolf]] trägt ihn allein als emerging.
 
+## Compile-Pass 121 (2026-08-27)
+
+**Gap — Stablecoin-Typologie fehlt:** Der MINE-Spot-Check gegen [[What is a stablecoin_.md]] (reichste neue Quelle des Passes) zeigt, dass [[stablecoins-und-agentische-zahlungen]] die vier Besicherungsformen nicht hält. Im Wiki vorhanden sind USDT, USDC und der UST-Fall; nicht vorhanden sind die Systematik selbst (kryptobesichert, algorithmisch, fiatbesichert, rohstoffbesichert), DAI/MakerDAO als überbesichertes Beispiel, das Seignorage-Shares-Prinzip hinter algorithmischen Stablecoins und die rohstoffbesicherte Kategorie (XAUT, PAXG). Bewusst nicht eingearbeitet: die vorliegende Quelle ist ein undatierter Einsteigertext ohne Autor und teilweise überholt. Für einen tragfähigen Abschnitt braucht es eine bessere Quelle, etwa den BIS- oder FINMA-Stand zur Stablecoin-Klassifikation.
+
+**Scope-Frage — shitcoin.com als Quellenstrom:** Neun Artikel dieser Site kamen in einem Schwung nach RAW. Acht davon brachten keinen Wiki-Zugewinn, mehrere enthalten Aussagen, die der Korpus mit Belegen bestreitet (PoS sicherer als PoW, Halving verursacht Bullenmärkte, Wallets seien anonym, Public Key gleich Adresse). Falls weitere Artikel dieser Quelle folgen: vorher entscheiden, ob sie überhaupt nach RAW sollen.
+
 ## Quellen-Backlog
 
 **bitcoinwell.com/blog (notiert 2026-08-01):** Blog von Bitcoin Well als Quelle verarbeiten — Artikel sichten, relevante Beiträge nach RAW/ und kompilieren. Noch nicht angefasst.

@@ -1,9 +1,9 @@
 # Selbstverwahrung und Börsenrisiken
 
 **Status:** established
-**Themen:** self-custody, kritik, geschichte
-**Last updated:** 2026-08-13
-**Sources:** [[2026-08-10_river-bitcoin-supply-by-custody-setup.md]], [[20230103_wir-feiern-proof-of-keys-de]], [[aprycot-seedor-bitcoin-ist-sicher]], [[aprycot-21bitcoin-custody-einfach-erklaert]], [[20230118_die-bitbox01-ist-am-ende-ihrer-reise-de]], [[20220822_warum-bitcoin-eigenes-wallet-halten-de]], [[20220103_proof-of-keys-bitcoin-de]], [[20210622_warum-bitcoin-nicht-auf-boersen-aufbewahren-de]], [[2025-10-03_Blocktrainer-Bitcoin sicher aufbewahren 2025_ Selbstverwahrung, Wallet und Co.]], [[2025-05-14_Blocktrainer-Bitcoin_ 5 Anfängerfehler, die teuer werden können]], [[Bitcoin ist die Wiederentdeckung des Geldes.md]], [[Die andere Seite der Medaille.md]], [[bitcoin-ratgeber_kapitel-02-sei-deine-eigene-bank]], [[20221115_bmi-ftx-bankrott-de]], [[11 Questions You Should Ask Your Bitcoin Exchange.md]]
+**Themen:** grundlagen, self-custody, kritik, geschichte
+**Last updated:** 2026-08-27
+**Sources:** [[2026-08-10_river-bitcoin-supply-by-custody-setup.md]], [[20230103_wir-feiern-proof-of-keys-de]], [[aprycot-seedor-bitcoin-ist-sicher]], [[aprycot-21bitcoin-custody-einfach-erklaert]], [[20230118_die-bitbox01-ist-am-ende-ihrer-reise-de]], [[20220822_warum-bitcoin-eigenes-wallet-halten-de]], [[20220103_proof-of-keys-bitcoin-de]], [[20210622_warum-bitcoin-nicht-auf-boersen-aufbewahren-de]], [[2025-10-03_Blocktrainer-Bitcoin sicher aufbewahren 2025_ Selbstverwahrung, Wallet und Co.]], [[2025-05-14_Blocktrainer-Bitcoin_ 5 Anfängerfehler, die teuer werden können]], [[Bitcoin ist die Wiederentdeckung des Geldes.md]], [[Die andere Seite der Medaille.md]], [[bitcoin-ratgeber_kapitel-02-sei-deine-eigene-bank]], [[20221115_bmi-ftx-bankrott-de]], [[11 Questions You Should Ask Your Bitcoin Exchange.md]], [[Types of Crypto Exchanges.md]]
 
 ## Summary
 
@@ -108,6 +108,20 @@ Gigi: „Wenn du nicht im Besitz deiner eigenen Schlüssel bist, besitzt du kein
 Nur wer beides kombiniert — eigene Schlüssel und eigenen Node — hat Geld wiederentdeckt: etwas, das ihm allein gehört, das kein Gegenparteirisiko hat und dessen Regeln er selbst verifiziert. Das war vor Bitcoin für digitales Geld strukturell unmöglich.
 
 Geld hat nach Gigi keine Rendite, kein Gegenparteirisiko, braucht keine Identität und muss nicht wachsen. Shitcoins und Fiat-Deposits sind keine Alternative, weil sie all diese Eigenschaften verletzen. [[Die andere Seite der Medaille.md]]
+
+### Drei Typen von Handelsplätzen: P2P, DEX, CEX
+
+Handelsplätze lassen sich danach ordnen, wer während des Handels die Coins hält.
+
+Bei **Peer-to-Peer-Plattformen** (Paxful, LocalBitcoins, im Bitcoin-Umfeld heute eher Bisq, RoboSats, HodlHodl) handeln Käufer und Verkäufer direkt miteinander. Eine Escrow-Mechanik hält die Coins, bis beide Seiten geliefert haben. Fiat fliesst meist direkt zwischen den Parteien, oft ohne Identifikation.
+
+**Dezentrale Börsen** (Uniswap, Sushi, Balancer) wickeln den Tausch über Smart Contracts ab. Das setzt eine programmierbare Chain voraus, weshalb DEX-Handel praktisch immer Altcoin-Handel ist; Fiat-Zugänge kommen von regulierten Dritten. Für Bitcoin selbst spielt diese Kategorie kaum eine Rolle, ausser über Wrapped-Konstruktionen, die ihrerseits eine Verwahrstelle voraussetzen.
+
+**Zentrale Börsen** (Binance, Kraken, Coinbase) führen ein internes Orderbuch, verlangen KYC und AML-Prüfungen und verwahren die Einlagen selbst. Sie bieten die tiefste Liquidität, die einfachsten Fiat-Wege und den grössten Funktionsumfang.
+
+Einsteigerdarstellungen der Kategorien ordnen CEX häufig als den sichersten Typ ein, weil dort Regulierung und Schlichtung existieren, und P2P als den riskantesten, weil dort beides fehlt. [[Types of Crypto Exchanges.md]] Diese Rangfolge misst allein das Risiko, in einem einzelnen Geschäft betrogen zu werden. Das Gegenparteirisiko läuft in die andere Richtung: Bei P2P hält niemand die Coins über den Handel hinaus, bei CEX liegen sie dauerhaft bei einem Dritten, dessen Solvenz von aussen nicht prüfbar ist. Mt. Gox, QuadrigaCX und FTX waren zentrale Börsen. Wie schnell ein solcher Text altert, zeigt derselbe Ratgeber: Er nennt FTX als Beispiel für eine seriöse zentrale Börse.
+
+Praktisch heisst das: Der Typ des Handelsplatzes entscheidet, wie lange man einem Dritten ausgeliefert ist, nicht ob. Wer über eine zentrale Börse kauft, verkürzt dieses Fenster durch zügige Abhebung. Zum KYC-freien Kaufweg siehe [[no-kyc-bitcoin]].
 
 ### Börsen-Due-Diligence: 11 Fragen (River)
 

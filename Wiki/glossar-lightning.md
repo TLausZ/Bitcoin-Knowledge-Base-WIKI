@@ -185,6 +185,7 @@ Ein Kanal, der zwar noch on-chain und im Graphen existiert, aber lange inaktiv i
 - [[skalierung-lightning-ark-statechains]]
 - [[glossar-bitcoin-technik]]
 - [[glossar-allgemein]]
+- [[glossar-krypto-slang]]
 
 ## Open Questions
 
