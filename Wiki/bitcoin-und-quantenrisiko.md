@@ -2,8 +2,8 @@
 
 **Status:** established
 **Themen:** protokoll, self-custody
-**Last updated:** 2026-07-17
-**Sources:** [[Bitcoin and Quantum Risk_ What Actually Matters]], [[core-lightning-26-06]], [[bip-0451]], [[2025-11-20_Charles Edwards - Bitcoin's Headwinds and the Quantum Threat]], [[2026-07-04_Bitcoin Is Cheap. But Is It Cheap Enough]]
+**Last updated:** 2026-09-03
+**Sources:** [[Bitcoin and Quantum Risk_ What Actually Matters]], [[core-lightning-26-06]], [[bip-0451]], [[2025-11-20_Charles Edwards - Bitcoin's Headwinds and the Quantum Threat]], [[2026-07-04_Bitcoin Is Cheap. But Is It Cheap Enough]], [[Laut Oxford-Physiker_ Quantencomputer werden Bitcoin niemals knacken können]]
 
 ## Summary
 
@@ -57,6 +57,18 @@ Nicht alle Stimmen teilen den 10-bis-30-Jahre-Konsens. Der Marktanalyst Charles 
 
 Die Schätzung liegt am aggressiven Rand des Spektrums und ist die eines Markt-Analysten, nicht der Kryptographie-Community; sie liegt zudem nur als Podcast-Zusammenfassung vor. Als Datenpunkt ist sie dennoch nützlich: Selbst wenn man das kürzere Fenster ernst nimmt, verschiebt es die Dringlichkeit des Migrationspfads (BIP-361), ohne die Grundlogik zu ändern — entscheidend bleibt, ob Bitcoin rechtzeitig auf quantenresistente Signaturen umstellt. Gästeüberblick in [[bitcoin-marktkommentar-lnms]]. In einer Hausanalyse vom Juli 2026 schärft Hügli mit Edwards den ökonomischen Kern des Arguments: Nicht der Angriff selbst, sondern die ungelöste Unsicherheit ist das Problem. Grosse Kapitalgeber können ein unaufgelöstes Tail-Risiko nicht «underwriten» und reduzieren im Zweifel ihr Engagement — der Quanten-Overhang wirkt so als Kapitalbremse, lange bevor ein realer Angriff möglich wäre. [[2026-07-04_Bitcoin Is Cheap. But Is It Cheap Enough]]
 
+### Die Gegenposition: Ist ein solcher Quantencomputer überhaupt baubar? (Palmer)
+
+Alle bisherigen Einschätzungen, auch die aggressive von Edwards, teilen eine Annahme: Ein kryptografisch relevanter Quantencomputer ist eine Ingenieursfrage, die irgendwann gelöst wird. Der Oxford-Physiker Tim Palmer bestreitet in seinem Paper «Rational Quantum Mechanics: Testing Quantum Theory with Quantum Computers» (arXiv:2510.02877) genau diese Annahme. Sebastian van Staa, Bitcoin-Entwickler und Quantenphysiker, referiert das Paper in einem Blocktrainer-Gastbeitrag vom September 2026. [[Laut Oxford-Physiker_ Quantencomputer werden Bitcoin niemals knacken können]]
+
+Palmers These: Der Hilbertraum, der Zustandsraum der Quantenmechanik, ist kein Kontinuum, sondern diskret. Quantenzustände sind nur definiert, wenn Amplituden und Phasen rationale Zahlen sind; die übliche Quantenmechanik wäre der idealisierte Grenzfall. In dieser «Rationalen Quantenmechanik» lässt sich ein System aus N verschränkten Qubits durch N Bitstrings der Länge L beschreiben, also mit N mal L Bits. Die Information wächst linear mit der Qubit-Zahl. Die konventionelle Quantenmechanik verlangt für denselben Zustand 2^(N+1) minus 2 Freiheitsgrade, also exponentiell viele. Oberhalb einer kritischen Qubit-Zahl N_max von etwa log2(L) reicht die Information nicht mehr aus, um jedem Freiheitsgrad auch nur ein Bit zuzuordnen.
+
+Palmer schätzt diese Grenze für heutige Qubit-Technologien: rund 200 für Quantenpunkt-Qubits, 300 für photonische, 400 für Ionenfallen, und eine absolute Obergrenze von rund 1'000 Qubits, die keine Technologie überschreiten könne. Eine unabhängige Abschätzung von Paul Davies aus dem Informationsgehalt des Universums kommt auf rund 400 Qubits.
+
+Die Konsequenz für Shors Algorithmus: Er nutzt den Hilbertraum maximal aus und trifft damit genau auf diese Grenze. RSA-2048 braucht 2'049 logische Qubits, klar oberhalb der 1'000. Bei secp256k1 lag die klassische Schätzung bei rund 2'300 logischen Qubits; der aktuelle Rekord für Schaltkreis-Konstruktionen liegt bei rund 835 (arXiv:2607.13816), erkauft mit deutlich mehr Gattern. Das ist mehr als das Doppelte dessen, was nach Palmers Modell mit heutigen Technologien möglich wäre, aber unterhalb der absoluten Obergrenze. Eine hypothetische künftige Technologie nahe 1'000 Qubits käme also grundsätzlich in Reichweite. Palmers Fazit: So wenig wie ein klassischer Computer je RSA-2048 faktorisieren wird, wird es ein Quantencomputer tun. Für Bitcoin folgt daraus, dass ein ECDSA-Bruch auf Basis heutiger Qubit-Technologien physikalisch unmöglich wäre.
+
+Die Einordnung liefert van Staa selbst: Das ist eine Theorie, deren zentrale Vorhersage experimentell nicht bestätigt ist. Sie widerspricht dem Mainstream, etwa Craig Gidney (Google), der RSA-2048 mit unter einer Million physischer Qubits für machbar hält und nur technische Hürden sieht. Das Paper ist aber falsifizierbar: Nähert sich ein Quantencomputer N_max, muss seine Faktorisierungsleistung an eine harte Grenze stossen. Halten die Roadmaps der Industrie, entscheidet das Experiment in weniger als fünf Jahren. Für die Risikoeinschätzung ändert Palmer die Logik dieses Artikels nicht: Der Migrationspfad bleibt der Plan B, unabhängig davon, ob die Bedrohung aufgeschoben oder aufgehoben ist. Der Gastbeitrag erwähnt dazu SHRINCS, einen BIP-Entwurf für quantensichere Signaturen, der im Korpus noch nicht als eigene Quelle vorliegt.
+
 ### Das falsche mentale Modell
 
 Viele Bedenken gegen Bitcoin basieren auf dem Rahmen "Wenn ein Risiko existiert, ist das System ungültig." Das ist die falsche Prüfung.
@@ -94,4 +106,6 @@ Die eigentliche Frage ist, ob Bitcoin vor einem Quantenangriff upgraden kann. Di
 - Ab welchem Qubit-Stand sollte die Bitcoin-Community ernsthaft mit einem Post-Quantum-Soft-Fork beginnen?
 - Welches Post-Quantum-Signaturverfahren ist für Bitcoin am besten geeignet (Signaturgrösse, Kompatibilität, Sicherheitsniveau)?
 - Was passiert mit Satoshis P2PK-Coins: Werden sie als Teil von BIP-361 eingefroren, und ist das ein sinnvoller Präzedenzfall?
+- Palmers Rationale Quantenmechanik sagt eine harte Leistungsgrenze nahe N_max voraus. Welche Experimente der nächsten Jahre (Faktorisierungsrekorde, Qubit-Zahlen je Technologie) würden sie bestätigen oder widerlegen?
+- SHRINCS (BIP-Entwurf für quantensichere Signaturen, 2026) fehlt als Quelle. Verhältnis zu BIP-361?
 - Wie verändert sich das Dust-UTXO-Risiko, wenn Quantencomputer den Zeitrahmen für Public-Key-Angriffe verkürzen?

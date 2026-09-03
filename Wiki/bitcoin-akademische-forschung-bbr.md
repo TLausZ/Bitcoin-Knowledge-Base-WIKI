@@ -59,6 +59,7 @@ BBR ist eine kuratierte Sekundärquelle mit deklariertem Pro-Bitcoin-Bias, keine
 
 ## Related
 
+- [[bitcoin-maximalisten-profil]]
 - [[bitcoin-mining-narrativ-und-kritik]]
 - [[bitcoin-mining-energiequellen]]
 - [[bitcoin-als-inflationsschutz]]

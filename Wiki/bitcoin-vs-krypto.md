@@ -127,6 +127,7 @@ Lyn Alden schrieb 2021 eine der präzisesten Investor-Analysen zu Ethereum aus e
 
 ## Related
 
+- [[bitcoin-maximalisten-profil]]
 - [[selbstverwahrung-und-boersenrisiken]]
 - [[bitcoin-fehlannahmen]]
 - [[geld-staat-und-fiat-monopol]]

@@ -41,6 +41,7 @@ Die Quellenlage ist die einer beteiligten Akteurin: Nowak ist LFO-nah, ihre Beob
 
 ## Related
 
+- [[bitcoin-maximalisten-profil]]
 - [[bitcoin-konferenzen-und-community]]
 - [[bitcoin-kommunikation-und-orange-pilling]]
 - [[bitcoin-bildung]]
@@ -50,6 +51,7 @@ Die Quellenlage ist die einer beteiligten Akteurin: Nowak ist LFO-nah, ihre Beob
 
 ## Open Questions
 
+- US-Repräsentativdaten (SDCPC 2021–2024) zeigen Männer +9–10 Prozentpunkte bei Bitcoin-only-Haltung innerhalb der Krypto-Halter, siehe [[bitcoin-maximalisten-profil]]. Vergleichbare Zahl für DACH offen.
 - Gibt es belastbare Zahlen zum Geschlechterverhältnis bei Bitcoin-Besitz und -Nutzung im DACH-Raum? (HSLU/IFZ-Studien auf Geschlechter-Splits prüfen.)
 - Wie gross ist der LFO-Zubringer-Effekt tatsächlich (Teilnehmerinnen, die später allgemeine Konferenzen besuchen)?
 - Trägt die Glaubenssatz-These empirisch, oder dominieren strukturelle Faktoren (Einkommen, Vermögensverteilung, Risikopräferenzen)?
