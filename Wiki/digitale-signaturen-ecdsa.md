@@ -64,6 +64,7 @@ Bitcoin verwendete seit Anfang ECDSA. Mit dem Taproot-Upgrade (2021) wurde **Sch
 
 ## Related
 
+- [[shrincs]]
 - [[kryptografische-schlussel-und-adressen]]
 - [[bitcoin-script-und-output-locks]]
 - [[bitcoin-transaktionsstruktur]]

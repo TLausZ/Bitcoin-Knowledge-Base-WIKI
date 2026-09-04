@@ -2,8 +2,8 @@
 
 **Status:** established
 **Themen:** protokoll, self-custody
-**Last updated:** 2026-09-03
-**Sources:** [[Bitcoin and Quantum Risk_ What Actually Matters]], [[core-lightning-26-06]], [[bip-0451]], [[2025-11-20_Charles Edwards - Bitcoin's Headwinds and the Quantum Threat]], [[2026-07-04_Bitcoin Is Cheap. But Is It Cheap Enough]], [[Laut Oxford-Physiker_ Quantencomputer werden Bitcoin niemals knacken können]]
+**Last updated:** 2026-09-04
+**Sources:** [[Bitcoin and Quantum Risk_ What Actually Matters]], [[core-lightning-26-06]], [[bip-0451]], [[2025-11-20_Charles Edwards - Bitcoin's Headwinds and the Quantum Threat]], [[2026-07-04_Bitcoin Is Cheap. But Is It Cheap Enough]], [[Laut Oxford-Physiker_ Quantencomputer werden Bitcoin niemals knacken können]], [[Neuer BIP-Entwurf_ SHRINCS – So sollen quantensichere Bitcoin-Signaturen alltagstauglich werden]]
 
 ## Summary
 
@@ -67,7 +67,11 @@ Palmer schätzt diese Grenze für heutige Qubit-Technologien: rund 200 für Quan
 
 Die Konsequenz für Shors Algorithmus: Er nutzt den Hilbertraum maximal aus und trifft damit genau auf diese Grenze. RSA-2048 braucht 2'049 logische Qubits, klar oberhalb der 1'000. Bei secp256k1 lag die klassische Schätzung bei rund 2'300 logischen Qubits; der aktuelle Rekord für Schaltkreis-Konstruktionen liegt bei rund 835 (arXiv:2607.13816), erkauft mit deutlich mehr Gattern. Das ist mehr als das Doppelte dessen, was nach Palmers Modell mit heutigen Technologien möglich wäre, aber unterhalb der absoluten Obergrenze. Eine hypothetische künftige Technologie nahe 1'000 Qubits käme also grundsätzlich in Reichweite. Palmers Fazit: So wenig wie ein klassischer Computer je RSA-2048 faktorisieren wird, wird es ein Quantencomputer tun. Für Bitcoin folgt daraus, dass ein ECDSA-Bruch auf Basis heutiger Qubit-Technologien physikalisch unmöglich wäre.
 
-Die Einordnung liefert van Staa selbst: Das ist eine Theorie, deren zentrale Vorhersage experimentell nicht bestätigt ist. Sie widerspricht dem Mainstream, etwa Craig Gidney (Google), der RSA-2048 mit unter einer Million physischer Qubits für machbar hält und nur technische Hürden sieht. Das Paper ist aber falsifizierbar: Nähert sich ein Quantencomputer N_max, muss seine Faktorisierungsleistung an eine harte Grenze stossen. Halten die Roadmaps der Industrie, entscheidet das Experiment in weniger als fünf Jahren. Für die Risikoeinschätzung ändert Palmer die Logik dieses Artikels nicht: Der Migrationspfad bleibt der Plan B, unabhängig davon, ob die Bedrohung aufgeschoben oder aufgehoben ist. Der Gastbeitrag erwähnt dazu SHRINCS, einen BIP-Entwurf für quantensichere Signaturen, der im Korpus noch nicht als eigene Quelle vorliegt.
+Die Einordnung liefert van Staa selbst: Das ist eine Theorie, deren zentrale Vorhersage experimentell nicht bestätigt ist. Sie widerspricht dem Mainstream, etwa Craig Gidney (Google), der RSA-2048 mit unter einer Million physischer Qubits für machbar hält und nur technische Hürden sieht. Das Paper ist aber falsifizierbar: Nähert sich ein Quantencomputer N_max, muss seine Faktorisierungsleistung an eine harte Grenze stossen. Halten die Roadmaps der Industrie, entscheidet das Experiment in weniger als fünf Jahren. Für die Risikoeinschätzung ändert Palmer die Logik dieses Artikels nicht: Der Migrationspfad bleibt der Plan B, unabhängig davon, ob die Bedrohung aufgeschoben oder aufgehoben ist. Der Gastbeitrag verweist dazu auf SHRINCS, einen BIP-Entwurf für quantensichere Signaturen (siehe unten und [[shrincs]]).
+
+### Das Signaturverfahren: SHRINCS
+
+BIP-361 regelt den Fahrplan, BIP-360 den Output-Typ. Was fehlte, war ein für Bitcoin entworfenes Post-Quantum-Signaturverfahren. Seit August 2026 liegt mit SHRINCS ein erster Entwurf vor (Mitautor Jonas Nick, noch ohne BIP-Nummer). Er ist hashbasiert auf SHA-256 und löst das Grössenproblem über zwei gebundene Pfade unter einem 48-Byte-Public-Key: ein Stateful-Pfad mit 548 bis 4'619 Byte für den Normalbetrieb, der einen persistenten Counter gegen Schlüsselwiederverwendung braucht, und ein Stateless-Pfad mit 5'777 Byte als Rückfall nach einer Seed-Wiederherstellung. Sighash, Script und Aktivierung sind noch offen. Details in [[shrincs]]. [[Neuer BIP-Entwurf_ SHRINCS – So sollen quantensichere Bitcoin-Signaturen alltagstauglich werden]]
 
 ### Das falsche mentale Modell
 
@@ -89,6 +93,7 @@ Die eigentliche Frage ist, ob Bitcoin vor einem Quantenangriff upgraden kann. Di
 
 ## Related
 
+- [[shrincs]]
 - [[elliptische-kurven-kryptographie]]
 - [[taproot-musig2-frost]]
 - [[bitcoin-regierungsresistenz]]
@@ -107,5 +112,5 @@ Die eigentliche Frage ist, ob Bitcoin vor einem Quantenangriff upgraden kann. Di
 - Welches Post-Quantum-Signaturverfahren ist für Bitcoin am besten geeignet (Signaturgrösse, Kompatibilität, Sicherheitsniveau)?
 - Was passiert mit Satoshis P2PK-Coins: Werden sie als Teil von BIP-361 eingefroren, und ist das ein sinnvoller Präzedenzfall?
 - Palmers Rationale Quantenmechanik sagt eine harte Leistungsgrenze nahe N_max voraus. Welche Experimente der nächsten Jahre (Faktorisierungsrekorde, Qubit-Zahlen je Technologie) würden sie bestätigen oder widerlegen?
-- SHRINCS (BIP-Entwurf für quantensichere Signaturen, 2026) fehlt als Quelle. Verhältnis zu BIP-361?
+- Wird SHRINCS das Signaturverfahren für den BIP-361-Migrationspfad, und über welchen Output-Typ (P2MR aus BIP-360 oder eigener)? Der Draft lässt Script und Konsens offen.
 - Wie verändert sich das Dust-UTXO-Risiko, wenn Quantencomputer den Zeitrahmen für Public-Key-Angriffe verkürzen?

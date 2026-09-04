@@ -160,7 +160,7 @@ Beim späteren Anlegen der Buch-Artikel: eine Datei pro Buch als Quelle wählen 
 
 **bitcoinwell.com/blog (notiert 2026-08-01):** Blog von Bitcoin Well als Quelle verarbeiten — Artikel sichten, relevante Beiträge nach RAW/ und kompilieren. Noch nicht angefasst.
 
-**Gap — Quantenrisiko, Primärquellen (Pass 123):** Palmers «Rational Quantum Mechanics» (arXiv:2510.02877) und der secp256k1-Rekord mit ~835 logischen Qubits (arXiv:2607.13816) liegen nur über den Blocktrainer-Gastbeitrag referiert vor; ebenso SHRINCS als BIP-Entwurf für quantensichere Signaturen (Blocktrainer-Artikel dazu existiert). Kandidaten für RAW, dann Verhältnis SHRINCS zu BIP-361 klären.
+**Gap — Quantenrisiko, Primärquellen (Pass 123):** Palmers «Rational Quantum Mechanics» (arXiv:2510.02877) und der secp256k1-Rekord mit ~835 logischen Qubits (arXiv:2607.13816) liegen nur über den Blocktrainer-Gastbeitrag referiert vor; SHRINCS ist seit Pass 124 als Artikel im Wiki (Blocktrainer-Referat); der Primärentwurf auf GitHub fehlt weiterhin. Kandidaten für RAW.
 
 **Gap — Bitcoin-only-Halter in Europa (Pass 123):** Das SSRN-Paper (bitcoin-maximalisten-profil) ist US-Repräsentativdaten. Für DACH gibt es nur die qualitative Adoptionsstudie und den krypto-breiten Crypto Compass. Repräsentative Bitcoin-only-Auswertung für Europa fehlt (HSLU/IFZ, Bundesbank-Zahlungsverhaltensstudie prüfen).
 
