@@ -16,83 +16,103 @@
 
 # Bitcoin Knowledge Base
 
-A personal second brain for Bitcoin — compiled wiki articles and BIP summaries, built on the [Karpathy LLM knowledge base pattern](https://youtu.be/ib74sLgjIBM).
+Ein persönliches Second Brain zu Bitcoin: ein Wiki aus verlinkten Artikeln und BIP-Zusammenfassungen, das mit jeder neuen Quelle wächst. Aufgebaut nach dem [LLM-Knowledge-Base-Muster von Andrej Karpathy](https://youtu.be/ib74sLgjIBM), mit Claude als Bibliothekar.
 
-## What's here
+## Die Karte
 
-**`Wiki/`** — ~380 articles. This includes ~170 topic articles (written in German) on Bitcoin fundamentals, self-custody, economics, privacy, and the ecosystem, plus ~210 BIP summaries (BIP-0001 through BIP-0451) in English, each distilled into a structured article with status, summary, and open questions. Sources span blogs, FAQs, books, papers, and historical texts — from early cypherpunk writing to recent technical deep-dives.
+Das Wiki ist als begehbare 3D-Höhenkarte veröffentlicht. Jeder Artikel ist ein Hügel, seine Höhe folgt dem Gewicht im Backlink-Graphen.
 
-Topics covered include hardware wallets, seed phrases, multisig, and backup strategies; the UTXO model, transaction fees, mempool, SegWit, and Taproot; Lightning Network, splicing, rebalancing, and privacy; CoinJoin, silent payments, address reuse, and opsec; Bitcoin monetary theory, Austrian economics, and game theory; and mining, proof-of-work, soft forks, and consensus rules.
+**https://tlausz.github.io/Bitcoin-Knowledge-Base-WIKI/**
 
-## Peer-reviewed energy & mining research
+<img src="Visualizer/wiki-map-screenshot.png" width="720" alt="3D-Höhenkarte des Wikis">
 
-The corpus includes ~17 peer-reviewed papers on Bitcoin mining's relationship to energy grids, renewables, and climate. A selection:
+Ein Klick auf einen Gipfel öffnet den Artikel im Lesefenster. Ein `#slug` in der URL springt direkt dorthin, zum Beispiel [`#bip-0110`](https://tlausz.github.io/Bitcoin-Knowledge-Base-WIKI/#bip-0110); der Slug ist der Dateiname im Wiki.
 
-| Paper | Journal | Year |
-|---|---|---|
-| Ibañez & Freier (UCL) — *Bitcoin's Carbon Footprint Revisited: PoW Mining for Renewable Energy Expansion* | [Challenges](https://doi.org/10.3390/challe14030035) | 2023 |
-| Rudd, Jones, Sechrest, Batten & Porter — *Bitcoin Mining and Methane Mitigation* | [J. Cleaner Production](https://doi.org/10.1016/j.jclepro.2024.143516) | 2024 |
-| Lal, Zhu & You (Cornell) — *From Mining to Mitigation: How Bitcoin Can Support Renewable Energy Development and Climate Action* | [ACS Sustainable Chem. Eng.](https://doi.org/10.1021/acssuschemeng.3c05445) | 2023 |
-| Lal & You (Cornell) — *Green Hydrogen and Crypto as a Dynamic Duo* | [PNAS](https://doi.org/10.1073/pnas.2313911121) | 2024 |
-| Velický — *Renewable Energy Transition Facilitated by Bitcoin* | [ACS Sustainable Chem. Eng.](https://doi.org/10.1021/acssuschemeng.3c03156) | 2023 |
-| Bruno, Weber & Yates (UNC) — *Can Bitcoin Mining Increase Renewable Electricity Capacity?* | Resource and Energy Economics | 2023 |
-| Moghimi et al. (Sharif / Aalto) — *Bitcoin Mining as a Virtual Energy Storage System in Microgrids* | [Int. J. Electrical Power & Energy Systems](https://doi.org/10.1016/j.ijepes.2024.109915) | 2024 |
-| Menati et al. (Texas A&M / ERCOT) — *High-Resolution Modeling of Crypto Mining's Impact on Power Grids* | Advances in Applied Energy (IF 13) | 2023 |
-| Bastian-Pinto et al. (PUC-Rio) — *Hedging Renewable Energy Investments with Bitcoin Mining* | [Renewable & Sustainable Energy Reviews](https://doi.org/10.1016/j.rser.2020.110520) | 2021 |
-| Sai & Vranken (Open Universiteit / Radboud) — *Promoting Rigor in Blockchain Energy Footprint Research* | [Blockchain: Research and Applications](https://doi.org/10.1016/j.bcra.2023.100169) (IF 6.9) | 2024 |
-| Rudd et al. (15 authors) — *Bitcoin and Its Energy, Environmental, and Social Impacts* | [Challenges](https://doi.org/10.3390/challe14040047) | 2023 |
-| Ehyaei et al. — *Feasibility of Bitcoin Mining with Geothermal Energy* | [Energy Science & Engineering](https://doi.org/10.1002/ese3.1648) | 2023 |
-| Dasaklis et al. — *Rethinking Bitcoin's Energy Use through Sustainable Business Models* | [Digital Business](https://doi.org/10.1016/j.digbus.2025.100114) | 2025 |
+Neben der Gesamtkarte gibt es achtzehn Themenkarten, je eine pro Themenbereich, erreichbar über das Menü der Karte oder unter `themen/<thema>.html`, etwa [Self-Custody](https://tlausz.github.io/Bitcoin-Knowledge-Base-WIKI/themen/self-custody.html) oder [Lightning](https://tlausz.github.io/Bitcoin-Knowledge-Base-WIKI/themen/lightning.html).
 
-These papers cover demand response, curtailment reduction, methane mitigation, grid stability, and the use of Bitcoin mining as a flexible load alongside wind, solar, geothermal, and biorefinery systems.
+## Was drin ist
 
-## Visualizer
+Stand: September 2026.
 
-An interactive 3D contour map of the wiki, where each article is a hill whose height reflects its weight in the backlink graph. **Live demo: https://tlausz.github.io/Bitcoin-Knowledge-Base-WIKI/** — see [`Visualizer/`](Visualizer/) for details.
+| Inhalt | Anzahl |
+|---|---|
+| Artikel gesamt | 462 |
+| davon Themenartikel | 252 |
+| darunter Buchartikel | 32 |
+| darunter Studienartikel | 13 |
+| davon BIP-Zusammenfassungen (BIP-0001 bis BIP-0459) | 210 |
+| Themenbereiche und Themenkarten | 18 |
+| Eingelesene Quellen (lokal, nicht im Repo) | rund 1'360 |
 
-The map doubles as a screensaver: a slow orbit around the island alternating with low-altitude flyovers, contour rings tinted by elevation. It starts by itself after 42 seconds of idle on the live demo, or open it directly:
+Jeder Artikel trägt ein oder mehrere von achtzehn Themen, im Schnitt zwei. Die Summen liegen deshalb über der Artikelzahl und der Gesamtgrösse des Wikis. Die Textmenge zeigt, dass die Artikelzahl allein wenig sagt: die 211 BIP-Artikel sind zusammen kleiner als die 57 Adoptions-Artikel.
 
-**https://tlausz.github.io/Bitcoin-Knowledge-Base-WIKI/screensaver.html?noexit=1**
+| Thema | Artikel | Text | Thema | Artikel | Text |
+|---|---|---|---|---|---|
+| Ökonomie | 103 | 992 KB | Lightning | 45 | 240 KB |
+| Protokoll | 103 | 761 KB | Geschichte | 23 | 237 KB |
+| Adoption | 57 | 588 KB | Grundlagen | 27 | 235 KB |
+| Philosophie | 68 | 533 KB | Bücher | 32 | 199 KB |
+| Mining | 53 | 482 KB | Studien | 13 | 179 KB |
+| Self-Custody | 92 | 459 KB | Wallets | 23 | 149 KB |
+| BIPs | 211 | 353 KB | Satoshi | 8 | 91 KB |
+| Privacy | 67 | 353 KB | Glossar | 4 | 49 KB |
+| Kritik | 23 | 265 KB | Zitate | 2 | 31 KB |
 
-<img src="Visualizer/screensaver-screenshot.jpg" width="480" alt="Screensaver: elevation-tinted contour map of the wiki">
+- **Grundlagen**: Transaktionen, Blöcke, Schlüssel und Adressen.
+- **Protokoll**: UTXO-Modell, Script, SegWit, Taproot, Mempool, Soft Forks.
+- **BIPs**: jedes Bitcoin Improvement Proposal in einem eigenen Artikel mit Status, Kernidee und offenen Fragen.
+- **Self-Custody**: Hardware-Wallets, Seed-Phrasen, Multisig, Backups und Vererbung.
+- **Wallets**: die konkrete Software zur Selbstverwahrung.
+- **Privacy**: CoinJoin, Silent Payments, Adresswiederverwendung, Chain-Analyse und Opsec.
+- **Mining**: Proof of Work, Hashrate, Mining-Ökonomie und die Energiefrage.
+- **Lightning**: von Kanälen und Routing bis zu Splicing und Privatsphäre im Netzwerk.
+- **Ökonomie**: Geldtheorie, Knappheit, Inflation, Österreichische Schule, Stablecoins und Regulierung.
+- **Philosophie**: warum Bitcoin so gebaut ist, wie es ist.
+- **Adoption**: Länder, Institutionen, ETFs und Gesetze wie der Clarity Act.
+- **Kritik**: die Gegenargumente samt Prüfung.
+- **Geschichte** und **Satoshi**: die Frühzeit von den Cypherpunks bis zum Blocksize War.
+- **Bücher**: Standardwerke von «Mastering Bitcoin» bis «Der Fiat-Standard», in eigenen Worten zusammengefasst.
+- **Studien**: akademische Arbeiten, darunter Adoptionsstudien für die Schweiz und den DACH-Raum sowie begutachtete Arbeiten zu Mining, Stromnetzen und Methan; vollständige Liste auf der [Themenkarte Studien](https://tlausz.github.io/Bitcoin-Knowledge-Base-WIKI/themen/studien.html).
+- **Glossar** und **Zitate**.
 
-## What's not here
+## Aufbau eines Artikels
 
-Raw source material (articles, PDFs, transcripts) lives locally and is excluded via `.gitignore`. Only the compiled wiki is published.
+Themenartikel sind in Schweizer Hochdeutsch geschrieben, auch wenn die Quelle englisch ist. BIP-Artikel sind englisch. Jeder Artikel folgt demselben Schema: ein Status (**established**, **emerging** oder **speculative**) sagt, wie belastbar der Inhalt ist; dann Quellen, eine Zusammenfassung in wenigen Sätzen, der Hauptteil, verwandte Artikel und offene Fragen. Jede Aussage im Wiki geht auf eine konkrete Quelldatei zurück. Was keine Quelle hat, wird als speculative markiert oder in `Wiki/QUESTIONS.md` geparkt.
 
-## How it's built
+## Wie es entsteht
 
-Claude acts as librarian: ingesting sources from `RAW/`, distilling them into linked wiki articles in `Wiki/`, and maintaining the index. Every factual claim traces back to a source file. New articles are drafted with web research — sources land in `RAW/` first, then the wiki gets updated. A monthly health check audits the corpus for drift, broken links, and promotion candidates.
+Quellen wie Artikel, Podcast-Transkripte, Papers und Bücher landen unverändert in einem lokalen `RAW/`-Ordner. Claude liest sie, destilliert sie in neue oder bestehende Wiki-Artikel, setzt die Backlinks, aktualisiert den Index und ordnet die Themen zu; danach werden Karte und Themenkarten neu gebaut. Ein monatlicher Health Check prüft das Wiki auf Schreibregeln, tote Links und Artikel, die von emerging auf established gehoben werden können.
 
-## Using this wiki in Obsidian
+Der `RAW/`-Ordner ist nicht Teil dieses Repos. Er enthält urheberrechtlich geschütztes Material und bleibt lokal; veröffentlicht wird nur das kompilierte Wiki.
 
-Clone or download the repo, then open the `bitcoin_kb` folder as an Obsidian vault.
+## Screensaver
 
-**Graph View** (`Ctrl/Cmd + G`) renders the backlink network across all wiki articles. Dense clusters show where concepts overlap — useful for spotting gaps or finding related reading.
+Die Karte ist zugleich ein Bildschirmschoner: eine langsame Umrundung der Insel im Wechsel mit Tiefflügen, die Höhenlinien nach Höhe eingefärbt. Er startet auf der Live-Karte nach 42 Sekunden ohne Eingabe oder direkt unter [screensaver.html?noexit=1](https://tlausz.github.io/Bitcoin-Knowledge-Base-WIKI/screensaver.html?noexit=1).
 
-**Recommended plugins:**
-- **Dataview** — query articles by status (`established`, `emerging`, `speculative`) or filter by tag. Example query to list all speculative articles:
-  ````
-  ```dataview
-  LIST FROM "Wiki" WHERE contains(status, "speculative")
-  ```
-  ````
-- **Obsidian Canvas** — drag articles onto a canvas to build visual mind maps around a topic (e.g. all Lightning-related nodes).
-- **Backlinks pane** — open any article and check the backlinks panel to see which other articles reference it.
+<img src="Visualizer/screensaver-screenshot.jpg" width="720" alt="Bildschirmschoner: Höhenkarte mit eingefärbten Höhenlinien und Gipfel-Beschriftung">
 
-**Tips:**
-- Start at `Wiki/INDEX.md` for the full article list.
-- `Wiki/QUESTIONS.md` tracks open threads and unresolved tensions across the corpus.
-- `CHANGELOG.md` at the root records what changed in each health check pass.
+Details zu Aufbau und Bedienung in [`Visualizer/`](Visualizer/).
 
-## Other tools
+## Nutzung in Obsidian
 
-The wiki is plain markdown, so it works equally well in VS Code, iA Writer, Typora, or any other markdown editor. The `[[backlink]]` syntax is Obsidian-native but readable anywhere — just treat them as article references.
+Repo klonen oder herunterladen und den Ordner `bitcoin_kb` als Vault öffnen. Die Graph-Ansicht (`Cmd/Ctrl + G`) zeigt das Backlink-Netz aller Artikel; dichte Cluster markieren, wo sich Konzepte überschneiden. Einstieg über `Wiki/INDEX.md` mit der vollständigen Artikelliste, offene Fäden in `Wiki/QUESTIONS.md`.
+
+Mit dem Plugin Dataview lassen sich Artikel nach Status abfragen, etwa alle spekulativen:
+
+````
+```dataview
+LIST FROM "Wiki" WHERE contains(status, "speculative")
+```
+````
+
+Das Wiki ist reines Markdown. Es lässt sich in jedem Editor lesen; die `[[Backlinks]]` sind Obsidian-Syntax, funktionieren anderswo aber als gewöhnliche Artikelverweise.
 
 ---
 
-*Work in progress. Articles are added as new sources are ingested.*
+*Work in progress. Artikel kommen dazu, sobald neue Quellen eingelesen sind.*
 
----
+Die Quellen sind von Hand ausgewählt, die Artikel hat eine AI geschrieben. AI macht Fehler: Zahlen, Daten und Zuschreibungen können falsch sein, Zusammenhänge verkürzt, einzelne Aussagen erfunden. Kein Anspruch auf Vollständigkeit. Vor jeder Entscheidung, die auf einem Artikel beruht, die angegebene Quelle prüfen. Don't trust, verify.
 
-Built with [Claude](https://claude.ai) · Pattern by [Andrej Karpathy](https://youtu.be/ib74sLgjIBM)
+Das Wiki steht unter der Lizenz [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+
+Gebaut mit [Claude](https://claude.ai) · Muster von [Andrej Karpathy](https://youtu.be/ib74sLgjIBM)
