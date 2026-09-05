@@ -1,6 +1,6 @@
 # Bitcoin KB — Wiki Index
 
-Alle Artikel alphabetisch. Stand: 2026-09-04 (Compile-Pass 124: neuer Artikel shrincs (hashbasierter Post-Quantum-Signatur-Entwurf), bitcoin-und-quantenrisiko ergänzt. Frühere Pässe im CHANGELOG.)
+Alle Artikel alphabetisch. Stand: 2026-09-05 (Compile-Pass 125: us-marktstruktur-clarity-act auf established, Verfahrensstand September 2026, Sec. 604/605/401, Kritik und Stablecoin-Streit ergänzt. Frühere Pässe im CHANGELOG.), bitcoin-und-quantenrisiko ergänzt. Frühere Pässe im CHANGELOG.)
 
 | Artikel | Status | Beschreibung |
 |---------|--------|-------------|
@@ -213,7 +213,7 @@ Alle Artikel alphabetisch. Stand: 2026-09-04 (Compile-Pass 124: neuer Artikel sh
 | [[starks]] | established | STARK-Validitätsbeweise (StarkWare-Serie): Prover/Verifier, Constraints, Fehlerverstärkung via Reed-Solomon, FRI-Folding, Merkle-Commitment; einzige Annahme sichere Hashfunktion → post-quanten-sicher; 1 Mio. Tx verifizierbar mit Aufwand von ~6 |
 | [[taproot-musig2-frost]] | established | Taproot (Soft Fork 2021): Schnorr, MAST, Key-Path/Script-Path; MuSig2 (n-von-n Aggregation); FROST (Threshold-Signaturen) |
 | [[transaktionsgebuehren-und-mempool]] | established | Blockgröße (begrenzt), Miner-Incentive (sat/vByte), Mempool (mempool.space/jochen-hoenicke.de), Priorität-Auswahl in BitBoxApp; Zusammenhang mit UTXO-Konsolidierung. Externe Live-Ansicht: «Das Bitcoin Postamt» (Mempool als Postamt-Szene, mempool.space-API). |
-| [[us-marktstruktur-clarity-act]] | emerging | Digital Asset Market Clarity Act (H.R. 3633): US-Marktstruktur-Gesetz (SEC/CFTC-Zuständigkeit, Börsen, Token-Emissionen). Senats-Arbeitsentwurf Juli 2026 mit befristeter Ethik-Klausel; dazu Kutukwas Fundamentalkritik: SIPA-Amendment ohne Konkursschutz, Rehypothecation via qualified custodians, RWA-Tokenisierung (Sec. 312, BIS Unified Ledger), BSA-Überwachung statt CBDC (Sec. 110), entkerntes Self-Custody-Recht (Sec. 105(c)), Transaktions-Freeze 30+150 Tage (Sec. 305), «non-controlling»-Falltür für Entwickler (Sec. 109, Storm/Samourai) |
+| [[us-marktstruktur-clarity-act]] | established | Digital Asset Market Clarity Act (H.R. 3633): US-Marktstruktur-Gesetz (SEC/CFTC-Zuständigkeit, digital commodity, Börsen, Token-Emissionen). Verfahrensstand September 2026: House 294–134, Senate Banking 15–9, Senatstext 22.07.2026, Cloture-Vote 15.09.2026 (60 Stimmen). Bitcoin-relevant: Sec. 605 Keep Your Coins, Sec. 604 Entwickler/Nodes/Miner keine Money Transmitter, Sec. 401 Bankzugang. Ethik-Klausel mit Sunset 2029 (Trump USD 1,4 Mrd.), Stablecoin-Rewards vs. Bankenlobby, Warren/82-Organisationen-Kritik, ETF-Stichtag für Altcoins; Kutukwas Fundamentalkritik (SIPA, Rehypothecation, BSA-Überwachung, Sec. 105(c)) und Sec. 604(d) als Samourai/Storm-Falltür |
 | [[utxo-modell-und-konsolidierung]] | established | UTXO-Modell erklärt; Gebührenberechnung; UTXO-Konsolidierung in Niedriggebühren-Phasen |
 | [[value4value-und-wertaktivierendes-web]] | established | Gigi: kaputte Webincentives durch Kreditgeld; Lightning als digitales Bargeld; V4V-Modell; Podcasting 2.0; Streaming Sats; "Fatten the long tail"; Micropayments ohne Gegenparteirisiko |
 | [[wallet-backup-strategien]] | established | HD-Wallet-Mechanismus (einmal = dauerhaft); 5 häufige Fehler; 4 Sicherungsmethoden (Passphrase, 2-von-3, Multisig); Steelwallet; Vererbungsplanung |
