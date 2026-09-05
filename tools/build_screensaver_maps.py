@@ -40,7 +40,8 @@ def parse_map(src):
         if m:
             params[n] = float(m[-1])
     name = re.search(r"<title>Bitcoin-Wiki · (.*?)</title>", src)
-    return {"peaks": peaks, "params": params, "name": name[1] if name else "Karte"}
+    return {"peaks": peaks, "params": params, "name": name[1] if name else "Karte",
+            "slug": tm[1] if tm else "index"}
 
 
 def main():

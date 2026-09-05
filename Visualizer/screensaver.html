@@ -490,7 +490,7 @@ function animate(now){
     // die verlorene Zeit wird über tOff zurückgegeben, damit der neue
     // Zyklus bei u≈0 mit dem Fade-in beginnt. Frame überspringen — der
     // nächste rechnet mit korrigiertem t.
-    const want=Math.floor(t/CYCLE)%MAPDATA.length;
+    const want=(Math.floor(t/CYCLE)+startIdx)%MAPDATA.length;
     if(want!==mapIdx){
       const tb=performance.now();
       applyMap(want);
@@ -660,9 +660,9 @@ function parseMap(src){
     if(m.length) params[n]=parseFloat(m[m.length-1][1]);
   }
   const name=(src.match(/<title>Bitcoin-Wiki · (.*?)<\/title>/)||[0,'Karte'])[1];
-  return {peaks, params, name};
+  return {peaks, params, name, slug: tm?tm[1]:'index'};   // slug = Dateiname ohne .html, für ?start=
 }
-let mapIdx=0;
+let mapIdx=0, startIdx=0;   // startIdx: Karte, mit der der Zyklus beginnt (?start=)
 function applyMap(i){
   mapIdx=i;
   const d=MAPDATA[i];
@@ -695,7 +695,10 @@ function applyMap(i){
       for(const r of res) if(r.status==='fulfilled') MAPDATA.push(parseMap(r.value));
     }
     if(!MAPDATA.length) throw new Error('keine Karte ladbar');
-    resize(); applyMap(0);
+    // ?start=<slug>: mit dieser Karte beginnen (Themenkarte ruft den Screensaver so auf);
+    // unbekannter Slug oder kein Parameter = Gesamtkarte.
+    startIdx=Math.max(0, MAPDATA.findIndex(d=>d.slug===Q.get('start')));
+    resize(); applyMap(startIdx);
     // buildPalette();   // Palette-Leiste (?pal=N) deaktiviert — bei Farbarbeit wieder einkommentieren
     requestAnimationFrame(animate);
   }catch(e){

@@ -239,6 +239,10 @@ Verworfen: Balken im Rahmen, Stil `█░`.
 - `?speed=N` — Zeitraffer (Testen; N beliebig, ohne = 1).
 - `?mode=flug` / `?mode=orbit` — Modus fixieren; ohne: Wechsel-Zyklus.
 - `?noexit=1` — Exit-Events deaktiviert (Testen mit Mausbewegung).
+- `?start=<slug>` — beginnt mit dieser Karte (`index` oder Themen-Slug wie
+  `privacy`) und zählt den Zyklus von dort weiter; Themenkarten rufen den
+  Screensaver so auf, damit er in der jeweiligen Karte startet. Unbekannter
+  Slug = Gesamtkarte.
 - `?labels=0` — Labels aus (beide Modi). Andere Werte ohne Wirkung, seit
   überall die Zoom-Rampe gilt.
 - `?shade=0` — Hillshading aus (flache Färbung wie früher); ohne = an.
