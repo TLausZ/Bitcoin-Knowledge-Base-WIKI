@@ -63,6 +63,7 @@ in [`SCREENSAVER.md`](SCREENSAVER.md).
 | Scrollrad | Zoom, Faktor 0.4 bis 8 |
 | `W` `A` `S` `D` | verschiebt den Kartenausschnitt (flüssig, Tasten kombinierbar) |
 | `R` | setzt Drehung, Kippwinkel, Zoom und Verschiebung zurück |
+| `↑` `↓` | wechselt zur vorherigen bzw. nächsten Karte im Themen-Dropdown, am Ende mit Umlauf; gilt auf Gesamtkarte und Themenkarten |
 | Klick auf ein Label (Karte oder Liste) | wählt den Artikel aus, nochmal klicken wählt ab |
 
 Das Gelände ist ein fester Körper: pro Höhenstufe werden Wand und Deckel
