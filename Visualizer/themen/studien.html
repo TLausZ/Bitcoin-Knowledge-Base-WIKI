@@ -153,7 +153,7 @@
 <div id="cap"><h1>Bitcoin-Wiki · Studien</h1>
   <p id="sub"></p></div>
 <canvas id="c"></canvas>
-<div id="hint">ziehen zum drehen · <b>scroll</b> zoom · <b>W A S D</b> verschieben · <b>R</b> reset · <b>H</b> Liste</div>
+<div id="hint">ziehen zum drehen · <b>scroll</b> zoom · <b>W A S D</b> verschieben · <b>R</b> reset · <b>H</b> Liste · <b>↑ ↓</b> Karte wechseln</div>
 <div id="adm" hidden><div id="admrows"></div><div id="admout"></div></div>
 <div id="modal"><div id="mcard">
   <div id="mhead">
@@ -717,6 +717,11 @@ addEventListener('keydown',e=>{
   const k=e.key.toLowerCase();
   if(k==='h'){togglePanel(); return;}
   if(k==='r'){yaw=0.6; pitch=1.08; zoom=ZOOM0; panX=0; panY=0; draw(); return;}   // = Startwerte oben
+  // Pfeil hoch/runter: vorherige/nächste Karte im Themen-Dropdown (Reihenfolge = Menü), mit Umlauf
+  if(e.key==='ArrowUp'||e.key==='ArrowDown'){
+    const n=topicEl.options.length, d=e.key==='ArrowDown'?1:-1;
+    topicEl.selectedIndex=(topicEl.selectedIndex+d+n)%n; topicEl.onchange(); e.preventDefault(); return;
+  }
   if(!'wasd'.includes(k)) return;
   held.add(k);
   if(!panRAF) panRAF=requestAnimationFrame(panStep);   // Schleife nur einmal starten
