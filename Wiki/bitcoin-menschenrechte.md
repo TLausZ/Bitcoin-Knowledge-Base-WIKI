@@ -2,8 +2,8 @@
 
 **Status:** established
 **Themen:** oekonomie, philosophie, adoption
-**Last updated:** 2026-06-23
-**Sources:** [[aprycot-herbort-bitcoin-menschenrechte]]
+**Last updated:** 2026-09-09
+**Sources:** [[aprycot-herbort-bitcoin-menschenrechte]], [[gettingbitcoin-gladstein-bitcoins-overlooked-promise-freedom]]
 
 ## Summary
 
@@ -24,6 +24,8 @@ Herbort zeigt an zeitgenössischen Fällen, wie staatliche Geldpolitik zur Waffe
 Alexej Nawalnys Stiftung wurde als extremistisch eingestuft, womit ihr Bankzugang gekappt wurde. Die Uiguren in Xinjiang sind einem Überwachungs- und Finanzsystem ausgesetzt, das soziale Kontrolle über Zahlungsinfrastruktur ausübt. Nasrin Sotoudeh, iranische Menschenrechtsanwältin, und Malcolm Bidali, Aktivist für Migrantenrechte, wurden analog verfolgt.
 
 Das Cantillon-Prinzip spielt hier auf einer systemischen Ebene: Geldschöpfung begünstigt strukturell ihre Schöpfer. Bereits Richard Cantillon beschrieb um 1730, dass die Nähe zur Geldschöpfung Wohlstand ungleich verteilt. Moderne Fiat-Schöpfung — ein Buchungssatz bei einer Zentralbank — ist derselbe Mechanismus. Die Institution, die Geld schöpft, gewinnt immer zuerst. [[geldpolitik-und-inflation]] [[bitcoin-als-basisgeld]]
+
+Gladstein ergänzt Herborts Liste 2026 um weitere Fälle: In Russland, China, Nicaragua, Belarus und Iran werden Konten von Menschenrechtsgruppen routinemässig als «verdächtig» eingefroren, Auslandsspenden sind in der Regel verboten. Die Anti-Corruption Foundation in Russland und die Feminist Coalition in Nigeria hielten ihren Betrieb mit Bitcoin aufrecht. Die Zahlen und Fälle stehen ausführlicher in [[bitcoin-humanitaere-anwendungen]]. [[gettingbitcoin-gladstein-bitcoins-overlooked-promise-freedom]]
 
 ### 2,2 Milliarden Menschen ohne Bankzugang
 

@@ -2,8 +2,8 @@
 
 **Status:** established
 **Themen:** mining, lightning, oekonomie, philosophie, adoption
-**Last updated:** 2026-07-02
-**Sources:** [[aprycot-waehrung-der-letzten-instanz]], [[aprycot-bitcoin-palaestinas-waehrung-freiheit]], [[aprycot-gladstein-humanitaere-oekologische-argumente]], [[aprycot-gladstein-meinungsfreiheit-digitales-zeitalter]], [[aprycot-gigi-bitcoin-einsatz-venezuela]], [[aprycot-gladstein-kuba-bitcoin-revolution]], [[aprycot-gladstein-finanzielle-freiheit-afghanistan]], [[aprycot-gladstein-finanzielle-privilegien]], [[21 Bitcoin Use Cases You Probably Aren't Aware Of (unless you've studied it)]], [[The untold story about who is really using Bitcoin and why]], [[Do cybercriminals prefer Fiat or Bitcoin_ the data is clear]], [[The Bitcoin Facts that Every Investment Committee Must Know]], [[038BitcoinsValueExplainedbyaRefugee]]
+**Last updated:** 2026-09-09
+**Sources:** [[aprycot-waehrung-der-letzten-instanz]], [[aprycot-bitcoin-palaestinas-waehrung-freiheit]], [[aprycot-gladstein-humanitaere-oekologische-argumente]], [[aprycot-gladstein-meinungsfreiheit-digitales-zeitalter]], [[aprycot-gigi-bitcoin-einsatz-venezuela]], [[aprycot-gladstein-kuba-bitcoin-revolution]], [[aprycot-gladstein-finanzielle-freiheit-afghanistan]], [[aprycot-gladstein-finanzielle-privilegien]], [[gettingbitcoin-gladstein-bitcoins-overlooked-promise-freedom]], [[21 Bitcoin Use Cases You Probably Aren't Aware Of (unless you've studied it)]], [[The untold story about who is really using Bitcoin and why]], [[Do cybercriminals prefer Fiat or Bitcoin_ the data is clear]], [[The Bitcoin Facts that Every Investment Committee Must Know]], [[038BitcoinsValueExplainedbyaRefugee]]
 
 ## Summary
 
@@ -120,6 +120,14 @@ Gladsteins ursprünglicher Ausgangspunkt vor den ausführlichen Länder-Reportag
 **Farida (Afghanistan).** Lehrerin, Familienmutter, Jahrzehnte unter Taliban-Herrschaft gelebt. Als das Taliban-Regime 2021 zurückkehrte, gefror die Bank sofort. Frauen durften zeitweise keine Bankkonten halten. Bitcoin ist das erste Geld, das niemand wegnehmen kann, weil es kein physisches Objekt ist und keiner Institution gehört.
 
 **Hier das Privileg.** Wer in Europa oder den USA aufgewachsen ist, hat durch seinen Pass und seine Bankverbindung strukturelle Vorteile, die unsichtbar sind, weil sie nie fehlgefehlt haben. Gladsteins Kernpunkt: Bitcoin von seinem Haus aus als «Spielzeug für Spekulanten» abzutun, ist das Privileg derer, die nie echtes Geldversagen erlebt haben. [[aprycot-gladstein-finanzielle-privilegien]]
+
+### Freedom Money: die Zahlen hinter dem Privileg (Gladstein, 2026)
+
+Fünf Jahre nach «Check Your Financial Privilege» fasst Gladstein das Argument für ein amerikanisches Publikum neu und unterlegt es mit Grössenordnungen (Stand: September 2026). Sein Ausgangspunkt ist die Finanzkrise von 2008: rund 10 Millionen Amerikaner verloren ihr Haus, die Finanzbranche erhielt USD 443 Mrd. Rettungsgeld, ein einziger Banker ging ins Gefängnis. Bitcoin liest er als Protest und Demonstration gegen genau dieses System. Für Amerikaner sei Bitcoin vor allem als Anlage ein Erfolg gewesen, doch der Dollar-Raum sei nur ein kleiner Teil der Geschichte.
+
+Die Grössenordnungen, die er nennt: 87% der Weltbevölkerung, rund 7,2 Milliarden Menschen, leben unter kollabierenden Volkswirtschaften oder autoritären Regimen. Nur 4% der Menschen verdienen ihr Gehalt in Dollar, weniger als 10% leben in liberalen Demokratien mit gesicherten Eigentumsrechten. Der Kaufkraftverlust gegenüber dem Dollar seit 2020: Nigeria rund 75%, Ägypten rund 70%, Pakistan 45%, Indien 20%, Türkei und Argentinien über 90%. Die Sparformen dieser Mehrheit sind Bargeldstapel, Vieh, Ziegelsteine oder Wellblech.
+
+Die zweite Achse ist politisch: In Russland, China, Nicaragua, Belarus und Iran werden Konten von Menschenrechtsverteidigern wegen «verdächtiger Aktivität» eingefroren, Auslandsspenden sind meist illegal. Als Gegenbeispiele nennt Gladstein die Anti-Corruption Foundation in Russland und die Feminist Coalition in Nigeria, die ihre Arbeit mit Bitcoin-Spenden fortführen konnten. Wer seit dem Pandemiebeginn in Bitcoin sparte, habe statt 99% Lohnverlust eine Vervielfachung erlebt; die Rendite-Zahlen sind Momentaufnahmen und altern schnell. Der Schluss richtet sich an die Dollar-Nutzer: Vielleicht sei Bitcoin nichts für sie, aber für die anderen. [[gettingbitcoin-gladstein-bitcoins-overlooked-promise-freedom]]
 
 ### Monetärer Kolonialismus: der CFA-Franc
 
