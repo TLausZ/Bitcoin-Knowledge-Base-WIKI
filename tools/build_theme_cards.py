@@ -45,6 +45,9 @@ CATS = [
 #   "privacy": {"SEED": 5, "BETA": 5.2, "RIDGE": 0.35},
 # Nur die genannten Keys werden überschrieben; der Rest bleibt Default.
 # Können sich nach jedem Compile ändern (Layout/Daten verschieben sich).
+# "CENTER": True zentriert die Gipfel des Themas auf den Nullpunkt (Schwerpunkt abziehen),
+# bevor sie eingespritzt werden. Nötig für kleine Randthemen, deren Artikel auf der
+# Gesamtkarte weit vom Zentrum liegen und sonst an die Küste rutschen (glossar, 20.10.2026).
 OVERRIDES = {
     "grundlagen":  {"SEED": 1,  "BETA": 4.05, "L": 32, "BASECUT": 0.46, "ZMAX": 0.6,  "BASE": 0.27, "TERW": 0.46, "RIDGE": 0.8,  "DBIAS": 0.7, "SPREAD": 0.8,  "IRAD": 2.4,  "COASTW": 1.1,  "LIFT": -0.36},
     "protokoll":   {"SEED": 2,  "BETA": 4.05, "L": 32, "BASECUT": 0.14, "ZMAX": 0.55, "BASE": 0.29, "TERW": 1.92, "RIDGE": 0.75, "DBIAS": 1,   "SPREAD": 0.85, "IRAD": 2.7,  "COASTW": 1,    "LIFT": -0.3},
@@ -63,7 +66,7 @@ OVERRIDES = {
     "studien":     {"SEED": 15, "BETA": 3.5,  "L": 32, "BASECUT": 0.16, "ZMAX": 0.4,  "BASE": 0.19, "TERW": 2,    "RIDGE": 0.3,  "DBIAS": 1,   "SPREAD": 0.55, "IRAD": 2.1,  "COASTW": 1.35, "LIFT": -0.36},
     "buecher":     {"SEED": 16, "BETA": 3.8,  "L": 32, "BASECUT": 0.26, "ZMAX": 0.4,  "BASE": 0.21, "TERW": 2,    "RIDGE": 0.4,  "DBIAS": 1,   "SPREAD": 0.6,  "IRAD": 1.75, "COASTW": 0.25, "LIFT": -0.36},
     "wallets":     {"SEED": 17, "BETA": 4.5,  "L": 32, "BASECUT": 0.32, "ZMAX": 0.4,  "BASE": 0.21, "TERW": 2,    "RIDGE": 0.55, "DBIAS": 0.8, "SPREAD": 0.75, "IRAD": 2.15, "COASTW": 0.75, "LIFT": -0.36},
-    "glossar":     {"SEED": 18, "BETA": 4.65, "L": 32, "BASECUT": 0.68, "ZMAX": 0.55, "BASE": 0.03, "TERW": 0.04, "RIDGE": 0.75, "DBIAS": 0.5, "SPREAD": 0,    "IRAD": 1.8,  "COASTW": 1,    "LIFT": -0.36},
+    "glossar":     {"SEED": 18, "BETA": 4.65, "L": 32, "BASECUT": 0.68, "ZMAX": 0.55, "BASE": 0.03, "TERW": 0.04, "RIDGE": 0.75, "DBIAS": 0.5, "SPREAD": 0.6,  "IRAD": 1.8,  "COASTW": 1,    "LIFT": -0.36, "CENTER": True},
 }
 
 def main():
@@ -98,13 +101,21 @@ def main():
         # 1) Konfig am Marker: SEED = Themennummer, dann optionale Overrides
         #    (aus dem Admin-Panel getunt). Override-SEED gewinnt, falls gesetzt.
         params = {"SEED": i, **OVERRIDES.get(slug, {})}
+        center = bool(params.pop("CENTER", False))
         cfg = " ".join(f"{key}={json.dumps(val)};" for key, val in params.items())
         doc = doc.replace("/*__THEME_CFG__*/", cfg, 1)
         # 2) PEAKS auf dieses Thema filtern + Umschalter-Liste einspritzen
+        card_literal = peaks_literal
+        if center:
+            grp = [p for p in peaks if slug in (p.get("t") or [])]
+            cx = sum(p["x"] for p in grp) / len(grp)
+            cy = sum(p["y"] for p in grp) / len(grp)
+            shifted = [{**p, "x": round(p["x"] - cx, 3), "y": round(p["y"] - cy, 3)} for p in grp]
+            card_literal = json.dumps(shifted, ensure_ascii=False, separators=(",", ":"))
         new_decl = (f"const THEME = {json.dumps(slug)};\n"
                     f"const TOTAL = {len(peaks)};\n"
                     f"const THEME_CARDS = {theme_cards_json};\n"
-                    f"const PEAKS = {peaks_literal}"
+                    f"const PEAKS = {card_literal}"
                     ".filter(p => (p.t || []).includes(THEME));")
         doc = doc.replace(peaks_decl, new_decl, 1)
         # 3) Titel/Kopf auf das Thema
