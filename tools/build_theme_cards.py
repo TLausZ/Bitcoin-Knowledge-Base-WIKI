@@ -60,7 +60,7 @@ OVERRIDES = {
     "philosophie": {"SEED": 9,  "BETA": 3.5,  "L": 32, "BASECUT": 0.16, "ZMAX": 0.45, "BASE": 0.25, "TERW": 1.8,  "RIDGE": 0.95, "DBIAS": 1,   "SPREAD": 0.85, "IRAD": 2.7,  "COASTW": 0.55, "LIFT": -0.3},
     "adoption":    {"SEED": 10, "BETA": 6,    "L": 33, "BASECUT": 0.14, "ZMAX": 0.4,  "BASE": 0.15, "TERW": 2,    "RIDGE": 1,    "DBIAS": 0.95,"SPREAD": 0.75, "IRAD": 2.5,  "COASTW": 1.15, "LIFT": -0.36},
     "kritik":      {"SEED": 15, "BETA": 3.5,  "L": 32, "BASECUT": 0.02, "ZMAX": 0.4,  "BASE": 0.03, "TERW": 2,    "RIDGE": 0.5,  "DBIAS": 1,   "SPREAD": 0.5,  "IRAD": 2.15, "COASTW": 1.25, "LIFT": -0.36},
-    "geschichte":  {"SEED": 12, "BETA": 5.05, "L": 32, "BASECUT": 0.2,  "ZMAX": 0.4,  "BASE": 0.21, "TERW": 2,    "RIDGE": 0.65, "DBIAS": 1,   "SPREAD": 0.6,  "IRAD": 2.5,  "COASTW": 0.55, "LIFT": -0.36},
+    "geschichte":  {"SEED": 12, "BETA": 3.5, "L": 32, "BASECUT": 0.2, "ZMAX": 0.4, "BASE": 0.23, "TERW": 2, "RIDGE": 0.7, "DBIAS": 1, "SPREAD": 0.65, "IRAD": 1.75, "COASTW": 0.2, "LIFT": -0.36},
     "satoshi":     {"SEED": 13, "BETA": 3.5,  "L": 32, "BASECUT": 0.22, "ZMAX": 0.55, "BASE": 0.25, "TERW": 1.92, "RIDGE": 0.95, "DBIAS": 1,   "SPREAD": 0.95, "IRAD": 2.7,  "COASTW": 0.05, "LIFT": -0.3},
     "zitate":      {"SEED": 14, "BETA": 4.35, "L": 32, "BASECUT": 0.12, "ZMAX": 0.4,  "BASE": 0.03, "TERW": 2,    "RIDGE": 0.35, "DBIAS": 0.95,"SPREAD": 0.2,  "IRAD": 1.4,  "COASTW": 1.7,  "LIFT": -0.36, "CENTER": True},
     "studien":     {"SEED": 15, "BETA": 3.5,  "L": 32, "BASECUT": 0.16, "ZMAX": 0.4,  "BASE": 0.19, "TERW": 2,    "RIDGE": 0.3,  "DBIAS": 1,   "SPREAD": 0.55, "IRAD": 2.1,  "COASTW": 1.35, "LIFT": -0.36},
