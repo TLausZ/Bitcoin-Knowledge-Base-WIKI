@@ -37,7 +37,7 @@ R = 2.3          # Zielradius der Karte (DOM=2.7 im HTML, mit Rand)
 
 # Finale User-Insel 18.07.2026 — identisch zu MK.params in layout-multi.js
 LAY = {"seed": 8, "ridges": 7, "len": 1.70, "bow": 1.50,
-       "flank": 0.75, "dmin": 0.09, "fill": 0.60}
+       "flank": 0.75, "dmin": 0.09, "fill": 1.05}   # fill 0.60 → 1.05 (20.10.2026, im WIP erprobt)
 
 # Themen-Mapping auf Layout-Gruppen (identisch zu ARM_OF in layout-multi.js);
 # Ungemapptes (grundlagen/glossar/sonstiges) landet in der Gruppe "grundlagen".
