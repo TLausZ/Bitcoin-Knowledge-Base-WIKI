@@ -2,8 +2,8 @@
 
 **Status:** established
 **Themen:** protokoll, self-custody, privacy, lightning, wallets
-**Last updated:** 2026-07-06
-**Sources:** [[Feature Highlights of the BitBox02 - EN]]
+**Last updated:** 2026-10-20
+**Sources:** [[Feature Highlights of the BitBox02 - EN]], [[Swaps direkt in der BitBoxApp]], [[Lightning jetzt in der BitBoxApp]], [[BitBox – Sicherheit auf jeder Ebene]]
 
 ## Summary
 
@@ -45,7 +45,9 @@ Katalog der Funktionen von BitBox02 und BitBoxApp, wie sie der Hersteller (Shift
 
 **Device authenticity check:** BitBoxApp und Drittanbieter-Apps prüfen die Echtheit des Geräts; bei Fehlschlag erscheint eine Warnung. Status einsehbar in den Geräteeinstellungen.
 
-**Verschlüsselte USB-Kommunikation:** Ende-zu-Ende-Verschlüsselung zwischen BitBoxApp und Gerät. Siehe [[hardware-wallet-sicherheitsarchitektur]].
+**Verschlüsselte USB-Kommunikation:** Ende-zu-Ende-Verschlüsselung zwischen BitBoxApp und Gerät (Noise-Protokoll). Siehe [[hardware-wallet-sicherheitsarchitektur]].
+
+**Epoxid-Verguss und Sollbruch-Pins:** Mikrocontroller und Secure Chip sind vergossen, das verklebte Gehäuse lässt beim Öffnen Pins brechen und Spuren zurück. Physischer Schutz gegen Umbau in der Lieferkette, siehe [[anti-klepto-und-supply-chain-sicherheit]]. [[BitBox – Sicherheit auf jeder Ebene]]
 
 ### Transaktionen und Konten
 
@@ -77,6 +79,10 @@ Katalog der Funktionen von BitBox02 und BitBoxApp, wie sie der Hersteller (Shift
 
 **Android-App:** BitBoxApp für Android, Anbindung der BitBox02 per USB-C.
 
+**Swaps (Geneva-Update, Mai 2026):** Tausch zwischen eigenen Konten direkt in der App über SwapKit, einen Aggregator non-custodialer Swap-Anbieter (zum Start «Near»). Kein Börsenkonto, kein KYC, keine Limits durch BitBox, kein zwischenzeitliches Börsenguthaben; die Transaktion wird auf dem Gerät bestätigt, als Empfänger zeigt die BitBox dank signierter Payment Requests «SwapKit» plus Anbieter an. Pauschal 1,5 Prozent Gebühr plus Netzwerk- und Anbieterkosten, Slippage möglich, bestätigte Swaps sind endgültig; Cross-Chain-Swaps brauchen mehr Bestätigungen, und die Rückerstattung bei Abbruch folgt den Regeln des jeweiligen Protokolls. Für Bitcoiner gedacht als Weg, erhaltene Stablecoins oder Altbestände in Bitcoin zu tauschen; in der Bitcoin-only-Edition nicht verfügbar. Steuerlich je nach Land verschieden, in Österreich gilt der Krypto-zu-Krypto-Tausch laut Beitrag nicht als Veräusserung. [[Swaps direkt in der BitBoxApp]]
+
+**Lightning-Wallet (Meggen-Update, September 2026):** Öffentliche Beta auf iOS und Android, Hot Wallet mit BIP-85-Ableitung aus dem BitBox-Seed, Spark als Off-Chain-Schiene mit Breez SDK, Lightning-Adressen via LNURL-Pay. Details und Vertrauensannahmen in [[skalierung-lightning-ark-statechains]]. [[Lightning jetzt in der BitBoxApp]]
+
 ### Versicherung
 
 **Bitsurance:** Optionaler Schutz der Coins gegen bestimmte Szenarien (Diebstahl, Erpressung, Naturkatastrophen) unter Beibehaltung der Selbstverwahrung. Siehe [[bitcoin-versicherung]].
@@ -104,5 +110,5 @@ Katalog der Funktionen von BitBox02 und BitBoxApp, wie sie der Hersteller (Shift
 
 ## Open Questions
 
-- Herstellerquelle ohne Datumsstempel: Der Feature-Stand entspricht etwa Ende 2024 (letzte referenzierte Updates: Lugano/Livigno 10/2024). Einzelne Features können inzwischen verändert oder erweitert sein.
+- Herstellerquelle ohne Datumsstempel: Der Feature-Stand entspricht etwa Ende 2024 (letzte referenzierte Updates: Lugano/Livigno 10/2024); Swaps (05/2026) und Lightning (09/2026) sind aus den Blogbeiträgen nachgetragen, andere Features können inzwischen verändert sein.
 - „Erste/einzige Hardware-Wallet"-Aussagen (Silent Payments, Anti-Klepto) stammen aus Marketing und wären gegen unabhängige Quellen zu prüfen.

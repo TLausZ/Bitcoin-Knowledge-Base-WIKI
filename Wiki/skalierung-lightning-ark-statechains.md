@@ -1,9 +1,9 @@
 # Skalierung: Lightning, Ark und Statechains
 
 **Status:** emerging
-**Themen:** lightning
-**Last updated:** 2026-07-26
-**Sources:** [[20251218_die-skalierung-von-bitcoin-lightning-und-der-weg-zu-ark]], [[20260212_bitcoin-senden-ohne-sie-zu-bewegen-statechains-erklärt]], [[20231018_lightning-in-der-bitboxapp]], [[20240314_wie-die-bitbox02-den-seed-für-die-lightning-wallet-sicher-ableitet]], [[aprycot-svanholm-wahre-skalierungsloesung]], [[Introducing Cube]], [[Bitcoin Optech Newsletter #415]]
+**Themen:** protokoll, lightning
+**Last updated:** 2026-10-20
+**Sources:** [[Lightning jetzt in der BitBoxApp]], [[20251218_die-skalierung-von-bitcoin-lightning-und-der-weg-zu-ark]], [[20260212_bitcoin-senden-ohne-sie-zu-bewegen-statechains-erklärt]], [[20231018_lightning-in-der-bitboxapp]], [[20240314_wie-die-bitbox02-den-seed-für-die-lightning-wallet-sicher-ableitet]], [[aprycot-svanholm-wahre-skalierungsloesung]], [[Introducing Cube]], [[Bitcoin Optech Newsletter #415]]
 
 ## Summary
 
@@ -41,11 +41,13 @@ Statechains gehen einen konzeptionell anderen Weg: Statt Bitcoin zu versenden, w
 
 **Einschränkung:** Man muss der Statechain-Entity vertrauen, dass sie alte Schlüsselanteile wirklich löscht. Projekte wie Mercury Layer und Spark setzen dieses Modell bereits produktiv ein.
 
-### Lightning in Wallet-Apps (BitBoxApp + Breez)
+### Lightning in Wallet-Apps (BitBoxApp, Breez, Spark)
 
 Das Last-Mile-Problem für Endnutzer adressiert die BitBoxApp mit einer eingebetteten Lightning-Wallet über das Breez SDK. Der Node läuft auf Blockstream Greenlight-Infrastruktur in der Cloud; die privaten Schlüssel bleiben auf dem Gerät des Nutzers. Kein Channel-Management, keine manuelle Liquiditätsverwaltung — Breez stellt eingehende Liquidität bereit.
 
 Sicherheitskonzept: Die Lightning-Schlüssel sind eine Hot Wallet (auf dem Smartphone/Computer), nicht auf der BitBox02 gespeichert. Das ist ein bewusster Kompromiss — Lightning ist für kleinere Beträge konzipiert, und die Bequemlichkeit erfordert permanenten Online-Zugang der Schlüssel. Als Schutz: Der Lightning-Seed wird via BIP-85 aus dem Haupt-Seed abgeleitet. Ein einziges Backup der 24 Wörter deckt Cold Storage und Lightning — kein separates Backup nötig.
+
+Mit dem Meggen-Update vom September 2026 ist die Lightning-Wallet als öffentliche Beta in der BitBoxApp für iOS und Android verfügbar, und das Fundament hat gewechselt: Das Breez SDK läuft jetzt mit Spark, einem Statechain-System, über das Bitcoin off-chain übertragen werden, mit Anbindung ans Lightning-Netzwerk für Invoices in beide Richtungen; keine Node, keine Kanäle, kein Greenlight-Node in der Cloud mehr. Die Wallet bleibt non-custodial, bringt aber die Vertrauensannahmen von Spark mit: Übertragungen hängen von einer Gruppe von Betreibern ab, von denen eine Mindestzahl kooperieren und das Protokoll einhalten muss. Auch die Wiederherstellung auf einem neuen Smartphone braucht die Spark-Dienste, weil das Backup die Schlüssel, aber nicht alle Wallet-Daten enthält; einen Unilateral Exit ohne Betreiber plant BitBox mit einer kommenden SDK-Version. Für eine Ausgabe-Wallet mit kleinen Beträgen hält BitBox das für einen vertretbaren Kompromiss. Die BIP-85-Ableitung funktioniert nur in eine Richtung: Aus dem Lightning-Geheimnis folgt nichts über den Haupt-Seed, eine kompromittierte Lightning-Wallet gefährdet das BitBox-Backup nicht; wer eine optionale Passphrase nutzt, braucht sie auch für die Ableitung. Zahlungen laufen ohne verbundene BitBox, nur das Aufladen von der On-Chain-Wallet wird auf dem Gerät bestätigt. Dazu kommen Lightning-Adressen über LNURL-Pay mit wählbarem Namen, damit Empfänger eine wiederverwendbare Adresse statt einzelner Invoices teilen können. [[Lightning jetzt in der BitBoxApp]]
 
 ### Vergleich
 
@@ -105,6 +107,6 @@ Das Ergebnis: eine Turing-vollständige Execution-Umgebung mit globalem State un
 ## Open Questions
 
 - Wie reif wird Ark für Endnutzer in den nächsten Jahren?
-- Können Statechains mit Teilbeträgen (Spark) Lightning als Zahlungskanal ersetzen?
+- Können Statechains mit Teilbeträgen (Spark) Lightning als Zahlungskanal ersetzen? Seit September 2026 ist Spark die Schiene der BitBoxApp-Lightning-Wallet; offen ist, wann der angekündigte Unilateral Exit ohne Betreiber kommt.
 - Welche Rolle spielen Covenants für bessere Ark-Implementierungen?
 - Ist Svanholms These empirisch testbar: Sinkt die Transaktionsdichte relativ zum gesicherten Wert in einer Hyperbitcoinisierungs-Phase?

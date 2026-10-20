@@ -2,8 +2,8 @@
 
 **Status:** established
 **Themen:** protokoll, self-custody, lightning
-**Last updated:** 2026-06-04
-**Sources:** [[20240822_bitcoin-sicher-an-eine-börse-versenden-mit-payment-requests]], [[20240711_bitbox-07-2024-ritom-update]], [[20241002_bitbox-10-2024-livigno-update]]
+**Last updated:** 2026-10-20
+**Sources:** [[Swaps direkt in der BitBoxApp]], [[20240822_bitcoin-sicher-an-eine-börse-versenden-mit-payment-requests]], [[20240711_bitbox-07-2024-ritom-update]], [[20241002_bitbox-10-2024-livigno-update]]
 
 ## Summary
 
@@ -32,7 +32,7 @@ Payment Requests können mehr als nur die Adresse absichern. Beim Verkauf von Bi
 
 - **Ritom-Update (Juli 2024):** Technische Grundlage in der Firmware implementiert
 - **Livigno-Update (Oktober 2024):** Erste produktive Nutzung — Verkauf von Bitcoin mit Pocket Bitcoin
-- **Geneva-Update (Mai 2026):** Nutzung auch für dezentrale Swaps
+- **Geneva-Update (Mai 2026):** Nutzung auch für dezentrale Swaps über SwapKit; die BitBox prüft die Echtheit der Swap-Anfrage und zeigt als Empfänger «SwapKit» mit dem jeweiligen Anbieter an, damit Malware auf Laptop oder Smartphone das Ziel nicht durch eine Angreiferadresse ersetzen kann [[Swaps direkt in der BitBoxApp]]
 
 ## Related
 

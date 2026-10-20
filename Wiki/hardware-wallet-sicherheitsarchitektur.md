@@ -2,8 +2,8 @@
 
 **Status:** established
 **Themen:** protokoll, self-custody
-**Last updated:** 2026-08-18
-**Sources:** [[BitBox 08.2026 Dixence-Update]], [[20250227_worauf-man-beim-kauf-einer-neuen-hardware-wallet-achten-sollte]], [[20260312_warum-vorsichtig-sein-eine-hardware-wallet-nicht-ersetzen-kann-zero-day-schwachstellen-erklärt]], [[20250620_vorstellung-der-bitbox02-nova]], [[20250703_whisper-wie-die-sichere-bluetooth-integration-der-bitbox02-nova-funktioniert]], [[20220419_hardware-wallet-display-pflicht-de]], [[20220118_bitbox-01-2022-maighels-update-de]], [[20210906_was-bedeutet-open-source-de]], [[20210609_secure-chip-open-source-firmware-de]], [[20210317_5-fragen-hardware-wallet-sicherheit-de]], [[20210615_bitboxapp-android-de]]
+**Last updated:** 2026-10-20
+**Sources:** [[BitBox – Sicherheit auf jeder Ebene]], [[Firmware-Updates im Zeitalter von KI_ Auf dem neuesten Stand zu sein ist wichtiger denn je]], [[BitBox 08.2026 Dixence-Update]], [[20250227_worauf-man-beim-kauf-einer-neuen-hardware-wallet-achten-sollte]], [[20260312_warum-vorsichtig-sein-eine-hardware-wallet-nicht-ersetzen-kann-zero-day-schwachstellen-erklärt]], [[20250620_vorstellung-der-bitbox02-nova]], [[20250703_whisper-wie-die-sichere-bluetooth-integration-der-bitbox02-nova-funktioniert]], [[20220419_hardware-wallet-display-pflicht-de]], [[20220118_bitbox-01-2022-maighels-update-de]], [[20210906_was-bedeutet-open-source-de]], [[20210609_secure-chip-open-source-firmware-de]], [[20210317_5-fragen-hardware-wallet-sicherheit-de]], [[20210615_bitboxapp-android-de]]
 
 ## Summary
 
@@ -61,6 +61,9 @@ Die **Dual-Chip-Architektur** der BitBox02 löst den Konflikt: Die Open-Source-F
 
 **Authentizitätsprüfung im Detail:** Die BitBoxApp schickt beim Verbinden eine Zufallszahl (Challenge) ans Gerät. Das Gerät signiert sie mit dem privaten Zertifikatsschlüssel des Secure Chips und schickt die Signatur zurück. Die App verifiziert den vollständigen Zertifizierungspfad bis zur Shift-Root-CA. Schlägt die Prüfung fehl, zeigt die App eine Warnung.
 
+### Physischer Schutz: Verguss, Sollbruch-Pins, Zähler
+Die Herstellerseite zur Sicherheit fasst zusammen, was das Gehäuse und die Chips gegen Angriffe mit dem Gerät in der Hand leisten. Der verschlüsselte Seed auf dem Mikrocontroller braucht drei Geheimnisse: eines auf dem Secure Chip, eines auf dem Mikrocontroller und das Gerätepasswort, das nirgends gespeichert ist. Sollte ein Dieb das Zehn-Versuche-Limit des Mikrocontrollers umgehen, begrenzt ein monotoner Zähler im Secure Chip die Gesamtzahl der Passworteingaben, und die Passwortdehnung verlängert jeden Versuch. Mikrocontroller und Secure Chip sind mit einem Sicherheits-Epoxidharz vergossen, «um invasive Angriffe weiter zu erschweren»; der Secure Chip selbst ist gegen das Extrahieren von Schlüsselmaterial ausgelegt. Die beiden Gehäusehälften sind mit einem Kleber verbunden, der die Pins der oberen Hälfte beim Trennen abbrechen lässt, sodass sich das Gehäuse nicht mehr sauber schliessen lässt; die nötige Kraft hinterlässt zudem sichtbare Spuren aussen. Der Bootloader akzeptiert nur von Shift Crypto signierte Firmware, verhindert Downgrades und den Wechsel zwischen Multi- und Bitcoin-only-Edition und kann den Firmware-Hash vor dem Start anzeigen. Die USB-Verbindung ist mit dem Noise-Protokoll verschlüsselt, Malware auf dem Host sieht nur Chiffrat. Die Firmware wurde von Census Labs geprüft, ein Bug-Bounty-Programm läuft, und das Bedrohungsmodell ist veröffentlicht. Für den Lieferkettenangriff auf Ledger vom Oktober 2026, bei dem ein Mithörer an der Display-Leitung sass, heisst das: Verguss und Sollbruch-Pins erhöhen den Aufwand für einen Umbau und machen ihn sichtbar, ein Ausschluss ist das nicht, und ob die Leitung zwischen Chip und Display unter dem Verguss liegt, sagt die Seite nicht (siehe [[anti-klepto-und-supply-chain-sicherheit]]). [[BitBox – Sicherheit auf jeder Ebene]]
+
 ### Drei Bedrohungstypen und was dagegen schützt
 
 **1. Phishing und Fernangriffe:** Angreifer versuchen über das Internet, auf den Computer oder die Wallet-App zuzugreifen. Da der private Schlüssel das Gerät nie verlässt, nützt ein kompromittierter Computer einem Angreifer nichts — er kann keine Coins stehlen, solange er kein physisches Gerät hat.
@@ -86,6 +89,8 @@ Wie eine Herstellerreaktion auf gefundene Schwachstellen aussieht, zeigt das Bit
 **Fehler in der Silent-Payments-Implementierung**, behoben in 9.26.5: Ein Angreifer hätte Coins an eine unbeabsichtigte Zahlungsadresse binden können. Direkter Diebstahl war nicht möglich, doch die Wiederherstellung hätte seine Mitwirkung erfordert, was sich für einen Erpressungsversuch eignet. Betroffen: BitBox02 und Nova ab 9.21.0 bis einschliesslich 9.26.4, sofern zusammen mit einem manipulierten Endgerät eine Transaktion an eine Silent-Payment-Adresse erstellt wurde.
 
 Über den Einzelfall hinaus sind zwei Dinge bemerkenswert. Alle drei Angriffe setzen ein manipuliertes Endgerät oder eine gefälschte App voraus; die Hardware-Wallet allein hebelt keiner von ihnen aus. Und BitBox meldet eine Rekordzahl externer Sicherheitsmeldungen, viele davon mit KI-Modellen erzeugt. Firmware aktuell zu halten wird damit zum laufenden Aufwand statt zur einmaligen Einrichtung. [[BitBox 08.2026 Dixence-Update]]
+
+Den Hintergrund liefert ein BitBox-Beitrag vom August 2026: KI-Werkzeuge analysieren grosse Codebasen in Stunden, fuzzen Schnittstellen in grossem Massstab und decken ganze Fehlerklassen auf, die früher Wochen Handarbeit brauchten; Sicherheitsteams, unabhängige Forscher und Bug-Bounty-Teilnehmer setzen sie bereits ein. Das Oeschinen-Update vom Juli 2026 enthielt Korrekturen für eine Reihe von Bugs, die externe Forscher und interne Audits mit KI-Hilfe gefunden hatten. Die Kehrseite: Eine Korrektur schützt erst nach der Installation, und weil Details zu Lücken üblicherweise nach dem Update veröffentlicht werden, läuft auf alter Firmware Code mit bekannten, dokumentierten Problemen. Ein Gerät ist so sicher wie sein letztes Update, und die Spanne zwischen Entdeckung und allgemeinem Verständnis einer Lücke schrumpft. Gegen die Scheu vor dem Update führt der Beitrag drei Schutzebenen an: Nur signierte Firmware wird akzeptiert, der Seed bleibt beim Update unverändert, und das Backup fängt ein fehlgeschlagenes Update ab. Die empfohlene Routine: Gerät herausholen, zuerst auf Updates prüfen, dann erst signieren; Updates nur über offizielle Kanäle, Release Notes lesen, Version danach kontrollieren. In der BitBoxApp zeigt ein roter Punkt auf dem Einstellungssymbol ein verfügbares Update an, die Firmware steckt in der App selbst. Dazu die Warnung, dass Phishing-Kampagnen sicherheitsbezogene Meldungen nutzen, um Angst und Zeitdruck zu erzeugen; kein Hersteller fragt je nach den Wiederherstellungswörtern. [[Firmware-Updates im Zeitalter von KI_ Auf dem neuesten Stand zu sein ist wichtiger denn je]]
 
 ### BitBoxApp: Plattformübergreifende Architektur
 
@@ -120,6 +125,7 @@ Wenn Hardware-Wallets drahtlos kommunizieren (z.B. Bluetooth für iPhone-Unterst
 - [[bitcoin-entropy-rng]]
 - [[bitcoin-kaufen-und-dca]]
 - [[bitcoin-only-vs-multi-edition]]
+- [[seedphrase-entropie-und-sicherheit]]
 
 - [[bitcoins-verwahren-und-vererben|Bitcoins verwahren und vererben (Marc Steiner)]] ← Buch
 
@@ -127,3 +133,4 @@ Wenn Hardware-Wallets drahtlos kommunizieren (z.B. Bluetooth für iPhone-Unterst
 
 - Wie entwickeln sich die Sicherheitsstandards für Hardware-Wallets mit Bluetooth/NFC?
 - Sind EAL6+-zertifizierte Chips ein signifikanter Vorteil gegenüber EAL5+?
+- Liegt bei der BitBox02 die Leitung zwischen Mikrocontroller und Display unter dem Epoxid-Verguss? Beim Ledger-Angriff 2026 wurde genau dort mitgelesen; die Sicherheitsseite nennt nur die beiden Chips.
