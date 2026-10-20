@@ -55,7 +55,7 @@ OVERRIDES = {
     "self-custody":{"SEED": 4,  "BETA": 4,    "L": 26, "BASECUT": 0.18, "ZMAX": 0.4,  "BASE": 0.25, "TERW": 1.92, "RIDGE": 0.95, "DBIAS": 1,   "SPREAD": 0.9,  "IRAD": 2.05, "COASTW": 0.1,  "LIFT": -0.3},
     "privacy":     {"SEED": 5,  "BETA": 6,    "L": 35, "BASECUT": 0.28, "ZMAX": 0.4,  "BASE": 0.47, "TERW": 2,    "RIDGE": 0.15,  "DBIAS": 1,   "SPREAD": 0.6,  "IRAD": 2.7,  "COASTW": 0.05, "LIFT": -0.36},
     "mining":      {"SEED": 6,  "BETA": 4.25,  "L": 35, "BASECUT": 0.04, "ZMAX": 0.4,  "BASE": 0.05, "TERW": 2,    "RIDGE": 0.35, "DBIAS": 1,   "SPREAD": 0.55, "IRAD": 2,    "COASTW": 0.55, "LIFT": -0.36},
-    "lightning":   {"SEED": 7,  "BETA": 3.65, "L": 32, "BASECUT": 0.36, "ZMAX": 0.4,  "BASE": 0.35, "TERW": 2,    "RIDGE": 0.15, "DBIAS": 1,   "SPREAD": 0.85, "IRAD": 2.5,  "COASTW": 0.55, "LIFT": -0.36},
+    "lightning":   {"SEED": 7, "BETA": 3.65, "L": 32, "BASECUT": 0.36, "ZMAX": 0.4, "BASE": 0.47, "TERW": 2, "RIDGE": 0.15, "DBIAS": 1, "SPREAD": 0.65, "IRAD": 2.5, "COASTW": 0.55, "LIFT": -0.36},
     "oekonomie":   {"SEED": 8,  "BETA": 3.9,  "L": 32, "BASECUT": 0.28, "ZMAX": 0.4,  "BASE": 0.43, "TERW": 2,    "RIDGE": 0.2,  "DBIAS": 1,   "SPREAD": 0.85, "IRAD": 2.5,  "COASTW": 1.1,  "LIFT": -0.36},
     "philosophie": {"SEED": 9,  "BETA": 3.5,  "L": 32, "BASECUT": 0.16, "ZMAX": 0.45, "BASE": 0.25, "TERW": 1.8,  "RIDGE": 0.95, "DBIAS": 1,   "SPREAD": 0.85, "IRAD": 2.7,  "COASTW": 0.55, "LIFT": -0.3},
     "adoption":    {"SEED": 10, "BETA": 6,    "L": 33, "BASECUT": 0.14, "ZMAX": 0.4,  "BASE": 0.15, "TERW": 2,    "RIDGE": 1,    "DBIAS": 0.95,"SPREAD": 0.75, "IRAD": 2.5,  "COASTW": 1.15, "LIFT": -0.36},
