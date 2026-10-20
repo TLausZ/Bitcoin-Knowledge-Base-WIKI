@@ -151,7 +151,8 @@ OVERRIDES = {
     # Bewertungsmetrik: nicht "privacy"/"adoption" (Trigger: UTXO bzw. ETF)
     "mvrv-und-realized-cap": ["oekonomie", "protokoll"],
     # Steuer-/Politikartikel: nicht "protokoll"/"kritik" (Trigger: § 23-Beschreibung ab Pass 94)
-    "bitcoin-haltefrist-und-steuern": ["oekonomie", "geschichte"],
+    "bitcoin-haltefrist-und-steuern": ["oekonomie", "adoption"],  # Regulierung: adoption statt geschichte (Pass 131)
+    "referentenentwurf-kryptobesteuerung-2026": ["oekonomie", "adoption"],
     # MiCAR-Beratungslücke: Regulierung/Marktstruktur, "adoption" allein zu dünn
     "bitcoin-beratung-und-micar": ["adoption", "oekonomie"],
     # Angriffsmethoden/Security: nicht "philosophie" (Trigger: "Frauen-Initiative" im Telegram-Scam-Abschnitt)
