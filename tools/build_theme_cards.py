@@ -62,7 +62,7 @@ OVERRIDES = {
     "kritik":      {"SEED": 15, "BETA": 3.5, "L": 32, "BASECUT": 0.02, "ZMAX": 0.4, "BASE": 0.03, "TERW": 2, "RIDGE": 0, "DBIAS": 1, "SPREAD": 0.8, "IRAD": 2.55, "COASTW": 1.25, "LIFT": -0.36},
     "geschichte":  {"SEED": 12, "BETA": 3.5, "L": 32, "BASECUT": 0.2, "ZMAX": 0.4, "BASE": 0.23, "TERW": 2, "RIDGE": 0.7, "DBIAS": 1, "SPREAD": 0.65, "IRAD": 1.75, "COASTW": 0.2, "LIFT": -0.36},
     "satoshi":     {"SEED": 13, "BETA": 3.5, "L": 32, "BASECUT": 0.22, "ZMAX": 0.55, "BASE": 0.25, "TERW": 1.92, "RIDGE": 0.95, "DBIAS": 1, "SPREAD": 0.85, "IRAD": 2.7, "COASTW": 0.05, "LIFT": -0.3},
-    "zitate":      {"SEED": 14, "BETA": 4.35, "L": 32, "BASECUT": 0.12, "ZMAX": 0.4,  "BASE": 0.03, "TERW": 2,    "RIDGE": 0.35, "DBIAS": 0.95,"SPREAD": 0.2,  "IRAD": 1.4,  "COASTW": 1.7,  "LIFT": -0.36, "CENTER": True},
+    "zitate":      {"SEED": 11, "BETA": 4.05, "L": 32, "BASECUT": 0.16, "ZMAX": 0.4, "BASE": 0.03, "TERW": 2, "RIDGE": 0.6, "DBIAS": 0.8, "SPREAD": 0.6, "IRAD": 1.45, "COASTW": 2, "LIFT": -0.36, "CENTER": True},
     "studien":     {"SEED": 15, "BETA": 4.2, "L": 32, "BASECUT": 0.16, "ZMAX": 0.4, "BASE": 0.19, "TERW": 2, "RIDGE": 0.3, "DBIAS": 1, "SPREAD": 0.55, "IRAD": 2.1, "COASTW": 1.35, "LIFT": -0.36},
     "buecher":     {"SEED": 16, "BETA": 3.8,  "L": 32, "BASECUT": 0.26, "ZMAX": 0.4,  "BASE": 0.21, "TERW": 2,    "RIDGE": 0.4,  "DBIAS": 1,   "SPREAD": 0.6,  "IRAD": 1.75, "COASTW": 0.25, "LIFT": -0.36},
     "wallets":     {"SEED": 17, "BETA": 4.5, "L": 32, "BASECUT": 0.28, "ZMAX": 0.4, "BASE": 0.21, "TERW": 2, "RIDGE": 0.6, "DBIAS": 0.8, "SPREAD": 0.6, "IRAD": 1.95, "COASTW": 0.75, "LIFT": -0.36},
