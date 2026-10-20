@@ -2,8 +2,8 @@
 
 **Status:** established
 **Themen:** grundlagen, self-custody
-**Last updated:** 2026-08-18
-**Sources:** [[20230308_ankundigung-einer-neuen-partnerschaft-bitbox-pocket-bitcoin]], [[20230308_bitbox-03-2023-trift-update-de]], [[20221101_wie-man-bitcoin-kauft-de]], [[20220809_wie-man-grosse-menge-bitcoin-kauft-de]], [[20210512_bitbox-relai-schweizer-kombo-de]], [[20210623_mit-pocket-bitcoin-auf-bitbox02-stacken-de]], [[2025-05-14_Blocktrainer-Bitcoin kaufen 2025_ Lohnt sich der Einstieg noch_]], [[2025-05-14_Blocktrainer-Bitcoin_ 5 Anfängerfehler, die teuer werden können]], [[2026-06-08_BlocktrainerBitcoin_ 10 Einsteigerfragen]], [[bitcoin-ratgeber_kapitel-03-von-der-boerse-zur-eigenen-wallet]], [[Does timing matter for recurring bitcoin buys_.md]], [[buy-top]]
+**Last updated:** 2026-10-20
+**Sources:** [[In der eigenen App_ Sparkassen starten heute den Bitcoin-Handel!]], [[20230308_ankundigung-einer-neuen-partnerschaft-bitbox-pocket-bitcoin]], [[20230308_bitbox-03-2023-trift-update-de]], [[20221101_wie-man-bitcoin-kauft-de]], [[20220809_wie-man-grosse-menge-bitcoin-kauft-de]], [[20210512_bitbox-relai-schweizer-kombo-de]], [[20210623_mit-pocket-bitcoin-auf-bitbox02-stacken-de]], [[2025-05-14_Blocktrainer-Bitcoin kaufen 2025_ Lohnt sich der Einstieg noch_]], [[2025-05-14_Blocktrainer-Bitcoin_ 5 Anfängerfehler, die teuer werden können]], [[2026-06-08_BlocktrainerBitcoin_ 10 Einsteigerfragen]], [[bitcoin-ratgeber_kapitel-03-von-der-boerse-zur-eigenen-wallet]], [[Does timing matter for recurring bitcoin buys_.md]], [[buy-top]]
 
 ## Summary
 
@@ -23,6 +23,8 @@ Nicht alle Kaufwege sind gleich. Die Wahl des Kaufwegs bestimmt, wie viele pers�
 **Bitcoin-Automaten (ATMs):** Barzahlung → direkte Übertragung an eigene Adresse. Kein Konto. Wechselkurs meist deutlich schlechter als Börsenkurs. Verfügbarkeit: coinatmradar.com. Je nach Land und Betrag mit Identifikationspflicht.
 
 **OTC-Broker für grosse Beträge:** Wer mehr als ca. $100.000 kauft, kann die Liquidität einer offenen Börse aufbrauchen und den Preis gegen sich bewegen. Over-the-Counter-Broker (z.B. Relai Private in der EU) handeln direkt zu einem vereinbarten Kurs, ohne den Markt zu bewegen. Relai Private setzt die Mindestbestellmenge bei 100.000 EUR oder CHF an. Der Kauf wird mit einem persönlichen Ansprechpartner abgewickelt, der aus verschiedenen Quellen einkauft, um den besten verfügbaren Kurs zu erzielen. OTC-Aufträge oberhalb regulatorischer Schwellenwerte erfordern immer ein Onboarding-Verfahren mit Kundenidentifikation (KYC).
+
+**Hausbank (Sparkassen, Stand: Oktober 2026):** Seit dem 19. Oktober 2026 können Kunden teilnehmender Sparkassen in der Banking-App Bitcoin, Ethereum, XRP, Solana und Polygon handeln («Krypto powered by Deka»). Gegenpartei und Verwahrer ist die DekaBank, die sich über Boerse Stuttgart Digital mit Liquidität versorgt; der Kunde eröffnet ein Krypto-Konto bei der Deka und handelt zum von ihr gestellten Kurs. Pro Kauf oder Verkauf fallen 0,99 Euro plus Spread an, bei kleinen Sparraten fällt die Fixgebühr ins Gewicht. Auszahlungen gehen laut Produktseite nur an Adressen «bestimmter Kryptodienstleister (CASPs)», nicht auf die eigene Hardware-Wallet; wer selbst verwahren will, braucht den Umweg über einen unterstützten Anbieter. Die Einführung läuft gestaffelt, jede Sparkasse entscheidet selbst, über 230 der Institute (rund zwei Drittel) haben Interesse angemeldet, 30 bis 40 sollen pro Monat dazukommen, der Grossteil bis Mitte 2027. Beratung gibt es nicht, beworben wird das Angebot nicht, der DSGV warnt weiter vor Totalverlust und empfiehlt für den Vermögensaufbau Wertpapiersparpläne. Der Weg dahin war lang: Erste Pläne 2021 scheiterten am internen Streit, DSGV-Präsident Helmut Schleweis verglich Bitcoin mit Schneeballsystemen, 2022 lagen die Pläne auf Eis, im Juni 2025 kam die Kehrtwende mit der Deka als Partner. Als Treiber nennt Blocktrainer die Nachfrage, die sonst zu Drittanbietern abwandert, und MiCA als einheitlichen Rahmen. Für Einsteiger senkt der Kauf neben Girokonto und Depot die Hemmschwelle; für Selbstverwahrer bleibt ein Broker mit Direktauszahlung die bessere Wahl. [[In der eigenen App_ Sparkassen starten heute den Bitcoin-Handel!]]
 
 ### Das Problem mit Börsen
 
@@ -96,3 +98,4 @@ Drei Fehler kosten besonders oft Geld: (1) Aus Panik bei Kursrückgängen verkau
 
 - Welche DCA-Alternativen zu Pocket Bitcoin gibt es für europäische Nutzer?
 - Wie entwickeln sich die regulatorischen Grenzen für KYC-freie Käufe in der EU nach 2024?
+- Welche CASPs akzeptiert die DekaBank für Auszahlungen aus dem Sparkassen-Angebot, und kommt ein direkter Weg auf die eigene Hardware-Wallet?

@@ -2,8 +2,8 @@
 
 **Status:** established
 **Themen:** adoption, studien
-**Last updated:** 2026-07-10
-**Sources:** [[bsd_crypto-compass_2026_de_26-05-28]]
+**Last updated:** 2026-10-20
+**Sources:** [[bsd_crypto-compass_2026_de_26-05-28]], [[In der eigenen App_ Sparkassen starten heute den Bitcoin-Handel!]]
 
 ## Summary
 
@@ -56,6 +56,8 @@ Die Studie ist Auftragsforschung eines Anbieters, der selbst regulierte Krypto-I
 
 Der Befund passt zu anderen europäischen Erhebungen: Die HSLU-Studie für die Schweiz (siehe [[kryptoanlagen-schweiz-hslu-2026]]) findet ebenfalls, dass Vertrauen — besonders in Banken — stärker wiegt als der Preis, und dass Erfahrung der wichtigste Treiber künftiger Investitionen ist. Die IFZ-Studienserie (siehe [[crypto-assets-study-ifz-2021-2025]]) beschreibt aus Anbietersicht denselben Trend zur Institutionalisierung. Der von Finanzinstituten getragene Zugang steht damit im Kontrast zur Bottom-up-Adoption, die Bitcoin historisch prägte.
 
+Seit dem 19. Oktober 2026 hat die These des Herausgebers einen Testfall im grössten deutschen Bankverbund: Die Sparkassen handeln Bitcoin und vier weitere Coins in der eigenen App, die DekaBank ist Gegenpartei und Verwahrer, und Boerse Stuttgart Digital liefert im Hintergrund die Liquidität. Über 230 Sparkassen wollen das Angebot einführen. Der Herausgeber der Studie ist damit zugleich Infrastrukturpartner des Angebots, das die Studie als Bedarf beschrieb. Ob der Hausbank-Vorsprung hält, lässt sich an diesem Angebot künftig messen; Konditionen und die fehlende Auszahlung auf eigene Wallets stehen in [[bitcoin-kaufen-und-dca]]. [[In der eigenen App_ Sparkassen starten heute den Bitcoin-Handel!]]
+
 ## Related
 
 - [[kryptoanlagen-schweiz-hslu-2026]]
@@ -69,5 +71,5 @@ Der Befund passt zu anderen europäischen Erhebungen: Die HSLU-Studie für die S
 ## Open Questions
 
 - Die Studie misst „Krypto" gesamthaft. Wie viel des berichteten Verhaltens entfällt tatsächlich auf Bitcoin gegenüber anderen Token?
-- Der Vertrauensvorsprung der Hausbanken ist zentral für die These des Herausgebers. Hält er, wenn Banken eigene Krypto-Produkte tatsächlich ausrollen, oder erodiert er mit steigender Erfahrung der Anleger (wie es die HSLU-Daten nahelegen)?
+- Der Vertrauensvorsprung der Hausbanken ist zentral für die These des Herausgebers. Hält er, wenn Banken eigene Krypto-Produkte tatsächlich ausrollen, oder erodiert er mit steigender Erfahrung der Anleger (wie es die HSLU-Daten nahelegen)? Testfall seit Oktober 2026: das Sparkassen-Angebot über die DekaBank.
 - MiCAR erhöht laut Studie das Vertrauen. Wie verträgt sich diese Regulierungspräferenz der Retail-Anleger mit dem Selbstverwahrungs-Ideal (siehe [[eu-regulierung-selbstverwahrung]])?
