@@ -49,7 +49,7 @@ CATS = [
 # bevor sie eingespritzt werden. Nötig für kleine Randthemen, deren Artikel auf der
 # Gesamtkarte weit vom Zentrum liegen und sonst an die Küste rutschen (glossar, 20.10.2026).
 OVERRIDES = {
-    "grundlagen":  {"SEED": 1,  "BETA": 4.05, "L": 32, "BASECUT": 0.46, "ZMAX": 0.6,  "BASE": 0.27, "TERW": 0.46, "RIDGE": 0.8,  "DBIAS": 0.7, "SPREAD": 0.8,  "IRAD": 2.4,  "COASTW": 1.1,  "LIFT": -0.36},
+    "grundlagen":  {"SEED": 1, "BETA": 3.95, "L": 32, "BASECUT": 0.46, "ZMAX": 0.6, "BASE": 0.27, "TERW": 0.46, "RIDGE": 0.8, "DBIAS": 0.85, "SPREAD": 0.65, "IRAD": 2.45, "COASTW": 1.2, "LIFT": -0.36},
     "protokoll":   {"SEED": 2,  "BETA": 4.05, "L": 32, "BASECUT": 0.14, "ZMAX": 0.55, "BASE": 0.29, "TERW": 1.92, "RIDGE": 0.75, "DBIAS": 1,   "SPREAD": 0.85, "IRAD": 2.7,  "COASTW": 1,    "LIFT": -0.3},
     "bips":        {"SEED": 3,  "BETA": 3.5,  "L": 32, "BASECUT": 0.14, "ZMAX": 0.45, "BASE": 0.31, "TERW": 1.92, "RIDGE": 0.8,  "DBIAS": 1,   "SPREAD": 0.95, "IRAD": 2.7,  "COASTW": 0.55, "LIFT": -0.3},
     "self-custody":{"SEED": 4,  "BETA": 4,    "L": 26, "BASECUT": 0.18, "ZMAX": 0.4,  "BASE": 0.25, "TERW": 1.92, "RIDGE": 0.95, "DBIAS": 1,   "SPREAD": 0.9,  "IRAD": 2.05, "COASTW": 0.1,  "LIFT": -0.3},
